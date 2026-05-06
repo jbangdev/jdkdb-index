@@ -861,6 +861,26 @@
   },
   {
     "architecture": "ppc64le",
+    "distro": "adoptopenjdk",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK21U-jdk_ppc64le_linux_hotspot_21.0.11_10.tar.gz",
+    "image_type": "jdk",
+    "java_version": "21.0.11+10-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "ac9c6a92f6a42ac5bd2bfae36bb6de11",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "2fa1c3e95c60b1c23f46dd4825f8b4ca2b6e3b65",
+    "sha256": "3d043ae96d2343962bf2307d8c55f19849fbfa4c6be9fe164a77d79263f0d989",
+    "sha512": "d3f5046edd66163f43e51f493c37d5df7513a4d00b4141ee6fdbb6e847e1b6a42f134f8238ac2f6050f281538c02a0a717aff8f6a5d5237a3afe95533de9da33",
+    "size": 207319116,
+    "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.11%2B10/OpenJDK21U-jdk_ppc64le_linux_hotspot_21.0.11_10.tar.gz",
+    "vendor": "adoptopenjdk",
+    "version": "21.0.11+10.0.LTS"
+  },
+  {
+    "architecture": "ppc64le",
     "distro": "debian",
     "features": [
       "headless"
@@ -1108,6 +1128,28 @@
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-25/openjdk-25-jdk_25.0.3+9-2_ppc64el.deb",
     "vendor": "debian",
     "version": "25.0.3+9-2"
+  },
+  {
+    "architecture": "ppc64le",
+    "distro": "debian",
+    "features": [
+      "headless"
+    ],
+    "file_type": "deb",
+    "filename": "openjdk-26-jdk-headless_26.0.1+8-2_ppc64el.deb",
+    "image_type": "jdk",
+    "java_version": "26.0.1+8",
+    "jvm_impl": "hotspot",
+    "md5": "136a626db088a318f3337d16f26e371e",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "3b610ca8a3ff09e1cb4a4e3f4f722629c8ca1de0",
+    "sha256": "1de69373be177cdf5f65dba661694425ba78deb491f83c32f62fab453e771647",
+    "sha512": "83d1c6e7e4e302cef325a6f002a2c2ccf245a6e09c285d9ed90e08dce6aa8b0b4dc162ab0d31d3492220ff0dcd68ac7c8d534b414185f425938dbe0c2156f601",
+    "size": 90825420,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-26/openjdk-26-jdk-headless_26.0.1+8-2_ppc64el.deb",
+    "vendor": "debian",
+    "version": "26.0.1+8-2"
   },
   {
     "architecture": "ppc64le",
