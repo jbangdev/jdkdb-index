@@ -256,6 +256,28 @@
   {
     "architecture": "ppc64le",
     "distro": "debian",
+    "features": [
+      "zero"
+    ],
+    "file_type": "deb",
+    "filename": "openjdk-11-jre-zero_11.0.31+11-1_ppc64el.deb",
+    "image_type": "jre",
+    "java_version": "11.0.31+11",
+    "jvm_impl": "hotspot",
+    "md5": "e4dce78ca3e94f18e953a8f71bf8b043",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "ef8da3ba12aeb66924518b286ff26624daf2ac6c",
+    "sha256": "93230c1994186b939e5dfdab7abaf170f5dcf26e7cb2b68c6f9207e950fc57bd",
+    "sha512": "8e896df65e8d216b12d907ead68ad0ef149f999c435928bc6a77acce0f0eb7e20a0532ad92169bab16c20cd80d4ab47cb10364ed7fbf5a5457cda8a501a9398a",
+    "size": 2490968,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-11/openjdk-11-jre-zero_11.0.31+11-1_ppc64el.deb",
+    "vendor": "debian",
+    "version": "11.0.31+11-1"
+  },
+  {
+    "architecture": "ppc64le",
+    "distro": "debian",
     "features": [],
     "file_type": "deb",
     "filename": "openjdk-11-jre_11.0.31+11-1_ppc64el.deb",
@@ -464,6 +486,28 @@
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-17/openjdk-17-jre_17.0.18+8-1_ppc64el.deb",
     "vendor": "debian",
     "version": "17.0.18+8-1"
+  },
+  {
+    "architecture": "ppc64le",
+    "distro": "debian",
+    "features": [
+      "headless"
+    ],
+    "file_type": "deb",
+    "filename": "openjdk-17-jre-headless_17.0.19+10-1~deb12u2_ppc64el.deb",
+    "image_type": "jre",
+    "java_version": "17.0.19+10-1-deb12u2-Debian",
+    "jvm_impl": "hotspot",
+    "md5": "388c57793d4cb4ab82fbc45e847a32fd",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "baf1b49d14e76016303b7fe603c90fead7ff1bb3",
+    "sha256": "7c410f9650af1f03d4c2f42f447f546152956a3b0d9c407e100d0d7868cb8c18",
+    "sha512": "908cdd8e0d0c6ef490b79cea366660bcc96422b46ae7e657110334643716dc3eaf5fc74dab7a8c5e28dfa7f5eb56737c9a713bd36739e932fddfd02cc70a4238",
+    "size": 42952760,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-17/openjdk-17-jre-headless_17.0.19+10-1~deb12u2_ppc64el.deb",
+    "vendor": "debian",
+    "version": "17.0.19+10-1~deb12u2"
   },
   {
     "architecture": "ppc64le",
@@ -1065,6 +1109,50 @@
     "architecture": "ppc64le",
     "distro": "debian",
     "features": [
+      "headless"
+    ],
+    "file_type": "deb",
+    "filename": "openjdk-25-jre-headless_25.0.3+9-2~deb13u1_ppc64el.deb",
+    "image_type": "jre",
+    "java_version": "25.0.3+9-2-deb13u1-Debian",
+    "jvm_impl": "hotspot",
+    "md5": "d5260717f856d8ef94db874e18e1560d",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "01d9cbb0ebbba4881e68f3d3cff3a9ef5488ebe7",
+    "sha256": "a0f8b26872cb8c21d5ab0f89490ce1578694f08ff5b08b055efe18059a1232db",
+    "sha512": "d1bafcbe538b098a4582105c801fac8c6f423bcd3d0c2146cc8d4312675d71f313068f350b87103025d426ed4caf90c2a9789cc0d8bdf3992c81b67ffb89cdbf",
+    "size": 52209648,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-25/openjdk-25-jre-headless_25.0.3+9-2~deb13u1_ppc64el.deb",
+    "vendor": "debian",
+    "version": "25.0.3+9-2~deb13u1"
+  },
+  {
+    "architecture": "ppc64le",
+    "distro": "debian",
+    "features": [
+      "headless"
+    ],
+    "file_type": "deb",
+    "filename": "openjdk-25-jre-headless_25.0.3+9-2_ppc64el.deb",
+    "image_type": "jre",
+    "java_version": "25.0.3+9-2-Debian",
+    "jvm_impl": "hotspot",
+    "md5": "21f1aff83a2bf240517134cba9aa24da",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "f4b444d31bc26ea64b957caf09568cfcd211f473",
+    "sha256": "063c4a727dde025bdf86f28e5cdc6a1a08cc98ab8605ed972456383c464e8aae",
+    "sha512": "e421620968ee17e5fb7a23779f0556e3beea09957132c7f083e16c6c58bcbca292c9f08a0e41b1dfc98f72475cb29e6dd3cdfc60477dff2dde3527e7bf0496f7",
+    "size": 52371548,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-25/openjdk-25-jre-headless_25.0.3+9-2_ppc64el.deb",
+    "vendor": "debian",
+    "version": "25.0.3+9-2"
+  },
+  {
+    "architecture": "ppc64le",
+    "distro": "debian",
+    "features": [
       "zero"
     ],
     "file_type": "deb",
@@ -1080,6 +1168,26 @@
     "sha512": "ad1659b20f7973d152fae5296f3fa4632d07ce261e70c7a2877c6e6f2801c9cbc678f9f3d80fa4f61dfb252968c927b51f1c3c27767d0505a72e0026e6cd84b9",
     "size": 16203808,
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-25/openjdk-25-jre-zero_25.0.3+9-2_ppc64el.deb",
+    "vendor": "debian",
+    "version": "25.0.3+9-2"
+  },
+  {
+    "architecture": "ppc64le",
+    "distro": "debian",
+    "features": [],
+    "file_type": "deb",
+    "filename": "openjdk-25-jre_25.0.3+9-2_ppc64el.deb",
+    "image_type": "jre",
+    "java_version": "25.0.3+9",
+    "jvm_impl": "hotspot",
+    "md5": "4736614a72ef2e45c8fcbae6580dde04",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "d53882f009d5dbdedfe72368d2f739c58791da9a",
+    "sha256": "412c591ac10e09fefbc894ce7f26e48a5af7c082e3c7c440da4320b32df85d08",
+    "sha512": "618bdae0656488fc630811b1eea70d37ddde63c1bb6576fab967d0edda564e99d7eb012ae99c76ca54cdd6eb6503fb9abfcce961de6bdecb7ce34db2b191a470",
+    "size": 220292,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-25/openjdk-25-jre_25.0.3+9-2_ppc64el.deb",
     "vendor": "debian",
     "version": "25.0.3+9-2"
   },

@@ -2,21 +2,23 @@
   {
     "architecture": "s390x",
     "distro": "debian",
-    "features": [],
+    "features": [
+      "headless"
+    ],
     "file_type": "deb",
-    "filename": "openjdk-17-jdk_17.0.19+10-1~deb12u2_s390x.deb",
+    "filename": "openjdk-17-jdk-headless_17.0.19+10-1_s390x.deb",
     "image_type": "jdk",
     "java_version": "17.0.19+10",
     "jvm_impl": "hotspot",
-    "md5": "03344e65371e7969560305f84e1e88f8",
+    "md5": "4f84efe31bd16cb8f198f7d68de2f488",
     "os": "linux",
     "release_type": "ga",
-    "sha1": "e6f513b13fa6316b661643d815f2b24b5424d3a5",
-    "sha256": "651f82a08ebde96863aebddd2a525fe45bc313b3f019c28d7dfe0aa02bde429d",
-    "sha512": "ba0bfd226f8798669ac358f50f20da4c82ffefad9b4f052b474b446951a9efc5f8c8e725be7cdbfa4d98c610a023683033d419a27426881f899b8796dc0752be",
-    "size": 2496568,
-    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-17/openjdk-17-jdk_17.0.19+10-1~deb12u2_s390x.deb",
+    "sha1": "7288d6c6d2f404c62c559e5a832c450a9f1bc4ba",
+    "sha256": "6dd35aa77e31731a7c14a7d2bbcda34b277093d61fa587a9719e9355ce886051",
+    "sha512": "a189f15183c12dd190701d6e26f939ff3ddf999e462b029419cde00a6d3ec5684f83866a10489d1e3afae297e396451373a61808df64cce75723250b2384b58c",
+    "size": 67887000,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-17/openjdk-17-jdk-headless_17.0.19+10-1_s390x.deb",
     "vendor": "debian",
-    "version": "17.0.19+10-1~deb12u2"
+    "version": "17.0.19+10-1"
   }
 ]

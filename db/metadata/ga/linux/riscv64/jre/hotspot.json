@@ -108,6 +108,26 @@
   {
     "architecture": "riscv64",
     "distro": "debian",
+    "features": [],
+    "file_type": "deb",
+    "filename": "openjdk-11-jre_11.0.31~10ea-1_riscv64.deb",
+    "image_type": "jre",
+    "java_version": "11.0.31",
+    "jvm_impl": "hotspot",
+    "md5": "4f77311b497eda1d2374373bd4361b09",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "543f2fab978e9054c323c110933a52e9f7de0808",
+    "sha256": "3bcef141fde71b1d455a2765706f82f677047dc78e27a247e08c5e100b4a282a",
+    "sha512": "01e37ed7d7762619bbd78272a595ce435b2939b90cdd5720221101ffe23d73b3dc5e11b2921eb8d4f3386fa26a0e12b1a88e1c6a17e02fbfa0c9890b959098f6",
+    "size": 197676,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-11/openjdk-11-jre_11.0.31~10ea-1_riscv64.deb",
+    "vendor": "debian",
+    "version": "11.0.31~10ea-1"
+  },
+  {
+    "architecture": "riscv64",
+    "distro": "debian",
     "features": [
       "headless"
     ],
@@ -589,6 +609,26 @@
   },
   {
     "architecture": "riscv64",
+    "distro": "adoptopenjdk",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK21U-jre_riscv64_linux_hotspot_21.0.11_10.tar.gz",
+    "image_type": "jre",
+    "java_version": "21.0.11+10-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "415fb40561cd54fd3e8f4236961c8546",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "18c6dfaf38dcf5ce374c46d9a4818de0357b8e73",
+    "sha256": "f3d8843c5a1b77ded3353e0df85d803d84b9faa5ece20673564e7c47fc4591d9",
+    "sha512": "9508bbe3e5930f789ca9d75af7bcf47c7f3499797b2c5940b97fb22e76cc5cc782b44422e2b66002aa230ee090df78345d7a3682ab9733343f32f896b1c884aa",
+    "size": 51634669,
+    "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.11%2B10/OpenJDK21U-jre_riscv64_linux_hotspot_21.0.11_10.tar.gz",
+    "vendor": "adoptopenjdk",
+    "version": "21.0.11+10.0.LTS"
+  },
+  {
+    "architecture": "riscv64",
     "distro": "debian",
     "features": [
       "headless"
@@ -987,6 +1027,28 @@
   },
   {
     "architecture": "riscv64",
+    "distro": "debian",
+    "features": [
+      "zero"
+    ],
+    "file_type": "deb",
+    "filename": "openjdk-25-jre-zero_25.0.3+9-2~deb13u1_riscv64.deb",
+    "image_type": "jre",
+    "java_version": "25.0.3+9",
+    "jvm_impl": "hotspot",
+    "md5": "37c87308e0c2b9d6f4ddb4f74b6343ee",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "4c863f1032d77cded0af0c69e0904fe6b71b93fe",
+    "sha256": "457dccbcff5c2668c21a43418e663ad8122ad30ce9ed483d45fa58565493dc4d",
+    "sha512": "0afad177a04601c16f8501806a41318411573b124fd0c06348b67bfc2bb90ed575ed971a793d601ab5a304dbbccbc01e53b03e7181fc3ab70ef7db7e3f3d341c",
+    "size": 16193364,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-25/openjdk-25-jre-zero_25.0.3+9-2~deb13u1_riscv64.deb",
+    "vendor": "debian",
+    "version": "25.0.3+9-2~deb13u1"
+  },
+  {
+    "architecture": "riscv64",
     "distro": "adoptopenjdk",
     "features": [],
     "file_type": "tar.gz",
@@ -1004,6 +1066,28 @@
     "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.3%2B9/OpenJDK25U-jre_riscv64_linux_hotspot_25.0.3_9.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "25.0.3+9.0.LTS"
+  },
+  {
+    "architecture": "riscv64",
+    "distro": "debian",
+    "features": [
+      "headless"
+    ],
+    "file_type": "deb",
+    "filename": "openjdk-25-jre-headless_25.0.3+9-2_riscv64.deb",
+    "image_type": "jre",
+    "java_version": "25.0.3+9-2-Debian",
+    "jvm_impl": "hotspot",
+    "md5": "0a100cbc6b4060b6c0bd5845e9aa4759",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "4409043b66e214d561162f675a56e49dd5e85b5f",
+    "sha256": "c016df05c272bf5df96ce6e4ff673e13bd61d71fdcf56442e104d4d2bc4c98c9",
+    "sha512": "cf93e05c06d3542a09c8afec94efc96bdbd3046f7081033e5513536d20bbf8fb182c73e41f2031ca89ed63db8db5d25577e06341b65c2464b529c810770fdb7d",
+    "size": 53105040,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-25/openjdk-25-jre-headless_25.0.3+9-2_riscv64.deb",
+    "vendor": "debian",
+    "version": "25.0.3+9-2"
   },
   {
     "architecture": "riscv64",
