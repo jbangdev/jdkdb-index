@@ -641,6 +641,28 @@
     "architecture": "i686",
     "distro": "debian",
     "features": [
+      "headless"
+    ],
+    "file_type": "deb",
+    "filename": "openjdk-17-jre-headless_17.0.19+10-1~deb12u2_i386.deb",
+    "image_type": "jre",
+    "java_version": "17.0.19+10-1-deb12u2-Debian",
+    "jvm_impl": "hotspot",
+    "md5": "26c6e5f15d7edc7c92fa22505dbc70ba",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "9ee0909701e883c2514e18406635908a164c933b",
+    "sha256": "96f8fd55f150cd6294d841807f4f501c5a28bee9851318ae7514f3043e256398",
+    "sha512": "a9fbcf81bb435c65909c9787c7a63e805d2cd604f66daab2e51cd844fd66f3f63c99a701e894f5d9ec900573da8e556a3482ac2305b0aff2050f07e57dcb36b3",
+    "size": 42835744,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-17/openjdk-17-jre-headless_17.0.19+10-1~deb12u2_i386.deb",
+    "vendor": "debian",
+    "version": "17.0.19+10-1~deb12u2"
+  },
+  {
+    "architecture": "i686",
+    "distro": "debian",
+    "features": [
       "zero"
     ],
     "file_type": "deb",
@@ -678,6 +700,28 @@
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-17/openjdk-17-jre_17.0.19+10-1~deb12u2_i386.deb",
     "vendor": "debian",
     "version": "17.0.19+10-1~deb12u2"
+  },
+  {
+    "architecture": "i686",
+    "distro": "debian",
+    "features": [
+      "headless"
+    ],
+    "file_type": "deb",
+    "filename": "openjdk-17-jre-headless_17.0.19+10-1_i386.deb",
+    "image_type": "jre",
+    "java_version": "17.0.19+10-1-Debian",
+    "jvm_impl": "hotspot",
+    "md5": "ccbe6ab40155fb9b587f8eca4fdaef1b",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "b4adec1cbd76bbc27c4f0993fe9616c0d8733d00",
+    "sha256": "808b108548580d8983f9b9fd4e6c5520ec9b868b1b5efb483d593b51f0216738",
+    "sha512": "2d1671052ed3e1e0f6bb4f7c529aee4dfa6900e418f995d6657b0c4782db4cd576b97c0b9addc651a3c3cc78745770de52f68165d331c6473965af09677b480d",
+    "size": 43067048,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-17/openjdk-17-jre-headless_17.0.19+10-1_i386.deb",
+    "vendor": "debian",
+    "version": "17.0.19+10-1"
   },
   {
     "architecture": "i686",
@@ -1208,6 +1252,48 @@
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-25/openjdk-25-jre_25.0.2+10-1_i386.deb",
     "vendor": "debian",
     "version": "25.0.2+10-1"
+  },
+  {
+    "architecture": "i686",
+    "distro": "debian",
+    "features": [
+      "headless"
+    ],
+    "file_type": "deb",
+    "filename": "openjdk-25-jre-headless_25.0.3+9-2~deb13u1_i386.deb",
+    "image_type": "jre",
+    "java_version": "25.0.3+9-2-deb13u1-Debian",
+    "jvm_impl": "hotspot",
+    "md5": "16560d2e888876981c70f58adc7ffe4a",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "34ef304b7c4ace897aa3dd708f323b269eb4d00b",
+    "sha256": "6fc137ad7de5072af9e590116d01d587390d139d1c9f5b9d9a7519682e77bb18",
+    "sha512": "078b9f458b9a7e626181fced743337001b870f09486af906f1e6a8b7b4a7a765898a54899bcd301abe6448439d141aa80c4ef01b498714832076add261cfc826",
+    "size": 38257296,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-25/openjdk-25-jre-headless_25.0.3+9-2~deb13u1_i386.deb",
+    "vendor": "debian",
+    "version": "25.0.3+9-2~deb13u1"
+  },
+  {
+    "architecture": "i686",
+    "distro": "debian",
+    "features": [],
+    "file_type": "deb",
+    "filename": "openjdk-25-jre_25.0.3+9-2~deb13u1_i386.deb",
+    "image_type": "jre",
+    "java_version": "25.0.3+9",
+    "jvm_impl": "hotspot",
+    "md5": "e1063dcfa60544d6e63975cfc15e89cf",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "c869bcce46d6f8a438fe23de88000053af934521",
+    "sha256": "d466d376c767b6e3fde11cc74e272e77c2d12eba39919099d54c817ea95fd327",
+    "sha512": "5d6ed8349d7e2fb16ebb8c508e2c2bc4634232003e3e0f0a847507431058b7413cf35173e15cb2c3a8a7b4fd826687ffc169c2e4beaeddc27c42f2746f7ab570",
+    "size": 198996,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-25/openjdk-25-jre_25.0.3+9-2~deb13u1_i386.deb",
+    "vendor": "debian",
+    "version": "25.0.3+9-2~deb13u1"
   },
   {
     "architecture": "i686",

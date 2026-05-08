@@ -44,6 +44,28 @@
   {
     "architecture": "s390x",
     "distro": "debian",
+    "features": [
+      "headless"
+    ],
+    "file_type": "deb",
+    "filename": "openjdk-8-jdk-headless_8u482-ga-1_s390x.deb",
+    "image_type": "jdk",
+    "java_version": "8u482",
+    "jvm_impl": "hotspot",
+    "md5": "76c0010cd8f8df1fe3ad99217e3ccd91",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "345ade1fea5e9b75b49a067d0665e2a59b82697c",
+    "sha256": "2dab7e35c192ef61f2548c4141975615a4806d4cdc915a9388a63779aeed651b",
+    "sha512": "77681dcd9a1bbe47ad66a93e8ba1f032f9462e9be7b08ab9ca809d3f1eae7e16c80029efe2c9ad8bd6678102544ef2c4c86d5797f8d0cebed4aa894c1c46c0f8",
+    "size": 6246180,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-8/openjdk-8-jdk-headless_8u482-ga-1_s390x.deb",
+    "vendor": "debian",
+    "version": "8u482-ga-1"
+  },
+  {
+    "architecture": "s390x",
+    "distro": "debian",
     "features": [],
     "file_type": "deb",
     "filename": "openjdk-8-jdk_8u482-ga-1_s390x.deb",
@@ -396,6 +418,26 @@
   {
     "architecture": "s390x",
     "distro": "debian",
+    "features": [],
+    "file_type": "deb",
+    "filename": "openjdk-17-jdk_17.0.19+10-1_s390x.deb",
+    "image_type": "jdk",
+    "java_version": "17.0.19+10",
+    "jvm_impl": "hotspot",
+    "md5": "56a89b4a008e8d33ca1334e47837543f",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "40c69e6306c0b6f93ffba6d015697ec8ca8db463",
+    "sha256": "ba45beef9b127ee2f04349889a884fd2e7252f3c8592130355703fc54c01dd0a",
+    "sha512": "b6d41fe039182f18d25b1078e0ee342d18657b1c8cec95be0a431d3fc4ff60588d1be6ace85f1fb5ea5255636040ddf88c9014d0c0888dd4b8dcb9fcbfd57b29",
+    "size": 2472656,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-17/openjdk-17-jdk_17.0.19+10-1_s390x.deb",
+    "vendor": "debian",
+    "version": "17.0.19+10-1"
+  },
+  {
+    "architecture": "s390x",
+    "distro": "debian",
     "features": [
       "headless"
     ],
@@ -670,6 +712,26 @@
   {
     "architecture": "s390x",
     "distro": "debian",
+    "features": [],
+    "file_type": "deb",
+    "filename": "openjdk-25-jdk_25.0.3~8ea-1_s390x.deb",
+    "image_type": "jdk",
+    "java_version": "25.0.3",
+    "jvm_impl": "hotspot",
+    "md5": "17a35b605fc933b8270712655d34f5a5",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "f31050f1a9e3b496c0ddf9edc94f1d96c4be78af",
+    "sha256": "d2899345c04ceecde9de57ccb68781c86da71dccae64b73e068c9c60255d1c26",
+    "sha512": "51987218dedd96d69df637d1c86c2b799adb58fdac20c0d56a703a56fdc34530839c4e732fad6b5893f6f31bebfb0db6330f87a630821db68eea9fad04fd5594",
+    "size": 3942748,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-25/openjdk-25-jdk_25.0.3~8ea-1_s390x.deb",
+    "vendor": "debian",
+    "version": "25.0.3~8ea-1"
+  },
+  {
+    "architecture": "s390x",
+    "distro": "debian",
     "features": [
       "headless"
     ],
@@ -815,6 +877,28 @@
   },
   {
     "architecture": "s390x",
+    "distro": "debian",
+    "features": [
+      "headless"
+    ],
+    "file_type": "deb",
+    "filename": "openjdk-25-jdk-headless_25.0.3+9-2~deb13u1_s390x.deb",
+    "image_type": "jdk",
+    "java_version": "25.0.3+9",
+    "jvm_impl": "hotspot",
+    "md5": "d47fe379184d5a18e52f564a1dea1d72",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "327abcc984d0908a19720e54b8306448fda451a2",
+    "sha256": "e0153448c448e7fa619a0e7586797144ffea98112b430027af5c715f058d2152",
+    "sha512": "ad538f60721966260c0748ff4836e240045371eeb30a430b32a8b0431ae132dffad4749c2d5599908c3efec60c5fff8e8cb2d38afd71133b736ead7fdcd94923",
+    "size": 84725932,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-25/openjdk-25-jdk-headless_25.0.3+9-2~deb13u1_s390x.deb",
+    "vendor": "debian",
+    "version": "25.0.3+9-2~deb13u1"
+  },
+  {
+    "architecture": "s390x",
     "distro": "adoptopenjdk",
     "features": [],
     "file_type": "tar.gz",
@@ -894,6 +978,46 @@
     "url": "https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26%2B35/OpenJDK26U-jdk_s390x_linux_hotspot_26_35.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "26.0.0+35"
+  },
+  {
+    "architecture": "s390x",
+    "distro": "adoptopenjdk",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK26U-jdk_s390x_linux_hotspot_26.0.1_8.tar.gz",
+    "image_type": "jdk",
+    "java_version": "26.0.1+8",
+    "jvm_impl": "hotspot",
+    "md5": "bb15f02d76a7457ce1e1111c9af1a358",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "1d4540ae4fe4cc1fb5650300dc3a5229a4ff3ca6",
+    "sha256": "942de7ded1427592a2a4b6dbea4083b2d0891de2626c7863e970de3e2819a93f",
+    "sha512": "5fb7ddaa449b196f9cf27ac36c85bf65a2b86f9839243305e81396c0de6f58d354107b5b266cf8cbe2152b2e475f79364032b41015b4b31255a1bb1679f4c936",
+    "size": 138800636,
+    "url": "https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.1%2B8/OpenJDK26U-jdk_s390x_linux_hotspot_26.0.1_8.tar.gz",
+    "vendor": "adoptopenjdk",
+    "version": "26.0.1+8"
+  },
+  {
+    "architecture": "s390x",
+    "distro": "temurin",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK26U-jdk_s390x_linux_hotspot_26.0.1_8.tar.gz",
+    "image_type": "jdk",
+    "java_version": "26.0.1+8",
+    "jvm_impl": "hotspot",
+    "md5": "bb15f02d76a7457ce1e1111c9af1a358",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "1d4540ae4fe4cc1fb5650300dc3a5229a4ff3ca6",
+    "sha256": "942de7ded1427592a2a4b6dbea4083b2d0891de2626c7863e970de3e2819a93f",
+    "sha512": "5fb7ddaa449b196f9cf27ac36c85bf65a2b86f9839243305e81396c0de6f58d354107b5b266cf8cbe2152b2e475f79364032b41015b4b31255a1bb1679f4c936",
+    "size": 138800636,
+    "url": "https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.1%2B8/OpenJDK26U-jdk_s390x_linux_hotspot_26.0.1_8.tar.gz",
+    "vendor": "eclipse",
+    "version": "26.0.1+8"
   },
   {
     "architecture": "s390x",

@@ -276,6 +276,28 @@
   {
     "architecture": "aarch64",
     "distro": "temurin",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK17U-jre_aarch64_alpine-linux_hotspot_17.0.18_3-ea.tar.gz",
+    "image_type": "jre",
+    "java_version": "17",
+    "jvm_impl": "hotspot",
+    "md5": "2d45d5a6f00019dfe496c3793cd0724e",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "ec0064495d5fb9d80e4c8aa0efae0a30cba349ae",
+    "sha256": "06cf00dc26c1327c94afc1bda3fa4239d83c460333b15a779513c1a7bd0e5c40",
+    "sha512": "16edd6bf214444f3937f84ed1cb7703fa8025f4632d71e1d7f04d47e6181e50761de28938cbad264786ec2e6bfa038b56ab12160d6f3f4f76e2e2693b6da614f",
+    "size": 45051183,
+    "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.18%2B3-ea-beta/OpenJDK17U-jre_aarch64_alpine-linux_hotspot_17.0.18_3-ea.tar.gz",
+    "vendor": "eclipse",
+    "version": "17.0.18+3-ea-beta"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "temurin",
     "features": [],
     "file_type": "tar.gz",
     "filename": "OpenJDK17U-jre_aarch64_linux_hotspot_17.0.18_3-ea.tar.gz",
@@ -334,6 +356,28 @@
     "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.18%2B4-ea-beta/OpenJDK17U-jre_aarch64_linux_hotspot_17.0.18_4-ea.tar.gz",
     "vendor": "eclipse",
     "version": "17.0.18+4-ea-beta"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "temurin",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK17U-jre_aarch64_alpine-linux_hotspot_17.0.18_5-ea.tar.gz",
+    "image_type": "jre",
+    "java_version": "17",
+    "jvm_impl": "hotspot",
+    "md5": "926f5fbe6921140e348b0e8491168c2e",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "239d190d5b498219fd1cfa35abcddf84a151da6e",
+    "sha256": "221a8364ae182f90e833abd5f74f66e52736937d2e33d42accae263635ab236f",
+    "sha512": "a3e67d354c1279efd0850352fb38ca7f2e1ab9e8a5eebe39cae36475253517f56648a4d794fc569931609b4a9b50e3c1abe2240f96cfa8e9aa0e8070391042eb",
+    "size": 45050507,
+    "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.18%2B5-ea-beta/OpenJDK17U-jre_aarch64_alpine-linux_hotspot_17.0.18_5-ea.tar.gz",
+    "vendor": "eclipse",
+    "version": "17.0.18+5-ea-beta"
   },
   {
     "architecture": "aarch64",
@@ -824,6 +868,48 @@
       "musl"
     ],
     "file_type": "tar.gz",
+    "filename": "OpenJDK17U-jre_aarch64_alpine-linux_hotspot_17.0.19_9-ea.tar.gz",
+    "image_type": "jre",
+    "java_version": "17",
+    "jvm_impl": "hotspot",
+    "md5": "2bf9c91d69653ff2fe21cfb4f627c3d9",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "f37368a2d56bd6efd02c731f983a90e90e4dc6fa",
+    "sha256": "b3f5a6cfd55a9e4fac128d6a9f2df573ad437060d5b743ebf7e52f848baa8550",
+    "sha512": "01b5b83c178ba1a13202be4be828e432426c1d973f600fc6061e31a7e101c17d5d618ac5224cddbc6d2912718e48bbce12b74e63ea19ba5691e701fc561c440b",
+    "size": 45553386,
+    "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.19%2B9-ea-beta/OpenJDK17U-jre_aarch64_alpine-linux_hotspot_17.0.19_9-ea.tar.gz",
+    "vendor": "eclipse",
+    "version": "17.0.19+9-ea-beta"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "temurin",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK17U-jre_aarch64_linux_hotspot_17.0.19_9-ea.tar.gz",
+    "image_type": "jre",
+    "java_version": "17",
+    "jvm_impl": "hotspot",
+    "md5": "cf9e7734a8eb90dcb1e1f5bfc0ed4ab4",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "e97ed1d584d7edf840836620f0db19df0a22f974",
+    "sha256": "ea1f2a3c4ca7196dcc617bfb5bb9a4f29ea5f363a4da6043314e91f464150367",
+    "sha512": "2ba7540667a59d455183db248fce9e14556fc4509345d227fba972b343c82abfaee4727fe0df9457f2c39529136e5f27cb8a8d32b5153b0fcecbe0e1a3e21eb5",
+    "size": 46028977,
+    "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.19%2B9-ea-beta/OpenJDK17U-jre_aarch64_linux_hotspot_17.0.19_9-ea.tar.gz",
+    "vendor": "eclipse",
+    "version": "17.0.19+9-ea-beta"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "temurin",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
     "filename": "OpenJDK17U-jre_aarch64_alpine-linux_hotspot_17.0.19_10-ea.tar.gz",
     "image_type": "jre",
     "java_version": "17",
@@ -858,5 +944,27 @@
     "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.19%2B10-ea-beta/OpenJDK17U-jre_aarch64_linux_hotspot_17.0.19_10-ea.tar.gz",
     "vendor": "eclipse",
     "version": "17.0.19+10-ea-beta"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "temurin",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK17U-jre_aarch64_alpine-linux_hotspot_17.0.20_1-ea.tar.gz",
+    "image_type": "jre",
+    "java_version": "17",
+    "jvm_impl": "hotspot",
+    "md5": "3d8fae622f528b983359644e6858a301",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "5ba0151367c954078165e7b66cab81e0f01752e2",
+    "sha256": "6d1309c8242f6a1e6c4922dd44124b34931c0ee13c5719a5942999179d59af10",
+    "sha512": "8141dd808f4eda34c78c0b87dbada1dd4be7c84bcd1107eb87846e574209d9efb0154ac004e25d97ef2138313c4aac77f554cf9d9a85f51b4a5c2577e7c04671",
+    "size": 45558727,
+    "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20%2B1-ea-beta/OpenJDK17U-jre_aarch64_alpine-linux_hotspot_17.0.20_1-ea.tar.gz",
+    "vendor": "eclipse",
+    "version": "17.0.20+1-ea-beta"
   }
 ]

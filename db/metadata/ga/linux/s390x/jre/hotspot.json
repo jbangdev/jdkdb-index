@@ -1333,6 +1333,28 @@
   },
   {
     "architecture": "s390x",
+    "distro": "debian",
+    "features": [
+      "zero"
+    ],
+    "file_type": "deb",
+    "filename": "openjdk-25-jre-zero_25.0.3+9-2~deb13u1_s390x.deb",
+    "image_type": "jre",
+    "java_version": "25.0.3+9",
+    "jvm_impl": "hotspot",
+    "md5": "970a505ae24d462cad0b3fce1eadd1ca",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "98f8a915bf7a85929fe82373a685848164af3e74",
+    "sha256": "00689394d7ba653895b0ad8f4f2a756934e92b323c602fb7c682934537657cb8",
+    "sha512": "92814033339cff8e4445067ce12f072a489ee90e554125bc0d4f104b3308d228bb88476d8554a96cb9b5a79c3aaaf96fe90153d9b30a8dcbaf4b62303318414c",
+    "size": 15306128,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-25/openjdk-25-jre-zero_25.0.3+9-2~deb13u1_s390x.deb",
+    "vendor": "debian",
+    "version": "25.0.3+9-2~deb13u1"
+  },
+  {
+    "architecture": "s390x",
     "distro": "adoptopenjdk",
     "features": [],
     "file_type": "tar.gz",
@@ -1350,6 +1372,28 @@
     "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.3%2B9/OpenJDK25U-jre_s390x_linux_hotspot_25.0.3_9.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "25.0.3+9.0.LTS"
+  },
+  {
+    "architecture": "s390x",
+    "distro": "debian",
+    "features": [
+      "headless"
+    ],
+    "file_type": "deb",
+    "filename": "openjdk-25-jre-headless_25.0.3+9-2_s390x.deb",
+    "image_type": "jre",
+    "java_version": "25.0.3+9-2-Debian",
+    "jvm_impl": "hotspot",
+    "md5": "8ef0514c510af1b541d21cc998175f97",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "d2fe4fb2c10a92eb6c72e6fd7a99efa2fa3c5dde",
+    "sha256": "336bf24fd487eb6cefa891dd793b8e3aab52a0dd0a235480e9de19988c8a5767",
+    "sha512": "a17204561c20d05afc76e4d827b368443541fe228c966bd8af73726741cd7dabb57852381a53541347f48118d1be715301813cb5082fd90698bdd2a6a878d400",
+    "size": 50340444,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-25/openjdk-25-jre-headless_25.0.3+9-2_s390x.deb",
+    "vendor": "debian",
+    "version": "25.0.3+9-2"
   },
   {
     "architecture": "s390x",
@@ -1415,6 +1459,48 @@
   },
   {
     "architecture": "s390x",
+    "distro": "temurin",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK26U-jre_s390x_linux_hotspot_26.0.1_8.tar.gz",
+    "image_type": "jre",
+    "java_version": "26.0.1+8",
+    "jvm_impl": "hotspot",
+    "md5": "df3fe98139ebe9ff30f59941f9cd6413",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "033d309cd20af6557ab1eb98d8b7769270498130",
+    "sha256": "3c68d7df7d64a7738a6bd97b12fb2167774666d87bf9a309094bb2180073eb38",
+    "sha512": "2e9f9cf9c241a6b9d88483c06d08a7f9fcef79ccc996ea5d46bee881bec909e9e40612e11efe1f834a5c1e5df732537fca480f3cdafd978e063c40d99e8fe58f",
+    "size": 61010509,
+    "url": "https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.1%2B8/OpenJDK26U-jre_s390x_linux_hotspot_26.0.1_8.tar.gz",
+    "vendor": "eclipse",
+    "version": "26.0.1+8"
+  },
+  {
+    "architecture": "s390x",
+    "distro": "debian",
+    "features": [
+      "zero"
+    ],
+    "file_type": "deb",
+    "filename": "openjdk-26-jre-zero_26.0.1+8-1_s390x.deb",
+    "image_type": "jre",
+    "java_version": "26.0.1+8",
+    "jvm_impl": "hotspot",
+    "md5": "d837010acc82bbfce9575bbaa2e8a38b",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "f6decb00e8e811ae5ce52e7d8e6da006749ba9bc",
+    "sha256": "9a711047945c9861d5c7ac5c202db13e9d9a7cb31552c78fe882f20d50b7e35a",
+    "sha512": "6f75222d267317f6d1308038607d8ce7a01690b7221eafc1baac315e084477000cc518cd4df2f2e30cb7b82ddbb58aabfa7561e2dae248de82c21ca800f0f3bb",
+    "size": 15644548,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-26/openjdk-26-jre-zero_26.0.1+8-1_s390x.deb",
+    "vendor": "debian",
+    "version": "26.0.1+8-1"
+  },
+  {
+    "architecture": "s390x",
     "distro": "debian",
     "features": [],
     "file_type": "deb",
@@ -1472,6 +1558,28 @@
     "sha512": "23849703f1cd0df44fdb4dfe8ad5e703c0f308480756658886ac187d46560a424be19436564a519f62e91f6c3f548609c4329942543813c19914f461741a8b2e",
     "size": 51578260,
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-26/openjdk-26-jre-headless_26+35-2_s390x.deb",
+    "vendor": "debian",
+    "version": "26+35-2"
+  },
+  {
+    "architecture": "s390x",
+    "distro": "debian",
+    "features": [
+      "zero"
+    ],
+    "file_type": "deb",
+    "filename": "openjdk-26-jre-zero_26+35-2_s390x.deb",
+    "image_type": "jre",
+    "java_version": "26+35",
+    "jvm_impl": "hotspot",
+    "md5": "2d01c11ddaa6a2a47fe662ca2e79582d",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "790b15ac99b8eb96c534efe07f47c87aea811a6b",
+    "sha256": "d58295fc140dbb7036cb65cd7331cbc8fdf4acb842778043475afdd1c40a429b",
+    "sha512": "d8867b72eb5fb50a90cefa0264262bf3d2dd4a566d064f72206ece483ade947d5c7e09ab7c14fe7a50acbd4810d4fa165f708e0fb4c92d18e0e9444f06056ce3",
+    "size": 15647476,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-26/openjdk-26-jre-zero_26+35-2_s390x.deb",
     "vendor": "debian",
     "version": "26+35-2"
   },
