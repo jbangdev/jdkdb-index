@@ -1,6 +1,26 @@
 [
   {
     "architecture": "aarch64",
+    "distro": "graalvm",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "graalvm-ce-java17-darwin-aarch64-22.2.0.tar.gz",
+    "image_type": "jdk",
+    "java_version": "17",
+    "jvm_impl": "graalvm",
+    "md5": "3c5b152edd450f33aed30352754b044b",
+    "os": "macosx",
+    "release_type": "ga",
+    "sha1": "72c8d39b073b21dc9065bf6a422cf6215bce793a",
+    "sha256": "cfbeb38cd707a330048ab2140cb185176201c5cb654df752fcb4bd95e899b4ec",
+    "sha512": "fe1a52a3d5cd7703fca23b4a4a660d0977732617a9b1224c0a1bcd22d3414034757ef4a2c1054c73e0179b985c1ff40e3f1c07cea5652cea5e3cad9e4fe982c8",
+    "size": 256787870,
+    "url": "https://github.com/graalvm/graalvm-ce-builds/releases/download/vm-22.2.0/graalvm-ce-java17-darwin-aarch64-22.2.0.tar.gz",
+    "vendor": "oracle",
+    "version": "22.2.0+java17"
+  },
+  {
+    "architecture": "aarch64",
     "distro": "mandrel",
     "features": [],
     "file_type": "tar.gz",
@@ -418,6 +438,26 @@
     "url": "https://github.com/graalvm/oracle-graalvm-ea-builds/releases/download/jdk-25e1-25.0.2-ea.24/graalvm-jdk-25e1-25.0.2-ea.24_macos-aarch64_bin.tar.gz",
     "vendor": "oracle",
     "version": "25.0.2-ea.24"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "oracle-graalvm",
+    "features": null,
+    "file_type": "tar.gz",
+    "filename": "graalvm-jdk-25e1-25.0.2-ea.25_macos-aarch64_bin.tar.gz",
+    "image_type": "jdk",
+    "java_version": "25.0.2+10-LTS-jvmci-25.1-b17",
+    "jvm_impl": "graalvm",
+    "md5": "436f2d88c11be3f3cf1e831c772aa407",
+    "os": "macosx",
+    "release_type": "ea",
+    "sha1": "b39d4798127e0b00e711c81b590dca9f69fa5fe3",
+    "sha256": "e81a9e4430dd8e856713091f06c8d105b90e88fe606fe3cfc47eb1e7052233b1",
+    "sha512": "131e62a5a88a731238768698f25eb3d3397fa43e0ad8061ee137185aa7bf3eb2359c581cbd726faa1c0dc74be7ab693b982584dafcd1e97557a8e7e8a546da82",
+    "size": 361499006,
+    "url": "https://github.com/graalvm/oracle-graalvm-ea-builds/releases/download/jdk-25e1-25.0.2-ea.25/graalvm-jdk-25e1-25.0.2-ea.25_macos-aarch64_bin.tar.gz",
+    "vendor": "oracle",
+    "version": "25.0.2-ea.25"
   },
   {
     "architecture": "aarch64",

@@ -88,6 +88,26 @@
   {
     "architecture": "arm32-vfp-hflt",
     "distro": "liberica",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jdk11.0.28+12-linux-arm32-vfp-hflt.tar.gz",
+    "image_type": "jdk",
+    "java_version": "11.0.28+12-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "55a7638ed86bdaf3c2c8d50ebe8eb4fc",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "26955ddab8c1dc2bc7033bd9d4f481fe270b27d0",
+    "sha256": "368bb52fb62174921dd3dd86db24b450f9ed8710904b3eb95b4fc1cd6e8b129f",
+    "sha512": "9212856bb04ce3b5e7bcf67a6b6ce262e05f550f7f12e78b8439d5f0c6427917b98a2510626efedca3dc3e6fc9a4f374ba95e797fa7b34b4d4466115dc843c63",
+    "size": 186504340,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.28+12/bellsoft-jdk11.0.28+12-linux-arm32-vfp-hflt.tar.gz",
+    "vendor": "bellsoft",
+    "version": "11.0.28+12"
+  },
+  {
+    "architecture": "arm32-vfp-hflt",
+    "distro": "liberica",
     "features": [
       "lite"
     ],
@@ -222,6 +242,30 @@
   {
     "architecture": "arm32-vfp-hflt",
     "distro": "liberica",
+    "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
+    "file_type": "deb",
+    "filename": "bellsoft-jdk17.0.7+7-linux-arm32-vfp-hflt-full.deb",
+    "image_type": "jdk",
+    "java_version": "17.0.7+7",
+    "jvm_impl": "hotspot",
+    "md5": "162cf076554a587bf22f3a0bab2cbebd",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "291335f8fb26ad62dfc1bb3edff1818ad47353ba",
+    "sha256": "f1b9dc51b52e864ea41e3c502d099b82185cd6d0d462df9674add105ac66e34f",
+    "sha512": "0c10c5f8dd35f728f8b149a1c89d349e826848b7bb4c6d47325883548fc49a3223d5ad16df5f93465fa48e8286c3e77306994d6a90b051bfe455539dbb723f6d",
+    "size": 186452436,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.7+7/bellsoft-jdk17.0.7+7-linux-arm32-vfp-hflt-full.deb",
+    "vendor": "bellsoft",
+    "version": "17.0.7+7"
+  },
+  {
+    "architecture": "arm32-vfp-hflt",
+    "distro": "liberica",
     "features": [],
     "file_type": "deb",
     "filename": "bellsoft-jdk17.0.14+10-linux-arm32-vfp-hflt.deb",
@@ -350,5 +394,47 @@
     "url": "https://github.com/bell-sw/Liberica/releases/download/18+37/bellsoft-jdk18+37-linux-arm32-vfp-hflt.deb",
     "vendor": "bellsoft",
     "version": "18+37"
+  },
+  {
+    "architecture": "arm32-vfp-hflt",
+    "distro": "liberica",
+    "features": [
+      "lite"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jdk21.0.2+14-linux-arm32-vfp-hflt-lite.tar.gz",
+    "image_type": "jdk",
+    "java_version": "21.0.2+14-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "e31966ccc4d826646aeefac6089c5953",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "fb907f3e86297c661a0f84e0398f98ec9425ba65",
+    "sha256": "85da1fb36a53fa55c2a726a3ad2472c93df72f83a1fb76dabfdc2d48b456dc86",
+    "sha512": "61168b11c9e5c6e6d441c096ee45b533950adf6e722914aa9ab72e7b05c58317cb66160fa62a732e4f49cdb3cc8d128a0f325dd4affb617fcfc92887758b2950",
+    "size": 76856606,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.2+14/bellsoft-jdk21.0.2+14-linux-arm32-vfp-hflt-lite.tar.gz",
+    "vendor": "bellsoft",
+    "version": "21.0.2+14"
+  },
+  {
+    "architecture": "arm32-vfp-hflt",
+    "distro": "liberica",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jdk21.0.7+9-linux-arm32-vfp-hflt.tar.gz",
+    "image_type": "jdk",
+    "java_version": "21.0.7+9-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "239b8a24ee823efd958f1e965b7b8414",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "ab08a7f5f494caf6b5800a2319870052939e5317",
+    "sha256": "876266881a8d1a1d2c86e1207e969311a0ebfe15f2d7ca19da1bcd052c798d4f",
+    "sha512": "ad2cd174f61327e37386b5d2edf0554719752a0cd07eb8702459a78fee3a568647f794cbd07da710cf1ba176b1899fa6e31b3078eeb1541e659956c14667aba9",
+    "size": 203852325,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.7+9/bellsoft-jdk21.0.7+9-linux-arm32-vfp-hflt.tar.gz",
+    "vendor": "bellsoft",
+    "version": "21.0.7+9"
   }
 ]

@@ -228,6 +228,26 @@
   {
     "architecture": "arm32-vfp-hflt",
     "distro": "liberica",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jre11.0.11+9-linux-arm32-vfp-hflt.tar.gz",
+    "image_type": "jre",
+    "java_version": "11.0.11+9",
+    "jvm_impl": "hotspot",
+    "md5": "d4f88a8a47a64212fc615c83f673e2bc",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "27256f4e24a1498c2fc4df3884eb18a670d41f84",
+    "sha256": "621ed5e4f179402ef1efc1fa0e2c8bd629af3bc103e738748a8be41d3315879c",
+    "sha512": "f6e0711e9fa5598573c9e0742834bd4dc8debf79b27d9945186dfd5ffcd8928cd223b86dfac0310a5e9099a1186f7cb33e3873f7f65c9b10e649e1ef53de86d5",
+    "size": 42107561,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.11+9/bellsoft-jre11.0.11+9-linux-arm32-vfp-hflt.tar.gz",
+    "vendor": "bellsoft",
+    "version": "11.0.11+9"
+  },
+  {
+    "architecture": "arm32-vfp-hflt",
+    "distro": "liberica",
     "features": [
       "libericafx",
       "minimal-vm",
@@ -388,6 +408,28 @@
   },
   {
     "architecture": "arm32-vfp-hflt",
+    "distro": "debian",
+    "features": [
+      "hard-float"
+    ],
+    "file_type": "deb",
+    "filename": "openjdk-11-jre_11.0.31+11-1_armhf.deb",
+    "image_type": "jre",
+    "java_version": "11.0.31+11",
+    "jvm_impl": "hotspot",
+    "md5": "48cf08880f7844f416c37dd59bc58d0f",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "38a290e8448bd218fa4b33f587d7e8bc2915572b",
+    "sha256": "888a72c8bffcb3e9cc5607627af08ba15b97730ffe68121b9a6f4ed9430aa6f1",
+    "sha512": "25aa402237d4ce3a2224f0c908f91496f12b3c9d7c73ef149ffc9975ad69c8d94ef0fc94a9426028862ce4288b73f869d34fb8b7e0d9ce51971370881e89ea90",
+    "size": 174052,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-11/openjdk-11-jre_11.0.31+11-1_armhf.deb",
+    "vendor": "debian",
+    "version": "11.0.31+11-1"
+  },
+  {
+    "architecture": "arm32-vfp-hflt",
     "distro": "liberica",
     "features": [],
     "file_type": "deb",
@@ -425,6 +467,30 @@
     "url": "https://github.com/bell-sw/Liberica/releases/download/15.0.1+9/bellsoft-jre15.0.1+9-linux-arm32-vfp-hflt.deb",
     "vendor": "bellsoft",
     "version": "15.0.1+9"
+  },
+  {
+    "architecture": "arm32-vfp-hflt",
+    "distro": "liberica",
+    "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
+    "file_type": "deb",
+    "filename": "bellsoft-jre16.0.1+9-linux-arm32-vfp-hflt-full.deb",
+    "image_type": "jre",
+    "java_version": "16.0.1+9",
+    "jvm_impl": "hotspot",
+    "md5": "6307d94ec3e050a760ab89c500d04d02",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "1b1ad6b44024fcc189b55f010b300e6bdc56ebfe",
+    "sha256": "1e844ad94dc7e9a1ebdbaceadede698f80bf1ce43ec80d9090247f67fcc4e939",
+    "sha512": "c7c95e32408de658bc739697c65c3e7a4d1b6b33a14b7e2ecf2f0609362fa783f05f0741f2affc081ff82728048ea61bea2daa84748a55182856351105e89c63",
+    "size": 29063468,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/16.0.1+9/bellsoft-jre16.0.1+9-linux-arm32-vfp-hflt-full.deb",
+    "vendor": "bellsoft",
+    "version": "16.0.1+9"
   },
   {
     "architecture": "arm32-vfp-hflt",
@@ -838,6 +904,29 @@
     "architecture": "arm32-vfp-hflt",
     "distro": "debian",
     "features": [
+      "headless",
+      "hard-float"
+    ],
+    "file_type": "deb",
+    "filename": "openjdk-17-jre-headless_17.0.19+10-1_armhf.deb",
+    "image_type": "jre",
+    "java_version": "17.0.19+10-1-Debian",
+    "jvm_impl": "hotspot",
+    "md5": "1a355824aed199f3d68219e07d24b50c",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "0119585941918cfe59b7a981c2ddf5f2c0880120",
+    "sha256": "cfd731e2c5b4249db7ae5cca9fa33c34f41a24ca74f3841053120645f96f30ed",
+    "sha512": "c5955bf9bf942518d3aeef962aaae58d2f30c29d666a7d6f346bb2ae76a200fe5aa92071f26dc3ecc7d3efaed8dbc4925970e5ea23725d5d923fedbf8afabfe7",
+    "size": 38499048,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-17/openjdk-17-jre-headless_17.0.19+10-1_armhf.deb",
+    "vendor": "debian",
+    "version": "17.0.19+10-1"
+  },
+  {
+    "architecture": "arm32-vfp-hflt",
+    "distro": "debian",
+    "features": [
       "zero",
       "hard-float"
     ],
@@ -1238,6 +1327,29 @@
     "architecture": "arm32-vfp-hflt",
     "distro": "debian",
     "features": [
+      "zero",
+      "hard-float"
+    ],
+    "file_type": "deb",
+    "filename": "openjdk-21-jre-zero_21.0.11+10-1_armhf.deb",
+    "image_type": "jre",
+    "java_version": "21.0.11+10",
+    "jvm_impl": "hotspot",
+    "md5": "37a924f23caf7c5413ff050172c0223b",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "c0c78512df4cfc10e21b4f82ff76599c78099459",
+    "sha256": "c78f6fa519bb1d0bf3f325600ee297f711138b6a26270d770bbc856e9f238f75",
+    "sha512": "845389a50cfdea2691928c2b41306c0f50519f23adfa958d9ecac6f15090984feb0a3733e93ec577292a7b224e5a54e513fb0fd0d5b2701a4220282f73fe054e",
+    "size": 5055424,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-21/openjdk-21-jre-zero_21.0.11+10-1_armhf.deb",
+    "vendor": "debian",
+    "version": "21.0.11+10-1"
+  },
+  {
+    "architecture": "arm32-vfp-hflt",
+    "distro": "debian",
+    "features": [
       "hard-float"
     ],
     "file_type": "deb",
@@ -1255,6 +1367,26 @@
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-21/openjdk-21-jre_21.0.11+10-1_armhf.deb",
     "vendor": "debian",
     "version": "21.0.11+10-1"
+  },
+  {
+    "architecture": "arm32-vfp-hflt",
+    "distro": "liberica",
+    "features": [],
+    "file_type": "rpm",
+    "filename": "bellsoft-jre22.0.1+12-linux-arm32-vfp-hflt.rpm",
+    "image_type": "jre",
+    "java_version": "22.0.1+12",
+    "jvm_impl": "hotspot",
+    "md5": "9ae75ae40ac4b73f2dd00931425d5ee3",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "4b4c75955101b4299b95540979cc54d1594846bb",
+    "sha256": "2aab5aca6e0a9a1663901832efee5efb0d97063469259368959f2bd3fae638c0",
+    "sha512": "c0005d45e495200dcd340475133a937855199201c50d5039c272117f8cf5a7b493998ccbb078f610e4888b4f0fbbda62eecf7866b2ad842f8f374e1543dc0931",
+    "size": 31633416,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/22.0.1+12/bellsoft-jre22.0.1+12-linux-arm32-vfp-hflt.rpm",
+    "vendor": "bellsoft",
+    "version": "22.0.1+12"
   },
   {
     "architecture": "arm32-vfp-hflt",
@@ -1463,6 +1595,28 @@
     "architecture": "arm32-vfp-hflt",
     "distro": "debian",
     "features": [
+      "hard-float"
+    ],
+    "file_type": "deb",
+    "filename": "openjdk-25-jre_25.0.3+9-2~deb13u1_armhf.deb",
+    "image_type": "jre",
+    "java_version": "25.0.3+9",
+    "jvm_impl": "hotspot",
+    "md5": "79464b80391e735a72a0b1dc061a3407",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "130d6ffb3e83545ee12ea0e758945321b04e648d",
+    "sha256": "849b5a7bc7697f71d783294995bfba081478c33486f78fa8d2ce2d259c1a5843",
+    "sha512": "eee2a4d7c96d6703c3f09ab5fc417d84230f951b11a523dc5a2a14d151f4bb90537d5c4f98af8533bf6f83a39524351651beda0762e82cf1c0ce5817f8bd88f9",
+    "size": 177668,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-25/openjdk-25-jre_25.0.3+9-2~deb13u1_armhf.deb",
+    "vendor": "debian",
+    "version": "25.0.3+9-2~deb13u1"
+  },
+  {
+    "architecture": "arm32-vfp-hflt",
+    "distro": "debian",
+    "features": [
       "headless",
       "hard-float"
     ],
@@ -1479,6 +1633,28 @@
     "sha512": "9803f76d40c63a589d146ee9519039037b639a332f2a0b2bc38335df055ce0422045e04a2d3e2a7922c23ee9703f5e46f77c58e1c464f524869568dabe1705eb",
     "size": 37645968,
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-25/openjdk-25-jre-headless_25.0.3+9-2_armhf.deb",
+    "vendor": "debian",
+    "version": "25.0.3+9-2"
+  },
+  {
+    "architecture": "arm32-vfp-hflt",
+    "distro": "debian",
+    "features": [
+      "hard-float"
+    ],
+    "file_type": "deb",
+    "filename": "openjdk-25-jre_25.0.3+9-2_armhf.deb",
+    "image_type": "jre",
+    "java_version": "25.0.3+9",
+    "jvm_impl": "hotspot",
+    "md5": "b9cf3f99868f49b1ddc03187a22ead9e",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "be79feae608b0c16c1905e565a7be3a699a61222",
+    "sha256": "65fd4aea6489ea6b51c07f64968fcb922cc220d1d5f75c7385460a86c6436565",
+    "sha512": "bb40fb584f3c93926adb9785ff3e39b0526a454833aaa9bcebc23d16b35b2c16684cdbf92ae820cae8f323cb12aa346f18819eaf970f35a2564a2a963e33066f",
+    "size": 178944,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-25/openjdk-25-jre_25.0.3+9-2_armhf.deb",
     "vendor": "debian",
     "version": "25.0.3+9-2"
   },

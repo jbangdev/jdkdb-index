@@ -632,6 +632,28 @@
   {
     "architecture": "aarch64",
     "distro": "temurin",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK-jre_aarch64_alpine-linux_hotspot_27_18-ea.tar.gz",
+    "image_type": "jre",
+    "java_version": "27",
+    "jvm_impl": "hotspot",
+    "md5": "c91c10609795fcca5f9cbc66c7c248e4",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "9eefd6ef6ca1c2ce5af2663fc5417c5c714fed0f",
+    "sha256": "1959d71ee94be43a04451b987332715cd6b785ef261ccf90b9bbbd34f0455c9d",
+    "sha512": "0e51ac13a07d516d995922b5fb0fd0894601e2ea3266d6bc418ef16e9d9b5e1d2b06a963fe1e17a3ed55dc535429aeda91ff03d4b802ec0c49210a1e9d11eb17",
+    "size": 61470198,
+    "url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27%2B18-ea-beta/OpenJDK-jre_aarch64_alpine-linux_hotspot_27_18-ea.tar.gz",
+    "vendor": "eclipse",
+    "version": "27+18-ea-beta"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "temurin",
     "features": [],
     "file_type": "tar.gz",
     "filename": "OpenJDK-jre_aarch64_linux_hotspot_27_18-ea.tar.gz",
@@ -710,6 +732,26 @@
     "sha512": "d72470af116e97046b22981367a5328933035a31a25bbfc8eb8f7b0c672aa2c9dc9bd3bbc47ea1c254454f8b6110cec13239b20f4984b31e03403df24cd655e1",
     "size": 60922403,
     "url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27%2B20-ea-beta/OpenJDK-jre_aarch64_alpine-linux_hotspot_27_20-ea.tar.gz",
+    "vendor": "eclipse",
+    "version": "27+20-ea-beta"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "temurin",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK-jre_aarch64_linux_hotspot_27_20-ea.tar.gz",
+    "image_type": "jre",
+    "java_version": "27",
+    "jvm_impl": "hotspot",
+    "md5": "7137104053f897191f6bbeab41b37fdf",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "1381f96e0280d58d91e3084e73aa8666df56bbe4",
+    "sha256": "01294e065a58fc8abc1fd12cb23057bd4d545113b7d104c0159fa9dd282fec2f",
+    "sha512": "5fdfe69a3b835d6fd659b4d8cfea1a1d74436532e5d10593dd96819862a8a2b1363131a612e5f85c19f5ff6a1a19be38e11734f68e53ebc1546eb1b952b0ad04",
+    "size": 61560141,
+    "url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27%2B20-ea-beta/OpenJDK-jre_aarch64_linux_hotspot_27_20-ea.tar.gz",
     "vendor": "eclipse",
     "version": "27+20-ea-beta"
   }
