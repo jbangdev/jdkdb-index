@@ -62,6 +62,48 @@
   {
     "architecture": "aarch64",
     "distro": "temurin",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK20U-jre_aarch64_linux_hotspot_20_36.tar.gz",
+    "image_type": "jre",
+    "java_version": "20+36",
+    "jvm_impl": "hotspot",
+    "md5": "b7bf29b3afa6193f62998b6c36e4316b",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "b7935c79080e8d53860f91f92c9fa9813001d79f",
+    "sha256": "b226140b8efacf21d256203cc8f919549e295cb9bac88b24c15fb8e53a66b545",
+    "sha512": "91dda97624a05dad36aa6601009a5d96c5b4f8e553832db40a2d0997c34b32c8e2fd4411bb036bf542fdb392b3274f172b93557b42a48aecc987f46e02b665af",
+    "size": 48262930,
+    "url": "https://github.com/adoptium/temurin20-binaries/releases/download/jdk-20%2B36/OpenJDK20U-jre_aarch64_linux_hotspot_20_36.tar.gz",
+    "vendor": "eclipse",
+    "version": "20.0.0+36"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "temurin",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK21U-jre_aarch64_alpine-linux_hotspot_21.0.6_7.tar.gz",
+    "image_type": "jre",
+    "java_version": "21.0.6+7-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "92065144a2885fec0e153f137bb94017",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "df393b85a56985261d3a3c9a9f3a7d25afa4addc",
+    "sha256": "bcd459e70cdddaa6ada0d855ce944c592814042f1e12d53aa08fa89eedcdf893",
+    "sha512": "ba0c38a4d07cac48e0c9261d694d5e8712722aecba9d169d5d68d6fd6e9038710235237187b9a95037917343dfa7d49a14f329d106cb013d37725b4b7d4bc65b",
+    "size": 50977636,
+    "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.6%2B7/OpenJDK21U-jre_aarch64_alpine-linux_hotspot_21.0.6_7.tar.gz",
+    "vendor": "eclipse",
+    "version": "21.0.6+7.0.LTS"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "temurin",
     "features": [
       "musl"
     ],

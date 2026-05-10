@@ -1,118 +1,5 @@
 [
   {
-    "architecture": "arm32-vfp-hflt",
-    "distro": "debian",
-    "features": [
-      "headless",
-      "hard-float"
-    ],
-    "file_type": "deb",
-    "filename": "openjdk-8-jdk-headless_8u482-ga-1_armhf.deb",
-    "image_type": "jdk",
-    "java_version": "8u482",
-    "jvm_impl": "hotspot",
-    "md5": "d53aef795a0fefdceffa0774c9f7751b",
-    "os": "linux",
-    "release_type": "ga",
-    "sha1": "234da6d4491384b19a4e53204ef3fa3a200e250c",
-    "sha256": "4ca3618934b1813ea8b7bcee89bdf4ed0b32e876896565642d5befd8c64747fc",
-    "sha512": "2a109dab88750b3e099d1a3d32486469ac8d1e82168ec1f16dc62ad995b9fcdeec8d98dd67df1c62cc16ee467068ff057ec47c0f7c491b9ea803bae6283840c7",
-    "size": 6231412,
-    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-8/openjdk-8-jdk-headless_8u482-ga-1_armhf.deb",
-    "vendor": "debian",
-    "version": "8u482-ga-1"
-  },
-  {
-    "architecture": "arm32-vfp-hflt",
-    "distro": "debian",
-    "features": [
-      "hard-float"
-    ],
-    "file_type": "deb",
-    "filename": "openjdk-8-jdk_8u482-ga-1_armhf.deb",
-    "image_type": "jdk",
-    "java_version": "8u482",
-    "jvm_impl": "hotspot",
-    "md5": "93fe250c40527767a443e11e3ff8413d",
-    "os": "linux",
-    "release_type": "ga",
-    "sha1": "4fa2bb2a53f89aab4a19f911955c3d89b8586b9f",
-    "sha256": "5f848c11b43733801bd8779db26c8712039b0a0d5cc515bcd05c7568a5d158ff",
-    "sha512": "3fd5b48dd40c8fc266e086f0b0d677d342fb336f761e8561cb5231b9a9c6b7d29bc2e2f598dbfac32317882e51f438dcb540a02bc80231b4ce68af1514db1133",
-    "size": 4293260,
-    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-8/openjdk-8-jdk_8u482-ga-1_armhf.deb",
-    "vendor": "debian",
-    "version": "8u482-ga-1"
-  },
-  {
-    "architecture": "arm32-vfp-hflt",
-    "distro": "debian",
-    "features": [
-      "headless",
-      "hard-float"
-    ],
-    "file_type": "deb",
-    "filename": "openjdk-8-jre-headless_8u482-ga-1_armhf.deb",
-    "image_type": "jre",
-    "java_version": "8u482",
-    "jvm_impl": "hotspot",
-    "md5": "e64ceb6b1f73f8dbd2b1cc799e50dc89",
-    "os": "linux",
-    "release_type": "ga",
-    "sha1": "774f6c20a496733801a75cdbb7ffbeba132baf2c",
-    "sha256": "29f24684b7037d6d1aa3767eeddd221c5e4569cd756609bc59bd338df0948049",
-    "sha512": "27d59f5868453ba7b20c7bbba3c2b891e0648793cedf47ec20ca6d6443dca1918ca3e4048d7f8cd193adce9996a6e3548bde38b61f7bf8379ea4af816f191f7e",
-    "size": 26552476,
-    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-8/openjdk-8-jre-headless_8u482-ga-1_armhf.deb",
-    "vendor": "debian",
-    "version": "8u482-ga-1"
-  },
-  {
-    "architecture": "arm32-vfp-hflt",
-    "distro": "debian",
-    "features": [
-      "zero",
-      "hard-float"
-    ],
-    "file_type": "deb",
-    "filename": "openjdk-8-jre-zero_8u482-ga-1_armhf.deb",
-    "image_type": "jre",
-    "java_version": "8u482",
-    "jvm_impl": "hotspot",
-    "md5": "e995647995660352d9c1b9cefaed71d2",
-    "os": "linux",
-    "release_type": "ga",
-    "sha1": "67753a53d0985eec4b4b6362dbf01b5984d6ae96",
-    "sha256": "9c48138d13c75fe1f602ef6b946120bc73e873f276d475e0099f99f92ad94d56",
-    "sha512": "4d840cec7b68d571459ee90b267235104ee61e2dca6d07253af73c196fe1df91f642eb086d858a2edfff35f1f13bebe21abf88ce90d0c6473973797c7ad3df9d",
-    "size": 1747264,
-    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-8/openjdk-8-jre-zero_8u482-ga-1_armhf.deb",
-    "vendor": "debian",
-    "version": "8u482-ga-1"
-  },
-  {
-    "architecture": "arm32-vfp-hflt",
-    "distro": "debian",
-    "features": [
-      "hard-float"
-    ],
-    "file_type": "deb",
-    "filename": "openjdk-8-jre_8u482-ga-1_armhf.deb",
-    "image_type": "jre",
-    "java_version": "8u482",
-    "jvm_impl": "hotspot",
-    "md5": "c07369a7f5146681f097ab850ed38674",
-    "os": "linux",
-    "release_type": "ga",
-    "sha1": "d8b4de8b72f0bba89c5c0a5fe42316f7465aefa8",
-    "sha256": "3dd975da1de96f21da3c6479aeb7fb7687e2264bc52c0dd1d8d9b8384ccf74b2",
-    "sha512": "1c0f0aa8928fb15a3f1a6ed66a022d4b7ad7fefb682c72290e5af89d78246de6f599491ca14ebfcec5b5735afcfdb164618d532b189ff45f89b8b0f2a925e118",
-    "size": 63172,
-    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-8/openjdk-8-jre_8u482-ga-1_armhf.deb",
-    "vendor": "debian",
-    "version": "8u482-ga-1"
-  },
-  {
     "architecture": "x86_64",
     "distro": "debian",
     "features": [
@@ -153,6 +40,29 @@
     "sha512": "5376c2d1445125c382763b711503f297c1b30d07eef309bcccc21c78dd50bf6686b6f8d1d95dd6942838ac33532c77ad29b089d3aa621156f1d520313809484e",
     "size": 8210944,
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-8/openjdk-8-jdk-headless_8u492-ga-1_arm64.deb",
+    "vendor": "debian",
+    "version": "8u492-ga-1"
+  },
+  {
+    "architecture": "arm32-vfp-hflt",
+    "distro": "debian",
+    "features": [
+      "headless",
+      "hard-float"
+    ],
+    "file_type": "deb",
+    "filename": "openjdk-8-jdk-headless_8u492-ga-1_armhf.deb",
+    "image_type": "jdk",
+    "java_version": "8u492",
+    "jvm_impl": "hotspot",
+    "md5": "3e37d63434f788845175a773e5ec1c26",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "948d1276cf94d0cd0c9dc8f96683becb2be06c0d",
+    "sha256": "c08ae30bad268b9930e7f733692313b8a45a64fb546c88757e53353f72b975a8",
+    "sha512": "2aa0dbea1725422dd81751a9fc57645815c3761876a4aa931cc6bfaf700f3fd82e801b250c5ddedb786a0d70322c515faec0144247162f403615e91fea7ae94f",
+    "size": 6232072,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-8/openjdk-8-jdk-headless_8u492-ga-1_armhf.deb",
     "vendor": "debian",
     "version": "8u492-ga-1"
   },
@@ -263,6 +173,28 @@
     "version": "8u492-ga-1"
   },
   {
+    "architecture": "arm32-vfp-hflt",
+    "distro": "debian",
+    "features": [
+      "hard-float"
+    ],
+    "file_type": "deb",
+    "filename": "openjdk-8-jdk_8u492-ga-1_armhf.deb",
+    "image_type": "jdk",
+    "java_version": "8u492",
+    "jvm_impl": "hotspot",
+    "md5": "f9505293ffd6feac150ea1bc9cf73a99",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "4973f015b88b58bb58f06a5b155b461cd8596078",
+    "sha256": "52abaf038d6d6eb6fc1d7fdc57a1b8da940dc352c3b19d017530cf4a9c57ffb3",
+    "sha512": "9d2301c8099e381dddee0e1b497628d5660776b58bb567aad28ad7953a03cc5df9f0250c646d21d94e978d47759f6078b0cb0230087cb8d883cdae4969f7bc15",
+    "size": 4241404,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-8/openjdk-8-jdk_8u492-ga-1_armhf.deb",
+    "vendor": "debian",
+    "version": "8u492-ga-1"
+  },
+  {
     "architecture": "i686",
     "distro": "debian",
     "features": [],
@@ -363,6 +295,29 @@
     "sha512": "823a1c352e60930b9905e7fc0fdc89c62304217c576a522fb524cbab01e184213b9bf3e9da96a4fbf6211e72b4cb75cd695b45b50883036d614f090ffb464437",
     "size": 28055912,
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-8/openjdk-8-jre-headless_8u492-ga-1_arm64.deb",
+    "vendor": "debian",
+    "version": "8u492-ga-1"
+  },
+  {
+    "architecture": "arm32-vfp-hflt",
+    "distro": "debian",
+    "features": [
+      "headless",
+      "hard-float"
+    ],
+    "file_type": "deb",
+    "filename": "openjdk-8-jre-headless_8u492-ga-1_armhf.deb",
+    "image_type": "jre",
+    "java_version": "8u492",
+    "jvm_impl": "hotspot",
+    "md5": "3b5f9ce7f02a4e84be0eed4ccdc243f6",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "522e927209fa5329c18b92fc113da6970e9a62b2",
+    "sha256": "1f47c80cc48236c9a393f9e79e2645e04fa96ccd8232f837967d61105c06ec5b",
+    "sha512": "a4aca8cda3dc9b3f874bebe5c761937112b6d11e60e2b32d922080c0ee2f12afe4414109cc9a450b1c5acb347a2052df718a2ee97e00ad10a06af716135a132c",
+    "size": 26560472,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-8/openjdk-8-jre-headless_8u492-ga-1_armhf.deb",
     "vendor": "debian",
     "version": "8u492-ga-1"
   },
@@ -477,6 +432,29 @@
     "version": "8u492-ga-1"
   },
   {
+    "architecture": "arm32-vfp-hflt",
+    "distro": "debian",
+    "features": [
+      "zero",
+      "hard-float"
+    ],
+    "file_type": "deb",
+    "filename": "openjdk-8-jre-zero_8u492-ga-1_armhf.deb",
+    "image_type": "jre",
+    "java_version": "8u492",
+    "jvm_impl": "hotspot",
+    "md5": "5ca232e1e97d8459f630a33d453af8c6",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "809a83fc200f799a9451cbd862b6cf6377d40cfe",
+    "sha256": "41e9835859e19bd086b3bc668ed95e45afe69aa005a277707715d67db70c6a2d",
+    "sha512": "241054e6e85dd024bdbad6a3d5b768d791be790b5fac54ac3119c9ca7d50aba04df328ecf60bfdf5e8d1e20aed23c6fe8a89cf750fc5e6ebcb8febf4a522a1cd",
+    "size": 1748196,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-8/openjdk-8-jre-zero_8u492-ga-1_armhf.deb",
+    "vendor": "debian",
+    "version": "8u492-ga-1"
+  },
+  {
     "architecture": "i686",
     "distro": "debian",
     "features": [
@@ -557,6 +535,28 @@
     "sha512": "1e9eaa35a6053baad6e05c93ed5c382cdd63db6e5137fa2a17d4acdf97c5fd0c23d049cc5639e3b3c364aeabb49a398396d13708552c312b7922dd5b8d627568",
     "size": 65980,
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-8/openjdk-8-jre_8u492-ga-1_arm64.deb",
+    "vendor": "debian",
+    "version": "8u492-ga-1"
+  },
+  {
+    "architecture": "arm32-vfp-hflt",
+    "distro": "debian",
+    "features": [
+      "hard-float"
+    ],
+    "file_type": "deb",
+    "filename": "openjdk-8-jre_8u492-ga-1_armhf.deb",
+    "image_type": "jre",
+    "java_version": "8u492",
+    "jvm_impl": "hotspot",
+    "md5": "7cb172dc4ee820d3b83b3f75dea7fd13",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "6157a3f3800c358fde34c98f8fe0fea09ae12d30",
+    "sha256": "b6b3739a47a8182194c224c956142b979e695dfbbab97ba2f133635a3c77c344",
+    "sha512": "10121c6fd385dd8db137891f46b7a5ee9f439da3fb767847aff69181bf25ec8d69b95a71d426a864e2aab4660e5fb908d5fd111f239b890491872702ef607c7f",
+    "size": 63176,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-8/openjdk-8-jre_8u492-ga-1_armhf.deb",
     "vendor": "debian",
     "version": "8u492-ga-1"
   },
