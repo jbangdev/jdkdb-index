@@ -48,6 +48,29 @@
     "architecture": "x86_64",
     "distro": "liberica",
     "features": [
+      "musl",
+      "crac"
+    ],
+    "file_type": "apk",
+    "filename": "bellsoft-jdk21.0.3+11-linux-x64-musl-crac.apk",
+    "image_type": "jdk",
+    "java_version": "21.0.3+11-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "5ed2bbb379492c06cabd127774921225",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "a6b6973ada0157bad5cb2bb5f599af97f45ae83f",
+    "sha256": "a56d6f88402937acc1ed8a9442cfcd09a18581dabfe339cfe598767a45d5dd66",
+    "sha512": "b90093ae50abecb5e2d69f58cdcc96819eeea41b7629e7844d42747b418ebbdcca1925f6af1424b41688998d163157ba6ff1b89c465c910600d48b52d90f37c3",
+    "size": 212012036,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.3+11/bellsoft-jdk21.0.3+11-linux-x64-musl-crac.apk",
+    "vendor": "bellsoft",
+    "version": "21.0.3+11"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
       "lite",
       "musl"
     ],
@@ -66,6 +89,52 @@
     "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.3+12/bellsoft-jdk21.0.3+12-linux-x64-musl-lite.apk",
     "vendor": "bellsoft",
     "version": "21.0.3+12"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
+      "crac"
+    ],
+    "file_type": "deb",
+    "filename": "bellsoft-jdk21.0.4+10-linux-amd64-crac.deb",
+    "image_type": "jdk",
+    "java_version": "21.0.4+10-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "f9758682b3c335bfea327d7a5496043a",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "9ace0d5e825f62861a7a9a1a0c7da8c7088c8acd",
+    "sha256": "2c278ada9e9bca922b3fb29fde95cbcb929b126dac20c8770db3174893691016",
+    "sha512": "a2f19253d3fbfbfa0e9de50c4eac4b585155c5a0541b9c34fd327a00e6df1d81b061daeec7dc5c3fd8a18cee6e73f5344ec3846727fbd7ebf73182a58a8b8be6",
+    "size": 181391748,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.4+10/bellsoft-jdk21.0.4+10-linux-amd64-crac.deb",
+    "vendor": "bellsoft",
+    "version": "21.0.4+10"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jdk21.0.5+11-linux-amd64-full.tar.gz",
+    "image_type": "jdk",
+    "java_version": "21.0.5+11-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "a0449b601499ca74c2bd4dc9f28a37cf",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "7da43e002b345873650bb605d948ca383131a9f4",
+    "sha256": "fc475a68196d14f538448ad631bc931ca1d5bfbe81266f8d5dee88316031269f",
+    "sha512": "f504d949c352b987c8e13384820387577b4f2d624671d9db9243da932d52f635f58bced26bc7383c1ea651c7e1f304b5932675227282a88903d3bf4dde097e12",
+    "size": 352948937,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.5+11/bellsoft-jdk21.0.5+11-linux-amd64-full.tar.gz",
+    "vendor": "bellsoft",
+    "version": "21.0.5+11"
   },
   {
     "architecture": "x86_64",
@@ -158,6 +227,28 @@
     "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.7+11/bellsoft-jdk21.0.7+11-linux-amd64-crac.rpm",
     "vendor": "bellsoft",
     "version": "21.0.7+11"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jdk21.0.8+12-linux-x64-musl.tar.gz",
+    "image_type": "jdk",
+    "java_version": "21.0.8+12-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "3a727d8508f6af459461bea1d20bc2b7",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "bea03bf471036974f0558228def50aea2118743d",
+    "sha256": "f624427c451f06aa47fedeaaed218c8e6b1677c30ab3e272dff91bdc90d0027c",
+    "sha512": "be0571ab3fcd75998c5c982644b2bd5f14296dee4820cccfa45cde490223a3ec89000030b1bea612cc1003b095e3b99f77cf2bc06da2f27a553cb0b1ffb83d60",
+    "size": 230777113,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.8+12/bellsoft-jdk21.0.8+12-linux-x64-musl.tar.gz",
+    "vendor": "bellsoft",
+    "version": "21.0.8+12"
   },
   {
     "architecture": "x86_64",

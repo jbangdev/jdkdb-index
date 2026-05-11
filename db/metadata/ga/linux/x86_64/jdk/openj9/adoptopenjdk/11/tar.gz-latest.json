@@ -2,21 +2,23 @@
   {
     "architecture": "x86_64",
     "distro": "adoptopenjdk",
-    "features": [],
+    "features": [
+      "large_heap"
+    ],
     "file_type": "tar.gz",
-    "filename": "OpenJDK11-jdk_x64_linux_openj9_11_28.tar.gz",
+    "filename": "OpenJDK11U-jdk_x64_linux_openj9_linuxXL_11.0.6_10_openj9-0.18.1.tar.gz",
     "image_type": "jdk",
-    "java_version": "11+28",
+    "java_version": "11.0.6+10",
     "jvm_impl": "openj9",
-    "md5": "7236ee29035dca753865e9e1c9246af9",
+    "md5": "5f3b514757ec7150a65efa7646d1a65a",
     "os": "linux",
     "release_type": "ga",
-    "sha1": "84b7a6b5079b00d7949a9cbd4eb38c7793e4fde9",
-    "sha256": "fd77f22eb74078bcf974415abd888296284d2ceb81dbaca6ff32f59416ebc57f",
-    "sha512": "3fd63894f887785aafc6635d783cf3323a61463fafda6003aa9d564ef7ab6bbd5cb6d3cba5e3ea47504a173c945b3e8b88c2c23ea86dff466979a77199970a11",
-    "size": 195221908,
-    "url": "https://github.com/AdoptOpenJDK/openjdk11-binaries/releases/download/jdk-11%2B28/OpenJDK11-jdk_x64_linux_openj9_11_28.tar.gz",
+    "sha1": "de08e285016f66865c54192b716de3698be3ac7c",
+    "sha256": "6524d85d2ce334c955a4347015567326067ef15fe5f6a805714b25cace256f40",
+    "sha512": "63f8b5efa9267608651277e99811f94c0546c8dd306f36a4787366555cd824a032f5d02dd90f08b2393fce1c7f935ff27ac46c8e1b71ab186c930482197cb0bf",
+    "size": 202630994,
+    "url": "https://github.com/AdoptOpenJDK/openjdk11-binaries/releases/download/jdk-11.0.6%2B10_openj9-0.18.1/OpenJDK11U-jdk_x64_linux_openj9_linuxXL_11.0.6_10_openj9-0.18.1.tar.gz",
     "vendor": "adoptopenjdk",
-    "version": "11.0.0+28.OpenJDK11-jdk_x64_linux_openj9_11_28.tar.gz"
+    "version": "11.0.6+10.1.openj9-0.18.1"
   }
 ]

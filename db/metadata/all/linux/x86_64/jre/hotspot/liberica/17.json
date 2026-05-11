@@ -48,6 +48,28 @@
   {
     "architecture": "x86_64",
     "distro": "liberica",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jre17.0.3+7-linux-x64-musl.tar.gz",
+    "image_type": "jre",
+    "java_version": "17.0.3+7",
+    "jvm_impl": "hotspot",
+    "md5": "497ef5818afd1125a0a0c856d15fd599",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "feec65e607ffa2cf5b7bf0be03127b5e7e8ec365",
+    "sha256": "9d55fb54b43139b02bacb6ddab2bd8cff85abd9a93dfffa9178a9e4bacb62551",
+    "sha512": "d70ba1b405951ab3f57149ca0f2c955e6ab1b37533124cc66db140fa2b2d5388e0cca4f8db8f763b4e7dc58a7d489f0a9811edd235dc8869f61192215d447071",
+    "size": 52586740,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.3+7/bellsoft-jre17.0.3+7-linux-x64-musl.tar.gz",
+    "vendor": "bellsoft",
+    "version": "17.0.3+7"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
     "features": [],
     "file_type": "rpm",
     "filename": "bellsoft-jre17.0.7+7-linux-amd64.rpm",
@@ -64,6 +86,54 @@
     "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.7+7/bellsoft-jre17.0.7+7-linux-amd64.rpm",
     "vendor": "bellsoft",
     "version": "17.0.7+7"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
+    "file_type": "rpm",
+    "filename": "bellsoft-jre17.0.9+11-linux-amd64-full.rpm",
+    "image_type": "jre",
+    "java_version": "17.0.9+11-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "26e5ecc58588a0acbe0c7ff8bd882958",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "cd0214866568f8c1cd2fc0cddf22e5c37027cd07",
+    "sha256": "5eba7fed309eb4de5813b90818e7fbcb5f440cfb259b497c04a9ac79dae440a8",
+    "sha512": "713f4c7aad5dc9a2b3ccbdc98f492147bf49024642068258e7e97e419121ef11aa0ab469ddbcecaed4597543b65ef934a40d8ce8fb0ca8c0ede06123ce18ae93",
+    "size": 73464680,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.9+11/bellsoft-jre17.0.9+11-linux-amd64-full.rpm",
+    "vendor": "bellsoft",
+    "version": "17.0.9+11"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
+    "file_type": "deb",
+    "filename": "bellsoft-jre17.0.10+13-linux-amd64-full.deb",
+    "image_type": "jre",
+    "java_version": "17.0.10+13-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "1814389947ba3834a824833d0254eba8",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "279426e25779b0e6b47407cce3c49799e373f11a",
+    "sha256": "169076ac1ea8b7d6cbde57ac0896367197f67f6626712867cd2b0ddd77e9c829",
+    "sha512": "5bfc44ce36e37cf084d020cad12be8013847972a8cdc6ce57f23652db08fd25b7ddf586a4c20061f1cc7c5ee66325a3ae8ddb62f0ada6cb8b1a6707097d6f9d7",
+    "size": 66444032,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.10+13/bellsoft-jre17.0.10+13-linux-amd64-full.deb",
+    "vendor": "bellsoft",
+    "version": "17.0.10+13"
   },
   {
     "architecture": "x86_64",

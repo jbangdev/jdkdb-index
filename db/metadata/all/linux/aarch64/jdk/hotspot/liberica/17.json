@@ -25,6 +25,30 @@
     "architecture": "aarch64",
     "distro": "liberica",
     "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
+    "file_type": "rpm",
+    "filename": "bellsoft-jdk17.0.2+9-linux-aarch64-full.rpm",
+    "image_type": "jdk",
+    "java_version": "17.0.2+9",
+    "jvm_impl": "hotspot",
+    "md5": "fc179557f70d8fba17e39335dc7797d9",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "81912e01a1054bc41504619ef6b81a3e69fa9154",
+    "sha256": "f2ef0788d85be528f9ba3681570545153c29e6c9102d95267f36ef1362f1f796",
+    "sha512": "9115e5bf845f8b237ae10c4dd0ef2b7d33230506738307d9a5145984249f4a4d489c98b12790ce22539cdee7c52a17a76280f992d724d76a5ea323082bb49a8d",
+    "size": 253411768,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.2+9/bellsoft-jdk17.0.2+9-linux-aarch64-full.rpm",
+    "vendor": "bellsoft",
+    "version": "17.0.2+9"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "liberica",
+    "features": [
       "musl"
     ],
     "file_type": "apk",
@@ -135,6 +159,52 @@
     "architecture": "aarch64",
     "distro": "liberica",
     "features": [
+      "lite",
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jdk17.0.11+10-linux-aarch64-musl-lite.tar.gz",
+    "image_type": "jdk",
+    "java_version": "17.0.11+10-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "05ba86c5b272cbca51a07780bb8ec61c",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "0b93574ade1e619a37a5c0eea799e07d0a321fea",
+    "sha256": "91b3a29c34b6cda5d598e2d10ae0a2433ffb12c476adb9afb55beb9eda22efd8",
+    "sha512": "4b039c180d9b57df4778801fe2faa27e77ea5e70143d1c00224e439c2f9760496097efef74fd0d1ce0a9565ca78a9b265d0978c9bd7274bd87f56b0b7b66df54",
+    "size": 71094858,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.11+10/bellsoft-jdk17.0.11+10-linux-aarch64-musl-lite.tar.gz",
+    "vendor": "bellsoft",
+    "version": "17.0.11+10"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "liberica",
+    "features": [
+      "musl",
+      "crac"
+    ],
+    "file_type": "apk",
+    "filename": "bellsoft-jdk17.0.11+11-linux-aarch64-musl-crac.apk",
+    "image_type": "jdk",
+    "java_version": "17.0.11+11-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "c043fda9bd97eb91a5663e943975b429",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "f4dc9e8a9684081f08e27b6bd802ea0413f23dec",
+    "sha256": "a77a1c2f1804405b5b669f79093bb9980e1d9e86dc1455662880480eada2d12a",
+    "sha512": "6c4aa106945334887171c9c6bf0b1e59ad192978525bda37da4d2f6a156438b8745edcd8ccbf9dde3884f636b641a385d4fa57b09be66052f63768c72e380225",
+    "size": 195017060,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.11+11/bellsoft-jdk17.0.11+11-linux-aarch64-musl-crac.apk",
+    "vendor": "bellsoft",
+    "version": "17.0.11+11"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "liberica",
+    "features": [
       "lite"
     ],
     "file_type": "tar.gz",
@@ -238,6 +308,29 @@
     "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.14+11/bellsoft-jdk17.0.14+11-linux-aarch64-crac.deb",
     "vendor": "bellsoft",
     "version": "17.0.14+11"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "liberica",
+    "features": [
+      "musl",
+      "crac"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jdk17.0.15+12-linux-aarch64-musl-crac.tar.gz",
+    "image_type": "jdk",
+    "java_version": "17.0.15+12-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "931ae668d56258f0378ddf6f86ee6829",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "bce719814d0f417d3dd5c14617dcb40a0e5e1e34",
+    "sha256": "c074cba0d00a88a3d6e11adae78783c7c43672a20c6522dd4ca13c04ebaec65e",
+    "sha512": "e9bd561a8214d5338f0cdd08d90d7c92ded5a86de13557b70616e69809eb2650d0e47ff9b57b48ccb9f255c7f8b95310d0f11e78a24c478145282f878168a03c",
+    "size": 195201456,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.15+12/bellsoft-jdk17.0.15+12-linux-aarch64-musl-crac.tar.gz",
+    "vendor": "bellsoft",
+    "version": "17.0.15+12"
   },
   {
     "architecture": "aarch64",

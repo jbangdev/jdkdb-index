@@ -25,6 +25,28 @@
     "architecture": "x86_64",
     "distro": "liberica",
     "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jdk17.0.6+10-linux-x64-musl.tar.gz",
+    "image_type": "jdk",
+    "java_version": "17.0.6+10",
+    "jvm_impl": "hotspot",
+    "md5": "5552ef95f234a9afb3d2958767a57f00",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "9c4f64693f71ca3c88c1321173887b1facda75e2",
+    "sha256": "59c204e3e6702536b878296f44a2e80ba7522ee21975b5e748d7bebe0974a8ea",
+    "sha512": "4ec41e1c3b539c009cbad020c6344cfe6d32ddb4fa1e9255b6806dbaf8b4fc484e98b2b5c0c9d7ff250b039ce00a27bea8da8d3bbd6a187dbc6c07a6d68295f8",
+    "size": 206453359,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.6+10/bellsoft-jdk17.0.6+10-linux-x64-musl.tar.gz",
+    "vendor": "bellsoft",
+    "version": "17.0.6+10"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
       "libericafx",
       "minimal-vm",
       "javafx"
@@ -44,5 +66,28 @@
     "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.10+13/bellsoft-jdk17.0.10+13-linux-amd64-full.tar.gz",
     "vendor": "bellsoft",
     "version": "17.0.10+13"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
+      "musl",
+      "crac"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jdk17.0.18+11-linux-x64-musl-crac.tar.gz",
+    "image_type": "jdk",
+    "java_version": "17.0.18+11-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "0ee85f4504b788abc1b837aaa91e30c9",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "1b638ff2f1b24beeea7c0ba7162842dfd849f586",
+    "sha256": "d9dbf8eb0e9d178ecc90b6947963bf0621e9a1f64ec28eef5689f5a2d43b9492",
+    "sha512": "e5ca034b242954e47b1f8174f139dcd8072a833f6baab6a65e32f93ae03063a7d8ffe4c2ff388dc20fb5fec8ddb0c5b516b93a3fe5e55299b404016626c97d86",
+    "size": 197245020,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.18+11/bellsoft-jdk17.0.18+11-linux-x64-musl-crac.tar.gz",
+    "vendor": "bellsoft",
+    "version": "17.0.18+11"
   }
 ]

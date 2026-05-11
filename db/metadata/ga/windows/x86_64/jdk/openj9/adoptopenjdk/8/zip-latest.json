@@ -2,21 +2,23 @@
   {
     "architecture": "x86_64",
     "distro": "adoptopenjdk",
-    "features": [],
+    "features": [
+      "large_heap"
+    ],
     "file_type": "zip",
-    "filename": "OpenJDK8U-jdk_x64_windows_openj9_8u252b09_openj9-0.20.0.zip",
+    "filename": "OpenJDK8U-jdk_x64_windows_openj9_windowsXL_8u272b10_openj9-0.23.0.zip",
     "image_type": "jdk",
-    "java_version": "1.8.0_252-b09",
+    "java_version": "1.8.0_272-b10",
     "jvm_impl": "openj9",
-    "md5": "3230601a787d1be8ef07332870743965",
+    "md5": "9c736be6ae1be5a48f839faba5af4e51",
     "os": "windows",
     "release_type": "ga",
-    "sha1": "c93156fc4fb0589d52b4a5e8d6994fb24ec96420",
-    "sha256": "6fed8012b09da2402fe60df3b348cec3eb0059533c6d053b4255c4f8cffdd17b",
-    "sha512": "ec18bdf2ec1f0ba6d0f756d21c28f896e238e4affc84170dc5420e1d448c5cfe7c4ac8aa8f07b5ea7e4efdce1fee360c54f9e7d48abba63508cfbfaeaaae31b3",
-    "size": 115414330,
-    "url": "https://github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u252-b09_openj9-0.20.0/OpenJDK8U-jdk_x64_windows_openj9_8u252b09_openj9-0.20.0.zip",
+    "sha1": "b0bd1070c1e823d66c2bdf76cb380d2dae868ea8",
+    "sha256": "72a8fdefdd353612d303279521463ce389aa40119a7ec94bd493b06b42d33fe0",
+    "sha512": "41a716803386c1056644b3c348b34f5cd0ffbd8cd414b32fbf835acf634c6e9182789200e2b13518ef65f6ad1e622c9c7235db99afc2d1665eec6d0fe533d8fa",
+    "size": 116647452,
+    "url": "https://github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u272-b10_openj9-0.23.0/OpenJDK8U-jdk_x64_windows_openj9_windowsXL_8u272b10_openj9-0.23.0.zip",
     "vendor": "adoptopenjdk",
-    "version": "8.0.252+9.1.openj9-0.20.0"
+    "version": "8.0.272+10.openj9-0.23.0"
   }
 ]
