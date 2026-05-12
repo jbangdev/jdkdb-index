@@ -27,6 +27,30 @@
     "architecture": "aarch64",
     "distro": "liberica",
     "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
+    "file_type": "rpm",
+    "filename": "bellsoft-jdk22.0.1+10-linux-aarch64-full.rpm",
+    "image_type": "jdk",
+    "java_version": "22.0.1+10",
+    "jvm_impl": "hotspot",
+    "md5": "f08e77fe657fbde220e781c87c3fad33",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "ed5c947ff0a9f3319d0b82e307483820b1337ff2",
+    "sha256": "4c71e533db3d0ca7442c2ee3baa152f80ee94fec25ff9238e2487bc4d26f875f",
+    "sha512": "6b0c988406d497f2576bd08a35491b6c19db171b74521abfd5e66ca8afaebaa624b53863bbeccc58e526fd727ea42523bf9a23e2929b74e1195458edbec3c61a",
+    "size": 286033536,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/22.0.1+10/bellsoft-jdk22.0.1+10-linux-aarch64-full.rpm",
+    "vendor": "bellsoft",
+    "version": "22.0.1+10"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "liberica",
+    "features": [
       "lite"
     ],
     "file_type": "deb",
@@ -66,6 +90,28 @@
     "url": "https://github.com/bell-sw/Liberica/releases/download/22.0.1+12/bellsoft-jdk22.0.1+12-linux-aarch64-lite.deb",
     "vendor": "bellsoft",
     "version": "22.0.1+12"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "liberica",
+    "features": [
+      "lite"
+    ],
+    "file_type": "deb",
+    "filename": "bellsoft-jdk22+37-linux-aarch64-lite.deb",
+    "image_type": "jdk",
+    "java_version": "22+37",
+    "jvm_impl": "hotspot",
+    "md5": "b5d8dd58a9a3ced346a82077dd84ba4f",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "72aa35297b9f655068459437a787fbe3663f8045",
+    "sha256": "af7ef3153f836caeab3de73090301c04bb35e9117f97507047c6de3e922c5f4e",
+    "sha512": "15152252d22c101f501e9b0303855b6cf09026fc90194ee4e5e71c3c20ac94629a283a070733fa30b4f7446d48bef6078d79ba3f657c91f64b39070873fe624a",
+    "size": 71487512,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/22+37/bellsoft-jdk22+37-linux-aarch64-lite.deb",
+    "vendor": "bellsoft",
+    "version": "22+37"
   },
   {
     "architecture": "aarch64",
