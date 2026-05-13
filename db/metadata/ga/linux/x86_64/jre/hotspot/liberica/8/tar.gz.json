@@ -22,6 +22,26 @@
   {
     "architecture": "x86_64",
     "distro": "liberica",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jre8u302+8-linux-amd64.tar.gz",
+    "image_type": "jre",
+    "java_version": "1.8.0_302",
+    "jvm_impl": "hotspot",
+    "md5": "8f78e56c6327ac3900366ca105552b63",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "8b8342efb5849b41535de8605cfdb70c95444f67",
+    "sha256": "43400304ef7ca9934b9c208df3c07f958b17ad5a9bbf5d59c73809a6cb2cadee",
+    "sha512": "07477e7fdd746507262decda3c39e4f2c39b29d17d9ef0e41429d67a627f1f826639f80df4d41846e0e64b7abfd2f2184150b711514cfdae2b7ec9510c6247df",
+    "size": 41960089,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/8u302+8/bellsoft-jre8u302+8-linux-amd64.tar.gz",
+    "vendor": "bellsoft",
+    "version": "8u302+8"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
     "features": [
       "musl"
     ],
@@ -62,5 +82,29 @@
     "url": "https://github.com/bell-sw/Liberica/releases/download/8u362+9/bellsoft-jre8u362+9-linux-x64-musl.tar.gz",
     "vendor": "bellsoft",
     "version": "8u362+9"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jre8u472+9-linux-amd64-full.tar.gz",
+    "image_type": "jre",
+    "java_version": "1.8.0_472",
+    "jvm_impl": "hotspot",
+    "md5": "159a907bd879fa8a0788125fcbed0d33",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "3a8eeb7b24116c45bc47538a4d900eaba9c78efe",
+    "sha256": "be8c8562edd8a6a4b54fd52c68d83c1629341a82fce5ed09b013b3a29fe811c4",
+    "sha512": "75c80e3b1d98748e533dcebe0eda95b15fa619008299cdeed6dac452aec07d1b88a59f8061dcea79a7ac1addb8726fd560293b692649ba49ca8b10e127103aa4",
+    "size": 105843036,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/8u472+9/bellsoft-jre8u472+9-linux-amd64-full.tar.gz",
+    "vendor": "bellsoft",
+    "version": "8u472+9"
   }
 ]
