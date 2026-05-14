@@ -136,6 +136,30 @@
   {
     "architecture": "arm32-vfp-hflt",
     "distro": "liberica",
+    "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jdk17.0.4+8-linux-arm32-vfp-hflt-full.tar.gz",
+    "image_type": "jdk",
+    "java_version": "17.0.4+8",
+    "jvm_impl": "hotspot",
+    "md5": "c23864cdf45154a690e8982bd00187af",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "bde21ff038f2aa949f1452130639a36765d20c11",
+    "sha256": "b0108325904583586d277d1466af06bee730434f195d495175759010f74e799d",
+    "sha512": "c47b29e2f54326a36a9d93dd5ff7e7cdd65937b6d9e3c048d41283b3e4513236af5037e9632aabb71647e25a1b580b14e7e0048f7adfcee663adff0ace9d0921",
+    "size": 215632506,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.4+8/bellsoft-jdk17.0.4+8-linux-arm32-vfp-hflt-full.tar.gz",
+    "vendor": "bellsoft",
+    "version": "17.0.4+8"
+  },
+  {
+    "architecture": "arm32-vfp-hflt",
+    "distro": "liberica",
     "features": [],
     "file_type": "deb",
     "filename": "bellsoft-jdk17.0.4+8-linux-arm32-vfp-hflt.deb",
@@ -350,6 +374,28 @@
     "sha512": "017489a8d1d6977e0666ba7d5234a82fbd51aab5e6488df8b23d3c2ce76425fc34883c63003aea888c8e6a812e2d841a6d04e374164908826d37fe0188ee095d",
     "size": 194063748,
     "url": "https://github.com/bell-sw/Liberica/releases/download/17+35/bellsoft-jdk17+35-linux-arm32-vfp-hflt-full.rpm",
+    "vendor": "bellsoft",
+    "version": "17+35"
+  },
+  {
+    "architecture": "arm32-vfp-hflt",
+    "distro": "liberica",
+    "features": [
+      "lite"
+    ],
+    "file_type": "deb",
+    "filename": "bellsoft-jdk17+35-linux-arm32-vfp-hflt-lite.deb",
+    "image_type": "jdk",
+    "java_version": "17+35",
+    "jvm_impl": "hotspot",
+    "md5": "ecf6909f9ab4138a8e09ced2931d54d6",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "129b48d914591dcbd9eb3733183c4c61bf7a26be",
+    "sha256": "c8660e284241002d3daed18047642a99f0f57e021cdd829c3b60e234f85f1073",
+    "sha512": "ec72fc3c4e2415d08b89369bd7a0ad9cd0c5c1f293191b2990617437616ee9c6f4f169f80cc2965599c512cbf78c4e669464277b82b43be35e23f8732113af17",
+    "size": 65985356,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/17+35/bellsoft-jdk17+35-linux-arm32-vfp-hflt-lite.deb",
     "vendor": "bellsoft",
     "version": "17+35"
   }

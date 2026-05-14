@@ -440,6 +440,26 @@
     "version": "15.0.2.7.1"
   },
   {
+    "architecture": "x86_64",
+    "distro": "corretto",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "amazon-corretto-16.0.0.36.1-macosx-x64.tar.gz",
+    "image_type": "jdk",
+    "java_version": "16.0.0.36.1",
+    "jvm_impl": "hotspot",
+    "md5": "86b9a04a53236d37ebc3ce228c17b5a2",
+    "os": "macosx",
+    "release_type": "ga",
+    "sha1": "c5b8f2d157f86e3a5bfbcfbbe60fea603679af90",
+    "sha256": "6fd88febe36f8318f4a0d032bc7c5ed1f197507a31b84d742ee289274744959a",
+    "sha512": "a58416ce08e1cd44fe2ee79f10b135f73a71640f435e7477c7a89ca546e6206678392e8f78a76a8443f6530f3934fa51e1b9ffc1ba22927bbe5ad6b7c6cf560c",
+    "size": 201017272,
+    "url": "https://corretto.aws/downloads/resources/16.0.0.36.1/amazon-corretto-16.0.0.36.1-macosx-x64.tar.gz",
+    "vendor": "amazon",
+    "version": "16.0.0.36.1"
+  },
+  {
     "architecture": "aarch64",
     "distro": "corretto",
     "features": [],
@@ -558,6 +578,28 @@
     "url": "https://corretto.aws/downloads/resources/17.0.19.10.1/amazon-corretto-17.0.19.10.1-windows-x64.msi",
     "vendor": "amazon",
     "version": "17.0.19.10.1"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "corretto",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "amazon-corretto-18.0.1.10.1-alpine-linux-x64.tar.gz",
+    "image_type": "jdk",
+    "java_version": "18.0.1.10.1",
+    "jvm_impl": "hotspot",
+    "md5": "769f661383721a7f4f9eb488271c36f4",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "f53b7887344a75c159b29cd23a803bbf3a5dfb5a",
+    "sha256": "6e81ca885732e07e17cc9fe0b9119a100865a00de978c6a98224a66761286ba2",
+    "sha512": "0bbadd020fb34d5698769d5e8f62e4ae5e48acf9f510f35abb6a872f1c644e23d8a7ba7ccd9e2a4108ad315fb231412b1485471afd155e246997724561481c4c",
+    "size": 193867343,
+    "url": "https://corretto.aws/downloads/resources/18.0.1.10.1/amazon-corretto-18.0.1.10.1-alpine-linux-x64.tar.gz",
+    "vendor": "amazon",
+    "version": "18.0.1.10.1"
   },
   {
     "architecture": "aarch64",
@@ -864,6 +906,28 @@
   {
     "architecture": "aarch64",
     "distro": "corretto",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "amazon-corretto-23.0.0.36.1-alpine-linux-aarch64.tar.gz",
+    "image_type": "jdk",
+    "java_version": "23.0.0.36.1",
+    "jvm_impl": "hotspot",
+    "md5": "ca1bcb52de9f63664363ec005ae221d4",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "5facaa4ffce348fac4ffeaedd384dd4ec5dc89d7",
+    "sha256": "746498f0db22733d06e33809cf62c6e6523b015f03d986a15076f58468117c9d",
+    "sha512": "f9d3f3876541ab18be008ea791b019a43668befa2d8085f3527a25fce6384f94872a71af874e1b734279a62715d2e42c982b2c7e2444c62b92db25152999c186",
+    "size": 213523933,
+    "url": "https://corretto.aws/downloads/resources/23.0.0.36.1/amazon-corretto-23.0.0.36.1-alpine-linux-aarch64.tar.gz",
+    "vendor": "amazon",
+    "version": "23.0.0.36.1"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "corretto",
     "features": [],
     "file_type": "tar.gz",
     "filename": "amazon-corretto-23.0.0.36.1-macosx-aarch64.tar.gz",
@@ -922,6 +986,28 @@
     "url": "https://corretto.aws/downloads/resources/23.0.2.7.1/amazon-corretto-23.0.2.7.1-alpine-linux-x64.tar.gz",
     "vendor": "amazon",
     "version": "23.0.2.7.1"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "corretto",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "amazon-corretto-24.0.0.36.1-alpine-linux-aarch64.tar.gz",
+    "image_type": "jdk",
+    "java_version": "24.0.0.36.1",
+    "jvm_impl": "hotspot",
+    "md5": "6151c0592bf8d090a1cd330b845c0df5",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "f9d7f8dd72524876cb4b7593cf60e67fbdeafb8a",
+    "sha256": "9d8e4a7b63d9580a19d8e6212fb1284a2931dc46f9bb1968dc4498b1752da95f",
+    "sha512": "f8394fb0395bb004f76b6ddadc4ba730d673530fec24d375307a08ed6435b1122b4ddad3f3cbfdc0c62d9fb94b2190f8da443e122fb4a614328c9b0292b6d78a",
+    "size": 223518369,
+    "url": "https://corretto.aws/downloads/resources/24.0.0.36.1/amazon-corretto-24.0.0.36.1-alpine-linux-aarch64.tar.gz",
+    "vendor": "amazon",
+    "version": "24.0.0.36.1"
   },
   {
     "architecture": "x86_64",

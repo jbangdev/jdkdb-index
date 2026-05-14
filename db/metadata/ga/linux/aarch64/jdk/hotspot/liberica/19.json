@@ -27,6 +27,29 @@
     "architecture": "aarch64",
     "distro": "liberica",
     "features": [
+      "lite",
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jdk19.0.2+9-linux-aarch64-musl-lite.tar.gz",
+    "image_type": "jdk",
+    "java_version": "19.0.2+9",
+    "jvm_impl": "hotspot",
+    "md5": "a991c4f0c8f3803a6f1b91b6ccb55645",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "79ff11520b76bed62efae49593c512438ffdfd19",
+    "sha256": "1d4eca9f0272c624f824b15f4bffd16881a8751fa645a22c87f9ed95a04b1bd7",
+    "sha512": "cf452056e1475c07f2ea95504d71f528984db0bb64bfbf660bfa2180a870c76753377ced93b30ac0cd55887a983c786f644c631f617422dead80e3c1165fdf75",
+    "size": 74455178,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/19.0.2+9/bellsoft-jdk19.0.2+9-linux-aarch64-musl-lite.tar.gz",
+    "vendor": "bellsoft",
+    "version": "19.0.2+9"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "liberica",
+    "features": [
       "musl"
     ],
     "file_type": "apk",
@@ -62,6 +85,26 @@
     "sha512": "3f3071fee34d84f19163497bd25a85456a9ef492f62ff6a1db4ec0bdd7e6f7114453e951ff9f72d9568c9f7846a2ce4623d5ee5f8123682762889168e256bc02",
     "size": 173363768,
     "url": "https://github.com/bell-sw/Liberica/releases/download/19+37/bellsoft-jdk19+37-linux-aarch64.deb",
+    "vendor": "bellsoft",
+    "version": "19+37"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "liberica",
+    "features": [],
+    "file_type": "rpm",
+    "filename": "bellsoft-jdk19+37-linux-aarch64.rpm",
+    "image_type": "jdk",
+    "java_version": "19+37",
+    "jvm_impl": "hotspot",
+    "md5": "107cd15615215d74970dc53387989dcc",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "081af88e01c6fd8fbedbaf092d3b45f86f4eeb1e",
+    "sha256": "04235cac8eacaacb99bb93cf2b66e571b2df32337efef711f457a432fb50671b",
+    "sha512": "ff8c88edd235a0878a8ea684873a66cf232cb699bcf93ffc2bf8d8c2701ab72d8635cb29e66d6992a27512e2f2764cf725cb083d893524f703e6a4f359ab9fe7",
+    "size": 180312948,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/19+37/bellsoft-jdk19+37-linux-aarch64.rpm",
     "vendor": "bellsoft",
     "version": "19+37"
   }

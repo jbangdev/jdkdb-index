@@ -2,21 +2,25 @@
   {
     "architecture": "aarch64",
     "distro": "liberica",
-    "features": [],
+    "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
     "file_type": "zip",
-    "filename": "bellsoft-jre17.0.9+11-macos-aarch64.zip",
+    "filename": "bellsoft-jre17.0.17+15-macos-aarch64-full.zip",
     "image_type": "jre",
-    "java_version": "17.0.9+11-LTS",
+    "java_version": "17.0.17+15-LTS",
     "jvm_impl": "hotspot",
-    "md5": "eb4e474fcfe8f47b5e8a66578d4e5481",
+    "md5": "8ffeec3092fb4c087232a30d7ff4343f",
     "os": "macosx",
     "release_type": "ga",
-    "sha1": "ae4d2f45bb84f340bf7071f3be6fcd1839c55077",
-    "sha256": "4e6e04fdb787350255bcfdf09c4d17a5540b15d09cf2c07bd606d228db3ead0c",
-    "sha512": "cb8e0492cca839651400938510f318930555676f371107086eaab84094d412cffae3f029efd46cb6ffb125161915b0d930999c692cc89486445b7a51ec7bad8a",
-    "size": 46725157,
-    "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.9+11/bellsoft-jre17.0.9+11-macos-aarch64.zip",
+    "sha1": "724001a0a59f5314a00e6c928e3d544e43368996",
+    "sha256": "a5ca54b87d11e4667f15db390b77abd7a347eb8f583f2e54916284e9413f63b8",
+    "sha512": "c9d17216034f912e05d7783d93795bf7d894c483dede429cfd352b4d4c17fabc87e0130cfeb4efdf789f5a37843615cee4cc4e80e1dc966be1573decc6d04984",
+    "size": 97994121,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.17+15/bellsoft-jre17.0.17+15-macos-aarch64-full.zip",
     "vendor": "bellsoft",
-    "version": "17.0.9+11"
+    "version": "17.0.17+15"
   }
 ]

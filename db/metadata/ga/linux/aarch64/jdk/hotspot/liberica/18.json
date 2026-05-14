@@ -3,6 +3,30 @@
     "architecture": "aarch64",
     "distro": "liberica",
     "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jdk18.0.1+12-linux-aarch64-full.tar.gz",
+    "image_type": "jdk",
+    "java_version": "18.0.1+12",
+    "jvm_impl": "hotspot",
+    "md5": "5603a4620f0bdcddab417f5b661a37f7",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "1869768ae6fcede66c8fe82b260be889bce37ea0",
+    "sha256": "93c229c5a210325eaa0663f28e4e987d4c184df082c02cd68f968e89c407bf2a",
+    "sha512": "d9449ababf30e402f12093b668085c569da9d9c4bdbde58238057c10b9b8a1718dd04c0e462da55341d7a848134cffd30c83f1f4aac09a0ee7f5c0ad213bed40",
+    "size": 294770785,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.1+12/bellsoft-jdk18.0.1+12-linux-aarch64-full.tar.gz",
+    "vendor": "bellsoft",
+    "version": "18.0.1+12"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "liberica",
+    "features": [
       "lite",
       "musl"
     ],
@@ -65,6 +89,28 @@
     "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.2+10/bellsoft-jdk18.0.2+10-linux-aarch64-lite.rpm",
     "vendor": "bellsoft",
     "version": "18.0.2+10"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "liberica",
+    "features": [
+      "lite"
+    ],
+    "file_type": "rpm",
+    "filename": "bellsoft-jdk18+37-linux-aarch64-lite.rpm",
+    "image_type": "jdk",
+    "java_version": "18+37",
+    "jvm_impl": "hotspot",
+    "md5": "8e6dbe420858282df379b4418bd3c865",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "2246223ea6740f0cf793ed2c693b7f22f77e802d",
+    "sha256": "e6229302de5e343498bfb9630779005ca25cb88ddcc2d7a060bd32c3a518691d",
+    "sha512": "4654704c055314b0a4af34c333640e47007b6d9aca6330b54e2756407f15434f7468bb45431f949007503144f1f5e6215254bc92df5702f1db501cebd6d36a9a",
+    "size": 67770868,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/18+37/bellsoft-jdk18+37-linux-aarch64-lite.rpm",
+    "vendor": "bellsoft",
+    "version": "18+37"
   },
   {
     "architecture": "aarch64",

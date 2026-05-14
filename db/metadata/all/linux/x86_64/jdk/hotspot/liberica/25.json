@@ -3,6 +3,30 @@
     "architecture": "x86_64",
     "distro": "liberica",
     "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
+    "file_type": "deb",
+    "filename": "bellsoft-jdk25.0.1+11-linux-amd64-full.deb",
+    "image_type": "jdk",
+    "java_version": "25.0.1+11-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "6631589a3008647411b92dafbf07cd82",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "16f2d8e1e5edc157c4e35d168bb35cffe722def2",
+    "sha256": "7e99485767bead878dd2810fa9fd1de9c3a61ad4d8956deee1c13300c5a95613",
+    "sha512": "218f338fad21609604bc84383d361ffcc6272d8586fffa976b5702cd42d35fa63f506f286b132453642235f2a81b351af52c6c3f1ee80db0c4bf80dec7a0dd4c",
+    "size": 341209132,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/25.0.1+11/bellsoft-jdk25.0.1+11-linux-amd64-full.deb",
+    "vendor": "bellsoft",
+    "version": "25.0.1+11"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
       "lite"
     ],
     "file_type": "deb",
@@ -18,6 +42,28 @@
     "sha512": "9f0f204c10fcef49eed9758dfffe19a7cfb679f539c889f2f7f94df131521e8a1e1446d0212892f0c864a665d7b4b66d68fa0501d3228f3818701666a8a7163e",
     "size": 77794480,
     "url": "https://github.com/bell-sw/Liberica/releases/download/25.0.1+11/bellsoft-jdk25.0.1+11-linux-amd64-lite.deb",
+    "vendor": "bellsoft",
+    "version": "25.0.1+11"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
+      "lite"
+    ],
+    "file_type": "rpm",
+    "filename": "bellsoft-jdk25.0.1+11-linux-amd64-lite.rpm",
+    "image_type": "jdk",
+    "java_version": "25.0.1+11-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "3828b7b7cd543d72c0fd94b1bbfc20ce",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "a153ba534fbb6897f60cb0025aae51897af79af4",
+    "sha256": "0462364c4acb06a227bbb29667157cdd65e00812ebb8b95d3cd07d861580059f",
+    "sha512": "3a3e3890792283369b7c5cb1345cc0bf21b1e6e260fe496eed08d176a731265911094a5f11902ce225596121836f070fd3707377ea21dc05a6ddbab71f3ba5a6",
+    "size": 79486620,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/25.0.1+11/bellsoft-jdk25.0.1+11-linux-amd64-lite.rpm",
     "vendor": "bellsoft",
     "version": "25.0.1+11"
   },
