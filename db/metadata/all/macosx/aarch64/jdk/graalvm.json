@@ -41,6 +41,26 @@
   },
   {
     "architecture": "aarch64",
+    "distro": "oracle-graalvm",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "graalvm-jdk-22.0.1_macos-aarch64_bin.tar.gz",
+    "image_type": "jdk",
+    "java_version": "22.0.1+8-jvmci-b01",
+    "jvm_impl": "graalvm",
+    "md5": "005c471f7aae4773b0df30218ed33f60",
+    "os": "macosx",
+    "release_type": "ga",
+    "sha1": "d4a9547a6d0ba11fb22655acb11d8073d25f422f",
+    "sha256": "7735153e287cd63a29bb1031f2c018770a2734e5c7cb28ab5143a1bd2b4ad45f",
+    "sha512": "18c4366eed8fe2b3e02bfbec726a4bbbe4d231bb722fe4fb60de36377d375587d10052c18acbe7756f2b5bbd775bf0f853ee7f54f1d741280f04d83bfdf08f65",
+    "size": 337075904,
+    "url": "https://download.oracle.com/graalvm/22/archive/graalvm-jdk-22.0.1_macos-aarch64_bin.tar.gz",
+    "vendor": "oracle",
+    "version": "22.0.1"
+  },
+  {
+    "architecture": "aarch64",
     "distro": "graalvm",
     "features": [],
     "file_type": "tar.gz",
@@ -58,6 +78,29 @@
     "url": "https://github.com/graalvm/graalvm-ce-builds/releases/download/vm-22.1.0/graalvm-ce-java17-darwin-aarch64-22.1.0.tar.gz",
     "vendor": "oracle",
     "version": "22.1.0+java17"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "gluon-graalvm",
+    "features": [
+      "native-image",
+      "substrate-vm"
+    ],
+    "file_type": "tar.gz",
+    "filename": "graalvm-svm-java11-darwin-m1-gluon-22.1.0.1-Final.tar.gz",
+    "image_type": "jdk",
+    "java_version": "11",
+    "jvm_impl": "graalvm",
+    "md5": "56478f3c232ecb54632873b26c00e5ad",
+    "os": "macosx",
+    "release_type": "ga",
+    "sha1": "8904dbaf2081b08d7afdc75a0035e99691316b95",
+    "sha256": "46a9267fcee560e7a2fc184590f0c02d5d59cf256b9fdacb45c0b6ff12cd1d04",
+    "sha512": "986845093ebf65715464d3ad0b11362eb15c376e900540bfd5d22f485842cd88e63bb934161938a69f9ae6db08f8930b76a05090ae36828b8c437ddfb07122aa",
+    "size": 335757022,
+    "url": "https://github.com/gluonhq/graal/releases/download/gluon-22.1.0.1-Final/graalvm-svm-java11-darwin-m1-gluon-22.1.0.1-Final.tar.gz",
+    "vendor": "gluon",
+    "version": "22.1.0.1-Final"
   },
   {
     "architecture": "aarch64",
@@ -178,6 +221,26 @@
     "url": "https://download.oracle.com/graalvm/24/archive/graalvm-jdk-24_macos-aarch64_bin.tar.gz",
     "vendor": "oracle",
     "version": "24"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "oracle-graalvm",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "graalvm-jdk-24.0.0-ea.13_macos-aarch64_bin.tar.gz",
+    "image_type": "jdk",
+    "java_version": "24+14-jvmci-b01",
+    "jvm_impl": "graalvm",
+    "md5": "483aa86a5a0efb6092fbc05da623c1c7",
+    "os": "macosx",
+    "release_type": "ea",
+    "sha1": "367187de8d5b3a7ec3a89c0b134c51d60fcc12a8",
+    "sha256": "1aa9f7deddf8f7875a94b8433666a16e223c547a65ae047b756746a43bf1dfcc",
+    "sha512": "b60b8795ef231543cdcd021d8f03a72db26ee3e22decbe0ba0047083be2ffd1104d42519358966914e9e81473124e9d1876ff490582d2a172a24e1a06b29d12c",
+    "size": 352294445,
+    "url": "https://github.com/graalvm/oracle-graalvm-ea-builds/releases/download/jdk-24.0.0-ea.13/graalvm-jdk-24.0.0-ea.13_macos-aarch64_bin.tar.gz",
+    "vendor": "oracle",
+    "version": "24.0.0-ea.13"
   },
   {
     "architecture": "aarch64",

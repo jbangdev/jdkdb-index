@@ -2,6 +2,26 @@
   {
     "architecture": "aarch64",
     "distro": "temurin",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK17U-jre_aarch64_linux_hotspot_17.0.12_7.tar.gz",
+    "image_type": "jre",
+    "java_version": "17.0.12+7",
+    "jvm_impl": "hotspot",
+    "md5": "92b2bd04ee4ff9f79e5490662448f9b4",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "a85e4327f6728933539629a921440a0e5c550d0e",
+    "sha256": "9dfe4c56463690ae67d22268980d8861eb46b907d7914f8f2e6fc7b25778c8ec",
+    "sha512": "33ab0b3bb8bb86aa4656189b8d76c93d654783df138fbf4723fa79ce5c17fae1142590d41d5d12209927d10797cdaffbfa7eb74659ed9397cdeba838a43a7212",
+    "size": 45744163,
+    "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.12%2B7/OpenJDK17U-jre_aarch64_linux_hotspot_17.0.12_7.tar.gz",
+    "vendor": "eclipse",
+    "version": "17.0.12+7"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "temurin",
     "features": [
       "musl"
     ],
@@ -1026,5 +1046,27 @@
     "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20%2B1-ea-beta/OpenJDK17U-jre_aarch64_linux_hotspot_17.0.20_1-ea.tar.gz",
     "vendor": "eclipse",
     "version": "17.0.20+1-ea-beta"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "temurin",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK17U-jre_aarch64_alpine-linux_hotspot_17.0.20_2-ea.tar.gz",
+    "image_type": "jre",
+    "java_version": "17",
+    "jvm_impl": "hotspot",
+    "md5": "ddab313ccbfa6c3fc35e8f66554b92ff",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "ee533327878ceedd49c886cfe0234bb3e7f99da2",
+    "sha256": "f5fd73325f738e735bfb5706c225c88342478e08d913d15c11cfdf148bfb640e",
+    "sha512": "f590a543a28c1b90eaa0c803d79d3ae47ddf9894ebf5b7a967d36c781c62057915412d0ae64a33735f344fdd6dd427cab5616fe79f5495438132148c173e0e65",
+    "size": 45558746,
+    "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20%2B2-ea-beta/OpenJDK17U-jre_aarch64_alpine-linux_hotspot_17.0.20_2-ea.tar.gz",
+    "vendor": "eclipse",
+    "version": "17.0.20+2-ea-beta"
   }
 ]
