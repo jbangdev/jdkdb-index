@@ -626,6 +626,28 @@
   {
     "architecture": "s390x",
     "distro": "adoptopenjdk",
+    "features": [
+      "large_heap"
+    ],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK11U-jre_s390x_linux_openj9_linuxXL_11.0.7_10_openj9-0.20.0.tar.gz",
+    "image_type": "jre",
+    "java_version": "11.0.7+10",
+    "jvm_impl": "openj9",
+    "md5": "315346e85cb05e88d0748c3a55d9eaf2",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "7f520a985541eade405b53eb8b9f174796a15e18",
+    "sha256": "4f0be306ebfc2bb6d0e5a844e73f4e65173eeaf495ec6308d8fd526cc2ba39f0",
+    "sha512": "8c57bf653c11a96b47c32ed1976d2a8cf727345e3a0d76ccba82c929334587699053ad7988384a95751b255f2ea869f338a5523aebb424f39b84f98e044758c5",
+    "size": 41028366,
+    "url": "https://github.com/AdoptOpenJDK/openjdk11-binaries/releases/download/jdk-11.0.7%2B10_openj9-0.20.0/OpenJDK11U-jre_s390x_linux_openj9_linuxXL_11.0.7_10_openj9-0.20.0.tar.gz",
+    "vendor": "adoptopenjdk",
+    "version": "11.0.7+10.1.openj9-0.20.0"
+  },
+  {
+    "architecture": "s390x",
+    "distro": "adoptopenjdk",
     "features": [],
     "file_type": "tar.gz",
     "filename": "OpenJDK11U-jre_s390x_linux_openj9_11.0.9_11_openj9-0.23.0.tar.gz",
@@ -1206,6 +1228,26 @@
     "url": "https://github.com/AdoptOpenJDK/openjdk15-binaries/releases/download/jdk-15.0.2%2B7_openj9-0.24.0/OpenJDK15U-jre_s390x_linux_openj9_linuxXL_15.0.2_7_openj9-0.24.0.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "15.0.2+7.openj9-0.24.0"
+  },
+  {
+    "architecture": "s390x",
+    "distro": "semeru",
+    "features": [],
+    "file_type": "rpm",
+    "filename": "ibm-semeru-open-17-jre-17.0.3.7_0.32.0-1.s390x.rpm",
+    "image_type": "jre",
+    "java_version": "17.0.3+7",
+    "jvm_impl": "openj9",
+    "md5": "5d1dd7a0a891c523c4db5d03c55ca444",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "db8c1219080cf6ba120868f12df056956ef0f0c4",
+    "sha256": "4581e00b0f401b7bb75e19b49fcc02c5d850f90af9c45c06cad39e72dc3ca43b",
+    "sha512": "c27eff7ee83afb43deb330ad64d0b76065c0c52bdca84c5e6e2af41830e6ae16d69e11791b0a0723608039913495f80e88f6ac89af36a1df6a4735068ef7cc11",
+    "size": 26292608,
+    "url": "https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.3+7_openj9-0.32.0/ibm-semeru-open-17-jre-17.0.3.7_0.32.0-1.s390x.rpm",
+    "vendor": "ibm",
+    "version": "17.0.3+7_openj9-0.32.0"
   },
   {
     "architecture": "s390x",

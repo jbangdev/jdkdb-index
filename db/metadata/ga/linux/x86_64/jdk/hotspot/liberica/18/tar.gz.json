@@ -3,6 +3,28 @@
     "architecture": "x86_64",
     "distro": "liberica",
     "features": [
+      "lite"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jdk18.0.1.1+2-linux-amd64-lite.tar.gz",
+    "image_type": "jdk",
+    "java_version": "18.0.1.1+2",
+    "jvm_impl": "hotspot",
+    "md5": "e3c4ca43be347439bbd348b3333e6d7e",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "864ac2bc0133c1c0bcd29708212bea4b326baba2",
+    "sha256": "1c091fd60e32d2f59ac2a90cc8aa866ef74ed367152dfc936199050653eb63bd",
+    "sha512": "ce62737d009aefb44fe027edf6c9acaf4108ba3629802f98aea2b9eb33a3e8e66e01bac2f504267ad23fa447207062f226f6fda733cde74e84b8ab4f1dac15d1",
+    "size": 72053777,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.1.1+2/bellsoft-jdk18.0.1.1+2-linux-amd64-lite.tar.gz",
+    "vendor": "bellsoft",
+    "version": "18.0.1.1+2"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
       "libericafx",
       "minimal-vm",
       "javafx"

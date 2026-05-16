@@ -7385,6 +7385,29 @@
     "architecture": "arm32",
     "distro": "debian",
     "features": [
+      "headless",
+      "soft-float"
+    ],
+    "file_type": "deb",
+    "filename": "openjdk-17-jdk-headless_17.0.19+10-1~deb12u1_armel.deb",
+    "image_type": "jdk",
+    "java_version": "17.0.19+10",
+    "jvm_impl": "hotspot",
+    "md5": "e7c92d9719d38d4843f7478551c0d442",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "5bafe65f1716634960770b771e891911b2bb8c5c",
+    "sha256": "4fa0cc7b1bda486e0ddb739de041946de4b9e66d263e00c0590d389a311bbff1",
+    "sha512": "ee740b1b88fdce675d6076a148ac09b6599167f2271518a70b37c4282906611126f60e61ad62dc91e8d39f10bad4e6f5f52b0e219d24debfdbf121cd38024909",
+    "size": 63681488,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-17/openjdk-17-jdk-headless_17.0.19+10-1~deb12u1_armel.deb",
+    "vendor": "debian",
+    "version": "17.0.19+10-1~deb12u1"
+  },
+  {
+    "architecture": "arm32",
+    "distro": "debian",
+    "features": [
       "soft-float"
     ],
     "file_type": "deb",
@@ -7422,6 +7445,28 @@
     "sha512": "36996473417e18a32d0e8ccb9b16ad46883eac5f7a9973bcfbb20d7c3e4e64e5228edddd29d451f159821b18fdf584a9a09f0fe0c920c0e50ccb9ef366496952",
     "size": 33128828,
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-17/openjdk-17-jre-headless_17.0.19+10-1~deb12u1_mips64el.deb",
+    "vendor": "debian",
+    "version": "17.0.19+10-1~deb12u1"
+  },
+  {
+    "architecture": "mipsel",
+    "distro": "debian",
+    "features": [
+      "headless"
+    ],
+    "file_type": "deb",
+    "filename": "openjdk-17-jre-headless_17.0.19+10-1~deb12u1_mipsel.deb",
+    "image_type": "jre",
+    "java_version": "17.0.19+10-1-deb12u1-Debian",
+    "jvm_impl": "hotspot",
+    "md5": "b302d65cb3859298bdd4dc5fb8ef64d1",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "283212fb8ddd42866d37254db59d0f8bf5e6b6d0",
+    "sha256": "2a9e8cc526638872a25266b1bd4f8b32e2429ac6245b86a01ece5a778a6cbf56",
+    "sha512": "38f655cd82f7db794b6ba3b8f5ff7c8baae0e851fc47de599380fbe8bbf98be242d68c5df857aa98f42bc73650a9da45ac842652ae929c1c4ab104fc500b3d92",
+    "size": 33054036,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-17/openjdk-17-jre-headless_17.0.19+10-1~deb12u1_mipsel.deb",
     "vendor": "debian",
     "version": "17.0.19+10-1~deb12u1"
   },

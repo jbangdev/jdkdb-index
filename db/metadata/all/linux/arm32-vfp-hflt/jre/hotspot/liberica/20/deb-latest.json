@@ -2,21 +2,25 @@
   {
     "architecture": "arm32-vfp-hflt",
     "distro": "liberica",
-    "features": [],
+    "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
     "file_type": "deb",
-    "filename": "bellsoft-jre20.0.2+10-linux-arm32-vfp-hflt.deb",
+    "filename": "bellsoft-jre20+37-linux-arm32-vfp-hflt-full.deb",
     "image_type": "jre",
-    "java_version": "20.0.2+10",
+    "java_version": "20+37",
     "jvm_impl": "hotspot",
-    "md5": "0cf9ed5d376975e668aa70a5951c437b",
+    "md5": "1a69d30473a90798011b09750e559aed",
     "os": "linux",
     "release_type": "ga",
-    "sha1": "55e50e95279f63c7e5a61c429b72a64f8d914a07",
-    "sha256": "2bdb9db583f27d914466ff8200e55b983ab462d668e5451d187bb4f0385816a8",
-    "sha512": "897fc8cd04658b629a12744b95c90c623af5554787d36db864eb89279b5bee34a141490b014242652f2257850a177745793a69e1067776a222269a25a67fe095",
-    "size": 26582920,
-    "url": "https://github.com/bell-sw/Liberica/releases/download/20.0.2+10/bellsoft-jre20.0.2+10-linux-arm32-vfp-hflt.deb",
+    "sha1": "6e9d041b77f61963c1492e389ac82b7bef26982a",
+    "sha256": "c8863aae8680929c667d63b8d779f0e8a986554da2b8d541074274e574dfb377",
+    "sha512": "79142bdc029ac107be34aaf58e3eff520dad474c647b73bb16ddab34cf70d349f8a934375c8931807610be40c2af66d84cae40ab8a820c860e84d23c2052fc82",
+    "size": 30025004,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/20+37/bellsoft-jre20+37-linux-arm32-vfp-hflt-full.deb",
     "vendor": "bellsoft",
-    "version": "20.0.2+10"
+    "version": "20+37"
   }
 ]
