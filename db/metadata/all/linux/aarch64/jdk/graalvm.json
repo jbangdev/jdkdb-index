@@ -1,6 +1,26 @@
 [
   {
     "architecture": "aarch64",
+    "distro": "graalvm",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "graalvm-ce-java11-linux-aarch64-19.3.1.tar.gz",
+    "image_type": "jdk",
+    "java_version": "11",
+    "jvm_impl": "graalvm",
+    "md5": "137e94960dc8f50c4ea9ab9e053c5b83",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "8fce5e54471d22eaac2de600854eebeb270fa3ad",
+    "sha256": "5c774ec6158ddf3c66488e6b6c6fe6db4e244f0eac08d2b48804cc2ec74845e0",
+    "sha512": "0f9022a075d7ab6e2da5692f7c1bef5ca936f688e3a5a72a5b997acae0cc676a0a9d05ef2234438a8ad65f3528f81ca81598c47c8bbcee2283e41d5610745630",
+    "size": 438202800,
+    "url": "https://github.com/graalvm/graalvm-ce-builds/releases/download/vm-19.3.1/graalvm-ce-java11-linux-aarch64-19.3.1.tar.gz",
+    "vendor": "oracle",
+    "version": "19.3.1+java11"
+  },
+  {
+    "architecture": "aarch64",
     "distro": "graalvm-community",
     "features": [],
     "file_type": "tar.gz",
@@ -98,6 +118,26 @@
     "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-21.3.5.1-Final/mandrel-java11-linux-aarch64-21.3.5.1-Final.tar.gz",
     "vendor": "redhat",
     "version": "21.3.5.1-Final+java11"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "oracle-graalvm",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "graalvm-jdk-22.0.0-ea.06_linux-aarch64_bin.tar.gz",
+    "image_type": "jdk",
+    "java_version": "22+36-jvmci-b01",
+    "jvm_impl": "graalvm",
+    "md5": "bd5f71ce40502e8fd6b4e1fa53e768d3",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "aca40a54208bb807f7d94d7ef0a728fc87d45a7c",
+    "sha256": "b91436999940e6bdedc9db19e1e61124f2c7171788b3f2e1574c7b76ef3f1b23",
+    "sha512": "faca886ba7cd163e8b47f6d21e18c5af241483d3a43386f9a3ed13682dac43b1fb848a9091afcfa3f3e3b87268fdcbd257dd744d0992e2f4e7a7a1f7060ee975",
+    "size": 338430121,
+    "url": "https://github.com/graalvm/oracle-graalvm-ea-builds/releases/download/jdk-22.0.0-ea.06/graalvm-jdk-22.0.0-ea.06_linux-aarch64_bin.tar.gz",
+    "vendor": "oracle",
+    "version": "22.0.0-ea.06"
   },
   {
     "architecture": "aarch64",

@@ -43,6 +43,28 @@
     "architecture": "aarch64",
     "distro": "liberica",
     "features": [
+      "lite"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jdk21.0.8+12-macos-aarch64-lite.tar.gz",
+    "image_type": "jdk",
+    "java_version": "21.0.8+12-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "141f70bf8228fa631a948bd9c5937e00",
+    "os": "macosx",
+    "release_type": "ga",
+    "sha1": "e431f6feffa316bf8a245c6a4186cd615f4cace3",
+    "sha256": "bfbb62979395c45b238c294e84d0b62d49275347119da54986ae4e925a7d1f71",
+    "sha512": "d6ef0f4ba638ec4cf4d8e8f6458967659d054e7d00c374981d0025567bbd799c8d82f1b70c395a9ae4c3b46ee55558b051a860b81c5d22cb3485236aaabca8a3",
+    "size": 75933200,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.8+12/bellsoft-jdk21.0.8+12-macos-aarch64-lite.tar.gz",
+    "vendor": "bellsoft",
+    "version": "21.0.8+12"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "liberica",
+    "features": [
       "libericafx",
       "minimal-vm",
       "javafx"

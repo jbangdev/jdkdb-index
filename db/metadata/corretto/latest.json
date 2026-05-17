@@ -1,25 +1,5 @@
 [
   {
-    "architecture": "x86_64",
-    "distro": "corretto",
-    "features": [],
-    "file_type": "zip",
-    "filename": "amazon-corretto-8.332.08.1-windows-x64-jdk.zip",
-    "image_type": "jdk",
-    "java_version": "8.332.08.1",
-    "jvm_impl": "hotspot",
-    "md5": "6836a934c549da475558469531c0dbd2",
-    "os": "windows",
-    "release_type": "ga",
-    "sha1": "3c437f812f5b0cb9b32d5cfa18aa5ae1ee0a8e43",
-    "sha256": "5d8bcd9d7c2d028a90fa6f0c518fe49d7b83707ddbb651233932bf3f000e309a",
-    "sha512": "7df8022b69dc5cb27ffcfe3037f158983fb2c4b5378fcafe8a2e523d4989e2d43608c8625688fdbfac14645b7e1b38306d6f93d8b2e7658944306576a0b18e4c",
-    "size": 122435189,
-    "url": "https://corretto.aws/downloads/resources/8.332.08.1/amazon-corretto-8.332.08.1-windows-x64-jdk.zip",
-    "vendor": "amazon",
-    "version": "8.332.08.1"
-  },
-  {
     "architecture": "i686",
     "distro": "corretto",
     "features": [],
@@ -58,6 +38,26 @@
     "url": "https://corretto.aws/downloads/resources/8.372.07.1/amazon-corretto-8.372.07.1-windows-x86-jdk.zip",
     "vendor": "amazon",
     "version": "8.372.07.1"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "corretto",
+    "features": [],
+    "file_type": "zip",
+    "filename": "amazon-corretto-8.412.08.1-windows-x64-jdk.zip",
+    "image_type": "jdk",
+    "java_version": "8.412.08.1",
+    "jvm_impl": "hotspot",
+    "md5": "c7609c5c8b49f4399bf7c57d2ba93433",
+    "os": "windows",
+    "release_type": "ga",
+    "sha1": "725c370f759a05982e069fe85dff9665fb9b251d",
+    "sha256": "ac7a2c1020b18c74c0155efac525b36827468e95bf343a721e12027066c16633",
+    "sha512": "899966c57a5f605be55266fd2207381e92a4f4d1e61b58ab3006ddf8cf900c5a960735f9b8f9132724fe0cd451b63e555824c3640bc63a93c184e25958a6c003",
+    "size": 121863124,
+    "url": "https://corretto.aws/downloads/resources/8.412.08.1/amazon-corretto-8.412.08.1-windows-x64-jdk.zip",
+    "vendor": "amazon",
+    "version": "8.412.08.1"
   },
   {
     "architecture": "x86_64",
@@ -966,6 +966,28 @@
     "version": "22.0.0.34.1"
   },
   {
+    "architecture": "x86_64",
+    "distro": "corretto",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "amazon-corretto-22.0.0.36.1-alpine-linux-x64.tar.gz",
+    "image_type": "jdk",
+    "java_version": "22.0.0.36.1",
+    "jvm_impl": "hotspot",
+    "md5": "762e3795ab4fcd85443079790a2a8344",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "60102119c0b6326ca7f7faf3d3542838e67791de",
+    "sha256": "ed54869922183e5972e8a522a08a536c4a5aa524dfd76191327c564c8455e1a4",
+    "sha512": "3e92303045f0d25e7134f796b3303779be359fd22ea000f5d743cdf248024f826ccaf2f790b6cb2a76960f894a405f5999d628ca917ddaacb4234740afde4578",
+    "size": 207849219,
+    "url": "https://corretto.aws/downloads/resources/22.0.0.36.1/amazon-corretto-22.0.0.36.1-alpine-linux-x64.tar.gz",
+    "vendor": "amazon",
+    "version": "22.0.0.36.1"
+  },
+  {
     "architecture": "aarch64",
     "distro": "corretto",
     "features": [],
@@ -1004,6 +1026,26 @@
     "url": "https://corretto.aws/downloads/resources/22.0.1.8.1/amazon-corretto-22.0.1.8.1-windows-x64-jdk.zip",
     "vendor": "amazon",
     "version": "22.0.1.8.1"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "corretto",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "amazon-corretto-22.0.2.9.1-macosx-x64.tar.gz",
+    "image_type": "jdk",
+    "java_version": "22.0.2+9-FR",
+    "jvm_impl": "hotspot",
+    "md5": "e6514c3e830a77dffe650201d83c9887",
+    "os": "macosx",
+    "release_type": "ga",
+    "sha1": "6b4f6e7ca8265b15513bc38afa4e7b4e3bbb118a",
+    "sha256": "7fd8b2d3ad623bb63a4b4f1d86ed0e8f87b6ff2b9a54fdb2004a5718c25fd857",
+    "sha512": "6f184650e7a11cdc64386d130e40ff48ecd7f24c29b6f315c4c4420b635c3fe24c9ccf7c36c731da38e52b9d0f0fc767670bee5eacb337b90d46d001404d223c",
+    "size": 201339903,
+    "url": "https://corretto.aws/downloads/resources/22.0.2.9.1/amazon-corretto-22.0.2.9.1-macosx-x64.tar.gz",
+    "vendor": "amazon",
+    "version": "22.0.2.9.1"
   },
   {
     "architecture": "aarch64",

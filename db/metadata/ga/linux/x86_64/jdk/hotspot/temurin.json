@@ -232,6 +232,28 @@
   {
     "architecture": "x86_64",
     "distro": "temurin",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK17U-jdk_x64_alpine-linux_hotspot_17.0.7_7.tar.gz",
+    "image_type": "jdk",
+    "java_version": "17.0.7+7",
+    "jvm_impl": "hotspot",
+    "md5": "7b94d2301932ef2cbf6946a70779fce9",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "5283d97bbbb775b9ac53beb434e7a1c3ff5076f5",
+    "sha256": "b6edac2fa669876ef16b4895b36b61d01066626e7a69feba2acc19760c8d18cb",
+    "sha512": "5d2471622431df23cdea7aff7a1b559e473044dff801c5f46554bd5da14b91a4e1544d19e230ef70e1886677c5e0dde2610a59229a67f65ee480df2e94d33dbd",
+    "size": 190962441,
+    "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.7%2B7/OpenJDK17U-jdk_x64_alpine-linux_hotspot_17.0.7_7.tar.gz",
+    "vendor": "eclipse",
+    "version": "17.0.7+7"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "temurin",
     "features": [],
     "file_type": "tar.gz",
     "filename": "OpenJDK17U-jdk_x64_linux_hotspot_17.0.7_7.tar.gz",
@@ -352,6 +374,26 @@
     "url": "https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18.0.2.1%2B1/OpenJDK18U-jdk_x64_linux_hotspot_18.0.2.1_1.tar.gz",
     "vendor": "eclipse",
     "version": "18.0.2+101"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "temurin",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK21U-jdk_x64_linux_hotspot_21.0.2_13.tar.gz",
+    "image_type": "jdk",
+    "java_version": "21.0.2+13-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "af3215487be50354d05a09e347cba89f",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "b0ca320ae3a1e8e784509c4335abd1ef3010ffb5",
+    "sha256": "454bebb2c9fe48d981341461ffb6bf1017c7b7c6e15c6b0c29b959194ba3aaa5",
+    "sha512": "691ec4d447933c59696944cdb5d5de86fc1332b2c730dc6624f546c0d30456cb3583d53f38d7531f69195e807092c1d03d923d73d5e6883185cae935db1ed7ce",
+    "size": 208796351,
+    "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.2%2B13/OpenJDK21U-jdk_x64_linux_hotspot_21.0.2_13.tar.gz",
+    "vendor": "eclipse",
+    "version": "21.0.2+13.0.LTS"
   },
   {
     "architecture": "x86_64",

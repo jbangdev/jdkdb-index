@@ -818,6 +818,28 @@
   {
     "architecture": "aarch64",
     "distro": "temurin",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK8U-jre_aarch64_alpine-linux_hotspot_8u502b01-ea.tar.gz",
+    "image_type": "jre",
+    "java_version": "1.8.0_502-beta-202605150921-b01",
+    "jvm_impl": "hotspot",
+    "md5": "29ac6a18972ec2ec5e402e274e0f024e",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "620c2d8c13f6d57a360830a4df2a8efacbfbbba0",
+    "sha256": "53caa2bc2368f38add8d35535592db6ef97e30b976e78303762f9ed5dc3ba030",
+    "sha512": "442e8b97a450de550e3cb92b0b52c47f40fc8d54224f0d4b4c606899139a0559d6a02b8b71cff3b33c56d9b6e98ea4141cb4d21e3d57df37ead690ed56fe46d5",
+    "size": 41450678,
+    "url": "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u502-b01-ea-beta/OpenJDK8U-jre_aarch64_alpine-linux_hotspot_8u502b01-ea.tar.gz",
+    "vendor": "eclipse",
+    "version": "8u502-b01-ea-beta"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "temurin",
     "features": [],
     "file_type": "tar.gz",
     "filename": "OpenJDK8U-jre_aarch64_linux_hotspot_8u402b06.tar.gz",
@@ -854,5 +876,25 @@
     "url": "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u422-b05/OpenJDK8U-jre_aarch64_linux_hotspot_8u422b05.tar.gz",
     "vendor": "eclipse",
     "version": "8.0.422+5"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "temurin",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK8U-jre_aarch64_linux_hotspot_8u462b08.tar.gz",
+    "image_type": "jre",
+    "java_version": "1.8.0_462-b08",
+    "jvm_impl": "hotspot",
+    "md5": "f47cb3b0a4e3e86d5f88ab821a1f7e44",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "e3ebe0da7a82d7ca9afb5e5e6729ae8a23ba10ad",
+    "sha256": "c34506736ab52768c59660a5d4246b94f57543c79b7e4b53d322dda3ec4a9302",
+    "sha512": "72c5697b81a314912e8afe4986f20ab77504102b4a9716b8233fa254d427bf30188d36b17e1d68a68db5493dabf6b1e0c7c444915c8065590e9b24cbd2e2ff2c",
+    "size": 40421920,
+    "url": "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u462-b08/OpenJDK8U-jre_aarch64_linux_hotspot_8u462b08.tar.gz",
+    "vendor": "eclipse",
+    "version": "8.0.462+8"
   }
 ]

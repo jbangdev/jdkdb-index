@@ -286,6 +286,28 @@
     "architecture": "x86_64",
     "distro": "liberica",
     "features": [
+      "musl"
+    ],
+    "file_type": "apk",
+    "filename": "bellsoft-jdk8u312+7-linux-x64-musl.apk",
+    "image_type": "jdk",
+    "java_version": "1.8.0_312",
+    "jvm_impl": "hotspot",
+    "md5": "5e56a5d7bcfcfb6bb9e55557fd6c59fd",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "b6372ed1d6ed075483774efe39161f38570c2f23",
+    "sha256": "7d3dcb94342d55d62ea66b1f15ab12a4ed1d4c021ede8498cfd4b5d894a0fcea",
+    "sha512": "1f6999ec444122c1b184bdc94cf6fda81133ef5bb96a49b3707d9fe2a40a0e48248f361c2a8b49d5b1bc58dda44aec8c0dbf59e465ec7df03038ace54419b888",
+    "size": 104747724,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/8u312+7/bellsoft-jdk8u312+7-linux-x64-musl.apk",
+    "vendor": "bellsoft",
+    "version": "8u312+7"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
       "libericafx",
       "minimal-vm",
       "javafx"
@@ -1038,6 +1060,28 @@
   {
     "architecture": "x86_64",
     "distro": "liberica",
+    "features": [
+      "lite"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jdk8u472+9-linux-amd64-lite.tar.gz",
+    "image_type": "jdk",
+    "java_version": "1.8.0_472",
+    "jvm_impl": "hotspot",
+    "md5": "01fa5e4af4b14e53e44d765a1b4032b6",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "8d2bbbada6a1026511ab02988159483420213f3d",
+    "sha256": "3179f1735b8244a6417da8cfc43aae45667cf920eb1ca1a316cd8784ed737021",
+    "sha512": "42419e45f0bef90bb61712dd125f6df5869828d2dedc0a96190f631e09c68b898b74f31a1851d90fc2bf67a538fe2518ca21a9bf40acb01fc8d2a8aebfcf8615",
+    "size": 54128382,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/8u472+9/bellsoft-jdk8u472+9-linux-amd64-lite.tar.gz",
+    "vendor": "bellsoft",
+    "version": "8u472+9"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
     "features": [],
     "file_type": "rpm",
     "filename": "bellsoft-jdk8u472+9-linux-amd64.rpm",
@@ -1259,6 +1303,28 @@
     "architecture": "x86_64",
     "distro": "liberica",
     "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jdk11.0.7+10-linux-x64-musl.tar.gz",
+    "image_type": "jdk",
+    "java_version": "11.0.7+10",
+    "jvm_impl": "hotspot",
+    "md5": "b327064d5b9d519e97d1a85d4217f0ff",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "8f43e5cf7e148157473e62572d2cb71081762aa1",
+    "sha256": "19084deec9a49df456a135cccd3735dfbaaf3996ec0cd9f7232ecfae46e4c322",
+    "sha512": "eaf6e1444d5073cf309644f77f4f52137c4c1725bfaa698f4b7035d9382451ffab98b133d950faf10c6b913ef5fe8b97df9103eedf4fae953795cddf3139e4e7",
+    "size": 203798151,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.7+10/bellsoft-jdk11.0.7+10-linux-x64-musl.tar.gz",
+    "vendor": "bellsoft",
+    "version": "11.0.7+10"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
       "lite"
     ],
     "file_type": "deb",
@@ -1340,6 +1406,30 @@
     "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.9+12/bellsoft-jdk11.0.9+12-linux-amd64.tar.gz",
     "vendor": "bellsoft",
     "version": "11.0.9+12"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
+    "file_type": "rpm",
+    "filename": "bellsoft-jdk11.0.10+9-linux-amd64-full.rpm",
+    "image_type": "jdk",
+    "java_version": "11.0.10+9",
+    "jvm_impl": "hotspot",
+    "md5": "5dc7f5b9fc61b72092489038e37dc592",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "b1e1a26c702530f76cb48f65acba5d3a41b1c791",
+    "sha256": "f6d22e849571c90ab7fdf26d894b46487bd59b0ce9e6a6fe848ca89d0526869c",
+    "sha512": "be51e66eb204d8dd4ee8de3ee84c09fe1ac6d94b9ee13d0fa0a0ee3672777abfe6f1213f26a6028eef5805e1c19e5707804f3ba42893cc5223c2b6b7ea3c3c02",
+    "size": 271224960,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.10+9/bellsoft-jdk11.0.10+9-linux-amd64-full.rpm",
+    "vendor": "bellsoft",
+    "version": "11.0.10+9"
   },
   {
     "architecture": "x86_64",
@@ -1586,6 +1676,28 @@
   {
     "architecture": "x86_64",
     "distro": "liberica",
+    "features": [
+      "lite"
+    ],
+    "file_type": "rpm",
+    "filename": "bellsoft-jdk11.0.15.1+2-linux-amd64-lite.rpm",
+    "image_type": "jdk",
+    "java_version": "11.0.15.1+2",
+    "jvm_impl": "hotspot",
+    "md5": "391a4a5c3203f137902e3eaf36912577",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "2ceff52e53bd4239233d928a35942711e4e2c523",
+    "sha256": "2603a5184d377f6ebf68c584824a9b73bde2fca63c25c49edc12b685eaf0390d",
+    "sha512": "488f27d209cd35033db246ebe336c43806fea270a4acd4b7f0cd45f0c4ed49744b76cd70bbc6dd36be309592ed039fcd4f2cc7345ad88ae7ed1144fcbbb37349",
+    "size": 71406508,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jdk11.0.15.1+2-linux-amd64-lite.rpm",
+    "vendor": "bellsoft",
+    "version": "11.0.15.1+2"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
     "features": [],
     "file_type": "tar.gz",
     "filename": "bellsoft-jdk11.0.15.1+2-linux-amd64.tar.gz",
@@ -1738,6 +1850,28 @@
     "sha512": "5657ca59f3a88704e20e5c735c53a218df307dd3ccffdbbaf91fcf67563195a257c5ef3ad65a99b0d28d9dbe92c4eee0e673d6b87ab09e6f32be04e7f33cc571",
     "size": 272446588,
     "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.17+7/bellsoft-jdk11.0.17+7-linux-amd64-full.deb",
+    "vendor": "bellsoft",
+    "version": "11.0.17+7"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
+      "lite"
+    ],
+    "file_type": "rpm",
+    "filename": "bellsoft-jdk11.0.17+7-linux-amd64-lite.rpm",
+    "image_type": "jdk",
+    "java_version": "11.0.17+7",
+    "jvm_impl": "hotspot",
+    "md5": "160949053380320465995ba183d68c6d",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "9e0fb03ef06fcd3ab04579372c0413d2dd36ce65",
+    "sha256": "60d75ded886df35933e2dc6aceaf6fb4f2e6af599fde88966c6e8125505020c8",
+    "sha512": "7c22b2e4a0e8c73c0cb68530628d8a427661c92c2184739ec46b2e3527b4726172095f51a5e9fec078e6af4e545ebc69977de02f7eae9cc228939e6b72dbe6db",
+    "size": 71605532,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.17+7/bellsoft-jdk11.0.17+7-linux-amd64-lite.rpm",
     "vendor": "bellsoft",
     "version": "11.0.17+7"
   },
@@ -2152,6 +2286,26 @@
   {
     "architecture": "x86_64",
     "distro": "liberica",
+    "features": [],
+    "file_type": "rpm",
+    "filename": "bellsoft-jdk11.0.25+11-linux-amd64.rpm",
+    "image_type": "jdk",
+    "java_version": "11.0.25+11-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "7236f6d6d203ed73da82885a1fa09ea5",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "0284ba3b216c1ec71897811341dbdef9360532dc",
+    "sha256": "34a54a2b0702367e05b3cec1b4f73fc3433c30785030bb171b7967b64c77ffc0",
+    "sha512": "f30aa9c235f2006b8525bcacfc8cdf653306ca7ef13a2e4c3455b008e8c946c3ba0f50d15be3ff1275ce1b5c89ef464a6f8951f83531a77fe1f953e76aa3bf88",
+    "size": 193566812,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.25+11/bellsoft-jdk11.0.25+11-linux-amd64.rpm",
+    "vendor": "bellsoft",
+    "version": "11.0.25+11"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
     "features": [
       "musl"
     ],
@@ -2332,6 +2486,28 @@
     "features": [
       "musl"
     ],
+    "file_type": "apk",
+    "filename": "bellsoft-jdk11.0.29+12-linux-x64-musl.apk",
+    "image_type": "jdk",
+    "java_version": "11.0.29+12-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "fe8bfae3350f1d5f643631e835ae302b",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "7c3bb57a76dea5d3fc71f7f0fd6b8a8c4605158c",
+    "sha256": "40da118cdc7387e8d0a50ac1242e32839a4b794edbe1c6492abebc727c6ca141",
+    "sha512": "85b0a68e374bf260e4e8a1c2fc264a4752ee09f867105a846924aeb9461bba25f6137b7eca7f046c073d66115aa1cfa18214eb50d8b398d0de0e1be3a5992ecd",
+    "size": 214072743,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.29+12/bellsoft-jdk11.0.29+12-linux-x64-musl.apk",
+    "vendor": "bellsoft",
+    "version": "11.0.29+12"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
+      "musl"
+    ],
     "file_type": "tar.gz",
     "filename": "bellsoft-jdk11.0.30+9-linux-x64-musl.tar.gz",
     "image_type": "jdk",
@@ -2454,6 +2630,28 @@
     "url": "https://github.com/bell-sw/Liberica/releases/download/12.0.2/bellsoft-jdk12.0.2-linux-x64-musl-lite.tar.gz",
     "vendor": "bellsoft",
     "version": "12.0.2"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
+      "lite"
+    ],
+    "file_type": "rpm",
+    "filename": "bellsoft-jdk13-linux-amd64-lite.rpm",
+    "image_type": "jdk",
+    "java_version": "13",
+    "jvm_impl": "hotspot",
+    "md5": "8e36a5e3793b7de251e8707c701e715b",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "e155e096649b85374594cfa3a05b7d810139b83b",
+    "sha256": "0104f80375b9af5899a51666ac9c01eff67bfefea2cc12e48948b1b007f115c7",
+    "sha512": "b059bc5f6afa2646287478137a644657926f8da3ab2a81a2b6946677bd0e3791bac62dca73bcdc5b12855df72c02c5d3fac231cba3bb887708d2b8a3888b2041",
+    "size": 75613224,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/13/bellsoft-jdk13-linux-amd64-lite.rpm",
+    "vendor": "bellsoft",
+    "version": "13"
   },
   {
     "architecture": "x86_64",
@@ -2652,6 +2850,26 @@
     "sha512": "ccf738e03e95b35cce7f2d176d67f2c496160c54d5e2b57e498cef14533869a69d33e915f4b53482578563dbf2b5813cec0410a1f1fdb8d0b3bb75130784ed19",
     "size": 308741452,
     "url": "https://github.com/bell-sw/Liberica/releases/download/15.0.2+10/bellsoft-jdk15.0.2+10-linux-amd64-full.tar.gz",
+    "vendor": "bellsoft",
+    "version": "15.0.2+10"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [],
+    "file_type": "deb",
+    "filename": "bellsoft-jdk15.0.2+10-linux-amd64.deb",
+    "image_type": "jdk",
+    "java_version": "15.0.2+10",
+    "jvm_impl": "hotspot",
+    "md5": "9c042c9cb2a6739ace5b8b1252338250",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "dc0cb621412739800f8f74dc0e321f50276ef5b1",
+    "sha256": "20e2891954c74b8711a16302244959ded286005e71cf0ed8bfda285cffd8c3d0",
+    "sha512": "e438b471c00552e69cacd064df5ac3eaaee81cbb538803d06798b6e9d45c87ca4c112ce7aee03f54fc298631e24fb2bf405be273e70f70bbabc81505ae9c1ecc",
+    "size": 185615004,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/15.0.2+10/bellsoft-jdk15.0.2+10-linux-amd64.deb",
     "vendor": "bellsoft",
     "version": "15.0.2+10"
   },
@@ -2869,6 +3087,26 @@
     "sha512": "3cdbdb0dfbc821c582d1d74302f307787d34bfa3cff996fcaaa3ecb4854be70c89a828e4e4627a15b728510437a700da86dfc27cbe26ea4a48e68e547655455f",
     "size": 71418014,
     "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.1+12/bellsoft-jdk17.0.1+12-linux-amd64-lite.tar.gz",
+    "vendor": "bellsoft",
+    "version": "17.0.1+12"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [],
+    "file_type": "rpm",
+    "filename": "bellsoft-jdk17.0.1+12-linux-amd64.rpm",
+    "image_type": "jdk",
+    "java_version": "17.0.1+12",
+    "jvm_impl": "hotspot",
+    "md5": "3ad618b68774c887304277544c75d862",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "1f5f34751d842496e9f68948c50a12ce1ae49e0f",
+    "sha256": "1c8e1a2790d08dc651fdb3e7590bf0d4c2f2058bc09afd5539498f09517c136a",
+    "sha512": "d72a5ad51f97c000c874d09f3954896d0e180a51b99b88a45d51b132bd4062ca8992bb784bd1f6e4152561363d3cbd00dc1b0e1f0adc822e3d95c61c123ae767",
+    "size": 185422128,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.1+12/bellsoft-jdk17.0.1+12-linux-amd64.rpm",
     "vendor": "bellsoft",
     "version": "17.0.1+12"
   },
@@ -3323,6 +3561,30 @@
     "architecture": "x86_64",
     "distro": "liberica",
     "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
+    "file_type": "rpm",
+    "filename": "bellsoft-jdk17.0.9+11-linux-amd64-full.rpm",
+    "image_type": "jdk",
+    "java_version": "17.0.9+11-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "53a68aa8fd3679446e536cc2d3e33275",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "d79e5e4760f487cdce16869fcc69e18d00ffa733",
+    "sha256": "266632f71832929086629266c415f6f999039256182527c3c00481ef22549f5f",
+    "sha512": "0d93ede269ea5c8a30c4b68a536595413fbda8632f56426d13e3a6c043c01492d3246a5b6cb679be03356e83d91bbb243505e97452d1ab85b4534e0f5430ca8f",
+    "size": 283467204,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.9+11/bellsoft-jdk17.0.9+11-linux-amd64-full.rpm",
+    "vendor": "bellsoft",
+    "version": "17.0.9+11"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
       "crac"
     ],
     "file_type": "rpm",
@@ -3386,6 +3648,28 @@
     "sha512": "a3a9eaddcc8c2f94e65c13c822ee33185a4a6dc1900360d6146dea2237ea1e585c3b1f2fe3a146c3c8119189b66f32447196a306325539390e0630c7cba2630f",
     "size": 323921243,
     "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.10+13/bellsoft-jdk17.0.10+13-linux-amd64-full.tar.gz",
+    "vendor": "bellsoft",
+    "version": "17.0.10+13"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
+      "lite"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jdk17.0.10+13-linux-amd64-lite.tar.gz",
+    "image_type": "jdk",
+    "java_version": "17.0.10+13-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "29e11233292ac1f415f48561799ae174",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "82f05e1b96af648bed10099d44fabe42ca970ce0",
+    "sha256": "3374d7fa2d5761eb68e9f11432b6e069c30749221b8ce676289cdfefe8e470a6",
+    "sha512": "01fcf787f104c89df1c7867681d893d9fab448d256cc874538a3edd6c343fb0ed152e8247a4e241f956740058440ee5d6e73ae7e0c04c46a624b3ebf6de169d0",
+    "size": 71647392,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.10+13/bellsoft-jdk17.0.10+13-linux-amd64-lite.tar.gz",
     "vendor": "bellsoft",
     "version": "17.0.10+13"
   },
@@ -3781,6 +4065,28 @@
     "sha512": "d3b749e8d3b0e280764d267b883a549c9686b370a54f3c75aabc2ce3493173b8e876d85cb006616ccf7448cac4e866d68561926d42f52789002cc525c401256e",
     "size": 285952168,
     "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.15+10/bellsoft-jdk17.0.15+10-linux-amd64-full.deb",
+    "vendor": "bellsoft",
+    "version": "17.0.15+10"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
+      "lite"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jdk17.0.15+10-linux-amd64-lite.tar.gz",
+    "image_type": "jdk",
+    "java_version": "17.0.15+10-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "08c01586546eebd25d91e52d2f6579b3",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "1c9bf1b72c7fd6519cd9d33f8da7a17115e61c7c",
+    "sha256": "952dc1f46044f4c7c4eebc56571dbaa993fb217dd157708d862a2d07a3735ef6",
+    "sha512": "a080d84e620357c52ccbf16e6e8d8e70958411651ed1b3152c8824f742b8ff6122a8c950f1db5d8d5ecda8f552ac18a33b699ae0b7574ac9351f2dbe08bcc7ba",
+    "size": 71856724,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.15+10/bellsoft-jdk17.0.15+10-linux-amd64-lite.tar.gz",
     "vendor": "bellsoft",
     "version": "17.0.15+10"
   },
@@ -4238,6 +4544,26 @@
   {
     "architecture": "x86_64",
     "distro": "liberica",
+    "features": [],
+    "file_type": "deb",
+    "filename": "bellsoft-jdk19+37-linux-amd64.deb",
+    "image_type": "jdk",
+    "java_version": "19+37",
+    "jvm_impl": "hotspot",
+    "md5": "707158a5439e7fda5485cc5323ee5b0b",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "07dcd9c5caee357689d58b77cee23eb67b1e7293",
+    "sha256": "b496b216d561b747c67e948ea588e26df22d47d25796bd1e2fcef3538ed97019",
+    "sha512": "de2a01dba2f00a29db321744fb2e499cb992143080c8958679951faeed21947f456e7bb96de44da695f2dd258110d0097089e2842d705669aef28db46c320dac",
+    "size": 184725088,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/19+37/bellsoft-jdk19+37-linux-amd64.deb",
+    "vendor": "bellsoft",
+    "version": "19+37"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
     "features": [
       "musl"
     ],
@@ -4303,6 +4629,29 @@
     "architecture": "x86_64",
     "distro": "liberica",
     "features": [
+      "lite",
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jdk20.0.2+10-linux-x64-musl-lite.tar.gz",
+    "image_type": "jdk",
+    "java_version": "20.0.2+10",
+    "jvm_impl": "hotspot",
+    "md5": "c152e2556a73a30b9e5a3d6265cc98f5",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "39fc568b6723deeb0a83235255f5bbd7d32290b1",
+    "sha256": "4654a6ffcc2cecf1bce3c9717c672ddb59029b8a5ba8ad50ae7420f5ec149777",
+    "sha512": "3a4e32b086f7fa63b791670ec01a5a7dce1adf9656dc6e9f925d26a5fe8d2930ff57dbb27ee3938f2aa712b0a5aaf74ed5d1458488340f5c2ef1fa88238c820c",
+    "size": 75571213,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/20.0.2+10/bellsoft-jdk20.0.2+10-linux-x64-musl-lite.tar.gz",
+    "vendor": "bellsoft",
+    "version": "20.0.2+10"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
       "lite"
     ],
     "file_type": "deb",
@@ -4320,6 +4669,28 @@
     "url": "https://github.com/bell-sw/Liberica/releases/download/20+37/bellsoft-jdk20+37-linux-amd64-lite.deb",
     "vendor": "bellsoft",
     "version": "20+37"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
+      "lite"
+    ],
+    "file_type": "deb",
+    "filename": "bellsoft-jdk21.0.1+12-linux-amd64-lite.deb",
+    "image_type": "jdk",
+    "java_version": "21.0.1+12-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "4d11b43b57a9ee4530be82bd12777996",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "6811852daa65ca4eaeb6d67c5be90913ff194838",
+    "sha256": "53bc86c4d48dbf65745b2409450b5fd586b0f2314a89897d3daede46dca6c8d1",
+    "sha512": "d5f466db6254c371e23486823403a77d0e6bdab47a254c8282e79c992c2c99ce925a5249fcb3146fe2da22b69bef3bab6b64eaf70c782643607c4c940468085f",
+    "size": 71689184,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.1+12/bellsoft-jdk21.0.1+12-linux-amd64-lite.deb",
+    "vendor": "bellsoft",
+    "version": "21.0.1+12"
   },
   {
     "architecture": "x86_64",
@@ -4527,6 +4898,28 @@
     "architecture": "x86_64",
     "distro": "liberica",
     "features": [
+      "lite"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jdk21.0.3+12-linux-amd64-lite.tar.gz",
+    "image_type": "jdk",
+    "java_version": "21.0.3+12-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "878649216dc81c4bda60ae179d448bd1",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "153aa68b9c015d9705a1d0f80811a7ded4d56e66",
+    "sha256": "525aa7ffea39e09f33ffd6eafb56322d614b315c51664170985dd1384579e2d1",
+    "sha512": "05eff77fcb178e8da1e67e83b460586d99e68b29302fe05732bc3ca9b97ba059224cc293b1dff1de3e7c05cb55aa1a5e8a3c3bfe61180aa0033c60b689886894",
+    "size": 77874968,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.3+12/bellsoft-jdk21.0.3+12-linux-amd64-lite.tar.gz",
+    "vendor": "bellsoft",
+    "version": "21.0.3+12"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
       "lite",
       "musl"
     ],
@@ -4545,6 +4938,30 @@
     "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.3+12/bellsoft-jdk21.0.3+12-linux-x64-musl-lite.apk",
     "vendor": "bellsoft",
     "version": "21.0.3+12"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
+    "file_type": "rpm",
+    "filename": "bellsoft-jdk21.0.4+9-linux-amd64-full.rpm",
+    "image_type": "jdk",
+    "java_version": "21.0.4+9-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "bc5d1b6f132cdc24632047ffaf29e467",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "3beebf4aba16b8850726817cbbb7ef634cb07c3c",
+    "sha256": "96fccd7d89dd18fe4301a56ded973226d01604bb8fc2459eb3f93f13f60235e9",
+    "sha512": "ada84d3401333feec385215e44e3b27d8ef28bc654febcb72a95b50c349e0f0115806e07dae00dce7eda579db39b573421f01f7ec174b69ee42f876c8748d342",
+    "size": 308054100,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.4+9/bellsoft-jdk21.0.4+9-linux-amd64-full.rpm",
+    "vendor": "bellsoft",
+    "version": "21.0.4+9"
   },
   {
     "architecture": "x86_64",
@@ -4642,6 +5059,28 @@
     "architecture": "x86_64",
     "distro": "liberica",
     "features": [
+      "crac"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jdk21.0.5+12-linux-amd64-crac.tar.gz",
+    "image_type": "jdk",
+    "java_version": "21.0.5+12-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "0e77a242abe869f6f0619b4d9efe42ba",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "044d098443a60cf19b9d476a4bea5debadc55b0b",
+    "sha256": "27c4f95194a670b0c17d40af2bc34e4beda5711ea3cde045e62f9cebd3022822",
+    "sha512": "c63f808554e45a29d9315f12d0933a42009a7669e1ef0c865ff23c666d3cb5b3cf7f8f5cb68c6a57c5f52f3a2add6fe57c335db34c718f957333ff19ab64538a",
+    "size": 212217778,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.5+12/bellsoft-jdk21.0.5+12-linux-amd64-crac.tar.gz",
+    "vendor": "bellsoft",
+    "version": "21.0.5+12"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
       "libericafx",
       "minimal-vm",
       "javafx"
@@ -4665,6 +5104,26 @@
   {
     "architecture": "x86_64",
     "distro": "liberica",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jdk21.0.6+10-linux-amd64.tar.gz",
+    "image_type": "jdk",
+    "java_version": "21.0.6+10-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "0dc9cb6c3e06fa6db88e1b5387079fc4",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "854e27442efaf515c9f15dbc7f4382c7a18be48b",
+    "sha256": "0b1221ce28bfbf2c6944d00ea968bc1421f1f8432253fcdb7034943dfa6fb682",
+    "sha512": "50519a8e669188e6029e3036e2906e395f979066bc633a2070b2bbb1776b4ec1a9dcf3a2ad60a2beb5e95ddd7bcb8242fb70ea5f30e4fe07f1273657000f2229",
+    "size": 230633068,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.6+10/bellsoft-jdk21.0.6+10-linux-amd64.tar.gz",
+    "vendor": "bellsoft",
+    "version": "21.0.6+10"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
     "features": [
       "lite",
       "musl"
@@ -4682,6 +5141,28 @@
     "sha512": "c0a2e854262c674276b54cff1a9b4cfdf5c0859d22e6b614236a345e23f0306a0067ca40a20133aab774da9e9462d5f55b49d093b624e124af34ca9967ea1551",
     "size": 77818499,
     "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.6+10/bellsoft-jdk21.0.6+10-linux-x64-musl-lite.apk",
+    "vendor": "bellsoft",
+    "version": "21.0.6+10"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
+      "musl"
+    ],
+    "file_type": "apk",
+    "filename": "bellsoft-jdk21.0.6+10-linux-x64-musl.apk",
+    "image_type": "jdk",
+    "java_version": "21.0.6+10-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "5fdff338f13fe328896a10bcbb0d7192",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "91849204b1adba07f1c2635a8b5f49a1ee3e0dcb",
+    "sha256": "e7b3783eea671c697487d3b8c153ad14b8c33ed7d844f91a9da4f3ea248b2859",
+    "sha512": "beacaff1cfaa60de3d6e557334d33010bf4f7c455db4cab6eaa23014ed35bf38c4fdb1bcb3bbabe5525614ac826347738feca996066d2422f98e68c5952964f7",
+    "size": 229299172,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.6+10/bellsoft-jdk21.0.6+10-linux-x64-musl.apk",
     "vendor": "bellsoft",
     "version": "21.0.6+10"
   },
@@ -4793,6 +5274,51 @@
     "sha512": "ed1cc47de70eb87756eaf97ee255c1aace10be954ad773af01f370123dccf9678ff60f13c8ae536a074498a1f28b839b84016f5054c3aec11836042e030aead0",
     "size": 188141996,
     "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.7+11/bellsoft-jdk21.0.7+11-linux-amd64-crac.rpm",
+    "vendor": "bellsoft",
+    "version": "21.0.7+11"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
+      "crac"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jdk21.0.7+11-linux-amd64-crac.tar.gz",
+    "image_type": "jdk",
+    "java_version": "21.0.7+11-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "a80d03f2aed7fcf300e220a8aa2a2bf9",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "3d3b4301d5f8b957a3b4c24aa6c5f2f09667a7d9",
+    "sha256": "19ac7b53065f7e627e346e7eb35e09404fe968dc687923048f2a7edd4f3f1bce",
+    "sha512": "90d5b53f9fda785447a40a5b88a3fa44de92b0c36270fe2405f698d299f0a1fe0318bf22b2f13819a59ffeb0f761fc6c342b9ee4c12aacdb652e26ec4f7b34d1",
+    "size": 212300229,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.7+11/bellsoft-jdk21.0.7+11-linux-amd64-crac.tar.gz",
+    "vendor": "bellsoft",
+    "version": "21.0.7+11"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
+      "musl",
+      "crac"
+    ],
+    "file_type": "apk",
+    "filename": "bellsoft-jdk21.0.7+11-linux-x64-musl-crac.apk",
+    "image_type": "jdk",
+    "java_version": "21.0.7+11-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "f48173dad58142c8216746729107f61b",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "b29ff7a881ceea9ca894aed4b2a3e3421c154184",
+    "sha256": "078fae4574b3c061864bd83aa530cb4b9063fee01169ca8bf0bd95decaea6e67",
+    "sha512": "21d2dc2221f56d96c6dfe65e5e5596026acf26adf47756772cab08725033f3d92ba661512d753c954e97863b9e611983a0bac3c9a1d9bdcdeae16907bd99a350",
+    "size": 211417197,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.7+11/bellsoft-jdk21.0.7+11-linux-x64-musl-crac.apk",
     "vendor": "bellsoft",
     "version": "21.0.7+11"
   },
@@ -4997,6 +5523,29 @@
     "architecture": "x86_64",
     "distro": "liberica",
     "features": [
+      "musl",
+      "crac"
+    ],
+    "file_type": "apk",
+    "filename": "bellsoft-jdk21.0.9+16-linux-x64-musl-crac.apk",
+    "image_type": "jdk",
+    "java_version": "21.0.9+16-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "8cc21f5c86daf8033b7c3003aa2589cb",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "342ead91d2e0e47e3b45f732a4a6063b75ef010b",
+    "sha256": "8aeadcd8e4c3e300b6819ca7704257dc2ea481328729c6e27b4cb2eb273fea2e",
+    "sha512": "a5c0f523d13aaa3cb2dddf25b5f0fd14fbfc5b98ddd354a48433bc64fce63340a62995ef544e254e3dc96302db5fb86bb784c8ca12d4bb8ce104d764af34dcd0",
+    "size": 211655071,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.9+16/bellsoft-jdk21.0.9+16-linux-x64-musl-crac.apk",
+    "vendor": "bellsoft",
+    "version": "21.0.9+16"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
       "libericafx",
       "minimal-vm",
       "javafx"
@@ -5061,6 +5610,28 @@
     "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.10+10/bellsoft-jdk21.0.10+10-linux-x64-musl.tar.gz",
     "vendor": "bellsoft",
     "version": "21.0.10+10"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
+      "lite"
+    ],
+    "file_type": "deb",
+    "filename": "bellsoft-jdk21+37-linux-amd64-lite.deb",
+    "image_type": "jdk",
+    "java_version": "21+37-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "8c5ed17ec15ecfd8a1bea0fe79558e7f",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "cbf084fa6e35d7e223cf36039e80cbfb954090f0",
+    "sha256": "98851c9521a278cb19dc85781ad05d9bade241d3aa08bd5166b63254c7dcde62",
+    "sha512": "e6e68c5de6bd1e50cd0c0fb2e640aafb72f0113ac0aabb9174d9c6acaf4ba12d12fc665f6e405e384b05d1c9569f6942f41f60c7eab89ecc672f57d26b9ffd17",
+    "size": 71679588,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/21+37/bellsoft-jdk21+37-linux-amd64-lite.deb",
+    "vendor": "bellsoft",
+    "version": "21+37"
   },
   {
     "architecture": "x86_64",
