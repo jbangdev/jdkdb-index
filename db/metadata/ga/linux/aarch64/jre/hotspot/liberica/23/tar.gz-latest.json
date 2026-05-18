@@ -2,6 +2,52 @@
   {
     "architecture": "aarch64",
     "distro": "liberica",
+    "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jre23+38-linux-aarch64-full.tar.gz",
+    "image_type": "jre",
+    "java_version": "23+38",
+    "jvm_impl": "hotspot",
+    "md5": "48796e3ac229ac0a7fd295544c49389d",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "a26917c453c54a8f6390304775d39ffb1cc242d0",
+    "sha256": "b9dfb70c30f3b7b1a5dad4d2d89edae7821989359743636620c966775910ac4b",
+    "sha512": "a8cdd950d4130856ef3fbea4e73f2720b82d4d63c24197ceae5250d2a8388649e00cc9ae90487d4f2b477cd80113f58b1bd10655f39bc8b1a5fcf1de89f51d38",
+    "size": 114641363,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/23+38/bellsoft-jre23+38-linux-aarch64-full.tar.gz",
+    "vendor": "bellsoft",
+    "version": "23+38"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "liberica",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jre23+38-linux-aarch64-musl.tar.gz",
+    "image_type": "jre",
+    "java_version": "23+38",
+    "jvm_impl": "hotspot",
+    "md5": "a941f35a2fb832dbaf3be4c7dd242e49",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "fd10d0a414cad96dde82da0c65bfc7e075b8b506",
+    "sha256": "d3fa1c021bb5fab45d19cb74006346bedfcfbc257854dd35b6e830ddcb8e1c4f",
+    "sha512": "e03255e2fe3b42717445ae4903d1403be7801f2837e183fa966665ed85049b35276e348493e246fa0240d257818e77c95c36f79ea3fc56769a78c7469432eacb",
+    "size": 64546451,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/23+38/bellsoft-jre23+38-linux-aarch64-musl.tar.gz",
+    "vendor": "bellsoft",
+    "version": "23+38"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "liberica",
     "features": [],
     "file_type": "tar.gz",
     "filename": "bellsoft-jre23+38-linux-aarch64.tar.gz",

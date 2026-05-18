@@ -70,6 +70,26 @@
   {
     "architecture": "x86_64",
     "distro": "liberica",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jdk25.0.1+13-linux-amd64.tar.gz",
+    "image_type": "jdk",
+    "java_version": "25.0.1+13-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "8c371f50bc51c9ed88c6d16d272ed7ca",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "3ab0c949f6d99661d979514e731576b4faf16538",
+    "sha256": "4743deb9903ef0197ef936da1ef1c093ee8961c49002f6fa69d2b77a948a152f",
+    "sha512": "317ea0d71b802a0f4070d14f57cd0d9c95f12336708eedc99fbb54bceeb315121860ec6b5f7d51b250393c65f5120a235d35152197165c79b5acfc29dd560f47",
+    "size": 259584491,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/25.0.1+13/bellsoft-jdk25.0.1+13-linux-amd64.tar.gz",
+    "vendor": "bellsoft",
+    "version": "25.0.1+13"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
     "features": [
       "libericafx",
       "minimal-vm",
@@ -133,6 +153,30 @@
     "sha512": "c5f3b0a6a4a6db0ac89204c0ddfe5b180844f3d6771c80815e9310afce2d448ba6cf02a7e5de1957cbe0e49927e3b0ee5bbbd62b5f7c46c85f0d2273beb9e038",
     "size": 82703491,
     "url": "https://github.com/bell-sw/Liberica/releases/download/25+21-ea-leyden/bellsoft-jdk25+21-ea-linux-amd64-lite-leyden.tar.gz",
+    "vendor": "bellsoft",
+    "version": "25+21-ea"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
+      "lite",
+      "musl",
+      "leyden"
+    ],
+    "file_type": "apk",
+    "filename": "bellsoft-jdk25+21-ea-linux-x64-musl-lite-leyden.apk",
+    "image_type": "jdk",
+    "java_version": "25+21-ea",
+    "jvm_impl": "hotspot",
+    "md5": "fbdce3b52da384f73cf9d2cc071ec8f4",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "13778935bf504be3ef4eb09d74fc013c2d0aea94",
+    "sha256": "2c876721192c4929ad42ca4451c5fdf66aca52e5fcc86ae2bf2faf3457bb166f",
+    "sha512": "4e603b198abd2c9d7c96afa66b8539f561c97cda88b37a711ecbb1d37c86b6d7cd07e640cb77ba44434f6ed24dca7bf88c08902dcde4d19d7913c1aca4118381",
+    "size": 82549394,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/25+21-ea-leyden/bellsoft-jdk25+21-ea-linux-x64-musl-lite-leyden.apk",
     "vendor": "bellsoft",
     "version": "25+21-ea"
   },
