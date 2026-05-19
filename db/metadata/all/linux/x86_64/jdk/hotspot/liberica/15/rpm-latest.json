@@ -2,21 +2,25 @@
   {
     "architecture": "x86_64",
     "distro": "liberica",
-    "features": [],
+    "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
     "file_type": "rpm",
-    "filename": "bellsoft-jdk15.0.2+8-linux-amd64.rpm",
+    "filename": "bellsoft-jdk15.0.2+10-linux-amd64-full.rpm",
     "image_type": "jdk",
-    "java_version": "15.0.2+8",
+    "java_version": "15.0.2+10",
     "jvm_impl": "hotspot",
-    "md5": "522bdb994d5ff9a3de5e2de967d6ceea",
+    "md5": "ff2af389cd027454e7a7d14aeb72ff6f",
     "os": "linux",
     "release_type": "ga",
-    "sha1": "ac162e7eb5ba0eaa5d6587ea24cb0e478c092533",
-    "sha256": "2e02c4105d207d7436909ae9817736d7b003e8dc14fec2572cd44192370f3944",
-    "sha512": "f256a68470e19711afeb630c8a59b580cfca5534db7eefee1508015dea12c055952df2026931fdd96d2ad364f5920c29869a25fdb6323273e8a92f672a533cd1",
-    "size": 193611492,
-    "url": "https://github.com/bell-sw/Liberica/releases/download/15.0.2+8/bellsoft-jdk15.0.2+8-linux-amd64.rpm",
+    "sha1": "4557ee630489fb7c630de1e7844a48b9b118e5d7",
+    "sha256": "c60dd5d006d47eff67e3d1d0105209984e48cfa725b8fa09a0017aff6915f3d6",
+    "sha512": "54389ca382b21bd8f84213f4bcde7e31a32da7022d422418fb9e9b75e9b06c2959d6ebeaa4b9fa39b79e49239e040fa326c3abe1d136e4b6955178646b40b69e",
+    "size": 275497532,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/15.0.2+10/bellsoft-jdk15.0.2+10-linux-amd64-full.rpm",
     "vendor": "bellsoft",
-    "version": "15.0.2+8"
+    "version": "15.0.2+10"
   }
 ]
