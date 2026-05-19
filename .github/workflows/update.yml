@@ -30,22 +30,22 @@ jobs:
     outputs:
       changes_detected: ${{ steps.auto_commit.outputs.changes_detected }}
     steps:
-    - uses: actions/checkout@v6
+    - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6
 
     - name: Checkout jdkdb-data
-      uses: actions/checkout@v6
+      uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6
       with:
         repository: jbangdev/jdkdb-data
         path: jdkdb-data
 
     - name: Set up JDK 21
-      uses: actions/setup-java@v5
+      uses: actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654 # v5
       with:
         java-version: '21'
         distribution: 'temurin'
     
     - name: Setup JBang
-      uses: jbangdev/setup-jbang@main
+      uses: jbangdev/setup-jbang@312c53a4221283f9c8e4aa84d8261b82f0c680fb # main
 
     - name: Run indexer manually
       if: github.event_name == 'workflow_dispatch'
@@ -79,13 +79,13 @@ jobs:
 
     - name: Commit & Push changes
       id: auto_commit
-      uses: stefanzweifel/git-auto-commit-action@v7
+      uses: stefanzweifel/git-auto-commit-action@04702edda442b2e678b25b537cec683a1493fcb9 # v7
       if: github.event_name == 'schedule' || inputs.do_commit
       with:
         commit_message: "Update metadata indices"
 
     - name: Upload log files
-      uses: actions/upload-artifact@v7
+      uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7
       if: always()
       with:
         name: update-logs
