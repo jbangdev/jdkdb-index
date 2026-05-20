@@ -230,6 +230,30 @@
   {
     "architecture": "aarch64",
     "distro": "liberica",
+    "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
+    "file_type": "msi",
+    "filename": "bellsoft-jre11.0.19+7-windows-aarch64-full.msi",
+    "image_type": "jre",
+    "java_version": "11.0.19+7",
+    "jvm_impl": "hotspot",
+    "md5": "910661f0c992bd3cd8eda8589c90c962",
+    "os": "windows",
+    "release_type": "ga",
+    "sha1": "76554b3bb571f5bd9fc60170f5254549b3831842",
+    "sha256": "400903435e604479ce8d85e5cdd495af272c49eedb30050ae2be7a174ceab06d",
+    "sha512": "3d381a12977683a7ddda36ca7e5a36dfd6498a443c7b904c0c576e39f4af8a04a7c56183dac6bed0a3ac8ead400479e078cda80d9037dcf9cde0d3e636510671",
+    "size": 46170112,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.19+7/bellsoft-jre11.0.19+7-windows-aarch64-full.msi",
+    "vendor": "bellsoft",
+    "version": "11.0.19+7"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "liberica",
     "features": [],
     "file_type": "zip",
     "filename": "bellsoft-jre11.0.20+8-windows-aarch64.zip",

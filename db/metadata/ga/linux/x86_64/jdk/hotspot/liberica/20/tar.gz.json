@@ -3,6 +3,30 @@
     "architecture": "x86_64",
     "distro": "liberica",
     "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jdk20.0.1+10-linux-amd64-full.tar.gz",
+    "image_type": "jdk",
+    "java_version": "20.0.1+10",
+    "jvm_impl": "hotspot",
+    "md5": "6b5829ca4218f8613d313df04676ebf7",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "072d4ff496527d678423ab003c7f4fecd69e0708",
+    "sha256": "512072cc34fc026ac4e0e087263f4b682c647088003ae2e5d736c718e7a7346b",
+    "sha512": "fd50d2b759700ce94fe75c54e05a3c72af14f8b06ac362c80312e720190d47568ec6fd3d695922d713454292dd1466e7d8a79a86b67d248d9a323053915b46ed",
+    "size": 336975673,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/20.0.1+10/bellsoft-jdk20.0.1+10-linux-amd64-full.tar.gz",
+    "vendor": "bellsoft",
+    "version": "20.0.1+10"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
       "lite",
       "musl"
     ],

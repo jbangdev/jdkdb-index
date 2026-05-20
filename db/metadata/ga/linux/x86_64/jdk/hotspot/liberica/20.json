@@ -3,6 +3,30 @@
     "architecture": "x86_64",
     "distro": "liberica",
     "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jdk20.0.1+10-linux-amd64-full.tar.gz",
+    "image_type": "jdk",
+    "java_version": "20.0.1+10",
+    "jvm_impl": "hotspot",
+    "md5": "6b5829ca4218f8613d313df04676ebf7",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "072d4ff496527d678423ab003c7f4fecd69e0708",
+    "sha256": "512072cc34fc026ac4e0e087263f4b682c647088003ae2e5d736c718e7a7346b",
+    "sha512": "fd50d2b759700ce94fe75c54e05a3c72af14f8b06ac362c80312e720190d47568ec6fd3d695922d713454292dd1466e7d8a79a86b67d248d9a323053915b46ed",
+    "size": 336975673,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/20.0.1+10/bellsoft-jdk20.0.1+10-linux-amd64-full.tar.gz",
+    "vendor": "bellsoft",
+    "version": "20.0.1+10"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
       "lite"
     ],
     "file_type": "rpm",
@@ -83,6 +107,51 @@
     "sha512": "ab73e386699f462308599aaae6b64845e5d69adf1f258ef7350b446f273f9aeb805b3dbe4d118b19ef66620118a5e4327a65536aca89205db7741c1e438ecac0",
     "size": 69901852,
     "url": "https://github.com/bell-sw/Liberica/releases/download/20+37/bellsoft-jdk20+37-linux-amd64-lite.deb",
+    "vendor": "bellsoft",
+    "version": "20+37"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
+      "lite",
+      "musl"
+    ],
+    "file_type": "apk",
+    "filename": "bellsoft-jdk20+37-linux-x64-musl-lite.apk",
+    "image_type": "jdk",
+    "java_version": "20+37",
+    "jvm_impl": "hotspot",
+    "md5": "06af3c3b457001b5cb72d7f26320fa13",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "d12226b60da201b677c9548b7244238bd7b5589a",
+    "sha256": "a1c1663f05a67f9109f6fee29c9afd5d0e95061adeaad6ef3c77f6e728f342ec",
+    "sha512": "787d2dc1fefd506ba532ceb651c3f0828fb151b533f3bd7c73cea2217687786ea258464d913ee5b0a708c713845ce3101fb795c826b66a13ad63017e8bb69229",
+    "size": 75383091,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/20+37/bellsoft-jdk20+37-linux-x64-musl-lite.apk",
+    "vendor": "bellsoft",
+    "version": "20+37"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
+      "musl"
+    ],
+    "file_type": "apk",
+    "filename": "bellsoft-jdk20+37-linux-x64-musl.apk",
+    "image_type": "jdk",
+    "java_version": "20+37",
+    "jvm_impl": "hotspot",
+    "md5": "f35c18f704ae5e0dcd7eef3addb9587a",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "28c5407afed73a8fca624f2c949f8cac875eef1d",
+    "sha256": "49e87388c36a2b40978e714d45a41b768c962a86bc9140513b558b70e1b4e2e6",
+    "sha512": "68ee9fadb54b2be3b73b360e009321de26fd801ec826b011c172fff92824ddce48a895b9f1262f0445647115269cf1c0e21de2e9dca11cc77bddf7f8e212095e",
+    "size": 224344524,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/20+37/bellsoft-jdk20+37-linux-x64-musl.apk",
     "vendor": "bellsoft",
     "version": "20+37"
   }
