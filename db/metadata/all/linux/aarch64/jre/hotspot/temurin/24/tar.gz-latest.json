@@ -2,21 +2,23 @@
   {
     "architecture": "aarch64",
     "distro": "temurin",
-    "features": [],
+    "features": [
+      "musl"
+    ],
     "file_type": "tar.gz",
-    "filename": "OpenJDK24U-jre_aarch64_linux_hotspot_24_36.tar.gz",
+    "filename": "OpenJDK24U-jre_aarch64_alpine-linux_hotspot_24.0.2_12.tar.gz",
     "image_type": "jre",
-    "java_version": "24+36",
+    "java_version": "24.0.2+12",
     "jvm_impl": "hotspot",
-    "md5": "e79cbeab6333d806e935da49703fee88",
+    "md5": "96e90d1169365b987d3f1b083be4ce97",
     "os": "linux",
     "release_type": "ga",
-    "sha1": "9349a8c37f3b2d32b5d463da448ef64ac3e5f534",
-    "sha256": "782a46008490272affe0b797155c2ae8e759e10c8ba4540f1f7285ef3d2902de",
-    "sha512": "1f8394317a60975b244622a72e106f2784353c72dc6d5a9d5cba65f7681f3efc3340c3f28230625cd610175c291f470c0a179ef96353f2bf493811ea19b71bcb",
-    "size": 58609962,
-    "url": "https://github.com/adoptium/temurin24-binaries/releases/download/jdk-24%2B36/OpenJDK24U-jre_aarch64_linux_hotspot_24_36.tar.gz",
+    "sha1": "725322158457e1cd4fb025cf6da66c7516cd19fb",
+    "sha256": "389100187cf328c7b6b6b390fc0f5071ab38e93e8a6c06beb11e59363d2fd0d0",
+    "sha512": "fc86914cc2dd1b4c5b3caf68570c7b40e17b66baf908a9cabacdac4d736ddf1eacb0e2f3e8b0e2909626fbc81f9e2cc4605387fe5414c7719f3dd1325c2fc618",
+    "size": 58757139,
+    "url": "https://github.com/adoptium/temurin24-binaries/releases/download/jdk-24.0.2%2B12/OpenJDK24U-jre_aarch64_alpine-linux_hotspot_24.0.2_12.tar.gz",
     "vendor": "eclipse",
-    "version": "24.0.0+36"
+    "version": "24.0.2+12"
   }
 ]

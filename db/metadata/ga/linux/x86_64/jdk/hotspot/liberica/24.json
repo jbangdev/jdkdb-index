@@ -3,6 +3,30 @@
     "architecture": "x86_64",
     "distro": "liberica",
     "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
+    "file_type": "rpm",
+    "filename": "bellsoft-jdk24.0.1+11-linux-amd64-full.rpm",
+    "image_type": "jdk",
+    "java_version": "24.0.1+11",
+    "jvm_impl": "hotspot",
+    "md5": "1a98467cb0c4a64bc1881f63d3efa3cf",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "cf85affec62009ae22a13ca363cc281931f633af",
+    "sha256": "1b43362b02a053b8f23b1f8cef72251a354ac94226887840890bd780b03d362e",
+    "sha512": "3e0dc924e6ac5f57e4a62a16a4b763670fee2e21a31994d88aebde8c7f9112ef8fe40aa1617e91a539b6c983adaa54c2fa94a5dae1bbf048b03c6dc8294d4ac1",
+    "size": 339605232,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/24.0.1+11/bellsoft-jdk24.0.1+11-linux-amd64-full.rpm",
+    "vendor": "bellsoft",
+    "version": "24.0.1+11"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
       "lite"
     ],
     "file_type": "tar.gz",
@@ -20,5 +44,27 @@
     "url": "https://github.com/bell-sw/Liberica/releases/download/24.0.2+12/bellsoft-jdk24.0.2+12-linux-amd64-lite.tar.gz",
     "vendor": "bellsoft",
     "version": "24.0.2+12"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
+      "lite"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jdk24+37-linux-amd64-lite.tar.gz",
+    "image_type": "jdk",
+    "java_version": "24+37",
+    "jvm_impl": "hotspot",
+    "md5": "6b0591e48fc938b048953dc7f5ecf9b3",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "35ecbe3ff1ea8ff740f69d53ed250ccbd5de9664",
+    "sha256": "455b908a29dcb9b9649b8a657bded40693e4f1632e07e6476ff11b4371c3124d",
+    "sha512": "c30872caa22f835719665b294cdc057a48a2fd8384045d06bc6d945de4b210eb08c4a860f2af02567321f13da6c24018b1e7755288f5bb8bea88d840a03ded97",
+    "size": 82290205,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/24+37/bellsoft-jdk24+37-linux-amd64-lite.tar.gz",
+    "vendor": "bellsoft",
+    "version": "24+37"
   }
 ]
