@@ -422,6 +422,28 @@
   {
     "architecture": "ppc64",
     "distro": "semeru",
+    "features": [
+      "certified"
+    ],
+    "file_type": "tar.gz",
+    "filename": "ibm-semeru-certified-jre_ppc64_aix_11.0.15.0.tar.gz",
+    "image_type": "jre",
+    "java_version": "11.0.15+10",
+    "jvm_impl": "openj9",
+    "md5": "d6e88858ced7536ec88921f8d375a1bb",
+    "os": "aix",
+    "release_type": "ga",
+    "sha1": "67d677829d9d3a73ebec0d2fcd5b906923bb1643",
+    "sha256": "aa915327d7d1f1b56f3fbc8d3bbf263115b4e70b1be1f3b0f4ce5009fd28e52e",
+    "sha512": "c890cff66e6760868743ea33689174798c1d4dfc855c2a400bf85acdcef502c8acdb4e4aa7f7dfded06d3f2dd3e9264f84f00cb3ba7d7d848bfd61d2c4a755e6",
+    "size": 64277752,
+    "url": "https://github.com/ibmruntimes/semeru11-certified-binaries/releases/download/jdk-11.0.15+10_openj9-0.32.0/ibm-semeru-certified-jre_ppc64_aix_11.0.15.0.tar.gz",
+    "vendor": "ibm",
+    "version": "11.0.15+10_openj9-0.32.0"
+  },
+  {
+    "architecture": "ppc64",
+    "distro": "semeru",
     "features": [],
     "file_type": "tar.gz",
     "filename": "ibm-semeru-open-jre_ppc64_aix_11.0.17_8_openj9-0.35.0.tar.gz",
@@ -746,6 +768,26 @@
     "url": "https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.31.0-m2/ibm-semeru-open-jre_ppc64_aix_11.0.31.0-m2.tar.gz",
     "vendor": "ibm",
     "version": "11.0.31.0-m2"
+  },
+  {
+    "architecture": "ppc64",
+    "distro": "adoptopenjdk",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK12U-jre_ppc64_aix_openj9_12_33_openj9-0.13.0.tar.gz",
+    "image_type": "jre",
+    "java_version": "12+33",
+    "jvm_impl": "openj9",
+    "md5": "1d0a36f6003f1ec9ada4c4e3ff0107f2",
+    "os": "aix",
+    "release_type": "ga",
+    "sha1": "e4e02bd85fff83cb2397be05b24a7113b5396fb2",
+    "sha256": "8b87641ba1091e876b5f5cb6c1fb4c6f9fb1942d4cff4045b1eaa60701593f12",
+    "sha512": "10771faad8f017e4e8e800bb50424cee3bacae8b142a65e0f69ed371338b833e192cc5dd6997b5d20349c64e9e005d215144d37b7c50c0a9ab7d0acad6697d6a",
+    "size": 50848999,
+    "url": "https://github.com/AdoptOpenJDK/openjdk12-binaries/releases/download/jdk-12%2B33_openj9-0.13.0/OpenJDK12U-jre_ppc64_aix_openj9_12_33_openj9-0.13.0.tar.gz",
+    "vendor": "adoptopenjdk",
+    "version": "12.0.0+33.openj9-0.13.0"
   },
   {
     "architecture": "ppc64",

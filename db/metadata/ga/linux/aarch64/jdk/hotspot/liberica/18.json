@@ -25,6 +25,29 @@
     "architecture": "aarch64",
     "distro": "liberica",
     "features": [
+      "lite",
+      "musl"
+    ],
+    "file_type": "apk",
+    "filename": "bellsoft-jdk18.0.1.1+2-linux-aarch64-musl-lite.apk",
+    "image_type": "jdk",
+    "java_version": "18.0.1.1+2",
+    "jvm_impl": "hotspot",
+    "md5": "944a1b19d3739110ed31d52719435caf",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "d01cab200d17732fa034dc4cf65e00498f7dc896",
+    "sha256": "6bff99d08726e501e22f113fd3979581a0ed640e68dfbddbc4db582353b5b4b1",
+    "sha512": "d578220e8e8b3bbf3833b5f4528209d491b0ea9efea2f8ae30d0f896826b91b9d826b71793e2caf8d2ee416d0572007d925869a530af4abd1d314f574557e0c3",
+    "size": 71506745,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.1.1+2/bellsoft-jdk18.0.1.1+2-linux-aarch64-musl-lite.apk",
+    "vendor": "bellsoft",
+    "version": "18.0.1.1+2"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "liberica",
+    "features": [
       "libericafx",
       "minimal-vm",
       "javafx"

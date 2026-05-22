@@ -23,6 +23,30 @@
     "architecture": "x86_64",
     "distro": "liberica",
     "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
+    "file_type": "deb",
+    "filename": "bellsoft-jre16.0.2+7-linux-amd64-full.deb",
+    "image_type": "jre",
+    "java_version": "16.0.2+7",
+    "jvm_impl": "hotspot",
+    "md5": "2ff2287fb693b71f5e57c65baab8853a",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "8618c75afc784675dba2cedb0832edfa745e37eb",
+    "sha256": "b5d47883c612373c6aa15d79ac0cae65ff03f452f03d087c6ccdbeb75592101d",
+    "sha512": "06bcc49a9d187bdc9318769adb237a18cea4e636c5b263617dccef2af188f8995214d2ffff0b35f95d0e2fcf50ea339ab7743ca48f354457280268a7bd388642",
+    "size": 61423004,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/16.0.2+7/bellsoft-jre16.0.2+7-linux-amd64-full.deb",
+    "vendor": "bellsoft",
+    "version": "16.0.2+7"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
       "musl"
     ],
     "file_type": "tar.gz",

@@ -234,6 +234,30 @@
   {
     "architecture": "aarch64",
     "distro": "liberica",
+    "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
+    "file_type": "zip",
+    "filename": "bellsoft-jdk11.0.12+7-windows-aarch64-full.zip",
+    "image_type": "jdk",
+    "java_version": "11.0.12+7",
+    "jvm_impl": "hotspot",
+    "md5": "1b64b3326eb91822cc76a9501f762ec5",
+    "os": "windows",
+    "release_type": "ga",
+    "sha1": "5d655ae10a412d557cd684d0a5866967a0027513",
+    "sha256": "5b0745e2ccfd2a8b03c9945bd3f4d93047f2f978b717b5e6ba8e6f25169012b5",
+    "sha512": "00885016faea0ad9bd8197d7b3e6b20b701da2fc2edc1e4b49698ec52e38d470047ef9e38688c826e493aa8dabebb4564d7c54e39272b473c8725f9a0b2f25a6",
+    "size": 217380542,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.12+7/bellsoft-jdk11.0.12+7-windows-aarch64-full.zip",
+    "vendor": "bellsoft",
+    "version": "11.0.12+7"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "liberica",
     "features": [],
     "file_type": "zip",
     "filename": "bellsoft-jdk11.0.12+7-windows-aarch64.zip",
@@ -625,6 +649,26 @@
   },
   {
     "architecture": "aarch64",
+    "distro": "microsoft",
+    "features": [],
+    "file_type": "zip",
+    "filename": "microsoft-jdk-11.0.20.1-windows-aarch64.zip",
+    "image_type": "jdk",
+    "java_version": "11.0.20.1+1-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "687dc2740ce8eb506b85a379f9062ca9",
+    "os": "windows",
+    "release_type": "ga",
+    "sha1": "2530d1f4fd09adc63ff5ca0ca2d5af3b5fa09cc4",
+    "sha256": "c8bb3e494d103e8c9a02d7cc67283c4a8eef254f1567741c12a17b8e43aed5f2",
+    "sha512": "9852c2243a13a3683a69acd76e163899938b83050ad71a63b333b397d9073ce1f866dd838a8890f8b9a3fd43aaa87441c582bef252efc496deabfaedf56927ee",
+    "size": 182861193,
+    "url": "https://aka.ms/download-jdk/microsoft-jdk-11.0.20.1-windows-aarch64.zip",
+    "vendor": "microsoft",
+    "version": "11.0.20.1"
+  },
+  {
+    "architecture": "aarch64",
     "distro": "liberica",
     "features": [
       "lite"
@@ -824,6 +868,30 @@
     "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.23+10/bellsoft-jdk11.0.23+10-windows-aarch64-full.msi",
     "vendor": "bellsoft",
     "version": "11.0.23+10"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "liberica",
+    "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
+    "file_type": "msi",
+    "filename": "bellsoft-jdk11.0.23+12-windows-aarch64-full.msi",
+    "image_type": "jdk",
+    "java_version": "11.0.23+12-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "58c4b0b2c2c9224e6c159c133a01f241",
+    "os": "windows",
+    "release_type": "ga",
+    "sha1": "d73ca99d80d03a8b3b8c514231c82209b67a84c5",
+    "sha256": "18e595d8f41843d777954a4e459bdb9235330e76d986b4b735feb8d87035a660",
+    "sha512": "305d8629e934fd8dc2b7824cf95ebd9598800ae04ebc8cfe99ad6d01788e38ced8f1c0b0facddc2a7d6459755cb2f068fbfacac5eac6252bed715e049d68225c",
+    "size": 215994368,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.23+12/bellsoft-jdk11.0.23+12-windows-aarch64-full.msi",
+    "vendor": "bellsoft",
+    "version": "11.0.23+12"
   },
   {
     "architecture": "aarch64",
@@ -5486,6 +5554,26 @@
     "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.8.1+1/bellsoft-jdk17.0.8.1+1-windows-aarch64.zip",
     "vendor": "bellsoft",
     "version": "17.0.8.1+1"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "microsoft",
+    "features": [],
+    "file_type": "zip",
+    "filename": "microsoft-jdk-17.0.9-windows-aarch64.zip",
+    "image_type": "jdk",
+    "java_version": "17.0.9+8-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "3316dcaf0fd5688ff3fa159284293caa",
+    "os": "windows",
+    "release_type": "ga",
+    "sha1": "9b3f7298c5e1293d52d8e09f32a58668934302d1",
+    "sha256": "36857ca1c2d6f1b69da3499b49d4d91e5ca5743350b74f3c6da24642832047f6",
+    "sha512": "797d8b21f87853f84d161c59db511d942f7a15d1888664f1df1169fafa695084eb5d4af18e90479a05f732f4f2cf07fb758363aba03327dc80ab92878b557993",
+    "size": 174155861,
+    "url": "https://aka.ms/download-jdk/microsoft-jdk-17.0.9-windows-aarch64.zip",
+    "vendor": "microsoft",
+    "version": "17.0.9"
   },
   {
     "architecture": "aarch64",
@@ -13487,6 +13575,30 @@
   },
   {
     "architecture": "aarch64",
+    "distro": "liberica",
+    "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
+    "file_type": "zip",
+    "filename": "bellsoft-jdk21+37-windows-aarch64-full.zip",
+    "image_type": "jdk",
+    "java_version": "21+37-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "05a8e39c1e5694582722aec4f62374db",
+    "os": "windows",
+    "release_type": "ga",
+    "sha1": "f18b6cfbf6209f2bf6a4492fa8885b09ad38a3d2",
+    "sha256": "525a67a9ff10eb89d05cfec83bd15b09f2287b2335b35b39287666ae11aa9104",
+    "sha512": "60cd107b826d9cfd4efbecbd83459d33b7a8201e606df009988d90b67323b7a869d8985ba54fd1f110fdb1db9942f903fc1453c5cb398ad8979bc8e68bd1dcef",
+    "size": 219451704,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/21+37/bellsoft-jdk21+37-windows-aarch64-full.zip",
+    "vendor": "bellsoft",
+    "version": "21+37"
+  },
+  {
+    "architecture": "aarch64",
     "distro": "zulu",
     "features": [],
     "file_type": "zip",
@@ -16476,6 +16588,26 @@
     "url": "https://github.com/bell-sw/Liberica/releases/download/25.0.1+11/bellsoft-jdk25.0.1+11-windows-aarch64-lite.msi",
     "vendor": "bellsoft",
     "version": "25.0.1+11"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "liberica",
+    "features": [],
+    "file_type": "zip",
+    "filename": "bellsoft-jdk25.0.1+13-windows-aarch64.zip",
+    "image_type": "jdk",
+    "java_version": "25.0.1+13-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "be4de2a6f2983c97c2ca53dcadbd220a",
+    "os": "windows",
+    "release_type": "ga",
+    "sha1": "569c6ded6f6f46a30f0508b7681ac16d4c7406fb",
+    "sha256": "17d2a1ce17850e88ddaed129646203090e54d3ce6bcff8cc1564f786a939a424",
+    "sha512": "ce80a5ed1d782cb75048ca096d32a840ccac560a4ed7b063f6f616dd6d8358d281af6d28c1c9ace4bbfea2d7b9ef01e38d117448eb65f33233fdc9f1dc5d5e23",
+    "size": 206538252,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/25.0.1+13/bellsoft-jdk25.0.1+13-windows-aarch64.zip",
+    "vendor": "bellsoft",
+    "version": "25.0.1+13"
   },
   {
     "architecture": "aarch64",

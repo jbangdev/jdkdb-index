@@ -46,6 +46,30 @@
   {
     "architecture": "aarch64",
     "distro": "liberica",
+    "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
+    "file_type": "rpm",
+    "filename": "bellsoft-jre17.0.2+9-linux-aarch64-full.rpm",
+    "image_type": "jre",
+    "java_version": "17.0.2+9",
+    "jvm_impl": "hotspot",
+    "md5": "3362c10073a4ca5aa26760dd0634245c",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "21fff72e93d81be31f4ff1f4915a76b411d570a0",
+    "sha256": "5c3c47f9203f70e629d40ec29b4ce187b05cb78a5c774f3d8333d082201f129f",
+    "sha512": "b8494f418a69d0fd58e034506183bf7df9f582c39bc6b7068f8de35ec149aaa04b0b5ce027cb3bc0de9d04da5dc36b663d128c7dc7a1e7765ee9de99d7a653e3",
+    "size": 57840984,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.2+9/bellsoft-jre17.0.2+9-linux-aarch64-full.rpm",
+    "vendor": "bellsoft",
+    "version": "17.0.2+9"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "liberica",
     "features": [],
     "file_type": "tar.gz",
     "filename": "bellsoft-jre17.0.2+9-linux-aarch64.tar.gz",
@@ -328,6 +352,28 @@
   {
     "architecture": "aarch64",
     "distro": "liberica",
+    "features": [
+      "musl"
+    ],
+    "file_type": "apk",
+    "filename": "bellsoft-jre17.0.9+11-linux-aarch64-musl.apk",
+    "image_type": "jre",
+    "java_version": "17.0.9+11-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "c50b68729afe70fcf3b17dd43ed0d353",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "323773fab7ca0d86fd651fc3d7506cd334aff6af",
+    "sha256": "a8a34bd51e208e5de251f0dab98ded0cad3aa318ea4e40d3e32cf3df2e3fbcf5",
+    "sha512": "1e59fa3f017889225f51465b95beb59868c7944d124c10acdaf1cca02b647c4b399da2b3689521a620d3fceff46754b19498e11e2d30ddce80038fdeaac810b4",
+    "size": 51224514,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.9+11/bellsoft-jre17.0.9+11-linux-aarch64-musl.apk",
+    "vendor": "bellsoft",
+    "version": "17.0.9+11"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "liberica",
     "features": [],
     "file_type": "rpm",
     "filename": "bellsoft-jre17.0.9+11-linux-aarch64.rpm",
@@ -568,6 +614,26 @@
   {
     "architecture": "aarch64",
     "distro": "liberica",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jre17.0.13+12-linux-aarch64.tar.gz",
+    "image_type": "jre",
+    "java_version": "17.0.13+12-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "ea886faba90e5593d5cc0ae52d75adbd",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "5f3a038087a9979b5fc4d3d070e11c359000f2dd",
+    "sha256": "64814ecbbf7141a6470239c9984020158c2dad6ec9e4082dcae20c6eeb412c5b",
+    "sha512": "0b1dccc5b9a1726a01ea9f77ef408dff62631c9ed9eb5ab870f2a501230cc34da90cec93fae7f856178c5e9035617147a63d676d760813ad9591ba0487ae65a6",
+    "size": 56232561,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.13+12/bellsoft-jre17.0.13+12-linux-aarch64.tar.gz",
+    "vendor": "bellsoft",
+    "version": "17.0.13+12"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "liberica",
     "features": [
       "libericafx",
       "minimal-vm",
@@ -720,6 +786,54 @@
     "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.16+12/bellsoft-jre17.0.16+12-linux-aarch64.rpm",
     "vendor": "bellsoft",
     "version": "17.0.16+12"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "liberica",
+    "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
+    "file_type": "rpm",
+    "filename": "bellsoft-jre17.0.17+11-linux-aarch64-full.rpm",
+    "image_type": "jre",
+    "java_version": "17.0.17+11-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "683fae2c387193c3b5700657b788d07b",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "b28b58be8bdb12a388a5fe1a2af1eb9223309413",
+    "sha256": "e4a36de4d2f67e75403474a43d7ea9388f849e4bed29ef9a844e27db1f567771",
+    "sha512": "1c68e6f55e5e56d209587fc844dc39e70a59378e8e54860f486ba8d4f62eaeab01d9e2c51b85780cf0c56e068241a52ee7262e5b6969114126b4671e96f2ed06",
+    "size": 72867544,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.17+11/bellsoft-jre17.0.17+11-linux-aarch64-full.rpm",
+    "vendor": "bellsoft",
+    "version": "17.0.17+11"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "liberica",
+    "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jre17.0.17+11-linux-aarch64-full.tar.gz",
+    "image_type": "jre",
+    "java_version": "17.0.17+11-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "0270e8148f46096e5d874d6290fad5da",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "948b161e22c6d2fe5c4a6ff2222290300d83fa2d",
+    "sha256": "426752d20e5380cfacf89c78c211e59720f2632099b23bd84b2f697b6883090a",
+    "sha512": "4e62f604e5144946874ab381f9f826951032ebd0d6c8a69130be1dd378b7337a766536d1a6270a242ca159ae9148efb7d3116a932ee173ff244c0a5cbf6603aa",
+    "size": 104477208,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.17+11/bellsoft-jre17.0.17+11-linux-aarch64-full.tar.gz",
+    "vendor": "bellsoft",
+    "version": "17.0.17+11"
   },
   {
     "architecture": "aarch64",
