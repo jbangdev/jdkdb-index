@@ -2,21 +2,25 @@
   {
     "architecture": "aarch64",
     "distro": "liberica",
-    "features": [],
+    "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
     "file_type": "zip",
-    "filename": "bellsoft-jre18.0.2.1+1-windows-aarch64.zip",
+    "filename": "bellsoft-jre18+37-windows-aarch64-full.zip",
     "image_type": "jre",
-    "java_version": "18.0.2.1+1",
+    "java_version": "18+37",
     "jvm_impl": "hotspot",
-    "md5": "fb11d72fcf822614f2dd44929fce431e",
+    "md5": "339a3589745eb82983c4b0c79d12f55f",
     "os": "windows",
     "release_type": "ga",
-    "sha1": "64d24307bbc230da340a4fcd7e823cdff767ec94",
-    "sha256": "f45f87a73e713c1cde1639e55ace1f9b33a783274f58b736119091842d2dbed2",
-    "sha512": "ffb930595050bff483b4d3f059cc17d7db362264fec72e7fc616d3f00aa02b33b147616da8a621c8e310f340897c83083ba79ce73add1d58178c37aae6f287cc",
-    "size": 37942514,
-    "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.2.1+1/bellsoft-jre18.0.2.1+1-windows-aarch64.zip",
+    "sha1": "61f160e42e341305dd49f0da554bdb530b560aa1",
+    "sha256": "2395eadede407db9b3530a729eeb37c89ce4a58b7095814fb34922b868eb5533",
+    "sha512": "8138151f526c81b3efbfa4a54945ffa801f299e6ed6d4fd3cc70999c3a2fc41fee78e0b14f23fe6c841f0c8a8c898054c7a1e33dd5615271b34ca1f2d09163cc",
+    "size": 42627326,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/18+37/bellsoft-jre18+37-windows-aarch64-full.zip",
     "vendor": "bellsoft",
-    "version": "18.0.2.1+1"
+    "version": "18+37"
   }
 ]
