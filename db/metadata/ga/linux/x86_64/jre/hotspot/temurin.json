@@ -276,6 +276,28 @@
   {
     "architecture": "x86_64",
     "distro": "temurin",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK11U-jre_x64_alpine-linux_hotspot_11.0.14.1_1.tar.gz",
+    "image_type": "jre",
+    "java_version": "11.0.14.1+1",
+    "jvm_impl": "hotspot",
+    "md5": "1fd7da29d359f728a6f2dfba0e6fdd0f",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "2c5c8900d04157f43dcff1ac7f93328ccc5f68db",
+    "sha256": "6af0a3a37d4d6ca2b7f542184b47560339635c382f5ba13a9baf1c140671a826",
+    "sha512": "2755ec264a8eb0e9e8908b6c5ca3d49de296c218f91ba25bb4cd0659f92f4506fcfd891a9a7cc953b0e4d34be1646a161a92e0424e3ae2a4bc88a92fe248ffd2",
+    "size": 42233874,
+    "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.14.1%2B1/OpenJDK11U-jre_x64_alpine-linux_hotspot_11.0.14.1_1.tar.gz",
+    "vendor": "eclipse",
+    "version": "11.0.14+101"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "temurin",
     "features": [],
     "file_type": "tar.gz",
     "filename": "OpenJDK11U-jre_x64_linux_hotspot_11.0.15_10.tar.gz",
@@ -818,6 +840,26 @@
     "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.9%2B10/OpenJDK21U-jre_x64_alpine-linux_hotspot_21.0.9_10.tar.gz",
     "vendor": "eclipse",
     "version": "21.0.9+10.0.LTS"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "temurin",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK21U-jre_x64_linux_hotspot_21.0.10_7.tar.gz",
+    "image_type": "jre",
+    "java_version": "21.0.10+7-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "b0f7f31716a4455d5cef713771e5d397",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "fe5d4958823207548f8b630cd01cd553c4a70345",
+    "sha256": "991be6ac6725e76109ecbd131d658f992dcbeacba3a8b4b6650302c8012b52fb",
+    "sha512": "9265414cb548d5b43dd1a0101a970da5af548619f7b2dd26250d71c790b9ea0fd7f2713d2392e1e896a372e0deb85892fc8052c174a3fb7b370a08bf68265160",
+    "size": 51947513,
+    "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.10%2B7/OpenJDK21U-jre_x64_linux_hotspot_21.0.10_7.tar.gz",
+    "vendor": "eclipse",
+    "version": "21.0.10+7.0.LTS"
   },
   {
     "architecture": "x86_64",

@@ -2,21 +2,25 @@
   {
     "architecture": "aarch64",
     "distro": "liberica",
-    "features": [],
+    "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
     "file_type": "zip",
-    "filename": "bellsoft-jre21.0.7+9-windows-aarch64.zip",
+    "filename": "bellsoft-jre21.0.10+10-windows-aarch64-full.zip",
     "image_type": "jre",
-    "java_version": "21.0.7+9-LTS",
+    "java_version": "21.0.10+10-LTS",
     "jvm_impl": "hotspot",
-    "md5": "a0c91ce1f0720400e42d1a398037a700",
+    "md5": "1b4c981be9b8b0e8f32ae30d39fa4e45",
     "os": "windows",
     "release_type": "ga",
-    "sha1": "8e9d37f71803822e0e8a5d8710f64b30d1410ceb",
-    "sha256": "23bb70645bf4d86c551652063bd0e89af43c29ed65ae9b535f4b61c943f714e1",
-    "sha512": "e6571b6118f5df5edcc7c90a93fd60ac914668cf6eaf669c460cb57f1bfcc07341b834afa6b234ca3ef0d1efedbd59c0c7509e9cefaf0b7d244a4f10efd2708b",
-    "size": 42653521,
-    "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.7+9/bellsoft-jre21.0.7+9-windows-aarch64.zip",
+    "sha1": "dca8cf7bf08cba882a6213ec016ad6a8b4f4e872",
+    "sha256": "3bc2c0c53156eedc3e604cce9f74dd1542c24cf2714cd35944575eedea0f86f9",
+    "sha512": "ab25d792530cf5053c1840703d2e5549da968a710baa9e7f7d09de9ac05edc49507bfdc4b743aa92bafc490dd635794a699dc7522c5dab548f19131c2e1733b5",
+    "size": 47927612,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.10+10/bellsoft-jre21.0.10+10-windows-aarch64-full.zip",
     "vendor": "bellsoft",
-    "version": "21.0.7+9"
+    "version": "21.0.10+10"
   }
 ]

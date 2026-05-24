@@ -522,6 +522,28 @@
   {
     "architecture": "x86_64",
     "distro": "adoptopenjdk",
+    "features": [
+      "large_heap"
+    ],
+    "file_type": "zip",
+    "filename": "OpenJDK8U-jre_x64_windows_openj9_windowsXL_8u265b01_openj9-0.21.0.zip",
+    "image_type": "jre",
+    "java_version": "1.8.0_265-b01",
+    "jvm_impl": "openj9",
+    "md5": "87b2c04d1b3eee2f29e63e4731371ae6",
+    "os": "windows",
+    "release_type": "ga",
+    "sha1": "8e4c7ea28fff02bf47f6cb7e2dc1657d84bafa60",
+    "sha256": "7e4680f5bbc7c89a3d1646fe2ab0281f9c7d43eaf26e3226b79ffb1ddb9772f9",
+    "sha512": "a659fb52428ed95c359053d22f4737fd85804a8b032bf9fd9148a8d03ebef9ac2b083575d11ce1ba6766c6abf546e1355c0b608e05cda24812f44e9e3cad46d1",
+    "size": 46035778,
+    "url": "https://github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u265-b01_openj9-0.21.0/OpenJDK8U-jre_x64_windows_openj9_windowsXL_8u265b01_openj9-0.21.0.zip",
+    "vendor": "adoptopenjdk",
+    "version": "8.0.265+1.openj9-0.21.0"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "adoptopenjdk",
     "features": [],
     "file_type": "zip",
     "filename": "OpenJDK8U-jre_x64_windows_openj9_8u292b10_openj9-0.26.0.zip",
@@ -764,6 +786,26 @@
     "url": "https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.16.1+1_openj9-0.33.1/ibm-semeru-open-jre_x64_windows_11.0.16.1_1_openj9-0.33.1.msi",
     "vendor": "ibm",
     "version": "11.0.16.1+1_openj9-0.33.1"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "semeru",
+    "features": [],
+    "file_type": "zip",
+    "filename": "ibm-semeru-open-jre_x64_windows_11.0.17_8_openj9-0.35.0.zip",
+    "image_type": "jre",
+    "java_version": "11.0.17+8",
+    "jvm_impl": "openj9",
+    "md5": "5c0590c2e530f2dd2e0d21af18cbc748",
+    "os": "windows",
+    "release_type": "ga",
+    "sha1": "7da94921e773a82e26397901c3159bd14339581c",
+    "sha256": "8751e76b653625ef8d230156029c1fa796843397d1c58c29db9af941bc24d6d6",
+    "sha512": "94f02dccbc4855a5e3036e0c3f4ca519f50b19e6c3760ea6f33eac5f7b6c2907387e89303ee200532402d3357daf23461f32df2f99c064de3cb562f80ec81f4b",
+    "size": 46994029,
+    "url": "https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.17+8_openj9-0.35.0/ibm-semeru-open-jre_x64_windows_11.0.17_8_openj9-0.35.0.zip",
+    "vendor": "ibm",
+    "version": "11.0.17+8_openj9-0.35.0"
   },
   {
     "architecture": "x86_64",
@@ -1700,6 +1742,26 @@
     "url": "https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.15%2B6_openj9-0.51.0/ibm-semeru-open-jre_x64_windows_17.0.15_6_openj9-0.51.0.zip",
     "vendor": "ibm",
     "version": "17.0.15+6_openj9-0.51.0"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "semeru",
+    "features": [],
+    "file_type": "msi",
+    "filename": "ibm-semeru-open-jre_x64_windows_17.0.16_8_openj9-0.53.0.msi",
+    "image_type": "jre",
+    "java_version": "17.0.16+8",
+    "jvm_impl": "openj9",
+    "md5": "dc472dcafc7004a309c61ca28b0fddb0",
+    "os": "windows",
+    "release_type": "ga",
+    "sha1": "85939b865c78ad4a6a78a466516cbde56f9e1394",
+    "sha256": "e2f605cdfca8e204fe2135d653823001d8f956f80e99f6d7c2a0eec96c2661e3",
+    "sha512": "0197ba8f30ac4dbcb50f663e7a512de08a883409bca718bf4647dc76e2d0e50601c0a37e9c5d11b6e38dbd8f70e7c3287e3352ff2d78882de24ea607f12d71ff",
+    "size": 38400000,
+    "url": "https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.16+8_openj9-0.53.0/ibm-semeru-open-jre_x64_windows_17.0.16_8_openj9-0.53.0.msi",
+    "vendor": "ibm",
+    "version": "17.0.16+8_openj9-0.53.0"
   },
   {
     "architecture": "x86_64",
