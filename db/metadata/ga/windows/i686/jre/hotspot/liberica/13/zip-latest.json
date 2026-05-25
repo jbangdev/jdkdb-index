@@ -2,21 +2,25 @@
   {
     "architecture": "i686",
     "distro": "liberica",
-    "features": [],
+    "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
     "file_type": "zip",
-    "filename": "bellsoft-jre13.0.1-windows-i586.zip",
+    "filename": "bellsoft-jre13.0.2+9-windows-i586-full.zip",
     "image_type": "jre",
-    "java_version": "13.0.1",
+    "java_version": "13.0.2+9",
     "jvm_impl": "hotspot",
-    "md5": "42aeae8d5b2c6ebbe2497fad7bbd1850",
+    "md5": "a949ff2b3321dad2695135cc92036756",
     "os": "windows",
     "release_type": "ga",
-    "sha1": "6eb0f7698825c14bf2f128237aceb0ca50db4dd5",
-    "sha256": "d4d63e90146b76340e86ecb0bf3b062fde22152270f053b0f72b42851df1e417",
-    "sha512": "a4ca2a57c4c55b798c2703d4c9171e5f04c89e51ea3acf54e04e9e99d36ee80aecd7d671a89de10b57d0473be9774d3818281be2890f17136c2b51227137782b",
-    "size": 65860509,
-    "url": "https://github.com/bell-sw/Liberica/releases/download/13.0.1/bellsoft-jre13.0.1-windows-i586.zip",
+    "sha1": "0d67779bf871a5ea05d95130d29fce7bba5232dd",
+    "sha256": "9cd30cbe29400ef5c893ff2295cb3d7382034a62ecfc6f18d9611ba473e7e6c7",
+    "sha512": "2849e970e6e59664bb435e8e478f2a0384895f778b9809ec6762ab96eb0bdbd0dfa33a92bb0a14a6637fabecc41395224cc22e96d899dcf04fc07198bc931752",
+    "size": 65866796,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/13.0.2+9/bellsoft-jre13.0.2+9-windows-i586-full.zip",
     "vendor": "bellsoft",
-    "version": "13.0.1"
+    "version": "13.0.2+9"
   }
 ]

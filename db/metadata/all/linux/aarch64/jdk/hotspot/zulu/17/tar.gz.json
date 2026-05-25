@@ -102,6 +102,28 @@
   {
     "architecture": "aarch64",
     "distro": "zulu",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "zulu17.0.81-ea-jdk17.0.0-ea.35-linux_musl_aarch64.tar.gz",
+    "image_type": "jdk",
+    "java_version": "17.0.0-ea.35",
+    "jvm_impl": "hotspot",
+    "md5": "4bc0f50094530d4bfbf3f20f43922c96",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "fa8f95ebfd2734e45381e325be25604bf965ae7b",
+    "sha256": "b899dfa5e4bea5342ddd21580b57e84865654049b2edab094e5e863d8f28d170",
+    "sha512": "ba7a8aaa0e56631beaada56e3b5592f69e56d37efb3137c82df80ce8dfbbf6210848b8490f5f84a2345a96f74a3a02920bd3c6803236ebc652c66cd1a8ab4c06",
+    "size": 186997790,
+    "url": "https://static.azul.com/zulu/bin/zulu17.0.81-ea-jdk17.0.0-ea.35-linux_musl_aarch64.tar.gz",
+    "vendor": "azul",
+    "version": "17.0.81"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "zulu",
     "features": [],
     "file_type": "tar.gz",
     "filename": "zulu17.30.15-ca-jdk17.0.1-linux_aarch64.tar.gz",
@@ -330,6 +352,28 @@
     "url": "https://static.azul.com/zulu/bin/zulu17.60.17-ca-jdk17.0.16-linux_aarch64.tar.gz",
     "vendor": "azul",
     "version": "17.60.17"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "zulu",
+    "features": [
+      "javafx"
+    ],
+    "file_type": "tar.gz",
+    "filename": "zulu17.62.17-ca-fx-jdk17.0.17-linux_aarch64.tar.gz",
+    "image_type": "jdk",
+    "java_version": "17.0.17+10-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "1b7aafc6d9922cfaa879bb0866273945",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "bdd0043203203c8c414320b3708c77b1c04c1350",
+    "sha256": "adef91872a05582fcd9585bd2ad1256fef841ad1a0e8be19f5a81b2871a1cf28",
+    "sha512": "39132ae434d2f666f1338c55da45d6b393fac689f084c6786f079bfa04c583866b22c3b7f1bc6efa89bfd5dbfb3953c3e6245fee0ea71a3bb97c3b642fda6308",
+    "size": 308179167,
+    "url": "https://static.azul.com/zulu/bin/zulu17.62.17-ca-fx-jdk17.0.17-linux_aarch64.tar.gz",
+    "vendor": "azul",
+    "version": "17.62.17"
   },
   {
     "architecture": "aarch64",

@@ -1644,6 +1644,28 @@
   {
     "architecture": "ppc64",
     "distro": "semeru",
+    "features": [
+      "certified"
+    ],
+    "file_type": "tar.gz",
+    "filename": "ibm-semeru-certified-jre_ppc64_aix_11.0.17.0.tar.gz",
+    "image_type": "jre",
+    "java_version": "11.0.17+8",
+    "jvm_impl": "openj9",
+    "md5": "4b45534c5d399f67ecc7d06870f3b080",
+    "os": "aix",
+    "release_type": "ga",
+    "sha1": "e6163a992338b5a16d5b0886d1f7209d2ba2085a",
+    "sha256": "ce42f01accd1b7f11875d79c72375aaf83a7f58179cefd3e35627fd92355ec9b",
+    "sha512": "6a2ecc1ac14c9519ccf500915d7a302c203fc4a8da8b2118fd973d0631a3eddf7bc3065bf7f4f26f1b6cbc60bf330c939ed70ec222308f779a22b1ca57b2b9a9",
+    "size": 58414528,
+    "url": "https://github.com/ibmruntimes/semeru11-certified-binaries/releases/download/jdk-11.0.17+8_openj9-0.35.0/ibm-semeru-certified-jre_ppc64_aix_11.0.17.0.tar.gz",
+    "vendor": "ibm",
+    "version": "11.0.17+8_openj9-0.35.0"
+  },
+  {
+    "architecture": "ppc64",
+    "distro": "semeru",
     "features": [],
     "file_type": "tar.gz",
     "filename": "ibm-semeru-open-jre_ppc64_aix_11.0.17_8_openj9-0.35.0.tar.gz",
@@ -6742,6 +6764,26 @@
     "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4%2B1-ea-beta/OpenJDK25U-jre_ppc64_aix_hotspot_25.0.4_1-ea.tar.gz",
     "vendor": "eclipse",
     "version": "25.0.4+1-ea-beta"
+  },
+  {
+    "architecture": "ppc64",
+    "distro": "temurin",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK25U-jre_ppc64_aix_hotspot_25.0.4_2-ea.tar.gz",
+    "image_type": "jre",
+    "java_version": "25",
+    "jvm_impl": "hotspot",
+    "md5": "37b966a2394b69e7e0d1182f803d20d8",
+    "os": "aix",
+    "release_type": "ea",
+    "sha1": "0f80dcb5635a6d9ef4245e79c03b2b7e73870bba",
+    "sha256": "15a9ddcd0b19fc272e8afe6df9c22e59838dd9e3d201d04269c56e905c1cc923",
+    "sha512": "116db0c019de0514a4324c4a3ed848c0619e398b5b336268f1f4e7dcf95a28f96cf17f86010f02c9e29e2decdea7cf0bacf4998c52892945b9dbf1dcd7ec88f2",
+    "size": 41123338,
+    "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4%2B2-ea-beta/OpenJDK25U-jre_ppc64_aix_hotspot_25.0.4_2-ea.tar.gz",
+    "vendor": "eclipse",
+    "version": "25.0.4+2-ea-beta"
   },
   {
     "architecture": "ppc64",
