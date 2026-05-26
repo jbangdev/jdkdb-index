@@ -153,6 +153,28 @@
     "architecture": "x86_64",
     "distro": "liberica",
     "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jdk15.0.2+8-linux-x64-musl.tar.gz",
+    "image_type": "jdk",
+    "java_version": "15.0.2+8",
+    "jvm_impl": "hotspot",
+    "md5": "f83f5ce010fe567d8cc04e5436781d64",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "60786c97b5f74e9ecc0c2fb9584ea98a5478c6d7",
+    "sha256": "035f4c1b8950d499fec43935ad5b9948e058e8d2b5f7f036364ad13b8fad05aa",
+    "sha512": "ad6759cbb04eabbb214255fc11048a823703d143eecd5fdae6e100c23d9789d155f46c466d9b6c935be34364f7ebd16c7265640e796c3fa045d2c9141b22c33e",
+    "size": 213872244,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/15.0.2+8/bellsoft-jdk15.0.2+8-linux-x64-musl.tar.gz",
+    "vendor": "bellsoft",
+    "version": "15.0.2+8"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
       "libericafx",
       "minimal-vm",
       "javafx"

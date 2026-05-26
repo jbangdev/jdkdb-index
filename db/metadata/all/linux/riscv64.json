@@ -1285,6 +1285,26 @@
   },
   {
     "architecture": "riscv64",
+    "distro": "adoptopenjdk",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK17U-jre_riscv64_linux_hotspot_17.0.13_11.tar.gz",
+    "image_type": "jre",
+    "java_version": "17.0.13+11",
+    "jvm_impl": "hotspot",
+    "md5": "20d1d0c6169cd4b645b461976c987bce",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "01fa3640c7fa3424c690d4df8b5ff665cb9cec6f",
+    "sha256": "f6f3e71e5452b764aad47e6ffa4f0b26fcfe69bd9eb07fbd468343f9dd5f17b5",
+    "sha512": "35563ca0562c1e59934397f20e3dfef2f39c8710d6fb4e42159b799cc563f3cbb0d1ace6999ad628e0de437112cef1c4c1657c8ae34b1637c3ca49e065f21aca",
+    "size": 43213706,
+    "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.13%2B11/OpenJDK17U-jre_riscv64_linux_hotspot_17.0.13_11.tar.gz",
+    "vendor": "adoptopenjdk",
+    "version": "17.0.13+11"
+  },
+  {
+    "architecture": "riscv64",
     "distro": "liberica",
     "features": [],
     "file_type": "tar.gz",
@@ -6082,6 +6102,26 @@
   {
     "architecture": "riscv64",
     "distro": "liberica",
+    "features": [],
+    "file_type": "deb",
+    "filename": "bellsoft-jre22.0.1+10-linux-riscv64.deb",
+    "image_type": "jre",
+    "java_version": "22.0.1+10",
+    "jvm_impl": "hotspot",
+    "md5": "f921b9bf1ba0cf067f91b335958f6ce2",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "d7b9ab341df14d809890f973de0a4c9f39e72305",
+    "sha256": "5dac279574296657354333f04600284619c8fdf40586630222c59f921eff3ed4",
+    "sha512": "fa3b3600a98c0960fd81432588ca4149b1298f851a49f199cb0fce1eb313d8ee02ff5143c83e07ef05020556fcb817422c4ae50f7423f4043edd466c57fa2f7d",
+    "size": 25804028,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/22.0.1+10/bellsoft-jre22.0.1+10-linux-riscv64.deb",
+    "vendor": "bellsoft",
+    "version": "22.0.1+10"
+  },
+  {
+    "architecture": "riscv64",
+    "distro": "liberica",
     "features": [
       "lite"
     ],
@@ -7396,6 +7436,28 @@
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-25/openjdk-25-jre_25.0.2+10-1_riscv64.deb",
     "vendor": "debian",
     "version": "25.0.2+10-1"
+  },
+  {
+    "architecture": "riscv64",
+    "distro": "liberica",
+    "features": [
+      "lite"
+    ],
+    "file_type": "rpm",
+    "filename": "bellsoft-jdk25.0.2+12-linux-riscv64-lite.rpm",
+    "image_type": "jdk",
+    "java_version": "25.0.2+12-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "1b2cb56d113e11a626c92d9beb806c44",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "1d213583fe5bd06e131e96a9315751f80e344dff",
+    "sha256": "737b4e3418be0b63f6cde7aa3e1da5f2738052a31b3c5313084776659da5abe3",
+    "sha512": "5010d21198222e0604b10c3dd2c0a186dc63b560d74892ca639c9ccf9eb17a6102b12646d37c5e5aef777d6cd3ad4a54cbd7d568096a18e2d7be1ba7a15592fa",
+    "size": 79412524,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/25.0.2+12/bellsoft-jdk25.0.2+12-linux-riscv64-lite.rpm",
+    "vendor": "bellsoft",
+    "version": "25.0.2+12"
   },
   {
     "architecture": "riscv64",

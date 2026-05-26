@@ -257,6 +257,30 @@
     "architecture": "aarch64",
     "distro": "liberica",
     "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jre11.0.14+9-linux-aarch64-full.tar.gz",
+    "image_type": "jre",
+    "java_version": "11.0.14+9",
+    "jvm_impl": "hotspot",
+    "md5": "0b7696c64ed2a619cd68a853f464b97e",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "809dbb1bab27d709ed64419d24a6bfc8ca5569c5",
+    "sha256": "c69d42b1f618b5e534980decb3688a08e8b67525094a87594abd6f81e418130e",
+    "sha512": "a57a19b42eb6f4be9c22a38d7e47e004e4d0e91b5a10e93d1178527e07db4ee4ce1f43d8dafc737c0c05264f7658eee53c79669ee646a33826f544b8f66bb7f8",
+    "size": 85036161,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.14+9/bellsoft-jre11.0.14+9-linux-aarch64-full.tar.gz",
+    "vendor": "bellsoft",
+    "version": "11.0.14+9"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "liberica",
+    "features": [
       "musl"
     ],
     "file_type": "tar.gz",
@@ -756,6 +780,26 @@
     "sha512": "d9977806119838b925df353d2291777d681121957b9e4147f86edc806e00db8a8056918d18b9863b0eab96c0ddbbec3ba24cd9cd74a4adb74e18cf70e4b25177",
     "size": 47437945,
     "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.22+12/bellsoft-jre11.0.22+12-linux-aarch64-musl.apk",
+    "vendor": "bellsoft",
+    "version": "11.0.22+12"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "liberica",
+    "features": [],
+    "file_type": "rpm",
+    "filename": "bellsoft-jre11.0.22+12-linux-aarch64.rpm",
+    "image_type": "jre",
+    "java_version": "11.0.22+12-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "268e48cfb3f7697e22ddc4e4c40c411f",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "524ffab486ca786e348047e355c7c9585c3d5946",
+    "sha256": "8aa5965cd87febc4d37c41bd4302e2ccf74b7436dbdb0b1f954dd06620f5c327",
+    "sha512": "a118538594dc702e38d296ef80e3ad09a8e4f6a018b28559500336311da26625f4c9fc81d9462f6dcc059f739ffd73a70664e379c1513d8d1b3d75c5c24500f4",
+    "size": 32793116,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.22+12/bellsoft-jre11.0.22+12-linux-aarch64.rpm",
     "vendor": "bellsoft",
     "version": "11.0.22+12"
   },

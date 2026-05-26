@@ -2,21 +2,25 @@
   {
     "architecture": "x86_64",
     "distro": "liberica",
-    "features": [],
+    "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
     "file_type": "deb",
-    "filename": "bellsoft-jre21.0.10+10-linux-amd64.deb",
+    "filename": "bellsoft-jre21+37-linux-amd64-full.deb",
     "image_type": "jre",
-    "java_version": "21.0.10+10-LTS",
+    "java_version": "21+37-LTS",
     "jvm_impl": "hotspot",
-    "md5": "a88aada051ae5fc81be263a16fce6fe2",
+    "md5": "a563eba925c9d9b6b327d5677e978cd6",
     "os": "linux",
     "release_type": "ga",
-    "sha1": "49b3334f7e3f1df2d3323b3aad2fd1f8a4d2874e",
-    "sha256": "b7a03f38b64beacc6c4f1954e2ebc2db029e9a8c8c28cc4f9f7453ee8599bd17",
-    "sha512": "1ff6b0868360bf4e93f8140726e6074aef930694bac35dafe163a0a8b8c03ffd02fada5e4c62ae56eec6dc10ee64c9565430e4cd4f749d41a0afe94870eb4d2e",
-    "size": 41797584,
-    "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.10+10/bellsoft-jre21.0.10+10-linux-amd64.deb",
+    "sha1": "6047e50f2e8be30d36ddfcd4e2770fd7593d0384",
+    "sha256": "138156c62e3d1645e18e1332e40747d0b2e6b592ea41ab5740a2a829a66fc72f",
+    "sha512": "c752142bff71dd124b155f52b48092481b93c435bb04257e2776f10c25e44211dc203e7dabcb51ff2633e2203c8509d55bd5b499e82b974a69ea9c45769b4a64",
+    "size": 74352724,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/21+37/bellsoft-jre21+37-linux-amd64-full.deb",
     "vendor": "bellsoft",
-    "version": "21.0.10+10"
+    "version": "21+37"
   }
 ]

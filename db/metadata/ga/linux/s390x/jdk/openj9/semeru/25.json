@@ -24,6 +24,28 @@
   {
     "architecture": "s390x",
     "distro": "semeru",
+    "features": [
+      "certified"
+    ],
+    "file_type": "zip",
+    "filename": "ibm-semeru-certified-jdk_s390x_linux_25.0.0.0.tap.zip",
+    "image_type": "jdk",
+    "java_version": "25+36",
+    "jvm_impl": "openj9",
+    "md5": "44847c80eef47f6b53ad250ac2e9d8be",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "db7b4f89cd4448cab5e91b919c3a457ecfb26e1f",
+    "sha256": "18ecd33cf69505e21c88d550c2ca85adaa4b002bc2fe8baca3fabaf6737af4ac",
+    "sha512": "3ce494bea3801c583b321e57a6605295c7e77ace7f150dae885d937eb8999085610a10915755cd981895a6dda4cfd601459bb3a4378d5c7a19a1e223e8f4fa88",
+    "size": 314888,
+    "url": "https://github.com/ibmruntimes/semeru25-certified-binaries/releases/download/jdk-25+36_openj9-0.55.0/ibm-semeru-certified-jdk_s390x_linux_25.0.0.0.tap.zip",
+    "vendor": "ibm",
+    "version": "25+36_openj9-0.55.0"
+  },
+  {
+    "architecture": "s390x",
+    "distro": "semeru",
     "features": [],
     "file_type": "rpm",
     "filename": "ibm-semeru-open-25-jdk-25.36_0.55.0-1.s390x.rpm",

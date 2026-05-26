@@ -1171,6 +1171,26 @@
   },
   {
     "architecture": "s390x",
+    "distro": "temurin",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK11U-jdk_s390x_linux_hotspot_11.0.14_9.tar.gz",
+    "image_type": "jdk",
+    "java_version": "11.0.14+9",
+    "jvm_impl": "hotspot",
+    "md5": "1a47010232d2a915bb60f4a6d3ea0522",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "be68f359ea73146994b635f21033af3d593a95dd",
+    "sha256": "4dd43e06830e62d65c698b393db10bab39ec6575de08db8d2f5b66cfe09c8c85",
+    "sha512": "e30689cff397a92bc0af614c74f49307ffdf31179251334753070077b5d7240b891e6a959666d1543ad596719203364dd9b44da469756f32a7564db0a606c5b2",
+    "size": 167727624,
+    "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.14%2B9/OpenJDK11U-jdk_s390x_linux_hotspot_11.0.14_9.tar.gz",
+    "vendor": "eclipse",
+    "version": "11.0.14+9"
+  },
+  {
+    "architecture": "s390x",
     "distro": "semeru",
     "features": [
       "certified"
@@ -1709,6 +1729,26 @@
   },
   {
     "architecture": "s390x",
+    "distro": "temurin",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK11U-jdk_s390x_linux_hotspot_11.0.27_6.tar.gz",
+    "image_type": "jdk",
+    "java_version": "11.0.27+6",
+    "jvm_impl": "hotspot",
+    "md5": "5b78ebad397fca5755d1ed40bd7e7da9",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "a753a3332dbf7dcfd932989d4b7901061bf14e5f",
+    "sha256": "89df8583779b880f21b6cf29ddd9438961e2b1a092f416d05255fd6cd7f0e9fe",
+    "sha512": "d1fcc8e79e03a0721d0417f61d6e06d28489cb1ceeb0fe9bda486e6701fab46d8b9ea9f089d062cda54489be6cd8383ae48fc1996d592bba67fdecfb3a984f62",
+    "size": 168453266,
+    "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.27%2B6/OpenJDK11U-jdk_s390x_linux_hotspot_11.0.27_6.tar.gz",
+    "vendor": "eclipse",
+    "version": "11.0.27+6"
+  },
+  {
+    "architecture": "s390x",
     "distro": "semeru",
     "features": [
       "certified"
@@ -1894,6 +1934,26 @@
     "url": "https://github.com/ibmruntimes/semeru11-certified-binaries/releases/download/jdk-11.0.29+7_openj9-0.56.0/ibm-semeru-certified-jdk_s390x_linux_11.0.29.0.tar.gz",
     "vendor": "ibm",
     "version": "11.0.29+7_openj9-0.56.0"
+  },
+  {
+    "architecture": "s390x",
+    "distro": "adoptopenjdk",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK11U-jdk_s390x_linux_hotspot_11.0.29_7.tar.gz",
+    "image_type": "jdk",
+    "java_version": "11.0.29+7",
+    "jvm_impl": "hotspot",
+    "md5": "c3c7b0417a40fb850467d4fb1b868907",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "a8df96d58dabaf1e2f3ddb04243bf77fba471073",
+    "sha256": "12a494209c04a4cacee1615708b6856a770391d2588251a9a36e767ca4a07ac4",
+    "sha512": "fd062ba03da9c8d3d16da1934a1fef5b7336d8a25b667b0563b9113ecc860a41b718a65d4b124a64da46d7a28cd52c83f598ad068ee32bbd48e13d5ca4dbf347",
+    "size": 168593496,
+    "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.29%2B7/OpenJDK11U-jdk_s390x_linux_hotspot_11.0.29_7.tar.gz",
+    "vendor": "adoptopenjdk",
+    "version": "11.0.29+7"
   },
   {
     "architecture": "s390x",
@@ -2836,6 +2896,28 @@
   {
     "architecture": "s390x",
     "distro": "semeru",
+    "features": [
+      "certified"
+    ],
+    "file_type": "tar.gz",
+    "filename": "ibm-semeru-certified-jdk_s390x_linux_17.0.7.0.tar.gz",
+    "image_type": "jdk",
+    "java_version": "17.0.7+7",
+    "jvm_impl": "openj9",
+    "md5": "1fa5e85957797b85a249f0bca0fd1f2f",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "978dca1b1019c4a7954daae845054acb17031eff",
+    "sha256": "a3130818bde474f6b1f9bcbb5e7f5dc5196639cac4190b6e26fbab6b428ecee9",
+    "sha512": "966a506e7718e8d7589756cb5785a1e09842ec1b6189619bfa50ea6caf1334f02421961c7f1b51a0d71645cef0a1938ca171f63175e9f57d0b83123ebe8466b6",
+    "size": 227341981,
+    "url": "https://github.com/ibmruntimes/semeru17-certified-binaries/releases/download/jdk-17.0.7+7_openj9-0.38.0/ibm-semeru-certified-jdk_s390x_linux_17.0.7.0.tar.gz",
+    "vendor": "ibm",
+    "version": "17.0.7+7_openj9-0.38.0"
+  },
+  {
+    "architecture": "s390x",
+    "distro": "semeru",
     "features": [],
     "file_type": "rpm",
     "filename": "ibm-semeru-open-17-jdk-17.0.17.7_0.56.0-1.s390x.rpm",
@@ -3292,6 +3374,28 @@
     "url": "https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.15+5_openj9-0.51.0-m2/ibm-semeru-open-17-jdk-17.0.15.5_0.51.0-1.s390x.rpm",
     "vendor": "ibm",
     "version": "17.0.15+5_openj9-0.51.0-m2"
+  },
+  {
+    "architecture": "s390x",
+    "distro": "semeru",
+    "features": [
+      "certified"
+    ],
+    "file_type": "tar.gz",
+    "filename": "ibm-semeru-certified-jdk_s390x_linux_17.0.15.0.tar.gz",
+    "image_type": "jdk",
+    "java_version": "17.0.15+6",
+    "jvm_impl": "openj9",
+    "md5": "984a88338a94f360ff41c86dd92cdfda",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "65d84dae67c4bc7755a2f600a291274cff7e4f64",
+    "sha256": "fd53b5e60962b96197493423154334d487817af878dccce5526ae384bf0f9b78",
+    "sha512": "24e500d615a9a2b84f260d5e9f4d7e3219190df9d2e3142e842d570fcc0e6749aa45c61533be0e73c91d7e90ccf2b696a14dfa9fa3f7c76e642287a5bf71a051",
+    "size": 237481871,
+    "url": "https://github.com/ibmruntimes/semeru17-certified-binaries/releases/download/jdk-17.0.15+6_openj9-0.51.0/ibm-semeru-certified-jdk_s390x_linux_17.0.15.0.tar.gz",
+    "vendor": "ibm",
+    "version": "17.0.15+6_openj9-0.51.0"
   },
   {
     "architecture": "s390x",
@@ -4174,6 +4278,26 @@
     "distro": "semeru",
     "features": [],
     "file_type": "tar.gz",
+    "filename": "ibm-semeru-open-jdk_s390x_linux_19.0.2_7_openj9-0.37.0.tar.gz",
+    "image_type": "jdk",
+    "java_version": "19.0.2+7",
+    "jvm_impl": "openj9",
+    "md5": "1fceab94e7640f4f85f087a1ca8aa3db",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "92095577610c7f004491cfcb8d36d8bdaf70a38a",
+    "sha256": "86c896a8513b9c1004536c3ca802f61d788a0da33d11c133ed35d3e41ad65e48",
+    "sha512": "fd62cf90fdba84509aa1602bd8185b3b6dfaccb02cd976f39b970a2f8a5c4ff32145e6ace81bbadcec091db892c258534b928853a5d414d88efe4bb847eae688",
+    "size": 213171001,
+    "url": "https://github.com/ibmruntimes/semeru19-binaries/releases/download/jdk-19.0.2+7_openj9-0.37.0/ibm-semeru-open-jdk_s390x_linux_19.0.2_7_openj9-0.37.0.tar.gz",
+    "vendor": "ibm",
+    "version": "19.0.2+7_openj9-0.37.0"
+  },
+  {
+    "architecture": "s390x",
+    "distro": "semeru",
+    "features": [],
+    "file_type": "tar.gz",
     "filename": "ibm-semeru-open-jdk_s390x_linux_20.0.2_9_openj9-0.40.0.tar.gz",
     "image_type": "jdk",
     "java_version": "20.0.2+9",
@@ -4292,6 +4416,26 @@
     "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.2%2B13/OpenJDK21U-jdk_s390x_linux_hotspot_21.0.2_13.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "21.0.2+13.0.LTS"
+  },
+  {
+    "architecture": "s390x",
+    "distro": "adoptopenjdk",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK21U-jdk_s390x_linux_hotspot_21.0.3_9.tar.gz",
+    "image_type": "jdk",
+    "java_version": "21.0.3+9-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "7746688c7328c66104ae006cb87d63d0",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "ebecdd6774c954581e58681727b138383ef713b2",
+    "sha256": "f57a078d417614e5d78c07c77a6d8a04701058cf692c8e2868d593582be92768",
+    "sha512": "a4eab58e1645d5bf50508b4fcf4844bcd7149e9e910cec33668be45c4745ed1fb56cccbc455b4b0ef22840be4607e0388f279f5ac51e74ad62a17c197f78dbdc",
+    "size": 194498267,
+    "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jdk_s390x_linux_hotspot_21.0.3_9.tar.gz",
+    "vendor": "adoptopenjdk",
+    "version": "21.0.3+9.0.LTS"
   },
   {
     "architecture": "s390x",
@@ -4500,6 +4644,28 @@
     "url": "https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.7%2B6_openj9-0.51.0/ibm-semeru-open-jdk_s390x_linux_21.0.7_6_openj9-0.51.0.tar.gz",
     "vendor": "ibm",
     "version": "21.0.7+6_openj9-0.51.0"
+  },
+  {
+    "architecture": "s390x",
+    "distro": "semeru",
+    "features": [
+      "certified"
+    ],
+    "file_type": "zip",
+    "filename": "ibm-semeru-certified-jdk_s390x_linux_21.0.8.0.tap.zip",
+    "image_type": "jdk",
+    "java_version": "21.0.8+9",
+    "jvm_impl": "openj9",
+    "md5": "e7155baaa9dfd8fc0b6a7e3379dbd0d3",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "aa1de54d84836752ee64ce221255ea3e0f31943f",
+    "sha256": "95c0e8749d39c674264d749d67197f5a67bc26f89fb531cc8ae84ac83d6a021b",
+    "sha512": "cf3e2d42e157ee9758457a8cc55a04df56dbf572c5da10c603a04c48de658aea3ce03b2d0976a4809940505b76aadab5f7f0be0a2440fdbd33d078c9cf6c84f9",
+    "size": 197497,
+    "url": "https://github.com/ibmruntimes/semeru21-certified-binaries/releases/download/jdk-21.0.8+9_openj9-0.53.0/ibm-semeru-certified-jdk_s390x_linux_21.0.8.0.tap.zip",
+    "vendor": "ibm",
+    "version": "21.0.8+9_openj9-0.53.0"
   },
   {
     "architecture": "s390x",
@@ -5193,6 +5359,26 @@
   },
   {
     "architecture": "s390x",
+    "distro": "adoptopenjdk",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK24U-jdk_s390x_linux_hotspot_24_36.tar.gz",
+    "image_type": "jdk",
+    "java_version": "24+36",
+    "jvm_impl": "hotspot",
+    "md5": "5d50ad5f5c0c8c56d5d059e956903a24",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "c5a0c8fee590f1705b2e2ad129c18404357f0823",
+    "sha256": "e3149dc2ab1db0bdf86ab8d27a5ad67e32e30c829cef8a02628d36e5781f44ff",
+    "sha512": "fb2e6414bf139f89c3629787270309f1a770ed80bb2c9d62daca126bd470b662168271a4c8eb04651b137a502a538c4ee2cdc3f975289a608a54e31e9d01a28a",
+    "size": 132743617,
+    "url": "https://github.com/adoptium/temurin24-binaries/releases/download/jdk-24%2B36/OpenJDK24U-jdk_s390x_linux_hotspot_24_36.tar.gz",
+    "vendor": "adoptopenjdk",
+    "version": "24.0.0+36"
+  },
+  {
+    "architecture": "s390x",
     "distro": "temurin",
     "features": [],
     "file_type": "tar.gz",
@@ -5230,6 +5416,28 @@
     "sha512": "658048cb190683a3f326a733743fda55c4e336e86a03fb120fdf9a27f0912acd46471947f0b87d27c95727d5c0bb89fde2972f6c0f78317956c430ecea8fa8f9",
     "size": 208104292,
     "url": "https://github.com/ibmruntimes/semeru25-certified-binaries/releases/download/jdk-25+36_openj9-0.55.0/ibm-semeru-certified-25-jdk-25.0.0.0-1.s390x.rpm",
+    "vendor": "ibm",
+    "version": "25+36_openj9-0.55.0"
+  },
+  {
+    "architecture": "s390x",
+    "distro": "semeru",
+    "features": [
+      "certified"
+    ],
+    "file_type": "zip",
+    "filename": "ibm-semeru-certified-jdk_s390x_linux_25.0.0.0.tap.zip",
+    "image_type": "jdk",
+    "java_version": "25+36",
+    "jvm_impl": "openj9",
+    "md5": "44847c80eef47f6b53ad250ac2e9d8be",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "db7b4f89cd4448cab5e91b919c3a457ecfb26e1f",
+    "sha256": "18ecd33cf69505e21c88d550c2ca85adaa4b002bc2fe8baca3fabaf6737af4ac",
+    "sha512": "3ce494bea3801c583b321e57a6605295c7e77ace7f150dae885d937eb8999085610a10915755cd981895a6dda4cfd601459bb3a4378d5c7a19a1e223e8f4fa88",
+    "size": 314888,
+    "url": "https://github.com/ibmruntimes/semeru25-certified-binaries/releases/download/jdk-25+36_openj9-0.55.0/ibm-semeru-certified-jdk_s390x_linux_25.0.0.0.tap.zip",
     "vendor": "ibm",
     "version": "25+36_openj9-0.55.0"
   },

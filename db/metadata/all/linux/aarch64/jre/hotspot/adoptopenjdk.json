@@ -284,6 +284,26 @@
     "distro": "adoptopenjdk",
     "features": [],
     "file_type": "tar.gz",
+    "filename": "OpenJDK11U-jre_aarch64_linux_hotspot_11.0.13_8.tar.gz",
+    "image_type": "jre",
+    "java_version": "11.0.13+8",
+    "jvm_impl": "hotspot",
+    "md5": "54b76ac6a79b018efb865da1f94a104c",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "2e606e1bc416edbf0745374f23bca4bfdb471b79",
+    "sha256": "76f7da05d905b5f9de8de1a34c1a206744f7589bf0eed876cd9069cb1d913806",
+    "sha512": "6f0a62a46b800d6eed13265d96dd846147a739d89e6cd2bc9e284218e96d70a435e66d9233d373574044c2404d78a7e7a08f6dd4bd66df7db9e9f5b5b09fef9b",
+    "size": 40741950,
+    "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.13%2B8/OpenJDK11U-jre_aarch64_linux_hotspot_11.0.13_8.tar.gz",
+    "vendor": "adoptopenjdk",
+    "version": "11.0.13+8"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "adoptopenjdk",
+    "features": [],
+    "file_type": "tar.gz",
     "filename": "OpenJDK11U-jre_aarch64_linux_hotspot_11.0.14_9.tar.gz",
     "image_type": "jre",
     "java_version": "11.0.14+9",
@@ -668,6 +688,28 @@
   {
     "architecture": "aarch64",
     "distro": "adoptopenjdk",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK21U-jre_aarch64_alpine-linux_hotspot_21.0.7_6.tar.gz",
+    "image_type": "jre",
+    "java_version": "21.0.7+6-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "259639e5975afc1fd1b494bcb936a0a9",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "780f585f8b90f79e29580132cafd4bd9cb649c45",
+    "sha256": "53877576d3a9dcbf2024789208aa5f045cc65a5645b07d67124b09c2a84f4e1a",
+    "sha512": "2780c72200e170ac8bbd943c988bf9918ebccee5b430e64ab0b78d280e15886652998882dca206633f21d49f638dedd326965d25538392d4b1fd0f0922c72557",
+    "size": 50980922,
+    "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.7%2B6/OpenJDK21U-jre_aarch64_alpine-linux_hotspot_21.0.7_6.tar.gz",
+    "vendor": "adoptopenjdk",
+    "version": "21.0.7+6.0.LTS"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "adoptopenjdk",
     "features": [],
     "file_type": "tar.gz",
     "filename": "OpenJDK21U-jre_aarch64_linux_hotspot_21.0.10_7.tar.gz",
@@ -792,6 +834,26 @@
   {
     "architecture": "aarch64",
     "distro": "adoptopenjdk",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK23U-jre_aarch64_linux_hotspot_23.0.2_7.tar.gz",
+    "image_type": "jre",
+    "java_version": "23.0.2+7",
+    "jvm_impl": "hotspot",
+    "md5": "97565cc2443b8600460bbbf0170ee805",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "f05f9324c771f9203b89fd75f62aad79f21f9cd2",
+    "sha256": "b2a8a287ebd2d2a1d5d32eb6b79768cf2b5e02f1b4d6d4791297feb8636b9e2f",
+    "sha512": "3416b5721ecba15677295c716b0af0d7291768cf6dc50de4a6479b016d18ba5b4d31bc27110ef353629f44f6608fb244ee436f9cf55ce7f9155eb288fca10b30",
+    "size": 50892500,
+    "url": "https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23.0.2%2B7/OpenJDK23U-jre_aarch64_linux_hotspot_23.0.2_7.tar.gz",
+    "vendor": "adoptopenjdk",
+    "version": "23.0.2+7"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "adoptopenjdk",
     "features": [
       "musl"
     ],
@@ -810,6 +872,28 @@
     "url": "https://github.com/adoptium/temurin24-binaries/releases/download/jdk-24%2B36/OpenJDK24U-jre_aarch64_alpine-linux_hotspot_24_36.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "24.0.0+36"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "adoptopenjdk",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK25U-jre_aarch64_alpine-linux_hotspot_25_36.tar.gz",
+    "image_type": "jre",
+    "java_version": "25+36-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "136c3774ea48e010eb6097c1f20507d4",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "c3d034e53242df15ff96c3b89848ce79afc215c7",
+    "sha256": "e88496ca31d2e0a0cdeeba385ab4ea668bbb53a03018f30c8933e97f4f9fda47",
+    "sha512": "38e6ea7259588fd3de1a3c6b78821493b1d76fbf60f5439fadd986db605488078952dce1b3219ed5b85bff25c50c52f356abda4474b6e3232cbd6dc3e8323837",
+    "size": 59540810,
+    "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25%2B36/OpenJDK25U-jre_aarch64_alpine-linux_hotspot_25_36.tar.gz",
+    "vendor": "adoptopenjdk",
+    "version": "25.0.0+36.0.LTS"
   },
   {
     "architecture": "aarch64",
