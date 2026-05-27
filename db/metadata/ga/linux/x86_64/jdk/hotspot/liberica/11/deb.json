@@ -247,6 +247,30 @@
     "architecture": "x86_64",
     "distro": "liberica",
     "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
+    "file_type": "deb",
+    "filename": "bellsoft-jdk11.0.9+12-linux-amd64-full.deb",
+    "image_type": "jdk",
+    "java_version": "11.0.9+12",
+    "jvm_impl": "hotspot",
+    "md5": "e05b9d648433a823a59aa38a05471456",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "17c0dcc732cdec983ef0d2a5ab4241292b0a93c9",
+    "sha256": "cea6cf7a6a6cbfb1def96bb5c0a71c5616c08fd56b60da20c2ff4869136c968e",
+    "sha512": "fdb5d79b2a7dabbb0f4ab5111a85daae92e8cdaba3859b90819d3ff46cdc821fdf7780c5aa8f453be53e126332fbe0bc5b9406907b471c183fedc26352538294",
+    "size": 259675596,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.9+12/bellsoft-jdk11.0.9+12-linux-amd64-full.deb",
+    "vendor": "bellsoft",
+    "version": "11.0.9+12"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
       "lite"
     ],
     "file_type": "deb",
@@ -640,5 +664,27 @@
     "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.26+9/bellsoft-jdk11.0.26+9-linux-amd64-lite.deb",
     "vendor": "bellsoft",
     "version": "11.0.26+9"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
+      "lite"
+    ],
+    "file_type": "deb",
+    "filename": "bellsoft-jdk11.0.29+10-linux-amd64-lite.deb",
+    "image_type": "jdk",
+    "java_version": "11.0.29+10-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "a17dbff11cdbf3c5b9f41d463fe994f8",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "0d3cfc6fab7128c8f6bfe4025983b046785497a4",
+    "sha256": "d8d717bb856d7669ead7716310c540caf02c5d9cde6e9cc6e80a756114e6384f",
+    "sha512": "cd4a65853a303157a9cd0e71b1a358d5aba34228cd153401f5fbc2cdd45776d467d34286e9e9df792eee5d320d4fd05ce0df709d57eb01a6236c36f86c0a74d9",
+    "size": 70580612,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.29+10/bellsoft-jdk11.0.29+10-linux-amd64-lite.deb",
+    "vendor": "bellsoft",
+    "version": "11.0.29+10"
   }
 ]

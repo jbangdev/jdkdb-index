@@ -3,6 +3,30 @@
     "architecture": "x86_64",
     "distro": "liberica",
     "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
+    "file_type": "rpm",
+    "filename": "bellsoft-jdk25.0.1+11-linux-amd64-full.rpm",
+    "image_type": "jdk",
+    "java_version": "25.0.1+11-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "c1dafcd31aeb239b90438002041d8f7c",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "ff3952aa40bb596eeb87800f768c8899d473cbd3",
+    "sha256": "6c39c2ad4151a3e42448c452ebff5368fd31928b4cdedef4894d3bb7e68e3227",
+    "sha512": "190a9285d3de92083224e0c71b172deabafd50eac911f46fa266beb1152afdca115248428822f21152b25310a14588f0604231e9c5bbf697a4d8de8cf2b1b35f",
+    "size": 357649044,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/25.0.1+11/bellsoft-jdk25.0.1+11-linux-amd64-full.rpm",
+    "vendor": "bellsoft",
+    "version": "25.0.1+11"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
       "lite"
     ],
     "file_type": "rpm",
