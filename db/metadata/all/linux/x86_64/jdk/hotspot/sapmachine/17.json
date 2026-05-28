@@ -456,6 +456,48 @@
   {
     "architecture": "x86_64",
     "distro": "sapmachine",
+    "features": [],
+    "file_type": "rpm",
+    "filename": "sapmachine-jdk-17.0.6-1.x86_64.rpm",
+    "image_type": "jdk",
+    "java_version": "17.0.6-1",
+    "jvm_impl": "hotspot",
+    "md5": "79988a211ff8fe5f2451796f7ac4a98e",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "fb70a2526193c6d9fafe22cbecdb693ab447960e",
+    "sha256": "a7c0d85d67569fa4d035b1fc09d4910e72067fb8f830f8b1652573b2e377ba40",
+    "sha512": "afc1eb5c0f691a4c2ec3de13fa61e8776a443bfd83abcae64ec99d44e2b5468fe06ca96e2747df12c1fcd3a716407c93af576c4e0b4848c02bf8ddbc19c27dc8",
+    "size": 163034633,
+    "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-17.0.6/sapmachine-jdk-17.0.6-1.x86_64.rpm",
+    "vendor": "sap",
+    "version": "17.0.6-1"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "sapmachine",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "sapmachine-jdk-17.0.7_linux-x64-musl_bin.tar.gz",
+    "image_type": "jdk",
+    "java_version": "17.0.7",
+    "jvm_impl": "hotspot",
+    "md5": "ae100a0a50204511fa4eb1943c445e37",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "e6c07d4f8d800d6c2de3831542463454652bd319",
+    "sha256": "413a0791a6fa8651d24fd0e4471043a69f49be6e1f3e8ef7517bf5c1aa60b514",
+    "sha512": "1ca231d5dca10c6a79188d0308e81234cf2d873eda3eed9217cb29c850dd086a82e8f27c961fe918e30d8e02c13d6062c52a76fd2bf7ca56855048600caa8551",
+    "size": 193556717,
+    "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-17.0.7/sapmachine-jdk-17.0.7_linux-x64-musl_bin.tar.gz",
+    "vendor": "sap",
+    "version": "17.0.7"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "sapmachine",
     "features": [
       "musl"
     ],
@@ -680,6 +722,26 @@
     "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-17.0.9/sapmachine-jdk-17.0.9_linux-x64_bin.tar.gz",
     "vendor": "sap",
     "version": "17.0.9"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "sapmachine",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "sapmachine-jdk-17.0.9-ea.2_linux-x64_bin.tar.gz",
+    "image_type": "jdk",
+    "java_version": "17.0.9-ea.2",
+    "jvm_impl": "hotspot",
+    "md5": "bbf4a0809390777234e886b85b718158",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "6d6933fd0277ae1a61055d7100c14d3ad81ddd23",
+    "sha256": "35d7d5190cd26a0b1e43353eb8747a4f9e9600676c7be1848457aab5f843d99e",
+    "sha512": "78338fa804c769c43f63f62f56463c9dc1fe943b65b94b9d9b0fc600a0eabeebb390088ec154187e698b2cccf9228c2ab86d0790bc36b861ab4c4840d47b7b3b",
+    "size": 193565580,
+    "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-17.0.9+2/sapmachine-jdk-17.0.9-ea.2_linux-x64_bin.tar.gz",
+    "vendor": "sap",
+    "version": "17.0.9-ea.2"
   },
   {
     "architecture": "x86_64",

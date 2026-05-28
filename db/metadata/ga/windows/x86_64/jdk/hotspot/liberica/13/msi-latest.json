@@ -3,6 +3,30 @@
     "architecture": "x86_64",
     "distro": "liberica",
     "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
+    "file_type": "msi",
+    "filename": "bellsoft-jdk13.0.2+9-windows-amd64-full.msi",
+    "image_type": "jdk",
+    "java_version": "13.0.2+9",
+    "jvm_impl": "hotspot",
+    "md5": "6819e488c372943c4c57f3ec10af4ec4",
+    "os": "windows",
+    "release_type": "ga",
+    "sha1": "2481c0db15869acdee91df4bc88059ab3a866ff8",
+    "sha256": "7f566461c194a1fdb6c23403ac906cbc89b1d06708906af793f1ecc4a917eae9",
+    "sha512": "fcd22106834b1f35946ec66071dc801263ef1465ac64ff26afadc0419b1fa4672a80650a9e0a4126f22e68e2d8d760b3f83b702bdd28d143241748149bedb26b",
+    "size": 271085568,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/13.0.2+9/bellsoft-jdk13.0.2+9-windows-amd64-full.msi",
+    "vendor": "bellsoft",
+    "version": "13.0.2+9"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
       "lite"
     ],
     "file_type": "msi",

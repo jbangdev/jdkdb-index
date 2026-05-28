@@ -146,6 +146,28 @@
   {
     "architecture": "x86_64",
     "distro": "adoptopenjdk",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK11U-jdk_x64_alpine-linux_hotspot_11.0.15_10.tar.gz",
+    "image_type": "jdk",
+    "java_version": "11.0.15+10",
+    "jvm_impl": "hotspot",
+    "md5": "05d574ececb40c7da453a521fadc8f54",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "bfb743b09e05ec6e6f71e7cf217c27aee2f325e3",
+    "sha256": "b7409adf3b6d61324d734218be29b796089c1df0c994f128700c7a7fde728d1f",
+    "sha512": "360a349b34f2194498d0800145b54e5532b8a2137d7526a692a855a036d1cb6ef185bdeffaff63bb8cce71c7a0b10fee6acfb1024db8d2ec0cd485baa0683304",
+    "size": 193336087,
+    "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.15%2B10/OpenJDK11U-jdk_x64_alpine-linux_hotspot_11.0.15_10.tar.gz",
+    "vendor": "adoptopenjdk",
+    "version": "11.0.15+10"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "adoptopenjdk",
     "features": [],
     "file_type": "tar.gz",
     "filename": "OpenJDK11U-jdk_x64_linux_hotspot_11.0.16_8.tar.gz",
@@ -310,6 +332,28 @@
     "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23%2B9/OpenJDK11U-jdk_x64_linux_hotspot_11.0.23_9.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "11.0.23+9"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "adoptopenjdk",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK11U-jdk_x64_alpine-linux_hotspot_11.0.24_8.tar.gz",
+    "image_type": "jdk",
+    "java_version": "11.0.24+8",
+    "jvm_impl": "hotspot",
+    "md5": "06840a70210f6f870cf422e17adffcf9",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "b053ee8386846964227b92457025c73d52cdeabe",
+    "sha256": "ae988c72eeb2d78bb729a3387601ce0ea84305734ebdbe95d276f39952a8e019",
+    "sha512": "1e55b979254f2ca7c1b53496471a089538fc6c31bb9a40dc1cab5e09f42b0ae23b383f768c2614421868d16d8eb2f3fcb5768fa24a944a8296439fbc31d7f841",
+    "size": 193983794,
+    "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.24%2B8/OpenJDK11U-jdk_x64_alpine-linux_hotspot_11.0.24_8.tar.gz",
+    "vendor": "adoptopenjdk",
+    "version": "11.0.24+8"
   },
   {
     "architecture": "x86_64",

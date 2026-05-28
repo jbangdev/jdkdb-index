@@ -71,6 +71,30 @@
     "architecture": "x86_64",
     "distro": "liberica",
     "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
+    "file_type": "rpm",
+    "filename": "bellsoft-jdk24.0.2+12-linux-amd64-full.rpm",
+    "image_type": "jdk",
+    "java_version": "24.0.2+12",
+    "jvm_impl": "hotspot",
+    "md5": "30bda2a1b4d814aaf1168e8c181002e3",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "ca29d41968506e521d5fa3bfe4001c86d4da34fd",
+    "sha256": "8018f08f349830228797def803baac57f79eee3257865aa88f93348f1855c101",
+    "sha512": "aa6908bead1f667b84e0e66e583696b188ea2accec2b47552ca193cc9773c5a40544066337db9c9ce3b5f215df678c8a533c914ea10b55f7a94df9e8506bda2a",
+    "size": 340011444,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/24.0.2+12/bellsoft-jdk24.0.2+12-linux-amd64-full.rpm",
+    "vendor": "bellsoft",
+    "version": "24.0.2+12"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
       "lite"
     ],
     "file_type": "deb",
@@ -219,6 +243,29 @@
     "sha512": "015c904a00dfb3e545f069ff721ca0b18b69f5b8ab87310bee806f1de4fccc9f568040daf0086ddea2a2bdff88eccbd67fef55b753cb6e92317ef0ffbf64095a",
     "size": 216367715,
     "url": "https://github.com/bell-sw/Liberica/releases/download/24+2-ea-leyden/bellsoft-jdk24+2-ea-linux-x64-musl-leyden.apk",
+    "vendor": "bellsoft",
+    "version": "24+2-ea"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
+      "musl",
+      "leyden"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jdk24+2-ea-linux-x64-musl-leyden.tar.gz",
+    "image_type": "jdk",
+    "java_version": "24+2-ea",
+    "jvm_impl": "hotspot",
+    "md5": "e178071b9d2f92a720a98f030dc0cee7",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "8aebfeb1166e6524b107d51e055ccde459db55fe",
+    "sha256": "c67aaad0899ede72c86e59fe261bd408346923b8f43e2ab52f70c23a0c2dd5ae",
+    "sha512": "57b998d085204fd1b85541a488d01051f4d36ee7950e8ff2d92beec16ab677ec4f1d23b96c5767c529e6b2b00db76f4238026ad7e1013631944cb70a89941317",
+    "size": 216829102,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/24+2-ea-leyden/bellsoft-jdk24+2-ea-linux-x64-musl-leyden.tar.gz",
     "vendor": "bellsoft",
     "version": "24+2-ea"
   },
