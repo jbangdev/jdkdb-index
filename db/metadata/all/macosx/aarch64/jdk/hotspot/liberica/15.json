@@ -117,6 +117,30 @@
     "architecture": "aarch64",
     "distro": "liberica",
     "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
+    "file_type": "zip",
+    "filename": "bellsoft-jdk15.0.2+10-macos-aarch64-full.zip",
+    "image_type": "jdk",
+    "java_version": "15.0.2+10",
+    "jvm_impl": "hotspot",
+    "md5": "363e0d7adca2ceca0d0d2bfd9c2025e8",
+    "os": "macosx",
+    "release_type": "ga",
+    "sha1": "f7dc6b0ab3fd96e200b85bea5340e23c326e466b",
+    "sha256": "4ac35bb4d4012e5490933f2352316a77ddfca1951ab99031eea7be032b7418c8",
+    "sha512": "9c25e355f6e32abbd5017358270413ca76e97191be12f70972a368c587f943803af13200e47dfc2a828139534de3076088ee02d5bd9d1cb90e15dc324afa6cbd",
+    "size": 271357268,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/15.0.2+10/bellsoft-jdk15.0.2+10-macos-aarch64-full.zip",
+    "vendor": "bellsoft",
+    "version": "15.0.2+10"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "liberica",
+    "features": [
       "lite"
     ],
     "file_type": "dmg",

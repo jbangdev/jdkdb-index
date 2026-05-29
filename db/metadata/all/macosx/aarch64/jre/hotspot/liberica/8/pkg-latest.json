@@ -2,21 +2,25 @@
   {
     "architecture": "aarch64",
     "distro": "liberica",
-    "features": [],
+    "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
     "file_type": "pkg",
-    "filename": "bellsoft-jre8u342+7-macos-aarch64.pkg",
+    "filename": "bellsoft-jre8u462+11-macos-aarch64-full.pkg",
     "image_type": "jre",
-    "java_version": "1.8.0_342",
+    "java_version": "1.8.0_462",
     "jvm_impl": "hotspot",
-    "md5": "dfd1e835075052230158d471115de423",
+    "md5": "9d2cadad1a4c52a3b4a719f036fbc154",
     "os": "macosx",
     "release_type": "ga",
-    "sha1": "d23beb75a31a0a1143f1bec909ebea49c7443554",
-    "sha256": "4d21663d23725244e893701121e3921c626ff08638b548c35704be5257c56fba",
-    "sha512": "ccac01a1f5b140f378358f3a19eb6c872b9cf5785348875b57de57d0a48aa91b46a65c79f22297ef8fe87f218a931a2c6f0fdf132d9a98e72e9edc0421724096",
-    "size": 39767144,
-    "url": "https://github.com/bell-sw/Liberica/releases/download/8u342+7/bellsoft-jre8u342+7-macos-aarch64.pkg",
+    "sha1": "9e635ab436063ce46b8cbdf208a021f9f9f747e9",
+    "sha256": "a07a1da8f5b038150e9a0e65c2128e307628068372351fa4745bd55f5e4012b2",
+    "sha512": "c067545242ca1ffdb2c6244c3c5fc6760bce2f80b0a70641ddbee00e434c63f905844b771e145a71144cdbdd1b1cc993969f656667c40889e0047b25a653b72f",
+    "size": 84647542,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/8u462+11/bellsoft-jre8u462+11-macos-aarch64-full.pkg",
     "vendor": "bellsoft",
-    "version": "8u342+7"
+    "version": "8u462+11"
   }
 ]
