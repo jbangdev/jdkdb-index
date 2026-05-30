@@ -86,6 +86,28 @@
   {
     "architecture": "x86_64",
     "distro": "adoptopenjdk",
+    "features": [
+      "large_heap"
+    ],
+    "file_type": "zip",
+    "filename": "OpenJDK11U-jdk_x64_windows_openj9_windowsXL_11.0.6_10_openj9-0.18.1.zip",
+    "image_type": "jdk",
+    "java_version": "11.0.6+10",
+    "jvm_impl": "openj9",
+    "md5": "adadf34aa3f1b5f7b6a6ce9e812c4ab0",
+    "os": "windows",
+    "release_type": "ga",
+    "sha1": "a3f14650249881025093c6105f12003dda93221f",
+    "sha256": "82cd404ca2d847a64688f37960e85c2f16cbe06e7a6f43a4b95163152f6ea343",
+    "sha512": "830283bbfeed35f2ce6c6f2cd2d3270d01d8867d2cd0d79e1d033370952c135e7682beda4914e7192fd03882602dbd67e3ec7f7c09d64e1bca6126d9d9798024",
+    "size": 202812522,
+    "url": "https://github.com/AdoptOpenJDK/openjdk11-binaries/releases/download/jdk-11.0.6%2B10_openj9-0.18.1/OpenJDK11U-jdk_x64_windows_openj9_windowsXL_11.0.6_10_openj9-0.18.1.zip",
+    "vendor": "adoptopenjdk",
+    "version": "11.0.6+10.1.openj9-0.18.1"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "adoptopenjdk",
     "features": [],
     "file_type": "zip",
     "filename": "OpenJDK11U-jdk_x64_windows_openj9_11.0.7_10_openj9-0.20.0.zip",
@@ -102,5 +124,25 @@
     "url": "https://github.com/AdoptOpenJDK/openjdk11-binaries/releases/download/jdk-11.0.7%2B10_openj9-0.20.0/OpenJDK11U-jdk_x64_windows_openj9_11.0.7_10_openj9-0.20.0.zip",
     "vendor": "adoptopenjdk",
     "version": "11.0.7+10.1.openj9-0.20.0"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "adoptopenjdk",
+    "features": [],
+    "file_type": "zip",
+    "filename": "OpenJDK11U-jdk_x64_windows_openj9_11.0.11_9_openj9-0.26.0.zip",
+    "image_type": "jdk",
+    "java_version": "11.0.11+9",
+    "jvm_impl": "openj9",
+    "md5": "eb1d61d3d716233084e71921fa4bb100",
+    "os": "windows",
+    "release_type": "ga",
+    "sha1": "31583b2c6835163f22bf94995bd17de58c5cdd93",
+    "sha256": "e566e899150eee684e26282c341d91cda34417b3b579a26fa8ccd7fd3780e430",
+    "sha512": "51d765c66375c58cf007ddbd6f93d714a45a3375bb429715ce49dbbf774142b4396e860f9ccc22e19e3241ea62c7b19ec9f749d4c3052a4cfc0993ce87075668",
+    "size": 207451334,
+    "url": "https://github.com/AdoptOpenJDK/openjdk11-binaries/releases/download/jdk-11.0.11%2B9_openj9-0.26.0/OpenJDK11U-jdk_x64_windows_openj9_11.0.11_9_openj9-0.26.0.zip",
+    "vendor": "adoptopenjdk",
+    "version": "11.0.11+9.openj9-0.26.0"
   }
 ]

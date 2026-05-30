@@ -2,21 +2,23 @@
   {
     "architecture": "x86_64",
     "distro": "zulu",
-    "features": [],
+    "features": [
+      "musl"
+    ],
     "file_type": "tar.gz",
-    "filename": "zulu14.28.21-ca-jre14.0.1-linux_x64.tar.gz",
+    "filename": "zulu14.29.23-ca-jre14.0.2-linux_musl_x64.tar.gz",
     "image_type": "jre",
-    "java_version": "14.0.1",
+    "java_version": "14.0.2",
     "jvm_impl": "hotspot",
-    "md5": "904544b29e1824db3001841324f56f23",
+    "md5": "824a78b7d53d6fe3d5614bbd1d71fcdf",
     "os": "linux",
     "release_type": "ga",
-    "sha1": "3ed914cf0f871fec7586ee47069bc857f8657cf4",
-    "sha256": "28fb24a785764ae8634779a9a5a70568dab1d1b10caa2f632eaacdba614c8846",
-    "sha512": "1a5773381387109e2e89ca01a44b2721232e34586da9e75a0635f5cc05ec234ccb3558023b924d9f510cc13b82588ef7babba46df0dbc40b651a5cb28f3c85fb",
-    "size": 46582783,
-    "url": "https://static.azul.com/zulu/bin/zulu14.28.21-ca-jre14.0.1-linux_x64.tar.gz",
+    "sha1": "11132496772e01dc5745ee2eea86f20c517dad55",
+    "sha256": "1c6d9f351765cbd5e2a26141ce515d8ff2e4ba892fda249a84cd2296089d6478",
+    "sha512": "9ff00e0e2900696c8dc0987b0b66317a1c739ab35169e4e6bcfc2f7549d144b7a435b85f45378748257efa28014bafa313b573b8e8e63a1f253244e43802346e",
+    "size": 46207434,
+    "url": "https://static.azul.com/zulu/bin/zulu14.29.23-ca-jre14.0.2-linux_musl_x64.tar.gz",
     "vendor": "azul",
-    "version": "14.28.21"
+    "version": "14.29.23"
   }
 ]

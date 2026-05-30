@@ -2,6 +2,54 @@
   {
     "architecture": "aarch64",
     "distro": "liberica",
+    "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
+    "file_type": "pkg",
+    "filename": "bellsoft-jdk21.0.2+14-macos-aarch64-full.pkg",
+    "image_type": "jdk",
+    "java_version": "21.0.2+14-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "2c0986d3d775472a661584866ad46133",
+    "os": "macosx",
+    "release_type": "ga",
+    "sha1": "1801adf5871c756e6f2de6182d85f09597e94345",
+    "sha256": "b4758d257859154bc1731f93896585b6a5a24ecbca6c2a22ec0a759b0bf6c9d0",
+    "sha512": "c103f5932e85d1959991a9206786366582709058fad132c8159a9a754b7d3355b8dbc647d68036f8a1b9926d38b4cfb3a432aca91c23baf346a698ce43d895c2",
+    "size": 309102641,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.2+14/bellsoft-jdk21.0.2+14-macos-aarch64-full.pkg",
+    "vendor": "bellsoft",
+    "version": "21.0.2+14"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "liberica",
+    "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
+    "file_type": "pkg",
+    "filename": "bellsoft-jdk21.0.4+9-macos-aarch64-full.pkg",
+    "image_type": "jdk",
+    "java_version": "21.0.4+9-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "e4792321b81464a99be78eee67645c6c",
+    "os": "macosx",
+    "release_type": "ga",
+    "sha1": "77be491881a1b8827475fa6af5939adfb667c35a",
+    "sha256": "dff3cf43d2592ec5ee7f97acb1624628ebc2de11395d103b0f3d8e5efaa94d9f",
+    "sha512": "4b9e2feca6a4ed2307ac7369bc7ffb60d565f3a9ff846172d6a1cf1a8438b2d4dcd72585efae7db942745bb85bbb9d98f685cbacf4cddd04b8d6c6c98b6b3be9",
+    "size": 309162890,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.4+9/bellsoft-jdk21.0.4+9-macos-aarch64-full.pkg",
+    "vendor": "bellsoft",
+    "version": "21.0.4+9"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "liberica",
     "features": [],
     "file_type": "pkg",
     "filename": "bellsoft-jdk21.0.4+9-macos-aarch64.pkg",
@@ -22,6 +70,28 @@
   {
     "architecture": "aarch64",
     "distro": "liberica",
+    "features": [
+      "lite"
+    ],
+    "file_type": "pkg",
+    "filename": "bellsoft-jdk21.0.6+10-macos-aarch64-lite.pkg",
+    "image_type": "jdk",
+    "java_version": "21.0.6+10-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "0011709a6073548385e46d76257e6417",
+    "os": "macosx",
+    "release_type": "ga",
+    "sha1": "e7dcb9259d0de47581fb6e5b8f1a844e39db9b21",
+    "sha256": "052ebfb2dd4bf0ae6422920f84e8645e7d6ec9a48bf19ab3824713df88f94632",
+    "sha512": "80c524685826a4e187e758b2a9fdfb369a2becfa8f2f924a29d70bfdc89d36d765cf9771d51c81666dd1b429729358a22aa25d391ac9e9cea0a11bde7e99281f",
+    "size": 76286722,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.6+10/bellsoft-jdk21.0.6+10-macos-aarch64-lite.pkg",
+    "vendor": "bellsoft",
+    "version": "21.0.6+10"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "liberica",
     "features": [],
     "file_type": "pkg",
     "filename": "bellsoft-jdk21.0.9+15-macos-aarch64.pkg",
@@ -38,5 +108,25 @@
     "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.9+15/bellsoft-jdk21.0.9+15-macos-aarch64.pkg",
     "vendor": "bellsoft",
     "version": "21.0.9+15"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "liberica",
+    "features": [],
+    "file_type": "pkg",
+    "filename": "bellsoft-jdk21.0.10+10-macos-aarch64.pkg",
+    "image_type": "jdk",
+    "java_version": "21.0.10+10-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "e4cb56d6d15ed21fca66e3650cf12199",
+    "os": "macosx",
+    "release_type": "ga",
+    "sha1": "f8464a357aa0e5de76de4715e65e6fabfd29a0e6",
+    "sha256": "dfd04acbdc7781c163661582c19cb0aa7dadba9e7957451f5c316617ee6e9a6a",
+    "sha512": "cca56788c992197c28a4b3bb1b9a7aa52b62f239172d6819b360e33a59b5cdef6e4429c40dd337fcc954bcedd3b351b24348745a869cdb3e8a751ae7923cb2d8",
+    "size": 215669702,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.10+10/bellsoft-jdk21.0.10+10-macos-aarch64.pkg",
+    "vendor": "bellsoft",
+    "version": "21.0.10+10"
   }
 ]

@@ -69,6 +69,29 @@
     "architecture": "aarch64",
     "distro": "liberica",
     "features": [
+      "lite",
+      "leyden"
+    ],
+    "file_type": "zip",
+    "filename": "bellsoft-jdk24+2-ea-windows-aarch64-lite-leyden.zip",
+    "image_type": "jdk",
+    "java_version": "24+2-ea",
+    "jvm_impl": "hotspot",
+    "md5": "556fe2c09c2ddfb3c1a05c1b7c1bfd59",
+    "os": "windows",
+    "release_type": "ea",
+    "sha1": "d1d1a0e327a498deb224ecdb247f2f6560755356",
+    "sha256": "377b29162e6b3a2bb5db8696015b70e8a33a8b9b246e8eafec2bd43ec1186cf1",
+    "sha512": "d8c897cef245e8a858d4157aafd022ab25414b4b7feb80caa6d40fcec36173409411ef92eec1c80618bb2f265a6e65315c0f18befbdea1ffa710e617622165e4",
+    "size": 78942289,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/24+2-ea-leyden/bellsoft-jdk24+2-ea-windows-aarch64-lite-leyden.zip",
+    "vendor": "bellsoft",
+    "version": "24+2-ea"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "liberica",
+    "features": [
       "libericafx",
       "minimal-vm",
       "javafx"

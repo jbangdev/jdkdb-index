@@ -3,22 +3,24 @@
     "architecture": "aarch64",
     "distro": "liberica",
     "features": [
-      "musl"
+      "libericafx",
+      "minimal-vm",
+      "javafx"
     ],
     "file_type": "tar.gz",
-    "filename": "bellsoft-jre19.0.1+11-linux-aarch64-musl.tar.gz",
+    "filename": "bellsoft-jre19+37-linux-aarch64-full.tar.gz",
     "image_type": "jre",
-    "java_version": "19.0.1+11",
+    "java_version": "19+37",
     "jvm_impl": "hotspot",
-    "md5": "be2baee431a167a9be78f5c7bbf048f8",
+    "md5": "4e7e70425cb960027cbc62f9b3be3c96",
     "os": "linux",
     "release_type": "ga",
-    "sha1": "4bfe92c293d3b0b92fef3eef6c0b0b8ecc3330ae",
-    "sha256": "962558e1136a1cd391903312b64f1c1aeee77b7ec2d5c4a704c817b4014b15fb",
-    "sha512": "ca17097497fdd5c722dcb47c29baccce4205d5b3674cdceb6b28698f62b1c6d32f6af26d4c7167966be0fb46304a1c429e0dd873db20126d7d8cecef572d8b94",
-    "size": 54024260,
-    "url": "https://github.com/bell-sw/Liberica/releases/download/19.0.1+11/bellsoft-jre19.0.1+11-linux-aarch64-musl.tar.gz",
+    "sha1": "fae8a1f1f6cfdfef875434ec9ea0f47c9bdf6b49",
+    "sha256": "f0500fc92f70c6287e94903fbdfc98c832b6bfa12d00cca990551bc0f10bc38e",
+    "sha512": "53d30831b61e65d40bbe88e1f4423d0283da84fcad5c9cde2e845124dc49dc77e494d946cce764e1a4fb0ac8f7a67bb666c0f53fa80cdcf68b80ea2298d5efda",
+    "size": 87850685,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/19+37/bellsoft-jre19+37-linux-aarch64-full.tar.gz",
     "vendor": "bellsoft",
-    "version": "19.0.1+11"
+    "version": "19+37"
   }
 ]
