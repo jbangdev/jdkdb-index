@@ -590,6 +590,28 @@
   {
     "architecture": "x86_64",
     "distro": "liberica",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jre17.0.10+13-linux-x64-musl.tar.gz",
+    "image_type": "jre",
+    "java_version": "17.0.10+13-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "56cbd189fe86451a4cb9cd1375886ef1",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "3f1a8820bab8df6a11e16f0b39b68e0fa07518c8",
+    "sha256": "000ea2569f41f8af217ea44320e1f14bbf1bf127f22d5854386c3607a9e53ce9",
+    "sha512": "f1902dc5527158c1ffd8403b7c2de90a6aececd6eb974a7ce840b28d758b3e8143c8bb01ee19dc656477c1dbfae4ed413273672f62b00c2f9cffd58f48e62f8b",
+    "size": 52749016,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.10+13/bellsoft-jre17.0.10+13-linux-x64-musl.tar.gz",
+    "vendor": "bellsoft",
+    "version": "17.0.10+13"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
     "features": [],
     "file_type": "rpm",
     "filename": "bellsoft-jre17.0.11+10-linux-amd64.rpm",
@@ -862,6 +884,30 @@
     "sha512": "602b7ea9e25a6b08742b54283a9863e6800e8fdd558161ddd0ee177ff106dd1024816df6d8aad0940a4c1c47efb293d08bcc8a2ae5203cd7a293ddc91b7f185b",
     "size": 74949868,
     "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.18+10/bellsoft-jre17.0.18+10-linux-amd64-full.deb",
+    "vendor": "bellsoft",
+    "version": "17.0.18+10"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
+    "file_type": "rpm",
+    "filename": "bellsoft-jre17.0.18+10-linux-amd64-full.rpm",
+    "image_type": "jre",
+    "java_version": "17.0.18+10-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "73ff259bc3131f337af735276dca961d",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "83fc306996ac36c0409fde15fe5e52050075151b",
+    "sha256": "e2b9654a0339113c62c90a67b1a46a4707ebb2da0944e7de3ee574f51134e054",
+    "sha512": "084180e1e27d9876f605a7c3acba3f31dd5b44bb9fbffcc4a5afbc7630af8bfcc0f4632eb1b979a807262a29e17bddc3fcc310f0fb104ad32490c7beca1b6640",
+    "size": 84885920,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.18+10/bellsoft-jre17.0.18+10-linux-amd64-full.rpm",
     "vendor": "bellsoft",
     "version": "17.0.18+10"
   },

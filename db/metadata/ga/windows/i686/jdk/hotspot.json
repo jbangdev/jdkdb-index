@@ -146,6 +146,30 @@
   {
     "architecture": "i686",
     "distro": "liberica",
+    "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
+    "file_type": "zip",
+    "filename": "bellsoft-jdk8u265+1-windows-i586-full.zip",
+    "image_type": "jdk",
+    "java_version": "1.8.0_265",
+    "jvm_impl": "hotspot",
+    "md5": "ff3abbcca7209320e1a4349bd17d5290",
+    "os": "windows",
+    "release_type": "ga",
+    "sha1": "7f04e86d7c8193e19bfd7f60b7a0c68b4b14cf9b",
+    "sha256": "4e4d621ce9e270708d4a26496113835114cb5e72714ed33ccea824178811cac7",
+    "sha512": "0d577f00bdfcf5713e5ddf871c2cda4ec55cd85f68569b38c54f82a69e0ca652e5aa7c4b37f27f8df8739928bcdb1c6b66bb50dc69cc8477c7b59dfaae900e17",
+    "size": 137564355,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/8u265+1/bellsoft-jdk8u265+1-windows-i586-full.zip",
+    "vendor": "bellsoft",
+    "version": "8u265+1"
+  },
+  {
+    "architecture": "i686",
+    "distro": "liberica",
     "features": [],
     "file_type": "zip",
     "filename": "bellsoft-jdk8u265+1-windows-i586.zip",
@@ -1613,6 +1637,28 @@
     "architecture": "i686",
     "distro": "liberica",
     "features": [
+      "lite"
+    ],
+    "file_type": "zip",
+    "filename": "bellsoft-jdk8u472+9-windows-i586-lite.zip",
+    "image_type": "jdk",
+    "java_version": "1.8.0_472",
+    "jvm_impl": "hotspot",
+    "md5": "e51f3d196af931e6fd7c236f5e1dd7de",
+    "os": "windows",
+    "release_type": "ga",
+    "sha1": "871d5e8936ab4a6a26bacb0a4f2092a0b6eba78e",
+    "sha256": "4b849e447213aa969d9a59f7d3b99fc0870143dc1a36633d9c0e543fac104f5c",
+    "sha512": "7de3931c659ce148931ac3797a545b2dec6abfd186084c1bf07e726be0a421dff7252482920ef5c032593e6bee5428ab9af4132d1de6a28aaec1e996815c4a22",
+    "size": 52795862,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/8u472+9/bellsoft-jdk8u472+9-windows-i586-lite.zip",
+    "vendor": "bellsoft",
+    "version": "8u472+9"
+  },
+  {
+    "architecture": "i686",
+    "distro": "liberica",
+    "features": [
       "libericafx",
       "minimal-vm",
       "javafx"
@@ -2428,6 +2474,26 @@
     "url": "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u442-b06/OpenJDK8U-jdk_x86-32_windows_hotspot_8u442b06.zip",
     "vendor": "eclipse",
     "version": "8.0.442+6"
+  },
+  {
+    "architecture": "i686",
+    "distro": "temurin",
+    "features": [],
+    "file_type": "zip",
+    "filename": "OpenJDK8U-jdk_x86-32_windows_hotspot_8u452b09.zip",
+    "image_type": "jdk",
+    "java_version": "1.8.0_452-b09",
+    "jvm_impl": "hotspot",
+    "md5": "e83dff64e8dee41840974cb53e85c224",
+    "os": "windows",
+    "release_type": "ga",
+    "sha1": "00c7ad0be6c7d18d0afcb04239a25accb76f633b",
+    "sha256": "dcbb3537438d4ba0a51c7e76ea59e451fd5465774f1567cdde55981e168f8902",
+    "sha512": "3a38d853fbd60cc5f635f16c9e8e138fa74b631bba6aa3828ca2eb9f1cbfc339f53e80663e726a66a4a02f0b8fb657a844dd7d392950af47ad54d89d13155da9",
+    "size": 107346930,
+    "url": "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u452-b09/OpenJDK8U-jdk_x86-32_windows_hotspot_8u452b09.zip",
+    "vendor": "eclipse",
+    "version": "8.0.452+9"
   },
   {
     "architecture": "i686",
@@ -3794,6 +3860,28 @@
     "url": "https://static.azul.com/zulu/bin/zulu10.2+3-jdk10.0.1-win_i686.zip",
     "vendor": "azul",
     "version": "10.2+3"
+  },
+  {
+    "architecture": "i686",
+    "distro": "liberica",
+    "features": [
+      "lite"
+    ],
+    "file_type": "zip",
+    "filename": "bellsoft-jdk11-windows-amd64-lite.zip",
+    "image_type": "jdk",
+    "java_version": "11",
+    "jvm_impl": "hotspot",
+    "md5": "80d7c81b606abb6927da479e92d2bd07",
+    "os": "windows",
+    "release_type": "ga",
+    "sha1": "bccc9525601b332cfa8831f23ab0ee809985cc64",
+    "sha256": "1f20faae2c1ce8cbc9c8af0d78382fee6fc0af5e84cf0a643cad6f17218b9c86",
+    "sha512": "b475aa143bce87fd2bd31abc134bce528dcf6bacf0a77e9a38b74ac117ab0be594ff9375ec6c8b8e1273b47b8b15d115ba5bdca48b4a74b92187b818eac9bb7d",
+    "size": 71239746,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/11/bellsoft-jdk11-windows-amd64-lite.zip",
+    "vendor": "bellsoft",
+    "version": "11"
   },
   {
     "architecture": "i686",
@@ -5171,6 +5259,28 @@
     "size": 157329408,
     "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.14.1%2B1/OpenJDK11U-jdk_x86-32_windows_hotspot_11.0.14.1_1.msi",
     "vendor": "eclipse",
+    "version": "11.0.14.1+1"
+  },
+  {
+    "architecture": "i686",
+    "distro": "liberica",
+    "features": [
+      "lite"
+    ],
+    "file_type": "msi",
+    "filename": "bellsoft-jdk11.0.14.1+1-windows-i586-lite.msi",
+    "image_type": "jdk",
+    "java_version": "11.0.14.1+1",
+    "jvm_impl": "hotspot",
+    "md5": "48454347463df2e93f4147b1208329a7",
+    "os": "windows",
+    "release_type": "ga",
+    "sha1": "f7415644419c5e4f5619be0386566173736f8247",
+    "sha256": "fe44d2d6af745b3ddc20359a392ada99e96424701bb41dcb6785413a9a72ef11",
+    "sha512": "991bf11984b801c44d419fbe69d117eb4db0ad6759935ff130471582b8d2dced26918b19e25b7d59c16eebb6d0715b627963cf9256ef73d01dc48929a1dc9c36",
+    "size": 66777088,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jdk11.0.14.1+1-windows-i586-lite.msi",
+    "vendor": "bellsoft",
     "version": "11.0.14.1+1"
   },
   {
@@ -6675,6 +6785,26 @@
   },
   {
     "architecture": "i686",
+    "distro": "liberica",
+    "features": [],
+    "file_type": "msi",
+    "filename": "bellsoft-jdk11.0.27+9-windows-i586.msi",
+    "image_type": "jdk",
+    "java_version": "11.0.27+9-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "f325b4cb70ebaa796429069ac2021267",
+    "os": "windows",
+    "release_type": "ga",
+    "sha1": "2ce088982ed6af5662890bb2f7afdfe272187fed",
+    "sha256": "58a0c3de693fce45567e7dc8dc064d77dcc196d83e867a58f4c6d97391de2890",
+    "sha512": "b8a46a5e075bde137e4223af4717878d90f4b484f9c159aa2f3baf02f6c9efb8fa7983e8b2897fb494df11ac3aab0f071903c4ddf5b047bf376621178f850d4f",
+    "size": 180834304,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.27+9/bellsoft-jdk11.0.27+9-windows-i586.msi",
+    "vendor": "bellsoft",
+    "version": "11.0.27+9"
+  },
+  {
+    "architecture": "i686",
     "distro": "temurin",
     "features": [],
     "file_type": "msi",
@@ -7218,6 +7348,28 @@
   {
     "architecture": "i686",
     "distro": "zulu",
+    "features": [
+      "javafx"
+    ],
+    "file_type": "zip",
+    "filename": "zulu11.37.19-ca-fx-jdk11.0.6-win_i686.zip",
+    "image_type": "jdk",
+    "java_version": "11.0.6",
+    "jvm_impl": "hotspot",
+    "md5": "291f340f59b248ba80acf512fae5a064",
+    "os": "windows",
+    "release_type": "ga",
+    "sha1": "77607a1db83c21b0fce6b547e2ec2223a9d3e218",
+    "sha256": "a56b41e169d8e55c2bc6a51e53611886d71754cd8de430dde9faec4c2e956e3b",
+    "sha512": "6e17f653d561da623aaa16700204343e36a86c18f581e00c48a37a5868efdd6391581b42ebdf347fe142f54931e8819a61b5667e9e496fc2065387da07305d16",
+    "size": 241127378,
+    "url": "https://static.azul.com/zulu/bin/zulu11.37.19-ca-fx-jdk11.0.6-win_i686.zip",
+    "vendor": "azul",
+    "version": "11.37.19"
+  },
+  {
+    "architecture": "i686",
+    "distro": "zulu",
     "features": [],
     "file_type": "zip",
     "filename": "zulu11.39.15-ca-jdk11.0.7-win_i686.zip",
@@ -7340,6 +7492,26 @@
   {
     "architecture": "i686",
     "distro": "zulu",
+    "features": [],
+    "file_type": "zip",
+    "filename": "zulu11.52.13-ca-jdk11.0.13-win_i686.zip",
+    "image_type": "jdk",
+    "java_version": "11.0.13",
+    "jvm_impl": "hotspot",
+    "md5": "0b76310a1cdc587957e8acde639762e0",
+    "os": "windows",
+    "release_type": "ga",
+    "sha1": "e3291197536a85c9e1766f47b1a56c00654e9d0a",
+    "sha256": "80b6b22aa8b0c176356e4e07a5907e3929b2ad46e5a095a98db92593481f32c6",
+    "sha512": "4c7d55ba2abd114a087ae595239b2d8e42a9db621bf92d0b8d6f24a541f31566de744a55325611f0fb705deffed9786ea810af8112a4db495a760a6e5735dbc4",
+    "size": 184315885,
+    "url": "https://static.azul.com/zulu/bin/zulu11.52.13-ca-jdk11.0.13-win_i686.zip",
+    "vendor": "azul",
+    "version": "11.52.13"
+  },
+  {
+    "architecture": "i686",
+    "distro": "zulu",
     "features": [
       "javafx"
     ],
@@ -7378,6 +7550,28 @@
     "url": "https://static.azul.com/zulu/bin/zulu11.54.25-ca-jdk11.0.14.1-win_i686.zip",
     "vendor": "azul",
     "version": "11.54.25"
+  },
+  {
+    "architecture": "i686",
+    "distro": "zulu",
+    "features": [
+      "javafx"
+    ],
+    "file_type": "zip",
+    "filename": "zulu11.58.17-ca-fx-jdk11.0.16-win_i686.zip",
+    "image_type": "jdk",
+    "java_version": "11.0.16",
+    "jvm_impl": "hotspot",
+    "md5": "08364d9a1b683ed874a72bff5041415f",
+    "os": "windows",
+    "release_type": "ga",
+    "sha1": "7500777662849053c86254e31c3ed6bdd714d5cf",
+    "sha256": "709f9bcc294a05dce7f6e7370398ae5bb0e0d078f432f5ccecc311038e43d040",
+    "sha512": "229bc5146b349df67d8521784335e016099f82a28ffc1c50a3fcd7535c46b2d7446c7e1de7ef12b83aef3d48b0a7d2b846f563a7c7553e6f6328e73ac0a4480c",
+    "size": 249310334,
+    "url": "https://static.azul.com/zulu/bin/zulu11.58.17-ca-fx-jdk11.0.16-win_i686.zip",
+    "vendor": "azul",
+    "version": "11.58.17"
   },
   {
     "architecture": "i686",
@@ -8598,6 +8792,26 @@
     "url": "https://github.com/bell-sw/Liberica/releases/download/15.0.1+9/bellsoft-jdk15.0.1+9-windows-i586.zip",
     "vendor": "bellsoft",
     "version": "15.0.1+9"
+  },
+  {
+    "architecture": "i686",
+    "distro": "adoptopenjdk",
+    "features": [],
+    "file_type": "zip",
+    "filename": "OpenJDK15U-jdk_x86-32_windows_hotspot_15.0.2_7.zip",
+    "image_type": "jdk",
+    "java_version": "15.0.2+7",
+    "jvm_impl": "hotspot",
+    "md5": "e1ee95853be5ac39048d3f16715bf967",
+    "os": "windows",
+    "release_type": "ga",
+    "sha1": "becf8f880a36b4c56817d50996069995de8a8442",
+    "sha256": "22e914d85a102364ea3eb1963ce21ef4a8946eb7626632755dc8c092df065df0",
+    "sha512": "f02726cd2a4155fd38d8bde004ed0e363b5dc0db789a8ca6be66df50f83cb942b967a68c03d872fe33b3cec5c69d13a50e285e228e13da5d7dc47b9bfc4a64db",
+    "size": 178858933,
+    "url": "https://github.com/AdoptOpenJDK/openjdk15-binaries/releases/download/jdk-15.0.2%2B7/OpenJDK15U-jdk_x86-32_windows_hotspot_15.0.2_7.zip",
+    "vendor": "adoptopenjdk",
+    "version": "15.0.2+7"
   },
   {
     "architecture": "i686",
@@ -10666,6 +10880,26 @@
     "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.8.1%2B1/OpenJDK17U-jdk_x86-32_windows_hotspot_17.0.8.1_1.zip",
     "vendor": "adoptopenjdk",
     "version": "17.0.8+101"
+  },
+  {
+    "architecture": "i686",
+    "distro": "temurin",
+    "features": [],
+    "file_type": "zip",
+    "filename": "OpenJDK17U-jdk_x86-32_windows_hotspot_17.0.9_9.zip",
+    "image_type": "jdk",
+    "java_version": "17.0.9+9",
+    "jvm_impl": "hotspot",
+    "md5": "6d2f351dc8e5be3ba4326b7f41a729df",
+    "os": "windows",
+    "release_type": "ga",
+    "sha1": "240a36438cd0b37e212a9dc136cc873f589039f9",
+    "sha256": "1609b3fb9fa14adedda3accda4367a8b106a88be629a4519d76657189fb3b52f",
+    "sha512": "779ae41189a46741f2ddb2a4e0f600929510f825bf85f4a1da1c4d9c303a23e1cbe2bd86550b64741264edfa273fcce2ad3187e0d9f5c064f5c69df24324e268",
+    "size": 185338586,
+    "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-jdk_x86-32_windows_hotspot_17.0.9_9.zip",
+    "vendor": "eclipse",
+    "version": "17.0.9+9"
   },
   {
     "architecture": "i686",
@@ -14588,6 +14822,30 @@
     "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.3+12/bellsoft-jdk21.0.3+12-windows-i586.zip",
     "vendor": "bellsoft",
     "version": "21.0.3+12"
+  },
+  {
+    "architecture": "i686",
+    "distro": "liberica",
+    "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
+    "file_type": "zip",
+    "filename": "bellsoft-jdk21.0.4+9-windows-i586-full.zip",
+    "image_type": "jdk",
+    "java_version": "21.0.4+9-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "f6759daf22023ba9eaafa801004cf3f2",
+    "os": "windows",
+    "release_type": "ga",
+    "sha1": "80136c269412677e5fc464d2109b54604e561fe0",
+    "sha256": "4a538f9584911e6832998ca384abb8ebaefe1eed4af6477c8848d4ae7433e69f",
+    "sha512": "fb594bcef87e2dd69360ca7b59f9401d126e3748810a12615b3c6961da4a4b50d4a1abf3483d1c7f466edfd7807bd273eafcb960061711e9dbce1642edfc78e8",
+    "size": 279867853,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.4+9/bellsoft-jdk21.0.4+9-windows-i586-full.zip",
+    "vendor": "bellsoft",
+    "version": "21.0.4+9"
   },
   {
     "architecture": "i686",

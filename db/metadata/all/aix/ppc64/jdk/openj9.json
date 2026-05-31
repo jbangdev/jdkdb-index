@@ -381,6 +381,26 @@
   },
   {
     "architecture": "ppc64",
+    "distro": "adoptopenjdk",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK8U-jdk_ppc64_aix_openj9_8u292b10_openj9-0.26.0.tar.gz",
+    "image_type": "jdk",
+    "java_version": "1.8.0_292-b10",
+    "jvm_impl": "openj9",
+    "md5": "a4ca1512b6c882a51f88e31ee9fc4326",
+    "os": "aix",
+    "release_type": "ga",
+    "sha1": "3c21418ecf3e2197273e265287e4a35c96d06c28",
+    "sha256": "586b41dcb0c25189f3d14b1084d08b0409d48a442ffbb3aafd494ec232929065",
+    "sha512": "a9adee37c2dcbe95c8adb7c76c872a49e23eaef6753094bc460828cadc112c7c7b7e4ea3e84ce2e9bf80584eb99a2e8b85be2b485bcc7677ddd878c0f42e7838",
+    "size": 119274714,
+    "url": "https://github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u292-b10_openj9-0.26.0/OpenJDK8U-jdk_ppc64_aix_openj9_8u292b10_openj9-0.26.0.tar.gz",
+    "vendor": "adoptopenjdk",
+    "version": "8.0.292+10.openj9-0.26.0"
+  },
+  {
+    "architecture": "ppc64",
     "distro": "semeru",
     "features": [],
     "file_type": "tar.gz",
@@ -540,6 +560,28 @@
     "url": "https://github.com/ibmruntimes/semeru11-certified-binaries/releases/download/jdk-11.0.14.1+1_openj9-0.30.1/ibm-semeru-certified-jdk_ppc64_aix_11.0.14.1.tap.zip",
     "vendor": "ibm",
     "version": "11.0.14.1+1_openj9-0.30.1"
+  },
+  {
+    "architecture": "ppc64",
+    "distro": "semeru",
+    "features": [
+      "certified"
+    ],
+    "file_type": "zip",
+    "filename": "ibm-semeru-certified-jdk_ppc64_aix_linux_11.0.17.0.tap.zip",
+    "image_type": "jdk",
+    "java_version": "11.0.17+8",
+    "jvm_impl": "openj9",
+    "md5": "488b6695d191e1fdc1e2e913e374c589",
+    "os": "aix",
+    "release_type": "ga",
+    "sha1": "09c86cf637cb8e75eb9635f32e6f8461b3de0bc6",
+    "sha256": "13f4ee3725c5143da518bc2f143e7c798f2be4db2d53c3fb01a4decfe9bf5b45",
+    "sha512": "3d64fa8166be34afa85a9a5faae0e92f0f66b3f7db68c02900f6122433f9c416a3acb5d087702c8cb74818392451ef32cf75982ef23e56af90b60ec3fcd5e920",
+    "size": 54835,
+    "url": "https://github.com/ibmruntimes/semeru11-certified-binaries/releases/download/jdk-11.0.17+8_openj9-0.35.0/ibm-semeru-certified-jdk_ppc64_aix_linux_11.0.17.0.tap.zip",
+    "vendor": "ibm",
+    "version": "11.0.17+8_openj9-0.35.0"
   },
   {
     "architecture": "ppc64",
@@ -888,6 +930,28 @@
     "url": "https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.29%2B6_openj9-0.56.0-m2/ibm-semeru-open-jdk_ppc64_aix_11.0.29_6_openj9-0.56.0-m2.tar.gz",
     "vendor": "ibm",
     "version": "11.0.29+6_openj9-0.56.0-m2"
+  },
+  {
+    "architecture": "ppc64",
+    "distro": "semeru",
+    "features": [
+      "certified"
+    ],
+    "file_type": "tar.gz",
+    "filename": "ibm-semeru-certified-jdk_ppc64_aix_11.0.29.0.tar.gz",
+    "image_type": "jdk",
+    "java_version": "11.0.29+7",
+    "jvm_impl": "openj9",
+    "md5": "213a1ad60ab7730e0199cfc7b9cf0bed",
+    "os": "aix",
+    "release_type": "ga",
+    "sha1": "e7484452fdf4a95c4364806fa7bd18efec486f1b",
+    "sha256": "371ef5a7ae89f639211f30a9c85b12c2134d22fedcea9475bb8121565ffa4cc8",
+    "sha512": "4740b4b45b92cdef9ac6856c223aba058b9ddff291c6bf7ec454a2833d9cba759e973346f367b8f2549c169279db303422714922a7fced121432099af443f538",
+    "size": 255981159,
+    "url": "https://github.com/ibmruntimes/semeru11-certified-binaries/releases/download/jdk-11.0.29+7_openj9-0.56.0/ibm-semeru-certified-jdk_ppc64_aix_11.0.29.0.tar.gz",
+    "vendor": "ibm",
+    "version": "11.0.29+7_openj9-0.56.0"
   },
   {
     "architecture": "ppc64",
@@ -2114,6 +2178,28 @@
   {
     "architecture": "ppc64",
     "distro": "semeru",
+    "features": [
+      "certified"
+    ],
+    "file_type": "tar.gz",
+    "filename": "ibm-semeru-certified-jdk_ppc64_aix_21.0.10.0.tar.gz",
+    "image_type": "jdk",
+    "java_version": "21.0.10+7",
+    "jvm_impl": "openj9",
+    "md5": "c472ae9a3e132dccfb8f788d61e4d45d",
+    "os": "aix",
+    "release_type": "ga",
+    "sha1": "193b4d4b5f477508a14c3233fc474ca3533a0382",
+    "sha256": "7e5ceceaa87e592199beea44121594f254ff85c2e8b91b3367d421175bbf827e",
+    "sha512": "871bb432b56d44447cad4f43515475f82a5c8d2de7b23458563caba73b8d1f61475903f410d49e5138db3dfec130d3e830f956d213fc8e7c7dbaf7222cb3d0e8",
+    "size": 280418447,
+    "url": "https://github.com/ibmruntimes/semeru21-certified-binaries/releases/download/jdk-21.0.10+7_openj9-0.57.0/ibm-semeru-certified-jdk_ppc64_aix_21.0.10.0.tar.gz",
+    "vendor": "ibm",
+    "version": "21.0.10+7_openj9-0.57.0"
+  },
+  {
+    "architecture": "ppc64",
+    "distro": "semeru",
     "features": [],
     "file_type": "tar.gz",
     "filename": "ibm-semeru-open-jdk_ppc64_aix_21.0.10.1.tar.gz",
@@ -2170,6 +2256,26 @@
     "url": "https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.11.0-m2/ibm-semeru-open-jdk_ppc64_aix_21.0.11.0-m2.tar.gz",
     "vendor": "ibm",
     "version": "21.0.11.0-m2"
+  },
+  {
+    "architecture": "ppc64",
+    "distro": "semeru",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "ibm-semeru-open-jdk_ppc64_aix_23_37_openj9-0.47.0.tar.gz",
+    "image_type": "jdk",
+    "java_version": "23+37",
+    "jvm_impl": "openj9",
+    "md5": "7b4e1a2badbdbb981a970014317203f9",
+    "os": "aix",
+    "release_type": "ga",
+    "sha1": "4575d0819299175fd0ac424108ebfba8c313f4e6",
+    "sha256": "c9196abdb723951a598edacd77ecea23d4092ed1d9971a325f63541d23555375",
+    "sha512": "a7200f86c02c4e2088bccaf802ab405471b24e4fa9d38d6932ac6533340bd244874b04b2153a595204550b746e62a712d7d7a7099db0325770d4cfb24ebeb3be",
+    "size": 254898552,
+    "url": "https://github.com/ibmruntimes/semeru23-binaries/releases/download/jdk-23+37_openj9-0.47.0/ibm-semeru-open-jdk_ppc64_aix_23_37_openj9-0.47.0.tar.gz",
+    "vendor": "ibm",
+    "version": "23+37_openj9-0.47.0"
   },
   {
     "architecture": "ppc64",

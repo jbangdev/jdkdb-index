@@ -837,6 +837,26 @@
   },
   {
     "architecture": "x86_64",
+    "distro": "temurin",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK8U-jdk_x64_solaris_hotspot_8u442b06.tar.gz",
+    "image_type": "jdk",
+    "java_version": "1.8.0_442-b06",
+    "jvm_impl": "hotspot",
+    "md5": "5e94eac13cf7c625d6cca41e9d005f16",
+    "os": "solaris",
+    "release_type": "ga",
+    "sha1": "c58f102f6f0042a7d2889b72108a30c43e016c5f",
+    "sha256": "211d507e96c88776d4999df5a1826dd8906dfad09b25d235bea44929b73dfe83",
+    "sha512": "bea89c5c39d9e9eaac746e23c77ca731fbcfabf2b0e6e7a355410721fd8f5f6435acf52c8a58fbb4a52aae613cc0db831e07bd95dba53cf7ced65726fea4bced",
+    "size": 111668310,
+    "url": "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u442-b06/OpenJDK8U-jdk_x64_solaris_hotspot_8u442b06.tar.gz",
+    "vendor": "eclipse",
+    "version": "8.0.442+6"
+  },
+  {
+    "architecture": "x86_64",
     "distro": "zulu",
     "features": [],
     "file_type": "zip",
@@ -1530,6 +1550,28 @@
   {
     "architecture": "x86_64",
     "distro": "liberica",
+    "features": [
+      "lite"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jdk11.0.20.1+1-solaris-x64-lite.tar.gz",
+    "image_type": "jdk",
+    "java_version": "11.0.20.1+1-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "9b24e69027e5ed412b73635be5886c8b",
+    "os": "solaris",
+    "release_type": "ga",
+    "sha1": "38586603760744bf8388c4347f12e5aa7e245072",
+    "sha256": "48f02a47cba76d023c9d42b15a99b2f612584cbd7b28953da82e6a1b55063b51",
+    "sha512": "e3f53582ea19a043f9d29ad9881bf5a4e54de9a26d746b100b0460a9f19dcaf25007b3a90e4d3eaf491248f2049e4c13b12c6a7a3fc6e50f9ae929ae707869ee",
+    "size": 91021512,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.20.1+1/bellsoft-jdk11.0.20.1+1-solaris-x64-lite.tar.gz",
+    "vendor": "bellsoft",
+    "version": "11.0.20.1+1"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
     "features": [],
     "file_type": "tar.gz",
     "filename": "bellsoft-jdk11.0.20+8-solaris-x64.tar.gz",
@@ -1872,6 +1914,28 @@
     "url": "https://static.azul.com/zulu/bin/zulu11.88.17-ca-jdk11.0.31-solaris_x64.zip",
     "vendor": "azul",
     "version": "11.88.17"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
+      "lite"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jdk12.0.2-solaris-x64-lite.tar.gz",
+    "image_type": "jdk",
+    "java_version": "12.0.2",
+    "jvm_impl": "hotspot",
+    "md5": "d23a4c523cdd216a274cb18af33535d9",
+    "os": "solaris",
+    "release_type": "ga",
+    "sha1": "f2f6fa799fdcccb20cb04fb33ed4974a04014a82",
+    "sha256": "bdb79924f729c4ff728a1b1be15123b3e2a8201fd1c239f902817bafd2a37bad",
+    "sha512": "9cfe493d050104f871013e15584e0ac72810e8bdbc893a9dd047480587ea4346fbc297268b56b61dc3a753536df0e9b81d5e394ad1e40f01bedc1d97226513d4",
+    "size": 91952788,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/12.0.2/bellsoft-jdk12.0.2-solaris-x64-lite.tar.gz",
+    "vendor": "bellsoft",
+    "version": "12.0.2"
   },
   {
     "architecture": "x86_64",

@@ -705,6 +705,26 @@
   },
   {
     "architecture": "riscv64",
+    "distro": "temurin",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK17U-jre_riscv64_linux_hotspot_17.0.12_7.tar.gz",
+    "image_type": "jre",
+    "java_version": "17.0.12+7",
+    "jvm_impl": "hotspot",
+    "md5": "6d322aace62b93f114d74fbf9600f958",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "f95e9ded879c03e78f02f98d1bb2be60fb9ad065",
+    "sha256": "2d1ed42918305a1a0754a6e1e9294c7d4d7fda4bff6dba7bc5682037d860dbc9",
+    "sha512": "84e5d4a5d4a6f0155be6cc6171a1b053a04f428bb1a0b2442707db6cb68bd270efcef79eee003d2144a375d60f493524827372abdfb70164ce2949be703baee9",
+    "size": 43587430,
+    "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.12%2B7/OpenJDK17U-jre_riscv64_linux_hotspot_17.0.12_7.tar.gz",
+    "vendor": "eclipse",
+    "version": "17.0.12+7"
+  },
+  {
+    "architecture": "riscv64",
     "distro": "adoptopenjdk",
     "features": [],
     "file_type": "tar.gz",
@@ -982,6 +1002,28 @@
     "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.16%2B8/OpenJDK17U-jdk_riscv64_linux_hotspot_17.0.16_8.tar.gz",
     "vendor": "eclipse",
     "version": "17.0.16+8"
+  },
+  {
+    "architecture": "riscv64",
+    "distro": "liberica",
+    "features": [
+      "lite"
+    ],
+    "file_type": "deb",
+    "filename": "bellsoft-jdk17.0.16+12-linux-riscv64-lite.deb",
+    "image_type": "jdk",
+    "java_version": "17.0.16+12-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "1c09b13c45dbce63655f35282b3183ce",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "341fefed6b9ebd6c93e0843a41487bc75c157d17",
+    "sha256": "2432adda556a80491b5f5fb8af220028507eb3d46d7f798a6692e85c00bf9aa5",
+    "sha512": "c2bb182328f355a5d84688204da376190945ba47b2693628750d67524ac61acc3a8fc8fde3f3949ba105b96ad9177f49a3390f98a8b4fea5e0226526257d6005",
+    "size": 66897764,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.16+12/bellsoft-jdk17.0.16+12-linux-riscv64-lite.deb",
+    "vendor": "bellsoft",
+    "version": "17.0.16+12"
   },
   {
     "architecture": "riscv64",
@@ -2055,6 +2097,26 @@
   },
   {
     "architecture": "riscv64",
+    "distro": "temurin",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK21U-jdk_riscv64_linux_hotspot_21.0.4_7.tar.gz",
+    "image_type": "jdk",
+    "java_version": "21.0.4+7-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "a3e4103198c9d766fe44b13b07d101a1",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "25ac8edab9b777d0142b9e06af325d3c8f0d1477",
+    "sha256": "b04fd7f52d18268a935f1a7144dae802b25db600ec97156ddd46b3100cbd13da",
+    "sha512": "92a12dad45b80ee25b555b26456a592db65e5cf2373984e7102ee0527a923cc1d015fba0a75177f3f0063c5d1843f4999fb6627b506cd506571b9625871dc892",
+    "size": 203854772,
+    "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.4%2B7/OpenJDK21U-jdk_riscv64_linux_hotspot_21.0.4_7.tar.gz",
+    "vendor": "eclipse",
+    "version": "21.0.4+7.0.LTS"
+  },
+  {
+    "architecture": "riscv64",
     "distro": "liberica",
     "features": [
       "lite"
@@ -2536,6 +2598,28 @@
     "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.8%2B9/OpenJDK21U-jre_riscv64_linux_hotspot_21.0.8_9.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "21.0.8+9.0.LTS"
+  },
+  {
+    "architecture": "riscv64",
+    "distro": "liberica",
+    "features": [
+      "lite"
+    ],
+    "file_type": "rpm",
+    "filename": "bellsoft-jdk21.0.8+12-linux-riscv64-lite.rpm",
+    "image_type": "jdk",
+    "java_version": "21.0.8+12-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "0ad1744020a4523ec47566f2b659bd22",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "630dd85fc7b202fed5128397968f029a92f4d8ae",
+    "sha256": "8b31605cdfb41f75272dde633d644820e518adac3b6ff2fd39365719c959ec73",
+    "sha512": "f3b49523d094013cc0457b268a3e899a7009dc86191b052715f4de573f0336f90c98550382ff57f8e168ba2700968cffc8f38673916e20e6fd23f1cb2c53552d",
+    "size": 73201064,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.8+12/bellsoft-jdk21.0.8+12-linux-riscv64-lite.rpm",
+    "vendor": "bellsoft",
+    "version": "21.0.8+12"
   },
   {
     "architecture": "riscv64",
@@ -3182,6 +3266,26 @@
     "sha512": "b5efbad84d13d6b80d853dd2fc026aa30e2ebccb53ea4d8ade74c9aa4b64163160d844c53d3e21f602f9b28c6a0ea07d5cc0ded106ea83725a9f8f234d0a1a86",
     "size": 196247701,
     "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.10+10/bellsoft-jdk21.0.10+10-linux-riscv64.tar.gz",
+    "vendor": "bellsoft",
+    "version": "21.0.10+10"
+  },
+  {
+    "architecture": "riscv64",
+    "distro": "liberica",
+    "features": [],
+    "file_type": "rpm",
+    "filename": "bellsoft-jre21.0.10+10-linux-riscv64.rpm",
+    "image_type": "jre",
+    "java_version": "21.0.10+10-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "2b4e96559be42f441f7dba15d52284a1",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "4eec0159f7d5512e25c84eed1666968562569363",
+    "sha256": "81bc24eacaebc97991cdb5c95c9908438d9a5180889e48cdf450c82f5999e544",
+    "sha512": "57ec905ac2efcdd3941ae649bd73de022d031c49acc350ed3c8bcae7b2a78fbaca9d3820cd7183ef90a25c99f94ce0024e35039a3d2489b0b7badb85434370c9",
+    "size": 29429828,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.10+10/bellsoft-jre21.0.10+10-linux-riscv64.rpm",
     "vendor": "bellsoft",
     "version": "21.0.10+10"
   },
@@ -4071,6 +4175,26 @@
   },
   {
     "architecture": "riscv64",
+    "distro": "adoptopenjdk",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK23U-jre_riscv64_linux_hotspot_23.0.1_11.tar.gz",
+    "image_type": "jre",
+    "java_version": "23.0.1+11",
+    "jvm_impl": "hotspot",
+    "md5": "6997473ee361325202ce015c0c1d7ce0",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "d879904f9d3ac1b3bf7b2f409dde197b74c52f2b",
+    "sha256": "cf65a926c2d7cbdbaa63242a8d20ce747335e7260eaaabd7bb52d51c099fda9a",
+    "sha512": "5f42cb0ee13206f415bab86a04b99a57453f55c0fdc4250052ff24fd4ffa1caeb84bcfd9a0fe7bc293361c58b82b7ec363a4559b545ccf1282ac976a76492721",
+    "size": 49775028,
+    "url": "https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23.0.1%2B11/OpenJDK23U-jre_riscv64_linux_hotspot_23.0.1_11.tar.gz",
+    "vendor": "adoptopenjdk",
+    "version": "23.0.1+11"
+  },
+  {
+    "architecture": "riscv64",
     "distro": "liberica",
     "features": [
       "lite"
@@ -4129,6 +4253,26 @@
     "size": 210406539,
     "url": "https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23.0.2%2B7/OpenJDK23U-jdk_riscv64_linux_hotspot_23.0.2_7.tar.gz",
     "vendor": "adoptopenjdk",
+    "version": "23.0.2+7"
+  },
+  {
+    "architecture": "riscv64",
+    "distro": "temurin",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK23U-jre_riscv64_linux_hotspot_23.0.2_7.tar.gz",
+    "image_type": "jre",
+    "java_version": "23.0.2+7",
+    "jvm_impl": "hotspot",
+    "md5": "af574ef72493c91620654dcc6e80ade9",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "028958de4714d45bb88b7d1570a3be73318bb6a2",
+    "sha256": "c2c8f8add6af6518cfc565ec0a7410e031301b91f2d8bd594303d7f04680da4e",
+    "sha512": "6bdcc3d6d2644e25c3a5b9cee9911f044cd7bb4a5075069403e400781d0738948810cd3ef1df3571c767c77729c96ad4902e0c0762fb59590fcfb68f9d02a31e",
+    "size": 49824203,
+    "url": "https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23.0.2%2B7/OpenJDK23U-jre_riscv64_linux_hotspot_23.0.2_7.tar.gz",
+    "vendor": "eclipse",
     "version": "23.0.2+7"
   },
   {

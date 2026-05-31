@@ -2,21 +2,23 @@
   {
     "architecture": "x86_64",
     "distro": "zulu",
-    "features": [],
+    "features": [
+      "crac"
+    ],
     "file_type": "zip",
-    "filename": "zulu23.28.85-ca-jdk23.0.0-win_x64.zip",
+    "filename": "zulu23.30.13-ca-crac-jdk23.0.1-win_x64.zip",
     "image_type": "jdk",
-    "java_version": "23.0.0",
+    "java_version": "23.0.1+11",
     "jvm_impl": "hotspot",
-    "md5": "74482d5bc9949f147307e3b9da05ecea",
+    "md5": "ca7db238f29c8b6da97a0b8cd44e4f91",
     "os": "windows",
     "release_type": "ga",
-    "sha1": "4a7bb42fbeda5168a621471d661bd9026f1d07d4",
-    "sha256": "5778a1f0da870188a3385c3e3ca13ceaa9c1132fb7ba51898708c84a0bb80891",
-    "sha512": "1355aee2660a81a898a170e4880d53fee758aeb2a39be2d3fec10e315475e69f658ed008cc663af28827668b6777432fcf4ec92e1b4152676640cb3f156b112c",
-    "size": 216573686,
-    "url": "https://static.azul.com/zulu/bin/zulu23.28.85-ca-jdk23.0.0-win_x64.zip",
+    "sha1": "55fcd552da11921f130d747d9c6fe5d66b7ed7ab",
+    "sha256": "c83f6268f4a424bf832e58e4e45b48922746c8bd766634779fa00291be0fdc87",
+    "sha512": "e41fec565d852ba1fcd9f16cf35014a21cb4a3df8bad6a19cdb168843578a879ca1e3d42c7ddaf6d130304a50919103066090750ce7377d06e3915dc3da51677",
+    "size": 217067204,
+    "url": "https://static.azul.com/zulu/bin/zulu23.30.13-ca-crac-jdk23.0.1-win_x64.zip",
     "vendor": "azul",
-    "version": "23.28.85"
+    "version": "23.30.13"
   }
 ]
