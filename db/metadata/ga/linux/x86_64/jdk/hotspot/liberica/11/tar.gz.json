@@ -89,6 +89,29 @@
     "architecture": "x86_64",
     "distro": "liberica",
     "features": [
+      "lite",
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jdk11.0.5-linux-x64-musl-lite.tar.gz",
+    "image_type": "jdk",
+    "java_version": "11.0.5",
+    "jvm_impl": "hotspot",
+    "md5": "b05ff220fa351e3259e15578e2d26179",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "30ae1fa6838fda9212d46f5d82788f166933aa9b",
+    "sha256": "f3ac27b97a13f4e8a90740c5383ad361d93c66e5318bf95bf1628e13737d6cc7",
+    "sha512": "ca695bc4c4ebafe03765977cf8b955d3f3010e8957252928c311abe069e148006c21e8a3975aab1edb429488ad01c42612f590e93bb1d609a69c0834475f1185",
+    "size": 74761094,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.5/bellsoft-jdk11.0.5-linux-x64-musl-lite.tar.gz",
+    "vendor": "bellsoft",
+    "version": "11.0.5"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
       "libericafx",
       "minimal-vm",
       "javafx"

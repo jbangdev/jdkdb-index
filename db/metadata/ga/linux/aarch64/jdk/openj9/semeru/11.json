@@ -298,6 +298,28 @@
   {
     "architecture": "aarch64",
     "distro": "semeru",
+    "features": [
+      "certified"
+    ],
+    "file_type": "zip",
+    "filename": "ibm-semeru-certified-jdk_aarch64_linux_11.0.23.0.tap.zip",
+    "image_type": "jdk",
+    "java_version": "11.0.23+9",
+    "jvm_impl": "openj9",
+    "md5": "f7bc89941436f64d64e4399549b19a58",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "0390119fcabe1454afb1324131f10cba74d1d4e0",
+    "sha256": "0d73563af30087a75900ef2df860d33d3a4482d1c30866efa9a9cbc5b157ec5e",
+    "sha512": "feae79faca98ab88eb7afeeb63fc17902d34d738be7657f45a2cd8e03dd91b8373874067b4959d73e219329fa3dab038d2adc45f8f0f35c2098f65f8cf7f701d",
+    "size": 73639,
+    "url": "https://github.com/ibmruntimes/semeru11-certified-binaries/releases/download/jdk-11.0.23+9_openj9-0.44.0/ibm-semeru-certified-jdk_aarch64_linux_11.0.23.0.tap.zip",
+    "vendor": "ibm",
+    "version": "11.0.23+9_openj9-0.44.0"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "semeru",
     "features": [],
     "file_type": "tar.gz",
     "filename": "ibm-semeru-open-jdk_aarch64_linux_11.0.23_9_openj9-0.44.0.tar.gz",
@@ -358,6 +380,28 @@
     "url": "https://github.com/ibmruntimes/semeru11-certified-binaries/releases/download/jdk-11.0.24+8_openj9-0.46.1/ibm-semeru-certified-11-jdk-11.0.24.1-1.aarch64.rpm",
     "vendor": "ibm",
     "version": "11.0.24+8_openj9-0.46.1"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "semeru",
+    "features": [
+      "certified"
+    ],
+    "file_type": "rpm",
+    "filename": "ibm-semeru-certified-11-jdk-11.0.25.0-1.aarch64.rpm",
+    "image_type": "jdk",
+    "java_version": "11.0.25+9",
+    "jvm_impl": "openj9",
+    "md5": "aa4871756e9d1d891fb1c746a5967688",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "79ea889642157e907437d57d04b7397775553e67",
+    "sha256": "ed1cdee8c01cd903402cbcee68fd2d97ef0f377497a9f91eb66d0f29beaf944a",
+    "sha512": "b031f7b05d8da2b728db0f5b573a4d76dd9b46b81e95b05cde73a9747a990b47071c0cbecfcbe3c60751fdb1d14d9e0fde3ec199d3e32d554ef4e23d87b90b5e",
+    "size": 171860284,
+    "url": "https://github.com/ibmruntimes/semeru11-certified-binaries/releases/download/jdk-11.0.25+9_openj9-0.48.0/ibm-semeru-certified-11-jdk-11.0.25.0-1.aarch64.rpm",
+    "vendor": "ibm",
+    "version": "11.0.25+9_openj9-0.48.0"
   },
   {
     "architecture": "aarch64",

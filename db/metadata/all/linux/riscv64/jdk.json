@@ -1096,6 +1096,28 @@
   {
     "architecture": "riscv64",
     "distro": "liberica",
+    "features": [
+      "lite"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jdk17.0.17+11-linux-riscv64-lite.tar.gz",
+    "image_type": "jdk",
+    "java_version": "17.0.17+11-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "4f4511973a9a3fffd6af8aaa91383d8f",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "5a017fca64682edfb8ce4d4cb8af979031c54b1a",
+    "sha256": "ea65915b36c10063c2d2df5c6251fe8c161f2bebde000ee3f99de7ae843160fa",
+    "sha512": "c6a5a768b8a3df58fe018a0753647f0fa1bac942c88b98825041c779daace5827688287c103d04056cc39430aa7f1f9cf13225fe4e5ba4773f77cf2ef417a46b",
+    "size": 71409446,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.17+11/bellsoft-jdk17.0.17+11-linux-riscv64-lite.tar.gz",
+    "vendor": "bellsoft",
+    "version": "17.0.17+11"
+  },
+  {
+    "architecture": "riscv64",
+    "distro": "liberica",
     "features": [],
     "file_type": "rpm",
     "filename": "bellsoft-jdk17.0.17+11-linux-riscv64.rpm",
@@ -1888,6 +1910,26 @@
     "url": "https://github.com/dragonwell-project/dragonwell21/releases/download/dragonwell-standard-21.0.2.0.2%2B13_jdk-21.0.2-ga/Alibaba_Dragonwell_Standard_21.0.2.0.2.13_riscv64_linux.tar.gz",
     "vendor": "alibaba",
     "version": "21.0.2.0.2.13"
+  },
+  {
+    "architecture": "riscv64",
+    "distro": "adoptopenjdk",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK21U-jdk_riscv64_linux_hotspot_21.0.2_13.tar.gz",
+    "image_type": "jdk",
+    "java_version": "21.0.2+13-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "85dcea933526797e5cdb5784cf682069",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "557a17a6f5092e11b59d25027e3ef4092ccbfb6a",
+    "sha256": "791a37ddb040e1a02bbfc61abfbc7e7321431a28054c9ac59ba1738fd5320b02",
+    "sha512": "6ab853b47b73dbdc5e0ea9382a06818fe6a582947ddcf4084f179f0d4f2c8ab9e2ed716c3c9919694e72ce9afa43ba541e571e952f0610eb3d1bbdbddb2e02e2",
+    "size": 203621908,
+    "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.2%2B13/OpenJDK21U-jdk_riscv64_linux_hotspot_21.0.2_13.tar.gz",
+    "vendor": "adoptopenjdk",
+    "version": "21.0.2+13.0.LTS"
   },
   {
     "architecture": "riscv64",
@@ -5162,6 +5204,26 @@
     "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4%2B2-ea-beta/OpenJDK25U-jdk_riscv64_linux_hotspot_25.0.4_2-ea.tar.gz",
     "vendor": "eclipse",
     "version": "25.0.4+2-ea-beta"
+  },
+  {
+    "architecture": "riscv64",
+    "distro": "temurin",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK25U-jdk_riscv64_linux_hotspot_25.0.4_3-ea.tar.gz",
+    "image_type": "jdk",
+    "java_version": "25",
+    "jvm_impl": "hotspot",
+    "md5": "e62f8ed0fa6bb8dd9ab663c7add8e219",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "05572d30dcc9ec347c2f061f1ef2366d8215ec6b",
+    "sha256": "74638e9030d3489d4741f9e198cef989f8ad6a379cf5dc758bc0842a436bed06",
+    "sha512": "7a944c34f5e2c96b36cebfd2534a686dfa1f11a130d0a0f839ec26c3e1fb62d42eebb6daab72542ff3532734aae51921c4790defb1048005ae645ffb381a4e4b",
+    "size": 139817957,
+    "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4%2B3-ea-beta/OpenJDK25U-jdk_riscv64_linux_hotspot_25.0.4_3-ea.tar.gz",
+    "vendor": "eclipse",
+    "version": "25.0.4+3-ea-beta"
   },
   {
     "architecture": "riscv64",

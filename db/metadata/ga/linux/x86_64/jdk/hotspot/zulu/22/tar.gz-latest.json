@@ -2,21 +2,23 @@
   {
     "architecture": "x86_64",
     "distro": "zulu",
-    "features": [],
+    "features": [
+      "crac"
+    ],
     "file_type": "tar.gz",
-    "filename": "zulu22.32.15-ca-jdk22.0.2-linux_x64.tar.gz",
+    "filename": "zulu22.32.17-ca-crac-jdk22.0.2-linux_x64.tar.gz",
     "image_type": "jdk",
     "java_version": "22.0.2",
     "jvm_impl": "hotspot",
-    "md5": "0f49a3cf98608f67d1d7dc1657d6f0d1",
+    "md5": "6d11a9f19d138303ae2e146a768a8182",
     "os": "linux",
     "release_type": "ga",
-    "sha1": "5dedc8cf39547cddd7681f42f8f11bdf47c21bb3",
-    "sha256": "d48c661239200f9507480f91f99285794f9e484786c605015bc5bf0e19eb6613",
-    "sha512": "0c8bfe009389b3fbc9680688cfc07ce088967a43a4175d6a0c4943085daa9dc643eeddd655d33b3e8a5f659c23f4dfe62eee7c5c04319897683c25e76fa77cee",
-    "size": 211513221,
-    "url": "https://static.azul.com/zulu/bin/zulu22.32.15-ca-jdk22.0.2-linux_x64.tar.gz",
+    "sha1": "2d5748e0eb61e06601b15cfa4045db6f77edfa30",
+    "sha256": "8a8d8c3d62dcf509487b95e351cb56ad3d0bff638d8306bef8cf46f9b9826cd7",
+    "sha512": "ea077f27c8986e490d75b30cd7372f594d486c928f33ca044f91de952583e923e64948bdce640865659eac697a43ef52ba7b1e5233ec0c10caaa6a890f1feab6",
+    "size": 217204284,
+    "url": "https://static.azul.com/zulu/bin/zulu22.32.17-ca-crac-jdk22.0.2-linux_x64.tar.gz",
     "vendor": "azul",
-    "version": "22.32.15"
+    "version": "22.32.17"
   }
 ]

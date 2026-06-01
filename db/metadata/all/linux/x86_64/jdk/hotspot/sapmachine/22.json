@@ -2,6 +2,28 @@
   {
     "architecture": "x86_64",
     "distro": "sapmachine",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "sapmachine-jdk-22_linux-x64-musl_bin.tar.gz",
+    "image_type": "jdk",
+    "java_version": "22+36",
+    "jvm_impl": "hotspot",
+    "md5": "0d0547059f5e58336fcb66f9dc26baa1",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "9c148bdcf65fc0accedbd84eab3adfd63678d878",
+    "sha256": "893ec34b0314fd3be7a521317870098c8c46e87035d8a09de032ce98bbb23b5e",
+    "sha512": "713196feb2e1c74984cc53f48846cb798c1ac892e2d46bc04bcf3ed3be8c16a4f48c501b63f11780489d433de97d9ef7aba0d76b56bf3632027130ef117ec66c",
+    "size": 207710858,
+    "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-22/sapmachine-jdk-22_linux-x64-musl_bin.tar.gz",
+    "vendor": "sap",
+    "version": "22"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "sapmachine",
     "features": [],
     "file_type": "tar.gz",
     "filename": "sapmachine-jdk-22-ea.1_linux-x64_bin.tar.gz",

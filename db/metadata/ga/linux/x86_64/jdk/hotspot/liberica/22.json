@@ -27,6 +27,30 @@
     "architecture": "x86_64",
     "distro": "liberica",
     "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
+    "file_type": "rpm",
+    "filename": "bellsoft-jdk22.0.1+10-linux-amd64-full.rpm",
+    "image_type": "jdk",
+    "java_version": "22.0.1+10",
+    "jvm_impl": "hotspot",
+    "md5": "34d441252a80e2aca34fdd68e6417c63",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "c36ec7905bbf68f7d4be00c08e256775d3faf58b",
+    "sha256": "e3fe59f08fff272a90c0597431162ad3cb7f312decd712d75ef11b07521bf37d",
+    "sha512": "509813b46af54fb9e7fcec703710873f009ec1211053852acc1acf838961afd717aa5c3c61f75d65a9ef770245cbed4fbe896387bec90af3a4b351316feb78a9",
+    "size": 309120180,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/22.0.1+10/bellsoft-jdk22.0.1+10-linux-amd64-full.rpm",
+    "vendor": "bellsoft",
+    "version": "22.0.1+10"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
       "lite"
     ],
     "file_type": "rpm",
@@ -331,6 +355,28 @@
     "sha512": "239b92b06025a8791161ecc9fdc56bf7f745e53fa8cd4d2538b861774514e44429f378f84833f6b2f369ec565e6ef0041b432727285bce4a688001bedaff32e5",
     "size": 77413887,
     "url": "https://github.com/bell-sw/Liberica/releases/download/22.0.2+11/bellsoft-jdk22.0.2+11-linux-x64-musl-lite.tar.gz",
+    "vendor": "bellsoft",
+    "version": "22.0.2+11"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jdk22.0.2+11-linux-x64-musl.tar.gz",
+    "image_type": "jdk",
+    "java_version": "22.0.2+11",
+    "jvm_impl": "hotspot",
+    "md5": "c84b4a87d60dcdf3f27555ec21dd5a09",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "3c6541e9d8c1218e723218b78fdf0240cf0a9a0a",
+    "sha256": "868b1e9d71747cf27843accfd3687abe9c5416fc1862f747522fd9b693e2d4e2",
+    "sha512": "7645ce0510a060788bbc1f0337503308e6e7b94f04964055ee796127a7fb1604ab42afc04f0b2bfbb130f7b9677f96cf5ec8f700dffc38d1f878331f8524170b",
+    "size": 229159287,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/22.0.2+11/bellsoft-jdk22.0.2+11-linux-x64-musl.tar.gz",
     "vendor": "bellsoft",
     "version": "22.0.2+11"
   },

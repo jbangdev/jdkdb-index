@@ -130,6 +130,30 @@
   {
     "architecture": "aarch64",
     "distro": "liberica",
+    "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
+    "file_type": "pkg",
+    "filename": "bellsoft-jdk11.0.15+10-macos-aarch64-full.pkg",
+    "image_type": "jdk",
+    "java_version": "11.0.15+10",
+    "jvm_impl": "hotspot",
+    "md5": "de3c5dc088cebbf6f98181379185379b",
+    "os": "macosx",
+    "release_type": "ga",
+    "sha1": "47949665eaf3c155d304b0508094f12466f424c7",
+    "sha256": "dc9276b5f3781cbedbba0152935c8fbc39ed2a088954ed1c69ec881be954eaa7",
+    "sha512": "761753af9b1da0fa99e47d29c84523d03814f876e957366d392ea4f040e47f55045e7af8a4662146697dfde32995d878ee20bd17fc00abafb960eae36d534f69",
+    "size": 282011119,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.15+10/bellsoft-jdk11.0.15+10-macos-aarch64-full.pkg",
+    "vendor": "bellsoft",
+    "version": "11.0.15+10"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "liberica",
     "features": [],
     "file_type": "pkg",
     "filename": "bellsoft-jdk11.0.20.1+1-macos-aarch64.pkg",
@@ -324,5 +348,27 @@
     "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.29+12/bellsoft-jdk11.0.29+12-macos-aarch64.pkg",
     "vendor": "bellsoft",
     "version": "11.0.29+12"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "liberica",
+    "features": [
+      "lite"
+    ],
+    "file_type": "pkg",
+    "filename": "bellsoft-jdk11.0.30+9-macos-aarch64-lite.pkg",
+    "image_type": "jdk",
+    "java_version": "11.0.30+9-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "14366b0917e245718980f351d60cffce",
+    "os": "macosx",
+    "release_type": "ga",
+    "sha1": "fcd24cfc40bc13dcc11c44d46e67aeab7c01447e",
+    "sha256": "236182f9ecac55c8107dc7fb7dd219d785dd786ce61dc57d99b460bfa0ee16aa",
+    "sha512": "3c92cbc75b05586fedcbc0c159045fa54082bb0283f444e953c2a74a5007b8b53c9eb857d68df774e042c37cd0925b79b1ded2e0a980b0fdbd670c2c04a19ca9",
+    "size": 71919005,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.30+9/bellsoft-jdk11.0.30+9-macos-aarch64-lite.pkg",
+    "vendor": "bellsoft",
+    "version": "11.0.30+9"
   }
 ]

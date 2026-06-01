@@ -3,42 +3,23 @@
     "architecture": "aarch64",
     "distro": "zulu",
     "features": [
-      "javafx"
+      "crac",
+      "musl"
     ],
     "file_type": "tar.gz",
-    "filename": "zulu22.30.13-ca-fx-jre22.0.1-linux_aarch64.tar.gz",
+    "filename": "zulu22.32.17-ca-crac-jre22.0.2-linux_musl_aarch64.tar.gz",
     "image_type": "jre",
-    "java_version": "22.0.1",
+    "java_version": "22.0.2",
     "jvm_impl": "hotspot",
-    "md5": "d53abf9a4d250a44a138e37c904e3a9f",
+    "md5": "374d1bbff09b2c97ce78878ddfecb601",
     "os": "linux",
     "release_type": "ga",
-    "sha1": "c7154f0dae705ffb2d39dfab7fadeaf4a03b3f24",
-    "sha256": "079a94732ee1029a36d36770e599b97a0babea5063afaebdb0bf417107142400",
-    "sha512": "5c9a06647a8747064cd8d4a80f4dcaa2b9f525c976f64e56375768bedf925b53325f5d0ecc48702bb4dc59c31309f6a7d54450e5b6d62913497bd0d44d5f701f",
-    "size": 97307783,
-    "url": "https://static.azul.com/zulu/bin/zulu22.30.13-ca-fx-jre22.0.1-linux_aarch64.tar.gz",
+    "sha1": "f07f1a7deefa9cf704a63718b1dfbbb13615256f",
+    "sha256": "be9432b1fdc148ef5a3ab2b17264aa9975e6a6903e50748b169155fd80d6082a",
+    "sha512": "6ae7108e56507ef70d13c9de8cdd92e08e302afa0ed61af513e59254af2737a7b5878640a9b5837dd7b12e11218c30e179e7c9ea9f63e7e6f1f68bfd184415a4",
+    "size": 55119735,
+    "url": "https://static.azul.com/zulu/bin/zulu22.32.17-ca-crac-jre22.0.2-linux_musl_aarch64.tar.gz",
     "vendor": "azul",
-    "version": "22.30.13"
-  },
-  {
-    "architecture": "aarch64",
-    "distro": "zulu",
-    "features": [],
-    "file_type": "tar.gz",
-    "filename": "zulu22.30.13-ca-jre22.0.1-linux_aarch64.tar.gz",
-    "image_type": "jre",
-    "java_version": "22.0.1",
-    "jvm_impl": "hotspot",
-    "md5": "a9aaa81c9eec4209d615b9d7f7127cb6",
-    "os": "linux",
-    "release_type": "ga",
-    "sha1": "a5d3b69d88c35f100ae8717c219b22b3d04034ef",
-    "sha256": "a7d2456d0ee6d33a411007f77a505ec9427c0e7a60bcb1e5957763e08c69a6be",
-    "sha512": "296fe284374439c8973fb2b1f7e2bb53bee36dd13aae4665ff95d423463e564da4cdfce79d8b4e19455337472b3bb658a03eeb42e2b6b01f734b4e73457b3f9c",
-    "size": 51704393,
-    "url": "https://static.azul.com/zulu/bin/zulu22.30.13-ca-jre22.0.1-linux_aarch64.tar.gz",
-    "vendor": "azul",
-    "version": "22.30.13"
+    "version": "22.32.17"
   }
 ]

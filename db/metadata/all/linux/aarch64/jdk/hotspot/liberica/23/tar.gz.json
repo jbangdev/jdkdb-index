@@ -90,6 +90,30 @@
     "architecture": "aarch64",
     "distro": "liberica",
     "features": [
+      "lite",
+      "musl",
+      "leyden"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jdk23+25-ea-linux-aarch64-musl-lite-leyden.tar.gz",
+    "image_type": "jdk",
+    "java_version": "23+25-ea",
+    "jvm_impl": "hotspot",
+    "md5": "683964550304d4ebe27c4683e0af5629",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "1a2e564f6456a668e766083d23840afc61d7ac64",
+    "sha256": "9119de651362558c5e57f3196e901d5e400d8a334b094fca7a0ee79e5de8aa07",
+    "sha512": "50fdb1f590867e535631e64bf114fed7242210333628897c3cda93acefdc8475f6f4e9223a7977680a25e46e8a8e8df9534bb9e84f86b2133ea45662cf534789",
+    "size": 80742822,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/23+25-ea-leyden/bellsoft-jdk23+25-ea-linux-aarch64-musl-lite-leyden.tar.gz",
+    "vendor": "bellsoft",
+    "version": "23+25-ea"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "liberica",
+    "features": [
       "libericafx",
       "minimal-vm",
       "javafx"
