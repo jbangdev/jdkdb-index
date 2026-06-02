@@ -153,6 +153,28 @@
     "architecture": "aarch64",
     "distro": "liberica",
     "features": [
+      "lite"
+    ],
+    "file_type": "msi",
+    "filename": "bellsoft-jdk17.0.12+10-windows-aarch64-lite.msi",
+    "image_type": "jdk",
+    "java_version": "17.0.12+10-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "f468a3fb691deca5bc0aed3abd596075",
+    "os": "windows",
+    "release_type": "ga",
+    "sha1": "dff4fd212ce129275ca67b6aac8931ef8416b085",
+    "sha256": "3006ec4df8dccd0669b82ea2cdbb0f188b84ee624b860c6fc9df1a05ade0c4f8",
+    "sha512": "748395d20a99f1b92f60c82ccc3c192d985c3f1c637413fe133edb2a3976646f65ee5d1010b665d70c421b42a7c6f1ba3c86e26f71bffc13ec5a85d9406c807b",
+    "size": 70246400,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.12+10/bellsoft-jdk17.0.12+10-windows-aarch64-lite.msi",
+    "vendor": "bellsoft",
+    "version": "17.0.12+10"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "liberica",
+    "features": [
       "libericafx",
       "minimal-vm",
       "javafx"

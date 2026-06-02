@@ -1047,6 +1047,29 @@
   },
   {
     "architecture": "x86_64",
+    "distro": "gluon-graalvm",
+    "features": [
+      "native-image",
+      "substrate-vm"
+    ],
+    "file_type": "tar.gz",
+    "filename": "graalvm-svm-java11-linux-gluon-22.1.0.1-Final.tar.gz",
+    "image_type": "jdk",
+    "java_version": "11",
+    "jvm_impl": "graalvm",
+    "md5": "c0716da9a5fc9ed5a051ef2d17844a6c",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "8e8d0c698a3a5ad95fa19410376b7bbdbda32835",
+    "sha256": "5b071fb0603e8155d63d5ba24593287596a1187a66678c0b23335f6e5bf43796",
+    "sha512": "107fc1dc30e11e7ab796ada313565a032918286408f15961a94061bf8c08734f1a048f56f414723f3b6f3598b870de9b9b38706fc9108373d978c79e3f4cc332",
+    "size": 380466249,
+    "url": "https://github.com/gluonhq/graal/releases/download/gluon-22.1.0.1-Final/graalvm-svm-java11-linux-gluon-22.1.0.1-Final.tar.gz",
+    "vendor": "gluon",
+    "version": "22.1.0.1-Final"
+  },
+  {
+    "architecture": "x86_64",
     "distro": "graalvm",
     "features": [],
     "file_type": "tar.gz",

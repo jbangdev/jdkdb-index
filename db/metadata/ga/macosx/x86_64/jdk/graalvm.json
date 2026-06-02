@@ -481,6 +481,29 @@
   },
   {
     "architecture": "x86_64",
+    "distro": "gluon-graalvm",
+    "features": [
+      "native-image",
+      "substrate-vm"
+    ],
+    "file_type": "zip",
+    "filename": "graalvm-svm-java17-darwin-gluon-22.0.0.2-Final.zip",
+    "image_type": "jdk",
+    "java_version": "17",
+    "jvm_impl": "graalvm",
+    "md5": "71dbec2afb016ece45fe576a5c69d7e4",
+    "os": "macosx",
+    "release_type": "ga",
+    "sha1": "413212165efa360fbbc5ca3b63cb49e15ff15df5",
+    "sha256": "30554f199040d9e32c1fbfbdb8b68d30b4572bb59aa293b46876abb67a2672db",
+    "sha512": "361193ababbf513c32189493de56773f60536701fcdca93ef89d53e52ebe0000bfe94e3c041268f4a611252414d047302200b748ac5efc9b27cbf2f4f6dd1968",
+    "size": 410030510,
+    "url": "https://github.com/gluonhq/graal/releases/download/gluon-22.0.0.2-Final/graalvm-svm-java17-darwin-gluon-22.0.0.2-Final.zip",
+    "vendor": "gluon",
+    "version": "22.0.0.2-Final"
+  },
+  {
+    "architecture": "x86_64",
     "distro": "oracle-graalvm",
     "features": [],
     "file_type": "tar.gz",
@@ -641,6 +664,26 @@
     "url": "https://github.com/graalvm/graalvm-ce-builds/releases/download/vm-22.3.3/graalvm-ce-java17-darwin-amd64-22.3.3.tar.gz",
     "vendor": "oracle",
     "version": "22.3.3+java17"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "oracle-graalvm",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "graalvm-jdk-23_macos-x64_bin.tar.gz",
+    "image_type": "jdk",
+    "java_version": "23+37-jvmci-b01",
+    "jvm_impl": "graalvm",
+    "md5": "690c59e8b8430ac48d9064011143c2d8",
+    "os": "macosx",
+    "release_type": "ga",
+    "sha1": "eaeda4441b01ff66a4bb7719f5fda89147129ce4",
+    "sha256": "d516ea854e361a821c7679d127ff7126c254b8c43c99e571e203df218df2764b",
+    "sha512": "3587f497b89084131aabddfb175cd63ea53967fc3399487f962c1e5cfb840ceb78ab2f77d1126a83cb56ca986512356a5d71270159bda8da201cdadf4040254b",
+    "size": 336258583,
+    "url": "https://download.oracle.com/graalvm/23/archive/graalvm-jdk-23_macos-x64_bin.tar.gz",
+    "vendor": "oracle",
+    "version": "23"
   },
   {
     "architecture": "x86_64",

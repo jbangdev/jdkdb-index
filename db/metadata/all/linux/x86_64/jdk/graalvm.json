@@ -1227,6 +1227,29 @@
   },
   {
     "architecture": "x86_64",
+    "distro": "gluon-graalvm",
+    "features": [
+      "native-image",
+      "substrate-vm"
+    ],
+    "file_type": "tar.gz",
+    "filename": "graalvm-svm-java11-linux-gluon-22.1.0.1-Final.tar.gz",
+    "image_type": "jdk",
+    "java_version": "11",
+    "jvm_impl": "graalvm",
+    "md5": "c0716da9a5fc9ed5a051ef2d17844a6c",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "8e8d0c698a3a5ad95fa19410376b7bbdbda32835",
+    "sha256": "5b071fb0603e8155d63d5ba24593287596a1187a66678c0b23335f6e5bf43796",
+    "sha512": "107fc1dc30e11e7ab796ada313565a032918286408f15961a94061bf8c08734f1a048f56f414723f3b6f3598b870de9b9b38706fc9108373d978c79e3f4cc332",
+    "size": 380466249,
+    "url": "https://github.com/gluonhq/graal/releases/download/gluon-22.1.0.1-Final/graalvm-svm-java11-linux-gluon-22.1.0.1-Final.tar.gz",
+    "vendor": "gluon",
+    "version": "22.1.0.1-Final"
+  },
+  {
+    "architecture": "x86_64",
     "distro": "graalvm",
     "features": [],
     "file_type": "tar.gz",
@@ -2724,6 +2747,26 @@
     "url": "https://github.com/graalvm/oracle-graalvm-ea-builds/releases/download/jdk-25e1-25.0.3-ea.29/graalvm-jdk-25e1-25.0.3-ea.29_linux-x64_bin.tar.gz",
     "vendor": "oracle",
     "version": "25.0.3-ea.29"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "oracle-graalvm",
+    "features": null,
+    "file_type": "tar.gz",
+    "filename": "graalvm-jdk-25e1-25.0.3-ea.30_linux-x64_bin.tar.gz",
+    "image_type": "jdk",
+    "java_version": "25.0.3+9-LTS-jvmci-25.1-b18",
+    "jvm_impl": "graalvm",
+    "md5": "42bc373bc241b31fa1bafe43e57c203f",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "a86c6c1df02e2cf55aa779e1a7201d4f40747b34",
+    "sha256": "bf5c15c97aa13fd8041d3398561d4db3f835d34d37a0c014ff7e726221c3a99a",
+    "sha512": "86da39cf64cf83669e9fcd80f8cfce4dfc38bbe5f820fbf1d00e0e84d20a0345c63fe6ed97b2512e14b713dedfc262180ff6391ffa57b0796e7a0318e453af9f",
+    "size": 388046034,
+    "url": "https://github.com/graalvm/oracle-graalvm-ea-builds/releases/download/jdk-25e1-25.0.3-ea.30/graalvm-jdk-25e1-25.0.3-ea.30_linux-x64_bin.tar.gz",
+    "vendor": "oracle",
+    "version": "25.0.3-ea.30"
   },
   {
     "architecture": "x86_64",

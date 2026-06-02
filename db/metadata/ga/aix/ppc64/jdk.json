@@ -1043,6 +1043,28 @@
   },
   {
     "architecture": "ppc64",
+    "distro": "semeru",
+    "features": [
+      "certified"
+    ],
+    "file_type": "zip",
+    "filename": "ibm-semeru-certified-jdk_ppc64_aix_11.0.16.0.tap.zip",
+    "image_type": "jdk",
+    "java_version": "11.0.16.1+1",
+    "jvm_impl": "openj9",
+    "md5": "a70730d355b9d84c02e716c2fbf99bce",
+    "os": "aix",
+    "release_type": "ga",
+    "sha1": "899d570f39ccc7af9883cf74544396eca1949189",
+    "sha256": "02989abfdd6dc4104f9ac9f1da87324ca76936954ab85bebbb48ffa0db261e1b",
+    "sha512": "64bddf0e7d3a9539d3f1532e00995bec1096e646eeaa5b9cf1761f2cb8886a0ad7fab82af447adac596faa027157f9527666180ddcf2b393bef7ed56423a2542",
+    "size": 131133,
+    "url": "https://github.com/ibmruntimes/semeru11-certified-binaries/releases/download/jdk-11.0.16.1+1_openj9-0.33.1/ibm-semeru-certified-jdk_ppc64_aix_11.0.16.0.tap.zip",
+    "vendor": "ibm",
+    "version": "11.0.16.1+1_openj9-0.33.1"
+  },
+  {
+    "architecture": "ppc64",
     "distro": "adoptopenjdk",
     "features": [],
     "file_type": "tar.gz",
@@ -2441,6 +2463,26 @@
   },
   {
     "architecture": "ppc64",
+    "distro": "temurin",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK17U-jdk_ppc64_aix_hotspot_17.0.16_8.tar.gz",
+    "image_type": "jdk",
+    "java_version": "17.0.16+8",
+    "jvm_impl": "hotspot",
+    "md5": "53acb64fad13ef129143722e9d155841",
+    "os": "aix",
+    "release_type": "ga",
+    "sha1": "24cf4f89de3a526a0efa61bf4723b22c2f7961b5",
+    "sha256": "00c8b5601d289e0b5680462d25ca76a08b7886909f5fe8f33f446ebf32f376fb",
+    "sha512": "9f318ef224ae36db3a9bbdce9bb625fe36a95525d54990f8b990988ae61c80badf8378aad26c52a39a7d0dc0b61c6b817deb968e2ec0107700673f87139df6dc",
+    "size": 183361370,
+    "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.16%2B8/OpenJDK17U-jdk_ppc64_aix_hotspot_17.0.16_8.tar.gz",
+    "vendor": "eclipse",
+    "version": "17.0.16+8"
+  },
+  {
+    "architecture": "ppc64",
     "distro": "semeru",
     "features": [
       "certified"
@@ -3278,6 +3320,26 @@
     "url": "https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.9%2B9_openj9-0.56.0-m2/ibm-semeru-open-jdk_ppc64_aix_21.0.9_9_openj9-0.56.0-m2.tar.gz",
     "vendor": "ibm",
     "version": "21.0.9+9_openj9-0.56.0-m2"
+  },
+  {
+    "architecture": "ppc64",
+    "distro": "sapmachine",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "sapmachine-jdk-21.0.10_aix-ppc64_bin.tar.gz",
+    "image_type": "jdk",
+    "java_version": "21.0.10+7-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "1cff05310d0326a178e591d74e45bdf6",
+    "os": "aix",
+    "release_type": "ga",
+    "sha1": "98005d5e8ca0d0c50a3b4f2b52c7303da99e5999",
+    "sha256": "598851ee32ed4a3cc2b848cfd482b562122a64e47b7cc88fe66357e12d492abb",
+    "sha512": "3266f92d6285ed2f769352a73b5cdbee7fc8ba6ba2e8194e62648ee44233391597c6aad33059941417a0ef85943f4bdedd3022dbcb91eb19c45019f78a3cd693",
+    "size": 187703148,
+    "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-21.0.10/sapmachine-jdk-21.0.10_aix-ppc64_bin.tar.gz",
+    "vendor": "sap",
+    "version": "21.0.10"
   },
   {
     "architecture": "ppc64",
