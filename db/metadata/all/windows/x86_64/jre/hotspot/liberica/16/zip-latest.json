@@ -2,21 +2,25 @@
   {
     "architecture": "x86_64",
     "distro": "liberica",
-    "features": [],
+    "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
     "file_type": "zip",
-    "filename": "bellsoft-jre16.0.2+7-windows-amd64.zip",
+    "filename": "bellsoft-jre16+36-windows-amd64-full.zip",
     "image_type": "jre",
-    "java_version": "16.0.2+7",
+    "java_version": "16+36",
     "jvm_impl": "hotspot",
-    "md5": "b16f470b605d723c8eeae34cc1b7bec3",
+    "md5": "0a28acfe4f3fbc1546a298ff3da41ae1",
     "os": "windows",
     "release_type": "ga",
-    "sha1": "2439c4faed6ccafc0e64fa33513c36078f25f20a",
-    "sha256": "26765f53eff2bc056261a1a37ba702b4761f7876556b9cb8fe26e7851e3e4e1f",
-    "sha512": "f58579f383cdecd88836422e3b5acea411a23242b59b587ab37ec05b38ae5ae69172011542639549f224c2df6952654244974b2de2dfe733f14de4bc40386c23",
-    "size": 48666519,
-    "url": "https://github.com/bell-sw/Liberica/releases/download/16.0.2+7/bellsoft-jre16.0.2+7-windows-amd64.zip",
+    "sha1": "f1b46d4495dc2122aac09db23227d9a9888ae15c",
+    "sha256": "bcaf279e6905937e22b001f0e584098cb4cb7dae9475af1376cf977042c9c11f",
+    "sha512": "41ba94456c56405f380fc6cb8300a33dbd3bf45bb4ad396935646eea79462cd0f4e82fd567daaf6c14001c53511a645a03bce03147916968497912b489abf847",
+    "size": 78817787,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/16+36/bellsoft-jre16+36-windows-amd64-full.zip",
     "vendor": "bellsoft",
-    "version": "16.0.2+7"
+    "version": "16+36"
   }
 ]

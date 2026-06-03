@@ -1006,6 +1006,48 @@
   {
     "architecture": "x86_64",
     "distro": "sapmachine",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "sapmachine-jdk-21.0.6-ea.2_linux-x64_bin.tar.gz",
+    "image_type": "jdk",
+    "java_version": "21.0.6-ea.2",
+    "jvm_impl": "hotspot",
+    "md5": "48eaef802d1e564282b4ac9f469e9f1b",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "012967adcd5089d89c67461a42b356cc32794858",
+    "sha256": "9e0025a1cf0b8ab9bef38218df38ddf993fc273aff66312494da2d6a982c1f02",
+    "sha512": "f64eadc85a3de64bdfa3d2077b69933fd2446efba4ea7e56e55cfb2d15f08c08429885e2c2987c84fa535a12e6bd73fe05f61a32488fe18ea43853661227f8d7",
+    "size": 207386028,
+    "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-21.0.6+2/sapmachine-jdk-21.0.6-ea.2_linux-x64_bin.tar.gz",
+    "vendor": "sap",
+    "version": "21.0.6-ea.2"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "sapmachine",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "sapmachine-jdk-21.0.6-ea.3_linux-x64-musl_bin.tar.gz",
+    "image_type": "jdk",
+    "java_version": "21.0.6-ea.3",
+    "jvm_impl": "hotspot",
+    "md5": "1242c2cc64e70b50a72fcb4e6b9e2829",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "ada993f4196bc4cb5336fc4ac6739a734ba08162",
+    "sha256": "3d36f8edb2c15f6f0efdb6526eb9b8f3fc1e300226837a34a755f85076ded09d",
+    "sha512": "6368af13658a9979e4e2a9ecd505797050ad70444d82fc91aa433eb62b3f60e607dfed44b99710885178e39f5315bf48df3c2db86268e47a84b50130487f9754",
+    "size": 208557983,
+    "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-21.0.6+3/sapmachine-jdk-21.0.6-ea.3_linux-x64-musl_bin.tar.gz",
+    "vendor": "sap",
+    "version": "21.0.6-ea.3"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "sapmachine",
     "features": [
       "musl"
     ],

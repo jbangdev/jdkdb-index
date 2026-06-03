@@ -2,21 +2,25 @@
   {
     "architecture": "x86_64",
     "distro": "liberica",
-    "features": [],
+    "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
     "file_type": "zip",
-    "filename": "bellsoft-jdk23.0.2+9-windows-amd64.zip",
+    "filename": "bellsoft-jdk23+38-windows-amd64-full.zip",
     "image_type": "jdk",
-    "java_version": "23.0.2+9",
+    "java_version": "23+38",
     "jvm_impl": "hotspot",
-    "md5": "ed9fde78cc906dd9d99abdfcd39754f6",
+    "md5": "69732109ae1f343c4656668d2c12832b",
     "os": "windows",
     "release_type": "ga",
-    "sha1": "477ecaea4cad454229572abc52f069a376efd6ab",
-    "sha256": "6554f77bb3bd906fd0b33587ef1c3c35502c1e27da8425d2b5f4796cb49410b1",
-    "sha512": "48c60d027651bc081af3153f83c0653496686abda4628a5db4ace8e5e2270da38e14cf09953242254aa5679b25a4d6f52555559c007c832e364e28bfde2853de",
-    "size": 226198711,
-    "url": "https://github.com/bell-sw/Liberica/releases/download/23.0.2+9/bellsoft-jdk23.0.2+9-windows-amd64.zip",
+    "sha1": "84c9e2db58d41f7dd299cc133ce1ff1298fde154",
+    "sha256": "d4eaef079ed710b944588f07f1c5356e3226b8aeb5b6033687927615c49f8182",
+    "sha512": "4687bf9bce7150da00742ea6ba3e0229c358f85fdcf09139b085fc637af6bb157c826f2dea6ba0f908429bc16d5f4907f44d7f8aa8957fe2e4c510b71b776d19",
+    "size": 314579028,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/23+38/bellsoft-jdk23+38-windows-amd64-full.zip",
     "vendor": "bellsoft",
-    "version": "23.0.2+9"
+    "version": "23+38"
   }
 ]

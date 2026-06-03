@@ -5693,6 +5693,26 @@
   },
   {
     "architecture": "aarch64",
+    "distro": "temurin",
+    "features": [],
+    "file_type": "msi",
+    "filename": "OpenJDK21U-jre_aarch64_windows_hotspot_21.0.12_4-ea.msi",
+    "image_type": "jre",
+    "java_version": "21",
+    "jvm_impl": "hotspot",
+    "md5": "5a319986660e3d9f7fcc9f780302f7a3",
+    "os": "windows",
+    "release_type": "ea",
+    "sha1": "84a070ce114085a140d85117119c6b08b9809704",
+    "sha256": "9733cff379bd343c9cf13230dfb7bdc5ef6d3c1cf2cdb87fb5f951dd339e4ae5",
+    "sha512": "283824587d2b6d4f54e89a7c3e1c639751cbbbb4bf59b1c5c50a7fe04d256e8aa488052e8064b0f64e9d33ef043568ee978b302bf74c8720ebc05886b7b35b54",
+    "size": 27742208,
+    "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.12%2B4-ea-beta/OpenJDK21U-jre_aarch64_windows_hotspot_21.0.12_4-ea.msi",
+    "vendor": "eclipse",
+    "version": "21.0.12+4-ea-beta"
+  },
+  {
+    "architecture": "aarch64",
     "distro": "liberica",
     "features": [
       "leyden"
@@ -5857,6 +5877,28 @@
     "sha512": "d8c897cef245e8a858d4157aafd022ab25414b4b7feb80caa6d40fcec36173409411ef92eec1c80618bb2f265a6e65315c0f18befbdea1ffa710e617622165e4",
     "size": 78942289,
     "url": "https://github.com/bell-sw/Liberica/releases/download/24+2-ea-leyden/bellsoft-jdk24+2-ea-windows-aarch64-lite-leyden.zip",
+    "vendor": "bellsoft",
+    "version": "24+2-ea"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "liberica",
+    "features": [
+      "leyden"
+    ],
+    "file_type": "msi",
+    "filename": "bellsoft-jre24+2-ea-windows-aarch64-leyden.msi",
+    "image_type": "jre",
+    "java_version": "24+2-ea",
+    "jvm_impl": "hotspot",
+    "md5": "b961e4afbdca72e6fecb2eb0f6c5157c",
+    "os": "windows",
+    "release_type": "ea",
+    "sha1": "4a302625790515118c368d703a7933d3b357e604",
+    "sha256": "15547da1e3cdf76d88cc7cade146b5963f083fa7237d95d7ccf74bd9c91cef49",
+    "sha512": "0dcb470f06243844dac2e5c8c846176feb8d29dd7569693cbab9c481fbc71ba9c7e356232a104d26e0c23ce9dceb37c23c56b7d74627772035bb7a997ed267aa",
+    "size": 40296448,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/24+2-ea-leyden/bellsoft-jre24+2-ea-windows-aarch64-leyden.msi",
     "vendor": "bellsoft",
     "version": "24+2-ea"
   },

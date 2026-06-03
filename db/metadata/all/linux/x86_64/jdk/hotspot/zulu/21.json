@@ -111,6 +111,28 @@
   {
     "architecture": "x86_64",
     "distro": "zulu",
+    "features": [
+      "javafx"
+    ],
+    "file_type": "tar.gz",
+    "filename": "zulu21.32.17-ca-fx-jdk21.0.2-linux_x64.tar.gz",
+    "image_type": "jdk",
+    "java_version": "21.0.2+13-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "7b42dfcaad5115929e8ab56ec10f270d",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "9914afd773a594ce5164273f984ea1511b09028e",
+    "sha256": "08433694c8f264b592d6d05c4b5b414d4c41c00cb35b7beba515855554855466",
+    "sha512": "700aec8ac2af307ed2d3352586c17d87d4376924fda117024d2b4fd2d4e649603b0221a5623ca22a8b8d33cc6d01d5fd4f73094009de51fb38a3423f321232d9",
+    "size": 315827046,
+    "url": "https://static.azul.com/zulu/bin/zulu21.32.17-ca-fx-jdk21.0.2-linux_x64.tar.gz",
+    "vendor": "azul",
+    "version": "21.32.17"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "zulu",
     "features": [],
     "file_type": "tar.gz",
     "filename": "zulu21.32.17-ca-jdk21.0.2-linux_x64.tar.gz",
@@ -303,6 +325,29 @@
     "url": "https://static.azul.com/zulu/bin/zulu21.40.17-ca-jdk21.0.6-linux_musl_x64.tar.gz",
     "vendor": "azul",
     "version": "21.40.17"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "zulu",
+    "features": [
+      "crac",
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "zulu21.42.21-ca-crac-jdk21.0.7-linux_musl_x64.tar.gz",
+    "image_type": "jdk",
+    "java_version": "21.0.7+6-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "9df190c7d26b27e0568c5c42435344f7",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "720e04dc0c3863f801674ce404c9e8b0ef90ae16",
+    "sha256": "b96d7ee39bf5ebba240b62055344fd5ecf22c7a3b9bf31beab70b6b8582f0de0",
+    "sha512": "2b235290b25ec22b73497546f2c6cfa95b7eabc66d8bc1470c13f9c3f6b4a1ee33bb74caf1a8f6c7099ac94b7351fd226eb3abb732f19773ddad0e8d28f551b4",
+    "size": 221128963,
+    "url": "https://static.azul.com/zulu/bin/zulu21.42.21-ca-crac-jdk21.0.7-linux_musl_x64.tar.gz",
+    "vendor": "azul",
+    "version": "21.42.21"
   },
   {
     "architecture": "x86_64",

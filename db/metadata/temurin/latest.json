@@ -2278,6 +2278,28 @@
     "version": "19.0.1+10"
   },
   {
+    "architecture": "x86_64",
+    "distro": "temurin",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK19U-jre_x64_alpine-linux_hotspot_19.0.2_7.tar.gz",
+    "image_type": "jre",
+    "java_version": "19.0.2+7",
+    "jvm_impl": "hotspot",
+    "md5": "db70526c78e48a1b89015c6824569351",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "a1672513b2716fea2ec38f54c6b28db38e9c8063",
+    "sha256": "6c0ce0ead2e7ce3e0f06b9578447499c8bd0509306c95fcd81dbecb634228933",
+    "sha512": "cbc7c9de11f5a81690c23ce16444527379121a4531a0ae1b5bbeb020fd640de6bb9205db26ccabc6843bd612b73c796c32f262ebe6a183e419235172be5eab4b",
+    "size": 48210254,
+    "url": "https://github.com/adoptium/temurin19-binaries/releases/download/jdk-19.0.2%2B7/OpenJDK19U-jre_x64_alpine-linux_hotspot_19.0.2_7.tar.gz",
+    "vendor": "eclipse",
+    "version": "19.0.2+7"
+  },
+  {
     "architecture": "aarch64",
     "distro": "temurin",
     "features": [],
@@ -3272,6 +3294,26 @@
     "version": "22.0.2+9"
   },
   {
+    "architecture": "s390x",
+    "distro": "temurin",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK22U-jdk_s390x_linux_hotspot_22.0.2_9.tar.gz",
+    "image_type": "jdk",
+    "java_version": "22.0.2+9",
+    "jvm_impl": "hotspot",
+    "md5": "8b5e0f2f7c84ba01c996ed1c97f6b9ca",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "80c48d8fde9aadc17d2018861eb00b9af6bc83b8",
+    "sha256": "46527cfc560552f05c0462520d69d438f144a3dc8206687952387c910cdd4c40",
+    "sha512": "ac36bd9d6060834825841194d0479f5add14a268905cb597892b34f3fa15d7d57da9452861d89717d20297876ab22946e1cdb124ea80924d02849c3ce193ddb7",
+    "size": 193187045,
+    "url": "https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22.0.2%2B9/OpenJDK22U-jdk_s390x_linux_hotspot_22.0.2_9.tar.gz",
+    "vendor": "eclipse",
+    "version": "22.0.2+9"
+  },
+  {
     "architecture": "x86_64",
     "distro": "temurin",
     "features": [
@@ -3290,6 +3332,26 @@
     "sha512": "35840096f0b4f19728dcd973669307f4b6325bf45b4742b4f9de37b0d0e73558e20acb9165ea8a3752217cdb2d3211947533ac1f077fc1fae0e08dffe4998a1a",
     "size": 206029058,
     "url": "https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22.0.2%2B9/OpenJDK22U-jdk_x64_alpine-linux_hotspot_22.0.2_9.tar.gz",
+    "vendor": "eclipse",
+    "version": "22.0.2+9"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "temurin",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK22U-jdk_x64_linux_hotspot_22.0.2_9.tar.gz",
+    "image_type": "jdk",
+    "java_version": "22.0.2+9",
+    "jvm_impl": "hotspot",
+    "md5": "e227d79ad76b5837ccf24c6c7942314b",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "021321f5ba9dd4370af4d564019ebf8b7a790cf8",
+    "sha256": "05cd9359dacb1a1730f7c54f57e0fed47942a5292eb56a3a0ee6b13b87457a43",
+    "sha512": "63279c060903dfdc548b4e8c13822f39bf1fe1951f26f9345e8501eda9a992f9120706a09dc02a8ce48640c118239b8d0aa577a166d5a1422a8e1e6f14f32d74",
+    "size": 205853101,
+    "url": "https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22.0.2%2B9/OpenJDK22U-jdk_x64_linux_hotspot_22.0.2_9.tar.gz",
     "vendor": "eclipse",
     "version": "22.0.2+9"
   },
@@ -3960,28 +4022,6 @@
     "version": "24.0.1+9"
   },
   {
-    "architecture": "x86_64",
-    "distro": "temurin",
-    "features": [
-      "musl"
-    ],
-    "file_type": "tar.gz",
-    "filename": "OpenJDK24U-jdk_x64_alpine-linux_hotspot_24.0.1_9.tar.gz",
-    "image_type": "jdk",
-    "java_version": "24.0.1+9",
-    "jvm_impl": "hotspot",
-    "md5": "8c7bb386c5aca83fe3ad7cdbc5f60fcb",
-    "os": "linux",
-    "release_type": "ga",
-    "sha1": "ae18dff009125a3a8a4a8f1430327302da36b46d",
-    "sha256": "74627af4084a9eb65cc5bad3bb5723b89f1ffb5eaec9afbd696ec5bf684ed79a",
-    "sha512": "56a70bffd1d913f39fe52c4d5865fa0bc48b0ca5523d295162b651e2962a8a063d60f00ee904debbb11688c34262d4da9d1c7a58a7c1b62440ad91ff15abe7df",
-    "size": 139304354,
-    "url": "https://github.com/adoptium/temurin24-binaries/releases/download/jdk-24.0.1%2B9/OpenJDK24U-jdk_x64_alpine-linux_hotspot_24.0.1_9.tar.gz",
-    "vendor": "eclipse",
-    "version": "24.0.1+9"
-  },
-  {
     "architecture": "riscv64",
     "distro": "temurin",
     "features": [],
@@ -4038,6 +4078,28 @@
     "sha512": "81ed2955f44cfa4b6981033228d4bc70b84475c0b0dd6d8ed4852652117a6fe518de6edb574f1bf5024ec9bbc7ddb700fbd5a0fc8b66fa5116566035eb227991",
     "size": 132748536,
     "url": "https://github.com/adoptium/temurin24-binaries/releases/download/jdk-24.0.2%2B12/OpenJDK24U-jdk_s390x_linux_hotspot_24.0.2_12.tar.gz",
+    "vendor": "eclipse",
+    "version": "24.0.2+12"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "temurin",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK24U-jdk_x64_alpine-linux_hotspot_24.0.2_12.tar.gz",
+    "image_type": "jdk",
+    "java_version": "24.0.2+12",
+    "jvm_impl": "hotspot",
+    "md5": "b20a2685d018793e0403d1b84a1a51a0",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "6373ffdacfe7697651db85a55304e9109adb62ac",
+    "sha256": "947ba234c65cdbd4d852e8f2812334ed093530d86b32cca5d9b45d6672186f77",
+    "sha512": "f73a36635dd287cc71466dfd4101f18b944d524d0a88879f54e68247eb11271766fda0b04ae9ceb5ff09ec19ed0ed1091371fdb7f0595dad78759d89efc660d3",
+    "size": 139367858,
+    "url": "https://github.com/adoptium/temurin24-binaries/releases/download/jdk-24.0.2%2B12/OpenJDK24U-jdk_x64_alpine-linux_hotspot_24.0.2_12.tar.gz",
     "vendor": "eclipse",
     "version": "24.0.2+12"
   },

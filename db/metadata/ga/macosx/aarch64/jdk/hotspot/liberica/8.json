@@ -134,6 +134,30 @@
   {
     "architecture": "aarch64",
     "distro": "liberica",
+    "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
+    "file_type": "zip",
+    "filename": "bellsoft-jdk8u292+11-macos-aarch64-full.zip",
+    "image_type": "jdk",
+    "java_version": "1.8.0_292",
+    "jvm_impl": "hotspot",
+    "md5": "f7f821775aa89466f2f5ad79bc7d61e6",
+    "os": "macosx",
+    "release_type": "ga",
+    "sha1": "e3f9c044e62eb44af5775437506a521f16fe4ded",
+    "sha256": "aa5657ed7b6e0447127a4214b2447859ace0966282514ca78c57ee47a86db626",
+    "sha512": "22a6a232c9ea913ad29c098d1c2da95830789dcb55ba8dd9b5ac9c7a364387d6fd6a8480d68b4cae545f047c0191ad5eaa8ebe950a7f8ec16fa30c29a0532b2e",
+    "size": 145340796,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/8u292+11/bellsoft-jdk8u292+11-macos-aarch64-full.zip",
+    "vendor": "bellsoft",
+    "version": "8u292+11"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "liberica",
     "features": [],
     "file_type": "dmg",
     "filename": "bellsoft-jdk8u292+11-macos-aarch64.dmg",
@@ -990,6 +1014,28 @@
     "sha512": "970ffd3be90e2084b44434c912315aa6b19eaf526a3c1928378508654b899a75cc43662150b6a4c106cf0b29f636772e8ee3c4f983683d7275909495b41dfd87",
     "size": 54994164,
     "url": "https://github.com/bell-sw/Liberica/releases/download/8u342+7/bellsoft-jdk8u342+7-macos-aarch64-lite.dmg",
+    "vendor": "bellsoft",
+    "version": "8u342+7"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "liberica",
+    "features": [
+      "lite"
+    ],
+    "file_type": "pkg",
+    "filename": "bellsoft-jdk8u342+7-macos-aarch64-lite.pkg",
+    "image_type": "jdk",
+    "java_version": "1.8.0_342",
+    "jvm_impl": "hotspot",
+    "md5": "9bcf8d2aaadca74d9814be5d214fe139",
+    "os": "macosx",
+    "release_type": "ga",
+    "sha1": "dc91be5abdd497c334ddca0e1069488e0041fe31",
+    "sha256": "965718a457eebfa221da8bf99f69cea2314e8f13860696d93f934ea647509d19",
+    "sha512": "c1587d05884457d268bda134b84ed805749449732cb27daefdbd009be2567c6ef273907aee80f3522e334cdcd3a803db67c406c72f10fa24b394c395bdc69da0",
+    "size": 53557503,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/8u342+7/bellsoft-jdk8u342+7-macos-aarch64-lite.pkg",
     "vendor": "bellsoft",
     "version": "8u342+7"
   },

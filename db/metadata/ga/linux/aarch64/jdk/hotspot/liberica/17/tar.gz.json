@@ -363,6 +363,29 @@
     "architecture": "aarch64",
     "distro": "liberica",
     "features": [
+      "lite",
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jdk17.0.8.1+1-linux-aarch64-musl-lite.tar.gz",
+    "image_type": "jdk",
+    "java_version": "17.0.8.1+1-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "e9f1a9024f2ced11737b94bebd60bd02",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "08e6938878b6e4f63d29beb9a1a32cf4573689e6",
+    "sha256": "a289605f2163e2e72c2563544294ab5c8de66432fff4eb8be1ea37aba40fd42b",
+    "sha512": "589cabf88ae3064262abb39e3852dcc3336d08b7f47f970fc5b90da8f3bd6db6c30c2ccca2d0b94f68597c96e0db478a9cdfe9d162e45a138fc78191350feccd",
+    "size": 71056923,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.8.1+1/bellsoft-jdk17.0.8.1+1-linux-aarch64-musl-lite.tar.gz",
+    "vendor": "bellsoft",
+    "version": "17.0.8.1+1"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "liberica",
+    "features": [
       "libericafx",
       "minimal-vm",
       "javafx"
