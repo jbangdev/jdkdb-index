@@ -1660,6 +1660,48 @@
   {
     "architecture": "x86_64",
     "distro": "semeru",
+    "features": [
+      "certified"
+    ],
+    "file_type": "tar.gz",
+    "filename": "ibm-semeru-certified-jre_x64_linux_11.0.24.0.tar.gz",
+    "image_type": "jre",
+    "java_version": "11.0.24+8",
+    "jvm_impl": "openj9",
+    "md5": "03fe4376c1c5ed811ad185ddf1b0dd04",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "86282502c32ffc586905166a5f45ddd2944e5548",
+    "sha256": "222b3eaca1c66da57a5a4b6038f414520bf2d321ba1c9e0e377205566f299132",
+    "sha512": "5ab1cbea846f4258b2bf323d93af2ad0674687b285df47ee8f4a568f63f7325a217797bfa39259e6c827f89d2b0bdae86e856a38660f9014df7e6e926d33490f",
+    "size": 51159216,
+    "url": "https://github.com/ibmruntimes/semeru11-certified-binaries/releases/download/jdk-11.0.24+8_openj9-0.46.0/ibm-semeru-certified-jre_x64_linux_11.0.24.0.tar.gz",
+    "vendor": "ibm",
+    "version": "11.0.24+8_openj9-0.46.0"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "semeru",
+    "features": [],
+    "file_type": "rpm",
+    "filename": "ibm-semeru-open-11-jre-11.0.24.8_0.46.0-1.x86_64.rpm",
+    "image_type": "jre",
+    "java_version": "11.0.24+8",
+    "jvm_impl": "openj9",
+    "md5": "65465ec65acdb0c4e65bf884f6e0b815",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "3e8cdf96d98d97521a9c3faeadd0677176d28a1e",
+    "sha256": "387b99c79a229e936b0e41d241dc7364bfc94616c5d29685b6451b00bb80c015",
+    "sha512": "5a3d3eda3c75bbd7276248eff4b8f54780edc0be2f24ae11441f3b02e6c77c5a644f8eecdafb5970c81ff948e099324041c038fe1e5f2c1c42f862dbc2286793",
+    "size": 30743904,
+    "url": "https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.24+8_openj9-0.46.0/ibm-semeru-open-11-jre-11.0.24.8_0.46.0-1.x86_64.rpm",
+    "vendor": "ibm",
+    "version": "11.0.24+8_openj9-0.46.0"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "semeru",
     "features": [],
     "file_type": "tar.gz",
     "filename": "ibm-semeru-open-jre_x64_linux_11.0.24_8_openj9-0.46.0.tar.gz",
@@ -1982,6 +2024,28 @@
     "url": "https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.29%2B6_openj9-0.56.0-m2/ibm-semeru-open-jre_x64_linux_11.0.29_6_openj9-0.56.0-m2.tar.gz",
     "vendor": "ibm",
     "version": "11.0.29+6_openj9-0.56.0-m2"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "semeru",
+    "features": [
+      "certified"
+    ],
+    "file_type": "rpm",
+    "filename": "ibm-semeru-certified-11-jre-11.0.29.0-1.x86_64.rpm",
+    "image_type": "jre",
+    "java_version": "11.0.29+7",
+    "jvm_impl": "openj9",
+    "md5": "970d3d50b9574520ebe6e9a1e8c8a29e",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "f2a6a467f377e1b6948646b6cd37922c351d4af7",
+    "sha256": "dbcd2b3d48e2eae7bbf0768a304058bd21ab9da0983564e5e7cf00023ff4c131",
+    "sha512": "13dd29781d33ef320709eeb1c66b645abfde8c2a02344d08a30fc729efefa865c968818111ca79b52ea1a142a386abbdb4b6faed94a74f53eb0a7e7af48d0ab4",
+    "size": 33516400,
+    "url": "https://github.com/ibmruntimes/semeru11-certified-binaries/releases/download/jdk-11.0.29+7_openj9-0.56.0/ibm-semeru-certified-11-jre-11.0.29.0-1.x86_64.rpm",
+    "vendor": "ibm",
+    "version": "11.0.29+7_openj9-0.56.0"
   },
   {
     "architecture": "x86_64",
@@ -2390,6 +2454,26 @@
   {
     "architecture": "x86_64",
     "distro": "adoptopenjdk",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK14U-jre_x64_linux_openj9_14_36_openj9-0.19.0.tar.gz",
+    "image_type": "jre",
+    "java_version": "14+36",
+    "jvm_impl": "openj9",
+    "md5": "bb85978cf71d268dfc9dc92c350fa0a9",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "1a3860f9b0ae821bc3e9b3b7b757f623c1063a02",
+    "sha256": "55cff9151fecd610ffbbe81e12adfbce83d0e7033b944e139e6ff758868b0509",
+    "sha512": "652b9db4a228aedce90a6a90c9afba93deb0c71b25941a5c3d4af422e0cbb92da1880e9e716dbc440da53bc108fe2bc8d7bc4a78122cff1a231dc0c3b3bd5592",
+    "size": 52260939,
+    "url": "https://github.com/AdoptOpenJDK/openjdk14-binaries/releases/download/jdk-14%2B36.1_openj9-0.19.0/OpenJDK14U-jre_x64_linux_openj9_14_36_openj9-0.19.0.tar.gz",
+    "vendor": "adoptopenjdk",
+    "version": "14.0.0+36.1.openj9-0.19.0"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "adoptopenjdk",
     "features": [
       "large_heap"
     ],
@@ -2430,6 +2514,28 @@
     "url": "https://github.com/AdoptOpenJDK/openjdk15-binaries/releases/download/jdk-15%2B36_openj9-0.22.0/OpenJDK15U-jre_x64_linux_openj9_linuxXL_15_36_openj9-0.22.0.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "15.0.0+36.openj9-0.22.0"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "adoptopenjdk",
+    "features": [
+      "large_heap"
+    ],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK15U-jre_x64_linux_openj9_linuxXL_15.0.1_9_openj9-0.23.0.tar.gz",
+    "image_type": "jre",
+    "java_version": "15.0.1+9",
+    "jvm_impl": "openj9",
+    "md5": "b5a33519fd694078ff3f5c15b2d69971",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "318176feacb96a84831b485bb210127683393074",
+    "sha256": "72b8a98f3dce4b126b7d6a7d1d90ca910846ccd18d42d71a8366f5b35ba90c67",
+    "sha512": "0db65589c1374885246e9c48b5e9c9abf684228bcd3f9cbcec14cb515c0fc1c1832f08729f926507e9f21d664232eaf31bbc137ecf64b086c6c942e29d143d4b",
+    "size": 49248960,
+    "url": "https://github.com/AdoptOpenJDK/openjdk15-binaries/releases/download/jdk-15.0.1%2B9_openj9-0.23.0/OpenJDK15U-jre_x64_linux_openj9_linuxXL_15.0.1_9_openj9-0.23.0.tar.gz",
+    "vendor": "adoptopenjdk",
+    "version": "15.0.1+9.openj9-0.23.0"
   },
   {
     "architecture": "x86_64",

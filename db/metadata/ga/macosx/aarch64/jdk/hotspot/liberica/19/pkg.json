@@ -26,6 +26,28 @@
   {
     "architecture": "aarch64",
     "distro": "liberica",
+    "features": [
+      "lite"
+    ],
+    "file_type": "pkg",
+    "filename": "bellsoft-jdk19.0.1+11-macos-aarch64-lite.pkg",
+    "image_type": "jdk",
+    "java_version": "19.0.1+11",
+    "jvm_impl": "hotspot",
+    "md5": "53284883f683a7e78abe059372ae0445",
+    "os": "macosx",
+    "release_type": "ga",
+    "sha1": "ea12c2259134b56c481aa828cab7b98b55212db9",
+    "sha256": "ad96c567cf8766583d44c26a6c3e8f61591bc8173c81d83131537d699d28c251",
+    "sha512": "ca202161fcf4fc47ecc44aacfcc9dff039bbe0d59171a608922d1f9a82158a5a6a61ec57d57e4f58a4c07962ea27e03e887796e872fe83a72a800576eceb4642",
+    "size": 73653585,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/19.0.1+11/bellsoft-jdk19.0.1+11-macos-aarch64-lite.pkg",
+    "vendor": "bellsoft",
+    "version": "19.0.1+11"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "liberica",
     "features": [],
     "file_type": "pkg",
     "filename": "bellsoft-jdk19.0.1+11-macos-aarch64.pkg",
@@ -66,5 +88,29 @@
     "url": "https://github.com/bell-sw/Liberica/releases/download/19.0.2+9/bellsoft-jdk19.0.2+9-macos-aarch64-full.pkg",
     "vendor": "bellsoft",
     "version": "19.0.2+9"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "liberica",
+    "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
+    "file_type": "pkg",
+    "filename": "bellsoft-jdk19+37-macos-aarch64-full.pkg",
+    "image_type": "jdk",
+    "java_version": "19+37",
+    "jvm_impl": "hotspot",
+    "md5": "ced68a291fcdee7fe2676af8634bdbd6",
+    "os": "macosx",
+    "release_type": "ga",
+    "sha1": "b250ee7fdcbf22e42ccc9e4c37e729adc4f8c6c1",
+    "sha256": "f2978922c5ec27539149c710fc71494c461f9d580afa76bc43d56538a79db9b3",
+    "sha512": "d9afb62dab970aa57fe8ebbd9e03ba1519b3f0d492b98fa6f6407de2fd0cb6495a1a8b86fd7b7f2c241884048fb440e39f5c127ddc0be374801e943c292221bf",
+    "size": 284141843,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/19+37/bellsoft-jdk19+37-macos-aarch64-full.pkg",
+    "vendor": "bellsoft",
+    "version": "19+37"
   }
 ]

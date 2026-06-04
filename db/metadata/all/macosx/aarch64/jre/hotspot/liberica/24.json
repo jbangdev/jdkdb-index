@@ -26,6 +26,30 @@
   {
     "architecture": "aarch64",
     "distro": "liberica",
+    "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
+    "file_type": "pkg",
+    "filename": "bellsoft-jre24.0.1+11-macos-aarch64-full.pkg",
+    "image_type": "jre",
+    "java_version": "24.0.1+11",
+    "jvm_impl": "hotspot",
+    "md5": "f6727b642bd791259ee6cbc51e61396a",
+    "os": "macosx",
+    "release_type": "ga",
+    "sha1": "4fc50ac16af0b92325f42b7e1c9e295e8c3809f8",
+    "sha256": "1333fbef160fd25fa3da638ab14084c2af13b4dd3a6249d83daea586c6336b6d",
+    "sha512": "ba7c5b31d6a1cb24295cb47aae19c93ac9ea9f5e454a3e2495533a2a0e20aeb2a7cc237517ec9d694e21bbf1ff4c2dcf6b586238d86bc692b8be6a8925cfd93b",
+    "size": 119027312,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/24.0.1+11/bellsoft-jre24.0.1+11-macos-aarch64-full.pkg",
+    "vendor": "bellsoft",
+    "version": "24.0.1+11"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "liberica",
     "features": [],
     "file_type": "dmg",
     "filename": "bellsoft-jre24.0.1+11-macos-aarch64.dmg",
@@ -232,6 +256,28 @@
     "sha512": "90f62f9426c3a8ea527f7435366fbc585a26f2d7a80760d5a7c06d892216b2a3dd3c96ec0ec0521a31ea097829eb5f282a67f9140c4316f6c3f523a9793e3c9a",
     "size": 49070538,
     "url": "https://github.com/bell-sw/Liberica/releases/download/24+2-ea-leyden/bellsoft-jre24+2-ea-macos-aarch64-leyden.pkg",
+    "vendor": "bellsoft",
+    "version": "24+2-ea"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "liberica",
+    "features": [
+      "leyden"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jre24+2-ea-macos-aarch64-leyden.tar.gz",
+    "image_type": "jre",
+    "java_version": "24+2-ea",
+    "jvm_impl": "hotspot",
+    "md5": "e8986ea9876abcc82d7bf2c1801d72ee",
+    "os": "macosx",
+    "release_type": "ea",
+    "sha1": "d0c0ef9bc96ea0cc3fcee7a494bfe28d7dc1e777",
+    "sha256": "0a33dfb21c84f1c8efb9194075cf4443c92429c291575725137146df59652cb0",
+    "sha512": "f8894e4895c924b6742343a908c803f0e11421646b6546e443332e922b4962ce8caf3a59ae407ea52a32174e811b8c5c218af9a7df381fbb866ac61cef239fec",
+    "size": 48661834,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/24+2-ea-leyden/bellsoft-jre24+2-ea-macos-aarch64-leyden.tar.gz",
     "vendor": "bellsoft",
     "version": "24+2-ea"
   },

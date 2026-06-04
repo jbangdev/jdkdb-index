@@ -2,21 +2,25 @@
   {
     "architecture": "arm32-vfp-hflt",
     "distro": "liberica",
-    "features": [],
+    "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
     "file_type": "rpm",
-    "filename": "bellsoft-jre21.0.8+12-linux-arm32-vfp-hflt.rpm",
+    "filename": "bellsoft-jre21.0.9+15-linux-arm32-vfp-hflt-full.rpm",
     "image_type": "jre",
-    "java_version": "21.0.8+12-LTS",
+    "java_version": "21.0.9+15-LTS",
     "jvm_impl": "hotspot",
-    "md5": "667a0fdc8c7decf720d56eb785762e77",
+    "md5": "7ebaa30520224c9c5ee482d1bab67d35",
     "os": "linux",
     "release_type": "ga",
-    "sha1": "0992f2a650ab0037c4a4f7cc165cd4ccc4762af9",
-    "sha256": "aac7562cbf9a55e15fdf565e5ba164203e5f77d64707d5b59d833e8b559eeb0e",
-    "sha512": "509d58cf53051af89fd46cf24865abfa1b90a5393274c02bd9fd150c2e5c625b8134fc985b2ee4b31b28046d82bffb8250985940bf859ca490016ab9418c75d2",
-    "size": 31694684,
-    "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.8+12/bellsoft-jre21.0.8+12-linux-arm32-vfp-hflt.rpm",
+    "sha1": "580c5aa45f69abc00579344faea53d9a93db5cf9",
+    "sha256": "6f88af2e47d6475a0cbb548bfdf964ea9f53ef14642d1d95b77430d0620cae02",
+    "sha512": "f79b12f27ea4195fb246de3c0731040fb9f6f98e23244b5058cf99ab3cd5501d1c3e5c9d7581ee9db5fc7b478ae61464a315b8ffc236951af0738f7731d98666",
+    "size": 36267080,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.9+15/bellsoft-jre21.0.9+15-linux-arm32-vfp-hflt-full.rpm",
     "vendor": "bellsoft",
-    "version": "21.0.8+12"
+    "version": "21.0.9+15"
   }
 ]

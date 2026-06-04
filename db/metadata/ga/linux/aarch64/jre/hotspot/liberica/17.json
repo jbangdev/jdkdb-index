@@ -489,6 +489,30 @@
     "architecture": "aarch64",
     "distro": "liberica",
     "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jre17.0.6+10-linux-aarch64-full.tar.gz",
+    "image_type": "jre",
+    "java_version": "17.0.6+10",
+    "jvm_impl": "hotspot",
+    "md5": "439423a0167aa692431b736eed84ba89",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "476a0f620db9649bd7e5393a76aff96752b90390",
+    "sha256": "bd668bbf8ed8e040540aa7c2ae20fd025bee9fd8b8c58bc11d736fcb79469b29",
+    "sha512": "594c447f1a8970f56694ad059065147057af5ba4a451057f1f51cacbfc803c5e20587cffe1aad13855e320cfec67a0c719607fcec19778940e367c3ad120a6c6",
+    "size": 91182088,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.6+10/bellsoft-jre17.0.6+10-linux-aarch64-full.tar.gz",
+    "vendor": "bellsoft",
+    "version": "17.0.6+10"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "liberica",
+    "features": [
       "musl"
     ],
     "file_type": "tar.gz",
@@ -1066,6 +1090,26 @@
     "sha512": "ea363976488a74b61874cb8a3dc3e2552741b06c2deac4e3a8e90e6bbcc4e737a67019d6c5f81254bb17aab74c5c5f44f0e9be573e12d0e576e69cb05fcc7621",
     "size": 57142040,
     "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.14+10/bellsoft-jre17.0.14+10-linux-aarch64-musl.tar.gz",
+    "vendor": "bellsoft",
+    "version": "17.0.14+10"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "liberica",
+    "features": [],
+    "file_type": "deb",
+    "filename": "bellsoft-jre17.0.14+10-linux-aarch64.deb",
+    "image_type": "jre",
+    "java_version": "17.0.14+10-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "5fbb4cd0cb95a172cb57ee78baee5b02",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "6130ee846fa5696cdda03aacf31a7f0e7fffe573",
+    "sha256": "f1084915900a191c9df8a27ab3c6c1c1be4da461d6e1a198832d95e6d690413e",
+    "sha512": "acbd38c6a857432aa5377abc774eef0265dca2b97beeeb8f2d1addb43da70d7fbbe85fe7bb454116afb5ec5987d9c4d19db4edbdcb2ae395781ad46fbc6b3372",
+    "size": 35333160,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.14+10/bellsoft-jre17.0.14+10-linux-aarch64.deb",
     "vendor": "bellsoft",
     "version": "17.0.14+10"
   },
