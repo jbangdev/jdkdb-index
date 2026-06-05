@@ -104,6 +104,26 @@
     "distro": "semeru",
     "features": [],
     "file_type": "rpm",
+    "filename": "ibm-semeru-open-8-jre-1.8.0.422.b05_0.46.0-1.ppc64.rpm",
+    "image_type": "jre",
+    "java_version": "8u422-b05",
+    "jvm_impl": "openj9",
+    "md5": "d7fcd65168871dbb8123e75e0cd3cb59",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "324dad1bd46fb08785d9cf1db9233abe724761d7",
+    "sha256": "1fb68e8a47bffe95bb30e52be15314924730858e0142cb016f1b76334dbd981c",
+    "sha512": "e4b48272eb0db083c896f76f31c2cdf0acf23f2eeccb72af3d2311a07b41373fcb2731a7820e1127cff3c87bf1fb598517d8c8a1a31a65aad47938433de4f4ed",
+    "size": 53501773,
+    "url": "https://github.com/ibmruntimes/semeru8-binaries/releases/download/jdk8u422-b05_openj9-0.46.0/ibm-semeru-open-8-jre-1.8.0.422.b05_0.46.0-1.ppc64.rpm",
+    "vendor": "ibm",
+    "version": "8u422-b05_openj9-0.46.0"
+  },
+  {
+    "architecture": "ppc64",
+    "distro": "semeru",
+    "features": [],
+    "file_type": "rpm",
     "filename": "ibm-semeru-open-8-jre-1.8.0.442.b06_0.49.0-1.ppc64.rpm",
     "image_type": "jre",
     "java_version": "8u442-b06",
@@ -298,6 +318,26 @@
     "url": "https://github.com/ibmruntimes/semeru8-binaries/releases/download/jdk-8.0.492.0-m2/ibm-semeru-open-8-jre-8.0.492.0_m2-1.ppc64.rpm",
     "vendor": "ibm",
     "version": "8.0.492.0-m2"
+  },
+  {
+    "architecture": "ppc64",
+    "distro": "zulu",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "zulu8.23.0.74-ea-hl-jre8.0.144-linux_ppc64.tar.gz",
+    "image_type": "jre",
+    "java_version": "8.0.144",
+    "jvm_impl": "hotspot",
+    "md5": "f9a2326a316856cfd10a2163a645d0f8",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "2801c940ac6e89ecb2b35050fe1454e45b14c283",
+    "sha256": "aadfaa195e5dc842ea235748f7eec199d8b19aea6aad09dc80f23a3a6f45f6cc",
+    "sha512": "5d36223818c8f048047b02da16ff2ea028879b00f6134c53fddbbbe3aba6c65b6f354bf0fa720084e51ba1989f89575bd743893a8be701ab92996936fd0ad476",
+    "size": 87150606,
+    "url": "https://static.azul.com/zulu/bin/zulu8.23.0.74-ea-hl-jre8.0.144-linux_ppc64.tar.gz",
+    "vendor": "azul",
+    "version": "8.23.0.74"
   },
   {
     "architecture": "ppc64",
@@ -530,6 +570,26 @@
     "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-11.0.5/sapmachine-jre-11.0.5_linux-ppc64le_bin.tar.gz",
     "vendor": "sap",
     "version": "11.0.5"
+  },
+  {
+    "architecture": "ppc64",
+    "distro": "sapmachine",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "sapmachine-jre-11.0.6_linux-ppc64_bin.tar.gz",
+    "image_type": "jre",
+    "java_version": "11.0.6",
+    "jvm_impl": "hotspot",
+    "md5": "1c1f5c2b842aec6e1659d5b60275b875",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "bccd049d133a1edc7acf1661a3c30f3c1183c844",
+    "sha256": "14d6bb7b4d5843b73fe3d0ae1a11e810626d77af39f9165f30c9f33331e1f828",
+    "sha512": "7332ecc55ea925e1cb2e5ba9133aa236c6542c7946465086f8180138e5a811eaf168cb7fe9723793ababea3dd2c85b3c7073cd62056709686341803cf74f2ef9",
+    "size": 38892874,
+    "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-11.0.6/sapmachine-jre-11.0.6_linux-ppc64_bin.tar.gz",
+    "vendor": "sap",
+    "version": "11.0.6"
   },
   {
     "architecture": "ppc64",
@@ -840,6 +900,28 @@
     "url": "https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.27+5_openj9-0.51.0-m2/ibm-semeru-open-11-jre-11.0.27.5_0.51.0-1.ppc64.rpm",
     "vendor": "ibm",
     "version": "11.0.27+5_openj9-0.51.0-m2"
+  },
+  {
+    "architecture": "ppc64",
+    "distro": "semeru",
+    "features": [
+      "certified"
+    ],
+    "file_type": "rpm",
+    "filename": "ibm-semeru-certified-11-jre-11.0.27.0-1.ppc64.rpm",
+    "image_type": "jre",
+    "java_version": "11.0.27+6",
+    "jvm_impl": "openj9",
+    "md5": "36eb94faaec11a5118a28ec638a17e87",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "77124c57e2b7302cc11f4834738be5fd793f2ff5",
+    "sha256": "7c4b9012ab6ba9bc18178cf784b2238478dc0cb6ef14750180616297191dfb86",
+    "sha512": "6c7944a574f5ba4d06feb0abbc3587683b82705bd1d2fa74d3a1f32cc60555c80bc75918f826670050caca937f9db243d87e366c2888f5678b03220dcbbd7772",
+    "size": 63761883,
+    "url": "https://github.com/ibmruntimes/semeru11-certified-binaries/releases/download/jdk-11.0.27+6_openj9-0.51.0/ibm-semeru-certified-11-jre-11.0.27.0-1.ppc64.rpm",
+    "vendor": "ibm",
+    "version": "11.0.27+6_openj9-0.51.0"
   },
   {
     "architecture": "ppc64",
@@ -1608,6 +1690,28 @@
     "url": "https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.14+7_openj9-0.49.0/ibm-semeru-open-17-jre-17.0.14.7_0.49.0-1.ppc64.rpm",
     "vendor": "ibm",
     "version": "17.0.14+7_openj9-0.49.0"
+  },
+  {
+    "architecture": "ppc64",
+    "distro": "semeru",
+    "features": [
+      "certified"
+    ],
+    "file_type": "rpm",
+    "filename": "ibm-semeru-certified-17-jre-17.0.15.0-1.ppc64.rpm",
+    "image_type": "jre",
+    "java_version": "17.0.15+6",
+    "jvm_impl": "openj9",
+    "md5": "a429b81f45d4102b886110e487a5e57f",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "a051a6dd0ee725967dddbe64f07bfc196300b061",
+    "sha256": "2c96640981dc410eea9eb2b950b989f26def469fc485819a0bb04bd7bf3888ae",
+    "sha512": "24c5f7f896dd4eec72eebf357a27e5a339fa1e6d6f300b5a21432d3160ced5c3f887611396b940b4b64e3efa4d0d186f5d0491f9edf97f23507a3f1bd82aae51",
+    "size": 62429289,
+    "url": "https://github.com/ibmruntimes/semeru17-certified-binaries/releases/download/jdk-17.0.15+6_openj9-0.51.0/ibm-semeru-certified-17-jre-17.0.15.0-1.ppc64.rpm",
+    "vendor": "ibm",
+    "version": "17.0.15+6_openj9-0.51.0"
   },
   {
     "architecture": "ppc64",

@@ -2,21 +2,25 @@
   {
     "architecture": "aarch64",
     "distro": "liberica",
-    "features": [],
+    "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
     "file_type": "tar.gz",
-    "filename": "bellsoft-jdk15.0.1+9-linux-aarch64.tar.gz",
+    "filename": "bellsoft-jdk15.0.2+8-linux-aarch64-full.tar.gz",
     "image_type": "jdk",
-    "java_version": "15.0.1+9",
+    "java_version": "15.0.2+8",
     "jvm_impl": "hotspot",
-    "md5": "e59e7e0fc267e77cc571228d427c3173",
+    "md5": "05d9eac74a2f6737df667f641131bad3",
     "os": "linux",
     "release_type": "ga",
-    "sha1": "82fe70867922a70888dc77409d0b2ad4d86ebf85",
-    "sha256": "eeab09fb1b09fbf1e2ee8859d506c0e7ea9b780d0d015504b4a1e108f066ab45",
-    "sha512": "02b809a5e016ed637066824755b40194831deb5fa19b32359f2ff940f86cca20852dbe4f646fe438c68b06f27166a86a651843a297d21bb592433497e25a52d8",
-    "size": 203084592,
-    "url": "https://github.com/bell-sw/Liberica/releases/download/15.0.1+9/bellsoft-jdk15.0.1+9-linux-aarch64.tar.gz",
+    "sha1": "0fadc7bf6a371d6fa6c4e357eb9a717013013323",
+    "sha256": "2a299246a2922ef9b5bbed507af1577d23197f1f1ca6cdaa5457f66720cf6d48",
+    "sha512": "309f5b75a8c4359d0f14ab2db5fe56f6ad58111c7f59470a1e8786bc3091f180169af8f675e608e34cc5b8c2b05e2790331dd14f30d760463bc82b515dba2c9f",
+    "size": 290898579,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/15.0.2+8/bellsoft-jdk15.0.2+8-linux-aarch64-full.tar.gz",
     "vendor": "bellsoft",
-    "version": "15.0.1+9"
+    "version": "15.0.2+8"
   }
 ]

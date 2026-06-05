@@ -395,6 +395,30 @@
     "architecture": "aarch64",
     "distro": "liberica",
     "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
+    "file_type": "pkg",
+    "filename": "bellsoft-jdk21.0.10+10-macos-aarch64-full.pkg",
+    "image_type": "jdk",
+    "java_version": "21.0.10+10-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "2d3e6629a108b9129c5704d55746d4d7",
+    "os": "macosx",
+    "release_type": "ga",
+    "sha1": "c651005da0d25ebeabb1cb66e3fe866b290a3a05",
+    "sha256": "f29809dd795c072cae31789c058e23ea825b4d51bca22e77d29698972f76fb79",
+    "sha512": "5ccc4990a0b95b50ffb8f9c8c558e6845abc66f8d6493a167bf54ae2d92edbf935873e196814136e0cb5da3426496120ac60182ee265b9e50d41fd96193713a1",
+    "size": 318760371,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.10+10/bellsoft-jdk21.0.10+10-macos-aarch64-full.pkg",
+    "vendor": "bellsoft",
+    "version": "21.0.10+10"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "liberica",
+    "features": [
       "lite"
     ],
     "file_type": "pkg",
@@ -452,6 +476,26 @@
     "sha512": "841c4e6d736452e5596c02794834555489a88313831f8e14c29dd077d1e02bcc28cebf8db915ca6d048538414a9d8ebc0454297e0363b2728120b425a4aa48c4",
     "size": 76377114,
     "url": "https://github.com/bell-sw/Liberica/releases/download/21+37/bellsoft-jdk21+37-macos-aarch64-lite.pkg",
+    "vendor": "bellsoft",
+    "version": "21+37"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "liberica",
+    "features": [],
+    "file_type": "pkg",
+    "filename": "bellsoft-jdk21+37-macos-aarch64.pkg",
+    "image_type": "jdk",
+    "java_version": "21+37-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "f9abd344d301469d805bfe9510a5d3dc",
+    "os": "macosx",
+    "release_type": "ga",
+    "sha1": "40fa31eb588eb94e0f5f7bd71ffa1d3a56ffd606",
+    "sha256": "572b4a41bbb35d9562598b7cf4d23c186a0d23f7574412bb7fcb55105d77d46c",
+    "sha512": "743a4a30b177aa9a69ab82aae3139f7848f7fa49afc82632993c8d000b530ebbb54648d0a62b9fb4849ef4fff594883c830e5756170b0e91ecd7b3191c615f49",
+    "size": 216815760,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/21+37/bellsoft-jdk21+37-macos-aarch64.pkg",
     "vendor": "bellsoft",
     "version": "21+37"
   }
