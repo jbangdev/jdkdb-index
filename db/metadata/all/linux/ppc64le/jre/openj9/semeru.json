@@ -2484,6 +2484,28 @@
   {
     "architecture": "ppc64le",
     "distro": "semeru",
+    "features": [
+      "certified"
+    ],
+    "file_type": "rpm",
+    "filename": "ibm-semeru-certified-17-jre-17.0.18.1-1.ppc64le.rpm",
+    "image_type": "jre",
+    "java_version": "17.0.18+8.1",
+    "jvm_impl": "openj9",
+    "md5": "5ac0d710fa361ef3ea4a830f90f779e1",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "8f0402de0d0742013b548c5c4ff5aeffab52a359",
+    "sha256": "d339e6612d5769ae252bd18077a82da3956a30f91bc2e993ca7bed9956274de8",
+    "sha512": "e5035f8887fe3564ea742fc7046ea62389ce25d4ca4bbdac1d35b5a5195b2779db2a16048854bef4eeeaab8a20a065679af88f3bbc34daf49b7ae5c4d1896808",
+    "size": 33052280,
+    "url": "https://github.com/ibmruntimes/semeru17-certified-binaries/releases/download/jdk-17.0.18+8.1_openj9-0.57.0/ibm-semeru-certified-17-jre-17.0.18.1-1.ppc64le.rpm",
+    "vendor": "ibm",
+    "version": "17.0.18+8.1_openj9-0.57.0"
+  },
+  {
+    "architecture": "ppc64le",
+    "distro": "semeru",
     "features": [],
     "file_type": "rpm",
     "filename": "ibm-semeru-open-17-jre-17.0.18.1-1.ppc64le.rpm",
@@ -2884,6 +2906,26 @@
     "url": "https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.3+9_openj9-0.44.0/ibm-semeru-open-jre_ppc64le_linux_21.0.3_9_openj9-0.44.0.tar.gz",
     "vendor": "ibm",
     "version": "21.0.3+9_openj9-0.44.0"
+  },
+  {
+    "architecture": "ppc64le",
+    "distro": "semeru",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "ibm-semeru-open-jre_ppc64le_linux_21.0.4_7_openj9-0.46.1.tar.gz",
+    "image_type": "jre",
+    "java_version": "21.0.4+7",
+    "jvm_impl": "openj9",
+    "md5": "c93f823b9ed194bfcf3a7ca7f807b8a7",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "6b98eeb52c8bc933f3bf53acdcae5638e28a8d86",
+    "sha256": "c45f1c0c6e12d1961979b362124fa59acb76a85c576e1cf9f2815500e429ef4e",
+    "sha512": "ce87e1568b5b0be622894aad2fbd8c932228ef369a4e0f646857ea626e44eaf6c7711637d5fbc1fad41827150b56524932396a444c3ee323a81707961e594635",
+    "size": 56561820,
+    "url": "https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.4+7_openj9-0.46.1/ibm-semeru-open-jre_ppc64le_linux_21.0.4_7_openj9-0.46.1.tar.gz",
+    "vendor": "ibm",
+    "version": "21.0.4+7_openj9-0.46.1"
   },
   {
     "architecture": "ppc64le",

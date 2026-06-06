@@ -51,6 +51,30 @@
     "architecture": "aarch64",
     "distro": "liberica",
     "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jdk22.0.1+10-linux-aarch64-full.tar.gz",
+    "image_type": "jdk",
+    "java_version": "22.0.1+10",
+    "jvm_impl": "hotspot",
+    "md5": "21488971c40b646c4923a6a35748d7ab",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "74a84b2dfdeae73c98efb85f775f0fff46855d1b",
+    "sha256": "e90a7c761777301ae0ebfd67a511b631ec6f1baaf1227ad039fa067ee0aeae17",
+    "sha512": "7d2ec022b4dc9bd690fd594d74d81df2bf9bc3182f7da676e791a700ac796413b6f648730f108b3a791510cefb7116ec165316761e3e2f38754bc8ea71abcc5c",
+    "size": 323753255,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/22.0.1+10/bellsoft-jdk22.0.1+10-linux-aarch64-full.tar.gz",
+    "vendor": "bellsoft",
+    "version": "22.0.1+10"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "liberica",
+    "features": [
       "lite"
     ],
     "file_type": "deb",

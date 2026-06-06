@@ -23,6 +23,28 @@
     "architecture": "x86_64",
     "distro": "liberica",
     "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jre18.0.1.1+2-linux-x64-musl.tar.gz",
+    "image_type": "jre",
+    "java_version": "18.0.1.1+2",
+    "jvm_impl": "hotspot",
+    "md5": "c40003e9a5f434f26a58331c2950c3aa",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "9bb4915d3c836e71f1f82c4abae83397ac17e2ab",
+    "sha256": "39fe8e405c13b15ee9cda6060ffa15211b048f9895992fddf24de91c6610da65",
+    "sha512": "ae0a75d68b6502a0322d87e05d6094608437aefae69c35b818fdfe2f47c90d79fd5149a3dd29177d258e33fa9acb176df56534b3b3067555a72de41237647141",
+    "size": 52331902,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.1.1+2/bellsoft-jre18.0.1.1+2-linux-x64-musl.tar.gz",
+    "vendor": "bellsoft",
+    "version": "18.0.1.1+2"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
       "libericafx",
       "minimal-vm",
       "javafx"

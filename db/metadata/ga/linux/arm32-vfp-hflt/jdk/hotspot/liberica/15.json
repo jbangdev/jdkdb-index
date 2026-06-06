@@ -26,6 +26,30 @@
   {
     "architecture": "arm32-vfp-hflt",
     "distro": "liberica",
+    "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
+    "file_type": "rpm",
+    "filename": "bellsoft-jdk15.0.1+9-linux-arm32-vfp-hflt-full.rpm",
+    "image_type": "jdk",
+    "java_version": "15.0.1+9",
+    "jvm_impl": "hotspot",
+    "md5": "e2de0fbe92205a6ed5e6d8207b06125f",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "f809840353551135cb66c7cf67762c7f4630abd1",
+    "sha256": "816f93b58ffa20974f275a6226bf548f2517cd553051dcf41c4f1085b1f32292",
+    "sha512": "4fe52dcf84edc4f6f00659d7458dacf2858b1e94e07adfe24b9868d310d1449e265b166408016ae67f87d610a3ea456301ac13f38209f5a23e1422e7e0e71b47",
+    "size": 189930376,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/15.0.1+9/bellsoft-jdk15.0.1+9-linux-arm32-vfp-hflt-full.rpm",
+    "vendor": "bellsoft",
+    "version": "15.0.1+9"
+  },
+  {
+    "architecture": "arm32-vfp-hflt",
+    "distro": "liberica",
     "features": [],
     "file_type": "deb",
     "filename": "bellsoft-jdk15.0.1+9-linux-arm32-vfp-hflt.deb",
