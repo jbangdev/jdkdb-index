@@ -2,21 +2,25 @@
   {
     "architecture": "x86_64",
     "distro": "liberica",
-    "features": [],
+    "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
     "file_type": "tar.gz",
-    "filename": "bellsoft-jdk20.0.2+10-macos-amd64.tar.gz",
+    "filename": "bellsoft-jdk20+37-macos-amd64-full.tar.gz",
     "image_type": "jdk",
-    "java_version": "20.0.2+10",
+    "java_version": "20+37",
     "jvm_impl": "hotspot",
-    "md5": "32efa08d6cc5c02827cf5f9c96116f9f",
+    "md5": "5c373d31f7b9fdd4ff5ced3bd634d825",
     "os": "macosx",
     "release_type": "ga",
-    "sha1": "d1428c874556dbbd36c08eeb4d3af94561cf6214",
-    "sha256": "76826a360d1412940544bf941299edcff5be63e364a5c8a1d11f29691a97d029",
-    "sha512": "4b3d056797143e0038a54669e4df91fcb555ca094ef3aecca829f6618d9c747091cd60d61a0de56081f174a595b95e516d6db9d3868672d82108cfdea5e03c67",
-    "size": 214362425,
-    "url": "https://github.com/bell-sw/Liberica/releases/download/20.0.2+10/bellsoft-jdk20.0.2+10-macos-amd64.tar.gz",
+    "sha1": "298a77130279ef8b32b6042a661ad9d5bea79365",
+    "sha256": "353e6739f02cee50e60af596ab6932561c65b385c2ea5b343da298f27c10c3db",
+    "sha512": "dcf1bec87ebcf737a35c2e807ea7b61d4114492ede677248f5314f9ec02cf36f95fea41c7598eebf2dbe29f11cac954dfd931360dc2fde8316c3332a94a9f526",
+    "size": 307579391,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/20+37/bellsoft-jdk20+37-macos-amd64-full.tar.gz",
     "vendor": "bellsoft",
-    "version": "20.0.2+10"
+    "version": "20+37"
   }
 ]

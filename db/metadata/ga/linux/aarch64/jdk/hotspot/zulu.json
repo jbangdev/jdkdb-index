@@ -334,6 +334,28 @@
   {
     "architecture": "aarch64",
     "distro": "zulu",
+    "features": [
+      "javafx"
+    ],
+    "file_type": "tar.gz",
+    "filename": "zulu8.86.0.25-ca-fx-jdk8.0.452-linux_aarch64.tar.gz",
+    "image_type": "jdk",
+    "java_version": "8.0.452",
+    "jvm_impl": "hotspot",
+    "md5": "67e4cbeeef83e7de46ae1423e40d5d08",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "8106c99373ce4aea398e3f91dfe34c82945d66f6",
+    "sha256": "ba04f34b494e8f0eef2cdad52ec74c7d9e82c8cff7184abbcfe117aa091d328e",
+    "sha512": "75cccd56deb45d4869ccce61ed2e4153a76d1c7cb8cbc15fca74ffea4d1a7270ebf9b4cdb280e0e3dfaa55ea09bf6af6eb4b86b8a8ace284dad445b1d12beac4",
+    "size": 176180160,
+    "url": "https://static.azul.com/zulu/bin/zulu8.86.0.25-ca-fx-jdk8.0.452-linux_aarch64.tar.gz",
+    "vendor": "azul",
+    "version": "8.86.0.25"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "zulu",
     "features": [],
     "file_type": "tar.gz",
     "filename": "zulu8.86.0.25-ca-jdk8.0.452-linux_aarch64.tar.gz",
@@ -1465,6 +1487,29 @@
     "architecture": "aarch64",
     "distro": "zulu",
     "features": [
+      "crac",
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "zulu17.52.19-ca-crac-jdk17.0.12-linux_musl_aarch64.tar.gz",
+    "image_type": "jdk",
+    "java_version": "17.0.12+7-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "c92be3d430d219a3ebcf373ba43ab997",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "a7fd8e63b0d8c4156ee991d0e80159cc266c0eb5",
+    "sha256": "43ff54ff2885b9cd3d9bbffaee6f1b1e0db35154601eddcbd6566c0fb40f4f04",
+    "sha512": "7a993d43078fe94eed54603ab44436b2a5f3472894035a12922a5782380e6c0594530ca24bc7f0f79fd3b00255ab44055223626e66eff6080017b934b5354925",
+    "size": 204926976,
+    "url": "https://static.azul.com/zulu/bin/zulu17.52.19-ca-crac-jdk17.0.12-linux_musl_aarch64.tar.gz",
+    "vendor": "azul",
+    "version": "17.52.19"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "zulu",
+    "features": [
       "musl"
     ],
     "file_type": "tar.gz",
@@ -2327,6 +2372,28 @@
     "architecture": "aarch64",
     "distro": "zulu",
     "features": [
+      "crac"
+    ],
+    "file_type": "tar.gz",
+    "filename": "zulu21.44.17-ca-crac-jdk21.0.8-linux_aarch64.tar.gz",
+    "image_type": "jdk",
+    "java_version": "21.0.8+9-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "d470d5801fb5377d7595e47046df0ad5",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "4138fff5884b3e43667a7b38d306a1badce2cd9d",
+    "sha256": "bcffd3bc1f9ca7e58087b5f83c5c4f8c0e534b1ae5fa13c912f25686b508311f",
+    "sha512": "0bffbd6b12152485ead34fbb12a27ad6c0f29b99abaf42ba872863b88c164d21f8597c814dc3699c98d51064fbd98f28406fc1e171a1731d1a5c60fa7b94508a",
+    "size": 218053833,
+    "url": "https://static.azul.com/zulu/bin/zulu21.44.17-ca-crac-jdk21.0.8-linux_aarch64.tar.gz",
+    "vendor": "azul",
+    "version": "21.44.17"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "zulu",
+    "features": [
       "musl"
     ],
     "file_type": "tar.gz",
@@ -2649,6 +2716,28 @@
     "url": "https://static.azul.com/zulu/bin/zulu22.28.93-ca-crac-jdk22.0.0-linux_aarch64.tar.gz",
     "vendor": "azul",
     "version": "22.28.93"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "zulu",
+    "features": [
+      "crac"
+    ],
+    "file_type": "tar.gz",
+    "filename": "zulu22.30.13-ca-crac-jdk22.0.1-linux_aarch64.tar.gz",
+    "image_type": "jdk",
+    "java_version": "22.0.1",
+    "jvm_impl": "hotspot",
+    "md5": "97afa5ca9cd5bf1f02e3020c151b064b",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "ad6f3a494b3e6f9c6e93da341fc6d223a2332eb1",
+    "sha256": "1773ef341a2c6369e8c6203ce18cf49a571fc14f09692667eb046870983c1fc6",
+    "sha512": "40af66e8cb5970caf3421fb651691c0f97d0fdf5469b4070a2521bdb754ebc0bd4a905aac71944126aa112324e75cb82f9e825393bcd0ebc1fad0fcc3f78abc7",
+    "size": 216391301,
+    "url": "https://static.azul.com/zulu/bin/zulu22.30.13-ca-crac-jdk22.0.1-linux_aarch64.tar.gz",
+    "vendor": "azul",
+    "version": "22.30.13"
   },
   {
     "architecture": "aarch64",

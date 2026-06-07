@@ -274,6 +274,28 @@
   {
     "architecture": "x86_64",
     "distro": "semeru",
+    "features": [
+      "certified"
+    ],
+    "file_type": "zip",
+    "filename": "ibm-semeru-certified-jdk_x86-64_linux_11.0.21.0.tap.zip",
+    "image_type": "jdk",
+    "java_version": "11.0.21+9",
+    "jvm_impl": "openj9",
+    "md5": "045844649fb72cc949ba5fe3cbc634fa",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "9bc951155e6d4ffd9c93a6da1f74603ad51f0d08",
+    "sha256": "7e22d104184105662cf7b84f055026edd3b9ed05c543bad504e9b8553b2bb399",
+    "sha512": "791178c6ca0139b6562fab90a6b9596efd46181a7cd841e5cb08c1294fa2a17552180f9b7fc9095cf2456ec0d42a2edfef84c6e35614adc933f5e65b0a49a023",
+    "size": 68147,
+    "url": "https://github.com/ibmruntimes/semeru11-certified-binaries/releases/download/jdk-11.0.21+9_openj9-0.41.0/ibm-semeru-certified-jdk_x86-64_linux_11.0.21.0.tap.zip",
+    "vendor": "ibm",
+    "version": "11.0.21+9_openj9-0.41.0"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "semeru",
     "features": [],
     "file_type": "rpm",
     "filename": "ibm-semeru-open-11-jdk-11.0.21.9_0.41.0-1.x86_64.rpm",
@@ -706,6 +728,26 @@
     "url": "https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.29%2B6_openj9-0.56.0-m2/ibm-semeru-open-jdk_x64_linux_11.0.29_6_openj9-0.56.0-m2.tar.gz",
     "vendor": "ibm",
     "version": "11.0.29+6_openj9-0.56.0-m2"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "semeru",
+    "features": [],
+    "file_type": "rpm",
+    "filename": "ibm-semeru-open-11-jdk-11.0.29.7_0.56.0-1.x86_64.rpm",
+    "image_type": "jdk",
+    "java_version": "11.0.29+7",
+    "jvm_impl": "openj9",
+    "md5": "3cd3baef8471876835c3cf48a9657426",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "608f1ae3a7cc32fd84041435b7077cbc5a852698",
+    "sha256": "55dc4e037710a434a686f1712095fc08d17ab6fc5ac3019cea619b5488add50b",
+    "sha512": "1635f216fd2a175e6823d5947e18f72355ef8ac4a93a765ae2308ccc145c895e418d88b1807c7fdf141e8effa0cc36a8be6629f56a0bf0bfd34a5164e3e94493",
+    "size": 184729088,
+    "url": "https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.29+7_openj9-0.56.0/ibm-semeru-open-11-jdk-11.0.29.7_0.56.0-1.x86_64.rpm",
+    "vendor": "ibm",
+    "version": "11.0.29+7_openj9-0.56.0"
   },
   {
     "architecture": "x86_64",
