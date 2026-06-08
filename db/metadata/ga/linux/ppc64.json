@@ -1657,6 +1657,28 @@
   },
   {
     "architecture": "ppc64",
+    "distro": "sapmachine",
+    "features": [
+      "le"
+    ],
+    "file_type": "tar.gz",
+    "filename": "sapmachine-jre-11.0.19_linux-ppc64le_bin.tar.gz",
+    "image_type": "jre",
+    "java_version": "11.0.19",
+    "jvm_impl": "hotspot",
+    "md5": "f7754fbf6b8eefa93c941de40bdc987d",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "24f1a281877d9c3d9ade6fb5e7bf7a35fd820b33",
+    "sha256": "4689bea8da35d4a4db8fa66c8a14af72e3f517624010fb101c7388a6a208ae43",
+    "sha512": "5202f58c232b42aa8cb182850ae0d764e1495085de71adeb0495c8f5a85ffdc04c843423c122402fbbee175185342bc4dad7c720c594be3b174984034a0016bb",
+    "size": 40077235,
+    "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-11.0.19/sapmachine-jre-11.0.19_linux-ppc64le_bin.tar.gz",
+    "vendor": "sap",
+    "version": "11.0.19"
+  },
+  {
+    "architecture": "ppc64",
     "distro": "semeru",
     "features": [
       "certified"
@@ -2034,6 +2056,26 @@
     "sha512": "9d6b646650112f98e9c3bbcbb0e96ec2c4ac3a7b124ee6406ca10f26be97eff51cfaa45d944422602abf52cc11ae747bbee9a9edfa608432a1ed016bfb466cab",
     "size": 249210826,
     "url": "https://github.com/ibmruntimes/semeru11-certified-binaries/releases/download/jdk-11.0.24+8_openj9-0.46.0/ibm-semeru-certified-11-jdk-11.0.24.0-1.ppc64.rpm",
+    "vendor": "ibm",
+    "version": "11.0.24+8_openj9-0.46.0"
+  },
+  {
+    "architecture": "ppc64",
+    "distro": "semeru",
+    "features": [],
+    "file_type": "rpm",
+    "filename": "ibm-semeru-open-11-jdk-11.0.24.8_0.46.0-1.ppc64.rpm",
+    "image_type": "jdk",
+    "java_version": "11.0.24+8",
+    "jvm_impl": "openj9",
+    "md5": "fd8da38b2dacd8925a7c24da36477920",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "9b758daeda97d9ebf4efadae184ae2c2ee2101ad",
+    "sha256": "19d6a2405b3b08ccfa8a1990b29fd63b3d1b34ff417834ad9f904e67dbb4a288",
+    "sha512": "20a7ee92c7ee3c5a2ddb2a3aec3f48e66efebbd1481ba2f52eed18030be99acec58ecef6fd420b719bf34f0b80d3b3130eeda61cc8f07f79be4846128d5db683",
+    "size": 235353946,
+    "url": "https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.24+8_openj9-0.46.0/ibm-semeru-open-11-jdk-11.0.24.8_0.46.0-1.ppc64.rpm",
     "vendor": "ibm",
     "version": "11.0.24+8_openj9-0.46.0"
   },
@@ -3886,6 +3928,26 @@
     "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-17.0.15/sapmachine-jre-17.0.15_linux-ppc64le_bin.tar.gz",
     "vendor": "sap",
     "version": "17.0.15"
+  },
+  {
+    "architecture": "ppc64",
+    "distro": "semeru",
+    "features": [],
+    "file_type": "rpm",
+    "filename": "ibm-semeru-open-17-jre-17.0.15.5_0.51.0-1.ppc64.rpm",
+    "image_type": "jre",
+    "java_version": "17.0.15+5",
+    "jvm_impl": "openj9",
+    "md5": "7b4ad3475e5cb819ebffa92557c277b1",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "dcc2e58cde63095159f86e3f75ae59bbbcb75d0c",
+    "sha256": "5a394187fb877044f763a70e0f9fc599d542220ba2e28e18fff05a931c3199e4",
+    "sha512": "f9632ba12970b201174213fde5d9d307d005a0f133626b54a20c99212877d590021a02bc29e78206ba4abd706921848ac62ad6d42e9eb2e2c1ee7e447db68c7a",
+    "size": 62016777,
+    "url": "https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.15+5_openj9-0.51.0-m2/ibm-semeru-open-17-jre-17.0.15.5_0.51.0-1.ppc64.rpm",
+    "vendor": "ibm",
+    "version": "17.0.15+5_openj9-0.51.0-m2"
   },
   {
     "architecture": "ppc64",
@@ -6000,6 +6062,48 @@
     "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-22.0.2/sapmachine-jre-22.0.2_linux-ppc64le_bin.tar.gz",
     "vendor": "sap",
     "version": "22.0.2"
+  },
+  {
+    "architecture": "ppc64",
+    "distro": "sapmachine",
+    "features": [
+      "le"
+    ],
+    "file_type": "tar.gz",
+    "filename": "sapmachine-jre-23_linux-ppc64le_bin.tar.gz",
+    "image_type": "jre",
+    "java_version": "23+37",
+    "jvm_impl": "hotspot",
+    "md5": "8f232a5a5ccc6db271b4c633fcb9fb6d",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "2a4170b69a274de7e09aa150dd2176f8c049bd2b",
+    "sha256": "44edd67a40c87f6c2c97e6bdf02fda779c81269c807f8e437ca5cc734712a3ef",
+    "sha512": "f14b782cd84d509a2c58e75532cafdaeeee441747636e6b1aaba0ccc040d3fb58d72aa6b920518233ab5414c0b997569443eaaa80267cbe12deadc5d8e4a24c7",
+    "size": 52303457,
+    "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-23/sapmachine-jre-23_linux-ppc64le_bin.tar.gz",
+    "vendor": "sap",
+    "version": "23"
+  },
+  {
+    "architecture": "ppc64",
+    "distro": "semeru",
+    "features": [],
+    "file_type": "rpm",
+    "filename": "ibm-semeru-open-23-jre-23.0.1.11_0.48.0-1.ppc64.rpm",
+    "image_type": "jre",
+    "java_version": "23.0.1+11",
+    "jvm_impl": "openj9",
+    "md5": "f8bbbd8885b8ae1bd2f43904bcaa9c3a",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "c4c3712b2c6e43e6661847dc8ddad124891ae1c2",
+    "sha256": "0ab1d99ecfa75741f76e5e7cf30ce0ce39aa11333b1eb925e62bc344844b73be",
+    "sha512": "56700ec8c7dd7d031b25ab4ba433361f4e362552c2fce19d92927ab68c3bc9e89d0767327aab3ce5f4e4a967436650d5c18941ef3bc4398716d8121d919328ea",
+    "size": 64750793,
+    "url": "https://github.com/ibmruntimes/semeru23-binaries/releases/download/jdk-23.0.1+11_openj9-0.48.0/ibm-semeru-open-23-jre-23.0.1.11_0.48.0-1.ppc64.rpm",
+    "vendor": "ibm",
+    "version": "23.0.1+11_openj9-0.48.0"
   },
   {
     "architecture": "ppc64",

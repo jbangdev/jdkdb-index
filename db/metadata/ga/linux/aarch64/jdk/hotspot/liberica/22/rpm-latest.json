@@ -2,6 +2,30 @@
   {
     "architecture": "aarch64",
     "distro": "liberica",
+    "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
+    "file_type": "rpm",
+    "filename": "bellsoft-jdk22+37-linux-aarch64-full.rpm",
+    "image_type": "jdk",
+    "java_version": "22+37",
+    "jvm_impl": "hotspot",
+    "md5": "ded7dfb9a823af574f4828aa97567035",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "ad1842c2f957bba44a493ff6868016f065475d71",
+    "sha256": "3aef6afe256f977d173df2686c35126b5c702ff64ed222a59adcc9771979d0e5",
+    "sha512": "8a7a1bbd4c6d32c20f42a91b0ed5453a5980edf9fee7b6139d9ef7c7f382112371ef00db889c545cdacf8bdeb7bf8ae54e18de743806e704e5cbbf191344cae6",
+    "size": 285359572,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/22+37/bellsoft-jdk22+37-linux-aarch64-full.rpm",
+    "vendor": "bellsoft",
+    "version": "22+37"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "liberica",
     "features": [],
     "file_type": "rpm",
     "filename": "bellsoft-jdk22+37-linux-aarch64.rpm",

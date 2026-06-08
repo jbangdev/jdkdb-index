@@ -190,6 +190,28 @@
   {
     "architecture": "x86_64",
     "distro": "zulu",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "zulu19.0.29-ea-jdk19.0.0-ea.10-linux_musl_x64.tar.gz",
+    "image_type": "jdk",
+    "java_version": "19.0.0-ea.10",
+    "jvm_impl": "hotspot",
+    "md5": "63318056f39e6adc6a8936d085b11bd0",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "c476fdff9811170efbb3950ef461ba0bea08cc58",
+    "sha256": "9a8cc9f46455f3a0fd4d600f63ea0b8132a257ef0b82f1ce6f9033f96439eecb",
+    "sha512": "58072055e65d15a7f873b60677749abf46377c57e45fb27765470a71458369c8042500205663eb54b5534bc60d745e9fc170ca3638e50afddc690edb48e4539b",
+    "size": 200876845,
+    "url": "https://static.azul.com/zulu/bin/zulu19.0.29-ea-jdk19.0.0-ea.10-linux_musl_x64.tar.gz",
+    "vendor": "azul",
+    "version": "19.0.29"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "zulu",
     "features": [],
     "file_type": "tar.gz",
     "filename": "zulu19.0.31-ea-jdk19.0.0-ea.11-linux_x64.tar.gz",
@@ -540,6 +562,28 @@
     "url": "https://static.azul.com/zulu/bin/zulu19.28.81-ca-jdk19.0.0-linux_musl_x64.tar.gz",
     "vendor": "azul",
     "version": "19.28.81"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "zulu",
+    "features": [
+      "javafx"
+    ],
+    "file_type": "tar.gz",
+    "filename": "zulu19.30.11-ca-fx-jdk19.0.1-linux_x64.tar.gz",
+    "image_type": "jdk",
+    "java_version": "19.0.1",
+    "jvm_impl": "hotspot",
+    "md5": "5e36b6d5831d30a87511bf9eebd1cd3e",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "5f0acf56f44ddb23b9bafc6e59369537ebf598a7",
+    "sha256": "3374af935f625560d544a4f5ec8adb6ad8d99503db9173ab62dccfd2887405a6",
+    "sha512": "ead4be39a391d8ff785c3931a0583d401b6e140fe6ec9284a60aadc15cec87261f20585a3bbbbc8dd663b862c0af368afd6084cc00b4a8561801ec98fda3fd8a",
+    "size": 297408754,
+    "url": "https://static.azul.com/zulu/bin/zulu19.30.11-ca-fx-jdk19.0.1-linux_x64.tar.gz",
+    "vendor": "azul",
+    "version": "19.30.11"
   },
   {
     "architecture": "x86_64",
