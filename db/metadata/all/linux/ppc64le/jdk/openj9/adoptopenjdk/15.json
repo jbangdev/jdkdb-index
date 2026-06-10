@@ -64,6 +64,28 @@
   {
     "architecture": "ppc64le",
     "distro": "adoptopenjdk",
+    "features": [
+      "large_heap"
+    ],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK15U-jdk_ppc64le_linux_openj9_linuxXL_15.0.1_9_openj9-0.23.0.tar.gz",
+    "image_type": "jdk",
+    "java_version": "15.0.1+9",
+    "jvm_impl": "openj9",
+    "md5": "fcff7de6209d413f42ed6057186e1791",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "9bcd6d046f5b7b1fd5f10a62e67e07b9fcb67560",
+    "sha256": "6bd3af790febbf1080dd3bbc4ae985d6bf7b4b47dc59fd649cca0b384d0eddd4",
+    "sha512": "58dd2e3f1b46c2173ef577952b3898db858345ddd50c0f3f35aed33127d12071882afec37f5fdf580dd1bae23c8ab5816a270259d0b026ca6a8af355faf3d142",
+    "size": 196711663,
+    "url": "https://github.com/AdoptOpenJDK/openjdk15-binaries/releases/download/jdk-15.0.1%2B9_openj9-0.23.0/OpenJDK15U-jdk_ppc64le_linux_openj9_linuxXL_15.0.1_9_openj9-0.23.0.tar.gz",
+    "vendor": "adoptopenjdk",
+    "version": "15.0.1+9.openj9-0.23.0"
+  },
+  {
+    "architecture": "ppc64le",
+    "distro": "adoptopenjdk",
     "features": [],
     "file_type": "tar.gz",
     "filename": "OpenJDK15U-jdk_ppc64le_linux_openj9_15.0.2_7_openj9-0.24.0.tar.gz",

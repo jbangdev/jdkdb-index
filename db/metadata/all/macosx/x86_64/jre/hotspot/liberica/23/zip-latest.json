@@ -2,21 +2,25 @@
   {
     "architecture": "x86_64",
     "distro": "liberica",
-    "features": [],
+    "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
     "file_type": "zip",
-    "filename": "bellsoft-jre23.0.1+13-macos-amd64.zip",
+    "filename": "bellsoft-jre23+38-macos-amd64-full.zip",
     "image_type": "jre",
-    "java_version": "23.0.1+13",
+    "java_version": "23+38",
     "jvm_impl": "hotspot",
-    "md5": "bc734ba5be6526f36777d9ac508a4b03",
+    "md5": "9eb747b3b623070b80a3013b229a54f2",
     "os": "macosx",
     "release_type": "ga",
-    "sha1": "b688ef449385418919b879b2a101274e193a3600",
-    "sha256": "31ae69f7fae5788660cdd919f2a2e5d31d932de19af9bdf9c7674a241a97180d",
-    "sha512": "0541a3c512cfa2e75b83146e19a27ed3296a91ca6eb1a1a0befebd2e051cf29f8a9af79e5bbfce0839b30e4a212094be45d91fc9c56b93d12920365063fa8120",
-    "size": 61356839,
-    "url": "https://github.com/bell-sw/Liberica/releases/download/23.0.1+13/bellsoft-jre23.0.1+13-macos-amd64.zip",
+    "sha1": "c6e2f8733c0d2fb0a606f9736904c0b76471b911",
+    "sha256": "09f750bdfe536004ea567268eb79eaf067e8c56afda2c3d7b75d1d34bf9e77f2",
+    "sha512": "0073d326a4bdd770732c2019837853a4b05f2089a24e9f7f71c20514f2d1177739f7e8a54e54f5a8963111dd37721d6ecd4891d8e86b16ac1ef11c0ebd7f2eca",
+    "size": 104852317,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/23+38/bellsoft-jre23+38-macos-amd64-full.zip",
     "vendor": "bellsoft",
-    "version": "23.0.1+13"
+    "version": "23+38"
   }
 ]

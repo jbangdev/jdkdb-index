@@ -2,21 +2,25 @@
   {
     "architecture": "x86_64",
     "distro": "liberica",
-    "features": [],
+    "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
     "file_type": "zip",
-    "filename": "bellsoft-jdk21.0.10+10-macos-amd64.zip",
+    "filename": "bellsoft-jdk21+37-macos-amd64-full.zip",
     "image_type": "jdk",
-    "java_version": "21.0.10+10-LTS",
+    "java_version": "21+37-LTS",
     "jvm_impl": "hotspot",
-    "md5": "1be636c5652ded708cd1403b29b57910",
+    "md5": "9acbb3d35f692ef7d3f4bbd6c1c6d8c3",
     "os": "macosx",
     "release_type": "ga",
-    "sha1": "1aa553fc37ecdb3288e746147684429b80e0be17",
-    "sha256": "9205d758dc22c17bb7cc57db5e9d713c7fec721b60241db883a8ff6d8db7cf37",
-    "sha512": "9f3cb8536b8d4c48eb3bcfc044e2cfb86e6c7e41edf52d5c86422fb3f9fcaf4f05d92fe6455ae189f18cab9d55a3b6b81e551d41f31e65516698ef0771a4e592",
-    "size": 222644070,
-    "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.10+10/bellsoft-jdk21.0.10+10-macos-amd64.zip",
+    "sha1": "6095609b3d51eb4d9991f3f05f5b083e59ecbecd",
+    "sha256": "a2b3907af794812ee159b438996f4e05549cf45b9a8d388ff012035541c5169f",
+    "sha512": "78feceb15475559ae824a995a7328d56633a11e7931dcfb4eb8cbbf934a49a9d15873151546290bc1b0927d090f411176a08b37d32f3c7b63034d338ccf412b6",
+    "size": 320081459,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/21+37/bellsoft-jdk21+37-macos-amd64-full.zip",
     "vendor": "bellsoft",
-    "version": "21.0.10+10"
+    "version": "21+37"
   }
 ]
