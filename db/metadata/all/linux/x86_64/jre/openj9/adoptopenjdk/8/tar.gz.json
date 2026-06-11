@@ -126,6 +126,28 @@
   {
     "architecture": "x86_64",
     "distro": "adoptopenjdk",
+    "features": [
+      "large_heap"
+    ],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK8U-jre_x64_linux_openj9_linuxXL_8u212b04_openj9-0.14.2.tar.gz",
+    "image_type": "jre",
+    "java_version": "8u212-b04_openj9-0.14.2",
+    "jvm_impl": "openj9",
+    "md5": "7acf4fd2ce88e991ec7d6a05fedbe9ca",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "385822ab55e90f6561a7a57c072531ec7449c441",
+    "sha256": "572bd37b8b15ab436b3a934ae2ee254e45c2bfa15e3291158c436722a9d9cea0",
+    "sha512": "aa491d1ac45bd11397c72e3fe5a2dae0f0b6e774ede66a2b653f69eb3561154523e649a859ccd609e43866623891b69d5c5efd5365425881b8cb6220d1082bac",
+    "size": 47238193,
+    "url": "https://github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u212-b04_openj9-0.14.2/OpenJDK8U-jre_x64_linux_openj9_linuxXL_8u212b04_openj9-0.14.2.tar.gz",
+    "vendor": "adoptopenjdk",
+    "version": "8.0.212+4.openj9-0.14.2"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "adoptopenjdk",
     "features": [],
     "file_type": "tar.gz",
     "filename": "OpenJDK8U-jre_x64_linux_openj9_8u242b08_openj9-0.18.1.tar.gz",
@@ -164,6 +186,26 @@
     "url": "https://github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u252-b09_openj9-0.20.0/OpenJDK8U-jre_x64_linux_openj9_linuxXL_8u252b09_openj9-0.20.0.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "8.0.252+9.1.openj9-0.20.0"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "adoptopenjdk",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK8U-jre_x64_linux_openj9_8u262b10_openj9-0.21.0.tar.gz",
+    "image_type": "jre",
+    "java_version": "1.8.0_262-b10",
+    "jvm_impl": "openj9",
+    "md5": "4c0185138b63c2365221e9a051220f7a",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "345e2b9671b0406915cd4e4ec379d3d32b181308",
+    "sha256": "aef8750b492ff6371318cf5138e38827d8895815b2ac079dcfcb02007a45c7f6",
+    "sha512": "5fce274698ca45f96a074920ca780267c09e52cdae023f4455e81457109a09a85316c0bbb1d5b980b986a1489ccb35fac1ffd8b903ccd0a098c3f46d866ddb5b",
+    "size": 48221076,
+    "url": "https://github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u262-b10_openj9-0.21.0/OpenJDK8U-jre_x64_linux_openj9_8u262b10_openj9-0.21.0.tar.gz",
+    "vendor": "adoptopenjdk",
+    "version": "8.0.262+10.openj9-0.21.0"
   },
   {
     "architecture": "x86_64",

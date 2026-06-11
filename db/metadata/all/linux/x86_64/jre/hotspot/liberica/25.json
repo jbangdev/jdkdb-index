@@ -179,6 +179,28 @@
     "architecture": "x86_64",
     "distro": "liberica",
     "features": [
+      "musl"
+    ],
+    "file_type": "apk",
+    "filename": "bellsoft-jre25.0.1+13-linux-x64-musl.apk",
+    "image_type": "jre",
+    "java_version": "25.0.1+13-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "f35da1f6d082b9946ac77f20b8920e0d",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "46a4765d7967a8ed4c50e3e8a7cc10505d80e695",
+    "sha256": "e793e984043d55355c294270c3254fb857589ab8bc3a6b476f3a4c6afc9e57cc",
+    "sha512": "dcd1e94e606c95eec9fb2539e3d8de22a2f63120e20562207da633640e7cb13f22760f7846e4896ac852ee6364dceac1a3c3b643fb49f34fbf7f48d15ba3612b",
+    "size": 83147577,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/25.0.1+13/bellsoft-jre25.0.1+13-linux-x64-musl.apk",
+    "vendor": "bellsoft",
+    "version": "25.0.1+13"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
       "libericafx",
       "minimal-vm",
       "javafx"

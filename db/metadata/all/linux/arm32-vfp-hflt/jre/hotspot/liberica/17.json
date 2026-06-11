@@ -118,6 +118,30 @@
   {
     "architecture": "arm32-vfp-hflt",
     "distro": "liberica",
+    "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jre17.0.2+9-linux-arm32-vfp-hflt-full.tar.gz",
+    "image_type": "jre",
+    "java_version": "17.0.2+9",
+    "jvm_impl": "hotspot",
+    "md5": "492a26bfea333b1831aca0aa98fc0238",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "bd76c31d5c691264b735845eb31c0a420fd72ac5",
+    "sha256": "ebb631ad5bfcf440226288f80091cfca95254f851b60dc478651ff82d2d22325",
+    "sha512": "34d34886b0bf282e03976d7cf504333af5c306d0b187bbc0b28b00b1cbeb4a26d2dca9710ee7fc1b65b29fdf867bcc32246fc1ffe839a1f62aaf3cc9572a84bc",
+    "size": 47808049,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.2+9/bellsoft-jre17.0.2+9-linux-arm32-vfp-hflt-full.tar.gz",
+    "vendor": "bellsoft",
+    "version": "17.0.2+9"
+  },
+  {
+    "architecture": "arm32-vfp-hflt",
+    "distro": "liberica",
     "features": [],
     "file_type": "deb",
     "filename": "bellsoft-jre17.0.2+9-linux-arm32-vfp-hflt.deb",
@@ -604,6 +628,30 @@
     "sha512": "30b0e56545ee7fb29c513f34c7ffeec96d3313c8743a42914332693991c24ddbba391d30aa1db80aa8b42183c653881c76048df71bee72586ce6280b3dd175a7",
     "size": 29236904,
     "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.8.1+1/bellsoft-jre17.0.8.1+1-linux-arm32-vfp-hflt-full.deb",
+    "vendor": "bellsoft",
+    "version": "17.0.8.1+1"
+  },
+  {
+    "architecture": "arm32-vfp-hflt",
+    "distro": "liberica",
+    "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
+    "file_type": "rpm",
+    "filename": "bellsoft-jre17.0.8.1+1-linux-arm32-vfp-hflt-full.rpm",
+    "image_type": "jre",
+    "java_version": "17.0.8.1+1-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "0e16a093314c111ce352db4ceeaf9292",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "e93fe9a08ed8eebd2000cd4feaff45e911dd3634",
+    "sha256": "fa6ede642bf51553631ca099305642ae8d1944f6265129f9fb9387ffb808d61d",
+    "sha512": "9e1da03cf3142ce48a4b1620f57187ef15c0af15499874c89288e17e0a2e3ca99a05b231ac033f92342a6e7c6e1d397591181dad397a65f2ba2129713e106783",
+    "size": 33455136,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.8.1+1/bellsoft-jre17.0.8.1+1-linux-arm32-vfp-hflt-full.rpm",
     "vendor": "bellsoft",
     "version": "17.0.8.1+1"
   },
