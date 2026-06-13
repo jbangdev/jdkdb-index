@@ -421,6 +421,28 @@
     "architecture": "aarch64",
     "distro": "liberica",
     "features": [
+      "lite"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jdk17.0.10+13-macos-aarch64-lite.tar.gz",
+    "image_type": "jdk",
+    "java_version": "17.0.10+13-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "3827e9c562203c4c4d02501674f3c2d1",
+    "os": "macosx",
+    "release_type": "ga",
+    "sha1": "9cca6c8b78f09a2c2c3029027e82f5428f250333",
+    "sha256": "b2e06451457db22d3a74cf08aaa940dba3df7fbfc0dcd2105d792691fd772a6a",
+    "sha512": "c569aa3fdfad142caa0992d6f9eb4a4901468676dd1efb47a12bd040ed4502cfe526e7dc51c39812b8ba115a826c4c5e154eef99e51c58148e57ae9dcb4fc638",
+    "size": 70241453,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.10+13/bellsoft-jdk17.0.10+13-macos-aarch64-lite.tar.gz",
+    "vendor": "bellsoft",
+    "version": "17.0.10+13"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "liberica",
+    "features": [
       "libericafx",
       "minimal-vm",
       "javafx"

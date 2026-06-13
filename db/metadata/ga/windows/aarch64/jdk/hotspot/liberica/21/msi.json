@@ -221,6 +221,28 @@
     "architecture": "aarch64",
     "distro": "liberica",
     "features": [
+      "lite"
+    ],
+    "file_type": "msi",
+    "filename": "bellsoft-jdk21.0.7+9-windows-aarch64-lite.msi",
+    "image_type": "jdk",
+    "java_version": "21.0.7+9-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "56a25ce07c2dd3396137e0bb74fa0a7c",
+    "os": "windows",
+    "release_type": "ga",
+    "sha1": "24961815818dbbf75ae1174bf1fb16ab59cc4de4",
+    "sha256": "6c56187ba242993c0a74b3084bbd03e89d187feaf6dc9dbbb9b5ff8562e26a02",
+    "sha512": "556b56e82477f94f41d91f66fe149103e7df7e07e7f8abf0bea3a12793072a19945311a0f64e193318cf3515aeffd9a12ef0ae9a5a1e56e8ab2a4b85d00a1722",
+    "size": 76210176,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.7+9/bellsoft-jdk21.0.7+9-windows-aarch64-lite.msi",
+    "vendor": "bellsoft",
+    "version": "21.0.7+9"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "liberica",
+    "features": [
       "libericafx",
       "minimal-vm",
       "javafx"

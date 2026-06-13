@@ -2,6 +2,52 @@
   {
     "architecture": "aarch64",
     "distro": "liberica",
+    "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jdk18.0.1.1+2-linux-aarch64-full.tar.gz",
+    "image_type": "jdk",
+    "java_version": "18.0.1.1+2",
+    "jvm_impl": "hotspot",
+    "md5": "5f82db41478016f9dda69bc530b6962d",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "f4f0f2d6c9cee1b853fd6614449b2d87c80b1fda",
+    "sha256": "4709f85991656046937b0f1530e0b2d5b1129225bbba0273d774c24e91b5f323",
+    "sha512": "36df576092dffb3db24b2680d317074ea00551ebbde15926480f419d282d84c5308cc6fab97fc47b6eeedbf1a0a779b7eb7c0d40c712e7ec1c33ad7ddc976369",
+    "size": 294755755,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.1.1+2/bellsoft-jdk18.0.1.1+2-linux-aarch64-full.tar.gz",
+    "vendor": "bellsoft",
+    "version": "18.0.1.1+2"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "liberica",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jdk18.0.1.1+2-linux-aarch64-musl.tar.gz",
+    "image_type": "jdk",
+    "java_version": "18.0.1.1+2",
+    "jvm_impl": "hotspot",
+    "md5": "e548f35f5b29a7a2e62bae99ed2ad1a0",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "659a5aa173d78d537ee9b4d7b6b8ac826b00b566",
+    "sha256": "fc5314af6aef7151e091b3017f15ef3e34524d3ff5f60917a405a1b8221b6298",
+    "sha512": "2e1a7301f022c13dff131fac9ea23f70aed5089f6da87d67e6fa7be2779687a846fe9652e69602dcecf9714d8eae543e6b810e044db049407fc478b9549dc0e0",
+    "size": 204466295,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.1.1+2/bellsoft-jdk18.0.1.1+2-linux-aarch64-musl.tar.gz",
+    "vendor": "bellsoft",
+    "version": "18.0.1.1+2"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "liberica",
     "features": [],
     "file_type": "tar.gz",
     "filename": "bellsoft-jdk18.0.1.1+2-linux-aarch64.tar.gz",

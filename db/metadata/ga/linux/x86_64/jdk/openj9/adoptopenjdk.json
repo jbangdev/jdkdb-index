@@ -234,6 +234,28 @@
   {
     "architecture": "x86_64",
     "distro": "adoptopenjdk",
+    "features": [
+      "large_heap"
+    ],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK8U-jdk_x64_linux_openj9_linuxXL_8u232b09_openj9-0.17.0.tar.gz",
+    "image_type": "jdk",
+    "java_version": "1.8.0_232-b09",
+    "jvm_impl": "openj9",
+    "md5": "d0deee818cd4b8d418c09a28adb6d4b7",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "cec8ddbab2a42fe07ceaa22354fe8f4f5301c0e5",
+    "sha256": "ef2746cbe1192b63dcdb4d078ba7804f10b4c1ea2d513ee339d2fba3ce7bd74a",
+    "sha512": "1cad9301a2626006471ed97a3029577300e0c78f381f87541d63ef6270351e9c61b9f376ba6bcabe525973936305a1f2921eaa75d9fe7bd3132b7c7b918047dd",
+    "size": 115881622,
+    "url": "https://github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u232-b09_openj9-0.17.0/OpenJDK8U-jdk_x64_linux_openj9_linuxXL_8u232b09_openj9-0.17.0.tar.gz",
+    "vendor": "adoptopenjdk",
+    "version": "8.0.232+9.1.openj9-0.17.0"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "adoptopenjdk",
     "features": [],
     "file_type": "tar.gz",
     "filename": "OpenJDK8U-jdk_x64_linux_openj9_8u252b09_openj9-0.20.0.tar.gz",
@@ -984,5 +1006,25 @@
     "url": "https://github.com/AdoptOpenJDK/openjdk15-binaries/releases/download/jdk-15.0.1%2B9_openj9-0.23.0/OpenJDK15U-jdk_x64_linux_openj9_15.0.1_9_openj9-0.23.0.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "15.0.1+9.openj9-0.23.0"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "adoptopenjdk",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK16U-jdk_x64_linux_openj9_16.0.1_9_openj9-0.26.0.tar.gz",
+    "image_type": "jdk",
+    "java_version": "16.0.1+9",
+    "jvm_impl": "openj9",
+    "md5": "a1e16f9d17da9c356278f782db4a679e",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "d076384767ae0b323fce5045bdb7be2e44f3294c",
+    "sha256": "7395aaa479a7410bbe5bd5efc43d2669718c61ba146b06657315dbd467b98bf1",
+    "sha512": "03b4cc06369204eb59ab919efd495e4fddbb0c19339b3e36af12e5ce3906331bfc0a0a6f6bf6fdaca2bcce2078c0f194ebf7335cba709bcb56c7a16785d5ea5e",
+    "size": 205241701,
+    "url": "https://github.com/AdoptOpenJDK/openjdk16-binaries/releases/download/jdk-16.0.1%2B9_openj9-0.26.0/OpenJDK16U-jdk_x64_linux_openj9_16.0.1_9_openj9-0.26.0.tar.gz",
+    "vendor": "adoptopenjdk",
+    "version": "16.0.1+9.openj9-0.26.0"
   }
 ]
