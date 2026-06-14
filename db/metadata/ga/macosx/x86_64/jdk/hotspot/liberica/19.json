@@ -27,6 +27,30 @@
     "architecture": "x86_64",
     "distro": "liberica",
     "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
+    "file_type": "pkg",
+    "filename": "bellsoft-jdk19.0.1+11-macos-amd64-full.pkg",
+    "image_type": "jdk",
+    "java_version": "19.0.1+11",
+    "jvm_impl": "hotspot",
+    "md5": "602e82edd32e979784992c0e667ecfaf",
+    "os": "macosx",
+    "release_type": "ga",
+    "sha1": "03bcc529110e3ca242faaa05d572bc57ceee1abf",
+    "sha256": "2d8ac09704b5569553b12035a88daa0f73bb9e7b46d6afd955d8b6eb789bb525",
+    "sha512": "ae2fc97f286215b43375514cd7e5057b6689a118ba395d8960ecc264f577fdd98a66c156cced971b7f15b26ac89f6edf373b1964053dc729e09c8b9df01159ef",
+    "size": 293604835,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/19.0.1+11/bellsoft-jdk19.0.1+11-macos-amd64-full.pkg",
+    "vendor": "bellsoft",
+    "version": "19.0.1+11"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
       "lite"
     ],
     "file_type": "dmg",

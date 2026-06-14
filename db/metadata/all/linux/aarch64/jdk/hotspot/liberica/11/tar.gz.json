@@ -689,6 +689,28 @@
     "architecture": "aarch64",
     "distro": "liberica",
     "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jdk11.0.15.1+2-linux-aarch64-musl.tar.gz",
+    "image_type": "jdk",
+    "java_version": "11.0.15.1+2",
+    "jvm_impl": "hotspot",
+    "md5": "1107625da135c98e2463bcd8ccf7b26c",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "8b1faaaae519e6c707316791877b53100c927a9e",
+    "sha256": "bbc58e54f73c51f45fadb5368e905aa21a7a218c9d70e05b54818309d2ae5319",
+    "sha512": "4feb4bcde286049674b15db4f6199d2ae15b583602403329163ab86e3fb3876f5196a99f7044b8e36765097a86dba64be153ac5416ddfb45edbc0afbab8c91e3",
+    "size": 203943559,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jdk11.0.15.1+2-linux-aarch64-musl.tar.gz",
+    "vendor": "bellsoft",
+    "version": "11.0.15.1+2"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "liberica",
+    "features": [
       "libericafx",
       "minimal-vm",
       "javafx"
@@ -1612,6 +1634,28 @@
     "sha512": "3b3bd1db1dff2afeb9db388df52b75563295a5cb9eb5b8e33f4e9a50d5ee9917977c95c3719fcba95535c1989294f0372e53c27d19b24f53389d2b3177c3bd93",
     "size": 333108905,
     "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.27+9/bellsoft-jdk11.0.27+9-linux-aarch64-full.tar.gz",
+    "vendor": "bellsoft",
+    "version": "11.0.27+9"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "liberica",
+    "features": [
+      "lite"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jdk11.0.27+9-linux-aarch64-lite.tar.gz",
+    "image_type": "jdk",
+    "java_version": "11.0.27+9-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "3654859ec0d6e2341237c061bb02b45e",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "ff9a69ec04b09b8aa7b4e294a0e588949e7ad543",
+    "sha256": "c3756ef19c8e5e48b7fe6514162bab6adf3edb4d032120d8e1b690cb699ffe6f",
+    "sha512": "d3051f4a46b90165615b72f27eb8d26d360ce6e21ef1fbda8485c5d88cd07c0e26aa5456ed17fb75ec6ebcae6d523bf78bc9e746e99cccdec267fe138d42ba26",
+    "size": 74159100,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.27+9/bellsoft-jdk11.0.27+9-linux-aarch64-lite.tar.gz",
     "vendor": "bellsoft",
     "version": "11.0.27+9"
   },
