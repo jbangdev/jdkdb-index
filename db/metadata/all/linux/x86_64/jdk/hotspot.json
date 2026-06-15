@@ -2249,6 +2249,28 @@
   {
     "architecture": "x86_64",
     "distro": "liberica",
+    "features": [
+      "lite"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jdk8u312+7-linux-amd64-lite.tar.gz",
+    "image_type": "jdk",
+    "java_version": "1.8.0_312",
+    "jvm_impl": "hotspot",
+    "md5": "c7dadf5474b5ad99d9693ff96fea4924",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "8e47601b91b6615b07295a6e1d1a98fb5c5a62a3",
+    "sha256": "f2ed022a95029b967e15651bb5ee84fa12f62798d9b387f7ecc5ba9d47d066e6",
+    "sha512": "f7f1803434411ba655fffe150dcd47985951d488c238021df04c465b795d5e875d009c8d30a204273c6be61fdb1a267dddda6e57191278c215c73e69946b716f",
+    "size": 53928552,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/8u312+7/bellsoft-jdk8u312+7-linux-amd64-lite.tar.gz",
+    "vendor": "bellsoft",
+    "version": "8u312+7"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
     "features": [],
     "file_type": "rpm",
     "filename": "bellsoft-jdk8u312+7-linux-amd64.rpm",
@@ -4105,6 +4127,26 @@
   {
     "architecture": "x86_64",
     "distro": "liberica",
+    "features": [],
+    "file_type": "rpm",
+    "filename": "bellsoft-jdk8u422+6-linux-amd64.rpm",
+    "image_type": "jdk",
+    "java_version": "1.8.0_422",
+    "jvm_impl": "hotspot",
+    "md5": "f2b54893c90327bb8956fbfa0a9cd0cf",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "4cbf764830dba94f2ad8cca98d7734f9fe79b29f",
+    "sha256": "d5e3e4c654ed8aa2e95070ff115f81a0108a839f1485e634d6acaee8f76aef95",
+    "sha512": "254a5ee8299e3ba4cffba46fe9488e564aa71ae21af7b8fc318ebce925b13ac8db3369758dca49ce5616c30fc95ecad35f3834dfc9c6ecd29b47d0c68c92cdc6",
+    "size": 93064628,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/8u422+6/bellsoft-jdk8u422+6-linux-amd64.rpm",
+    "vendor": "bellsoft",
+    "version": "8u422+6"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
     "features": [
       "libericafx",
       "minimal-vm",
@@ -5910,6 +5952,30 @@
     "architecture": "x86_64",
     "distro": "liberica",
     "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
+    "file_type": "rpm",
+    "filename": "bellsoft-jdk8u482+10-linux-amd64-full.rpm",
+    "image_type": "jdk",
+    "java_version": "1.8.0_482",
+    "jvm_impl": "hotspot",
+    "md5": "d6dd4c238f1102e9492b0698e3629b1e",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "b057f05f57dee6b38963b84ab7426c4fa3905661",
+    "sha256": "c99a6b563dae11ca092eec0ae2f8c3310f3dee373a4b91345b2dfb2bbd34879c",
+    "sha512": "3ce6e5c027109d358285159a15f6341429ac15bbd76ad9fce0aaa657cf9e307ee97e6d22143bee18a174a38abc32dcdec21201c35821d69c89b32728a38d9d3e",
+    "size": 144623272,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/8u482+10/bellsoft-jdk8u482+10-linux-amd64-full.rpm",
+    "vendor": "bellsoft",
+    "version": "8u482+10"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
       "lite"
     ],
     "file_type": "tar.gz",
@@ -7014,6 +7080,26 @@
     "sha512": "9389ff27f40ef0e47d227dc5e44832bd6355aaeb3d14a3d17a1aa2b9a917d973b077c1130cea0d03c2f4aeebbf034d270d48ac99d32879b9e08871024d73e8e0",
     "size": 68642915,
     "url": "https://static.azul.com/zulu/bin/zulu7.13.0.1-ca-jdk7.0.95-linux_x64.tar.gz",
+    "vendor": "azul",
+    "version": "7.13.0.1"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "zulu",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "zulu7.13.0.1-jdk7.0.95-linux_x64.tar.gz",
+    "image_type": "jdk",
+    "java_version": "7.0.95",
+    "jvm_impl": "hotspot",
+    "md5": "00ed5a0c647ddf7ecd3f823cad23a3a8",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "068276555436995a65659011a936c1cda731ed33",
+    "sha256": "b782a6060cea9a564c9a3013a8d15f4152490a3c5be012fe9eb039e895f78076",
+    "sha512": "9389ff27f40ef0e47d227dc5e44832bd6355aaeb3d14a3d17a1aa2b9a917d973b077c1130cea0d03c2f4aeebbf034d270d48ac99d32879b9e08871024d73e8e0",
+    "size": 68642915,
+    "url": "https://static.azul.com/zulu/bin/zulu7.13.0.1-jdk7.0.95-linux_x64.tar.gz",
     "vendor": "azul",
     "version": "7.13.0.1"
   },
@@ -8871,6 +8957,28 @@
   },
   {
     "architecture": "x86_64",
+    "distro": "temurin",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK8U-jdk_x64_alpine-linux_hotspot_8u452b09.tar.gz",
+    "image_type": "jdk",
+    "java_version": "1.8.0_452-b09",
+    "jvm_impl": "hotspot",
+    "md5": "4df5148cb639e1a18696c1ddebf2895c",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "2e1c0417e7215767ca5ffcf7b13e0fb05272e8cd",
+    "sha256": "be8abae7586c328ceb3252aefed9e51c29be91616968c0130b41e7e57c846f0f",
+    "sha512": "a789c103d4e64a7cb0f774657f21724b9400c16c28668de7c2f606fb9e9f79420038d81ed9871e8cbfebe02b62dba20335fbb7f206b713500e381147f321302d",
+    "size": 100986827,
+    "url": "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u452-b09/OpenJDK8U-jdk_x64_alpine-linux_hotspot_8u452b09.tar.gz",
+    "vendor": "eclipse",
+    "version": "8.0.452+9"
+  },
+  {
+    "architecture": "x86_64",
     "distro": "adoptopenjdk",
     "features": [
       "musl"
@@ -8932,6 +9040,26 @@
     "url": "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u462-b08/OpenJDK8U-jdk_x64_linux_hotspot_8u462b08.tar.gz",
     "vendor": "eclipse",
     "version": "8.0.462+8"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "temurin",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK8U-jdk_x64_linux_hotspot_8u472b08.tar.gz",
+    "image_type": "jdk",
+    "java_version": "1.8.0_472-b08",
+    "jvm_impl": "hotspot",
+    "md5": "a32e522eecc5419261b4e7c5071cd8b5",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "ab876bd29c90121938346ec4fea9e2e20f1f550f",
+    "sha256": "5becaa4ac660e844c5a39e2ebc39ff5ac824c37ff1b625af8c8b111dc13c3592",
+    "sha512": "c7d8de224d8896545ca3de64d7fac18d15333e321f1491b77f323e500b4b5c3af9192d676e9d5b7cda0114995ddad40661eb1ca88362a7f016ad63abde5d5653",
+    "size": 103123206,
+    "url": "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u472-b08/OpenJDK8U-jdk_x64_linux_hotspot_8u472b08.tar.gz",
+    "vendor": "eclipse",
+    "version": "8.0.472+8"
   },
   {
     "architecture": "x86_64",
@@ -9900,6 +10028,28 @@
   {
     "architecture": "x86_64",
     "distro": "zulu",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "zulu8.33.0.1-ca-jdk8.0.192-linux_musl_x64.tar.gz",
+    "image_type": "jdk",
+    "java_version": "1.8.0_192",
+    "jvm_impl": "hotspot",
+    "md5": "8d1f883c1c88ba079ffd72eb2222e491",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "cd00038885d8bac098a02f60b0f9a5c12343572a",
+    "sha256": "c4db136324def61e1554faaa27ae23cab158084a34c57e88cab28859c52714a1",
+    "sha512": "af25c1df933019fdc7758daefb766e5c1d46291fa9a8adc09160b7c650212a54a9aa4923372472537e7240273b4832f50aba450c04309f032a305f6556c8d4db",
+    "size": 78280020,
+    "url": "https://static.azul.com/zulu/bin/zulu8.33.0.1-ca-jdk8.0.192-linux_musl_x64.tar.gz",
+    "vendor": "azul",
+    "version": "8.33.0.1"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "zulu",
     "features": [],
     "file_type": "tar.gz",
     "filename": "zulu8.33.0.1-ca-jdk8.0.192-linux_x64.tar.gz",
@@ -10304,6 +10454,26 @@
   {
     "architecture": "x86_64",
     "distro": "zulu",
+    "features": [],
+    "file_type": "zip",
+    "filename": "zulu8.48.0.51-ca-jdk8.0.262-linux_x64.zip",
+    "image_type": "jdk",
+    "java_version": "8.0.262",
+    "jvm_impl": "hotspot",
+    "md5": "a5690fad16403f6916511b2e23b28b15",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "3049233d9b6354afb140ba47679fa5a8dc4d966b",
+    "sha256": "f9158de3a1aa02f5afdeaa2a3f4eff732d5d595a903131a0c14e77d58ad3370e",
+    "sha512": "214898f077615bce86bf3369748ea4d4b6c3b401824542b8a73c2f9f6546b4c45644a4123110104ed53acf1b129fb56700251eded25b0ac195035ea72b80d4de",
+    "size": 112225589,
+    "url": "https://static.azul.com/zulu/bin/zulu8.48.0.51-ca-jdk8.0.262-linux_x64.zip",
+    "vendor": "azul",
+    "version": "8.48.0.51"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "zulu",
     "features": [
       "javafx"
     ],
@@ -10342,6 +10512,28 @@
     "url": "https://static.azul.com/zulu/bin/zulu8.48.0.53-ca-jdk8.0.265-linux_x64.tar.gz",
     "vendor": "azul",
     "version": "8.48.0.53"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "zulu",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "zulu8.50.0.21-ca-jdk8.0.272-linux_musl_x64.tar.gz",
+    "image_type": "jdk",
+    "java_version": "8.0.272",
+    "jvm_impl": "hotspot",
+    "md5": "6d7f760945cfde3d5b46964ce90a75e0",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "df43a48a2d5f05457bd040819385a8226154e56b",
+    "sha256": "796965db6a735b786d836d390061f32640e247891c4f68a3ce5e02e4784869d4",
+    "sha512": "914b5fe3fa9877aec286487f44ed807745708aed9c6779c4b6c4f83e2f17c84577ac775f71fb9de6b5ef1a556e62fe54f9bff373fe1d4c21a4a6138a31f2be70",
+    "size": 107939301,
+    "url": "https://static.azul.com/zulu/bin/zulu8.50.0.21-ca-jdk8.0.272-linux_musl_x64.tar.gz",
+    "vendor": "azul",
+    "version": "8.50.0.21"
   },
   {
     "architecture": "x86_64",
@@ -10950,6 +11142,26 @@
   {
     "architecture": "x86_64",
     "distro": "zulu",
+    "features": [],
+    "file_type": "zip",
+    "filename": "zulu8.76.0.17-ca-jdk8.0.402-linux_x64.zip",
+    "image_type": "jdk",
+    "java_version": "8.0.402",
+    "jvm_impl": "hotspot",
+    "md5": "4e4080cc1eaf616ea8dfdf042af4bbc6",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "c954d32624e3a40b1738877d1f7304268ad6583e",
+    "sha256": "3a9d99b26b8ec7b8e9e7fdcc744b136765c3db96dc5b2b6c3aefb4f17dd4de08",
+    "sha512": "a3f8a6eaf56d9dbd4ef9c6affe0b94d34e7424293a21cc829125c6bfdabf76ca77eebe7140846f6cca5554c2a34b5b32f63420ecf689077b03821f91bb95b4d4",
+    "size": 111397332,
+    "url": "https://static.azul.com/zulu/bin/zulu8.76.0.17-ca-jdk8.0.402-linux_x64.zip",
+    "vendor": "azul",
+    "version": "8.76.0.17"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "zulu",
     "features": [
       "javafx"
     ],
@@ -11052,6 +11264,28 @@
     "url": "https://static.azul.com/zulu/bin/zulu8.80.0.17-ca-jdk8.0.422-linux_x64.zip",
     "vendor": "azul",
     "version": "8.80.0.17"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "zulu",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "zulu8.82.0.21-ca-jdk8.0.432-linux_musl_x64.tar.gz",
+    "image_type": "jdk",
+    "java_version": "8.0.432",
+    "jvm_impl": "hotspot",
+    "md5": "09495e974885da5e4bf5d74ccb8b58c6",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "798617c0603f2bc581b805d39cfca4357d885be0",
+    "sha256": "cf0e6dc30166a232726fd16e87657c9789661e0ce63c4dbf3c8cdaed26b910d4",
+    "sha512": "c5e38edef7ce18c6610af11c1214879fd140e2e7bd7019a88c949ccac9bece69b91b12410475b14b7c65a360d45addaeebd804a327e4dca9d8f4dbf3a08d0c0f",
+    "size": 107382581,
+    "url": "https://static.azul.com/zulu/bin/zulu8.82.0.21-ca-jdk8.0.432-linux_musl_x64.tar.gz",
+    "vendor": "azul",
+    "version": "8.82.0.21"
   },
   {
     "architecture": "x86_64",
@@ -11610,6 +11844,28 @@
     "url": "https://corretto.aws/downloads/resources/8.262.10.2/amazon-corretto-8.262.10.2-alpine-linux-x64.tar.gz",
     "vendor": "amazon",
     "version": "8.262.10.2"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "corretto",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "amazon-corretto-8.265.01.2-alpine-linux-x64.tar.gz",
+    "image_type": "jdk",
+    "java_version": "8.265.01.2",
+    "jvm_impl": "hotspot",
+    "md5": "140a1eb7045cb45742a2d9de13ba6d68",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "67716b760ef832c26ecfc3c894c94d2705308a2f",
+    "sha256": "5307b0a316b0978bf2298c7c4fbd11532d36f82c10227bb5e4be732dd73030f5",
+    "sha512": "bf5e709d61603036890c5502ab1bba449ee715518406c08e700897774b89ca3786c7e395859aa0759964526df456ba94a9b07044cea51c1e76f5f6b39dd2f87e",
+    "size": 98560048,
+    "url": "https://corretto.aws/downloads/resources/8.265.01.2/amazon-corretto-8.265.01.2-alpine-linux-x64.tar.gz",
+    "vendor": "amazon",
+    "version": "8.265.01.2"
   },
   {
     "architecture": "x86_64",
@@ -12256,6 +12512,26 @@
     "url": "https://corretto.aws/downloads/resources/8.492.09.2/amazon-corretto-8.492.09.2-linux-x64.tar.gz",
     "vendor": "amazon",
     "version": "8.492.09.2"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "zulu",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "zulu9.0.0.15-ca-jdk9.0.0-linux_x64.tar.gz",
+    "image_type": "jdk",
+    "java_version": "9.0.0",
+    "jvm_impl": "hotspot",
+    "md5": "de913f2aa03c341d865dfb6a1698f31b",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "ffe3da9e4d11692e3b89b148728d6d1d051a24ba",
+    "sha256": "1127b8d4c3de787115d8819a8dce33720c48b377ca41a21beeb6415f46c83b69",
+    "sha512": "afe7758b9c8e99b1925990578caf2c77f6ca657ad843b583585b8446a80923a0dd825a48424640fa43ccbb22d54dd77d3666b8b367ce0716d284bb40e1115991",
+    "size": 214990584,
+    "url": "https://static.azul.com/zulu/bin/zulu9.0.0.15-ca-jdk9.0.0-linux_x64.tar.gz",
+    "vendor": "azul",
+    "version": "9.0.0.15"
   },
   {
     "architecture": "x86_64",
@@ -13877,6 +14153,29 @@
   },
   {
     "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
+      "lite",
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jdk11.0.3-linux-x64-musl-lite.tar.gz",
+    "image_type": "jdk",
+    "java_version": "11.0.3",
+    "jvm_impl": "hotspot",
+    "md5": "619129ae92bba499053fadf489630200",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "d892b2e3983d4e6e2c027d85a78579339947709c",
+    "sha256": "b0b34dbe4fad138d8d6c69635cda045ef8e45105d5c60eba814c24212bfd05f8",
+    "sha512": "b93da383a490a35d40adf0b34e286aa72ca16c184989280ea9055da86f2c921ec9edab4333902be044f71607b152bc12539647f93f17e5490b5613dd68386ee9",
+    "size": 74310552,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.3/bellsoft-jdk11.0.3-linux-x64-musl-lite.tar.gz",
+    "vendor": "bellsoft",
+    "version": "11.0.3"
+  },
+  {
+    "architecture": "x86_64",
     "distro": "sapmachine",
     "features": null,
     "file_type": "tar.gz",
@@ -14164,6 +14463,26 @@
     "sha512": "a072bde448889cde0eaeb4e399f0032788089e8039f477f9efca554f550999e6a7c45a1074be2e3f3368d471fe110ebb1be2e8ab7f2148ff1ad7a5b3abbc2efb",
     "size": 74954202,
     "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.5/bellsoft-jdk11.0.5-linux-amd64-lite.tar.gz",
+    "vendor": "bellsoft",
+    "version": "11.0.5"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [],
+    "file_type": "rpm",
+    "filename": "bellsoft-jdk11.0.5-linux-amd64.rpm",
+    "image_type": "jdk",
+    "java_version": "11.0.5",
+    "jvm_impl": "hotspot",
+    "md5": "d2c29d2d22377be98ce360e5faf13bef",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "28951a91eddbfe3eab19f89be41e799dd329ecfd",
+    "sha256": "dfba5f5e29f51c5de8a0886472b19078ff68819a801a05291dba9d9346b6c31f",
+    "sha512": "051b1ac4cd69326a08ae03113003803f487357361cd418892172ab4ef698bda30513c36d23319e6123ba82b581cb0beaebadea4eff3bde0c6647a94162fd8be0",
+    "size": 259779580,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.5/bellsoft-jdk11.0.5-linux-amd64.rpm",
     "vendor": "bellsoft",
     "version": "11.0.5"
   },
@@ -15303,6 +15622,26 @@
     "distro": "sapmachine",
     "features": [],
     "file_type": "tar.gz",
+    "filename": "sapmachine-jdk-11.0.9-ea.4_linux-x64_bin.tar.gz",
+    "image_type": "jdk",
+    "java_version": "11.0.9-ea.4",
+    "jvm_impl": "hotspot",
+    "md5": "4c3f1f1d1b34f7e1e00ffdc1112d985a",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "7992ced93ad547f2f57c7f5ac7b06344f78a33aa",
+    "sha256": "4dc09afab1cc0d52aa9077a44e28f8142cecb73ea34da738a872fdbbc1249516",
+    "sha512": "dec68154ed48234eae10526feddec6752c2274e60a929b235d6d7184a1a05330712fc425af37fbb742ef8051ced6a2d2378f5c30df91151f0f31350edf911691",
+    "size": 192926154,
+    "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-11.0.9+4/sapmachine-jdk-11.0.9-ea.4_linux-x64_bin.tar.gz",
+    "vendor": "sap",
+    "version": "11.0.9-ea.4"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "sapmachine",
+    "features": [],
+    "file_type": "tar.gz",
     "filename": "sapmachine-jdk-11.0.9-ea.6_linux-x64_bin.tar.gz",
     "image_type": "jdk",
     "java_version": "11.0.9-ea.6",
@@ -15769,6 +16108,51 @@
     "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.9+12/bellsoft-jdk11.0.9+12-linux-amd64.tar.gz",
     "vendor": "bellsoft",
     "version": "11.0.9+12"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
+      "lite",
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jdk11.0.9+12-linux-x64-musl-lite.tar.gz",
+    "image_type": "jdk",
+    "java_version": "11.0.9+12",
+    "jvm_impl": "hotspot",
+    "md5": "d2bb14e5db1ec1ac28e3e7e11c3363c8",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "034f9d8e2160eeaf47c0022edf111430bfee1185",
+    "sha256": "a4d7345dec16db8154a24f1deba062745a111efb7ae5c13c771d824f923da168",
+    "sha512": "eedbe8e65f0a9bbfcf27e0eb18fe7acd1b8cf9b1d430b0d0a3da42a1c9f47ee480aa44a774362ac999480360bc09b0327580c0beb30d06b4bc6d84cdbfc878e8",
+    "size": 75605758,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.9+12/bellsoft-jdk11.0.9+12-linux-x64-musl-lite.tar.gz",
+    "vendor": "bellsoft",
+    "version": "11.0.9+12"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "corretto",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "amazon-corretto-11.0.9.12.1-alpine-linux-x64.tar.gz",
+    "image_type": "jdk",
+    "java_version": "11.0.9.12.1",
+    "jvm_impl": "hotspot",
+    "md5": "e81f93a709ccc214de2ca0961fbf9ec0",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "649710d2301499775ee13199899bb1f5c40c3300",
+    "sha256": "36b875c822f282f0ca0f2c57bc980d8040efb69e0b8743db09ec850e6e606f15",
+    "sha512": "9a24d64806fa85671bb0402ded572839ed61d0adda1ff502c51765d5fddd68622ad01a817b3fc208a9f02626f35808bb6459bb59754d9f3f452307044494bd74",
+    "size": 193733665,
+    "url": "https://corretto.aws/downloads/resources/11.0.9.12.1/amazon-corretto-11.0.9.12.1-alpine-linux-x64.tar.gz",
+    "vendor": "amazon",
+    "version": "11.0.9.12.1"
   },
   {
     "architecture": "x86_64",
@@ -16768,6 +17152,26 @@
   },
   {
     "architecture": "x86_64",
+    "distro": "microsoft",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "microsoft-jdk-11.0.12.7.1-linux-x64.tar.gz",
+    "image_type": "jdk",
+    "java_version": "11.0.12.7.1",
+    "jvm_impl": "hotspot",
+    "md5": "618e309daaf63a2bd8fcaafeb4f64f19",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "8a3aff93776fa5b9baa2631c3bc4c6782e32c5f2",
+    "sha256": "9520bb8a603f9859dc760fde3fecff1de06ecf1f1b7808f270f4e42ac4766a0e",
+    "sha512": "8f3a1dd00c5abf860e217bb1dcf9c7798b119355b5c2d0dfa92128c44bca78c636f860c2844ddb24091c673963a5f1ed7af94e699da2f00feb0c23a43eb745e1",
+    "size": 193216314,
+    "url": "https://aka.ms/download-jdk/microsoft-jdk-11.0.12.7.1-linux-x64.tar.gz",
+    "vendor": "microsoft",
+    "version": "11.0.12.7.1"
+  },
+  {
+    "architecture": "x86_64",
     "distro": "dragonwell",
     "features": [
       "musl"
@@ -17039,6 +17443,28 @@
     "sha512": "493bc77c14a1e148b71706b5dc454f9b9c2fb1dc4648da5fb80634f9810a75e0b2da1049157f48a6e2d265a95931b6ff13911605c2c4d6b1fe7f1714bd7a65e0",
     "size": 69955520,
     "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.13+8/bellsoft-jdk11.0.13+8-linux-amd64-lite.deb",
+    "vendor": "bellsoft",
+    "version": "11.0.13+8"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
+      "lite"
+    ],
+    "file_type": "rpm",
+    "filename": "bellsoft-jdk11.0.13+8-linux-amd64-lite.rpm",
+    "image_type": "jdk",
+    "java_version": "11.0.13+8",
+    "jvm_impl": "hotspot",
+    "md5": "f21af3e24efa39bc6cc832f79fb19cb9",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "80dc6c99f03f5c9f2c7396078f54806ae337a738",
+    "sha256": "22fb5a1ba7da8d82fede20017def23f3f5c687b5128f8241905bb9601a16abd1",
+    "sha512": "1743f4e56b6a16c51cec30d58605103464e46755e041b8bb94962292a850fe3663dd10797c209217eaf822318d572c153508e861ff77585fdd88335531ebae4e",
+    "size": 71316016,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.13+8/bellsoft-jdk11.0.13+8-linux-amd64-lite.rpm",
     "vendor": "bellsoft",
     "version": "11.0.13+8"
   },
@@ -20250,6 +20676,30 @@
     "architecture": "x86_64",
     "distro": "liberica",
     "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jdk11.0.19+7-linux-amd64-full.tar.gz",
+    "image_type": "jdk",
+    "java_version": "11.0.19+7",
+    "jvm_impl": "hotspot",
+    "md5": "c28c1a786364fbb07afcab484509cbb3",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "92b932c4bb7cba4c39466b5736ad2d1af83386f8",
+    "sha256": "bdea11a7029e5956e9f53ce2429c185c5657c1639c1555d48306fa0b20a20b58",
+    "sha512": "6a2670f63093cd3185d7826698dd9ff30981db534354d759b5d50453629f6345ad0600c74683c74cf139236128cfed57461c076f850ea9d9d1b67228c6e97643",
+    "size": 324160511,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.19+7/bellsoft-jdk11.0.19+7-linux-amd64-full.tar.gz",
+    "vendor": "bellsoft",
+    "version": "11.0.19+7"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
       "lite"
     ],
     "file_type": "rpm",
@@ -20948,6 +21398,26 @@
     "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-11.0.21/sapmachine-jdk-11.0.21_linux-x64_bin.tar.gz",
     "vendor": "sap",
     "version": "11.0.21"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "kona",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "TencentKona-11.0.21.b1-jdk_linux-x86_64.tar.gz",
+    "image_type": "jdk",
+    "java_version": "11.0.21.b1",
+    "jvm_impl": "hotspot",
+    "md5": "84d4f541807e97536c6a5accdb1b8fe2",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "0bddfcb88ffd6b2569b9347dc38d3b8bfa0cdecc",
+    "sha256": "6dc9311d1ca011046d7c4a1eed881db482f15baeef2ca77cfd88536dd689652f",
+    "sha512": "b2f460a0ed299f4dc668b53e0356767abdda00ab4737d1f4e7356012728b8499d7a7f824c1763621c2fe880cd076914cb28347116b9bc0dae3e4e446e10e4c0c",
+    "size": 199867399,
+    "url": "https://github.com/Tencent/TencentKona-11/releases/download/kona11.0.21/TencentKona-11.0.21.b1-jdk_linux-x86_64.tar.gz",
+    "vendor": "tencent",
+    "version": "11.0.21.b1"
   },
   {
     "architecture": "x86_64",
@@ -24159,6 +24629,51 @@
   },
   {
     "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
+      "lite",
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jdk11.0.28+12-linux-x64-musl-lite.tar.gz",
+    "image_type": "jdk",
+    "java_version": "11.0.28+12-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "8d46b5bd3e3193633cf07fffbed01e20",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "d52e79a4da290f80782ae4669e2327541957ca25",
+    "sha256": "7896d523ff5ddebb5850fa5f741a46d98e84a8f5c0a85102e030b92f1c67abe4",
+    "sha512": "a3e2f19abadd7a338e6ecb034f76ea1761bcdc8849909a05a612087f4eb61d44bd4f98653602edf3acdb7845a75b51978d3738d9f0ab765cbf8a2bb104f57062",
+    "size": 74662070,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.28+12/bellsoft-jdk11.0.28+12-linux-x64-musl-lite.tar.gz",
+    "vendor": "bellsoft",
+    "version": "11.0.28+12"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
+      "musl"
+    ],
+    "file_type": "apk",
+    "filename": "bellsoft-jdk11.0.28+12-linux-x64-musl.apk",
+    "image_type": "jdk",
+    "java_version": "11.0.28+12-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "7af8b7200b2b638960504e49191e33ea",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "c42833b92cb803197c93159fab6a9ba9c316b0b7",
+    "sha256": "12597fc966bde1305bc9e2a432a270f836ef397b00095ddbc44704773b54f950",
+    "sha512": "3d152cd42cd3e2375ab25e16e7d78a9fdaf0dd0614ebdd560e04530bf1c57523fb501d145091c09377ab2091bc1646bad855671ff3132e1e85d4749d403a6ecc",
+    "size": 214787499,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.28+12/bellsoft-jdk11.0.28+12-linux-x64-musl.apk",
+    "vendor": "bellsoft",
+    "version": "11.0.28+12"
+  },
+  {
+    "architecture": "x86_64",
     "distro": "sapmachine",
     "features": [],
     "file_type": "tar.gz",
@@ -26864,6 +27379,28 @@
       "musl"
     ],
     "file_type": "tar.gz",
+    "filename": "zulu11.43.55-ca-jdk11.0.9.1-linux_musl_x64.tar.gz",
+    "image_type": "jdk",
+    "java_version": "11.0.9.1",
+    "jvm_impl": "hotspot",
+    "md5": "a0e47606ccb01905e157e2184fd89b9c",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "91cb6461f89cebdf5afa899d864ae3fce77e1179",
+    "sha256": "89cfac2a64f0a820917c65d490bef270bcb066ad7f042a36153d24c3098bc5cd",
+    "sha512": "2170dbd9a3ee61f635103aa210ec2ceb8751011eccf7dc791d65df7c08eae38a9fd38b02ffdddcffa61dce10f9f69043121955aae53aadef2111a6d10fa73ad3",
+    "size": 201295943,
+    "url": "https://static.azul.com/zulu/bin/zulu11.43.55-ca-jdk11.0.9.1-linux_musl_x64.tar.gz",
+    "vendor": "azul",
+    "version": "11.43.55"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "zulu",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
     "filename": "zulu11.45.27-ca-jdk11.0.10-linux_musl_x64.tar.gz",
     "image_type": "jdk",
     "java_version": "11.0.10",
@@ -27020,6 +27557,28 @@
     "url": "https://static.azul.com/zulu/bin/zulu11.54.23-ca-jdk11.0.14-linux_musl_x64.tar.gz",
     "vendor": "azul",
     "version": "11.54.23"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "zulu",
+    "features": [
+      "javafx"
+    ],
+    "file_type": "tar.gz",
+    "filename": "zulu11.54.25-ca-fx-jdk11.0.14.1-linux_x64.tar.gz",
+    "image_type": "jdk",
+    "java_version": "11.0.14.1",
+    "jvm_impl": "hotspot",
+    "md5": "aeedd512990e2e3600de8de9d92315ae",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "db761174e27a78b8d5f40d2f5224ae90e4efdd89",
+    "sha256": "a920ecf8890180b9bfcb5b29b62dddd887f8499013fa2d97e1e87a4d9cebf13c",
+    "sha512": "e6170ea653fd758fe6cc12c29fb6cd6080000d6918e6d95f0ecbeb288cc9e277fb1301d4995afa7794fb6ab3e905270077d744b92adbfe805de940ef959bbe7d",
+    "size": 290669328,
+    "url": "https://static.azul.com/zulu/bin/zulu11.54.25-ca-fx-jdk11.0.14.1-linux_x64.tar.gz",
+    "vendor": "azul",
+    "version": "11.54.25"
   },
   {
     "architecture": "x86_64",
@@ -29276,6 +29835,28 @@
     "architecture": "x86_64",
     "distro": "zulu",
     "features": [
+      "javafx"
+    ],
+    "file_type": "tar.gz",
+    "filename": "zulu13.44.13-ca-fx-jdk13.0.9-linux_x64.tar.gz",
+    "image_type": "jdk",
+    "java_version": "13.0.9",
+    "jvm_impl": "hotspot",
+    "md5": "1c4a6e64fa9bd862c161f5cc254a9ab8",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "3a6a75ed74a3d4f51de1d66a0c1b38debfdfb344",
+    "sha256": "b3c4f28861dbabaf93d297a8bb8d3f4bfea5492135be97aadf0c1e56506f3cda",
+    "sha512": "5e45b7001424c4cd4ebba5fabdc2fbcce0753f4636ffe1f420ecd0451e0f5e650823698cf2516c14e566b2a8c256c6bbce423dad1c4b5b2211885e9b320f7a31",
+    "size": 300689139,
+    "url": "https://static.azul.com/zulu/bin/zulu13.44.13-ca-fx-jdk13.0.9-linux_x64.tar.gz",
+    "vendor": "azul",
+    "version": "13.44.13"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "zulu",
+    "features": [
       "musl"
     ],
     "file_type": "tar.gz",
@@ -29523,6 +30104,26 @@
     "url": "https://static.azul.com/zulu/bin/zulu13.54.17-ca-jdk13.0.14-linux_x64.tar.gz",
     "vendor": "azul",
     "version": "13.54.17"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "sapmachine",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "sapmachine-jdk-14-ea.32_linux-x64_bin.tar.gz",
+    "image_type": "jdk",
+    "java_version": "14-ea.32",
+    "jvm_impl": "hotspot",
+    "md5": "d7f7f7bce959a9ba7bff231b6a927f6a",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "11d4fa788dd4aae41857b055e0e21638944ed09f",
+    "sha256": "0c71d061d0a3192babb7d277501a0efd15b1d1c994e7e3c0690e50713c5a1eac",
+    "sha512": "2c344cc7f6e09cca0d5d3fa6c124179f9a488630cdc937a8387f684be90a0e18618e084f0010bc2ce099c3240e4ae54e78541955700c1c4fc55d33059a9dbc93",
+    "size": 205062753,
+    "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-14+32/sapmachine-jdk-14-ea.32_linux-x64_bin.tar.gz",
+    "vendor": "sap",
+    "version": "14-ea.32"
   },
   {
     "architecture": "x86_64",
@@ -30026,6 +30627,28 @@
     "url": "https://static.azul.com/zulu/bin/zulu14.0.33-ea-jdk14.0.0-ea.32-linux_x64.tar.gz",
     "vendor": "azul",
     "version": "14.0.33"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "zulu",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "zulu14.0.41-ea-jdk14.0.0-ea.36-linux_musl_x64.tar.gz",
+    "image_type": "jdk",
+    "java_version": "14.0.0-ea.36",
+    "jvm_impl": "hotspot",
+    "md5": "fe61ab122ca1c1de291e47821a2e938a",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "ff124099af93787f87610c46a113d00f15e15eb4",
+    "sha256": "10911b7bd2e72b846d4f829ab164fb449df872dbee38b689befe9a5e23e163a0",
+    "sha512": "958530f34813bd46e14a1bd5c1ca6d544e7cababce0b63a2d7862ca3462ccaecf5f9771a1ff7b7615a41306052d6559c654055913ddf2c1389df7f55f95d0d22",
+    "size": 210551231,
+    "url": "https://static.azul.com/zulu/bin/zulu14.0.41-ea-jdk14.0.0-ea.36-linux_musl_x64.tar.gz",
+    "vendor": "azul",
+    "version": "14.0.41"
   },
   {
     "architecture": "x86_64",
@@ -30823,6 +31446,28 @@
     "features": [
       "lite"
     ],
+    "file_type": "rpm",
+    "filename": "bellsoft-jdk15.0.1+9-linux-amd64-lite.rpm",
+    "image_type": "jdk",
+    "java_version": "15.0.1+9",
+    "jvm_impl": "hotspot",
+    "md5": "c01012ab657550775d9af0f850cbf0d0",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "845e2c2c96f26930d6928cd0eaadeb7cf7f8aa7e",
+    "sha256": "ad22687cb010a6360c13d1f9225c9b0ddea5854b4f89403555ffc4b6f6848480",
+    "sha512": "7d36e557f0f7f3a69cd07ccfd048dd83da68d5709c2650127bb1c9f79da5517aff793cd765ebd4ad6e7c9050fca7f15b6162d846295c06bc0ad8a37000b0f916",
+    "size": 73997588,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/15.0.1+9/bellsoft-jdk15.0.1+9-linux-amd64-lite.rpm",
+    "vendor": "bellsoft",
+    "version": "15.0.1+9"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
+      "lite"
+    ],
     "file_type": "tar.gz",
     "filename": "bellsoft-jdk15.0.1+9-linux-amd64-lite.tar.gz",
     "image_type": "jdk",
@@ -30836,6 +31481,26 @@
     "sha512": "03a55e1f0de51c6285cf93a20604e0f583b2792709a4e8805f1be030487680ab66eaa9d4fc41968ad89346420c2b6f560ae9851d50921b634ca054646dec6f2a",
     "size": 76924065,
     "url": "https://github.com/bell-sw/Liberica/releases/download/15.0.1+9/bellsoft-jdk15.0.1+9-linux-amd64-lite.tar.gz",
+    "vendor": "bellsoft",
+    "version": "15.0.1+9"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [],
+    "file_type": "deb",
+    "filename": "bellsoft-jdk15.0.1+9-linux-amd64.deb",
+    "image_type": "jdk",
+    "java_version": "15.0.1+9",
+    "jvm_impl": "hotspot",
+    "md5": "d53b122f6fc5e8871f398910a8aef1bf",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "68a7667cfdd17c9a5ef1058dc734c5535ba0d31e",
+    "sha256": "19a6626e231e3b7e1478efb67ab2e80b5f3acc647f19ed9bb3bc2ee2a5cebd38",
+    "sha512": "df038c90b20902e665de24db8b28c465697c3ad07903cd09b586956df0cc1ef034c98ece3a636a7c116a17dc4ab71b5d9ea5bc9227e48db965e61e9f51b9f0c5",
+    "size": 185575252,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/15.0.1+9/bellsoft-jdk15.0.1+9-linux-amd64.deb",
     "vendor": "bellsoft",
     "version": "15.0.1+9"
   },
@@ -31009,6 +31674,30 @@
     "sha512": "e4d0ffdf8c50db3f204675c175a4ad50d5c139d7d2ee9269745b7f4875263aaf85b1a80ad339d94803a0fdd22045e4ef58b78b69b454449eed3f9fff71bf37b1",
     "size": 263420780,
     "url": "https://github.com/bell-sw/Liberica/releases/download/15.0.2+8/bellsoft-jdk15.0.2+8-linux-amd64-full.deb",
+    "vendor": "bellsoft",
+    "version": "15.0.2+8"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jdk15.0.2+8-linux-amd64-full.tar.gz",
+    "image_type": "jdk",
+    "java_version": "15.0.2+8",
+    "jvm_impl": "hotspot",
+    "md5": "842b49921029fd07f176f0c938135567",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "947c78fe3a0089601d507af9e88ab8365397c4c6",
+    "sha256": "f3cdd8576924e069edfafae5592025fcc48bb4b0a97453bbb042713147de8a80",
+    "sha512": "901fb34500a138b3181de3b3adc32a719d02a68a985321890d9c4b60c5e6b379ad81af2c273d87579578b57369489421a6c68160d9b3197c7de709f4f0e7c886",
+    "size": 308733189,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/15.0.2+8/bellsoft-jdk15.0.2+8-linux-amd64-full.tar.gz",
     "vendor": "bellsoft",
     "version": "15.0.2+8"
   },
@@ -32333,6 +33022,26 @@
     "distro": "sapmachine",
     "features": [],
     "file_type": "tar.gz",
+    "filename": "sapmachine-jdk-16-ea.3_linux-x64_bin.tar.gz",
+    "image_type": "jdk",
+    "java_version": "16-ea.3",
+    "jvm_impl": "hotspot",
+    "md5": "5e48d1833feff6b94245d81eb95a7af9",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "92c112788a079f65c06df93e9f542862a3001d98",
+    "sha256": "16eccead68e3899a62ccfe592e5b483b36eb143953644a4d0646e0246d585bae",
+    "sha512": "b8fb623bf234c17aae2c4836d7bd9e8cfa3d787666c3f6175717f13e27797f571251ccbeac617593d646b8060976787af0f97f1fdfe269dcad02652a96374699",
+    "size": 201533533,
+    "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-16+3/sapmachine-jdk-16-ea.3_linux-x64_bin.tar.gz",
+    "vendor": "sap",
+    "version": "16-ea.3"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "sapmachine",
+    "features": [],
+    "file_type": "tar.gz",
     "filename": "sapmachine-jdk-16-ea.4_linux-x64_bin.tar.gz",
     "image_type": "jdk",
     "java_version": "16-ea.4",
@@ -33600,6 +34309,28 @@
     "url": "https://static.azul.com/zulu/bin/zulu16.0.37-ea-jdk16.0.0-ea.17-linux_x64.tar.gz",
     "vendor": "azul",
     "version": "16.0.37"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "zulu",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "zulu16.0.39-ea-jdk16.0.0-ea.18-linux_musl_x64.tar.gz",
+    "image_type": "jdk",
+    "java_version": "16.0.0-ea.18",
+    "jvm_impl": "hotspot",
+    "md5": "ebf2aa1a69a63529c56970a569e35cd5",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "dbbf6d960a8174028e2e47df5ce1ada6334c42ff",
+    "sha256": "574288f53dc0eb2c27b02acb64414717c86a44df38c9bce473a25d13eed49f7b",
+    "sha512": "8bf0e981fa25df13ec591906f8537b596d2d70a1cca03db0b481f56ce79c0ee7c7d00c5f4db66352ae583f7a74d0350d558861e62e3ad471a8f561bb85fc3be6",
+    "size": 207172668,
+    "url": "https://static.azul.com/zulu/bin/zulu16.0.39-ea-jdk16.0.0-ea.18-linux_musl_x64.tar.gz",
+    "vendor": "azul",
+    "version": "16.0.39"
   },
   {
     "architecture": "x86_64",
@@ -40895,6 +41626,30 @@
   {
     "architecture": "x86_64",
     "distro": "liberica",
+    "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jdk17.0.2+9-linux-amd64-full.tar.gz",
+    "image_type": "jdk",
+    "java_version": "17.0.2+9",
+    "jvm_impl": "hotspot",
+    "md5": "c539fe284daedbbeaf50c1c007d4ea6f",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "230ecf3a10ddf10bbd49886e9c6abfc2feadcf9c",
+    "sha256": "67ce7349567b86c78ecd567b5832edb7fd998b3ae47a6092a12721bd8c99fbbb",
+    "sha512": "d735ae8a668754b596376acd091a7f0b5bfc761f0820b8209f057a38a83dad76edc3adf5c18c95aa877261ad676f8424d92ac10847a782087c291094b2df1dc1",
+    "size": 304420894,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.2+9/bellsoft-jdk17.0.2+9-linux-amd64-full.tar.gz",
+    "vendor": "bellsoft",
+    "version": "17.0.2+9"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
     "features": [],
     "file_type": "rpm",
     "filename": "bellsoft-jdk17.0.2+9-linux-amd64.rpm",
@@ -43586,6 +44341,29 @@
     "architecture": "x86_64",
     "distro": "liberica",
     "features": [
+      "lite",
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jdk17.0.6+10-linux-x64-musl-lite.tar.gz",
+    "image_type": "jdk",
+    "java_version": "17.0.6+10",
+    "jvm_impl": "hotspot",
+    "md5": "5079e7b3c1246988ef9572a9688c3ce3",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "b93d58f5532528512c888cc2216d2a497c01b8d1",
+    "sha256": "9cdac5ea66f66f61e1fff993cdc691971f620db99b1542320fb4170436912f81",
+    "sha512": "f5c40a8a1b6abf703bbbe5f86b0627ad7358a629e00081d29c51366af37875e27811e0e5549f6f52c0d65eb51a3a7ca6e409eb62c01506335b0eaa8281585fb0",
+    "size": 71393579,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.6+10/bellsoft-jdk17.0.6+10-linux-x64-musl-lite.tar.gz",
+    "vendor": "bellsoft",
+    "version": "17.0.6+10"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
       "musl"
     ],
     "file_type": "tar.gz",
@@ -43603,6 +44381,28 @@
     "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.6+10/bellsoft-jdk17.0.6+10-linux-x64-musl.tar.gz",
     "vendor": "bellsoft",
     "version": "17.0.6+10"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "corretto",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "amazon-corretto-17.0.6.10.1-alpine-linux-x64.tar.gz",
+    "image_type": "jdk",
+    "java_version": "17.0.6.10.1",
+    "jvm_impl": "hotspot",
+    "md5": "952ddd95dfa688f4bea15a87a0137f9e",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "ab40d34f021aca30abb735f1eedf4cfe0f13b62e",
+    "sha256": "49d2131a3fd23c13c429d4c666719e9859be9a389fec20605ce4ee706a7c6640",
+    "sha512": "d3a9e801a7ac780e25f47a93e72ae553891eb6a8ea33f2e31b62d9baaffd22742d3b9d85ff55d69f0a9c3fcabad60e593f1415985ccb4d097c5df0df7084698a",
+    "size": 192914024,
+    "url": "https://corretto.aws/downloads/resources/17.0.6.10.1/amazon-corretto-17.0.6.10.1-alpine-linux-x64.tar.gz",
+    "vendor": "amazon",
+    "version": "17.0.6.10.1"
   },
   {
     "architecture": "x86_64",
@@ -44065,6 +44865,26 @@
   {
     "architecture": "x86_64",
     "distro": "liberica",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jdk17.0.7+7-linux-amd64.tar.gz",
+    "image_type": "jdk",
+    "java_version": "17.0.7+7",
+    "jvm_impl": "hotspot",
+    "md5": "d8ad58fdf2299af62ca19da4b6b53d7f",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "9696fb0d696b0d52a0d3f0233a538396b62a93a5",
+    "sha256": "d98941ef6b79de54e4a4918d3c11a6ea2f6bb4c10a69c75ed8440aded7d313fc",
+    "sha512": "45a5d365db1fbe018ab3bed3d53ee11e3b279255faf851bb79ea88ed141372e757038aba13d77e95637e727bc26d4be94cf4f47e3322a3a5c3bccfc6c51dd224",
+    "size": 207063103,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.7+7/bellsoft-jdk17.0.7+7-linux-amd64.tar.gz",
+    "vendor": "bellsoft",
+    "version": "17.0.7+7"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
     "features": [
       "lite",
       "musl"
@@ -44227,6 +45047,28 @@
     "size": 192261352,
     "url": "https://aka.ms/download-jdk/microsoft-jdk-17.0.8-linux-x64.tar.gz",
     "vendor": "microsoft",
+    "version": "17.0.8"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "sapmachine",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "sapmachine-jdk-17.0.8_linux-x64-musl_bin.tar.gz",
+    "image_type": "jdk",
+    "java_version": "17.0.8+7-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "125a239e5ee91eecfe9b76f113d9ccad",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "b2b5a2836d8d0705376f11d92daeffea7f3e40e3",
+    "sha256": "a0a7e2d8b6680d654cd323a6d944be3e81d3c1f4781caea7363d6bcafec03481",
+    "sha512": "49c1640ee57332cb1e172a6cb010bf294adc43e6379c80212530838aa7010324d66e021a9a604f93d21269a55ece9b40f945db58fb2344d27d5e1101e11a91a6",
+    "size": 193941066,
+    "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-17.0.8/sapmachine-jdk-17.0.8_linux-x64-musl_bin.tar.gz",
+    "vendor": "sap",
     "version": "17.0.8"
   },
   {
@@ -44562,6 +45404,28 @@
     "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-17.0.8+1/sapmachine-jdk-17.0.8-ea.1_linux-x64_bin.tar.gz",
     "vendor": "sap",
     "version": "17.0.8-ea.1"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "sapmachine",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "sapmachine-jdk-17.0.8-ea.2_linux-x64-musl_bin.tar.gz",
+    "image_type": "jdk",
+    "java_version": "17.0.8-ea.2",
+    "jvm_impl": "hotspot",
+    "md5": "aa0219e05241e0cccd8071f05340c0c9",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "2ae0e09261b5295e10f4eac24a0e911a58c468ac",
+    "sha256": "ab0da2bdf95114357f42d68f771bd66a2c301509499084784e7e61760408a079",
+    "sha512": "eb172b898587cbea2e0497280c3575d1f89d975440eee53ffe4fe045b3b752b97a35d589d419234f93325d6a4dbce72cbcdb278f136f8b07eac8573a64949b4a",
+    "size": 193840149,
+    "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-17.0.8+2/sapmachine-jdk-17.0.8-ea.2_linux-x64-musl_bin.tar.gz",
+    "vendor": "sap",
+    "version": "17.0.8-ea.2"
   },
   {
     "architecture": "x86_64",
@@ -44964,6 +45828,26 @@
     "size": 192048931,
     "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.8%2B7/OpenJDK17U-jdk_x64_linux_hotspot_17.0.8_7.tar.gz",
     "vendor": "eclipse",
+    "version": "17.0.8+7"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "adoptopenjdk",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK17U-jdk_x64_linux_hotspot_17.0.8_7.tar.gz",
+    "image_type": "jdk",
+    "java_version": "17.0.8+7",
+    "jvm_impl": "hotspot",
+    "md5": "34878f1f5dd3ede98fec433e8376b3b8",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "a2cd1b68d0d9baee47e8be476217dea85eaae5ef",
+    "sha256": "aa5fc7d388fe544e5d85902e68399d5299e931f9b280d358a3cbee218d6017b0",
+    "sha512": "bef0c5b6cf64d0ba90cd44b353bff956d4472065fc0e816c69b2d634dd298e23365e195d5d96c2c715955ed0c264a8bb6f5aff373e42e605677a46e22da5319d",
+    "size": 192048931,
+    "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.8%2B7/OpenJDK17U-jdk_x64_linux_hotspot_17.0.8_7.tar.gz",
+    "vendor": "adoptopenjdk",
     "version": "17.0.8+7"
   },
   {
@@ -47216,6 +48100,28 @@
   },
   {
     "architecture": "x86_64",
+    "distro": "adoptopenjdk",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK17U-jdk_x64_alpine-linux_hotspot_17.0.12_7.tar.gz",
+    "image_type": "jdk",
+    "java_version": "17.0.12+7",
+    "jvm_impl": "hotspot",
+    "md5": "1fd3f9cad8aaa0f990eb3b8a58c685de",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "9b72d35855b831286bab9167ad5d878bb720eae1",
+    "sha256": "6d274a292a717a6f8d00a3ed0695497405c5c634c27fec1692dd13784f6ff6fa",
+    "sha512": "28720148b92c7dd0649921a46dcb81aa05203e309ea851bcd41990fe59bc3566cbedb07ef08d7aff5f7399f063a05d56048798b99bb60a6a7b69533a44ca152f",
+    "size": 191681951,
+    "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.12%2B7/OpenJDK17U-jdk_x64_alpine-linux_hotspot_17.0.12_7.tar.gz",
+    "vendor": "adoptopenjdk",
+    "version": "17.0.12+7"
+  },
+  {
+    "architecture": "x86_64",
     "distro": "openlogic",
     "features": [],
     "file_type": "deb",
@@ -47712,6 +48618,28 @@
       "musl"
     ],
     "file_type": "tar.gz",
+    "filename": "sapmachine-jdk-17.0.13-ea.3_linux-x64-musl_bin.tar.gz",
+    "image_type": "jdk",
+    "java_version": "17.0.13-ea.3",
+    "jvm_impl": "hotspot",
+    "md5": "81157b0785e4fcaee5f66f00dab50883",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "b70fe3965550b9a06042dd3da9bf89de550c8a60",
+    "sha256": "61bde3adbf49044f999e4a0b929f62e6dd5270925f22d2777ba7d7779e3afb6c",
+    "sha512": "0b44a6ea93f6f6d460050201bd9968fe4a898358e9a3067b26856ae5173d25e75b500c163b0ef3151b2cd1711b45b7d99602c3a842e833f968bf9f82d4fbf0b0",
+    "size": 193314662,
+    "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-17.0.13+3/sapmachine-jdk-17.0.13-ea.3_linux-x64-musl_bin.tar.gz",
+    "vendor": "sap",
+    "version": "17.0.13-ea.3"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "sapmachine",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
     "filename": "sapmachine-jdk-17.0.13-ea.4_linux-x64-musl_bin.tar.gz",
     "image_type": "jdk",
     "java_version": "17.0.13-ea.4",
@@ -48058,6 +48986,26 @@
     "url": "https://builds.openlogic.com/downloadJDK/openlogic-openjdk/17.0.13+11/openlogic-openjdk-17.0.13+11-linux-x64.tar.gz",
     "vendor": "openlogic",
     "version": "17.0.13+11"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "corretto",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "amazon-corretto-17.0.13.11.1-linux-x64.tar.gz",
+    "image_type": "jdk",
+    "java_version": "17.0.13+11-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "98bd69896618544eb4c68662a7fee026",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "e67d583851a134813ec7e33e8a091aace2792f11",
+    "sha256": "31ccb0791940add3fa49b82fff5f87a65dbea27d294f58a753b9775f9752ecc7",
+    "sha512": "bf07d9033224c09842a046dcaa44d4ec981326943e687ca45c9645d5a474165d1dcf1387982f8027b0fd22d4dd638a296fb73b6446410c5287e9faabaca63bb8",
+    "size": 193433315,
+    "url": "https://corretto.aws/downloads/resources/17.0.13.11.1/amazon-corretto-17.0.13.11.1-linux-x64.tar.gz",
+    "vendor": "amazon",
+    "version": "17.0.13.11.1"
   },
   {
     "architecture": "x86_64",
@@ -49773,6 +50721,28 @@
     "size": 191521734,
     "url": "https://aka.ms/download-jdk/microsoft-jdk-17.0.17-linux-x64.tar.gz",
     "vendor": "microsoft",
+    "version": "17.0.17"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "sapmachine",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "sapmachine-jdk-17.0.17_linux-x64-musl_bin.tar.gz",
+    "image_type": "jdk",
+    "java_version": "17.0.17+10-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "9afc4e94a2b3f41b038e46992c450ce0",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "f128d1642aece365835e979b90d496b35c142c89",
+    "sha256": "089ae20a682991b80cd01d9a262a6a0b07d85fc57594e87d4c40b7a5b3996071",
+    "sha512": "d832cd982dcd094cfe97ae68f2fc123ac93914ab144bb7524e5c07272a3b222da7cc669547a02b66a89b27e3a4b846e6b4ce6f430b3938a6d2c7eaba7f8c8eb2",
+    "size": 193914887,
+    "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-17.0.17/sapmachine-jdk-17.0.17_linux-x64-musl_bin.tar.gz",
+    "vendor": "sap",
     "version": "17.0.17"
   },
   {
@@ -53347,6 +54317,48 @@
   },
   {
     "architecture": "x86_64",
+    "distro": "temurin",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK17U-jdk_x64_alpine-linux_hotspot_17.0.20_6-ea.tar.gz",
+    "image_type": "jdk",
+    "java_version": "17",
+    "jvm_impl": "hotspot",
+    "md5": "3f419b1ed97e3d006781d3882f9e2869",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "1612efff5a8c2ca7d3c4a83a369cdd7995916664",
+    "sha256": "8193c1af21a2a46c72e832fc55a9392bb4d5a9023846c402cd56c30fcd37aea4",
+    "sha512": "5c4cc62cfa6c887ee70b2218671e6d242b58c82431d7733aecc8d6e55580f61f514079eb956d5ffaaea93a4823e01b0892171411eb432bfa8b1c7a4481e30217",
+    "size": 192466142,
+    "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20%2B6-ea-beta/OpenJDK17U-jdk_x64_alpine-linux_hotspot_17.0.20_6-ea.tar.gz",
+    "vendor": "eclipse",
+    "version": "17.0.20+6-ea-beta"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "temurin",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK17U-jdk_x64_linux_hotspot_17.0.20_6-ea.tar.gz",
+    "image_type": "jdk",
+    "java_version": "17",
+    "jvm_impl": "hotspot",
+    "md5": "56ec7244bcb710af42cba4935ab242d8",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "0d5e420bffc7b2431c87f033556f8aed346bb1a8",
+    "sha256": "8c344c27f8ee9506872d6b29609c92ab6711dfd0f4c3d055de9989807a53240b",
+    "sha512": "2ee86cde9112bdcc42eb897b962aa16d308214be1a83b49c93fce874e50a3db24b3ceda77aee5dfaf69056c91b6e20c3e658b25347f5bd387673689b8219f7df",
+    "size": 193330288,
+    "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20%2B6-ea-beta/OpenJDK17U-jdk_x64_linux_hotspot_17.0.20_6-ea.tar.gz",
+    "vendor": "eclipse",
+    "version": "17.0.20+6-ea-beta"
+  },
+  {
+    "architecture": "x86_64",
     "distro": "zulu",
     "features": [
       "musl"
@@ -53554,6 +54566,26 @@
     "url": "https://static.azul.com/zulu/bin/zulu17.0.39-ea-jdk17.0.0-ea.15-linux_musl_x64.tar.gz",
     "vendor": "azul",
     "version": "17.0.39"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "zulu",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "zulu17.0.41-ea-jdk17.0.0-ea.16-linux_x64.tar.gz",
+    "image_type": "jdk",
+    "java_version": "17.0.0-ea.16",
+    "jvm_impl": "hotspot",
+    "md5": "f7a0a14f82eecf888342305d7ee9f75f",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "f0a422d795becb4118795f338f55fcbe19ea2bbb",
+    "sha256": "82be3b27ff74036810df343d1a7266bb2347a3874e7a5bd2bf5539e3487ce310",
+    "sha512": "754d73f06a48db358a2bb361f3fd3074ebfe7adc6746229085229e60992138b76ca378b724e467a1c4df9daed9c3827313edb564bcf5941e72ebec99d8db08f8",
+    "size": 213202176,
+    "url": "https://static.azul.com/zulu/bin/zulu17.0.41-ea-jdk17.0.0-ea.16-linux_x64.tar.gz",
+    "vendor": "azul",
+    "version": "17.0.41"
   },
   {
     "architecture": "x86_64",
@@ -54309,6 +55341,28 @@
     "sha512": "fe2496d91caea70ab5c3e426ce0e0c20e14c058ae5018de05e77500c29ae8d78653f2726379e2ea67fd9ead210af6987d67542a3e4e8a83765b896016be38015",
     "size": 289605126,
     "url": "https://static.azul.com/zulu/bin/zulu17.38.21-ca-fx-jdk17.0.5-linux_x64.tar.gz",
+    "vendor": "azul",
+    "version": "17.38.21"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "zulu",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "zulu17.38.21-ca-jdk17.0.5-linux_musl_x64.tar.gz",
+    "image_type": "jdk",
+    "java_version": "17.0.5",
+    "jvm_impl": "hotspot",
+    "md5": "28df075ceb7b364438066acaca201d4e",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "7eb5760da0bc4fae7c7e16eafcaae0749f7e2930",
+    "sha256": "26fb05c19cddc5eb1e08b9654da4e4c56abb7e971a592f787f991d46e9c8dbb5",
+    "sha512": "f6dd956ea00d0997f64356e2afb472e27ddc08898dc28c10a6803d0f4d712ba9627a02763efcfc5ca40bf6d1817f55f0209063fe236426a3e90a36e7cabf2710",
+    "size": 199202789,
+    "url": "https://static.azul.com/zulu/bin/zulu17.38.21-ca-jdk17.0.5-linux_musl_x64.tar.gz",
     "vendor": "azul",
     "version": "17.38.21"
   },
@@ -55209,6 +56263,29 @@
     "architecture": "x86_64",
     "distro": "zulu",
     "features": [
+      "crac",
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "zulu17.62.19-ca-crac-jdk17.0.17-linux_musl_x64.tar.gz",
+    "image_type": "jdk",
+    "java_version": "17.0.17+10-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "065d6fecec87fe9c64c480e4e2f3e674",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "dab38e93b232bfe9f6bfd346551e800ce59243e6",
+    "sha256": "f603c4e59dd1fb83ecc1ca60e1061de9ce9d7fbd5045b7cf051208f6267c3d79",
+    "sha512": "9f931bb9aa3d91d6a2ddd3b45e8627670b2f941c97b3acdd6a202dbd49cdd6e74eb2d9b0984110122640aef831ab8f5bd8f5bb541b2b98075467e1a484b9c77e",
+    "size": 206817476,
+    "url": "https://static.azul.com/zulu/bin/zulu17.62.19-ca-crac-jdk17.0.17-linux_musl_x64.tar.gz",
+    "vendor": "azul",
+    "version": "17.62.19"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "zulu",
+    "features": [
       "crac"
     ],
     "file_type": "tar.gz",
@@ -55786,6 +56863,26 @@
     "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-18+29/sapmachine-jdk-18-ea.29_linux-x64_bin.tar.gz",
     "vendor": "sap",
     "version": "18-ea.29"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "sapmachine",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "sapmachine-jdk-18-ea.30_linux-x64_bin.tar.gz",
+    "image_type": "jdk",
+    "java_version": "18-ea.30",
+    "jvm_impl": "hotspot",
+    "md5": "63f395b0025afd37dcc36b8c314d8733",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "2ba6b555a374a32d0d438e6c29e68a08eed0447d",
+    "sha256": "751cdcd70bbea4d5cb327bc23e62f59a95eeece05e92c567fdf165e884928e6a",
+    "sha512": "4e5aa92bee7bdf76e5f7898b42ce86dfd80038016564543269f5bd1f2e49b79393b39f281778b80eaeb5a9343c5a650678399268c2acde951e80407029b85116",
+    "size": 193577122,
+    "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-18+30/sapmachine-jdk-18-ea.30_linux-x64_bin.tar.gz",
+    "vendor": "sap",
+    "version": "18-ea.30"
   },
   {
     "architecture": "x86_64",
@@ -56710,6 +57807,28 @@
     "features": [
       "lite"
     ],
+    "file_type": "deb",
+    "filename": "bellsoft-jdk18.0.2+10-linux-amd64-lite.deb",
+    "image_type": "jdk",
+    "java_version": "18.0.2+10",
+    "jvm_impl": "hotspot",
+    "md5": "d3f242785e5bab3a971cd5a5aae74300",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "b99644654cc4a369908da109de9158615c352796",
+    "sha256": "fdbe56aedba0e5bc06e138b1cecc600d6b2c7437c7f1cf9868b6d83412c9936f",
+    "sha512": "fb9da97c2b334e2d0cd0054c0f35b4cdeef43e91a90cafce3102a30a2f4884a41c79baa2ecf4f8637b3237f4a12994ef022e12996cd8e933edef77a2401f11d3",
+    "size": 67306644,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.2+10/bellsoft-jdk18.0.2+10-linux-amd64-lite.deb",
+    "vendor": "bellsoft",
+    "version": "18.0.2+10"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
+      "lite"
+    ],
     "file_type": "rpm",
     "filename": "bellsoft-jdk18.0.2+10-linux-amd64-lite.rpm",
     "image_type": "jdk",
@@ -56893,6 +58012,26 @@
     "sha512": "1b289b8a92e8640df2fdcfa9c18b085b7aebff9604e41b5c148c2793441e8fb946986403c1a5dd8b36bf63499dcf792615519cdc1629ef080e21028cadf8e9c4",
     "size": 199167648,
     "url": "https://static.azul.com/zulu/bin/zulu18.0.11-ea-jdk18.0.0-ea.1-linux_musl_x64.tar.gz",
+    "vendor": "azul",
+    "version": "18.0.11"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "zulu",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "zulu18.0.11-ea-jdk18.0.0-ea.1-linux_x64.tar.gz",
+    "image_type": "jdk",
+    "java_version": "18.0.0-ea.1",
+    "jvm_impl": "hotspot",
+    "md5": "aa20ea77bba87e704a004c945ac2a753",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "bcba69d6211d1620be702b1844609fbf09bb6d93",
+    "sha256": "c2c145dc6173f7191aa5de5be9fca2dac6793baf785243723f06f373ad5cb7d3",
+    "sha512": "038c48faba9dc904770d93aa887083f37b4a1d52b3b5ea70b3c7fc672db89ccedace71b9911122e78d7729692096216af4b5db70b270d298235d6257a585ab18",
+    "size": 199562591,
+    "url": "https://static.azul.com/zulu/bin/zulu18.0.11-ea-jdk18.0.0-ea.1-linux_x64.tar.gz",
     "vendor": "azul",
     "version": "18.0.11"
   },
@@ -57129,6 +58268,26 @@
   {
     "architecture": "x86_64",
     "distro": "zulu",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "zulu18.0.35-ea-jdk18.0.0-ea.13-linux_x64.tar.gz",
+    "image_type": "jdk",
+    "java_version": "18.0.0-ea.13",
+    "jvm_impl": "hotspot",
+    "md5": "9b9b64f76cdf91f7c417cadfd2b3e940",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "50dba0ee76a8932ceb05ecfcf84db7eb0c6f8474",
+    "sha256": "6a929ece51f9e35c4f871b45ea91f0849e4463ec926d3c085d5654eb5550cf90",
+    "sha512": "7420d1c0cf07138803a1b54fabf95992a8acf5327e7e213d7bf524b7149e9bb8ef5b3a9080b790b50491692c3d414dade46951e2cb926e73f99f40a50f6b4d6d",
+    "size": 198907173,
+    "url": "https://static.azul.com/zulu/bin/zulu18.0.35-ea-jdk18.0.0-ea.13-linux_x64.tar.gz",
+    "vendor": "azul",
+    "version": "18.0.35"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "zulu",
     "features": [
       "musl"
     ],
@@ -57273,6 +58432,28 @@
     "url": "https://static.azul.com/zulu/bin/zulu18.0.51-ea-jdk18.0.0-ea.21-linux_x64.tar.gz",
     "vendor": "azul",
     "version": "18.0.51"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "zulu",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "zulu18.0.53-ea-jdk18.0.0-ea.22-linux_musl_x64.tar.gz",
+    "image_type": "jdk",
+    "java_version": "18.0.0-ea.22",
+    "jvm_impl": "hotspot",
+    "md5": "6b9242c8abbecd5e470f272769b7c7ad",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "25e34eae294fa7aa6134c0b833430486172a9a84",
+    "sha256": "87e8bbaa929aeea4fab4d024dab17d237cf69f923fd51432f74c5f9cd9da12d8",
+    "sha512": "281b250f7d1b932ef0bfb1895e8525e2c0734b872ccc302e4da0ffe0355187e62534f27c34d04db0f8720f03266bf3fea192f8da14872b66f54cda503784ac2d",
+    "size": 199191394,
+    "url": "https://static.azul.com/zulu/bin/zulu18.0.53-ea-jdk18.0.0-ea.22-linux_musl_x64.tar.gz",
+    "vendor": "azul",
+    "version": "18.0.53"
   },
   {
     "architecture": "x86_64",
@@ -58696,6 +59877,26 @@
   },
   {
     "architecture": "x86_64",
+    "distro": "temurin",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK19U-jdk_x64_linux_hotspot_19.0.1_10.tar.gz",
+    "image_type": "jdk",
+    "java_version": "19.0.1+10",
+    "jvm_impl": "hotspot",
+    "md5": "3f0365ea9316e6e4024cd7985ad872fc",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "1bf0c6608c96a6c0bbccdfb22f914aa04b4d7d1f",
+    "sha256": "163da7ea140210bae97c6a4590c757858ab4520a78af0e3e33129863d4087552",
+    "sha512": "4e617eade65156db9049ec7fc0c7b2bd9cc867413eba74bde1766d42b293a44500ee10f896206d9f17104fab68afa7e5c80265a53c0d01022769cd5727d6dbfc",
+    "size": 200089336,
+    "url": "https://github.com/adoptium/temurin19-binaries/releases/download/jdk-19.0.1%2B10/OpenJDK19U-jdk_x64_linux_hotspot_19.0.1_10.tar.gz",
+    "vendor": "eclipse",
+    "version": "19.0.1+10"
+  },
+  {
+    "architecture": "x86_64",
     "distro": "corretto",
     "features": [],
     "file_type": "tar.gz",
@@ -58845,6 +60046,28 @@
     "sha512": "8fa196ee3348755a8186f844e8551c470c56ac859de4c884cc15708385c2881674dcd4c1971cdfd7afd0f723506bb1cae85c0c682e150d00a26facd64491017d",
     "size": 74849912,
     "url": "https://github.com/bell-sw/Liberica/releases/download/19.0.1+11/bellsoft-jdk19.0.1+11-linux-x64-musl-lite.tar.gz",
+    "vendor": "bellsoft",
+    "version": "19.0.1+11"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
+      "musl"
+    ],
+    "file_type": "apk",
+    "filename": "bellsoft-jdk19.0.1+11-linux-x64-musl.apk",
+    "image_type": "jdk",
+    "java_version": "19.0.1+11",
+    "jvm_impl": "hotspot",
+    "md5": "6e37890722ae0f58875365284e648475",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "331430d34e7db325f59c3174073e7107f1929ed3",
+    "sha256": "223364aa5dd4a0b0b338ed5b0342d805beb4d63f34c113df854217dfd4f7874b",
+    "sha512": "588dd86456f08d9cc7fb77c62803ba9623e61935163aeb163242cbeca972a6cf95cdf6380a736354f4df59aa6603c5082444bb05b6d9590981fcc19b07b8c0e9",
+    "size": 214512259,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/19.0.1+11/bellsoft-jdk19.0.1+11-linux-x64-musl.apk",
     "vendor": "bellsoft",
     "version": "19.0.1+11"
   },
@@ -59636,6 +60859,26 @@
   {
     "architecture": "x86_64",
     "distro": "zulu",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "zulu19.0.51-ea-jdk19.0.0-ea.21-linux_x64.tar.gz",
+    "image_type": "jdk",
+    "java_version": "19.0.0-ea.21",
+    "jvm_impl": "hotspot",
+    "md5": "86c24b5821976baf69434dd7fb20bb16",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "2aac0897890b6bad63c58b5f713d05ca17651d65",
+    "sha256": "a86716931f661426c833f911dc652328f0d71d6306d8deefc5f5332914bf1391",
+    "sha512": "63054a33bcc0f945441c0c0084ad6c2cbe97c3c6ad44a450bd66c1849eb1330f51d8f95cb68ba0046d93f4e0e5cf9058b5a6ca9b691a8719c5ac60bf9d1bedc7",
+    "size": 204187528,
+    "url": "https://static.azul.com/zulu/bin/zulu19.0.51-ea-jdk19.0.0-ea.21-linux_x64.tar.gz",
+    "vendor": "azul",
+    "version": "19.0.51"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "zulu",
     "features": [
       "musl"
     ],
@@ -59716,6 +60959,28 @@
     "url": "https://static.azul.com/zulu/bin/zulu19.0.57-ea-jdk19.0.0-ea.24-linux_musl_x64.tar.gz",
     "vendor": "azul",
     "version": "19.0.57"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "zulu",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "zulu19.0.59-ea-jdk19.0.0-ea.25-linux_musl_x64.tar.gz",
+    "image_type": "jdk",
+    "java_version": "19.0.0-ea.25",
+    "jvm_impl": "hotspot",
+    "md5": "63d930e2640edf63006695a4a9daf9a0",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "b2558286d044024c66ab2fa3bf63ff56b3aa4c05",
+    "sha256": "e96a7548c7aceb8bf75e516ca274f61d761809ef3a44391f55497a4480a19dc7",
+    "sha512": "12320aae135b97dadc8cd736ea6a3794e48ee9705233eb09123c59e2b19194c9abcb2f1e5a6cdb81b30bc0b25dd30d1290b34270597d8e06a73737b8733c0840",
+    "size": 206368043,
+    "url": "https://static.azul.com/zulu/bin/zulu19.0.59-ea-jdk19.0.0-ea.25-linux_musl_x64.tar.gz",
+    "vendor": "azul",
+    "version": "19.0.59"
   },
   {
     "architecture": "x86_64",
@@ -59860,6 +61125,26 @@
     "sha512": "b64247b32a56802d53a3dacd47fa3bac5672cc99e29396c88cb53fd8375f879d18b7ab3bd00ac4bc628d7f82e00b85ad6f0833af313682969e34f7c1b78a0522",
     "size": 206736072,
     "url": "https://static.azul.com/zulu/bin/zulu19.0.75-ea-jdk19.0.0-ea.33-linux_musl_x64.tar.gz",
+    "vendor": "azul",
+    "version": "19.0.75"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "zulu",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "zulu19.0.75-ea-jdk19.0.0-ea.33-linux_x64.tar.gz",
+    "image_type": "jdk",
+    "java_version": "19.0.0-ea.33",
+    "jvm_impl": "hotspot",
+    "md5": "8affe257cc72d79085dbc20dfcf0148e",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "ad4a30027120f34272a0e38d2d23f4c3c27181d5",
+    "sha256": "ced8b75fd74869253b5960bc217bf1b745571489042ab18ca12a50849da7d542",
+    "sha512": "ae2253045015f149a1ebd0fb24ef2ab6af5e48b47845a0f3b18700bcd53e3d36e05089efb1b0b98df6c7a3ce841e9a2893883d9df878bdb167f0b45ba11de40c",
+    "size": 205567584,
+    "url": "https://static.azul.com/zulu/bin/zulu19.0.75-ea-jdk19.0.0-ea.33-linux_x64.tar.gz",
     "vendor": "azul",
     "version": "19.0.75"
   },
@@ -60427,6 +61712,26 @@
     "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-20+15/sapmachine-jdk-20-ea.15_linux-x64_bin.tar.gz",
     "vendor": "sap",
     "version": "20-ea.15"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "sapmachine",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "sapmachine-jdk-20-ea.16_linux-x64_bin.tar.gz",
+    "image_type": "jdk",
+    "java_version": "20-ea.16",
+    "jvm_impl": "hotspot",
+    "md5": "6cdf0c68b4dbb0622fccb4f5cf743b6d",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "b477f9e01234d45358b6507ea2483973c0b92d29",
+    "sha256": "cf8ce10cdcc39b9f7064d1ecc7c3276bf0375f7eaa4619d9610098798e95d669",
+    "sha512": "b3e8e8b613b42f0a8fd357410bb29277e15c50fde29161916a40dab368ca14ed00cc240b69f4f9e0e8f4ac64e1108b99f1c5c504d57a4c80225019598d3c0d0b",
+    "size": 201449400,
+    "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-20+16/sapmachine-jdk-20-ea.16_linux-x64_bin.tar.gz",
+    "vendor": "sap",
+    "version": "20-ea.16"
   },
   {
     "architecture": "x86_64",
@@ -61065,6 +62370,28 @@
     "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-20.0.1/sapmachine-jdk-20.0.1_linux-x64-musl_bin.tar.gz",
     "vendor": "sap",
     "version": "20.0.1"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "sapmachine",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "sapmachine-jdk-20.0.1-ea.9_linux-x64-musl_bin.tar.gz",
+    "image_type": "jdk",
+    "java_version": "20.0.1-ea.9",
+    "jvm_impl": "hotspot",
+    "md5": "b3deaef5eb1d8e5c9b323404114cd366",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "f4c48b4cd5732a2930ce6b5a32eb7eb20f8e6800",
+    "sha256": "9e271b1311fa3a126d3547604b57e95fdbcf707dede5784c3d9e22d4929bbe65",
+    "sha512": "21406a658220fcda837057dd5d39f11f3b8dc988de4fe7561f565a27595230f2f8e8b495be4723e331a23570d5ec2d59eddecdcdad288870faadd50f72f060a0",
+    "size": 203213931,
+    "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-20.0.1+9/sapmachine-jdk-20.0.1-ea.9_linux-x64-musl_bin.tar.gz",
+    "vendor": "sap",
+    "version": "20.0.1-ea.9"
   },
   {
     "architecture": "x86_64",
@@ -61867,6 +63194,26 @@
     "distro": "zulu",
     "features": [],
     "file_type": "tar.gz",
+    "filename": "zulu20.0.45-ea-jdk20.0.0-ea.17-linux_x64.tar.gz",
+    "image_type": "jdk",
+    "java_version": "20.0.0-ea.17",
+    "jvm_impl": "hotspot",
+    "md5": "7ebc50fd740bc4bd63f51467c6aa7709",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "3871792dcac2aab110fb4a44f19b19930b90a7d8",
+    "sha256": "b7b1d44a05e2651a419d764a54e891f1f34f16d31fa37371c85cca0c86c121c2",
+    "sha512": "094cb8bb924c1159beea55336b3c02b3d2a3ecd0a1505ebdbf5479ea07ce216ceadf9bad5d754bcd1f158362026bb49d86356732d1034424ca5a070b57025074",
+    "size": 205925584,
+    "url": "https://static.azul.com/zulu/bin/zulu20.0.45-ea-jdk20.0.0-ea.17-linux_x64.tar.gz",
+    "vendor": "azul",
+    "version": "20.0.45"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "zulu",
+    "features": [],
+    "file_type": "tar.gz",
     "filename": "zulu20.0.49-ea-jdk20.0.0-ea.19-linux_x64.tar.gz",
     "image_type": "jdk",
     "java_version": "20.0.0-ea.19",
@@ -62095,6 +63442,28 @@
     "url": "https://static.azul.com/zulu/bin/zulu20.0.83-ea-jdk20.0.0-ea.36-linux_x64.tar.gz",
     "vendor": "azul",
     "version": "20.0.83"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "zulu",
+    "features": [
+      "javafx"
+    ],
+    "file_type": "tar.gz",
+    "filename": "zulu20.28.85-ca-fx-jdk20.0.0-linux_x64.tar.gz",
+    "image_type": "jdk",
+    "java_version": "20.0.0",
+    "jvm_impl": "hotspot",
+    "md5": "24286a276612bee9c50794e1f92635ad",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "fcd48cf141d5d0665f24379d64f162338968bc6e",
+    "sha256": "ad6bfbaa2d9e447b87bc8ba845444368bdb2964ace221ae0aec7bf72acf32d04",
+    "sha512": "3fd5dd02af10397675cd46dea441a5407a9eb64e7e16d90299300a30223b03e621ddc9701348ed0bfa04238f71d1441662bcfc43f93b014e8e33a3dd4862076f",
+    "size": 303633669,
+    "url": "https://static.azul.com/zulu/bin/zulu20.28.85-ca-fx-jdk20.0.0-linux_x64.tar.gz",
+    "vendor": "azul",
+    "version": "20.28.85"
   },
   {
     "architecture": "x86_64",
@@ -71489,6 +72858,28 @@
   },
   {
     "architecture": "x86_64",
+    "distro": "corretto",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "amazon-corretto-21.0.0.34.1-alpine-linux-x64.tar.gz",
+    "image_type": "jdk",
+    "java_version": "21.0.0.34.1",
+    "jvm_impl": "hotspot",
+    "md5": "9b6bbb3ad85fc5b5bf08bfd16e3e0377",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "81aa77a7d9fa6e391b3a272445b4b667425b67f6",
+    "sha256": "5f0b388eb5e67e81663deac8c236191a7882f5d84d4b77cbead1896be6340c21",
+    "sha512": "8324654e0284523ad7c607420f27e090fa0ed94a2b39994d07fd14165c469c80fa26501aef580df21055f44f1de41694d928096bbede8a543e3343ce4f1c631e",
+    "size": 208834886,
+    "url": "https://corretto.aws/downloads/resources/21.0.0.34.1/amazon-corretto-21.0.0.34.1-alpine-linux-x64.tar.gz",
+    "vendor": "amazon",
+    "version": "21.0.0.34.1"
+  },
+  {
+    "architecture": "x86_64",
     "distro": "temurin",
     "features": [
       "musl"
@@ -72060,6 +73451,26 @@
   },
   {
     "architecture": "x86_64",
+    "distro": "sapmachine",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "sapmachine-jdk-21.0.2_linux-x64_bin.tar.gz",
+    "image_type": "jdk",
+    "java_version": "21.0.2+13-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "cc82b75b45da92d4fd6e18d08f0c6640",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "84de688619bf7d80e77312428be9e54ff655dec4",
+    "sha256": "3123189ec5b99eed78de0328e2fd49d7c13cc7d4524c341f1fe8fbd5165be31f",
+    "sha512": "572d118195dc93b3fd44f73df8d7b738515edc1df47cfde0fd672234a8053f8ab6fec8fdb25684fd7913cfbfe6650ef64be71146a628f02ace2be5b399f5d1e1",
+    "size": 207792703,
+    "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-21.0.2/sapmachine-jdk-21.0.2_linux-x64_bin.tar.gz",
+    "vendor": "sap",
+    "version": "21.0.2"
+  },
+  {
+    "architecture": "x86_64",
     "distro": "kona",
     "features": [],
     "file_type": "tar.gz",
@@ -72592,6 +74003,28 @@
   {
     "architecture": "x86_64",
     "distro": "sapmachine",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "sapmachine-jdk-21.0.3-ea.3_linux-x64-musl_bin.tar.gz",
+    "image_type": "jdk",
+    "java_version": "21.0.3-ea.3",
+    "jvm_impl": "hotspot",
+    "md5": "0a298585329e19a6959a361217664e2b",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "5cff5c38341f1ea777090481dcce8f58a0192fbf",
+    "sha256": "b2820adbd0935e823a3eaa97e8720b246a6b2a0dde908fefc8e196a5e85bcdca",
+    "sha512": "37cb78e1236088d2084c8a2174493baf7f8e549d8e1edf6a93d08b4a6b779abd1ad1774c8e0628cc6889771a8602ae9828b54dbc8f2d0a78cae3f814da20b6a2",
+    "size": 209385613,
+    "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-21.0.3+3/sapmachine-jdk-21.0.3-ea.3_linux-x64-musl_bin.tar.gz",
+    "vendor": "sap",
+    "version": "21.0.3-ea.3"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "sapmachine",
     "features": [],
     "file_type": "tar.gz",
     "filename": "sapmachine-jdk-21.0.3-ea.3_linux-x64_bin.tar.gz",
@@ -72628,6 +74061,28 @@
     "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-21.0.3+4/sapmachine-jdk-21.0.3-ea.4_linux-x64_bin.tar.gz",
     "vendor": "sap",
     "version": "21.0.3-ea.4"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "sapmachine",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "sapmachine-jdk-21.0.3-ea.5_linux-x64-musl_bin.tar.gz",
+    "image_type": "jdk",
+    "java_version": "21.0.3-ea.5",
+    "jvm_impl": "hotspot",
+    "md5": "9ab9505c28149b2edb56916bf090305f",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "d089cdec7d73e8f735afabefcc3532156548a04d",
+    "sha256": "083bc23c1d23d328b571263f9d7a3f2d996699feef76a2cad35eae2c00fc9136",
+    "sha512": "a1980e94c4d0cd69cb4494a1045c27795adfe99522ba8b77c3ef0d6f964c576749a800cd93a17fa983cdc0ce5719a54c9f4c3aab89e86a123fc057548b562443",
+    "size": 209400902,
+    "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-21.0.3+5/sapmachine-jdk-21.0.3-ea.5_linux-x64-musl_bin.tar.gz",
+    "vendor": "sap",
+    "version": "21.0.3-ea.5"
   },
   {
     "architecture": "x86_64",
@@ -73338,6 +74793,26 @@
     "size": 197174029,
     "url": "https://download.oracle.com/java/21/archive/jdk-21.0.4_linux-x64_bin.rpm",
     "vendor": "oracle",
+    "version": "21.0.4"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "microsoft",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "microsoft-jdk-21.0.4-linux-x64.tar.gz",
+    "image_type": "jdk",
+    "java_version": "21.0.4+7-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "ab6a7287f78be7ea64844da47eec6888",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "5c3160de6397af8e8434f6545f19bb10c958f942",
+    "sha256": "7f7c131845a83dea92709b48160af7ac6c58c4962266ff828dc0b897179136c5",
+    "sha512": "bc395c3ae7c0e286b69d7d1760ac28f1a64de226930ef5edccdfac5de9cb98d956e7eb862ab6efb00f6599a74814b407218de9f7ca438bbe7c11499a038a4bfe",
+    "size": 206964144,
+    "url": "https://aka.ms/download-jdk/microsoft-jdk-21.0.4-linux-x64.tar.gz",
+    "vendor": "microsoft",
     "version": "21.0.4"
   },
   {
@@ -74315,6 +75790,30 @@
       "minimal-vm",
       "javafx"
     ],
+    "file_type": "rpm",
+    "filename": "bellsoft-jdk21.0.5+11-linux-amd64-full.rpm",
+    "image_type": "jdk",
+    "java_version": "21.0.5+11-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "dde7c68c0862a5051df39203f0690c4a",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "56d7f529e15d7f561830ade5ce4cef599504fe8f",
+    "sha256": "23f9e3645c2dc1a9eb2a9db31a02e94162808223ba09c6a4b6a392e39b14d853",
+    "sha512": "aae76083b50821ec43ebca26eab63356737a7434c0d92a8b413384e8903e2a8fa99774db9d467c80b46ac3809bef6d01cadff38e226030ba29a57665b4ed29ec",
+    "size": 310768252,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.5+11/bellsoft-jdk21.0.5+11-linux-amd64-full.rpm",
+    "vendor": "bellsoft",
+    "version": "21.0.5+11"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
     "file_type": "tar.gz",
     "filename": "bellsoft-jdk21.0.5+11-linux-amd64-full.tar.gz",
     "image_type": "jdk",
@@ -74628,6 +76127,26 @@
   {
     "architecture": "x86_64",
     "distro": "sapmachine",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "sapmachine-jdk-21.0.6_linux-x64_bin.tar.gz",
+    "image_type": "jdk",
+    "java_version": "21.0.6+7-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "9e0a60aff986602d4ab4a239df9cd963",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "ada7fce5a499f486a4dce15614e87a0baa651edb",
+    "sha256": "ff64ee0a4d6e48f9d164a0de070e413455dab34c89a6fa24d2a48ea63e556dfd",
+    "sha512": "6717a83179efc8e7f14bc769394dd4b9b5c8b1908c2468e277b2f0451b000f8389a1b28804b16619ada5523c77a57c786b2a7a7d7e971b9b36908ff874c13dd8",
+    "size": 207468384,
+    "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-21.0.6/sapmachine-jdk-21.0.6_linux-x64_bin.tar.gz",
+    "vendor": "sap",
+    "version": "21.0.6"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "sapmachine",
     "features": [
       "musl"
     ],
@@ -74730,6 +76249,26 @@
     "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-21.0.6+4/sapmachine-jdk-21.0.6-ea.4_linux-x64_bin.tar.gz",
     "vendor": "sap",
     "version": "21.0.6-ea.4"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "sapmachine",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "sapmachine-jdk-21.0.6-ea.5_linux-x64_bin.tar.gz",
+    "image_type": "jdk",
+    "java_version": "21.0.6-ea.5",
+    "jvm_impl": "hotspot",
+    "md5": "1f3830f19c80c94ea010b512b02056b6",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "d5076e1be60618bf354b09f7042ce02373fd2499",
+    "sha256": "33e5d525a1bb1e836ba37c8aebb944276310137e9066291eb2f50bb54801cc12",
+    "sha512": "6ad8f1f9084a3826e7b4bf9b6bbcc923c57cac4a038617045227276ddbc02e6ef15222ba5f34897001ac1f0e200b72ea5f3bc62cefceafcc450aefbc21612257",
+    "size": 207384741,
+    "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-21.0.6+5/sapmachine-jdk-21.0.6-ea.5_linux-x64_bin.tar.gz",
+    "vendor": "sap",
+    "version": "21.0.6-ea.5"
   },
   {
     "architecture": "x86_64",
@@ -75260,6 +76799,28 @@
     "size": 197324597,
     "url": "https://java.oraclecloud.com/java/21/archive/jdk-21.0.7_linux-x64_bin.rpm",
     "vendor": "oracle",
+    "version": "21.0.7"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "sapmachine",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "sapmachine-jdk-21.0.7_linux-x64-musl_bin.tar.gz",
+    "image_type": "jdk",
+    "java_version": "21.0.7+6-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "3a46f34d0e9c8c67ac74a7966dd90678",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "56cf4980ffd91876e39f424cf05f9b31bd72fe3a",
+    "sha256": "07bee220a9eac8aa041a0e76c8f2b4b1234e4a7daa000df6b4a31714e8775f0d",
+    "sha512": "585c29ebd315c0bb514833d3ffed9a9fd1f45b52976dc5ef920070ff4c783563f7cb6e7c5f10cbea1b1cf0f169f99cc23f31e950dcc56cd008d2c9593339ae6d",
+    "size": 208671494,
+    "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-21.0.7/sapmachine-jdk-21.0.7_linux-x64-musl_bin.tar.gz",
+    "vendor": "sap",
     "version": "21.0.7"
   },
   {
@@ -76199,6 +77760,26 @@
     "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-21.0.8+9/sapmachine-jdk-21.0.8-ea.9_linux-x64_bin.tar.gz",
     "vendor": "sap",
     "version": "21.0.8-ea.9"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "dragonwell",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "Alibaba_Dragonwell_Extended_21.0.8.0.8.9_x64_linux.tar.gz",
+    "image_type": "jdk",
+    "java_version": "21.0.8.0.8.9",
+    "jvm_impl": "hotspot",
+    "md5": "d279ef62de13920c9dc24344ab2b0890",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "958007b5aae0158dab7e85e9d608dc7a2d775a4b",
+    "sha256": "eccbd08b431cbd2bd6a0b8f4809373997d4339c6ef8447c1c1b63aeec1e63e3e",
+    "sha512": "2a8cb9b50b2372c2479e155457d956bb33b8b137a22609d75c4de81be3e8e5613b5e4b90744930f1cdc4a197c1fea295ed25085c7c4735507d7fcc3eb0044f60",
+    "size": 217446345,
+    "url": "https://github.com/dragonwell-project/dragonwell21/releases/download/dragonwell-extended-21.0.8.0.8+9_jdk-21.0.8-ga/Alibaba_Dragonwell_Extended_21.0.8.0.8.9_x64_linux.tar.gz",
+    "vendor": "alibaba",
+    "version": "21.0.8.0.8.9"
   },
   {
     "architecture": "x86_64",
@@ -77907,6 +79488,28 @@
   {
     "architecture": "x86_64",
     "distro": "sapmachine",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "sapmachine-jdk-21.0.10-ea.2_linux-x64-musl_bin.tar.gz",
+    "image_type": "jdk",
+    "java_version": "21.0.10-ea.2",
+    "jvm_impl": "hotspot",
+    "md5": "2cf8740afe94cacd759af91f3b1337e5",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "6df0d2eb66fa57711475e254a09bf6611e4ecfec",
+    "sha256": "4e2a89a87ff821f6401d11956a82ab07edbcd9b36e23695893771e35421d17a3",
+    "sha512": "4d017b47a6f94099b8502fd1282123d42802e8e11bd3570a6d21fd6666853b691b5de458a403e17aad0ca57220f45c7bd1a1c55a5393a085d0c0d6f49ccb8409",
+    "size": 209104888,
+    "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-21.0.10+2/sapmachine-jdk-21.0.10-ea.2_linux-x64-musl_bin.tar.gz",
+    "vendor": "sap",
+    "version": "21.0.10-ea.2"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "sapmachine",
     "features": [],
     "file_type": "tar.gz",
     "filename": "sapmachine-jdk-21.0.10-ea.2_linux-x64_bin.tar.gz",
@@ -78027,6 +79630,26 @@
     "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-21.0.10.0.1/sapmachine-jdk-21.0.10.0.1_linux-x64_bin.tar.gz",
     "vendor": "sap",
     "version": "21.0.10.0.1"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "sapmachine",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "sapmachine-jdk-21.0.10.0.1-ea.1_linux-x64_bin.tar.gz",
+    "image_type": "jdk",
+    "java_version": "21.0.10.0.1-ea.1",
+    "jvm_impl": "hotspot",
+    "md5": "412bee8bdd153292ce404fe257678aa9",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "2217efb657e6634f96a62a687163f06b1838233f",
+    "sha256": "26946d73d93afa69d7a14354b9278e10bfb22456ae42b3cc7315fe635bc20b7e",
+    "sha512": "a7d2d8f16d49df1cdbaf9d1f1fca0d35a6db4b8488af16db3e0c3b16ec43c93102bfb097c39bcfdde74738aa46f38c50c1afbcefd15fdcaa44026feb077ba7bc",
+    "size": 210458348,
+    "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-21.0.10.0.1+1/sapmachine-jdk-21.0.10.0.1-ea.1_linux-x64_bin.tar.gz",
+    "vendor": "sap",
+    "version": "21.0.10.0.1-ea.1"
   },
   {
     "architecture": "x86_64",
@@ -81633,6 +83256,28 @@
   {
     "architecture": "x86_64",
     "distro": "sapmachine",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "sapmachine-jdk-22-ea.1_linux-x64-musl_bin.tar.gz",
+    "image_type": "jdk",
+    "java_version": "22-ea.1",
+    "jvm_impl": "hotspot",
+    "md5": "f69200a0ea294e644b08a6001b0ff6bd",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "ecabf41dfbfc507308b18ca8ace50abd5e843668",
+    "sha256": "9017829441e870f62188dd698abffeb8ab7f63b97129f10ddaf274334dd6c985",
+    "sha512": "be9a55a70152df31ded20a168ba0a8810bc0f1aa5c42f534f15c114a345d67baf9f78ba23fa1343b0c35d87ef44d3114b8bdc3ad35ea5259c5b752b50ff685ba",
+    "size": 209844804,
+    "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-22+1/sapmachine-jdk-22-ea.1_linux-x64-musl_bin.tar.gz",
+    "vendor": "sap",
+    "version": "22-ea.1"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "sapmachine",
     "features": [],
     "file_type": "tar.gz",
     "filename": "sapmachine-jdk-22-ea.1_linux-x64_bin.tar.gz",
@@ -81713,6 +83358,28 @@
     "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-22+6/sapmachine-jdk-22-ea.6_linux-x64-musl_bin.tar.gz",
     "vendor": "sap",
     "version": "22-ea.6"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "sapmachine",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "sapmachine-jdk-22-ea.7_linux-x64-musl_bin.tar.gz",
+    "image_type": "jdk",
+    "java_version": "22-ea.7",
+    "jvm_impl": "hotspot",
+    "md5": "3d55aa85fb120839dc3cc11f83d1fca5",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "bb4a5a7f7f393c419d8264859c81e75abc9db745",
+    "sha256": "466f71a4a0237ef2bfa5cc289a3a2e6e99ba3875f701d8aa0403fb5c3be4ed93",
+    "sha512": "d1d0f3657723728c77ae89bd39298ccdd66093e47f58c859c4fed8607fcfad401353d81b0b6504a3c3514e5a27962958d607a4d018051de06aac15713b742520",
+    "size": 209967518,
+    "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-22+7/sapmachine-jdk-22-ea.7_linux-x64-musl_bin.tar.gz",
+    "vendor": "sap",
+    "version": "22-ea.7"
   },
   {
     "architecture": "x86_64",
@@ -81963,6 +83630,26 @@
     "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-22+19/sapmachine-jdk-22-ea.19_linux-x64_bin.tar.gz",
     "vendor": "sap",
     "version": "22-ea.19"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "sapmachine",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "sapmachine-jdk-22-ea.20_linux-x64_bin.tar.gz",
+    "image_type": "jdk",
+    "java_version": "22-ea.20",
+    "jvm_impl": "hotspot",
+    "md5": "eb24e30fdee36dfb8f58d7d3630e2574",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "9fd8637572a8b1f749b44a38fc86c5ef575e895f",
+    "sha256": "605135326fab53edd6f4930ff18313f2dc5807e0427bc52b0ec5a7870136c109",
+    "sha512": "1102e63bfc4f7e9a281b5c84d58b6e070c9315204b79783fcd0e5daa1c9cd46be5b27b3a25723d8a52a5c78a023fdc46de9db904f74f1d0e54a587c9c9c2aae4",
+    "size": 208840070,
+    "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-22+20/sapmachine-jdk-22-ea.20_linux-x64_bin.tar.gz",
+    "vendor": "sap",
+    "version": "22-ea.20"
   },
   {
     "architecture": "x86_64",
@@ -83897,6 +85584,28 @@
   },
   {
     "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jdk22+37-linux-x64-musl.tar.gz",
+    "image_type": "jdk",
+    "java_version": "22+37",
+    "jvm_impl": "hotspot",
+    "md5": "8d6551269bfaf2ca29eaa9bc2aa7507d",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "35d77050db5f890ebcda27121ed170dff3e26f1e",
+    "sha256": "593b4fece2cd136f6ce06cbaa50fedfde4ca21efa4f05cfeb66789ff84c3780d",
+    "sha512": "41afe9c376eb7736a842238faa60f10935531103a3a89fd4edbe5fb62902a819fe9194fcab28ba4e8502b676c453a328d146996a7db7cda4adde343d3816e2b9",
+    "size": 230477981,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/22+37/bellsoft-jdk22+37-linux-x64-musl.tar.gz",
+    "vendor": "bellsoft",
+    "version": "22+37"
+  },
+  {
+    "architecture": "x86_64",
     "distro": "oracle",
     "features": [],
     "file_type": "rpm",
@@ -84382,6 +86091,28 @@
       "musl"
     ],
     "file_type": "tar.gz",
+    "filename": "sapmachine-jdk-23-ea.22_linux-x64-musl_bin.tar.gz",
+    "image_type": "jdk",
+    "java_version": "23-ea.22",
+    "jvm_impl": "hotspot",
+    "md5": "3f7019d8891279346ca011a5df358a19",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "f30b35c672c0391ad69606d96a5b8c8286d7a312",
+    "sha256": "cd1f10875a91dc5eef1e7f08f39f4ba96d3cd2c3cb54b5d3c72a7d9533bd2e72",
+    "sha512": "24f45dbd441ce009d7fac14e98040eaf2e8374cc6278290ab074e6024c2b7ec7b035d3378691d09ed832fe2aa7e5c796145d94c1b91fd883d8251ef69495b1a1",
+    "size": 214990600,
+    "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-23+22/sapmachine-jdk-23-ea.22_linux-x64-musl_bin.tar.gz",
+    "vendor": "sap",
+    "version": "23-ea.22"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "sapmachine",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
     "filename": "sapmachine-jdk-23-ea.23_linux-x64-musl_bin.tar.gz",
     "image_type": "jdk",
     "java_version": "23-ea.23",
@@ -84632,6 +86363,26 @@
   {
     "architecture": "x86_64",
     "distro": "sapmachine",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "sapmachine-jdk-23-ea.32_linux-x64_bin.tar.gz",
+    "image_type": "jdk",
+    "java_version": "23-ea.32",
+    "jvm_impl": "hotspot",
+    "md5": "067e8fd38d0b6b27186246b7f570326b",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "6d098d8ba1a4e6ae3706e769f5f33fd70ef645a7",
+    "sha256": "cc1b46a5725f541abf8d4168d2237d51475b10a08a3d492cbb7831e0f00315a4",
+    "sha512": "15553820e862e8a1a45f34f95d17307b8ade4c80fcbdf1223d00f2122f6ca03f51a7441bdf687857c88a5c30980bc2c26de70783d65d629a8d86f1ceff6f5cc6",
+    "size": 214632538,
+    "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-23+32/sapmachine-jdk-23-ea.32_linux-x64_bin.tar.gz",
+    "vendor": "sap",
+    "version": "23-ea.32"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "sapmachine",
     "features": [
       "musl"
     ],
@@ -84734,6 +86485,26 @@
     "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-23+37/sapmachine-jdk-23-ea.37_linux-x64_bin.tar.gz",
     "vendor": "sap",
     "version": "23-ea.37"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "openjdk",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "openjdk-23-loom+2-48_linux-x64_bin.tar.gz",
+    "image_type": "jdk",
+    "java_version": "23-loom+2-48",
+    "jvm_impl": "hotspot",
+    "md5": "1e50fb021ca0629ea29267bcfa6a2c86",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "ebf50852e4cabd80bd871ac0b7a2a2d904c64e43",
+    "sha256": "30c65e1b07ec27ec7a8ea9ac3dd228ae0570862fe643bae0ad2ff62673bdbd46",
+    "sha512": "58938df7a05e053d712554953b816433c8da9ba1552b247889292846786d519e1755e8dd2b586f8192b2db8560c4d083de7c013da9f75f41b35449ea23505f9b",
+    "size": 202635705,
+    "url": "https://download.java.net/java/early_access/loom/2/openjdk-23-loom+2-48_linux-x64_bin.tar.gz",
+    "vendor": "oracle",
+    "version": "23-loom+2-48"
   },
   {
     "architecture": "x86_64",
@@ -85051,6 +86822,30 @@
     "architecture": "x86_64",
     "distro": "liberica",
     "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jdk23.0.1+13-linux-amd64-full.tar.gz",
+    "image_type": "jdk",
+    "java_version": "23.0.1+13",
+    "jvm_impl": "hotspot",
+    "md5": "a76b8ac71abf68700bae272ee6142858",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "cacbe4421598353e817e0594c2eb79dd2c0b10bf",
+    "sha256": "eb3f89398d87efe8548c1345616e82dfe14ba3fa1510fdaa76458622c44c06a1",
+    "sha512": "3d3ec32b30d38370ad0b2a6b6abeb26b3650621ea26afb58a77566fc3dbb0e283cff68c584b7a10b25ca7b6896582d87b880c5b251dca592aa856079fef67775",
+    "size": 361352113,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/23.0.1+13/bellsoft-jdk23.0.1+13-linux-amd64-full.tar.gz",
+    "vendor": "bellsoft",
+    "version": "23.0.1+13"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
       "lite"
     ],
     "file_type": "deb",
@@ -85117,6 +86912,26 @@
     "architecture": "x86_64",
     "distro": "liberica",
     "features": [],
+    "file_type": "deb",
+    "filename": "bellsoft-jdk23.0.1+13-linux-amd64.deb",
+    "image_type": "jdk",
+    "java_version": "23.0.1+13",
+    "jvm_impl": "hotspot",
+    "md5": "58aa6e5801cfce3b723efa84774b7368",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "4e0aa493bd8da8f307ed7e9a826d7c7ac286721f",
+    "sha256": "594306758bed4afa514121a56dc77de9d25ef2a55daa732536c63bf3708a17e7",
+    "sha512": "d9634f8c15c5a44de964c767d9018902f2883a727fc47b92c3b2a559668a3ea761cd4c7e251c1a6395f72bf9282dcfc59e9eb7b403abbe7915a4dcd6fb2fcc16",
+    "size": 204199248,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/23.0.1+13/bellsoft-jdk23.0.1+13-linux-amd64.deb",
+    "vendor": "bellsoft",
+    "version": "23.0.1+13"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [],
     "file_type": "rpm",
     "filename": "bellsoft-jdk23.0.1+13-linux-amd64.rpm",
     "image_type": "jdk",
@@ -85150,6 +86965,29 @@
     "sha512": "1d8b7ad3c805af6289a335fc049e3553b4a82640ba3d1bf68964f438725e8cca1608cf85c8c7a6e92b075d77ef29490d4b7d690b38ccac7b3ee9deeb3cc24027",
     "size": 238226431,
     "url": "https://github.com/bell-sw/Liberica/releases/download/23.0.1+13/bellsoft-jdk23.0.1+13-linux-amd64.tar.gz",
+    "vendor": "bellsoft",
+    "version": "23.0.1+13"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
+      "lite",
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jdk23.0.1+13-linux-x64-musl-lite.tar.gz",
+    "image_type": "jdk",
+    "java_version": "23.0.1+13",
+    "jvm_impl": "hotspot",
+    "md5": "af40d06ecc153bb3bf4277f900680f7e",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "e755804ea94d1a07cb5065d3a79b8b6891a92dd6",
+    "sha256": "11545b8a80b8fc65e010f623b37699b7a1cf02a18f33363803aefaa7164aa367",
+    "sha512": "696b3c743c9ac1c936d9180ce76e0ab17e5a8dd82d6a1267490c3131e4b9d9f1f340a930183a7ebd65750336c4d99155f5733e47b9a244d02b200df00ba96376",
+    "size": 81569933,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/23.0.1+13/bellsoft-jdk23.0.1+13-linux-x64-musl-lite.tar.gz",
     "vendor": "bellsoft",
     "version": "23.0.1+13"
   },
@@ -85362,6 +87200,26 @@
     "sha512": "735083fac3ef89f097d137a7b38c032ebca2d936f79646ef05a94f7c680422da2b644272b2a235aa025dfd04178833fa5ff1e763b8aaf0dbf4063a89938f4222",
     "size": 216283744,
     "url": "https://corretto.aws/downloads/resources/23.0.2.7.1/amazon-corretto-23.0.2.7.1-alpine-linux-x64.tar.gz",
+    "vendor": "amazon",
+    "version": "23.0.2.7.1"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "corretto",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "amazon-corretto-23.0.2.7.1-linux-x64.tar.gz",
+    "image_type": "jdk",
+    "java_version": "23.0.2+7-FR",
+    "jvm_impl": "hotspot",
+    "md5": "25b0d450ca49ca2d923f2bad2fdaaf06",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "fabc63b67f9d6f32c6de98262a2f6cd179875370",
+    "sha256": "0370c1b48048e55619eff9beace91077da9ece35d4a57d0c5513cd546341c09c",
+    "sha512": "35e7b152e1241b4043e8f519fa17b22e55e519a0181dfb8c4fb6e86c718f53a4a5c4c14bdbb6b50fbce5c43eb47a60111e2a5912846eaa458010cd98add8f895",
+    "size": 216058720,
+    "url": "https://corretto.aws/downloads/resources/23.0.2.7.1/amazon-corretto-23.0.2.7.1-linux-x64.tar.gz",
     "vendor": "amazon",
     "version": "23.0.2.7.1"
   },
@@ -86031,6 +87889,28 @@
       "musl"
     ],
     "file_type": "tar.gz",
+    "filename": "zulu23.0.63-beta-jdk23.0.0-beta.26-linux_musl_x64.tar.gz",
+    "image_type": "jdk",
+    "java_version": "23-beta+26",
+    "jvm_impl": "hotspot",
+    "md5": "6c935ef9e74940234e5d74409a233196",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "9f97e75a875f6b498352425ccd23ba47d7cb89ce",
+    "sha256": "bd60ef17399aa181fddb2660c59b17b0bf4db86d0b451f9f3f91b2f105703cdd",
+    "sha512": "07c48679e3d71d1d7582e6acc0e9e6a7db6c504e865696471338e7477ce1791fde2d8cbc9dd8d0e76fcd811a2caf7356e5516df7defc0d403fa114fbab9b9a1e",
+    "size": 221159767,
+    "url": "https://static.azul.com/zulu/bin/zulu23.0.63-beta-jdk23.0.0-beta.26-linux_musl_x64.tar.gz",
+    "vendor": "azul",
+    "version": "23.0.63"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "zulu",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
     "filename": "zulu23.0.65-beta-jdk23.0.0-beta.27-linux_musl_x64.tar.gz",
     "image_type": "jdk",
     "java_version": "23-beta+27",
@@ -86414,6 +88294,28 @@
     "sha512": "c712f3d2f9670e072a140d5e4a25a5ed6203d3f8586db0de1ccb149eb4584df909a57951169e0045dd79035bdfd13941cd9f47772536e77d14607d4fc8a14cb4",
     "size": 328016971,
     "url": "https://static.azul.com/zulu/bin/zulu23.30.13-ca-fx-jdk23.0.1-linux_x64.tar.gz",
+    "vendor": "azul",
+    "version": "23.30.13"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "zulu",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "zulu23.30.13-ca-jdk23.0.1-linux_musl_x64.tar.gz",
+    "image_type": "jdk",
+    "java_version": "23.0.1+11",
+    "jvm_impl": "hotspot",
+    "md5": "7db68e7327b9612ebf25f03e75a6ad7c",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "e24837fd165549c2bde9808bbab383f9960ebad3",
+    "sha256": "7ebd3249fbd189387b9017ddd247ef9ae4ba2f2d8748859f88d531ea7362b0fa",
+    "sha512": "0d14ba0fd66a1894a8b46fc6c03eedb5d87d38d9ae640931e2481445e467040c6e11212966f938fbd64f46c467e4f365931d0288cbc49470daea11ae49d60cc4",
+    "size": 221100413,
+    "url": "https://static.azul.com/zulu/bin/zulu23.30.13-ca-jdk23.0.1-linux_musl_x64.tar.gz",
     "vendor": "azul",
     "version": "23.30.13"
   },
@@ -88060,6 +89962,26 @@
     "architecture": "x86_64",
     "distro": "oracle",
     "features": [],
+    "file_type": "rpm",
+    "filename": "jdk-24.0.2_linux-x64_bin.rpm",
+    "image_type": "jdk",
+    "java_version": "24.0.2+12-54",
+    "jvm_impl": "hotspot",
+    "md5": "394e7af2cbf025b23ca7c14bc3227a62",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "1f4c62a3bcb9f7b33c8b708c2d7ddb52bc771da9",
+    "sha256": "c99d2382c9ea83df35e5da8f26b8cc861bec8085e59bd90d1061da17490daf78",
+    "sha512": "63fd41303c3263b3633b7dc90d0755504c6585806fd2eaf59bd9e81bd5a44a41107bbfa36d893da42fdb161496c38afd839039c504751ed7c66a6c913e1ee79f",
+    "size": 242968509,
+    "url": "https://java.oraclecloud.com/java/24/archive/jdk-24.0.2_linux-x64_bin.rpm",
+    "vendor": "oracle",
+    "version": "24.0.2"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "oracle",
+    "features": [],
     "file_type": "tar.gz",
     "filename": "jdk-24.0.2_linux-x64_bin.tar.gz",
     "image_type": "jdk",
@@ -88267,6 +90189,26 @@
     "sha512": "6a55e6b26c5bfc77ae95e833712fe11a564e9d9cca7bb453aec13bbdab3919cf35851cd459341e93507241cab55fda9f668fda36667006be65dd13902c9a1707",
     "size": 82357579,
     "url": "https://github.com/bell-sw/Liberica/releases/download/24.0.2+12/bellsoft-jdk24.0.2+12-linux-amd64-lite.tar.gz",
+    "vendor": "bellsoft",
+    "version": "24.0.2+12"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [],
+    "file_type": "deb",
+    "filename": "bellsoft-jdk24.0.2+12-linux-amd64.deb",
+    "image_type": "jdk",
+    "java_version": "24.0.2+12",
+    "jvm_impl": "hotspot",
+    "md5": "515d3f19a551c1e0c23c62c34faddd27",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "812f616ae2df3c01c9dd1b5179a33c912e8f422d",
+    "sha256": "b6b067e96e87afbb3a19f3ebe1c63dd3d2916a688dc1025d6c32c8cc0edf4f42",
+    "sha512": "796825fc76ef599e8a5418ec67515317009201c44134d9c21a47685fa2f4a7cbea46aa91248807e990c7f75f5800c279ab610b5eb291cf45c6b9cbe9bfd6dcbe",
+    "size": 218489088,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/24.0.2+12/bellsoft-jdk24.0.2+12-linux-amd64.deb",
     "vendor": "bellsoft",
     "version": "24.0.2+12"
   },
@@ -88668,6 +90610,28 @@
     "url": "https://static.azul.com/zulu/bin/zulu24.0.39-beta-jdk24.0.0-beta.15-linux_musl_x64.tar.gz",
     "vendor": "azul",
     "version": "24.0.39"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "zulu",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "zulu24.0.41-beta-jdk24.0.0-beta.16-linux_musl_x64.tar.gz",
+    "image_type": "jdk",
+    "java_version": "24-beta+16",
+    "jvm_impl": "hotspot",
+    "md5": "8bc6bf90f0864452a79a3fa5be28c4b4",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "0217fa763b8cfdcb9d18702b7685ca9b9da6a5f0",
+    "sha256": "123e797a46b0c427fffff5c9b2733e6d896a1b66f84647777bab7a0a0ea097bc",
+    "sha512": "ddfc34024b82979d5f5b9187a531a38598927702636fbb7f00d66cf46ac84336353d520ffa89264ae667c993f53dc2766a0193196f423e6c3c27cd9d55c5a6de",
+    "size": 221863108,
+    "url": "https://static.azul.com/zulu/bin/zulu24.0.41-beta-jdk24.0.0-beta.16-linux_musl_x64.tar.gz",
+    "vendor": "azul",
+    "version": "24.0.41"
   },
   {
     "architecture": "x86_64",
@@ -89759,6 +91723,26 @@
     "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-25+8/sapmachine-jdk-25-ea.8_linux-x64-musl_bin.tar.gz",
     "vendor": "sap",
     "version": "25-ea.8"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "sapmachine",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "sapmachine-jdk-25-ea.9_linux-x64_bin.tar.gz",
+    "image_type": "jdk",
+    "java_version": "25-ea.9",
+    "jvm_impl": "hotspot",
+    "md5": "52802f1d1c38875cca7ea4937cd5bd8b",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "5b2a8eb90322c9ea2099b12a2287a356a217afad",
+    "sha256": "aa85f50d1db8a000cf1a7743da3a2c6437b498b6c25c8688136d36b7abccc457",
+    "sha512": "006455f337d0d56d2ab12744d63741df9181ec3d855fefdcfc95ff72fab7e6ba574c895d288d0994749e2581a8ff648e4d671d1e0894e0b8c525da424bbf0b3c",
+    "size": 223604817,
+    "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-25+9/sapmachine-jdk-25-ea.9_linux-x64_bin.tar.gz",
+    "vendor": "sap",
+    "version": "25-ea.9"
   },
   {
     "architecture": "x86_64",
@@ -95692,6 +97676,29 @@
       "lite",
       "leyden"
     ],
+    "file_type": "deb",
+    "filename": "bellsoft-jdk25+21-ea-linux-amd64-lite-leyden.deb",
+    "image_type": "jdk",
+    "java_version": "25+21-ea",
+    "jvm_impl": "hotspot",
+    "md5": "43f3767b66b45d57559d37acfee18b80",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "651a46fc1aa7ea1239bd9ed91fcc02f59ae74661",
+    "sha256": "b2eb1abc7e98017585e1ca35db8937fbf40958ecf838a5aba567248e2598a993",
+    "sha512": "9440b4f7dffa6088e89ec4b29ab1df7ea2c35dfcf46a5ae7884365cafa2e6bf2c1444a67d17fce43cfb589cbf3a2372559ec7713356cb57a9b08871eb1b2a6d0",
+    "size": 77471928,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/25+21-ea-leyden/bellsoft-jdk25+21-ea-linux-amd64-lite-leyden.deb",
+    "vendor": "bellsoft",
+    "version": "25+21-ea"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
+      "lite",
+      "leyden"
+    ],
     "file_type": "tar.gz",
     "filename": "bellsoft-jdk25+21-ea-linux-amd64-lite-leyden.tar.gz",
     "image_type": "jdk",
@@ -98052,6 +100059,28 @@
     "url": "https://static.azul.com/zulu/bin/zulu26.0.43-beta-jdk26.0.0-beta.27-linux_x64.tar.gz",
     "vendor": "azul",
     "version": "26.0.43"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "zulu",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "zulu26.0.45-beta-jdk26.0.0-beta.28-linux_musl_x64.tar.gz",
+    "image_type": "jdk",
+    "java_version": "26-beta+28",
+    "jvm_impl": "hotspot",
+    "md5": "6ad0b953d1ada4c1c8e6c21ebfcda1b5",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "83a9ccb07a3383e332c00a378a131ff0febfcfd2",
+    "sha256": "fcf13e2ddc13625dc41e585f2522133e7d17f6daed2a7d669e3ea235158c3e5b",
+    "sha512": "a278754cadc11c28ba920f4a6ae1bfb8317ee1e15dd4cf604dfc99c7c4678919c916bc8f5e63ba2f03cf48cb106a54e6bcee0eaec3b5ac3a0430f86dd1f47dfa",
+    "size": 238302703,
+    "url": "https://static.azul.com/zulu/bin/zulu26.0.45-beta-jdk26.0.0-beta.28-linux_musl_x64.tar.gz",
+    "vendor": "azul",
+    "version": "26.0.45"
   },
   {
     "architecture": "x86_64",

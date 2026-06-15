@@ -2287,6 +2287,26 @@
   },
   {
     "architecture": "riscv64",
+    "distro": "temurin",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK17U-jdk_riscv64_linux_hotspot_17.0.20_6-ea.tar.gz",
+    "image_type": "jdk",
+    "java_version": "17",
+    "jvm_impl": "hotspot",
+    "md5": "7915d5db89af8628a8c5e34a000714e6",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "3c93458a99f80032e5e989c87cbaa1cba65b2d33",
+    "sha256": "39d74de6b061d6fca64e0e8f92eead8ed8d1a624ca632db187b71b29467b779e",
+    "sha512": "dab21571667a7fde3d35ad9a8475de37f1430c79e04c040035160318d075aaa5f4cc54183494394662f0542a305095f3d6890b0990c2f7809bdc6d62d352187c",
+    "size": 190009013,
+    "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20%2B6-ea-beta/OpenJDK17U-jdk_riscv64_linux_hotspot_17.0.20_6-ea.tar.gz",
+    "vendor": "eclipse",
+    "version": "17.0.20+6-ea-beta"
+  },
+  {
+    "architecture": "riscv64",
     "distro": "debian",
     "features": [
       "headless"
@@ -3520,6 +3540,28 @@
     "sha512": "fb368f8ec5404d24a8e0c07ec688b731c75cbfadb153d00f9bdfdcd4e11096f5cbfc4fe08db98cc2373d00c46639d3c06753a1db1c9b8ee2f3f5be377e56421a",
     "size": 73242884,
     "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.9+15/bellsoft-jdk21.0.9+15-linux-riscv64-lite.rpm",
+    "vendor": "bellsoft",
+    "version": "21.0.9+15"
+  },
+  {
+    "architecture": "riscv64",
+    "distro": "liberica",
+    "features": [
+      "lite"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jdk21.0.9+15-linux-riscv64-lite.tar.gz",
+    "image_type": "jdk",
+    "java_version": "21.0.9+15-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "0a0bb5c557f7c301a70b768ab74fc176",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "ebbdc5fea173a3cfb1e80709f32f4b0d5ea9ba40",
+    "sha256": "fedd8c51e3c7907e6816eee200b07a3008d06b8f74d42663b76ea7bd2f211ed1",
+    "sha512": "362bfa2f63aa83c6e7e1f0886ff6e2c353a4b5c2638ab0423fe9f19c208785e46bef80a23ba646757e3e6fb19041c7382f512359c96367b39de9e71ef0b2c65f",
+    "size": 78227191,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.9+15/bellsoft-jdk21.0.9+15-linux-riscv64-lite.tar.gz",
     "vendor": "bellsoft",
     "version": "21.0.9+15"
   },
@@ -5409,6 +5451,26 @@
   },
   {
     "architecture": "riscv64",
+    "distro": "temurin",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK25U-jdk_riscv64_linux_hotspot_25_36.tar.gz",
+    "image_type": "jdk",
+    "java_version": "25+36-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "ee1d99dd712d727bc6f99c0b9cf00399",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "667b6546c81d67b00de240c7186702a9e4a32379",
+    "sha256": "3fc35759502b620f010a9cd2b3da8454f8a49a156ceaebb00de1fd8335682d40",
+    "sha512": "78ee0f46ef993dfca3cedd1ab4bcb4328f63b8bcc036c05800455c4a4411618a8db7c24ddafed192ff994897be280109830364cab8983064d9642fd9eeae2f95",
+    "size": 139475390,
+    "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25%2B36/OpenJDK25U-jdk_riscv64_linux_hotspot_25_36.tar.gz",
+    "vendor": "eclipse",
+    "version": "25.0.0+36.0.LTS"
+  },
+  {
+    "architecture": "riscv64",
     "distro": "debian",
     "features": [
       "headless"
@@ -6594,6 +6656,48 @@
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-26/openjdk-26-jdk_26.0.1+8-2_riscv64.deb",
     "vendor": "debian",
     "version": "26.0.1+8-2"
+  },
+  {
+    "architecture": "riscv64",
+    "distro": "debian",
+    "features": [
+      "headless"
+    ],
+    "file_type": "deb",
+    "filename": "openjdk-26-jdk-headless_26.0.1+8-3_riscv64.deb",
+    "image_type": "jdk",
+    "java_version": "26.0.1+8",
+    "jvm_impl": "hotspot",
+    "md5": "25dabe19333c55dff3ee99dd314bb35c",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "94ee9edadf745687a6df503e374ce4f28bdd0a02",
+    "sha256": "e9e7cda04f67feac99d4ff041eef60ed07cb334716be4aea7f182f311c59a660",
+    "sha512": "fa375bee3152e48b24f131e41037e50a754215b6468b0a73a3609d3bd29336f4a603c0d634c1fb97fad104fc56095b08ed8448cc6e300c65c38baff372f330a2",
+    "size": 90737984,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-26/openjdk-26-jdk-headless_26.0.1+8-3_riscv64.deb",
+    "vendor": "debian",
+    "version": "26.0.1+8-3"
+  },
+  {
+    "architecture": "riscv64",
+    "distro": "debian",
+    "features": [],
+    "file_type": "deb",
+    "filename": "openjdk-26-jdk_26.0.1+8-3_riscv64.deb",
+    "image_type": "jdk",
+    "java_version": "26.0.1+8",
+    "jvm_impl": "hotspot",
+    "md5": "3606079ce16187c2cd2c53c17aedf7fa",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "ffd11245bf711a88628492953b4e8cc44bdd0083",
+    "sha256": "34c1785336ca6f4ffdbf8dc890204518c2a7417a4150c438c791bb30c822717b",
+    "sha512": "9a04c1acd967a3fa856d5c3fb697f4175b9af2f3a0c0329502bc3aa1ec8dbf59cb2486b10f5d9697f1983f5c2af8156a580cdb4257958e4c929bffdea65127bc",
+    "size": 9604,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-26/openjdk-26-jdk_26.0.1+8-3_riscv64.deb",
+    "vendor": "debian",
+    "version": "26.0.1+8-3"
   },
   {
     "architecture": "riscv64",

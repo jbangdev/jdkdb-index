@@ -3,6 +3,28 @@
     "architecture": "x86_64",
     "distro": "zulu",
     "features": [
+      "javafx"
+    ],
+    "file_type": "tar.gz",
+    "filename": "zulu20.28.85-ca-fx-jre20.0.0-linux_x64.tar.gz",
+    "image_type": "jre",
+    "java_version": "20.0.0",
+    "jvm_impl": "hotspot",
+    "md5": "c77fe9e3a4e96ea94e4666e834fd8273",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "2748caed1c472d87de043579d76fcea4d11e8b1d",
+    "sha256": "3d05fea40fa1eceb96a7d02790e66d2836dd7b660497511247c38bff9821418d",
+    "sha512": "c7daf8128c292d2d46ce8544896599239d33cb43d87cdb138fc8e922cfeede5ce6ad3b02594819b54e637f992cbaa995f254f1b5cf2cd1b1270a1df028caa83d",
+    "size": 92594511,
+    "url": "https://static.azul.com/zulu/bin/zulu20.28.85-ca-fx-jre20.0.0-linux_x64.tar.gz",
+    "vendor": "azul",
+    "version": "20.28.85"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "zulu",
+    "features": [
       "musl"
     ],
     "file_type": "tar.gz",
@@ -62,5 +84,27 @@
     "url": "https://static.azul.com/zulu/bin/zulu20.30.11-ca-fx-jre20.0.1-linux_x64.tar.gz",
     "vendor": "azul",
     "version": "20.30.11"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "zulu",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "zulu20.32.11-ca-jre20.0.2-linux_musl_x64.tar.gz",
+    "image_type": "jre",
+    "java_version": "20.0.2",
+    "jvm_impl": "hotspot",
+    "md5": "dfc33784341b010f662b009d9a6e5128",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "5edf2aeb6f03fd6f22877e73bf87aa33b9ff215f",
+    "sha256": "cee78602527fbc38255ebb88bec07c228c618c05faabb6c80fb236fc280c324c",
+    "sha512": "4bdc7f7b003cd07920b720cd384ee9e0b1a799b19eeeeda9381fad479c973c0e01d66671cb9f8be4ed741c6b65d5a24dd75a57017c02577f6b1b27a09c5226bd",
+    "size": 50279474,
+    "url": "https://static.azul.com/zulu/bin/zulu20.32.11-ca-jre20.0.2-linux_musl_x64.tar.gz",
+    "vendor": "azul",
+    "version": "20.32.11"
   }
 ]

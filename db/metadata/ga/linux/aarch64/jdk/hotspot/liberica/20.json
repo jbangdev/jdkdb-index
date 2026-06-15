@@ -177,6 +177,30 @@
     "architecture": "aarch64",
     "distro": "liberica",
     "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jdk20.0.2+10-linux-aarch64-full.tar.gz",
+    "image_type": "jdk",
+    "java_version": "20.0.2+10",
+    "jvm_impl": "hotspot",
+    "md5": "fee56897d6062b18e3de58ccbec46c02",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "25a1a8927223a3298008e7ad34e8e5e47ef2425f",
+    "sha256": "9aba3332dda4e621ca7ee9ec286ed6403c110cdd075ccc91f36c5e6bbf9b503a",
+    "sha512": "e475ba307792cb650f4b70da7973358fbdd5196005df66c903c5845b3bc2b72ef559e3088419a59294e96094f7a86978374ce93507b504da525e49417c289a59",
+    "size": 312362966,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/20.0.2+10/bellsoft-jdk20.0.2+10-linux-aarch64-full.tar.gz",
+    "vendor": "bellsoft",
+    "version": "20.0.2+10"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "liberica",
+    "features": [
       "lite"
     ],
     "file_type": "deb",
@@ -192,6 +216,28 @@
     "sha512": "b7715a38e809b6614af166973b564f82bcf1656de8cceb52eb601e1afa287411c02d5352e31b4b6a64f1370f32a36d5f3d9e96b8267c8806cfac548a10851b98",
     "size": 69054908,
     "url": "https://github.com/bell-sw/Liberica/releases/download/20.0.2+10/bellsoft-jdk20.0.2+10-linux-aarch64-lite.deb",
+    "vendor": "bellsoft",
+    "version": "20.0.2+10"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "liberica",
+    "features": [
+      "lite"
+    ],
+    "file_type": "rpm",
+    "filename": "bellsoft-jdk20.0.2+10-linux-aarch64-lite.rpm",
+    "image_type": "jdk",
+    "java_version": "20.0.2+10",
+    "jvm_impl": "hotspot",
+    "md5": "f2c108ce5a92a9ceadd8fc07ec702423",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "8bdf0091d3b9d56c55fc209358617b1fd1611483",
+    "sha256": "4ea8ed8aeb4bc4acdfb50066aa1b259ca7f97104d472b619e4f409793c9c7ef2",
+    "sha512": "b458dec95f4c3845a284467c684bdb9b472ef68887ce9a2cf440a459ae4d06adb380cb47b196e489967177db1cf768f62c5ef9e50d6ebcdde17e2c1ac6a5eeb1",
+    "size": 70435580,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/20.0.2+10/bellsoft-jdk20.0.2+10-linux-aarch64-lite.rpm",
     "vendor": "bellsoft",
     "version": "20.0.2+10"
   },

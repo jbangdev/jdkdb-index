@@ -204,6 +204,30 @@
   {
     "architecture": "x86_64",
     "distro": "liberica",
+    "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
+    "file_type": "rpm",
+    "filename": "bellsoft-jre15+36-linux-amd64-full.rpm",
+    "image_type": "jre",
+    "java_version": "15+36",
+    "jvm_impl": "hotspot",
+    "md5": "185c4b16515ef59973f49eb33e6508cb",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "ca40e919ad3fa3840e6ae0ef15e368aa5fc630aa",
+    "sha256": "6e8829627dfb3e2d821dffc25ebe1e9e83b1eb01c6e01c727b633f522997e866",
+    "sha512": "70bce2ab127c665e99b39997c52fe541a749b375ec6e4a6d97c0b2ab30eb079b40fce325535fe44692fbaefb030345e1302ec554b3490cdabca28c968ec2c18b",
+    "size": 63974424,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/15+36/bellsoft-jre15+36-linux-amd64-full.rpm",
+    "vendor": "bellsoft",
+    "version": "15+36"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
     "features": [],
     "file_type": "tar.gz",
     "filename": "bellsoft-jre15+36-linux-amd64.tar.gz",
