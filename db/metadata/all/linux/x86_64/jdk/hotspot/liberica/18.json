@@ -252,6 +252,30 @@
     "architecture": "x86_64",
     "distro": "liberica",
     "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
+    "file_type": "deb",
+    "filename": "bellsoft-jdk18.0.2.1+1-linux-amd64-full.deb",
+    "image_type": "jdk",
+    "java_version": "18.0.2.1+1",
+    "jvm_impl": "hotspot",
+    "md5": "55d58f7b0d32ed4cb8e9d750bc7e8093",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "324426d01eed16aee40171cab91fd1e7e155e5d8",
+    "sha256": "fa9fd908d7a8503ac2b15a8ac57a02d84ae44cbcb1714ba2267512d2ebb82fdf",
+    "sha512": "7686c1912c58ec2ee975ae18f2a2b200206f61e46b01b1c23b86178ffb9a896b848e8cea113d436f1bb54b469dc6036254d237c544860d197ebc0a22753956a2",
+    "size": 261612896,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.2.1+1/bellsoft-jdk18.0.2.1+1-linux-amd64-full.deb",
+    "vendor": "bellsoft",
+    "version": "18.0.2.1+1"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
       "lite"
     ],
     "file_type": "tar.gz",
@@ -465,6 +489,29 @@
     "sha512": "db6c91eb3b0ea36c18acedf8801b8e9ab32eca4fcedfda4469d99aed408f8c77bede985ca8520cf51177ad92d285319ecfda1a72c4c9037a6d915154d633184b",
     "size": 185904784,
     "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.2+10/bellsoft-jdk18.0.2+10-linux-amd64.rpm",
+    "vendor": "bellsoft",
+    "version": "18.0.2+10"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
+      "lite",
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jdk18.0.2+10-linux-x64-musl-lite.tar.gz",
+    "image_type": "jdk",
+    "java_version": "18.0.2+10",
+    "jvm_impl": "hotspot",
+    "md5": "f70d1caf810fbc4b0e11413492970c29",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "e71fefb8369808ce9e14fa4fc310b43efc5d7cdf",
+    "sha256": "4b4883ee6a5d4896e1a3e13aca6048038042850428059a7aaaa54df3c3348a2b",
+    "sha512": "3363cd09719268877fa6567b7d8c419b17a95a461e70e5f8a2eb6ddd9b4f0239254015f515614f46fe97a0191af557518ffb8bd7f41a6184863e0863e57d5918",
+    "size": 72012967,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.2+10/bellsoft-jdk18.0.2+10-linux-x64-musl-lite.tar.gz",
     "vendor": "bellsoft",
     "version": "18.0.2+10"
   },

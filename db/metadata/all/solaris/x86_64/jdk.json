@@ -1213,6 +1213,26 @@
   },
   {
     "architecture": "x86_64",
+    "distro": "temurin",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK8U-jdk_x64_solaris_hotspot_8u432b06.tar.gz",
+    "image_type": "jdk",
+    "java_version": "1.8.0_432-b06",
+    "jvm_impl": "hotspot",
+    "md5": "260a8700361c0a23e9bcfedf840883ad",
+    "os": "solaris",
+    "release_type": "ga",
+    "sha1": "58402c7e49de4fcda8511cb0898579182393c758",
+    "sha256": "7165154e4ca21e4e80ec221f88cf2084ffa53f8873ac4a17ba66ac78e7643e2c",
+    "sha512": "58184d37ef671ebb0a6484cd72b9d3b0d540154dcea93ac13209e1813231764afd574aafde5acbd42032ffbb29dc247aef7b84be3a5ecf7b88ef60bc0ffb5c17",
+    "size": 111614187,
+    "url": "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u432-b06/OpenJDK8U-jdk_x64_solaris_hotspot_8u432b06.tar.gz",
+    "vendor": "eclipse",
+    "version": "8.0.432+6"
+  },
+  {
+    "architecture": "x86_64",
     "distro": "adoptopenjdk",
     "features": [],
     "file_type": "tar.gz",
@@ -2170,6 +2190,28 @@
     "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.16+8/bellsoft-jdk11.0.16+8-solaris-x64.tar.gz",
     "vendor": "bellsoft",
     "version": "11.0.16+8"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
+      "lite"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jdk11.0.17+7-solaris-x64-lite.tar.gz",
+    "image_type": "jdk",
+    "java_version": "11.0.17+7",
+    "jvm_impl": "hotspot",
+    "md5": "851157e6d46e8096013998e818462432",
+    "os": "solaris",
+    "release_type": "ga",
+    "sha1": "eeaf9c1f83c6f33b98e3ad324131de1f54130baf",
+    "sha256": "68af95f437119c5c40b0e89becf080581d477e7427801264abb891fd7b57a446",
+    "sha512": "11cba52488642a96218c17de10615f20ccab7484f7f21bacb9efed7ee473a27a7065f94bea7ad930264f83175db6a79782f5083a976bf17e1654d14ba84e46a1",
+    "size": 90985968,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.17+7/bellsoft-jdk11.0.17+7-solaris-x64-lite.tar.gz",
+    "vendor": "bellsoft",
+    "version": "11.0.17+7"
   },
   {
     "architecture": "x86_64",

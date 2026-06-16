@@ -48,6 +48,48 @@
   {
     "architecture": "x86_64",
     "distro": "liberica",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jdk22.0.1+12-linux-amd64.tar.gz",
+    "image_type": "jdk",
+    "java_version": "22.0.1+12",
+    "jvm_impl": "hotspot",
+    "md5": "cfd840be0ea8cd6bfe4b2c9b76701899",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "5e665956765ed5f5454766d489b89fee5390a621",
+    "sha256": "50dba52396e0f99498d7331d4c0289d55873b2b5ac923cc876acbf7741d7b92d",
+    "sha512": "994337ab48c06b3e27566a1995ac10d11a74daec00fcd53c8e2b0c130727f64056aa22b1e0f5556b62c12b282bd73fe0b85d4cb2135a43a826459f4970b2a988",
+    "size": 229570743,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/22.0.1+12/bellsoft-jdk22.0.1+12-linux-amd64.tar.gz",
+    "vendor": "bellsoft",
+    "version": "22.0.1+12"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jdk22.0.1+12-linux-x64-musl.tar.gz",
+    "image_type": "jdk",
+    "java_version": "22.0.1+12",
+    "jvm_impl": "hotspot",
+    "md5": "62f77aeaf9386b0cdad1925d1b1ed59f",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "fa4f8e3a89dcb4b9f442b2fb72ba2aa990a6abd7",
+    "sha256": "04180eb8dfdeb57e32db35eb70158a92a7ed5570d665a3e21f70bfeb5cc8e427",
+    "sha512": "e123eb5c478903400e56e9ec67bf351ccfb3d4b3fae7fbe8bfd580e381761e301b69f1868db201367dc3829f00a6470132f91c10dc00a686a1675e7c11163f05",
+    "size": 229380943,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/22.0.1+12/bellsoft-jdk22.0.1+12-linux-x64-musl.tar.gz",
+    "vendor": "bellsoft",
+    "version": "22.0.1+12"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
     "features": [
       "libericafx",
       "minimal-vm",
