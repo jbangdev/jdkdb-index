@@ -1107,6 +1107,28 @@
   },
   {
     "architecture": "ppc64",
+    "distro": "sapmachine",
+    "features": [
+      "le"
+    ],
+    "file_type": "tar.gz",
+    "filename": "sapmachine-jdk-11.0.21_linux-ppc64le_bin.tar.gz",
+    "image_type": "jdk",
+    "java_version": "11.0.21+0-LTS-sapmachine",
+    "jvm_impl": "hotspot",
+    "md5": "2fdcee9a3870b6dcdb046cc858bd98eb",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "b667d58e83d521dceba76d7595b9bacf9fdcabfc",
+    "sha256": "a72a81d78eedf882985a7c27b8fad00142d9cd07ab2ece299b0c2a8d4343b32c",
+    "sha512": "cf73c91926714a2abbd0673ac922df48abecc6d67a94290ef72ff9f8b1847234322f94b88898a0fd8f98a97229b4325b2c6d9e7b26af678780bf3ad07e81e23b",
+    "size": 179458827,
+    "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-11.0.21/sapmachine-jdk-11.0.21_linux-ppc64le_bin.tar.gz",
+    "vendor": "sap",
+    "version": "11.0.21"
+  },
+  {
+    "architecture": "ppc64",
     "distro": "semeru",
     "features": [
       "certified"
@@ -1856,6 +1878,28 @@
   {
     "architecture": "ppc64",
     "distro": "semeru",
+    "features": [
+      "certified"
+    ],
+    "file_type": "rpm",
+    "filename": "ibm-semeru-certified-17-jdk-17.0.2.0-1.ppc64.rpm",
+    "image_type": "jdk",
+    "java_version": "17.0.2+8",
+    "jvm_impl": "openj9",
+    "md5": "61faeb738c05e2e9d62d916a84a8fc74",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "6d5f45a828f13982a07435848131edad2bed9dd2",
+    "sha256": "8ff44594ba7f0674566298439e7d686717765430c4b71e63e4eb649b9a61eece",
+    "sha512": "a9c5be12e77378564ed570182f889172935df0a922c530d7cfcc790f39c8d5f1b4a7f7d53cd423dcffcdb6f722abe28b6ef90b49ba24401f393359b64c7beb9f",
+    "size": 247607223,
+    "url": "https://github.com/ibmruntimes/semeru17-certified-binaries/releases/download/jdk-17.0.2+8_openj9-0.30.0/ibm-semeru-certified-17-jdk-17.0.2.0-1.ppc64.rpm",
+    "vendor": "ibm",
+    "version": "17.0.2+8_openj9-0.30.0"
+  },
+  {
+    "architecture": "ppc64",
+    "distro": "semeru",
     "features": [],
     "file_type": "rpm",
     "filename": "ibm-semeru-open-17-jdk-17.0.3.7_0.32.0-1.ppc64.rpm",
@@ -2422,6 +2466,28 @@
     "url": "https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.15%2B6_openj9-0.51.0/ibm-semeru-open-17-jdk-17.0.15.6_0.51.0-1.ppc64.rpm",
     "vendor": "ibm",
     "version": "17.0.15+6_openj9-0.51.0"
+  },
+  {
+    "architecture": "ppc64",
+    "distro": "semeru",
+    "features": [
+      "certified"
+    ],
+    "file_type": "rpm",
+    "filename": "ibm-semeru-certified-17-jdk-17.0.16.0-1.ppc64.rpm",
+    "image_type": "jdk",
+    "java_version": "17.0.16+8",
+    "jvm_impl": "openj9",
+    "md5": "77b38b0811dc09f7791901ddcea21820",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "2b9087c2e7347f0d13879dd51f5fe4bc362f5f65",
+    "sha256": "f22998912aa95b3cb6eded15acd9f1e724e8911ed644a314ac0fd9c14108dbd9",
+    "sha512": "10e1e713af8e0cd532bf13c1681f9f5b45bc04fcb6fd63c65e6d71d4526b8ce6c0adf15b2f6f42cde7404d07a3c65840da6bf765021116f439077d168a0f8485",
+    "size": 266511421,
+    "url": "https://github.com/ibmruntimes/semeru17-certified-binaries/releases/download/jdk-17.0.16+8_openj9-0.53.0/ibm-semeru-certified-17-jdk-17.0.16.0-1.ppc64.rpm",
+    "vendor": "ibm",
+    "version": "17.0.16+8_openj9-0.53.0"
   },
   {
     "architecture": "ppc64",
@@ -3614,6 +3680,26 @@
     "url": "https://github.com/ibmruntimes/semeru22-binaries/releases/download/jdk-22.0.2+9_openj9-0.46.0/ibm-semeru-open-22-jdk-22.0.2.9_0.46.0-1.ppc64.rpm",
     "vendor": "ibm",
     "version": "22.0.2+9_openj9-0.46.0"
+  },
+  {
+    "architecture": "ppc64",
+    "distro": "semeru",
+    "features": [],
+    "file_type": "rpm",
+    "filename": "ibm-semeru-open-22-jdk-22.0.2.9_0.46.1-1.ppc64.rpm",
+    "image_type": "jdk",
+    "java_version": "22.0.2+9",
+    "jvm_impl": "openj9",
+    "md5": "11a58e7c167f3cdfe84dc05da957cbd6",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "9520caff87dd4fe59864226930241c5c5d45f9e2",
+    "sha256": "1f3fa3cbff5da152e15e92ee3e5af68fd0a31f0190a83d01eac68fbe15ad8139",
+    "sha512": "d9591a53e6bf6e42ac87565d03dbf896544c7ab15f45bef53bbf93fbd519bc698b18b390dc0360dc1805fdb31f213ce67c4229c006c317d8d72a685e57d612d4",
+    "size": 246224684,
+    "url": "https://github.com/ibmruntimes/semeru22-binaries/releases/download/jdk-22.0.2+9_openj9-0.46.1/ibm-semeru-open-22-jdk-22.0.2.9_0.46.1-1.ppc64.rpm",
+    "vendor": "ibm",
+    "version": "22.0.2+9_openj9-0.46.1"
   },
   {
     "architecture": "ppc64",

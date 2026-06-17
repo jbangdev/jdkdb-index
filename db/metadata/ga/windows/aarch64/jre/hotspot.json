@@ -357,6 +357,30 @@
   {
     "architecture": "aarch64",
     "distro": "liberica",
+    "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
+    "file_type": "msi",
+    "filename": "bellsoft-jre11.0.14.1+1-windows-aarch64-full.msi",
+    "image_type": "jre",
+    "java_version": "11.0.14.1+1",
+    "jvm_impl": "hotspot",
+    "md5": "5c260aad467ca89ffef47ff4441d9f2d",
+    "os": "windows",
+    "release_type": "ga",
+    "sha1": "c49d30de75d7dbdf6b4f8575558bddccd6f46c25",
+    "sha256": "9498378aca390d1c7ef550c75edeb90a46f2d2723a1d8c9003bd2773b6ff64f3",
+    "sha512": "f8c0a45095097cbf3f045bb7c6767e2687964ab491b73a76a5ac0ca3ab728753a512fa4239ed54467d9ef84fba12673d5f808d426fd113fd7058a37bd120a8dd",
+    "size": 45817856,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jre11.0.14.1+1-windows-aarch64-full.msi",
+    "vendor": "bellsoft",
+    "version": "11.0.14.1+1"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "liberica",
     "features": [],
     "file_type": "msi",
     "filename": "bellsoft-jre11.0.14.1+1-windows-aarch64.msi",
@@ -6391,6 +6415,30 @@
   {
     "architecture": "aarch64",
     "distro": "liberica",
+    "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
+    "file_type": "msi",
+    "filename": "bellsoft-jre17.0.8.1+1-windows-aarch64-full.msi",
+    "image_type": "jre",
+    "java_version": "17.0.8.1+1-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "6bb3530634affddcb126d43d0ee1973b",
+    "os": "windows",
+    "release_type": "ga",
+    "sha1": "4cc88042ed8b699c494b7b6857e1382d7e638eed",
+    "sha256": "e82c017522b7337f83c643eca09d399d877c745366971c63123694109efb37c4",
+    "sha512": "c088f20b3ff3275e1358ffbd71e09f755cfc08d2c59a91349603a56f55d7fd5d429835ca36fb7dd156b52e7bfb3de2a5e1cbd4292aee37ec8a436efa5f9aaaf6",
+    "size": 43581440,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.8.1+1/bellsoft-jre17.0.8.1+1-windows-aarch64-full.msi",
+    "vendor": "bellsoft",
+    "version": "17.0.8.1+1"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "liberica",
     "features": [],
     "file_type": "zip",
     "filename": "bellsoft-jre17.0.8.1+1-windows-aarch64.zip",
@@ -6407,6 +6455,54 @@
     "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.8.1+1/bellsoft-jre17.0.8.1+1-windows-aarch64.zip",
     "vendor": "bellsoft",
     "version": "17.0.8.1+1"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "liberica",
+    "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
+    "file_type": "msi",
+    "filename": "bellsoft-jre17.0.8+7-windows-aarch64-full.msi",
+    "image_type": "jre",
+    "java_version": "17.0.8+7-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "e3a96e3f72cfdd0e3eddba85f4b048b7",
+    "os": "windows",
+    "release_type": "ga",
+    "sha1": "b1aafd10146c5c63a94d38d488b1045826cb75db",
+    "sha256": "0f3b3d2500a435292cda5d5694de011614b90e49bbb9c9395de2dbddc00c9199",
+    "sha512": "30b89c0e598908d9d6140e8e38fc27d1a8a2d2aaf1b808fd8285e5bef41381821c1fc744fe4d99e5e5293b8a18a6f0ed6f023a8b04878899ab44dd391972bdba",
+    "size": 43577344,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.8+7/bellsoft-jre17.0.8+7-windows-aarch64-full.msi",
+    "vendor": "bellsoft",
+    "version": "17.0.8+7"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "liberica",
+    "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
+    "file_type": "msi",
+    "filename": "bellsoft-jre17.0.9+11-windows-aarch64-full.msi",
+    "image_type": "jre",
+    "java_version": "17.0.9+11-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "ba8117d01f0cfee690277d4c34ffb32f",
+    "os": "windows",
+    "release_type": "ga",
+    "sha1": "dd9d86d132e7f3555b6de9c41d9299751c43e17b",
+    "sha256": "a13669c3bd931c7ac24dce37c01dd09a7c535476ccffe4b0f8dc151ab771263c",
+    "sha512": "ad65e4441a303bb739ab5a148d626eddbf31bbe35996ac8c91cc3b2a9a9f54b9e7f611e64e6c2781ab68e19b67d2cb6827fab03717e8874c8f93a2a351c3d87d",
+    "size": 43560960,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.9+11/bellsoft-jre17.0.9+11-windows-aarch64-full.msi",
+    "vendor": "bellsoft",
+    "version": "17.0.9+11"
   },
   {
     "architecture": "aarch64",

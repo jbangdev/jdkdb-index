@@ -2425,6 +2425,26 @@
   },
   {
     "architecture": "s390x",
+    "distro": "adoptopenjdk",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK17U-jre_s390x_linux_hotspot_17.0.13_11.tar.gz",
+    "image_type": "jre",
+    "java_version": "17.0.13+11",
+    "jvm_impl": "hotspot",
+    "md5": "a031c5a820ff5a7716d20c7fb27318ed",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "d3553761be80e55aceccfe9dd20bb6b94a6d25bf",
+    "sha256": "0f46246643b6543c097d6eda4db03dbe5c8372217e06d661ac0fb3882eab007d",
+    "sha512": "56c3544f8b5e7913ec053fce72a81bc82a261c0b5e9e869262e0157c077ac9128a8c9dc3c019570f7aabf21c31c3bf871cdbe80fcb6717d6507ae3d0a37d1257",
+    "size": 43283219,
+    "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.13%2B11/OpenJDK17U-jre_s390x_linux_hotspot_17.0.13_11.tar.gz",
+    "vendor": "adoptopenjdk",
+    "version": "17.0.13+11"
+  },
+  {
+    "architecture": "s390x",
     "distro": "temurin",
     "features": [],
     "file_type": "tar.gz",
@@ -6928,5 +6948,25 @@
     "url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27%2B23-ea-beta/OpenJDK-jre_s390x_linux_hotspot_27_23-ea.tar.gz",
     "vendor": "eclipse",
     "version": "27+23-ea-beta"
+  },
+  {
+    "architecture": "s390x",
+    "distro": "temurin",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK-jre_s390x_linux_hotspot_28_2-ea.tar.gz",
+    "image_type": "jre",
+    "java_version": "28",
+    "jvm_impl": "hotspot",
+    "md5": "6578a40a326d458a4d9988ddf63fd091",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "c5ed6e50c5d6c42d87c670d67c862a097fe94b57",
+    "sha256": "8ae2562d47a816323c0246fc0b3dafc709bbff9576ad07a4f77d75ee928bebe9",
+    "sha512": "0b8640c98fc51005916ea526878d42a789a59ba75b40fee5de7097781bc13c7c311abbaabad13c0b2d77a1b2bd1d5141dbf447ffd712889e7957fccd368e823e",
+    "size": 60665638,
+    "url": "https://github.com/adoptium/temurin28-binaries/releases/download/jdk-28%2B2-ea-beta/OpenJDK-jre_s390x_linux_hotspot_28_2-ea.tar.gz",
+    "vendor": "eclipse",
+    "version": "28+2-ea-beta"
   }
 ]

@@ -108,6 +108,28 @@
   {
     "architecture": "aarch64",
     "distro": "zulu",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "zulu11.66.15-ca-jdk11.0.20-linux_musl_aarch64.tar.gz",
+    "image_type": "jdk",
+    "java_version": "11.0.20+8-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "d1d09df8d714bd24606ad0680d88e5f5",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "98c06c830faf0cefc2fb63b43fda73fd07163b52",
+    "sha256": "f674a9d2d72d366c7bd9b4947dada0478d41a28d8b9a97946e2946c028e884b2",
+    "sha512": "a0a23bd898fe63390ff62ff633f9e5e6b5e8f3af47dad28d319a09e506ed541ae82dfb7568b8f04d935b356c70515cae8420bc17462faf82cb751dba1e768b30",
+    "size": 198952491,
+    "url": "https://static.azul.com/zulu/bin/zulu11.66.15-ca-jdk11.0.20-linux_musl_aarch64.tar.gz",
+    "vendor": "azul",
+    "version": "11.66.15"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "zulu",
     "features": [],
     "file_type": "tar.gz",
     "filename": "zulu11.66.19-ca-jdk11.0.20.1-linux_aarch64.tar.gz",
@@ -336,6 +358,28 @@
     "url": "https://static.azul.com/zulu/bin/zulu11.76.21-ca-jdk11.0.25-linux_aarch64.tar.gz",
     "vendor": "azul",
     "version": "11.76.21"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "zulu",
+    "features": [
+      "javafx"
+    ],
+    "file_type": "tar.gz",
+    "filename": "zulu11.78.15-ca-fx-jdk11.0.26-linux_aarch64.tar.gz",
+    "image_type": "jdk",
+    "java_version": "11.0.26+4-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "3be9979170f24eb8bfb991a8fdb2ce8c",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "47062592f4c7be4cb8d7bb70e4da07c957db8838",
+    "sha256": "8645a7b9521229a4c92b37c84c395a7cb5f3a0f476c6707121a5241e2b5bc573",
+    "sha512": "04eac6e5d91822be92e17be3ad7da3930910a760efa709ff3d46d4a2505f9248d9d4dad6119352b8a89acbf8ae0454073ae0d6dd8d93dc78981ce207f08970b8",
+    "size": 305144729,
+    "url": "https://static.azul.com/zulu/bin/zulu11.78.15-ca-fx-jdk11.0.26-linux_aarch64.tar.gz",
+    "vendor": "azul",
+    "version": "11.78.15"
   },
   {
     "architecture": "aarch64",
