@@ -106,6 +106,28 @@
   {
     "architecture": "ppc64",
     "distro": "semeru",
+    "features": [
+      "certified"
+    ],
+    "file_type": "tar.gz",
+    "filename": "ibm-semeru-certified-jre_ppc64_aix_21.0.4.0.tar.gz",
+    "image_type": "jre",
+    "java_version": "21.0.4+7",
+    "jvm_impl": "openj9",
+    "md5": "9f223eb904efc571595011f10fe9dbe3",
+    "os": "aix",
+    "release_type": "ga",
+    "sha1": "61bbbf7c9315dcb7060e044727cb82ce79ba1469",
+    "sha256": "ca06e652c437114fad1783984eb9f7e4978b8c274261bfc1a7e109112ecade6c",
+    "sha512": "f5b1eadc926a940aaea11801a370439c1eb051c507ed7e1458b8f24459507262c5857d6eac0bba837b35fd70190a1f1ba6ee20f15c77c6c1623d416654f14614",
+    "size": 65323205,
+    "url": "https://github.com/ibmruntimes/semeru21-certified-binaries/releases/download/jdk-21.0.4+7_openj9-0.46.0/ibm-semeru-certified-jre_ppc64_aix_21.0.4.0.tar.gz",
+    "vendor": "ibm",
+    "version": "21.0.4+7_openj9-0.46.0"
+  },
+  {
+    "architecture": "ppc64",
+    "distro": "semeru",
     "features": [],
     "file_type": "tar.gz",
     "filename": "ibm-semeru-open-jre_ppc64_aix_21.0.4_7_openj9-0.46.0.tar.gz",
@@ -432,5 +454,25 @@
     "url": "https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.11.0-m2/ibm-semeru-open-jre_ppc64_aix_21.0.11.0-m2.tar.gz",
     "vendor": "ibm",
     "version": "21.0.11.0-m2"
+  },
+  {
+    "architecture": "ppc64",
+    "distro": "semeru",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "ibm-semeru-open-jre_ppc64_aix_21.0.12.0-m1.tar.gz",
+    "image_type": "jre",
+    "java_version": "21.0.12+6-LTS",
+    "jvm_impl": "openj9",
+    "md5": "931a218010e38963a93b908f20c33d6f",
+    "os": "aix",
+    "release_type": "ga",
+    "sha1": "74d7d8888b709e7c17bef5f60d885b4f6ad78d70",
+    "sha256": "027eb1f2313375a792ba451204b63ae95b42936ee75ee57b63ebaf460702819d",
+    "sha512": "ef70288652dff5ad4e802b85a2bb8be820f331bad7ab2a7b7af41b8e3d3814ea3cb0b6b9f0471032dc54634cffb3452ea9f7cd31cf248808fbd767adb3a0c076",
+    "size": 69864826,
+    "url": "https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.12.0-m1/ibm-semeru-open-jre_ppc64_aix_21.0.12.0-m1.tar.gz",
+    "vendor": "ibm",
+    "version": "21.0.12.0-m1"
   }
 ]

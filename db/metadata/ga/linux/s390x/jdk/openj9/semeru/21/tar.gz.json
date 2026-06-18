@@ -308,6 +308,28 @@
   {
     "architecture": "s390x",
     "distro": "semeru",
+    "features": [
+      "certified"
+    ],
+    "file_type": "tar.gz",
+    "filename": "ibm-semeru-certified-jdk_s390x_linux_21.0.10.0.tar.gz",
+    "image_type": "jdk",
+    "java_version": "21.0.10+7",
+    "jvm_impl": "openj9",
+    "md5": "20c45528bb804234558167585d1a87f5",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "797922a28a227553f385cc91873f158ff7112622",
+    "sha256": "e7db1841762cc680f7cbdbeaffa7520c68e9f05ae9f7be4fed4c9e255b578bde",
+    "sha512": "7752d2c5415566ef8a2704e5cfed9de5c27a204897ff6ce13e9adfa8e4c1c0e9749dc7e215a881a9af2b9ef493efc47eb0171521a6d64416f24419ee4c5d68f6",
+    "size": 258796435,
+    "url": "https://github.com/ibmruntimes/semeru21-certified-binaries/releases/download/jdk-21.0.10+7_openj9-0.57.0/ibm-semeru-certified-jdk_s390x_linux_21.0.10.0.tar.gz",
+    "vendor": "ibm",
+    "version": "21.0.10+7_openj9-0.57.0"
+  },
+  {
+    "architecture": "s390x",
+    "distro": "semeru",
     "features": [],
     "file_type": "tar.gz",
     "filename": "ibm-semeru-open-jdk_s390x_linux_21.0.10.1.tar.gz",
@@ -364,5 +386,25 @@
     "url": "https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.11.0-m2/ibm-semeru-open-jdk_s390x_linux_21.0.11.0-m2.tar.gz",
     "vendor": "ibm",
     "version": "21.0.11.0-m2"
+  },
+  {
+    "architecture": "s390x",
+    "distro": "semeru",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "ibm-semeru-open-jdk_s390x_linux_21.0.12.0-m1.tar.gz",
+    "image_type": "jdk",
+    "java_version": "21.0.12+6-LTS",
+    "jvm_impl": "openj9",
+    "md5": "fc7d69ba5474a37f690e297508d543b9",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "38b5b7b72a5fe46ad946892563d66ed331619660",
+    "sha256": "057518d872981d7af26dfdef9efffff756d5c5456b57021f0c61cb515bf8ba40",
+    "sha512": "0e1191b31df045b3b94fa32f563b75e5ab2b22c368ece57792ed26049c2212532034321ad3db5d62396718636a2997bf650042878cf983ae92c44ddc2770efcb",
+    "size": 244538635,
+    "url": "https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.12.0-m1/ibm-semeru-open-jdk_s390x_linux_21.0.12.0-m1.tar.gz",
+    "vendor": "ibm",
+    "version": "21.0.12.0-m1"
   }
 ]

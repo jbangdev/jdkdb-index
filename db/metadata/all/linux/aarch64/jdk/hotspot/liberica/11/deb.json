@@ -1223,6 +1223,28 @@
     "architecture": "aarch64",
     "distro": "liberica",
     "features": [
+      "lite"
+    ],
+    "file_type": "deb",
+    "filename": "bellsoft-jdk11.0.29+12-linux-aarch64-lite.deb",
+    "image_type": "jdk",
+    "java_version": "11.0.29+12-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "15ef81ae6af490caf76e1d868ff40887",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "0bfb2b64be49cc3540cbc166739d0d5ffe3ba978",
+    "sha256": "5ed0cc13db9f233f014d05f6a4688e7a98abd18431f32d96e3cfbe3c4f19e0f5",
+    "sha512": "c071509d1afd56bb3bd37f827d1c80119c147c7949dd7eb8a62e30cbd50699af1f3d4e8205567cdec38d8c0b5a176aeb11bcd3acb9ec627d2d322cfa5b9865bb",
+    "size": 69845284,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.29+12/bellsoft-jdk11.0.29+12-linux-aarch64-lite.deb",
+    "vendor": "bellsoft",
+    "version": "11.0.29+12"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "liberica",
+    "features": [
       "libericafx",
       "minimal-vm",
       "javafx"
