@@ -402,6 +402,30 @@
   {
     "architecture": "aarch64",
     "distro": "liberica",
+    "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
+    "file_type": "rpm",
+    "filename": "bellsoft-jre11.0.20.1+1-linux-aarch64-full.rpm",
+    "image_type": "jre",
+    "java_version": "11.0.20.1+1-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "c886858608b74c1355e0d75b3c12021c",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "04b31467bdad80f7ef045f5d2e31d63b7e905355",
+    "sha256": "c28ba8b1d6c247cddf4d0a827cb68c0a0d31879f584f2662dda14f6dbd3b026e",
+    "sha512": "d6b2eec9e9aaf49846c33978ad32d2b56ef8d4ff95bfdf7149093c6af868a6d9c5d0bb79e2b4d1adf976202bf6219c415f318dedbc77eec8972e9b137c67b4dc",
+    "size": 66261360,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.20.1+1/bellsoft-jre11.0.20.1+1-linux-aarch64-full.rpm",
+    "vendor": "bellsoft",
+    "version": "11.0.20.1+1"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "liberica",
     "features": [],
     "file_type": "rpm",
     "filename": "bellsoft-jre11.0.20.1+1-linux-aarch64.rpm",
@@ -742,5 +766,25 @@
     "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.29+12/bellsoft-jre11.0.29+12-linux-aarch64.rpm",
     "vendor": "bellsoft",
     "version": "11.0.29+12"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "liberica",
+    "features": [],
+    "file_type": "rpm",
+    "filename": "bellsoft-jre11.0.30+9-linux-aarch64.rpm",
+    "image_type": "jre",
+    "java_version": "11.0.30+9-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "04f03b9261c2280c61a60e2bb204c8a0",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "570cd568ead825cf1211f201d31e9ac3211bd7cb",
+    "sha256": "16f4988450fb7d5c341f5fd48a200e63260b60cc24c60fe72f986a5f81ef6842",
+    "sha512": "ad45b496c4803e65d06e18c4b0f6f364d189a8aa242754801c07161ac26c9cd3fdc31287cd6585b14f49c56b9a3bb35dd93d82a67600988bbbe6b4a43d27d00c",
+    "size": 37197816,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.30+9/bellsoft-jre11.0.30+9-linux-aarch64.rpm",
+    "vendor": "bellsoft",
+    "version": "11.0.30+9"
   }
 ]

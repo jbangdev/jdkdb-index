@@ -62,6 +62,28 @@
   {
     "architecture": "aarch64",
     "distro": "adoptopenjdk",
+    "features": [
+      "large_heap"
+    ],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK11U-jre_aarch64_linux_openj9_linuxXL_11.0.8_10_openj9-0.21.0.tar.gz",
+    "image_type": "jre",
+    "java_version": "11.0.8-ea+10",
+    "jvm_impl": "openj9",
+    "md5": "da106a008c92574c65e373c2f66e1c0c",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "211191145b0019b7bfabb763b87f1812268ff382",
+    "sha256": "68210eab492261fe2d1185849880eafdea3ac3ebb4e1c7975d30b895cbc1a20c",
+    "sha512": "19db10a250a986b5a356658e963131fa2b126fef4aa8129c8f6325faac2072587cc18fe6fd3852b2fefc04674b5e3e976353c5e81e36c025f9a138389de1362e",
+    "size": 39829088,
+    "url": "https://github.com/AdoptOpenJDK/openjdk11-binaries/releases/download/jdk-11.0.8%2B10_openj9-0.21.0/OpenJDK11U-jre_aarch64_linux_openj9_linuxXL_11.0.8_10_openj9-0.21.0.tar.gz",
+    "vendor": "adoptopenjdk",
+    "version": "11.0.8-ea+10.openj9-0.21.0"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "adoptopenjdk",
     "features": [],
     "file_type": "tar.gz",
     "filename": "OpenJDK11U-jre_aarch64_linux_openj9_11.0.9_11_openj9-0.23.0.tar.gz",
@@ -200,6 +222,28 @@
     "sha512": "b2bf31c03631e9cb3c6062adb6f80e87a3a93f4ff714e44330a525b485e8d64246f798145623f53a47e6f0a8f9bd075605d7ba6760b23f8a4f1c38251cee2d86",
     "size": 47020339,
     "url": "https://github.com/AdoptOpenJDK/openjdk15-binaries/releases/download/jdk-15.0.2%2B7_openj9-0.24.0/OpenJDK15U-jre_aarch64_linux_openj9_15.0.2_7_openj9-0.24.0.tar.gz",
+    "vendor": "adoptopenjdk",
+    "version": "15.0.2-ea+7.openj9-0.24.0"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "adoptopenjdk",
+    "features": [
+      "large_heap"
+    ],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK15U-jre_aarch64_linux_openj9_linuxXL_15.0.2_7_openj9-0.24.0.tar.gz",
+    "image_type": "jre",
+    "java_version": "15.0.2-ea+7",
+    "jvm_impl": "openj9",
+    "md5": "b74708fcb2319d52c62fdf4ebd496259",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "8ef7117a4ee69e6b1111a4233e34e2b718d04024",
+    "sha256": "7ed27117dd6f9f35685d91882f139f2d037cc5064270291bef1309a767eeebc5",
+    "sha512": "1f29164203608d995c6c460ed6729b5d4dab9dbf7bbba1a8c5c8698e6fb61776bd55d60f71d88b77c6890e034e50156344e0ee51e77153705c2c6ccf9e84bb7b",
+    "size": 47010950,
+    "url": "https://github.com/AdoptOpenJDK/openjdk15-binaries/releases/download/jdk-15.0.2%2B7_openj9-0.24.0/OpenJDK15U-jre_aarch64_linux_openj9_linuxXL_15.0.2_7_openj9-0.24.0.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "15.0.2-ea+7.openj9-0.24.0"
   },
