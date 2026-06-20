@@ -3,6 +3,30 @@
     "architecture": "x86_64",
     "distro": "liberica",
     "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jdk14.0.1+8-linux-amd64-full.tar.gz",
+    "image_type": "jdk",
+    "java_version": "14.0.1+8",
+    "jvm_impl": "hotspot",
+    "md5": "6cd23c93a2d95d290578099fb34ac09a",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "a11bd26e5f9c823760b3f44442121c836061c985",
+    "sha256": "74d135ed9000d81c5f283a0b0ae3ac0c221f54326c331051cd911f2e6b646b00",
+    "sha512": "6b5a056e54fd49301d0d8fcc9dad50c22f62fec7d9961800677e20011589309b8dd53ed6acc56190b444c561cd20c656e9c07d07e8542eacc2e2060e07c08799",
+    "size": 307007513,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/14.0.1+8/bellsoft-jdk14.0.1+8-linux-amd64-full.tar.gz",
+    "vendor": "bellsoft",
+    "version": "14.0.1+8"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
       "lite",
       "musl"
     ],

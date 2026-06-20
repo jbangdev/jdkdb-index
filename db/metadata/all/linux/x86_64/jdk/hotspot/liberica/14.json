@@ -27,6 +27,30 @@
     "architecture": "x86_64",
     "distro": "liberica",
     "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jdk14.0.1+8-linux-amd64-full.tar.gz",
+    "image_type": "jdk",
+    "java_version": "14.0.1+8",
+    "jvm_impl": "hotspot",
+    "md5": "6cd23c93a2d95d290578099fb34ac09a",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "a11bd26e5f9c823760b3f44442121c836061c985",
+    "sha256": "74d135ed9000d81c5f283a0b0ae3ac0c221f54326c331051cd911f2e6b646b00",
+    "sha512": "6b5a056e54fd49301d0d8fcc9dad50c22f62fec7d9961800677e20011589309b8dd53ed6acc56190b444c561cd20c656e9c07d07e8542eacc2e2060e07c08799",
+    "size": 307007513,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/14.0.1+8/bellsoft-jdk14.0.1+8-linux-amd64-full.tar.gz",
+    "vendor": "bellsoft",
+    "version": "14.0.1+8"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
       "lite"
     ],
     "file_type": "rpm",
@@ -329,6 +353,26 @@
     "sha512": "baddc07afb7cc7ee843c7972f238ba36ee48d3715c482ad2eaf4864bd4201a5510bbe0e125ab41fd2e8bef14a7f93fb247c6079c2d7fd7d6ca418e84fed9523f",
     "size": 77170452,
     "url": "https://github.com/bell-sw/Liberica/releases/download/14+36/bellsoft-jdk14+36-linux-amd64-lite.rpm",
+    "vendor": "bellsoft",
+    "version": "14+36"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [],
+    "file_type": "rpm",
+    "filename": "bellsoft-jdk14+36-linux-amd64.rpm",
+    "image_type": "jdk",
+    "java_version": "14+36",
+    "jvm_impl": "hotspot",
+    "md5": "ec33e657eceb0a0cd53cb746cd89f75e",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "376e2771d00754245d244e5f3057d2cbdbb8b7aa",
+    "sha256": "272abeacc2859627deeaa8ab8587729998273b279b230c39f2aba8240fe74087",
+    "sha512": "9a6ed306275447b78492695a9f879e5e4e5b83ba4669c8c587544426d45017a771c91c7f6d7c82fe4da0f1cfa23cff87d6dc8cf9c574a1b88d9f10adf8a393b4",
+    "size": 197438460,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/14+36/bellsoft-jdk14+36-linux-amd64.rpm",
     "vendor": "bellsoft",
     "version": "14+36"
   },

@@ -902,6 +902,28 @@
   {
     "architecture": "aarch64",
     "distro": "adoptopenjdk",
+    "features": [
+      "large_heap"
+    ],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK11U-jre_aarch64_linux_openj9_linuxXL_11.0.7_10_openj9-0.20.0.tar.gz",
+    "image_type": "jre",
+    "java_version": "11.0.7-ea+10",
+    "jvm_impl": "openj9",
+    "md5": "6b0d5d3870ee644ea544f4210c278815",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "f00222a296254a1a9d5509062b2e0f936ed1904e",
+    "sha256": "d3dc6bc4e2428ac891c00f137404b5a6f1b394ab11dbfef397307b862bd402f1",
+    "sha512": "8a8ba5b95805973f028327e416344b78480b090b65a75ccee61d3e80b289b87ab8dda961a819d65bf89a4bce9a88ee52a47c94d405e6794e9374e31d3268a785",
+    "size": 39719372,
+    "url": "https://github.com/AdoptOpenJDK/openjdk11-binaries/releases/download/jdk-11.0.7%2B10_openj9-0.20.0/OpenJDK11U-jre_aarch64_linux_openj9_linuxXL_11.0.7_10_openj9-0.20.0.tar.gz",
+    "vendor": "adoptopenjdk",
+    "version": "11.0.7-ea+10.1.openj9-0.20.0"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "adoptopenjdk",
     "features": [],
     "file_type": "tar.gz",
     "filename": "OpenJDK11U-jre_aarch64_linux_openj9_11.0.8_10_openj9-0.21.0.tar.gz",
@@ -3408,6 +3430,28 @@
     "url": "https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.16+8_openj9-0.53.0/ibm-semeru-open-jre_aarch64_linux_17.0.16_8_openj9-0.53.0.tar.gz",
     "vendor": "ibm",
     "version": "17.0.16+8_openj9-0.53.0"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "semeru",
+    "features": [
+      "certified"
+    ],
+    "file_type": "rpm",
+    "filename": "ibm-semeru-certified-17-jre-17.0.17.0-1.aarch64.rpm",
+    "image_type": "jre",
+    "java_version": "17.0.17+10",
+    "jvm_impl": "openj9",
+    "md5": "d17fd91aec0b7e88c7216e1290b4971b",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "54833c80dd1efd4eceef1ce3b327a82d49f26724",
+    "sha256": "add2def27cd02461e3165dadf188d45fa00bafa149755d1dda7ff2b3768a2e76",
+    "sha512": "415ccc33fe1a838d518572c9f28c609b9b525ecbcbaca2deae5363f5d56f784e8f6a01ecaa5f9d22e94de2c4645a7845e34ed1d2db1e1c954a4e2943b9581d38",
+    "size": 31701076,
+    "url": "https://github.com/ibmruntimes/semeru17-certified-binaries/releases/download/jdk-17.0.17+10_openj9-0.56.0/ibm-semeru-certified-17-jre-17.0.17.0-1.aarch64.rpm",
+    "vendor": "ibm",
+    "version": "17.0.17+10_openj9-0.56.0"
   },
   {
     "architecture": "aarch64",
