@@ -482,6 +482,28 @@
   {
     "architecture": "x86_64",
     "distro": "liberica",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jre11.0.14+9-linux-x64-musl.tar.gz",
+    "image_type": "jre",
+    "java_version": "11.0.14+9",
+    "jvm_impl": "hotspot",
+    "md5": "b4af9f1d033c94656b3182e5367f0ab5",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "e6dc46ca3d843b49eae1f67efb8214afc01545d9",
+    "sha256": "6eea082699ffd0b894c03f277ae3051a95847e740ecef36f3348dc14b31ef279",
+    "sha512": "59bd251f8e226692e7f987bcb6be9e3f3d26d46bcc4722004a4dd27cdd55c664de6b85df2353488f68beedf5bdf1e57b2b7a40d56973aba15d75df803f34d881",
+    "size": 48363071,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.14+9/bellsoft-jre11.0.14+9-linux-x64-musl.tar.gz",
+    "vendor": "bellsoft",
+    "version": "11.0.14+9"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
     "features": [],
     "file_type": "tar.gz",
     "filename": "bellsoft-jre11.0.15.1+2-linux-amd64.tar.gz",
@@ -1184,6 +1206,30 @@
     "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.28+12/bellsoft-jre11.0.28+12-linux-amd64.tar.gz",
     "vendor": "bellsoft",
     "version": "11.0.28+12"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jre11.0.29+10-linux-amd64-full.tar.gz",
+    "image_type": "jre",
+    "java_version": "11.0.29+10-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "bf07bcd39f44e538d17fcea87835bf02",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "9908bf702d16e9fe7952d2045973d77ee1f8a3bd",
+    "sha256": "9eb0f0ab3e6b8a4c2f529edfc923934c78e32a95c1f4af479cb04019ac9b6388",
+    "sha512": "72102ef2aa4efdf7b1c557ff23af056c10d491b3a45c93f03f9f2cb159f40c8f769d630a4cff4447af5cc518bd8681615b9d1a067074235a7c446537d9edb58d",
+    "size": 116374652,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.29+10/bellsoft-jre11.0.29+10-linux-amd64-full.tar.gz",
+    "vendor": "bellsoft",
+    "version": "11.0.29+10"
   },
   {
     "architecture": "x86_64",

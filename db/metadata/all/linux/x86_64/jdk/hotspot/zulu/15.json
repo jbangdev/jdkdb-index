@@ -82,6 +82,28 @@
   {
     "architecture": "x86_64",
     "distro": "zulu",
+    "features": [
+      "musl"
+    ],
+    "file_type": "zip",
+    "filename": "zulu15.0.23-ea-jdk15.0.0-ea.10-linux_musl_x64.zip",
+    "image_type": "jdk",
+    "java_version": "15.0.0-ea.10",
+    "jvm_impl": "hotspot",
+    "md5": "8cf51a94b75980b3e9b6423bd01986b5",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "f6a15c47380fe4a867544cfac18c9ef2cf5d68f8",
+    "sha256": "f6b89e0c66ae517ff4d92c90496ce360dfa341c1ce4ab976c2cbcff051cfdcea",
+    "sha512": "9e58e6eb1bc9aa5be8ee4b280f36f2fc14369d4d46e5153eb43be9e5e3ab623fe6fcc32dfda5911df9726bae2d6f1a81aebf6c367aca919769a3685eb85b35c7",
+    "size": 215199221,
+    "url": "https://static.azul.com/zulu/bin/zulu15.0.23-ea-jdk15.0.0-ea.10-linux_musl_x64.zip",
+    "vendor": "azul",
+    "version": "15.0.23"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "zulu",
     "features": [],
     "file_type": "tar.gz",
     "filename": "zulu15.0.23-ea-jdk15.0.0-ea.10-linux_x64.tar.gz",
@@ -750,6 +772,28 @@
     "url": "https://static.azul.com/zulu/bin/zulu15.29.15-ca-jdk15.0.2-linux_x64.tar.gz",
     "vendor": "azul",
     "version": "15.29.15"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "zulu",
+    "features": [
+      "javafx"
+    ],
+    "file_type": "tar.gz",
+    "filename": "zulu15.32.15-ca-fx-jdk15.0.3-linux_x64.tar.gz",
+    "image_type": "jdk",
+    "java_version": "15.0.3",
+    "jvm_impl": "hotspot",
+    "md5": "673aabcd3ea2d02c3daca12a0d952542",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "7685275ac1dee21b94cf4685e2b50046e39952cc",
+    "sha256": "0bb3077ebf45c0c016f49eda51dda4604e6a6db98f8d7ff7d04a7a2af46d7152",
+    "sha512": "dd6a83f6146d7e0c95004df2bc7020c6b9fcba0fab99850a5fc1c32a0ca82b64daf623231ab4713c61f8a68a13ed22d6d43c8b60e1a86494c40cde8e074afbe5",
+    "size": 296360455,
+    "url": "https://static.azul.com/zulu/bin/zulu15.32.15-ca-fx-jdk15.0.3-linux_x64.tar.gz",
+    "vendor": "azul",
+    "version": "15.32.15"
   },
   {
     "architecture": "x86_64",

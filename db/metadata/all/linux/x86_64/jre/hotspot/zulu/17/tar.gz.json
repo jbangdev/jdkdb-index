@@ -796,6 +796,29 @@
     "architecture": "x86_64",
     "distro": "zulu",
     "features": [
+      "crac",
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "zulu17.52.19-ca-crac-jre17.0.12-linux_musl_x64.tar.gz",
+    "image_type": "jre",
+    "java_version": "17.0.12+7-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "2eeacac5fe4176a22981a7dde46ec732",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "60f1487ed7f4607648082685082020e58ff973af",
+    "sha256": "189e13d4aae5595faabf0fdc506ee33f11682e40a655918a6e7cd2fb09d6e9a6",
+    "sha512": "23901cf423697c5995570d1a9382e7f3900ed14c447829ad41d85a2e2c72f4df911f2af1da101ed4121d32b5b8f2ed8451748ed78f9bc25a1a5b98c4336a23f6",
+    "size": 51014147,
+    "url": "https://static.azul.com/zulu/bin/zulu17.52.19-ca-crac-jre17.0.12-linux_musl_x64.tar.gz",
+    "vendor": "azul",
+    "version": "17.52.19"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "zulu",
+    "features": [
       "crac"
     ],
     "file_type": "tar.gz",
@@ -1012,6 +1035,28 @@
   {
     "architecture": "x86_64",
     "distro": "zulu",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "zulu17.58.21-ca-jre17.0.15-linux_musl_x64.tar.gz",
+    "image_type": "jre",
+    "java_version": "17.0.15+6-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "05ea3a1d4637bbe14c84ae54e19117e6",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "c84f8f7227dd079e21907018578e806d75983299",
+    "sha256": "85a11481fc52742f41608c45dee4284c9c36da8f67866bfc780e1418166172ee",
+    "sha512": "04c593d24713ae9e2117608857d981397161602fddbf06b0a3e34714f81e359ffc14ec70701ca946994a0e012ac0cf8731666f020abb5793125d33270c54d149",
+    "size": 47312911,
+    "url": "https://static.azul.com/zulu/bin/zulu17.58.21-ca-jre17.0.15-linux_musl_x64.tar.gz",
+    "vendor": "azul",
+    "version": "17.58.21"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "zulu",
     "features": [],
     "file_type": "tar.gz",
     "filename": "zulu17.58.21-ca-jre17.0.15-linux_x64.tar.gz",
@@ -1100,6 +1145,28 @@
     "architecture": "x86_64",
     "distro": "zulu",
     "features": [
+      "javafx"
+    ],
+    "file_type": "tar.gz",
+    "filename": "zulu17.60.17-ca-fx-jre17.0.16-linux_x64.tar.gz",
+    "image_type": "jre",
+    "java_version": "17.0.16+8-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "c8f3f09df9291666e8a237539ec2a829",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "6303b59379e16f69eda63fb4f501f728e78cbded",
+    "sha256": "eb7bef4b3405885159aff2bf2422499e9f7d4b5c9276048b0d922c8141e39bcf",
+    "sha512": "8fe89664db7cea41593080a6d51665ac2ad7f710181b628b4fd09803ad57b992d81e863b5e6bfe4deda6cd4bc7fd3381632c67ed9e6200184c15098505b0799b",
+    "size": 95287251,
+    "url": "https://static.azul.com/zulu/bin/zulu17.60.17-ca-fx-jre17.0.16-linux_x64.tar.gz",
+    "vendor": "azul",
+    "version": "17.60.17"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "zulu",
+    "features": [
       "musl"
     ],
     "file_type": "tar.gz",
@@ -1181,6 +1248,28 @@
     "url": "https://static.azul.com/zulu/bin/zulu17.62.17-ca-jre17.0.17-linux_x64.tar.gz",
     "vendor": "azul",
     "version": "17.62.17"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "zulu",
+    "features": [
+      "crac"
+    ],
+    "file_type": "tar.gz",
+    "filename": "zulu17.62.19-ca-crac-jre17.0.17-linux_x64.tar.gz",
+    "image_type": "jre",
+    "java_version": "17.0.17+10-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "4d339fd2083a42ee5f621badb7b6dffd",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "f03b31d63e5628d23173e08829a548a513342b45",
+    "sha256": "33785785e5323cf772d081843c1b20943716ade0556468a0470ce9f643d56a31",
+    "sha512": "33a3dcea56814dac3de66902b1442f2b011618bfceee3ae60cfd275db94d82732069920823e43eb580281c9b48659a9feda35d65af08ba5c92a3cf181b8e836e",
+    "size": 49375028,
+    "url": "https://static.azul.com/zulu/bin/zulu17.62.19-ca-crac-jre17.0.17-linux_x64.tar.gz",
+    "vendor": "azul",
+    "version": "17.62.19"
   },
   {
     "architecture": "x86_64",

@@ -2,21 +2,25 @@
   {
     "architecture": "x86_64",
     "distro": "liberica",
-    "features": [],
+    "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
     "file_type": "deb",
-    "filename": "bellsoft-jre23.0.2+9-linux-amd64.deb",
+    "filename": "bellsoft-jre23+38-linux-amd64-full.deb",
     "image_type": "jre",
-    "java_version": "23.0.2+9",
+    "java_version": "23+38",
     "jvm_impl": "hotspot",
-    "md5": "534b97825b9d258262c3271a3fdc1c55",
+    "md5": "906af4dbde6b0a84966d31a7430cd1ce",
     "os": "linux",
     "release_type": "ga",
-    "sha1": "de2173d2e856391152d9a1b22679fc15e1d5835e",
-    "sha256": "779436377ab775a86405247942d7661e1dda8dfca620e2d523ab39ddd5e2df8c",
-    "sha512": "efbae4aa733c54ff1d2b306f61177295aa517022c4fd927e1e3c539e19c60e965266a746a2a4ec3bd4a092f570109b86dc212108f3efe4dfe15177212e21e1af",
-    "size": 41869720,
-    "url": "https://github.com/bell-sw/Liberica/releases/download/23.0.2+9/bellsoft-jre23.0.2+9-linux-amd64.deb",
+    "sha1": "925b39acbd77461aa3ccfcbc9524d2941300f42b",
+    "sha256": "4894aaa538c9b4b741b6e59129e027e575507e3d9aa55e69db68aa368f1367b1",
+    "sha512": "5b0318f460b1462fd43732037ad49ff15e3c4781cfdc001ff8d655b41a558129ca5f620e44bae96ab9220b1279af454bd6119e1d7639150675523c3ac28c4586",
+    "size": 75668244,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/23+38/bellsoft-jre23+38-linux-amd64-full.deb",
     "vendor": "bellsoft",
-    "version": "23.0.2+9"
+    "version": "23+38"
   }
 ]
