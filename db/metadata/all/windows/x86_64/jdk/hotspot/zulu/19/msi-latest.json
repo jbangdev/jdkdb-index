@@ -2,21 +2,23 @@
   {
     "architecture": "x86_64",
     "distro": "zulu",
-    "features": [],
+    "features": [
+      "javafx"
+    ],
     "file_type": "msi",
-    "filename": "zulu19.30.11-ca-jdk19.0.1-win_x64.msi",
+    "filename": "zulu19.32.15-ca-fx-jdk19.0.2-win_x64.msi",
     "image_type": "jdk",
-    "java_version": "19.0.1",
+    "java_version": "19.0.2",
     "jvm_impl": "hotspot",
-    "md5": "0a822ab47cfd9140c2a3f738608c21dc",
+    "md5": "1f1a5b7b77835ebfab1bca0959ebd48a",
     "os": "windows",
     "release_type": "ga",
-    "sha1": "0c31d2f95e9aa4f59852b5687593a8a82767ada8",
-    "sha256": "387ce5f4b283ef6552f1efd56f901d7f17c891101ab743a3df66d12de50a9cd3",
-    "sha512": "1923a009b7763a96000a442d463e290459bbe27edcbd3e3ce2b1ff6a0f375abc95458496f1eb9dc03a3a604a248ee866f0c70c9f750b9c8e53da8457a5f58fd4",
-    "size": 179240960,
-    "url": "https://static.azul.com/zulu/bin/zulu19.30.11-ca-jdk19.0.1-win_x64.msi",
+    "sha1": "23efe77a44cf4da96292921079bafc7dc77b888c",
+    "sha256": "b122adfe0bc76a88b476e0264ca8be390a9f43f8afa857923bfe67cf3162ac8f",
+    "sha512": "d1a20074ad061292087fd5a6171ea90c20fd7ac2dfd609e674a1efdd705e71fea7c9ddf1b514a6db04f1b185ebfb114dff1bd136056ab8e587133d7a26c9fc81",
+    "size": 248606720,
+    "url": "https://static.azul.com/zulu/bin/zulu19.32.15-ca-fx-jdk19.0.2-win_x64.msi",
     "vendor": "azul",
-    "version": "19.30.11"
+    "version": "19.32.15"
   }
 ]

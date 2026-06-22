@@ -1862,6 +1862,28 @@
   {
     "architecture": "aarch64",
     "distro": "adoptopenjdk",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK23U-jdk_aarch64_alpine-linux_hotspot_23_37.tar.gz",
+    "image_type": "jdk",
+    "java_version": "23+37",
+    "jvm_impl": "hotspot",
+    "md5": "141690b26cf89cb0fbddd8fe909fa1fe",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "cbb3fc8e80f1aa6175c69c00a7614dc85e5c5ba5",
+    "sha256": "7e842c9b8a44a5a21d83a3e38ae3b141cfbdb429dde70ff264d3da4bff44e1c7",
+    "sha512": "f52aa1f9d3422c26761202499d2dad89338414ad31fa4be1828a1de1720d37fd7776ad9e0b3c6a27606c0628cd67184336486d8bb5c3903302840b1b6480db73",
+    "size": 212318678,
+    "url": "https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23%2B37/OpenJDK23U-jdk_aarch64_alpine-linux_hotspot_23_37.tar.gz",
+    "vendor": "adoptopenjdk",
+    "version": "23.0.0+37"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "adoptopenjdk",
     "features": [],
     "file_type": "tar.gz",
     "filename": "OpenJDK23U-jdk_aarch64_linux_hotspot_23_37.tar.gz",
@@ -2000,6 +2022,26 @@
     "url": "https://github.com/adoptium/temurin24-binaries/releases/download/jdk-24.0.2%2B12/OpenJDK24U-jdk_aarch64_linux_hotspot_24.0.2_12.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "24.0.2+12"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "adoptopenjdk",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK25U-jdk_aarch64_linux_hotspot_25.0.1_8.tar.gz",
+    "image_type": "jdk",
+    "java_version": "25.0.1+8-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "153d980d99b11a2757bb37d983a29152",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "b1d964df5238fc98856736141866ab8f75cb36c5",
+    "sha256": "5c83b7d2121ed482fd06831a1eba1633dbab818aba6addddf48e075b97e6e9b8",
+    "sha512": "563d80db8fb943b2ddba0d52b32156d7d6ff8db15c4f7eb4aa04f82f73c64e1d5d71adae1d2ae9d82c191f6942ff1d4c6d64103db3f98589776129ad16f852b2",
+    "size": 139632170,
+    "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.1%2B8/OpenJDK25U-jdk_aarch64_linux_hotspot_25.0.1_8.tar.gz",
+    "vendor": "adoptopenjdk",
+    "version": "25.0.1+8.0.LTS"
   },
   {
     "architecture": "aarch64",

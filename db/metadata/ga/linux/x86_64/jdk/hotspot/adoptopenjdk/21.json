@@ -128,6 +128,28 @@
   {
     "architecture": "x86_64",
     "distro": "adoptopenjdk",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK21U-jdk_x64_alpine-linux_hotspot_21.0.5_11.tar.gz",
+    "image_type": "jdk",
+    "java_version": "21.0.5+11-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "358c17e5ac9fe98eee3414bbd843d5cc",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "4535664f30a37afb479082760e7dd1b604ad348d",
+    "sha256": "8da7da49101d45f646272616f20e8b10d57472bbf5961d64ffb07d7ba93c6909",
+    "sha512": "562509cc29ef465d718e3978c848e09c2f8adce9b6376a1c762076018a1a570466656d670784aba231d336dd25fba6b5bbb87960e8990914921f635173aa49ab",
+    "size": 207005595,
+    "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.5%2B11/OpenJDK21U-jdk_x64_alpine-linux_hotspot_21.0.5_11.tar.gz",
+    "vendor": "adoptopenjdk",
+    "version": "21.0.5+11.0.LTS"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "adoptopenjdk",
     "features": [],
     "file_type": "tar.gz",
     "filename": "OpenJDK21U-jdk_x64_linux_hotspot_21.0.7_6.tar.gz",

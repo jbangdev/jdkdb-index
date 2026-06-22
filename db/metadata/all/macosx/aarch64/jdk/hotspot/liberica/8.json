@@ -2878,6 +2878,28 @@
   {
     "architecture": "aarch64",
     "distro": "liberica",
+    "features": [
+      "lite"
+    ],
+    "file_type": "zip",
+    "filename": "bellsoft-jdk8u392+9-macos-aarch64-lite.zip",
+    "image_type": "jdk",
+    "java_version": "1.8.0_392",
+    "jvm_impl": "hotspot",
+    "md5": "08bf134894fe581da182ed660654d310",
+    "os": "macosx",
+    "release_type": "ga",
+    "sha1": "757974697655d73a35a502f4ed48fa401c8c47f7",
+    "sha256": "269e6bddccd19afd2f91ecc760dd2d1decb64b2b0e7da75f3900f453957eb268",
+    "sha512": "94ba7ecb65530c0c5a111ea55841e5b748d6a0aa3004ae57a87f5a5de46d65e8bae8f651c0494736f6b2f9a5bde7458d3682de0df469bf4ef9afe7a09d2a4218",
+    "size": 53679566,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/8u392+9/bellsoft-jdk8u392+9-macos-aarch64-lite.zip",
+    "vendor": "bellsoft",
+    "version": "8u392+9"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "liberica",
     "features": [],
     "file_type": "dmg",
     "filename": "bellsoft-jdk8u392+9-macos-aarch64.dmg",
@@ -3864,6 +3886,30 @@
     "sha512": "e366e699408a5f4b4dbd597646d1a2fbd9fc9593ed318e2d8c556fe5791a1b51ef059b0313609f356e4874e99374f05417641c0c8ac9f897cc3a09b82e932a0c",
     "size": 149958408,
     "url": "https://github.com/bell-sw/Liberica/releases/download/8u442+7/bellsoft-jdk8u442+7-macos-aarch64-full.pkg",
+    "vendor": "bellsoft",
+    "version": "8u442+7"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "liberica",
+    "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jdk8u442+7-macos-aarch64-full.tar.gz",
+    "image_type": "jdk",
+    "java_version": "1.8.0_442",
+    "jvm_impl": "hotspot",
+    "md5": "1ced6ea64929c45bae2d531f91668475",
+    "os": "macosx",
+    "release_type": "ga",
+    "sha1": "7376d5304c98dfda27fb0594a9686291b2eab7a1",
+    "sha256": "5190543000df9012fec7a27ffc87024110a4ec7ff38419041b922de2ea2ef14c",
+    "sha512": "05fdf77078bab73ac8ed96f9f7a6fe23440a68adf294a3cc751ac7857251e5aa900a2c2f6a61d1ca1934621882bbd2593f72d756b33a359007ade108c562d46a",
+    "size": 149534691,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/8u442+7/bellsoft-jdk8u442+7-macos-aarch64-full.tar.gz",
     "vendor": "bellsoft",
     "version": "8u442+7"
   },
