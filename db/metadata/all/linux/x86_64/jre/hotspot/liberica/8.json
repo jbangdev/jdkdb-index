@@ -1860,6 +1860,30 @@
   {
     "architecture": "x86_64",
     "distro": "liberica",
+    "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jre8u362+9-linux-amd64-full.tar.gz",
+    "image_type": "jre",
+    "java_version": "1.8.0_362",
+    "jvm_impl": "hotspot",
+    "md5": "e7fd9ad2a08c1a5d1743d8ffb6d50b80",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "0e64432feebcdcb97826f25eafa128ea44e16008",
+    "sha256": "54540e49bb77ace0842d6edd6414d6772d5c8c7407601d5a51b28020c7df7ae0",
+    "sha512": "4568f22585189ce72ff3e61a5e6a6997c05d6f6e42bb23019dfc1ffad549552a2b9545597df318529d9a7a043328ae07d9f041953f6829344c23babf3c78d04d",
+    "size": 91511553,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/8u362+9/bellsoft-jre8u362+9-linux-amd64-full.tar.gz",
+    "vendor": "bellsoft",
+    "version": "8u362+9"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
     "features": [],
     "file_type": "deb",
     "filename": "bellsoft-jre8u362+9-linux-amd64.deb",
@@ -2986,6 +3010,28 @@
     "sha512": "65a6757818a69639675285ede837a8d494a6824ca62ac042291eb60284061a5298fe7623d8057bdd43a713a8016c06d9eaaabe48e460897ad18e8d38168cb4ca",
     "size": 33237988,
     "url": "https://github.com/bell-sw/Liberica/releases/download/8u472+9/bellsoft-jre8u472+9-linux-amd64.rpm",
+    "vendor": "bellsoft",
+    "version": "8u472+9"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jre8u472+9-linux-x64-musl.tar.gz",
+    "image_type": "jre",
+    "java_version": "1.8.0_472",
+    "jvm_impl": "hotspot",
+    "md5": "46a60e50a0120f03a68061e3bd61a7a1",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "a2ad3a4b9496984a495dd7dfbed772c543147e34",
+    "sha256": "c7cb7391a31e5daff8c99de05b7987b619e9a9207f6dce486a9ebe5355fd538d",
+    "sha512": "43025447d45485e37eae74afece791a005d6ae2762ac01ca5748cc77da5ef27ba5575c105e5bf95d3294ff4c63e1b78995a4bc177ee648272e9c947ebb2a3001",
+    "size": 42078243,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/8u472+9/bellsoft-jre8u472+9-linux-x64-musl.tar.gz",
     "vendor": "bellsoft",
     "version": "8u472+9"
   },

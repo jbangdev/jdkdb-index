@@ -110,6 +110,29 @@
     "architecture": "x86_64",
     "distro": "zulu",
     "features": [
+      "crac",
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "zulu25.30.19-ca-crac-jdk25.0.1-linux_musl_x64.tar.gz",
+    "image_type": "jdk",
+    "java_version": "25.0.1+8-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "84b4f587780e2656d5319802d3130cd7",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "504d4cf4525b100d942116243769f263e71d3858",
+    "sha256": "01ceeb3cccb251dffece16f8218d3678924b520bd4f93882c37dc88e99aabf32",
+    "sha512": "c632f73455e230d10a8752a29c1eba45d29e462032542d751106d018e7a1d0d976850eca9e12383f17cdf6472443aab8fa7615b81ee4c5ce54085f2924262ad2",
+    "size": 240931793,
+    "url": "https://static.azul.com/zulu/bin/zulu25.30.19-ca-crac-jdk25.0.1-linux_musl_x64.tar.gz",
+    "vendor": "azul",
+    "version": "25.30.19"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "zulu",
+    "features": [
       "crac"
     ],
     "file_type": "tar.gz",
