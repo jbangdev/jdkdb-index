@@ -244,6 +244,50 @@
   {
     "architecture": "ppc64le",
     "distro": "adoptopenjdk",
+    "features": [
+      "large_heap"
+    ],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK8U-jre_ppc64le_linux_openj9_linuxXL_8u265b01_openj9-0.21.0.tar.gz",
+    "image_type": "jre",
+    "java_version": "1.8.0_265-b01",
+    "jvm_impl": "openj9",
+    "md5": "732b5cffe9af8c0ac7612ab233eecf11",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "01cd91a27977f93b19484be58b3ec6ebc45c547a",
+    "sha256": "ab5cf48183b37d3f8ef1767feae85eedba0f178019449e895e946f498a884f2d",
+    "sha512": "1e00b298dceeb678259021444dcbd4f4275b7867172c2e0641a68b54d6e7e96989b3c273475681e1c583c9f6fad680bdad2f04d0edbb0aedbe02b3ff8c89b733",
+    "size": 48631824,
+    "url": "https://github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u265-b01_openj9-0.21.0/OpenJDK8U-jre_ppc64le_linux_openj9_linuxXL_8u265b01_openj9-0.21.0.tar.gz",
+    "vendor": "adoptopenjdk",
+    "version": "8.0.265+1.openj9-0.21.0"
+  },
+  {
+    "architecture": "ppc64le",
+    "distro": "adoptopenjdk",
+    "features": [
+      "large_heap"
+    ],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK8U-jre_ppc64le_linux_openj9_linuxXL_8u275b01_openj9-0.23.0.tar.gz",
+    "image_type": "jre",
+    "java_version": "1.8.0_275-b01",
+    "jvm_impl": "openj9",
+    "md5": "92a256a014d4d5a5b7e9dbc3d4d36a16",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "074e56293a541cb564f93de0e1714ad32e1fd1e7",
+    "sha256": "155878093aa49befa197d8be5408df41a77b8e03e1479e125d9381266b001a19",
+    "sha512": "684d7d9e65ade93b375fc768b21c759e31937eec85f098a4b32c4b8b551ad40ddb5bf3ab3e79b02258b169c259f0d787270a25284e696c88b7c28d161f5ab7d3",
+    "size": 49090897,
+    "url": "https://github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u275-b01_openj9-0.23.0/OpenJDK8U-jre_ppc64le_linux_openj9_linuxXL_8u275b01_openj9-0.23.0.tar.gz",
+    "vendor": "adoptopenjdk",
+    "version": "8.0.275+1.openj9-0.23.0"
+  },
+  {
+    "architecture": "ppc64le",
+    "distro": "adoptopenjdk",
     "features": [],
     "file_type": "tar.gz",
     "filename": "OpenJDK8U-jre_ppc64le_linux_openj9_8u282b08_openj9-0.24.0.tar.gz",

@@ -2,21 +2,23 @@
   {
     "architecture": "x86_64",
     "distro": "adoptopenjdk",
-    "features": [],
+    "features": [
+      "large_heap"
+    ],
     "file_type": "zip",
-    "filename": "OpenJDK12U-jdk_x64_windows_openj9_12.0.1_12_openj9-0.14.1.zip",
+    "filename": "OpenJDK12U-jdk_x64_windows_openj9_windowsXL_12.0.2_10_openj9-0.15.1.zip",
     "image_type": "jdk",
-    "java_version": "12.0.1+12",
+    "java_version": "12.0.2+10",
     "jvm_impl": "openj9",
-    "md5": "52a91979dea82c0ce1579c73fe7d3bae",
+    "md5": "ce904edabfdc3eb68fede602ec8b7310",
     "os": "windows",
     "release_type": "ga",
-    "sha1": "3a117b624f7faef190dbdcaa32cb63ee5e5dbe41",
-    "sha256": "c788c03d58ecb875b1a719591b455cfe89a204293d1fabb7fa88767d545d47cd",
-    "sha512": "92253442298cd06628a2d6db3986618f274d61d29eb0a87122ebf7f04a0709bf7c65e49d781bcee1540028aea9a30d891d71d21469197bf68099261d7875f7e1",
-    "size": 202968323,
-    "url": "https://github.com/AdoptOpenJDK/openjdk12-binaries/releases/download/jdk-12.0.1%2B12_openj9-0.14.1/OpenJDK12U-jdk_x64_windows_openj9_12.0.1_12_openj9-0.14.1.zip",
+    "sha1": "f6cf271a7689f9e9b90002ddf436d7653e18dfdd",
+    "sha256": "a27498be387edd533f8c75968efda55d7e08493f4326e1a67aebdec497d55a5b",
+    "sha512": "88c3ee4cfe143dd856f1ac9f3490fd5bbad38ba4be0d38f1c7f2c097e20ff75929f42b39433564088dfea09a8477544815f15bfa30437fc553e36bcaa172cb41",
+    "size": 203763554,
+    "url": "https://github.com/AdoptOpenJDK/openjdk12-binaries/releases/download/jdk-12.0.2%2B10_openj9-0.15.1/OpenJDK12U-jdk_x64_windows_openj9_windowsXL_12.0.2_10_openj9-0.15.1.zip",
     "vendor": "adoptopenjdk",
-    "version": "12.0.1+12.openj9-0.14.1"
+    "version": "12.0.2+10.1.openj9-0.15.1"
   }
 ]

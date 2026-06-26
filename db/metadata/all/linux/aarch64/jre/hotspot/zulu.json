@@ -2301,6 +2301,28 @@
   {
     "architecture": "aarch64",
     "distro": "zulu",
+    "features": [
+      "javafx"
+    ],
+    "file_type": "tar.gz",
+    "filename": "zulu17.56.15-ca-fx-jre17.0.14-linux_aarch64.tar.gz",
+    "image_type": "jre",
+    "java_version": "17.0.14+7-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "59c96405bada8e6c65b25c6a9b8ef886",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "8feb7b315610fd26382e149644bb3c9e8a565dc8",
+    "sha256": "30aa8ae295b032b748d6e05f30c127e0bb4bc3f12551e95dd8fa582c30b09807",
+    "sha512": "f3e69b0393441b62222e0da4d561a9e390a6a6fc35d8925bd39d0d5744cdb46195168427fc5d52748265e5ce51ba09ff7290bb6ad878e758d8524119fceb115f",
+    "size": 93783422,
+    "url": "https://static.azul.com/zulu/bin/zulu17.56.15-ca-fx-jre17.0.14-linux_aarch64.tar.gz",
+    "vendor": "azul",
+    "version": "17.56.15"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "zulu",
     "features": [],
     "file_type": "tar.gz",
     "filename": "zulu17.56.15-ca-jre17.0.14-linux_aarch64.tar.gz",
@@ -2761,6 +2783,28 @@
     "sha512": "b9ec31385452d65c9172c031b5bf2bf86ebc570da60fb33ae0741e642a48ed1deb89740069ea2dad4e14fefff5f6ade096b51059174bde922a1340dd881fc5d6",
     "size": 39924412,
     "url": "https://static.azul.com/zulu/bin/zulu18.30.11-ca-jre18.0.1-linux_aarch64.tar.gz",
+    "vendor": "azul",
+    "version": "18.30.11"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "zulu",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "zulu18.30.11-ca-jre18.0.1-linux_musl_aarch64.tar.gz",
+    "image_type": "jre",
+    "java_version": "18.0.1",
+    "jvm_impl": "hotspot",
+    "md5": "e9abd770565fa77c3e143f5f3b06c809",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "8054fef6e933f5d130ba073d417e5b99fcb130bd",
+    "sha256": "215faa1512e45aa6f31ceccb2f469304e9d42320a0487ea673b6532e443c5439",
+    "sha512": "f8081b66fdee79c056cce2ef524820b0242765cf78a6c6c6163b0787ccee510bd3bc20c5362cae30c08dc6f46582e8f1528a9e3ded3b23c08f0a5e13fb308d2f",
+    "size": 39881071,
+    "url": "https://static.azul.com/zulu/bin/zulu18.30.11-ca-jre18.0.1-linux_musl_aarch64.tar.gz",
     "vendor": "azul",
     "version": "18.30.11"
   },

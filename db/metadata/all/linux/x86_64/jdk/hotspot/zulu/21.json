@@ -258,6 +258,29 @@
     "architecture": "x86_64",
     "distro": "zulu",
     "features": [
+      "crac",
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "zulu21.34.19-ca-crac-jdk21.0.3-linux_musl_x64.tar.gz",
+    "image_type": "jdk",
+    "java_version": "21.0.3+9-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "4c36eece63c359ed9f13e6a34dc7d103",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "b2782136ce2fff87d1f11a1dde160dcd8cc49427",
+    "sha256": "cd82a0a09bbe9ae13191f5b306395174f4dead544f5c565cebbd77890b0de0dc",
+    "sha512": "0f1e0bfb73a3b2229b85d0686ce891d681d2a0db8d0ae2bd08e9e63e0e82c56a4355615610dca2d4c4ec5ecba7e2082f601203687c3da087654ee265bfc8afc5",
+    "size": 221913458,
+    "url": "https://static.azul.com/zulu/bin/zulu21.34.19-ca-crac-jdk21.0.3-linux_musl_x64.tar.gz",
+    "vendor": "azul",
+    "version": "21.34.19"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "zulu",
+    "features": [
       "crac"
     ],
     "file_type": "tar.gz",
@@ -424,6 +447,26 @@
     "sha512": "795d0313bcdd822277d733836d068a205d1aa4706d8910f956ad144c352d5c2aed46b858cb6bd078fffc192c516c66dfb782196ba966c82326a5db385c8e58c8",
     "size": 214191350,
     "url": "https://static.azul.com/zulu/bin/zulu21.38.21-ca-jdk21.0.5-linux_musl_x64.tar.gz",
+    "vendor": "azul",
+    "version": "21.38.21"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "zulu",
+    "features": [],
+    "file_type": "zip",
+    "filename": "zulu21.38.21-ca-jdk21.0.5-linux_x64.zip",
+    "image_type": "jdk",
+    "java_version": "21.0.5+11-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "dcd87e64251d36298b3c2191b5cf0693",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "a329707d4b6584716669ec7e96262a0323f2029e",
+    "sha256": "be4181a02d78041fc8aec14ae868ddc479bc0a792725d70ce7eaac969f1a32ef",
+    "sha512": "2f74c6169132f5016df173fed33daceab5630954f5f277c54a67d30a05a0061e82f8385dde6350da703e08640e691dc8f814ffecb8127669638b046e726269c0",
+    "size": 216882347,
+    "url": "https://static.azul.com/zulu/bin/zulu21.38.21-ca-jdk21.0.5-linux_x64.zip",
     "vendor": "azul",
     "version": "21.38.21"
   },
