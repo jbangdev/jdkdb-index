@@ -2,6 +2,28 @@
   {
     "architecture": "x86_64",
     "distro": "sapmachine",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "sapmachine-jre-25_linux-x64-musl_bin.tar.gz",
+    "image_type": "jre",
+    "java_version": "25+36-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "e89078d638843d23b39e23f792923d7a",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "1c23484d6c63f35bda1fc39bdca47278c1556396",
+    "sha256": "0bda66d23a4bab730e05f2cb2ef3d69718eb92b9fd564f7213057b600e5a721a",
+    "sha512": "0101dee3f299e15886cf1ffb593624b34b1c7efd430b924c22cf3cfeed97b2cb14599e6abe7d74e6d195848fd1ce263893b796cf039601c91768e336a0b3657c",
+    "size": 62072825,
+    "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-25/sapmachine-jre-25_linux-x64-musl_bin.tar.gz",
+    "vendor": "sap",
+    "version": "25"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "sapmachine",
     "features": [],
     "file_type": "tar.gz",
     "filename": "sapmachine-jre-25_linux-x64_bin.tar.gz",
@@ -1784,5 +1806,47 @@
     "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-25.0.4%2B5/sapmachine-jre-25.0.4-ea.5_linux-x64_bin.tar.gz",
     "vendor": "sap",
     "version": "25.0.4-ea.5"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "sapmachine",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "sapmachine-jre-25.0.4-ea.6_linux-x64-musl_bin.tar.gz",
+    "image_type": "jre",
+    "java_version": "25.0.4-ea.6",
+    "jvm_impl": "hotspot",
+    "md5": "a666fc4b97b3cc572fcfac12ac1285e0",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "0e163c9f3e1f247f8edb79066596c296f6a3c068",
+    "sha256": "b3e22ee488ff57c04150d10bd69f2fd10b49a1c153084929b778f942174f2a1f",
+    "sha512": "3560177f005d06cc64b8e3a9a1aed206239089b129f8bab0531a4a2e42d27960333bebce3d01f596cb20bb30f733e46d9af4d842eec983e65efe18d44ae5c8e9",
+    "size": 51038755,
+    "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-25.0.4%2B6/sapmachine-jre-25.0.4-ea.6_linux-x64-musl_bin.tar.gz",
+    "vendor": "sap",
+    "version": "25.0.4-ea.6"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "sapmachine",
+    "features": null,
+    "file_type": "tar.gz",
+    "filename": "sapmachine-jre-25.0.4-ea.6_linux-x64_bin.tar.gz",
+    "image_type": "jre",
+    "java_version": "25.0.4-ea.6",
+    "jvm_impl": "hotspot",
+    "md5": "1130b4bc04dc3fa73c54c43b3eced4bb",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "7cedf7dca635712502ae96efc6270b858c86e586",
+    "sha256": "245faa6f4f858197fa60d669b946644c5c6d328b6c16caf60818d0c5f5985abd",
+    "sha512": "1ea351b128de47da187b5aaaedce0688e17fb0887fee0a452ec9d95f12d228d1162acbca24675e95d869099a52e3033177d6066c0cf3d73d623caeb736c184e8",
+    "size": 52164500,
+    "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-25.0.4%2B6/sapmachine-jre-25.0.4-ea.6_linux-x64_bin.tar.gz",
+    "vendor": "sap",
+    "version": "25.0.4-ea.6"
   }
 ]

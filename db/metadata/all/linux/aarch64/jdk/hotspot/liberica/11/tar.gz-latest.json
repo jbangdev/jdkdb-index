@@ -25,6 +25,29 @@
     "architecture": "aarch64",
     "distro": "liberica",
     "features": [
+      "lite",
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jdk11.0.30+9-linux-aarch64-musl-lite.tar.gz",
+    "image_type": "jdk",
+    "java_version": "11.0.30+9-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "916d687adca6cf5e97cd0c084616b059",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "c438e61b00d3d578876b628ef78053763c3d43c2",
+    "sha256": "08a4ce65940155c12a279dac871cdb2d270cb3f98351234427765e4d1e04e4d7",
+    "sha512": "6508e1d15eab4030bb237eee07e4aae4dcf4717f665bc12b47d47a85e569ebcae77fd8cf3efb425cda462721199744779a975595d00e6378c896c51fd63133d4",
+    "size": 74193040,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.30+9/bellsoft-jdk11.0.30+9-linux-aarch64-musl-lite.tar.gz",
+    "vendor": "bellsoft",
+    "version": "11.0.30+9"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "liberica",
+    "features": [
       "musl"
     ],
     "file_type": "tar.gz",

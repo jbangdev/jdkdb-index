@@ -47,6 +47,30 @@
     "architecture": "aarch64",
     "distro": "liberica",
     "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
+    "file_type": "deb",
+    "filename": "bellsoft-jdk21.0.2+14-linux-aarch64-full.deb",
+    "image_type": "jdk",
+    "java_version": "21.0.2+14-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "9dd7c716ac5624b39c3fc60b294a17e0",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "4ec7e74438ac457d9d246e1b41afa2f1dec6df25",
+    "sha256": "38e90bfa6fb593481ac27167d40d5747dffe4d206e559ab8066c030e98b1f89c",
+    "sha512": "56f8e85df5b540f46c4923bb964a483fb85ac04b12de9eac09956858311daee871887b9374472b6717d81fa43abbf23999b8663ec2d0479e448b932c6299e692",
+    "size": 272368544,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.2+14/bellsoft-jdk21.0.2+14-linux-aarch64-full.deb",
+    "vendor": "bellsoft",
+    "version": "21.0.2+14"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "liberica",
+    "features": [
       "lite"
     ],
     "file_type": "deb",

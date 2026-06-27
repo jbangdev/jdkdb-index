@@ -2519,6 +2519,26 @@
   },
   {
     "architecture": "ppc64",
+    "distro": "temurin",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK11U-jre_ppc64_aix_hotspot_11.0.23_9.tar.gz",
+    "image_type": "jre",
+    "java_version": "11.0.23+9",
+    "jvm_impl": "hotspot",
+    "md5": "0f154e835f18a54278a33dac993afc10",
+    "os": "aix",
+    "release_type": "ga",
+    "sha1": "8e6fb71ea9367f2de3393a8494fedc6bf3f1b47e",
+    "sha256": "2bf74db4607fc1d98946416b2be187c01c8ed86922f03b75fae07268e6a06634",
+    "sha512": "afd53052e3ec84c8b16c94758fd3c297478009abc57f1a7724978a704332abe7582be155f9f46fe975c16a1002a80cf9c5698ad0a2343f570afeaae63c2a269d",
+    "size": 42998328,
+    "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23%2B9/OpenJDK11U-jre_ppc64_aix_hotspot_11.0.23_9.tar.gz",
+    "vendor": "eclipse",
+    "version": "11.0.23+9"
+  },
+  {
+    "architecture": "ppc64",
     "distro": "adoptopenjdk",
     "features": [],
     "file_type": "tar.gz",
@@ -3922,6 +3942,28 @@
     "url": "https://github.com/ibmruntimes/semeru17-certified-binaries/releases/download/jdk-17.0.9+9_openj9-0.41.0/ibm-semeru-certified-jre_ppc64_aix_17.0.9.0.tar.gz",
     "vendor": "ibm",
     "version": "17.0.9+9_openj9-0.41.0"
+  },
+  {
+    "architecture": "ppc64",
+    "distro": "semeru",
+    "features": [
+      "certified"
+    ],
+    "file_type": "tar.gz",
+    "filename": "ibm-semeru-certified-jre_ppc64_aix_17.0.10.0.tar.gz",
+    "image_type": "jre",
+    "java_version": "17.0.10+7",
+    "jvm_impl": "openj9",
+    "md5": "d37a6a60eff8ef3e9c97f86b7568f14e",
+    "os": "aix",
+    "release_type": "ga",
+    "sha1": "335d6e6a89df8a2ec22f0a7ae81d43f0b9373aa0",
+    "sha256": "e2b5cec2e7245c24d8c43b000579ed43914aebcf7744c92b0d77f068b5e2efe3",
+    "sha512": "a34d6a95222e6c50cec1899a07fd6512cf34cdbf9febe5d859f76de83b9bdc33b673cd323ddf4f9602436ff1d3f581c644d8468439b31a49a679d279c06a2327",
+    "size": 62523548,
+    "url": "https://github.com/ibmruntimes/semeru17-certified-binaries/releases/download/jdk-17.0.10+7_openj9-0.43.0/ibm-semeru-certified-jre_ppc64_aix_17.0.10.0.tar.gz",
+    "vendor": "ibm",
+    "version": "17.0.10+7_openj9-0.43.0"
   },
   {
     "architecture": "ppc64",
@@ -6156,6 +6198,26 @@
     "url": "https://github.com/ibmruntimes/semeru25-binaries/releases/download/jdk-25.0.1%2B8_openj9-0.57.0-m2/ibm-semeru-open-jre_ppc64_aix_25.0.1_8_openj9-0.57.0-m2.tar.gz",
     "vendor": "ibm",
     "version": "25.0.1+8_openj9-0.57.0-m2"
+  },
+  {
+    "architecture": "ppc64",
+    "distro": "adoptopenjdk",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK25U-jre_ppc64_aix_hotspot_25.0.1_8.tar.gz",
+    "image_type": "jre",
+    "java_version": "25.0.1+8-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "507ce75eb8d65183c46e763d4c72fe83",
+    "os": "aix",
+    "release_type": "ga",
+    "sha1": "43c93ae7d34e23f1dec8b08c58902d7417e9fc8c",
+    "sha256": "ce3630a04f25f3728d2184e6c664585d8e3245fe923c51e0af02cd0b768f3a80",
+    "sha512": "f054a452b653dedcffcf6ca3edd8a712e99933179e512bd9831d78fd7a09e92a33bfee7a54b0a7e9b4dbb6ccc64f86fd9da44cf8cd67c5c6ac1806c7113025ce",
+    "size": 41051329,
+    "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.1%2B8/OpenJDK25U-jre_ppc64_aix_hotspot_25.0.1_8.tar.gz",
+    "vendor": "adoptopenjdk",
+    "version": "25.0.1+8.0.LTS"
   },
   {
     "architecture": "ppc64",

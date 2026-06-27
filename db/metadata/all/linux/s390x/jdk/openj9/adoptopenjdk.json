@@ -450,6 +450,28 @@
   {
     "architecture": "s390x",
     "distro": "adoptopenjdk",
+    "features": [
+      "large_heap"
+    ],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK11U-jdk_s390x_linux_openj9_linuxXL_11.0.7_10_openj9-0.20.0.tar.gz",
+    "image_type": "jdk",
+    "java_version": "11.0.7+10",
+    "jvm_impl": "openj9",
+    "md5": "b3188a10e13c4ea05ec2635c25e8d016",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "9a3c9393e0de8ac15a7321732286902690d6fced",
+    "sha256": "a6c489d4e7fa00e3e5d7fe7e22dd06d888c1bd1cf871651cc6f50b3179293662",
+    "sha512": "57317f3563d06738c7df540c81e8535b925c4915a7f2ba8c9c588d77bbd730f9b2dc00c232ad799231b64251249acf99e910a95bb65e502ce7cc19ee664eedf2",
+    "size": 193836714,
+    "url": "https://github.com/AdoptOpenJDK/openjdk11-binaries/releases/download/jdk-11.0.7%2B10_openj9-0.20.0/OpenJDK11U-jdk_s390x_linux_openj9_linuxXL_11.0.7_10_openj9-0.20.0.tar.gz",
+    "vendor": "adoptopenjdk",
+    "version": "11.0.7+10.1.openj9-0.20.0"
+  },
+  {
+    "architecture": "s390x",
+    "distro": "adoptopenjdk",
     "features": [],
     "file_type": "tar.gz",
     "filename": "OpenJDK11U-jdk_s390x_linux_openj9_11.0.8_10_openj9-0.21.0.tar.gz",
