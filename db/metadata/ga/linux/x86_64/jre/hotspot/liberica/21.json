@@ -166,6 +166,30 @@
   {
     "architecture": "x86_64",
     "distro": "liberica",
+    "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jre21.0.2+14-linux-amd64-full.tar.gz",
+    "image_type": "jre",
+    "java_version": "21.0.2+14-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "c6c621994435ea3d08d33e46ea0ba7d0",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "e573a6fb44295a82ffdb261ef987214ec7d0fcf4",
+    "sha256": "1f14d15db7993946880f7b441cb714f0f79700933e381ede0efb156a00212d1b",
+    "sha512": "65c763a1e86d34a6959e84991b8e7b4fb2e9a65861bda0c39eae77d04eefcea690849d36caabcbfc7a764e1277c34b770480c7b408b277189d321627e30217ea",
+    "size": 118888000,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.2+14/bellsoft-jre21.0.2+14-linux-amd64-full.tar.gz",
+    "vendor": "bellsoft",
+    "version": "21.0.2+14"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
     "features": [],
     "file_type": "deb",
     "filename": "bellsoft-jre21.0.2+14-linux-amd64.deb",
@@ -354,6 +378,28 @@
     "sha512": "6b203cc89a4a4b361b111835ba298db1e6f52acbe2219fcc02e2993a9d4e58603606b91a433cfd5f82592451082682b9fbd09151efe940ad4b06483d9f629348",
     "size": 67370885,
     "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.3+10/bellsoft-jre21.0.3+10-linux-amd64.tar.gz",
+    "vendor": "bellsoft",
+    "version": "21.0.3+10"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
+      "musl"
+    ],
+    "file_type": "apk",
+    "filename": "bellsoft-jre21.0.3+10-linux-x64-musl.apk",
+    "image_type": "jre",
+    "java_version": "21.0.3+10-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "c3e5167b31aea63ed3859290887e8aab",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "24274610f2cf9844d1efe2a755df62a1f2b50859",
+    "sha256": "dac145d754a6b79312a75f5154fa0456ae301ea4149a1965b16ad0f6dea8554a",
+    "sha512": "c55ea3abb9eaf62b7f3efbf6ea80d07f9bdf99d13ff76610209f885a06d0ff1f7decaf4c76c5d27f5766b26ce00932928df640ebf5b8ba25d59b507f919e3b6b",
+    "size": 66611245,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.3+10/bellsoft-jre21.0.3+10-linux-x64-musl.apk",
     "vendor": "bellsoft",
     "version": "21.0.3+10"
   },

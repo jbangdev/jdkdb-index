@@ -357,6 +357,28 @@
     "architecture": "x86_64",
     "distro": "liberica",
     "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jre17.0.6+10-linux-x64-musl.tar.gz",
+    "image_type": "jre",
+    "java_version": "17.0.6+10",
+    "jvm_impl": "hotspot",
+    "md5": "90ba0a4de0972dd577a7946e1b81addb",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "22f5becfd72f3f13e4ea62fcc974d405f0405ea3",
+    "sha256": "7aac519489ea0a0150e0cee9381f29c01247aa98562e44c6ee4f96bdad149b08",
+    "sha512": "1a8998383244d41f16e5f5e127a98de95f4533c77cb9db5d49cb357eddcd1510abdb9b2d8b489c5a59cae059ec364684ec2a6cd129aaf001ed8266b4a62e1ba9",
+    "size": 52707364,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.6+10/bellsoft-jre17.0.6+10-linux-x64-musl.tar.gz",
+    "vendor": "bellsoft",
+    "version": "17.0.6+10"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
       "libericafx",
       "minimal-vm",
       "javafx"
