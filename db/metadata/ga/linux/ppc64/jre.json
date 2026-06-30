@@ -814,6 +814,26 @@
   {
     "architecture": "ppc64",
     "distro": "semeru",
+    "features": [],
+    "file_type": "rpm",
+    "filename": "ibm-semeru-open-11-jre-11.0.14.1.1_0.30.1-1.ppc64.rpm",
+    "image_type": "jre",
+    "java_version": "11.0.14.1+1",
+    "jvm_impl": "openj9",
+    "md5": "1a7b84af9b8c78726f84918804756445",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "0876888bebdd452689b488b54aa6ec81007a38f8",
+    "sha256": "d5a266a8244d6360f8cb2fb32d8303303cb9bda1bef8e798e4968c3d55604002",
+    "sha512": "5d0eefaf7f93bc84ab34602ff6887d25f22dea2d2eb27a18e137f42f8e1e95aafddaafc5b44692458b1f733c46b31f82b7c860240a42f86bb6ffa06c08655d85",
+    "size": 63503132,
+    "url": "https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.14.1+1_openj9-0.30.1/ibm-semeru-open-11-jre-11.0.14.1.1_0.30.1-1.ppc64.rpm",
+    "vendor": "ibm",
+    "version": "11.0.14.1+1_openj9-0.30.1"
+  },
+  {
+    "architecture": "ppc64",
+    "distro": "semeru",
     "features": [
       "certified"
     ],
@@ -2718,6 +2738,28 @@
     "url": "https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.15%2B6_openj9-0.51.0/ibm-semeru-open-17-jre-17.0.15.6_0.51.0-1.ppc64.rpm",
     "vendor": "ibm",
     "version": "17.0.15+6_openj9-0.51.0"
+  },
+  {
+    "architecture": "ppc64",
+    "distro": "sapmachine",
+    "features": [
+      "le"
+    ],
+    "file_type": "tar.gz",
+    "filename": "sapmachine-jre-17.0.16_linux-ppc64le_bin.tar.gz",
+    "image_type": "jre",
+    "java_version": "17.0.16+8-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "bc08517cd21487fa8197338bd5211572",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "7796f44e380bd0423595ad4f2ad17adf1303b009",
+    "sha256": "d372f1aec7d6f697f7110f58f1244daccc292c60ec7b2ed5bf911350ebb32f7d",
+    "sha512": "c4da43755e651d88f4b27ac73e794fc7581b0f0337094fe4cc9c773b53408b8e406f1610eed6dc8cd79f40b75ad5819ead1caacc6f992003580b8a8b015574d1",
+    "size": 46937960,
+    "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-17.0.16/sapmachine-jre-17.0.16_linux-ppc64le_bin.tar.gz",
+    "vendor": "sap",
+    "version": "17.0.16"
   },
   {
     "architecture": "ppc64",
