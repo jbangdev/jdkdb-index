@@ -47,6 +47,28 @@
     "architecture": "x86_64",
     "distro": "liberica",
     "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jre19.0.1+11-linux-x64-musl.tar.gz",
+    "image_type": "jre",
+    "java_version": "19.0.1+11",
+    "jvm_impl": "hotspot",
+    "md5": "05974e76da7b4f3833d5b36cd19dd74b",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "637ccb5a29d9fde91e1593cfcca919943e84fc8b",
+    "sha256": "6cbbdc14a5ede289e145f5498d3a95b13c8f0487c03297fdeb5d274b8073b702",
+    "sha512": "008ff44b3dfc3d8bdf1a5244ad30c3612f79f6c99aeee690d84453ccab6c69ee4c822449458ea64da65cc2552157491c4e2325e7d905dd7fe6258dbe4558242d",
+    "size": 55159844,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/19.0.1+11/bellsoft-jre19.0.1+11-linux-x64-musl.tar.gz",
+    "vendor": "bellsoft",
+    "version": "19.0.1+11"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
       "libericafx",
       "minimal-vm",
       "javafx"

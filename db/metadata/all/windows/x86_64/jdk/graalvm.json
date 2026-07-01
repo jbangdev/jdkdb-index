@@ -1473,6 +1473,29 @@
   },
   {
     "architecture": "x86_64",
+    "distro": "gluon-graalvm",
+    "features": [
+      "native-image",
+      "substrate-vm"
+    ],
+    "file_type": "zip",
+    "filename": "graalvm-svm-java17-windows-gluon-22.1.0.1-Final.zip",
+    "image_type": "jdk",
+    "java_version": "17",
+    "jvm_impl": "graalvm",
+    "md5": "16898626e6f173ee0f131d76413be8b6",
+    "os": "windows",
+    "release_type": "ga",
+    "sha1": "4407ba693ec6f26ffaa353e93ce76e346dcfe057",
+    "sha256": "cd1ecd4af199ae3d849f9e696125cf042b672e863d4ec7169cc32fda847f1970",
+    "sha512": "67985d15e10d2879e15ca97159e34c3a39556025eb1c1566be0cde97e92375a9f5ba51a2c123849c4297a4e80f6a2de9c9170a0264d71b47cb9465a3d9568527",
+    "size": 321663989,
+    "url": "https://github.com/gluonhq/graal/releases/download/gluon-22.1.0.1-Final/graalvm-svm-java17-windows-gluon-22.1.0.1-Final.zip",
+    "vendor": "gluon",
+    "version": "22.1.0.1-Final"
+  },
+  {
+    "architecture": "x86_64",
     "distro": "graalvm",
     "features": [],
     "file_type": "zip",
@@ -2550,6 +2573,26 @@
     "url": "https://github.com/graalvm/oracle-graalvm-ea-builds/releases/download/jdk-24.0.0-ea.29/graalvm-jdk-24.0.0-ea.29_windows-x64_bin.zip",
     "vendor": "oracle",
     "version": "24.0.0-ea.29"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "oracle-graalvm",
+    "features": [],
+    "file_type": "zip",
+    "filename": "graalvm-jdk-24.0.0-ea.30_windows-x64_bin.zip",
+    "image_type": "jdk",
+    "java_version": "24+32-jvmci-b01",
+    "jvm_impl": "graalvm",
+    "md5": "1bb6127f5c71b787556a4c014ccf2451",
+    "os": "windows",
+    "release_type": "ea",
+    "sha1": "42f3db1fc939136b2453ca9392bf51a1edc0957d",
+    "sha256": "6ae4aa0e199cb02f1043997f79f644aaf2075778e394f9322ac8766cdaf9ac00",
+    "sha512": "008df9f7efb3cc1b8ba87d3d56a6f5895fc5bff6bc44ec88ccd65516cdf1670fc0a67056433ae60847293eece147e867573e6d923ae0962377fffbe7ebece450",
+    "size": 360956720,
+    "url": "https://github.com/graalvm/oracle-graalvm-ea-builds/releases/download/jdk-24.0.0-ea.30/graalvm-jdk-24.0.0-ea.30_windows-x64_bin.zip",
+    "vendor": "oracle",
+    "version": "24.0.0-ea.30"
   },
   {
     "architecture": "x86_64",
