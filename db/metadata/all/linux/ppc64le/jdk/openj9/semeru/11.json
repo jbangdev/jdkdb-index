@@ -354,6 +354,28 @@
   {
     "architecture": "ppc64le",
     "distro": "semeru",
+    "features": [
+      "certified"
+    ],
+    "file_type": "zip",
+    "filename": "ibm-semeru-certified-jdk_ppc64le_linux_11.0.16.0.tap.zip",
+    "image_type": "jdk",
+    "java_version": "11.0.16.1+1",
+    "jvm_impl": "openj9",
+    "md5": "69dd07f2ae8048bf6a9358f896d62618",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "5e52f161c1ccf7b2cc3bfa11c77f1a3cf1453548",
+    "sha256": "11510fe8bb13edcc4ca431320d0e370877f80f277fc0d2c757ef65fbf7f26b11",
+    "sha512": "ee0d7993043e70743dd1492198195305ba74bdf1aa86a23067615f11306fa96eb1eff3c852437a9994005fdde80b2344ff5032ca529877b595c69468acac6364",
+    "size": 63354,
+    "url": "https://github.com/ibmruntimes/semeru11-certified-binaries/releases/download/jdk-11.0.16.1+1_openj9-0.33.1/ibm-semeru-certified-jdk_ppc64le_linux_11.0.16.0.tap.zip",
+    "vendor": "ibm",
+    "version": "11.0.16.1+1_openj9-0.33.1"
+  },
+  {
+    "architecture": "ppc64le",
+    "distro": "semeru",
     "features": [],
     "file_type": "tar.gz",
     "filename": "ibm-semeru-open-jdk_ppc64le_linux_11.0.16.1_1_openj9-0.33.1.tar.gz",
@@ -898,6 +920,28 @@
     "url": "https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.22+7_openj9-0.43.0/ibm-semeru-open-jdk_ppc64le_linux_11.0.22_7_openj9-0.43.0.tar.gz",
     "vendor": "ibm",
     "version": "11.0.22+7_openj9-0.43.0"
+  },
+  {
+    "architecture": "ppc64le",
+    "distro": "semeru",
+    "features": [
+      "certified"
+    ],
+    "file_type": "rpm",
+    "filename": "ibm-semeru-certified-11-jdk-11.0.23.0-1.ppc64le.rpm",
+    "image_type": "jdk",
+    "java_version": "11.0.23+9",
+    "jvm_impl": "openj9",
+    "md5": "a892a69d0b8047730e5ec63189ca72b9",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "1102d60f58628b68fe3c0716223494373b22b6f0",
+    "sha256": "695a5081ff107ed073c6f0d556421d08320cec667eb1a8a4df2b4812388d7f94",
+    "sha512": "5ceb3f6ba2b8b78dd6b6dfcee38a7f3b99ad68b6489e478c977b1210c2df15863a1a26d585099017e7e325e5e6debdcba0d668e9198da52d23d3072b1428d687",
+    "size": 228814492,
+    "url": "https://github.com/ibmruntimes/semeru11-certified-binaries/releases/download/jdk-11.0.23+9_openj9-0.44.0/ibm-semeru-certified-11-jdk-11.0.23.0-1.ppc64le.rpm",
+    "vendor": "ibm",
+    "version": "11.0.23+9_openj9-0.44.0"
   },
   {
     "architecture": "ppc64le",
