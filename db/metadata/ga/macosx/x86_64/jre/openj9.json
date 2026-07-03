@@ -1234,6 +1234,26 @@
   {
     "architecture": "x86_64",
     "distro": "adoptopenjdk",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK8U-jre_x64_mac_openj9_8u272b10_openj9-0.23.0.tar.gz",
+    "image_type": "jre",
+    "java_version": "1.8.0_272-b10",
+    "jvm_impl": "openj9",
+    "md5": "daf599df2c3797a962447b3dd0c1f7d4",
+    "os": "macosx",
+    "release_type": "ga",
+    "sha1": "2f0aa72e0a07282c20c593fb1d214a12646aeab6",
+    "sha256": "a1178afead4f839dfefcc78ac755173be5147271218fb4ed7be5dba9a3db2cee",
+    "sha512": "1346a3bb9e78e4ffa66eb51f29fc17a0f146765bbc7666a995337a4c62bf974fa0c64815235a5cc6733b64c7494f03155fb2101232d1bff2f564be301c0ef0b4",
+    "size": 47227141,
+    "url": "https://github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u272-b10_openj9-0.23.0/OpenJDK8U-jre_x64_mac_openj9_8u272b10_openj9-0.23.0.tar.gz",
+    "vendor": "adoptopenjdk",
+    "version": "8.0.272+10.openj9-0.23.0"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "adoptopenjdk",
     "features": [
       "large_heap"
     ],
@@ -1777,6 +1797,28 @@
   },
   {
     "architecture": "x86_64",
+    "distro": "adoptopenjdk",
+    "features": [
+      "large_heap"
+    ],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK11U-jre_x64_mac_openj9_macosXL_11.0.10_9_openj9-0.24.0.tar.gz",
+    "image_type": "jre",
+    "java_version": "11.0.10+9",
+    "jvm_impl": "openj9",
+    "md5": "3e2122fde19fd54995dff62d9c61df87",
+    "os": "macosx",
+    "release_type": "ga",
+    "sha1": "eaa545c24cf290e8e388294f5a8e49cc35f9ae6b",
+    "sha256": "695d72b9dc08d24506dc55958060a6731a62361db16d91158f94770b4e9b6a10",
+    "sha512": "6d76588b53ed14d3b1d24017231607951365d69150ebb1d75d6aeaf79b634b8c9953b29ac45cccd4b02709fe9ec4a6bd1dda7f81f61000feffdde6740dc968dc",
+    "size": 41716938,
+    "url": "https://github.com/AdoptOpenJDK/openjdk11-binaries/releases/download/jdk-11.0.10%2B9_openj9-0.24.0/OpenJDK11U-jre_x64_mac_openj9_macosXL_11.0.10_9_openj9-0.24.0.tar.gz",
+    "vendor": "adoptopenjdk",
+    "version": "11.0.10+9.openj9-0.24.0"
+  },
+  {
+    "architecture": "x86_64",
     "distro": "semeru",
     "features": [],
     "file_type": "pkg",
@@ -1832,6 +1874,26 @@
     "sha512": "8d8922814ff348508ad0a059737eb24c8db57fe5be7fb859eafb11be5a5217f9c0fdb84d552b1da556ef3a97552f68d65397fad8b191ff9724eea63c89c2132f",
     "size": 44363369,
     "url": "https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.13%2B8_openj9-0.29.0/ibm-semeru-open-jre_x64_mac_11.0.13_8_openj9-0.29.0.pkg",
+    "vendor": "ibm",
+    "version": "11.0.13+8_openj9-0.29.0"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "semeru",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "ibm-semeru-open-jre_x64_mac_11.0.13_8_openj9-0.29.0.tar.gz",
+    "image_type": "jre",
+    "java_version": "11.0.13+8",
+    "jvm_impl": "openj9",
+    "md5": "9042b56443163608193f450c31893f46",
+    "os": "macosx",
+    "release_type": "ga",
+    "sha1": "a6edbed254ebd9fd529624e680a1d4e532190ece",
+    "sha256": "4b75ff4c072875384bb753defef97251b0aaeff7828dc76e49523038fc3b8288",
+    "sha512": "330c50edba06ef2558c5f5d4a4c7a30db074c26736e548626aa6a18bdeb729db0fa1fcb757a1ec3998ab692bec69e82e0e094615c2e96836d836cdfd83623db6",
+    "size": 44285732,
+    "url": "https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.13+8_openj9-0.29.0/ibm-semeru-open-jre_x64_mac_11.0.13_8_openj9-0.29.0.tar.gz",
     "vendor": "ibm",
     "version": "11.0.13+8_openj9-0.29.0"
   },
@@ -3104,6 +3166,28 @@
   {
     "architecture": "x86_64",
     "distro": "adoptopenjdk",
+    "features": [
+      "large_heap"
+    ],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK13U-jre_x64_mac_openj9_macosXL_13.0.2_8_openj9-0.18.0.tar.gz",
+    "image_type": "jre",
+    "java_version": "13.0.2+8",
+    "jvm_impl": "openj9",
+    "md5": "981e65cb2ca43b47ec8f3ea4149c6a47",
+    "os": "macosx",
+    "release_type": "ga",
+    "sha1": "e9cb5ad13cb115ac2d54e5239ea2e595d660e709",
+    "sha256": "e52c78f60887d5c0c6b3fb30aa4e76b6184851208b159d9f37c01642d01ebb47",
+    "sha512": "76a4fdd980a314e2150cb9637be25bf35d482dbf7d2a9047c6d1e567f0cc5fcaec5a7f3ae641bc096571842d613e7b9cf4b7b000d41bc57c9bad24272ab3de6c",
+    "size": 40043139,
+    "url": "https://github.com/AdoptOpenJDK/openjdk13-binaries/releases/download/jdk-13.0.2%2B8_openj9-0.18.0/OpenJDK13U-jre_x64_mac_openj9_macosXL_13.0.2_8_openj9-0.18.0.tar.gz",
+    "vendor": "adoptopenjdk",
+    "version": "13.0.2+8.1.openj9-0.18.0"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "adoptopenjdk",
     "features": [],
     "file_type": "tar.gz",
     "filename": "OpenJDK14-jre_x64_mac_openj9_14_36_openj9-0.19.0.tar.gz",
@@ -3180,6 +3264,28 @@
     "sha512": "787790763444ba241377c4650ebd738d517f86cbcfd449220f574787336a263ace765c2b8d8d330e992a12445574fbad3f403cec93292c2590c954a4385d507d",
     "size": 103066898,
     "url": "https://github.com/AdoptOpenJDK/openjdk14-binaries/releases/download/jdk-14.0.1%2B7_openj9-0.20.0/OpenJDK14U-jre_x64_mac_openj9_14.0.1_7_openj9-0.20.0.tar.gz",
+    "vendor": "adoptopenjdk",
+    "version": "14.0.1+7.1.openj9-0.20.0"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "adoptopenjdk",
+    "features": [
+      "large_heap"
+    ],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK14U-jre_x64_mac_openj9_macosXL_14.0.1_7_openj9-0.20.0.tar.gz",
+    "image_type": "jre",
+    "java_version": "14.0.1+7",
+    "jvm_impl": "openj9",
+    "md5": "73f4c384b2fb081f082994078ded030b",
+    "os": "macosx",
+    "release_type": "ga",
+    "sha1": "de1101c9e2a4c18ac113ee3a568b99a34176d216",
+    "sha256": "5788f803443ada2c8b0ea1d40861f649deaee8da49763774dd2c415173f117c8",
+    "sha512": "f99aceb10c75ba1bcfbb5f4676da18e51e8ee064970ffe45a26fa088666468a2912e9581d86ef3a9b3051dd05ce3606d351fc19ac4901f17ae501830119078e6",
+    "size": 103159753,
+    "url": "https://github.com/AdoptOpenJDK/openjdk14-binaries/releases/download/jdk-14.0.1%2B7_openj9-0.20.0/OpenJDK14U-jre_x64_mac_openj9_macosXL_14.0.1_7_openj9-0.20.0.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "14.0.1+7.1.openj9-0.20.0"
   },
