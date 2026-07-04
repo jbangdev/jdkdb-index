@@ -22,6 +22,28 @@
   {
     "architecture": "x86_64",
     "distro": "sapmachine",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "sapmachine-jdk-23-ea.1_linux-x64-musl_bin.tar.gz",
+    "image_type": "jdk",
+    "java_version": "23-ea.1",
+    "jvm_impl": "hotspot",
+    "md5": "d7862d754ebe7344ff6c74d46dd5ad52",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "56975f69d616e8e42036ef8f8b9d92df8a482968",
+    "sha256": "9835d3bc045bda80e6116278cac2a42fdb2c20fe433779cd679a7df20bdb67ed",
+    "sha512": "06f5395a967260b4e7707934c3701e8123d1dc828db9818ef3ab5d26344f98379b210fdf970f9fa1b95c12bd183760d216aa9ad02ed835bfe473f4c48a1b67e9",
+    "size": 207752697,
+    "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-23+1/sapmachine-jdk-23-ea.1_linux-x64-musl_bin.tar.gz",
+    "vendor": "sap",
+    "version": "23-ea.1"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "sapmachine",
     "features": [],
     "file_type": "tar.gz",
     "filename": "sapmachine-jdk-23-ea.1_linux-x64_bin.tar.gz",
@@ -1298,6 +1320,26 @@
     "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-23.0.2+7/sapmachine-jdk-23.0.2-ea.7_linux-x64_bin.tar.gz",
     "vendor": "sap",
     "version": "23.0.2-ea.7"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "sapmachine",
+    "features": [],
+    "file_type": "rpm",
+    "filename": "sapmachine-jdk-23.0.2-1.x86_64.rpm",
+    "image_type": "jdk",
+    "java_version": "23.0.2-1",
+    "jvm_impl": "hotspot",
+    "md5": "090640980673da4bac085bb1354ae20d",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "8a40aaaa611c00ba6d9f838c7f28ebe5b922c27d",
+    "sha256": "218d2b1eef4c78e59d2bbf8dafc3854ff12a0efdcb3af3bdd0aa93deb3dd3788",
+    "sha512": "f9f56ccc23afc50e9c643863afe805533437114db77f7bf577d22b3540b7e184fd705ef3d06d885023793b3dfa5b661ade80fc9f5518eb62223844aedf181114",
+    "size": 181834909,
+    "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-23.0.2/sapmachine-jdk-23.0.2-1.x86_64.rpm",
+    "vendor": "sap",
+    "version": "23.0.2-1"
   },
   {
     "architecture": "x86_64",

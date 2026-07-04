@@ -126,6 +126,28 @@
   {
     "architecture": "x86_64",
     "distro": "adoptopenjdk",
+    "features": [
+      "large_heap"
+    ],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK8U-jre_x64_mac_openj9_macosXL_8u212b04_openj9-0.14.2.tar.gz",
+    "image_type": "jre",
+    "java_version": "8u212-b04_openj9-0.14.2",
+    "jvm_impl": "openj9",
+    "md5": "087f9f299392656b60f0841899d8b898",
+    "os": "macosx",
+    "release_type": "ga",
+    "sha1": "7e8a793fb7ab059fd57fa595802fa42d75003739",
+    "sha256": "7a63285ecfba91a9317732d1994e5b94cbc276ba5228cdcf784ad0cf7f6ff9c2",
+    "sha512": "e17111ad662a4ef175b72b6b4bd03b18a6bbf68826ae4f4be7adf5a743f53157f3867bc7ba08a42495c1fda83e6e2c696f9e2b5acba25651c065f33c7680d83d",
+    "size": 45500716,
+    "url": "https://github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u212-b04_openj9-0.14.2/OpenJDK8U-jre_x64_mac_openj9_macosXL_8u212b04_openj9-0.14.2.tar.gz",
+    "vendor": "adoptopenjdk",
+    "version": "8.0.212+4.openj9-0.14.2"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "adoptopenjdk",
     "features": [],
     "file_type": "tar.gz",
     "filename": "OpenJDK8U-jre_x64_mac_openj9_8u222b10_openj9-0.15.1.tar.gz",
@@ -330,6 +352,26 @@
     "url": "https://github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u272-b10_openj9-0.23.0/OpenJDK8U-jre_x64_mac_openj9_8u272b10_openj9-0.23.0.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "8.0.272+10.openj9-0.23.0"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "adoptopenjdk",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK8U-jre_x64_mac_openj9_8u275b01_openj9-0.23.0.tar.gz",
+    "image_type": "jre",
+    "java_version": "1.8.0_275-b01",
+    "jvm_impl": "openj9",
+    "md5": "b632ca63a865aaaddb48296d3c824080",
+    "os": "macosx",
+    "release_type": "ga",
+    "sha1": "ec5a541e4ae7be5c4af38ee58c6486393495e49f",
+    "sha256": "b43f3219aa77f06047694622b678af3156293bb7206c39a8dbacf32e49632903",
+    "sha512": "330c1803150eb0992536186ef5ba5b7f3239d5800b0610c6699a026c22f657d00d4e91c50615c12fae40403a15ee4ae981ee569efc9aedc56f9e678a2b42ca2a",
+    "size": 47010342,
+    "url": "https://github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u275-b01_openj9-0.23.0/OpenJDK8U-jre_x64_mac_openj9_8u275b01_openj9-0.23.0.tar.gz",
+    "vendor": "adoptopenjdk",
+    "version": "8.0.275+1.openj9-0.23.0"
   },
   {
     "architecture": "x86_64",
