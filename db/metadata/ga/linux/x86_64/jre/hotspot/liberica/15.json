@@ -91,6 +91,28 @@
     "architecture": "x86_64",
     "distro": "liberica",
     "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jre15.0.1+9-linux-x64-musl.tar.gz",
+    "image_type": "jre",
+    "java_version": "15.0.1+9",
+    "jvm_impl": "hotspot",
+    "md5": "0a84abb44708fc91cd5a66cf8b71b600",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "de3c033be983bd43cb45830715f3cfbe5288fde0",
+    "sha256": "ff90afe96bfe1ebc941477f112c7d532b4eb6b95b65b1a151d7120108e2284ca",
+    "sha512": "00bc8cd37e09883a33276e5fc57eb258180c6c7676f4d3887a20084d2c6ccac7eb1e5a8f6da689d9c7f54dc3b0f412b69c19ca2b9cffb98be866bc8447faaeee",
+    "size": 53202774,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/15.0.1+9/bellsoft-jre15.0.1+9-linux-x64-musl.tar.gz",
+    "vendor": "bellsoft",
+    "version": "15.0.1+9"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
       "libericafx",
       "minimal-vm",
       "javafx"

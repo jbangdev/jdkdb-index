@@ -110,6 +110,48 @@
   {
     "architecture": "x86_64",
     "distro": "zulu",
+    "features": [],
+    "file_type": "msi",
+    "filename": "zulu21.30.15-ca-jdk21.0.1-win_x64.msi",
+    "image_type": "jdk",
+    "java_version": "21.0.1+12-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "c39ce93f7292b2b095c31ed89214c9da",
+    "os": "windows",
+    "release_type": "ga",
+    "sha1": "3de792ae282d1e599e104bc7a01683f853705853",
+    "sha256": "bc4500dfb60ce81b14601fee92fdcc8d99b9a5ebd8b3d11e1991fd3d080830ed",
+    "sha512": "900e6a0727b80b2c2f6c5abdfaa356641aa5333d8a1099038badde62f592cb6e3f21a64b18e8fe4dc112c8f37a6c27868102411861d987796217a2f4fc2d9ce8",
+    "size": 184451072,
+    "url": "https://static.azul.com/zulu/bin/zulu21.30.15-ca-jdk21.0.1-win_x64.msi",
+    "vendor": "azul",
+    "version": "21.30.15"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "zulu",
+    "features": [
+      "crac"
+    ],
+    "file_type": "zip",
+    "filename": "zulu21.32.17-ca-crac-jdk21.0.2-win_x64.zip",
+    "image_type": "jdk",
+    "java_version": "21.0.2+13-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "cfcde4937c153ee854f82182f1d2a038",
+    "os": "windows",
+    "release_type": "ga",
+    "sha1": "e4d3c57fee8ee1408d63e285e46bb26e8bd78508",
+    "sha256": "c4f83ce66a361b5cdd3724f165c507dcbe192a5566dec55a1f72243dfd155c06",
+    "sha512": "6bad18d8e2288ec761ad0b534c3236e84817e2c12a6ff491dbf02ebfa827e1145ff1518e815c047cde8bed7218f986a415cf800d50c580a1a3f6a53f715f3cbc",
+    "size": 209503583,
+    "url": "https://static.azul.com/zulu/bin/zulu21.32.17-ca-crac-jdk21.0.2-win_x64.zip",
+    "vendor": "azul",
+    "version": "21.32.17"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "zulu",
     "features": [
       "javafx"
     ],
@@ -550,6 +592,28 @@
     "sha512": "7af07a239bd026fe3b1ff74f187cf70284267ec898dd1e9dd38b3e15c1458915d87b331e09abb34ae5af81ecafac604f6603ffadf17c2e1567301b75897b580a",
     "size": 210807984,
     "url": "https://static.azul.com/zulu/bin/zulu21.44.17-ca-crac-jdk21.0.8-win_x64.zip",
+    "vendor": "azul",
+    "version": "21.44.17"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "zulu",
+    "features": [
+      "javafx"
+    ],
+    "file_type": "msi",
+    "filename": "zulu21.44.17-ca-fx-jdk21.0.8-win_x64.msi",
+    "image_type": "jdk",
+    "java_version": "21.0.8+9-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "eb94a8f8b01ba3c646f2307fd547abd2",
+    "os": "windows",
+    "release_type": "ga",
+    "sha1": "7f9f65e00f5e4a255eef3dc9f8dfcbcff1521a11",
+    "sha256": "5f3edabefd3f937a548fb70f16bc962186758777f21eb393f701455b8ae43811",
+    "sha512": "4e97ee74c3832adf208fcfdb751c6d659f92e0e17ff9be4f3ee0aaf0cfa0372fd9fcd9d57f6ca80cf32682dc1c75b0a100004cfd031f5fa565902d6c4eec0f94",
+    "size": 266641408,
+    "url": "https://static.azul.com/zulu/bin/zulu21.44.17-ca-fx-jdk21.0.8-win_x64.msi",
     "vendor": "azul",
     "version": "21.44.17"
   },
