@@ -1502,6 +1502,26 @@
   {
     "architecture": "x86_64",
     "distro": "adoptopenjdk",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK11U-jre_x64_mac_openj9_11.0.2_9_openj9-0.12.0.tar.gz",
+    "image_type": "jre",
+    "java_version": "11.0.2+9",
+    "jvm_impl": "openj9",
+    "md5": "583300d1c627a02cf31d71163a8992b6",
+    "os": "macosx",
+    "release_type": "ga",
+    "sha1": "90e7d84312d79f43ff390cdbab37bca64dcfcfa9",
+    "sha256": "40d70bf570b2098b381b77ae62dfddfb8cf6fc500ed539d82b78405593a9c9e5",
+    "sha512": "511c5b542e3fa4351cfb373b4ec074ca3ab056a905217436cad72c5b26fe5eaaf667b49e6167a5ccfd37d45fb649ff897d4fcee7f1b768b2bdd8f71355fe7997",
+    "size": 40111131,
+    "url": "https://github.com/AdoptOpenJDK/openjdk11-binaries/releases/download/jdk-11.0.2%2B9/OpenJDK11U-jre_x64_mac_openj9_11.0.2_9_openj9-0.12.0.tar.gz",
+    "vendor": "adoptopenjdk",
+    "version": "11.0.2+9.openj9-0.12.0"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "adoptopenjdk",
     "features": [
       "large_heap"
     ],
@@ -3794,6 +3814,26 @@
     "sha512": "90f9db35731d8e48454054d90689a7eb7173f5a3703472f30fb05f479ed9772d30cdea287d288e6ccff132c5b9947db73c1f229ce7c61d3d1d86a5afe0998388",
     "size": 48051962,
     "url": "https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.6%2B10_openj9-0.36.0/ibm-semeru-open-jre_x64_mac_17.0.6_10_openj9-0.36.0.pkg",
+    "vendor": "ibm",
+    "version": "17.0.6+10_openj9-0.36.0"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "semeru",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "ibm-semeru-open-jre_x64_mac_17.0.6_10_openj9-0.36.0.tar.gz",
+    "image_type": "jre",
+    "java_version": "17.0.6+10",
+    "jvm_impl": "openj9",
+    "md5": "50f335498e91bac9f726917ab7c40d0e",
+    "os": "macosx",
+    "release_type": "ga",
+    "sha1": "2cf8e06f7dc8cc828ad00d1d8cdae14b303e48b8",
+    "sha256": "9ab0db7a612e5fcf742df95efa2efd1cdf3bed5045ce75495d5dd2f1904ab00f",
+    "sha512": "0442db19dbb7741e7a78183d223cf6341a4ca4f43d26750b934822f17e4a169fe9efcc46a561f011932d8fb9f3b2c4ec2889da02709f8d863d3c12f5eb7be5f0",
+    "size": 47993831,
+    "url": "https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.6+10_openj9-0.36.0/ibm-semeru-open-jre_x64_mac_17.0.6_10_openj9-0.36.0.tar.gz",
     "vendor": "ibm",
     "version": "17.0.6+10_openj9-0.36.0"
   },

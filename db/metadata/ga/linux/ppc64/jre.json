@@ -1295,6 +1295,28 @@
   },
   {
     "architecture": "ppc64",
+    "distro": "sapmachine",
+    "features": [
+      "le"
+    ],
+    "file_type": "tar.gz",
+    "filename": "sapmachine-jre-11.0.21_linux-ppc64le_bin.tar.gz",
+    "image_type": "jre",
+    "java_version": "11.0.21+0-LTS-sapmachine",
+    "jvm_impl": "hotspot",
+    "md5": "5984cebf14a2de377aa5e31b845b079d",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "6b5935004d48532fbcb9053476556f21f83bfa42",
+    "sha256": "01ca137ef436e9a0f1447979eb8e8485273e1b9c54d4445d90388bbd63419282",
+    "sha512": "1497df5447224e096be152717daefc47c432d3a88f9f082c0194c4a26a3837bc6bf24ea50a9029086451dfca80042b1e61be19d267ba52044f2ebeebac3831b5",
+    "size": 40289985,
+    "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-11.0.21/sapmachine-jre-11.0.21_linux-ppc64le_bin.tar.gz",
+    "vendor": "sap",
+    "version": "11.0.21"
+  },
+  {
+    "architecture": "ppc64",
     "distro": "semeru",
     "features": [
       "certified"
@@ -1752,6 +1774,26 @@
     "url": "https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.30%2B5_openj9-0.57.0-m2a/ibm-semeru-open-11-jre-11.0.30.5_0.57.0-1.ppc64.rpm",
     "vendor": "ibm",
     "version": "11.0.30+5_openj9-0.57.0-m2a"
+  },
+  {
+    "architecture": "ppc64",
+    "distro": "semeru",
+    "features": [],
+    "file_type": "rpm",
+    "filename": "ibm-semeru-open-11-jre-11.0.30.7_0.57.0-1.ppc64.rpm",
+    "image_type": "jre",
+    "java_version": "11.0.30+7",
+    "jvm_impl": "openj9",
+    "md5": "15552453a652a385abfdff05b4f5a671",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "0df138f779b16feecc4ff7501a3de2699861b975",
+    "sha256": "6e06829a2af91a32c3029157528b897a19c498b3ae3bd54e690f7ae8391a85b4",
+    "sha512": "af30615ee1a20af326eee35b7a7276848f1ff7be600ded6acc3132feab7766f7d30eb6fb216008edcbb195ef3f7808f6d55cc0c087eb1da7521cca4c5fd00e9e",
+    "size": 65454216,
+    "url": "https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.30+7_openj9-0.57.0/ibm-semeru-open-11-jre-11.0.30.7_0.57.0-1.ppc64.rpm",
+    "vendor": "ibm",
+    "version": "11.0.30+7_openj9-0.57.0"
   },
   {
     "architecture": "ppc64",
@@ -3060,6 +3102,28 @@
   {
     "architecture": "ppc64",
     "distro": "semeru",
+    "features": [
+      "certified"
+    ],
+    "file_type": "rpm",
+    "filename": "ibm-semeru-certified-17-jre-17.0.17.0-1.ppc64.rpm",
+    "image_type": "jre",
+    "java_version": "17.0.17+10",
+    "jvm_impl": "openj9",
+    "md5": "34ace42c2ad1fbd4d4fc6448b650eae0",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "6436d042de71a549bad287343ef542361f8ebdb2",
+    "sha256": "57fe0684fab40fe01a34febae64d17bc695eb8aa9411c7dc837ee8f34ade47ed",
+    "sha512": "4692998f953dfb08649ade550017d0ae60bd39f35ded1e7ae03cfb979c63fb59c76b08f4ac9482b5d6654b162d08122cf0495a47d6d672316b2f6635d292e591",
+    "size": 65769900,
+    "url": "https://github.com/ibmruntimes/semeru17-certified-binaries/releases/download/jdk-17.0.17+10_openj9-0.56.0/ibm-semeru-certified-17-jre-17.0.17.0-1.ppc64.rpm",
+    "vendor": "ibm",
+    "version": "17.0.17+10_openj9-0.56.0"
+  },
+  {
+    "architecture": "ppc64",
+    "distro": "semeru",
     "features": [],
     "file_type": "rpm",
     "filename": "ibm-semeru-open-17-jre-17.0.17.10_0.56.0-1.ppc64.rpm",
@@ -3450,6 +3514,28 @@
     "url": "https://github.com/ibmruntimes/semeru19-binaries/releases/download/jdk-19.0.2+7_openj9-0.37.0/ibm-semeru-open-19-jre-19.0.2.7_0.37.0-1.ppc64.rpm",
     "vendor": "ibm",
     "version": "19.0.2+7_openj9-0.37.0"
+  },
+  {
+    "architecture": "ppc64",
+    "distro": "sapmachine",
+    "features": [
+      "le"
+    ],
+    "file_type": "tar.gz",
+    "filename": "sapmachine-jre-20.0.1_linux-ppc64le_bin.tar.gz",
+    "image_type": "jre",
+    "java_version": "20.0.1",
+    "jvm_impl": "hotspot",
+    "md5": "bf09c6e86d9985e793cd3d120df8ebf5",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "404506ec2cda83461af0126bbbd7cb928caf0db2",
+    "sha256": "8a10413c2d09a431f343e9dc86b5d9cf5e3fb59147fb24c8335a969be5a82b78",
+    "sha512": "fffd676400c67be8233ac6b52406664dc0525c50928c4339b5d922cc9618aebd7768e445d9a82248d94df77826eff381e1fe62719ca60cd7f211d55d35ed6840",
+    "size": 49716201,
+    "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-20.0.1/sapmachine-jre-20.0.1_linux-ppc64le_bin.tar.gz",
+    "vendor": "sap",
+    "version": "20.0.1"
   },
   {
     "architecture": "ppc64",
