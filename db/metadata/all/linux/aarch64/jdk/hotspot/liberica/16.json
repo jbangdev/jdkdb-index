@@ -312,6 +312,29 @@
     "architecture": "aarch64",
     "distro": "liberica",
     "features": [
+      "lite",
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jdk16.0.2+7-linux-aarch64-musl-lite.tar.gz",
+    "image_type": "jdk",
+    "java_version": "16.0.2+7",
+    "jvm_impl": "hotspot",
+    "md5": "ece0779faaffebc6c60f1cfce119c329",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "3319aeb4d79c2f9746584cb48a18d85beb396866",
+    "sha256": "e3a7205c3359fb561c6388e7887fbf99d2f9042cc15d9ee4be029a373dbee2d0",
+    "sha512": "2b5d366c98eaaffc5f52d9ea161925b606900000a79029f908a4eaf2e159622dedfe9eff750b45bd1a22055aceccaecfb6712eb8506cdfa2153247a90483a5f9",
+    "size": 78525046,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/16.0.2+7/bellsoft-jdk16.0.2+7-linux-aarch64-musl-lite.tar.gz",
+    "vendor": "bellsoft",
+    "version": "16.0.2+7"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "liberica",
+    "features": [
       "musl"
     ],
     "file_type": "apk",
