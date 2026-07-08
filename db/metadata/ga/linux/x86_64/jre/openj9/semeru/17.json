@@ -317,6 +317,28 @@
     "features": [
       "certified"
     ],
+    "file_type": "rpm",
+    "filename": "ibm-semeru-certified-17-jre-17.0.6.0-1.x86_64.rpm",
+    "image_type": "jre",
+    "java_version": "17.0.6+10",
+    "jvm_impl": "openj9",
+    "md5": "c2d7216055f1ac30b9c88db866c1c192",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "681d59c6fcb92bb1da0e9e77bd59d8828201a84d",
+    "sha256": "2cedaddedcaa5c2739615f74967719e28e86e6599a697a0186b9f4709190fc08",
+    "sha512": "40a9e0796baef58f96572fd5028ae05d43e5a4d67bfeb8020a0c910bd39f7bb3ef7dd926a934343e9a6ac8bcf723aceb00a5f710350172968b8cdef6b0f98569",
+    "size": 28704072,
+    "url": "https://github.com/ibmruntimes/semeru17-certified-binaries/releases/download/jdk-17.0.6+10_openj9-0.36.0/ibm-semeru-certified-17-jre-17.0.6.0-1.x86_64.rpm",
+    "vendor": "ibm",
+    "version": "17.0.6+10_openj9-0.36.0"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "semeru",
+    "features": [
+      "certified"
+    ],
     "file_type": "tar.gz",
     "filename": "ibm-semeru-certified-jre_x64_linux_17.0.6.0.tar.gz",
     "image_type": "jre",
@@ -1680,5 +1702,45 @@
     "url": "https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.20.0-m1/ibm-semeru-open-jre_x64_linux_17.0.20.0-m1.tar.gz",
     "vendor": "ibm",
     "version": "17.0.20.0-m1"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "semeru",
+    "features": [],
+    "file_type": "rpm",
+    "filename": "ibm-semeru-open-17-jre-17.0.20.0_m2-1.x86_64.rpm",
+    "image_type": "jre",
+    "java_version": "17.0.20.0",
+    "jvm_impl": "openj9",
+    "md5": "53cf771be80467b6098ddb717c2f930e",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "b7092c8309fd8718a63f821004c289913a59be6a",
+    "sha256": "b5a62b87b6a6f84f11190748492aa894c8cbb1adfcc9e4e70956b5bb1d2de1ff",
+    "sha512": "2bdd36b8c35b4803bcffcdbf8ff09e2698ae7ce4f02f0770cd19cb6813db5dae94a7789c3d05db61a29567dc3e59d83c33fb2e4d02bf9938b22f565134827988",
+    "size": 33318784,
+    "url": "https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.20.0-m2/ibm-semeru-open-17-jre-17.0.20.0_m2-1.x86_64.rpm",
+    "vendor": "ibm",
+    "version": "17.0.20.0-m2"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "semeru",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "ibm-semeru-open-jre_x64_linux_17.0.20.0-m2.tar.gz",
+    "image_type": "jre",
+    "java_version": "17.0.20.0",
+    "jvm_impl": "openj9",
+    "md5": "fab872db1525b16a98fbb880ff7792be",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "db8eedee336a989c59e53d91c872cb770fb2405f",
+    "sha256": "8ac22d2c99bc8d18663d319cf6e36c1e5b3afe6dbd33a39d378b994e7bc2dd8c",
+    "sha512": "99c4eab39eca4c7a775a6be92efdb34a6a8be1804b99e00dd9893e099fc3a066f645199d9b95c43223f8c0327f2508d806d1907607aa89e41ce032406ea82e91",
+    "size": 54970174,
+    "url": "https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.20.0-m2/ibm-semeru-open-jre_x64_linux_17.0.20.0-m2.tar.gz",
+    "vendor": "ibm",
+    "version": "17.0.20.0-m2"
   }
 ]

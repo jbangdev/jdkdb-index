@@ -44,6 +44,28 @@
   {
     "architecture": "x86_64",
     "distro": "semeru",
+    "features": [
+      "certified"
+    ],
+    "file_type": "rpm",
+    "filename": "ibm-semeru-certified-21-jre-21.0.2.0-1.x86_64.rpm",
+    "image_type": "jre",
+    "java_version": "21.0.2+13",
+    "jvm_impl": "openj9",
+    "md5": "048799948a5536c4d478ef93daba4003",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "a989168b5d690429b1a159f1f243c3c0097784f9",
+    "sha256": "8473828eb52d2c27490edd1ddda8df8170ceb3f824ebc3ad7e224c9a7b9072f9",
+    "sha512": "4afc9155443f9ac4d3c8926aeec12e31d8b35b7b335e8de04e58b11a962f2df4a1906285042e65b38fb6edf3f6f70b74fac9d81d068f880e049a71c016a1baf4",
+    "size": 31339224,
+    "url": "https://github.com/ibmruntimes/semeru21-certified-binaries/releases/download/jdk-21.0.2+13_openj9-0.43.0/ibm-semeru-certified-21-jre-21.0.2.0-1.x86_64.rpm",
+    "vendor": "ibm",
+    "version": "21.0.2+13_openj9-0.43.0"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "semeru",
     "features": [],
     "file_type": "rpm",
     "filename": "ibm-semeru-open-21-jre-21.0.2.13_0.43.0-1.x86_64.rpm",
@@ -554,5 +576,25 @@
     "url": "https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.12.0-m1/ibm-semeru-open-21-jre-21.0.12.0_m1-1.x86_64.rpm",
     "vendor": "ibm",
     "version": "21.0.12.0-m1"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "semeru",
+    "features": [],
+    "file_type": "rpm",
+    "filename": "ibm-semeru-open-21-jre-21.0.12.0_m2-1.x86_64.rpm",
+    "image_type": "jre",
+    "java_version": "21.0.12+7-LTS",
+    "jvm_impl": "openj9",
+    "md5": "1d950c93425a4c28ce2093b17dce6090",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "41c3964c2c3a069f9554a7c641cc566d04666010",
+    "sha256": "197e01be28a89ec90207c0cafbfb2fd9f5425b2d23da880c81ff4d5f6c903f34",
+    "sha512": "1594e6fd7a00a170083831999547d0b3edc8d8a139ea87cef445f2f9b6e0c4a527d3009fd0c27620d9cb36aee1510ba1f0d710b5cf1ccec11f98800cdc42d0e4",
+    "size": 35631376,
+    "url": "https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.12.0-m2/ibm-semeru-open-21-jre-21.0.12.0_m2-1.x86_64.rpm",
+    "vendor": "ibm",
+    "version": "21.0.12.0-m2"
   }
 ]

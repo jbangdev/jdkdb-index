@@ -74,6 +74,28 @@
   {
     "architecture": "aarch64",
     "distro": "liberica",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jre23.0.1+13-linux-aarch64-musl.tar.gz",
+    "image_type": "jre",
+    "java_version": "23.0.1+13",
+    "jvm_impl": "hotspot",
+    "md5": "bb670260330d8ee68d968f38a75756fe",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "c9f5bb061ecc816c89c0caa9c980dafdca40b67c",
+    "sha256": "fc4c37c82ff8fd5b33ec763affab1619543e803d2517b3b0b24b271e71a3a6de",
+    "sha512": "4e0a533c63c00eb2d7f1c819b0d90da18c94ab73353aa22d563be736ac9572feb6cfc5e3ae1c393a9485fac2ffc2592533cff18defeaa6b9856209f91393bf3e",
+    "size": 64562550,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/23.0.1+13/bellsoft-jre23.0.1+13-linux-aarch64-musl.tar.gz",
+    "vendor": "bellsoft",
+    "version": "23.0.1+13"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "liberica",
     "features": [],
     "file_type": "rpm",
     "filename": "bellsoft-jre23.0.1+13-linux-aarch64.rpm",
@@ -216,6 +238,30 @@
     "url": "https://github.com/bell-sw/Liberica/releases/download/23.0.2+9/bellsoft-jre23.0.2+9-linux-aarch64.tar.gz",
     "vendor": "bellsoft",
     "version": "23.0.2+9"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "liberica",
+    "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
+    "file_type": "deb",
+    "filename": "bellsoft-jre23+38-linux-aarch64-full.deb",
+    "image_type": "jre",
+    "java_version": "23+38",
+    "jvm_impl": "hotspot",
+    "md5": "9f0cd44cc14f9abda784c663361377f4",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "9afaeecaec76d2f9a8e1ab2a5347a682178f6d5b",
+    "sha256": "1fc19c3f5e4615b192cb1b46c533534e1cc625096bc3b6fa15b08048517a82a4",
+    "sha512": "1acf6ba7b35d0d9c98df5d250628da41322e990b8c23fe243ed3f8ccaf9aad485302ee4fa3aac0ea624feff78f382749b7256f8d1403e6cdb309bf18c7d95090",
+    "size": 71132268,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/23+38/bellsoft-jre23+38-linux-aarch64-full.deb",
+    "vendor": "bellsoft",
+    "version": "23+38"
   },
   {
     "architecture": "aarch64",

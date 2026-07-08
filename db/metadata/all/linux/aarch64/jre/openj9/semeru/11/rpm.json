@@ -124,6 +124,28 @@
   {
     "architecture": "aarch64",
     "distro": "semeru",
+    "features": [
+      "certified"
+    ],
+    "file_type": "rpm",
+    "filename": "ibm-semeru-certified-11-jre-11.0.17.0-1.aarch64.rpm",
+    "image_type": "jre",
+    "java_version": "11.0.17+8",
+    "jvm_impl": "openj9",
+    "md5": "c785224daeb479d75638e2083c0478fa",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "c4a19f312bf120a542d4e149d1eac400690936fa",
+    "sha256": "4b053685ec6c929d5ca597f0bbecdb57c26fae523d2a803719b9ce31f2516776",
+    "sha512": "536c149e9bf56c3126f2f2bdbe10fef7f029d65ee3657e4ed98088d251a67a462ed3b1f8cbed97b06ae530165e207c7143fdc40036a6576bb9ade3a96f216675",
+    "size": 45766027,
+    "url": "https://github.com/ibmruntimes/semeru11-certified-binaries/releases/download/jdk-11.0.17+8_openj9-0.35.0/ibm-semeru-certified-11-jre-11.0.17.0-1.aarch64.rpm",
+    "vendor": "ibm",
+    "version": "11.0.17+8_openj9-0.35.0"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "semeru",
     "features": [],
     "file_type": "rpm",
     "filename": "ibm-semeru-open-11-jre-11.0.17.8_0.35.0-1.aarch64.rpm",
@@ -826,5 +848,25 @@
     "url": "https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.32.0-m1/ibm-semeru-open-11-jre-11.0.32.0_m1-1.aarch64.rpm",
     "vendor": "ibm",
     "version": "11.0.32.0-m1"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "semeru",
+    "features": [],
+    "file_type": "rpm",
+    "filename": "ibm-semeru-open-11-jre-11.0.32.0_m2-1.aarch64.rpm",
+    "image_type": "jre",
+    "java_version": "11.0.32.0",
+    "jvm_impl": "openj9",
+    "md5": "36b99dafdd54d698910be649ab1ad339",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "d210b1f1aeb84e760d559443203f6a7228c7f8d8",
+    "sha256": "cf2f369feb86c79b80b1206ea726015a53edeb88103c0437f0ff48cfbd8c398d",
+    "sha512": "304ed2782beb6751ea1e8a501bd6455a61d9eaaefa0029d3f8134371b3435977d40e48d2b69f59c4a333fd1e3bbfeeb3411f683878bcb6b34e1b5fd7cb60535d",
+    "size": 32425388,
+    "url": "https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.32.0-m2/ibm-semeru-open-11-jre-11.0.32.0_m2-1.aarch64.rpm",
+    "vendor": "ibm",
+    "version": "11.0.32.0-m2"
   }
 ]

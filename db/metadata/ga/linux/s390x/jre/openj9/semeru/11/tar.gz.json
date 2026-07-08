@@ -354,6 +354,28 @@
   {
     "architecture": "s390x",
     "distro": "semeru",
+    "features": [
+      "certified"
+    ],
+    "file_type": "tar.gz",
+    "filename": "ibm-semeru-certified-jre_s390x_linux_11.0.22.0.tar.gz",
+    "image_type": "jre",
+    "java_version": "11.0.22+7",
+    "jvm_impl": "openj9",
+    "md5": "899fa3dc2ab516f782fd4a247d6bab66",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "5d45a648fe8b0ed1dafffc39f782874278ce1314",
+    "sha256": "2f7282f86c39a4995b60d794a38800c43c525ff0dc1f470bd75b9b351074a7cb",
+    "sha512": "b330f4e956d9d6959c81edc4e145cd07357f8e44fc48b9c9523df631bd5d428ee95afda68e0baab8869c155612229835711d9fc7a77bbcebdc74244c1d676a67",
+    "size": 47758936,
+    "url": "https://github.com/ibmruntimes/semeru11-certified-binaries/releases/download/jdk-11.0.22+7_openj9-0.43.0/ibm-semeru-certified-jre_s390x_linux_11.0.22.0.tar.gz",
+    "vendor": "ibm",
+    "version": "11.0.22+7_openj9-0.43.0"
+  },
+  {
+    "architecture": "s390x",
+    "distro": "semeru",
     "features": [],
     "file_type": "tar.gz",
     "filename": "ibm-semeru-open-jre_s390x_linux_11.0.22_7_openj9-0.43.0.tar.gz",
@@ -820,5 +842,25 @@
     "url": "https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.32.0-m1/ibm-semeru-open-jre_s390x_linux_11.0.32.0-m1.tar.gz",
     "vendor": "ibm",
     "version": "11.0.32.0-m1"
+  },
+  {
+    "architecture": "s390x",
+    "distro": "semeru",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "ibm-semeru-open-jre_s390x_linux_11.0.32.0-m2.tar.gz",
+    "image_type": "jre",
+    "java_version": "11.0.32.0",
+    "jvm_impl": "openj9",
+    "md5": "5cd174cd7b606389acc6751a9aca0b02",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "05e07b1592e80d481517bf5d626d3c11bb5dc4d3",
+    "sha256": "cf4816453db1c79bc09e207500b9df742962ae1bbc3b26075bbdeae836a6c956",
+    "sha512": "276e5431aa0a9a3fb01feab32cf2da6593237ddd7f1f6c9a3c2d346bc9ee2982bcd056340a89c11124f446899251c1900e7fdab62f67f272b878c16f1eb9c184",
+    "size": 57511334,
+    "url": "https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.32.0-m2/ibm-semeru-open-jre_s390x_linux_11.0.32.0-m2.tar.gz",
+    "vendor": "ibm",
+    "version": "11.0.32.0-m2"
   }
 ]

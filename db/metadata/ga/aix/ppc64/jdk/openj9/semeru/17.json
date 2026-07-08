@@ -214,6 +214,28 @@
   {
     "architecture": "ppc64",
     "distro": "semeru",
+    "features": [
+      "certified"
+    ],
+    "file_type": "zip",
+    "filename": "ibm-semeru-certified-jdk_ppc64_aix_17.0.5.0.tap.zip",
+    "image_type": "jdk",
+    "java_version": "17.0.4.1+1",
+    "jvm_impl": "openj9",
+    "md5": "dc1f93045936440ccbe811c1b252fcea",
+    "os": "aix",
+    "release_type": "ga",
+    "sha1": "2fa9d5031d1e5a6c12e055e7d8d91e9b6604872d",
+    "sha256": "875e2fee2a2a69496e37848d5fcc7be6d73ee38dde35e61baf3959caacae387b",
+    "sha512": "098ce3ec3665c388b1683fb325bd515092ac1f889031b387197685e943fad2f02ca244f291a6dad6069e553a51f3142f939dcfde8ca442f400c0344f63c9e7be",
+    "size": 51146,
+    "url": "https://github.com/ibmruntimes/semeru17-certified-binaries/releases/download/jdk-17.0.4.1+1_openj9-0.33.1/ibm-semeru-certified-jdk_ppc64_aix_17.0.5.0.tap.zip",
+    "vendor": "ibm",
+    "version": "17.0.4.1+1_openj9-0.33.1"
+  },
+  {
+    "architecture": "ppc64",
+    "distro": "semeru",
     "features": [],
     "file_type": "tar.gz",
     "filename": "ibm-semeru-open-jdk_ppc64_aix_17.0.4.1_1_openj9-0.33.1.tar.gz",
@@ -1242,5 +1264,25 @@
     "url": "https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.20.0-m1/ibm-semeru-open-jdk_ppc64_aix_17.0.20.0-m1.tar.gz",
     "vendor": "ibm",
     "version": "17.0.20.0-m1"
+  },
+  {
+    "architecture": "ppc64",
+    "distro": "semeru",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "ibm-semeru-open-jdk_ppc64_aix_17.0.20.0-m2.tar.gz",
+    "image_type": "jdk",
+    "java_version": "17.0.20.0",
+    "jvm_impl": "openj9",
+    "md5": "7b242331f8dc49d0a9285fbec3e35b67",
+    "os": "aix",
+    "release_type": "ga",
+    "sha1": "031c804681e403712aa4c567b596b2ccaeeed8b8",
+    "sha256": "19d28e75926bd6d5067af8eb3bf92453643acec9b1b35a3f952a9d82ccc819e1",
+    "sha512": "d4d3aedb6049126299b275b45331d4b2eaf060e2fb8c3734cc07aaac221b90aee6bc09e67b9a3a4fb38f1711affdd453d617e6e43d92de6badf19c54eb9d927c",
+    "size": 247013135,
+    "url": "https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.20.0-m2/ibm-semeru-open-jdk_ppc64_aix_17.0.20.0-m2.tar.gz",
+    "vendor": "ibm",
+    "version": "17.0.20.0-m2"
   }
 ]

@@ -228,6 +228,28 @@
   {
     "architecture": "aarch64",
     "distro": "semeru",
+    "features": [
+      "certified"
+    ],
+    "file_type": "tar.gz",
+    "filename": "ibm-semeru-certified-jre_aarch64_linux_11.0.20.1.tar.gz",
+    "image_type": "jre",
+    "java_version": "11.0.20.1+1",
+    "jvm_impl": "openj9",
+    "md5": "db9e735284832cf9d88e3a82681f6361",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "d9051244417c70cf71700b7c9c34b3228a41bd49",
+    "sha256": "0d0f79044e5db81094bf83608a129436948daf786f52406936dea7c6c43b241c",
+    "sha512": "f18278db40b6405b22c83fb582cd43e4319e8a76a69933ed205958415849cba346ced8eaa1be7e20ed385f8f2cbe284d3a4ca94396b9bbf7e22e6eed74b808b5",
+    "size": 46057101,
+    "url": "https://github.com/ibmruntimes/semeru11-certified-binaries/releases/download/jdk-11.0.20.1+1_openj9-0.40.0/ibm-semeru-certified-jre_aarch64_linux_11.0.20.1.tar.gz",
+    "vendor": "ibm",
+    "version": "11.0.20.1+1_openj9-0.40.0"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "semeru",
     "features": [],
     "file_type": "tar.gz",
     "filename": "ibm-semeru-open-jre_aarch64_linux_11.0.20.1_1_openj9-0.40.0.tar.gz",
@@ -824,5 +846,25 @@
     "url": "https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.32.0-m1/ibm-semeru-open-jre_aarch64_linux_11.0.32.0-m1.tar.gz",
     "vendor": "ibm",
     "version": "11.0.32.0-m1"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "semeru",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "ibm-semeru-open-jre_aarch64_linux_11.0.32.0-m2.tar.gz",
+    "image_type": "jre",
+    "java_version": "11.0.32.0",
+    "jvm_impl": "openj9",
+    "md5": "69361efcfad22f475fb7cdd381bde852",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "3c337b0daab7f9df5dafacffc8290c1edb71a535",
+    "sha256": "d94d674605ff9d560f99c6c82b59a27ad333629fc27277934ebe656f982d5e74",
+    "sha512": "3dabe14b23e76293749e28f4d6e1b8793d642cb7f2d9a28f294ee3f9a8a60f1ceb26d98beeb98fe7e2b2e540f19ca48d70394fd3aac7d6fe1182677c5e319d4f",
+    "size": 53276788,
+    "url": "https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.32.0-m2/ibm-semeru-open-jre_aarch64_linux_11.0.32.0-m2.tar.gz",
+    "vendor": "ibm",
+    "version": "11.0.32.0-m2"
   }
 ]
