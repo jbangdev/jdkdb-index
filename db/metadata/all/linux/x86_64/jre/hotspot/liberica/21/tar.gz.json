@@ -667,6 +667,28 @@
     "architecture": "x86_64",
     "distro": "liberica",
     "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jre21.0.9+15-linux-x64-musl.tar.gz",
+    "image_type": "jre",
+    "java_version": "21.0.9+15-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "c474452ed628eca4f66ec5306d442e77",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "abd402e61ac7699ac202000bb5ae818eb4998e74",
+    "sha256": "9b2e3b2c0bd6df3b7aeca19e1c1122b45c677dfe7f561b7468b67c3c46dbb642",
+    "sha512": "499ef10b03878a5e99142e1ad877b8cc7cf7518a6964aa8ab9d6cffa5d5f4373ea087e19bb72b07bf25032fe13eeb21cea1f95c37c2e52d25b2c6a61c7694ad2",
+    "size": 65832610,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.9+15/bellsoft-jre21.0.9+15-linux-x64-musl.tar.gz",
+    "vendor": "bellsoft",
+    "version": "21.0.9+15"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
       "libericafx",
       "minimal-vm",
       "javafx"
