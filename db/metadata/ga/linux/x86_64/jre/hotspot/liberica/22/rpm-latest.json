@@ -2,21 +2,25 @@
   {
     "architecture": "x86_64",
     "distro": "liberica",
-    "features": [],
+    "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
     "file_type": "rpm",
-    "filename": "bellsoft-jre22.0.2+11-linux-amd64.rpm",
+    "filename": "bellsoft-jre22+37-linux-amd64-full.rpm",
     "image_type": "jre",
-    "java_version": "22.0.2+11",
+    "java_version": "22+37",
     "jvm_impl": "hotspot",
-    "md5": "04c8ac2920a455c5f774307cdbd4f1a6",
+    "md5": "b16b5f1395f7c32f51019675094600ca",
     "os": "linux",
     "release_type": "ga",
-    "sha1": "3f330ae46c7114ccd6bed1490e747166d1921e06",
-    "sha256": "1921a5862e1978a1bde16cbc8a35510b1d336dfae61377b4a0f6a6c9617edbd5",
-    "sha512": "5a43fc88da55b4dccb2b9c8953315a23607bb71527821548e603545c0852067de275f3aab5a296798fddb212601e074f4a0751570ba7a2eab3a740b9d8c85bac",
-    "size": 47023860,
-    "url": "https://github.com/bell-sw/Liberica/releases/download/22.0.2+11/bellsoft-jre22.0.2+11-linux-amd64.rpm",
+    "sha1": "718acdeb249f974b8ac00a4174ea5241dc2926bb",
+    "sha256": "f0c5173ae175c124d87bb71838cd457e8248442b8e345e8beace2659c4764e4a",
+    "sha512": "61dec6373e2456ad0850e43bf13c5a629b2cce1eabd0e71c9e5075ba6cd84b2243b741bce5d55762a03d63b99657a2f1bf93dae04c72953e6f2b4d5b8fe38edd",
+    "size": 85417028,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/22+37/bellsoft-jre22+37-linux-amd64-full.rpm",
     "vendor": "bellsoft",
-    "version": "22.0.2+11"
+    "version": "22+37"
   }
 ]

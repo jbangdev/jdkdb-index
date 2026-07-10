@@ -160,6 +160,28 @@
     "architecture": "aarch64",
     "distro": "liberica",
     "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jdk25.0.1+13-linux-aarch64-musl.tar.gz",
+    "image_type": "jdk",
+    "java_version": "25.0.1+13-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "e65882370a28a69488c5a3930fd25b67",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "f320de74e6df99b49616b122d0b56b785437a97b",
+    "sha256": "a13fbb1b133a62b9dca60e142d717230080ee2110f774e84bbd56c8ea667d364",
+    "sha512": "c23a72a5c7ee5d61e052d3f3743439952b76a8a72bb2970c71270e16e3c680d7d13fc72f8f790e04e295e38f79a82765026cd639b052c5c895430ff1d4dd794c",
+    "size": 256090111,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/25.0.1+13/bellsoft-jdk25.0.1+13-linux-aarch64-musl.tar.gz",
+    "vendor": "bellsoft",
+    "version": "25.0.1+13"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "liberica",
+    "features": [
       "libericafx",
       "minimal-vm",
       "javafx"

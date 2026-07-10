@@ -1137,6 +1137,28 @@
   },
   {
     "architecture": "ppc64",
+    "distro": "sapmachine",
+    "features": [
+      "le"
+    ],
+    "file_type": "tar.gz",
+    "filename": "sapmachine-jdk-11.0.16.1_linux-ppc64le_bin.tar.gz",
+    "image_type": "jdk",
+    "java_version": "11.0.16.1",
+    "jvm_impl": "hotspot",
+    "md5": "ed267c533955d0dc68ffe2a262ed3c88",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "de4ec4b64a9d8244ea5e7e4ceca2dc05537a328f",
+    "sha256": "b1c53539d1198f2eb2eda041a17f65115f460dcb2c800e5ce748e3a4dee8d16c",
+    "sha512": "7b69cde8c5c25dca2bdfd3e765c4e3de859a0251365798ca5715b592fad4956581f2bb01bc73403178b098a6996875e9e5f017fb59b7eab6619d462be672013d",
+    "size": 177963148,
+    "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-11.0.16.1/sapmachine-jdk-11.0.16.1_linux-ppc64le_bin.tar.gz",
+    "vendor": "sap",
+    "version": "11.0.16.1"
+  },
+  {
+    "architecture": "ppc64",
     "distro": "semeru",
     "features": [
       "certified"
@@ -1521,6 +1543,26 @@
   },
   {
     "architecture": "ppc64",
+    "distro": "semeru",
+    "features": [],
+    "file_type": "rpm",
+    "filename": "ibm-semeru-open-11-jdk-11.0.21.9_0.41.0-1.ppc64.rpm",
+    "image_type": "jdk",
+    "java_version": "11.0.21+9",
+    "jvm_impl": "openj9",
+    "md5": "d3826396667ccbdf677ddfd5ea11b015",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "c07d709ed1733daa6438b0e7d8d86a4ffc75f05a",
+    "sha256": "3c55c680a9fe33890c78325c50639fa88dd0f991a1a47390c12ccb31c6e82095",
+    "sha512": "1a5b9f650c04cfc9779fcdd36ba6abc24ddf5db746f490ec3453d2f6cf85b3c5646ac164964db0c7734f3a0a320167e092473028a7d2fc04e47aa7457e40e2f8",
+    "size": 227894242,
+    "url": "https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.21+9_openj9-0.41.0/ibm-semeru-open-11-jdk-11.0.21.9_0.41.0-1.ppc64.rpm",
+    "vendor": "ibm",
+    "version": "11.0.21+9_openj9-0.41.0"
+  },
+  {
+    "architecture": "ppc64",
     "distro": "sapmachine",
     "features": [
       "le"
@@ -1858,6 +1900,28 @@
     "url": "https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.26+4_openj9-0.49.0/ibm-semeru-open-11-jdk-11.0.26.4_0.49.0-1.ppc64.rpm",
     "vendor": "ibm",
     "version": "11.0.26+4_openj9-0.49.0"
+  },
+  {
+    "architecture": "ppc64",
+    "distro": "semeru",
+    "features": [
+      "certified"
+    ],
+    "file_type": "rpm",
+    "filename": "ibm-semeru-certified-11-jdk-11.0.27.0-1.ppc64.rpm",
+    "image_type": "jdk",
+    "java_version": "11.0.27+6",
+    "jvm_impl": "openj9",
+    "md5": "1af388b20ddd47f97ee9dfe3f85867a0",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "9f884420ab69581b2c477c23d9643d65f19220f3",
+    "sha256": "6aaafe90bce63de708a3f1e7e0126eaa19ad6d28ea26358fb2fc7a24110c087f",
+    "sha512": "c382a340368fe80b2dc72e67a0f89c5a160e095e017d8f0b50dc2a33a30d910c1e365b3827bcd339068bfb4051995404f884cb183cbdd7693389fc2a25a422d6",
+    "size": 252079270,
+    "url": "https://github.com/ibmruntimes/semeru11-certified-binaries/releases/download/jdk-11.0.27+6_openj9-0.51.0/ibm-semeru-certified-11-jdk-11.0.27.0-1.ppc64.rpm",
+    "vendor": "ibm",
+    "version": "11.0.27+6_openj9-0.51.0"
   },
   {
     "architecture": "ppc64",

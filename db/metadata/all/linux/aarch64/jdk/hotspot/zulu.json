@@ -2122,6 +2122,26 @@
     "distro": "zulu",
     "features": [],
     "file_type": "tar.gz",
+    "filename": "zulu15.42.15-ca-jdk15.0.8-linux_aarch64.tar.gz",
+    "image_type": "jdk",
+    "java_version": "15.0.8",
+    "jvm_impl": "hotspot",
+    "md5": "964929475fac92c1ee5bb44b548bd31c",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "547bd05c995a06be3237c84b085d80c90f5349e2",
+    "sha256": "e26b20c82084dbaeaf3461e490a9470d6648da6b79cd73b48ce4363a034edcb1",
+    "sha512": "ceb5db4c5d8425fdcfddac6b7d1fa0e469846e301361e5b192a4a37c2331be7d755cf7075c365e056fa5522ffcd57ca1717a502edbc746bb798280d2780edf76",
+    "size": 199312224,
+    "url": "https://static.azul.com/zulu/bin/zulu15.42.15-ca-jdk15.0.8-linux_aarch64.tar.gz",
+    "vendor": "azul",
+    "version": "15.42.15"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "zulu",
+    "features": [],
+    "file_type": "tar.gz",
     "filename": "zulu15.44.13-ca-jdk15.0.9-linux_aarch64.tar.gz",
     "image_type": "jdk",
     "java_version": "15.0.9",
@@ -5981,6 +6001,28 @@
     "architecture": "aarch64",
     "distro": "zulu",
     "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "zulu21.32.17-ca-jdk21.0.2-linux_musl_aarch64.tar.gz",
+    "image_type": "jdk",
+    "java_version": "21.0.2+13-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "ffb200d8e69e7698fcf521f7e21f4af6",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "6e7f7137d253292387f99aa6cb6425290311d684",
+    "sha256": "418bef47fea1e55fcd1bee0fbc7eae876b8b160a868857c5e16a082669505144",
+    "sha512": "7e0df4b67dc7b5d33b4c60a54ec183c9538300e2979a7776807d667c8a3bd7c613e3851e7d4cc9687374d251c4da9d76d896164b9e64a2e6f8b65f8e73c1f1ba",
+    "size": 212406651,
+    "url": "https://static.azul.com/zulu/bin/zulu21.32.17-ca-jdk21.0.2-linux_musl_aarch64.tar.gz",
+    "vendor": "azul",
+    "version": "21.32.17"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "zulu",
+    "features": [
       "crac"
     ],
     "file_type": "tar.gz",
@@ -6565,6 +6607,28 @@
     "url": "https://static.azul.com/zulu/bin/zulu21.44.17-ca-jdk21.0.8-linux_musl_aarch64.tar.gz",
     "vendor": "azul",
     "version": "21.44.17"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "zulu",
+    "features": [
+      "javafx"
+    ],
+    "file_type": "tar.gz",
+    "filename": "zulu21.46.19-ca-fx-jdk21.0.9-linux_aarch64.tar.gz",
+    "image_type": "jdk",
+    "java_version": "21.0.9+10-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "9033a7c783573e87350a5618ab58e50d",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "5959a4d789c2bcd3fc59ec9f04c216e06466fb40",
+    "sha256": "86b38617acde1979cc559753c8deac47279bf63f310eb59c76b6ffee11c3e7c9",
+    "sha512": "674a933407b48e8710316fb35ae61ec6dbd99a93cda02215cedfb3c083190bfe3e8097158a52bed7cc7c7303226c0d4b33a5d9b5c7e7ad5ae8f0e297e1993635",
+    "size": 322790105,
+    "url": "https://static.azul.com/zulu/bin/zulu21.46.19-ca-fx-jdk21.0.9-linux_aarch64.tar.gz",
+    "vendor": "azul",
+    "version": "21.46.19"
   },
   {
     "architecture": "aarch64",
@@ -9987,6 +10051,26 @@
     "url": "https://static.azul.com/zulu/bin/zulu26.0.17-beta-jdk26.0.0-beta.8-linux_aarch64.tar.gz",
     "vendor": "azul",
     "version": "26.0.17"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "zulu",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "zulu26.0.19-beta-jdk26.0.0-beta.11-linux_aarch64.tar.gz",
+    "image_type": "jdk",
+    "java_version": "26-beta+11",
+    "jvm_impl": "hotspot",
+    "md5": "520df522fa62858f4a53cb8f5a41a3fc",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "01218d9b40eec312edb9708450e12494b80c6c8e",
+    "sha256": "afa045c5fcbc6f4e7cce08d4e9bb91ec073187d6af238262c8f547c1a03be253",
+    "sha512": "795940181131f448fd8f8479c40bfba375ba8783b697285d625864f4be16ec8dac4447069eb42ac4981c405ebdcfda18445909171c4a617be32cf4cc380e9864",
+    "size": 230372190,
+    "url": "https://static.azul.com/zulu/bin/zulu26.0.19-beta-jdk26.0.0-beta.11-linux_aarch64.tar.gz",
+    "vendor": "azul",
+    "version": "26.0.19"
   },
   {
     "architecture": "aarch64",

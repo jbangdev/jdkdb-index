@@ -87,6 +87,30 @@
     "architecture": "x86_64",
     "distro": "liberica",
     "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
+    "file_type": "rpm",
+    "filename": "bellsoft-jdk13.0.2+9-linux-amd64-full.rpm",
+    "image_type": "jdk",
+    "java_version": "13.0.2+9",
+    "jvm_impl": "hotspot",
+    "md5": "1c7ac4b90cd4ba2af6321e97ed3ad845",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "3136d75e6d7739af5925073e323dbee7d75be91e",
+    "sha256": "d74b9d060131bf2075e52da2c04c4fb2a173429feda6ca8f043da017285e80bf",
+    "sha512": "bc265baaf5af1ed7fb36fcaff6a12884158314d2338f81510caa6bb5bfa002a4d2cb4f9f652b46eddaf3361bed84fabf8ad269439ec92f2eaa948e83e74f489a",
+    "size": 272203472,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/13.0.2+9/bellsoft-jdk13.0.2+9-linux-amd64-full.rpm",
+    "vendor": "bellsoft",
+    "version": "13.0.2+9"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
       "lite"
     ],
     "file_type": "rpm",

@@ -3,6 +3,30 @@
     "architecture": "aarch64",
     "distro": "liberica",
     "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
+    "file_type": "deb",
+    "filename": "bellsoft-jdk16.0.1+9-linux-aarch64-full.deb",
+    "image_type": "jdk",
+    "java_version": "16.0.1+9",
+    "jvm_impl": "hotspot",
+    "md5": "dc37c6adbd9423cae5477e2d03c37121",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "cebd887db85b4de652465369746f9c6db0b42f06",
+    "sha256": "1b8d55d8d40a7dc1d72e43033d85409687898633b361037bd244693ce3055855",
+    "sha512": "f3fd4b9a3595d7320a68109f7c02309fbe68abaaacdf069c10d05ea10089b62c4791cadf86cb2701d5a7ebce1a1216e254458c8cb6b9530eda862559b6546032",
+    "size": 253126552,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/16.0.1+9/bellsoft-jdk16.0.1+9-linux-aarch64-full.deb",
+    "vendor": "bellsoft",
+    "version": "16.0.1+9"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "liberica",
+    "features": [
       "lite"
     ],
     "file_type": "deb",

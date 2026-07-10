@@ -90,6 +90,30 @@
   {
     "architecture": "aarch64",
     "distro": "liberica",
+    "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
+    "file_type": "rpm",
+    "filename": "bellsoft-jre23+38-linux-aarch64-full.rpm",
+    "image_type": "jre",
+    "java_version": "23+38",
+    "jvm_impl": "hotspot",
+    "md5": "afe8d10fffb12dca8fb2dc6518cc6d69",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "45cc8997746ba67d1a2cbb344dbeba69565d8b18",
+    "sha256": "a58ff6f3e2a664267fe2918df21bdba01ffb6168fb17c01be2f94d60fc3c6cba",
+    "sha512": "85c44aa803fd6883eebd60082ee2831ed5ed986ce8f9be25fecfaaa4e7a190a19bc2fe0ef42dd2e4e021f3ddb38543ff8f8a0988aa764c4130e372867c543379",
+    "size": 80629024,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/23+38/bellsoft-jre23+38-linux-aarch64-full.rpm",
+    "vendor": "bellsoft",
+    "version": "23+38"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "liberica",
     "features": [],
     "file_type": "rpm",
     "filename": "bellsoft-jre23+38-linux-aarch64.rpm",
