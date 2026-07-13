@@ -1240,6 +1240,28 @@
   {
     "architecture": "x86_64",
     "distro": "adoptopenjdk",
+    "features": [
+      "large_heap"
+    ],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK13U-jre_x64_linux_openj9_linuxXL_13.0.2_8_openj9-0.18.0.tar.gz",
+    "image_type": "jre",
+    "java_version": "13.0.2+8",
+    "jvm_impl": "openj9",
+    "md5": "0a0ddd87fe2f9bd75c6d87f30cb9b817",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "c1901f12b4e2777f8a857604c89ecc76ccee80cd",
+    "sha256": "b5f05b6b1f950867f97a7c18f7c215396aea357527dd1963970d43af718a470d",
+    "sha512": "240f507840b944333f12dc5d80bf1a8081be18a7388b66323b41f7bce1ea2091686fa9baa6ca28f3208d9317bbc7fd59a163a12a1ffd1f22b325dd1033d94d6a",
+    "size": 41435936,
+    "url": "https://github.com/AdoptOpenJDK/openjdk13-binaries/releases/download/jdk-13.0.2%2B8_openj9-0.18.0/OpenJDK13U-jre_x64_linux_openj9_linuxXL_13.0.2_8_openj9-0.18.0.tar.gz",
+    "vendor": "adoptopenjdk",
+    "version": "13.0.2+8.1.openj9-0.18.0"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "adoptopenjdk",
     "features": [],
     "file_type": "tar.gz",
     "filename": "OpenJDK14-jre_x64_linux_openj9_14_36_openj9-0.19.0.tar.gz",

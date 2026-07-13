@@ -3032,6 +3032,28 @@
   {
     "architecture": "x86_64",
     "distro": "adoptopenjdk",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK17U-jre_x64_alpine-linux_hotspot_17.0.18_8.tar.gz",
+    "image_type": "jre",
+    "java_version": "17.0.18+8",
+    "jvm_impl": "hotspot",
+    "md5": "523e3953ebe71a42ba18b7ff48508f6a",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "c5c8d5b5434d63322449c36da52ccd28d9488d99",
+    "sha256": "3226a10cf4f7ef8f835148ce8737490f0cf63e38a1e3ba26cf1e05d9e28adf5c",
+    "sha512": "051ad89cf55c9ddf6e642492a9523257aa5a1deb4113964cc76e050357252c181142ebfd404515333390907a8a0ee8e046f99e6dfa05cf5f41c448420acbacb8",
+    "size": 46227914,
+    "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.18%2B8/OpenJDK17U-jre_x64_alpine-linux_hotspot_17.0.18_8.tar.gz",
+    "vendor": "adoptopenjdk",
+    "version": "17.0.18+8"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "adoptopenjdk",
     "features": [],
     "file_type": "tar.gz",
     "filename": "OpenJDK17U-jre_x64_linux_hotspot_17.0.18_8.tar.gz",
@@ -4078,6 +4100,28 @@
     "url": "https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23.0.2%2B7/OpenJDK23U-jre_x64_linux_hotspot_23.0.2_7.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "23.0.2+7"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "adoptopenjdk",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK24U-jre_x64_alpine-linux_hotspot_24_36.tar.gz",
+    "image_type": "jre",
+    "java_version": "24+36",
+    "jvm_impl": "hotspot",
+    "md5": "b7f2db709d3a784664b3ffc8d87e41ef",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "9de17e78f7b504e2b82a83727ad17b779cfd0a6f",
+    "sha256": "0f738719d0483d6fe7f08a1371d1c696d68dcfe39f073b4241673f35ffc8d655",
+    "sha512": "19fcd5eef7bc0e6c8cf8a05e261bfc40af8239b21430090b84ec94d334b89d9dde4045b3b7c10c4f9b209b9caa9d9565e4b151787b2cbbc8111305f43a699575",
+    "size": 59828668,
+    "url": "https://github.com/adoptium/temurin24-binaries/releases/download/jdk-24%2B36/OpenJDK24U-jre_x64_alpine-linux_hotspot_24_36.tar.gz",
+    "vendor": "adoptopenjdk",
+    "version": "24.0.0+36"
   },
   {
     "architecture": "x86_64",

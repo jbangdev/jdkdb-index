@@ -1420,6 +1420,29 @@
     "architecture": "x86_64",
     "distro": "liberica",
     "features": [
+      "musl",
+      "crac"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jdk17.0.11+11-linux-x64-musl-crac.tar.gz",
+    "image_type": "jdk",
+    "java_version": "17.0.11+11-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "3f68310e9160fbfe19ab607566670e0e",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "8c57965716ccdff7f0768ba0c1b840bd4befc8aa",
+    "sha256": "a9a343d91a690ef6849cf17471bd88591b549b1f3ab229b1d1567a39d5dafac2",
+    "sha512": "d1038e8830d50c6759e7b08277631231e80dc196de410098fb720b87c35b2e8ec1286824df14fa65023fc5b6e3c0d3976ba42863c475596aff390ab52748a5d1",
+    "size": 197434276,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.11+11/bellsoft-jdk17.0.11+11-linux-x64-musl-crac.tar.gz",
+    "vendor": "bellsoft",
+    "version": "17.0.11+11"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
       "libericafx",
       "minimal-vm",
       "javafx"

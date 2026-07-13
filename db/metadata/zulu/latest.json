@@ -8821,6 +8821,26 @@
     "version": "18.32.13"
   },
   {
+    "architecture": "aarch64",
+    "distro": "zulu",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "zulu18.32.13-ca-jre18.0.2.1-linux_aarch64.tar.gz",
+    "image_type": "jre",
+    "java_version": "18.0.2.1",
+    "jvm_impl": "hotspot",
+    "md5": "db7a7fee02ff134779e9372bc013d9e3",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "24fd335e35d740deb6e4a22c610b6ee4f416c213",
+    "sha256": "a47cb569cc138996fb55ea3bd964c2a4f11363014aef353fea52865a91e10ebf",
+    "sha512": "797f6d32f0489e05c492d5a5bc07bd24137c806d70d92f2a12351c2db04a831577a019ec2ccafda3c4ea71d3e4224db8b6e117df9a8bae88f0b1eae0bc1d3c87",
+    "size": 39914849,
+    "url": "https://static.azul.com/zulu/bin/zulu18.32.13-ca-jre18.0.2.1-linux_aarch64.tar.gz",
+    "vendor": "azul",
+    "version": "18.32.13"
+  },
+  {
     "architecture": "i686",
     "distro": "zulu",
     "features": [],
@@ -12607,6 +12627,28 @@
   {
     "architecture": "x86_64",
     "distro": "zulu",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "zulu23.32.11-ca-jdk23.0.2-linux_musl_x64.tar.gz",
+    "image_type": "jdk",
+    "java_version": "23.0.2",
+    "jvm_impl": "hotspot",
+    "md5": "3818f8a11d7383e82c9962f01c767523",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "6a2d5ac467a7eda3b1b364bffc1e081cc14e68b1",
+    "sha256": "93d44fd72aced77a2997f50fea896b5dc0e46576bd25f2606e2b1ea9a166a9d1",
+    "sha512": "a7cde8b108659160fcbf32207441b0c210b3aab333c2e7c3ff34e40e1b91fb294a116048ecdf8c14a4396f93f47313a1711d3a3351a5c8219b1c6123ce271e31",
+    "size": 221125113,
+    "url": "https://static.azul.com/zulu/bin/zulu23.32.11-ca-jdk23.0.2-linux_musl_x64.tar.gz",
+    "vendor": "azul",
+    "version": "23.32.11"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "zulu",
     "features": [],
     "file_type": "zip",
     "filename": "zulu23.32.11-ca-jdk23.0.2-linux_x64.zip",
@@ -13282,6 +13324,28 @@
     "version": "24.32.13"
   },
   {
+    "architecture": "aarch64",
+    "distro": "zulu",
+    "features": [
+      "javafx"
+    ],
+    "file_type": "zip",
+    "filename": "zulu24.32.13-ca-fx-jdk24.0.2-macosx_aarch64.zip",
+    "image_type": "jdk",
+    "java_version": "24.0.2+12",
+    "jvm_impl": "hotspot",
+    "md5": "ab4adb969160634ab9f2124bb1b0777f",
+    "os": "macosx",
+    "release_type": "ga",
+    "sha1": "cf64e0b305d86427c8d82188872741c5fb22ffe2",
+    "sha256": "62e485e1f26d90671d36bd2bf243931e75ee3ed1208faba8a81e368e59696da0",
+    "sha512": "8bf40615acfb0cdacd1cbe8266a30f123895168cb093ebe0cd2415d5ebff438f106c20070c1e9f94924fe2ace52b43f477584dfbe0e5b693442e7308765fd729",
+    "size": 318136663,
+    "url": "https://static.azul.com/zulu/bin/zulu24.32.13-ca-fx-jdk24.0.2-macosx_aarch64.zip",
+    "vendor": "azul",
+    "version": "24.32.13"
+  },
+  {
     "architecture": "x86_64",
     "distro": "zulu",
     "features": [
@@ -13626,6 +13690,26 @@
     "sha512": "4efd1f81ef2d34e749dcdc88d6bdf96adeeafd26eb58589a7c94eb959d0d1a20e0f754f0fe636980c90fc5a4178f1f957c135af1f54b7030c48cfce37592abe3",
     "size": 230212049,
     "url": "https://static.azul.com/zulu/bin/zulu24.32.13-ca-jdk24.0.2-linux_x64.tar.gz",
+    "vendor": "azul",
+    "version": "24.32.13"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "zulu",
+    "features": [],
+    "file_type": "zip",
+    "filename": "zulu24.32.13-ca-jdk24.0.2-linux_x64.zip",
+    "image_type": "jdk",
+    "java_version": "24.0.2+12",
+    "jvm_impl": "hotspot",
+    "md5": "77ade14ba62bd1eefce4d1cb6ebef5d6",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "7691a9275be71f5eaf13c5598ec1116af7fea746",
+    "sha256": "b994f281ea5c7057636332a225549c661ae4fd52a8c88274c06213ad72270aea",
+    "sha512": "7b14a9c439e016eabd9ab9a9123676c82a47b17c91b30da9651e23da643fbcda81584ec572936a40a984716edd6865d6f0dd1365ce32dcf3628402ac33493911",
+    "size": 233822840,
+    "url": "https://static.azul.com/zulu/bin/zulu24.32.13-ca-jdk24.0.2-linux_x64.zip",
     "vendor": "azul",
     "version": "24.32.13"
   },
