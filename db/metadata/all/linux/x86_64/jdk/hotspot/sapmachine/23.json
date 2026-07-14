@@ -2,6 +2,28 @@
   {
     "architecture": "x86_64",
     "distro": "sapmachine",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "sapmachine-jdk-23_linux-x64-musl_bin.tar.gz",
+    "image_type": "jdk",
+    "java_version": "23+37",
+    "jvm_impl": "hotspot",
+    "md5": "b0a354b30c0459f4945693288481b6f8",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "7c6075b63e1db2e014ed37efbf694397b0d1f493",
+    "sha256": "39987d950d36b997295737c671c5f104be1dd6dee7a1611244d50a4df57213e0",
+    "sha512": "4c392a4b81691c4fced3c911f41fd8176ee6de78485f85f8e9f7794d1fec57a22fd1803c45631ac69595598125d54efbde8cb80f06dd7ad1571db8b618e95f3f",
+    "size": 216147255,
+    "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-23/sapmachine-jdk-23_linux-x64-musl_bin.tar.gz",
+    "vendor": "sap",
+    "version": "23"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "sapmachine",
     "features": [],
     "file_type": "tar.gz",
     "filename": "sapmachine-jdk-23_linux-x64_bin.tar.gz",

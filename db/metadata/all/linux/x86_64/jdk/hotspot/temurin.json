@@ -2330,6 +2330,28 @@
   {
     "architecture": "x86_64",
     "distro": "temurin",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK8U-jdk_x64_alpine-linux_hotspot_8u382b05.tar.gz",
+    "image_type": "jdk",
+    "java_version": "1.8.0_382-b05",
+    "jvm_impl": "hotspot",
+    "md5": "5b1c8d5a2d15a6fc8f22eaaab066f7d0",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "242c5a8c0641d08f47f9596735f37ef8e03b1ceb",
+    "sha256": "6cf2d4925c387c4cdc0bf2e71de3690527141b5244695d0b3109ce83a8512235",
+    "sha512": "ef82b9604994348ecf2a55c02e717af88beb616abd87482de9b9afc2ef832e29d1338839910bc64d0de07fb0b5b420eff9ce6718795c4abdf409475b17c01a3e",
+    "size": 100894343,
+    "url": "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u382-b05/OpenJDK8U-jdk_x64_alpine-linux_hotspot_8u382b05.tar.gz",
+    "vendor": "eclipse",
+    "version": "8.0.382+5"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "temurin",
     "features": [],
     "file_type": "tar.gz",
     "filename": "OpenJDK8U-jdk_x64_linux_hotspot_8u382b05.tar.gz",
@@ -3248,6 +3270,26 @@
     "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.24%2B8/OpenJDK11U-jdk_x64_linux_hotspot_11.0.24_8.tar.gz",
     "vendor": "eclipse",
     "version": "11.0.24+8"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "temurin",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK11U-jdk_x64_linux_hotspot_11.0.25_9.tar.gz",
+    "image_type": "jdk",
+    "java_version": "11.0.25+9",
+    "jvm_impl": "hotspot",
+    "md5": "94a34df9087f3bdafa8fce70e6c55168",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "3b176d7eb66d82b38f54901b89ae6fc6107fe1f3",
+    "sha256": "191baa2e052627614022171400a917d28f0987dc54da48aaf07b06f552bb9884",
+    "sha512": "af63a7933e3c1c14c1f92682d4f1cb442a3637f077a22944b4fe559953a64a89f0ccf3bb8d1801c4fae9382fb66ec112ab3c43f9c7ac9319d59bcc5a41ffaade",
+    "size": 195304316,
+    "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.25%2B9/OpenJDK11U-jdk_x64_linux_hotspot_11.0.25_9.tar.gz",
+    "vendor": "eclipse",
+    "version": "11.0.25+9"
   },
   {
     "architecture": "x86_64",
