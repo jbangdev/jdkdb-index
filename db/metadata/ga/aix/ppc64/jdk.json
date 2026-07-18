@@ -1081,6 +1081,26 @@
   },
   {
     "architecture": "ppc64",
+    "distro": "adoptopenjdk",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK8U-jdk_ppc64_aix_hotspot_8u302b08.tar.gz",
+    "image_type": "jdk",
+    "java_version": "1.8.0_302-b08",
+    "jvm_impl": "hotspot",
+    "md5": "7c7f9afd64e49a5595c4d21ed942b497",
+    "os": "aix",
+    "release_type": "ga",
+    "sha1": "1225d5128251e3a3bea8fcd96432cc643c15fa4e",
+    "sha256": "46605af0fa15a10d9cad42a3c97d0d04d16aef32cec5225b119758e792d6f46f",
+    "sha512": "62ddf3c11c831eaf998692c225b8c3e8e52a935fb1fa6894a5d28a6899894e65e6eadb3b0a3bfae7ef219af2d39553b390d3cf1db4649d223c0e97a510c13efd",
+    "size": 104779748,
+    "url": "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u302-b08/OpenJDK8U-jdk_ppc64_aix_hotspot_8u302b08.tar.gz",
+    "vendor": "adoptopenjdk",
+    "version": "8.0.302+8"
+  },
+  {
+    "architecture": "ppc64",
     "distro": "temurin",
     "features": [],
     "file_type": "tar.gz",
@@ -8960,6 +8980,28 @@
     "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-25.0.2/sapmachine-jdk-25.0.2_aix-ppc64_bin.tar.gz",
     "vendor": "sap",
     "version": "25.0.2"
+  },
+  {
+    "architecture": "ppc64",
+    "distro": "semeru",
+    "features": [
+      "certified"
+    ],
+    "file_type": "zip",
+    "filename": "ibm-semeru-certified-jdk_ppc64_aix_25.0.2.0.tap.zip",
+    "image_type": "jdk",
+    "java_version": "25.0.2+10",
+    "jvm_impl": "openj9",
+    "md5": "e6a61ba1f2adb56795f5907c11b77adb",
+    "os": "aix",
+    "release_type": "ga",
+    "sha1": "b7f988315172f096768d4d39a9dd28f27a002810",
+    "sha256": "a963a9a981c34a39d17e0af75942ec0740836b9126ffd2a1ff81d4462853d12b",
+    "sha512": "85d1e35be9f82e90ee769fd68bb3e6927a349a99db636abd5811472390c738825f24a0b89d91bee674d0a15f803b2a42b2e8351897e57ca42731c9af368c5b91",
+    "size": 114652,
+    "url": "https://github.com/ibmruntimes/semeru25-certified-binaries/releases/download/jdk-25.0.2+10_openj9-0.57.0/ibm-semeru-certified-jdk_ppc64_aix_25.0.2.0.tap.zip",
+    "vendor": "ibm",
+    "version": "25.0.2+10_openj9-0.57.0"
   },
   {
     "architecture": "ppc64",
