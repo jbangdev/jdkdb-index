@@ -25,6 +25,29 @@
     "architecture": "aarch64",
     "distro": "zulu",
     "features": [
+      "crac",
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "zulu23.28.85-ca-crac-jre23.0.0-linux_musl_aarch64.tar.gz",
+    "image_type": "jre",
+    "java_version": "23.0.0",
+    "jvm_impl": "hotspot",
+    "md5": "6491ce62ff609875cf4bfe21ed47de9d",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "3f60b85a2861c067c119f74a7699d0b074b70b34",
+    "sha256": "1e2a5b1a3a61594dd1b4a58aed37696610f772078cc768b10f177f47e274452c",
+    "sha512": "38e15f2c3da6a77a29a64af470afc24583865d5ae1baab191e783b02ce20ab12c927c717d06499d6f578acaf4c764df13efe5ac2b430f25f6a483f680578aa50",
+    "size": 55340535,
+    "url": "https://static.azul.com/zulu/bin/zulu23.28.85-ca-crac-jre23.0.0-linux_musl_aarch64.tar.gz",
+    "vendor": "azul",
+    "version": "23.28.85"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "zulu",
+    "features": [
       "javafx"
     ],
     "file_type": "tar.gz",

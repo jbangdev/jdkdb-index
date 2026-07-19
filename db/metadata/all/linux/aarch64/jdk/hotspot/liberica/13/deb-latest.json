@@ -3,6 +3,30 @@
     "architecture": "aarch64",
     "distro": "liberica",
     "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
+    "file_type": "deb",
+    "filename": "bellsoft-jdk13.0.2+9-linux-aarch64-full.deb",
+    "image_type": "jdk",
+    "java_version": "13.0.2+9",
+    "jvm_impl": "hotspot",
+    "md5": "c4e4e4040e367222b2bc251171964c2e",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "34437a32938dcbdf4285dab8ea01bc62c6174741",
+    "sha256": "8f25c5086839cbc6f5947a051c2338042485451c4e4e9d48ca49c0cbcf4c7de8",
+    "sha512": "32d9df69b8a8bc261beb382253d2a87bce4f5acd538fbe505bee580336335391995e4cc0816254d94e4efce170d57da11e5973e3f2cd87b55abc506113ce44fe",
+    "size": 247034250,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/13.0.2+9/bellsoft-jdk13.0.2+9-linux-aarch64-full.deb",
+    "vendor": "bellsoft",
+    "version": "13.0.2+9"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "liberica",
+    "features": [
       "lite"
     ],
     "file_type": "deb",

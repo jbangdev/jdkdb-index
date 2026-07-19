@@ -24,6 +24,26 @@
   {
     "architecture": "x86_64",
     "distro": "sapmachine",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "sapmachine-jre-25-ea.1_linux-x64_bin.tar.gz",
+    "image_type": "jre",
+    "java_version": "25-ea.1",
+    "jvm_impl": "hotspot",
+    "md5": "3811cce076ce451d13a7f6d058354a68",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "eec8a5c8a96e9d724d52fd73e0168cabd8bd2784",
+    "sha256": "106a515df09292c9607ff19bc9c27bbbaee6819184212f9b2bef3c53d2cfdef7",
+    "sha512": "96aa2e8c364e70e8cb2354410e59ba001fc2d31033ff94baed67189f914ee04e72720436f782fb849f317baac1e82fc5ae5bc33d2535021faf8359600e81c25c",
+    "size": 60477576,
+    "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-25+1/sapmachine-jre-25-ea.1_linux-x64_bin.tar.gz",
+    "vendor": "sap",
+    "version": "25-ea.1"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "sapmachine",
     "features": [
       "musl"
     ],
@@ -692,6 +712,28 @@
     "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-25+20/sapmachine-jre-25-ea.20_linux-x64_bin.tar.gz",
     "vendor": "sap",
     "version": "25-ea.20"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "sapmachine",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "sapmachine-jre-25-ea.21_linux-x64-musl_bin.tar.gz",
+    "image_type": "jre",
+    "java_version": "25-ea.21",
+    "jvm_impl": "hotspot",
+    "md5": "a15067069012c7c0f985ad1ea1b633bb",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "5aa862324a513d438d15f82ee7149715f63d7628",
+    "sha256": "d3d4ddb0cfe23395a52de1b55f7b0d7e6924c0da8779e7316fd027f327008578",
+    "sha512": "2995b07bae96f1d2efff388f1f3f2f420525967ebae77ed8024e0f87d2c99adcc7920ecfc96512acc36aa1d44bc2de30c77a2f09af85750f91226ee018cfc034",
+    "size": 62198137,
+    "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-25+21/sapmachine-jre-25-ea.21_linux-x64-musl_bin.tar.gz",
+    "vendor": "sap",
+    "version": "25-ea.21"
   },
   {
     "architecture": "x86_64",

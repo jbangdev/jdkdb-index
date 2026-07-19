@@ -461,6 +461,26 @@
   },
   {
     "architecture": "s390x",
+    "distro": "temurin",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK26U-jdk_s390x_linux_hotspot_2026-07-18-16-08.tar.gz",
+    "image_type": "jdk",
+    "java_version": "26",
+    "jvm_impl": "hotspot",
+    "md5": "b717fb4fa4c07a7ec01992ca64a15cd7",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "c3a6312f97d00d7ea79b87045615d31539387e8f",
+    "sha256": "3443825a647758b68b802d5670ef0f531923cf6ba3e0cca5e8674a5757872963",
+    "sha512": "60da4baac95f60a82135cfc4d3cc051d4a2b85fa75370a044fbc81644fea7c728dda5cd39d6ccdfa0499b4d08e8a5d5b775d0ed679c69d391dd687900da9c096",
+    "size": 138860566,
+    "url": "https://github.com/adoptium/temurin26-binaries/releases/download/jdk26u-2026-07-18-16-08-beta/OpenJDK26U-jdk_s390x_linux_hotspot_2026-07-18-16-08.tar.gz",
+    "vendor": "eclipse",
+    "version": "26u-2026-07-18-16-08-beta"
+  },
+  {
+    "architecture": "s390x",
     "distro": "debian",
     "features": [
       "headless"
@@ -3556,6 +3576,26 @@
     "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.13%2B11/OpenJDK17U-jdk_s390x_linux_hotspot_17.0.13_11.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "17.0.13+11"
+  },
+  {
+    "architecture": "s390x",
+    "distro": "temurin",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK17U-jdk_s390x_linux_hotspot_17.0.14_7.tar.gz",
+    "image_type": "jdk",
+    "java_version": "17.0.14+7",
+    "jvm_impl": "hotspot",
+    "md5": "b34a2287ad04bb725e5a95d5ee0d0372",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "54ae81d73c7395d63a7a6d57a656760822c50e98",
+    "sha256": "3a1d896eb3a737020e5ec95ec3206b1ca36cb365538382289d3fb46d14303648",
+    "sha512": "651a93a724608718e0f4c9b1de7e9d8e6bba10121c4516c660826bd41fbd2cb1a612696fb61bc8f2daa6ea205f6c0de96cf1d73089e062f185054c35094f1324",
+    "size": 180202677,
+    "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.14%2B7/OpenJDK17U-jdk_s390x_linux_hotspot_17.0.14_7.tar.gz",
+    "vendor": "eclipse",
+    "version": "17.0.14+7"
   },
   {
     "architecture": "s390x",
@@ -6687,6 +6727,26 @@
     "size": 135216757,
     "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25%2B36/OpenJDK25U-jdk_s390x_linux_hotspot_25_36.tar.gz",
     "vendor": "eclipse",
+    "version": "25.0.0+36.0.LTS"
+  },
+  {
+    "architecture": "s390x",
+    "distro": "adoptopenjdk",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK25U-jdk_s390x_linux_hotspot_25_36.tar.gz",
+    "image_type": "jdk",
+    "java_version": "25+36-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "09738fbc8440b1ce662f21918f56763d",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "6b3bc7a2e7eeb9c44b09a18c160cf9c22af417ba",
+    "sha256": "3e476e40f920ccfb1915d200bc7a1fba9d68c4adcc0358c5968d15613690b915",
+    "sha512": "f967d60c18e2255e4b4caf1a54ed90cf0ca47e628252ea832b781063c05edd492600ff19b7535d70b93c5522ba17ac0ecb7e03fab52de09ef195f73a3336a4a9",
+    "size": 135216757,
+    "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25%2B36/OpenJDK25U-jdk_s390x_linux_hotspot_25_36.tar.gz",
+    "vendor": "adoptopenjdk",
     "version": "25.0.0+36.0.LTS"
   },
   {
