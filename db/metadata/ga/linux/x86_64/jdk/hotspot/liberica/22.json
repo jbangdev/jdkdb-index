@@ -51,6 +51,30 @@
     "architecture": "x86_64",
     "distro": "liberica",
     "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jdk22.0.1+10-linux-amd64-full.tar.gz",
+    "image_type": "jdk",
+    "java_version": "22.0.1+10",
+    "jvm_impl": "hotspot",
+    "md5": "809cc58eb0ea1891d8553c04b23e41f5",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "3e7629e4f18bc974d4d5710ffb06bdf05f8fa297",
+    "sha256": "e610c9709f7e4e8d6012c3da30a27f50649981e06b51e2397e41569a42547080",
+    "sha512": "5603c74546f433403f57a953b2286714e55901db542d6d7ac58b7ce17c144044704f960da98ccb1af10ce3d1294f3a4a6b3f589ea93137521de2bbe47445b156",
+    "size": 349261107,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/22.0.1+10/bellsoft-jdk22.0.1+10-linux-amd64-full.tar.gz",
+    "vendor": "bellsoft",
+    "version": "22.0.1+10"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
       "lite"
     ],
     "file_type": "deb",
@@ -906,6 +930,28 @@
     "sha512": "64ba048eaa40218d20f05707a9bc76d993218084afb4363d5448941ee366727e94dcbe8ae45e1c8feeb26c30da3552007083238983c248463acb5265037999c4",
     "size": 72592246,
     "url": "https://github.com/bell-sw/Liberica/releases/download/22+37/bellsoft-jdk22+37-linux-amd64-lite.deb",
+    "vendor": "bellsoft",
+    "version": "22+37"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
+      "lite"
+    ],
+    "file_type": "rpm",
+    "filename": "bellsoft-jdk22+37-linux-amd64-lite.rpm",
+    "image_type": "jdk",
+    "java_version": "22+37",
+    "jvm_impl": "hotspot",
+    "md5": "2fa613f5a47e7b79d3101bc64d399f70",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "7248ced980466e967e697809a18cc780d432248d",
+    "sha256": "9e928a19d54c41835267af2327eacdcea07c42dc0ae9877ddf1f4c409336fdd7",
+    "sha512": "b6dfd7b366e1edf9aab59a07017d33f842101f678ebe3bcd8b9c87567abc6ad1ddee17036d15844e76cf4c6909b7f064e71ae8f1316a3ce8d48f6f5f08f37832",
+    "size": 74189964,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/22+37/bellsoft-jdk22+37-linux-amd64-lite.rpm",
     "vendor": "bellsoft",
     "version": "22+37"
   },

@@ -1286,6 +1286,26 @@
     "version": "10.0.2+13.1"
   },
   {
+    "architecture": "ppc64",
+    "distro": "adoptopenjdk",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK10U-jdk_ppc64_aix_hotspot_10.0.2_13.tar.gz",
+    "image_type": "jdk",
+    "java_version": "10.0.2+13.1",
+    "jvm_impl": "hotspot",
+    "md5": "210489c9300dae0375e9db566327e417",
+    "os": "aix",
+    "release_type": "ga",
+    "sha1": "5e0b55b8db376a2c9f14f04756016845d2fa113c",
+    "sha256": "af58556c4c806fcb46043a59238ce837e71f65703753ba29bc9842bddc7a0fa2",
+    "sha512": "c3e9644efc9cbc67c320d7952bbb5df667250dc2ccb84e656b8941428235c1ac6142ff3fba25633e92176c701b64496a6a6cd788e66728f4a637560db57cf9d7",
+    "size": 198006828,
+    "url": "https://github.com/AdoptOpenJDK/openjdk10-binaries/releases/download/jdk-10.0.2%2B13.1/OpenJDK10U-jdk_ppc64_aix_hotspot_10.0.2_13.tar.gz",
+    "vendor": "adoptopenjdk",
+    "version": "10.0.2+13.1"
+  },
+  {
     "architecture": "ppc64le",
     "distro": "adoptopenjdk",
     "features": [],
@@ -3790,26 +3810,6 @@
     "version": "13.0.2+8.1.openj9-0.18.0"
   },
   {
-    "architecture": "ppc64",
-    "distro": "adoptopenjdk",
-    "features": [],
-    "file_type": "tar.gz",
-    "filename": "OpenJDK14U-jdk_ppc64_aix_hotspot_14.0.1_7.tar.gz",
-    "image_type": "jdk",
-    "java_version": "14.0.1+7",
-    "jvm_impl": "hotspot",
-    "md5": "9f0bc63f11708a80b2181f995eb91041",
-    "os": "aix",
-    "release_type": "ga",
-    "sha1": "bf0ad05e1bc5e573719a729fcbe8178afa253849",
-    "sha256": "8f2306fa6ccbc98505d2962ef19b73ecee984001f463eecfa7365880a0dc277a",
-    "sha512": "ba7cdef2daa27349f778e2ede6abe1edce47e0a296152bab72c3ccadbf5523228f8a3c487cdfba35d0210fc5605452521d257c8ec8dab94e1c651d7b9ec4a260",
-    "size": 190882498,
-    "url": "https://github.com/AdoptOpenJDK/openjdk14-binaries/releases/download/jdk-14.0.1%2B7/OpenJDK14U-jdk_ppc64_aix_hotspot_14.0.1_7.tar.gz",
-    "vendor": "adoptopenjdk",
-    "version": "14.0.1+7.1"
-  },
-  {
     "architecture": "x86_64",
     "distro": "adoptopenjdk",
     "features": [],
@@ -3866,6 +3866,26 @@
     "sha512": "52a38a7a95e7ed7a385ecef33c6667ddec4e2b49652c1ca482c314fc528edb0c4322326f3839da22454058f950058433ad1465bc75da7e516d6b159ead45e55d",
     "size": 196776784,
     "url": "https://github.com/AdoptOpenJDK/openjdk14-binaries/releases/download/jdk-14.0.2%2B12/OpenJDK14U-jdk_arm_linux_hotspot_14.0.2_12.tar.gz",
+    "vendor": "adoptopenjdk",
+    "version": "14.0.2+12"
+  },
+  {
+    "architecture": "ppc64",
+    "distro": "adoptopenjdk",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK14U-jdk_ppc64_aix_hotspot_14.0.2_12.tar.gz",
+    "image_type": "jdk",
+    "java_version": "14.0.2+12",
+    "jvm_impl": "hotspot",
+    "md5": "79f1d7cea2bdf959d54109b55176000f",
+    "os": "aix",
+    "release_type": "ga",
+    "sha1": "f6dccfd622a86805aa3fa994b92c0955a2d8a535",
+    "sha256": "3de8fb06072d818c8e157d5a2bfc2bd9913594a3ff70f8e070074aee01ea50ab",
+    "sha512": "81b64f09ce81d5e61db8043623202d7f49357a11811c9f841a5a67cbfbada5c698a7ae9f989771eeb549ead8e4f4ab0b3b4d47951005664c845f7c482f53011c",
+    "size": 190986355,
+    "url": "https://github.com/AdoptOpenJDK/openjdk14-binaries/releases/download/jdk-14.0.2%2B12/OpenJDK14U-jdk_ppc64_aix_hotspot_14.0.2_12.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "14.0.2+12"
   },
@@ -4478,6 +4498,28 @@
     "sha512": "975eff0bd052c52e140e9b1c9fcce5ee9ea12e776e01c7e8f45ee2594d5fac8d7587387fdc1cc20ec8ba95280b4b54bb85e78bbdde899af531cf77098da75c54",
     "size": 48968795,
     "url": "https://github.com/AdoptOpenJDK/openjdk14-binaries/releases/download/jdk-14.0.2%2B12_openj9-0.21.0/OpenJDK14U-jre_x64_mac_openj9_14.0.2_12_openj9-0.21.0.tar.gz",
+    "vendor": "adoptopenjdk",
+    "version": "14.0.2+12.openj9-0.21.0"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "adoptopenjdk",
+    "features": [
+      "large_heap"
+    ],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK14U-jre_x64_mac_openj9_macosXL_14.0.2_12_openj9-0.21.0.tar.gz",
+    "image_type": "jre",
+    "java_version": "14.0.2+12",
+    "jvm_impl": "openj9",
+    "md5": "ab5c2c9b71f77725b17304ea03507acf",
+    "os": "macosx",
+    "release_type": "ga",
+    "sha1": "a84853a9a5ba0ea4d57f4efe811daf7318fac154",
+    "sha256": "d77a8b9aa03a382f5248f4f4cb927047123f12ea043f232420926e74f236d314",
+    "sha512": "de2a9be6331c6e6df5ac0cb00be561f32d9cb1d886eb1600ba99918e16877e5cbff2e21dbbd7f4ea89d109d36ff751fd3b245121607a086b867dca45fbd3cd11",
+    "size": 49000993,
+    "url": "https://github.com/AdoptOpenJDK/openjdk14-binaries/releases/download/jdk-14.0.2%2B12_openj9-0.21.0/OpenJDK14U-jre_x64_mac_openj9_macosXL_14.0.2_12_openj9-0.21.0.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "14.0.2+12.openj9-0.21.0"
   },
@@ -9108,6 +9150,28 @@
     "url": "https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23.0.2%2B7/OpenJDK23U-jre_x64_windows_hotspot_23.0.2_7.zip",
     "vendor": "adoptopenjdk",
     "version": "23.0.2+7"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "adoptopenjdk",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK24U-jdk_aarch64_alpine-linux_hotspot_24.0.2_12.tar.gz",
+    "image_type": "jdk",
+    "java_version": "24.0.2+12",
+    "jvm_impl": "hotspot",
+    "md5": "6f357bebd527f2f07d25e02f1e94913a",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "ecaa1dffaf8bfa8baa1a1b8613d1364e220daef9",
+    "sha256": "5563867bf1abfc466c59bf3d08e9957a30666fe96fb8f9c5bae939ab11d262d5",
+    "sha512": "1457f28e79d0dbe271b21ed27bda5b14e12cf56995c706b07eacb5ed01fe9117352fdcb6ebf7d062a4ad1ae8ef78c9ce25f0d4d717bf01b286644501687bcbc5",
+    "size": 138252362,
+    "url": "https://github.com/adoptium/temurin24-binaries/releases/download/jdk-24.0.2%2B12/OpenJDK24U-jdk_aarch64_alpine-linux_hotspot_24.0.2_12.tar.gz",
+    "vendor": "adoptopenjdk",
+    "version": "24.0.2+12"
   },
   {
     "architecture": "aarch64",
