@@ -234,6 +234,28 @@
   {
     "architecture": "aarch64",
     "distro": "corretto",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "amazon-corretto-21.0.4.7.1-alpine-linux-aarch64.tar.gz",
+    "image_type": "jdk",
+    "java_version": "21.0.4+7-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "b418445408fc527c55b9f50702fad961",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "9c87f7930340916676e607758190344270aa5862",
+    "sha256": "eca12aacacc433c1d3f45c3157f7f3cf5a31336aff9ad2c189a03d412f89937b",
+    "sha512": "a96a1337c9a61270cac3518a0cb8c8a89a046bd7db660e3362b61a173d7a91fe47f1285efb0c05cbbb3a003ce815dd9886a186ff74286a8d86db2e81a58400e4",
+    "size": 207009840,
+    "url": "https://corretto.aws/downloads/resources/21.0.4.7.1/amazon-corretto-21.0.4.7.1-alpine-linux-aarch64.tar.gz",
+    "vendor": "amazon",
+    "version": "21.0.4.7.1"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "corretto",
     "features": [],
     "file_type": "tar.gz",
     "filename": "amazon-corretto-21.0.4.7.1-linux-aarch64.tar.gz",
@@ -524,5 +546,25 @@
     "url": "https://corretto.aws/downloads/resources/21.0.11.10.1/amazon-corretto-21.0.11.10.1-linux-aarch64.tar.gz",
     "vendor": "amazon",
     "version": "21.0.11.10.1"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "corretto",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "amazon-corretto-21.0.12.8.1-linux-aarch64.tar.gz",
+    "image_type": "jdk",
+    "java_version": "21.0.12+8-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "cd9c6e35e0098750ee96a7611a2dc7fe",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "e0793334a018a40a8eb4657a3820d9b085d04bfa",
+    "sha256": "fd94500b0d3d7e6e040a9dc1b34cbe25046454e5e3047b68c1842fa6894e9bbc",
+    "sha512": "39c4e0f8f93fae4ff8d2c5c12b30d50f1edf0963b4c661d69e456608ecce3cbe7d6d782d9d0e26924233793a18ca567cbcdd204324f3fca8cd32a1da1c2f16ad",
+    "size": 206984451,
+    "url": "https://corretto.aws/downloads/resources/21.0.12.8.1/amazon-corretto-21.0.12.8.1-linux-aarch64.tar.gz",
+    "vendor": "amazon",
+    "version": "21.0.12.8.1"
   }
 ]

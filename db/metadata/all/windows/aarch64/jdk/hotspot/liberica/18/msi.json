@@ -27,6 +27,28 @@
     "architecture": "aarch64",
     "distro": "liberica",
     "features": [
+      "lite"
+    ],
+    "file_type": "msi",
+    "filename": "bellsoft-jdk18.0.1.1+2-windows-aarch64-lite.msi",
+    "image_type": "jdk",
+    "java_version": "18.0.1.1+2",
+    "jvm_impl": "hotspot",
+    "md5": "9acaadd16f4b0596dfac91dbb0722dec",
+    "os": "windows",
+    "release_type": "ga",
+    "sha1": "14658b491e7476b2df4ef1eb8397b2915ab84f22",
+    "sha256": "63759741f5b4d5fe5a8cb9407821da7750cc0c25521de00772d3be025c375155",
+    "sha512": "7b7914b66473e7a684af661fe2161a079d667687eb8baee990d613e3218bd49bccd13c26a7bdfb5b96d706a5a7813fd0c347a18b6f7a220d9c9ee1472f5dd29f",
+    "size": 70410240,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.1.1+2/bellsoft-jdk18.0.1.1+2-windows-aarch64-lite.msi",
+    "vendor": "bellsoft",
+    "version": "18.0.1.1+2"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "liberica",
+    "features": [
       "libericafx",
       "minimal-vm",
       "javafx"
