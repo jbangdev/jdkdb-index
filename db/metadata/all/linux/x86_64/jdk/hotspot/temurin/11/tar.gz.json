@@ -586,6 +586,28 @@
   {
     "architecture": "x86_64",
     "distro": "temurin",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK11U-jdk_x64_alpine-linux_hotspot_11.0.25_9.tar.gz",
+    "image_type": "jdk",
+    "java_version": "11.0.25+9",
+    "jvm_impl": "hotspot",
+    "md5": "1038910ac3f7fd516539c7a2e21172ee",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "47500aea413977cf673e9aceae9ea379583f038c",
+    "sha256": "0a431310ccccc36c85b1274b5d31e368fdc8cf62cb7c2ed98d7b59eb5a13dc82",
+    "sha512": "6a1fcfb1eed0c7b0823fe78c74630e9322bacbe973ea54684c9454df12118add9f8cae991e9f9c8ed721f0f7dc326ad9dfee010660d8a2c738c8c3fa3782aa1e",
+    "size": 194039813,
+    "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.25%2B9/OpenJDK11U-jdk_x64_alpine-linux_hotspot_11.0.25_9.tar.gz",
+    "vendor": "eclipse",
+    "version": "11.0.25+9"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "temurin",
     "features": [],
     "file_type": "tar.gz",
     "filename": "OpenJDK11U-jdk_x64_linux_hotspot_11.0.25_9.tar.gz",
@@ -1860,6 +1882,26 @@
     "sha512": "fbb19064724a03478d7ce3aca3f85d0ff4199a037cbb27f578fcc81786f09494ba588e408f3429dc6ffdea17c6bf9f78931c71e96146c79d29d2cafc2a880c8c",
     "size": 194416292,
     "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.32%2B9-ea-beta/OpenJDK11U-jdk_x64_alpine-linux_hotspot_11.0.32_9-ea.tar.gz",
+    "vendor": "eclipse",
+    "version": "11.0.32+9-ea-beta"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "temurin",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK11U-jdk_x64_linux_hotspot_11.0.32_9-ea.tar.gz",
+    "image_type": "jdk",
+    "java_version": "11",
+    "jvm_impl": "hotspot",
+    "md5": "6c74682978a436a0ae8b092d5b9302c7",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "da9a610ecab1e542689a763e24221a5de059b807",
+    "sha256": "4129a2957b89e7c63c963b65835ccc55938c5d3e3222ff9b85e3500a56633630",
+    "sha512": "01e840e67c0f3c20bef33c6390c49d5caad3f59965019367acac2c25ac22e31aea1f8cebf6655de05473eeb6f51c7a8382daa4baa7102161e915ff7a768e9fcb",
+    "size": 195674414,
+    "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.32%2B9-ea-beta/OpenJDK11U-jdk_x64_linux_hotspot_11.0.32_9-ea.tar.gz",
     "vendor": "eclipse",
     "version": "11.0.32+9-ea-beta"
   }

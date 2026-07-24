@@ -475,6 +475,29 @@
     "architecture": "arm32-vfp-hflt",
     "distro": "debian",
     "features": [
+      "headless",
+      "hard-float"
+    ],
+    "file_type": "deb",
+    "filename": "openjdk-11-jdk-headless_11.0.32+9-2_armhf.deb",
+    "image_type": "jdk",
+    "java_version": "11.0.32+9",
+    "jvm_impl": "hotspot",
+    "md5": "adb1bff723799ac4772028dfdb14acea",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "49639eea1195248fe86182f9e6c54a03dffb8963",
+    "sha256": "a84e06115b6d641af9dfad791f47be2b7baf67506c5cbe1ff092728dd6d523c6",
+    "sha512": "ce4acb12d680634d140e9e1c82ff4427b1c7adf0e930fb97f0da23a0f7be1ee29643ddc54314f6e543ac8b8c92f897d968c28b6723538dfa2de9a5ad6c3b24e2",
+    "size": 65103608,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-11/openjdk-11-jdk-headless_11.0.32+9-2_armhf.deb",
+    "vendor": "debian",
+    "version": "11.0.32+9-2"
+  },
+  {
+    "architecture": "arm32-vfp-hflt",
+    "distro": "debian",
+    "features": [
       "hard-float"
     ],
     "file_type": "deb",
@@ -852,6 +875,29 @@
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-17/openjdk-17-jdk_17.0.19+10-1_armhf.deb",
     "vendor": "debian",
     "version": "17.0.19+10-1"
+  },
+  {
+    "architecture": "arm32-vfp-hflt",
+    "distro": "debian",
+    "features": [
+      "headless",
+      "hard-float"
+    ],
+    "file_type": "deb",
+    "filename": "openjdk-17-jdk-headless_17.0.20+8-1_armhf.deb",
+    "image_type": "jdk",
+    "java_version": "17.0.20+8",
+    "jvm_impl": "hotspot",
+    "md5": "509777e7d55a25f313bf46e7c1afc309",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "0960f768dcba84e5f1c42cc80464f07bb20ef95c",
+    "sha256": "03a17dab402ac405cd7251b2c315ab9b3dd5234ba2c63d8f0920e4b90b056c2a",
+    "sha512": "83d16e5afa148c4b3dc6f428b5568b99ae3bd18c2736300e0be75f289ea0eff63f0d7d9bf1a606ae4f07fe6d4b0b0381a126a1400f33551b5427f238b1143dfc",
+    "size": 67966528,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-17/openjdk-17-jdk-headless_17.0.20+8-1_armhf.deb",
+    "vendor": "debian",
+    "version": "17.0.20+8-1"
   },
   {
     "architecture": "arm32-vfp-hflt",
@@ -1819,6 +1865,51 @@
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-26/openjdk-26-jdk_26.0.2+10-1_armhf.deb",
     "vendor": "debian",
     "version": "26.0.2+10-1"
+  },
+  {
+    "architecture": "arm32-vfp-hflt",
+    "distro": "debian",
+    "features": [
+      "headless",
+      "hard-float"
+    ],
+    "file_type": "deb",
+    "filename": "openjdk-26-jdk-headless_26.0.2+10-2_armhf.deb",
+    "image_type": "jdk",
+    "java_version": "26.0.2+10",
+    "jvm_impl": "hotspot",
+    "md5": "73ec2ef413393ff9cd8a9e83588fa644",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "6b7a92455e36b4d1167240b6e5718cfd851bb728",
+    "sha256": "cfd881bd761590b4a4ed5315ebb3343052832e785ab473576ff97406ab25781c",
+    "sha512": "0f9309bff1c6b568feeb84db683ba3daa26c71b61b675a4a2b69ef7ce33e4231c16314cce2a7a2620440546b398e591308728e32ca300d651d04006a3ea96340",
+    "size": 81815276,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-26/openjdk-26-jdk-headless_26.0.2+10-2_armhf.deb",
+    "vendor": "debian",
+    "version": "26.0.2+10-2"
+  },
+  {
+    "architecture": "arm32-vfp-hflt",
+    "distro": "debian",
+    "features": [
+      "hard-float"
+    ],
+    "file_type": "deb",
+    "filename": "openjdk-26-jdk_26.0.2+10-2_armhf.deb",
+    "image_type": "jdk",
+    "java_version": "26.0.2+10",
+    "jvm_impl": "hotspot",
+    "md5": "452cb3df002231246915248e39a4dcbd",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "e86ff353758040b38177fb6f6dd7d7f4c9a1190f",
+    "sha256": "dfc72850428cf5a4f76da71ab26d917e95b65fca5f2fd8dc51b4bb8fcab718ae",
+    "sha512": "4598ddf2fb80891448335ae19cf847d16b3d4da2d47e3fd89ef2286b50a5e65b4ec991f32f521588de74bfc3b3d675318341eded2be0847b4c9cd030227cab84",
+    "size": 9576,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-26/openjdk-26-jdk_26.0.2+10-2_armhf.deb",
+    "vendor": "debian",
+    "version": "26.0.2+10-2"
   },
   {
     "architecture": "arm32-vfp-hflt",

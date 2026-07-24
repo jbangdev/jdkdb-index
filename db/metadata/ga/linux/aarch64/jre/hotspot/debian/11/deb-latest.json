@@ -2,6 +2,50 @@
   {
     "architecture": "aarch64",
     "distro": "debian",
+    "features": [
+      "headless"
+    ],
+    "file_type": "deb",
+    "filename": "openjdk-11-jre-headless_11.0.32+9-2_arm64.deb",
+    "image_type": "jre",
+    "java_version": "11.0.32+9-post-2-Debian",
+    "jvm_impl": "hotspot",
+    "md5": "aa2ca6c158b677fdeb35c1366c1ca288",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "27a2b445ef7eefd71e7d28abb0808da606e5d275",
+    "sha256": "0d582d162017608f5e7ec9db4247187d459ea39f22283fe804fa7c35136ad017",
+    "sha512": "f736623150c4934a6e873f718001b07d61a6ca165105c6f8546c62ed3f263452b4850a6f0da7ef3f90360dcc0dd377b80254401d1e28e179475997fb207210c7",
+    "size": 37669276,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-11/openjdk-11-jre-headless_11.0.32+9-2_arm64.deb",
+    "vendor": "debian",
+    "version": "11.0.32+9-2"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "debian",
+    "features": [
+      "zero"
+    ],
+    "file_type": "deb",
+    "filename": "openjdk-11-jre-zero_11.0.32+9-2_arm64.deb",
+    "image_type": "jre",
+    "java_version": "11.0.32+9",
+    "jvm_impl": "hotspot",
+    "md5": "c9a9382c04f1e2144a4902afe55f2b2f",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "b1326473585cbc64dfafb0961f3ec32e59adc7bd",
+    "sha256": "32e08720ad7cb7be2808d124a2f01da04683f3218bab1d9f7e200ece45e448a6",
+    "sha512": "918738081bd7d7fe4c801bf16fdd11e82b2b26bc642453cce15f45b2deca8b7b6198ca7879aa2d223a71b7747398a5e6ecf88d5b9e251dde7fc19ed17988e740",
+    "size": 2218304,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-11/openjdk-11-jre-zero_11.0.32+9-2_arm64.deb",
+    "vendor": "debian",
+    "version": "11.0.32+9-2"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "debian",
     "features": [],
     "file_type": "deb",
     "filename": "openjdk-11-jre_11.0.32+9-2_arm64.deb",
