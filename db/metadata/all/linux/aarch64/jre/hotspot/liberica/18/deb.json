@@ -178,6 +178,30 @@
   {
     "architecture": "aarch64",
     "distro": "liberica",
+    "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
+    "file_type": "deb",
+    "filename": "bellsoft-jre18+37-linux-aarch64-full.deb",
+    "image_type": "jre",
+    "java_version": "18+37",
+    "jvm_impl": "hotspot",
+    "md5": "2d85b9d5aff6f16caa77287f3a0481a5",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "e2e77d6bcfc0253572b151c6f0e81ee7c47e360d",
+    "sha256": "f23373608557b763edd84a1afb2c7e689338692c45973503fefb6b188642563b",
+    "sha512": "408b93175922768d3783a4e899989899bc51cfe4499826b8aa74e14f86702526b368ecf166435a36f72a3cff517485a242e3c63af9143ac7ce72291852e8791e",
+    "size": 50940660,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/18+37/bellsoft-jre18+37-linux-aarch64-full.deb",
+    "vendor": "bellsoft",
+    "version": "18+37"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "liberica",
     "features": [],
     "file_type": "deb",
     "filename": "bellsoft-jre18+37-linux-aarch64.deb",
