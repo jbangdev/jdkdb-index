@@ -3321,6 +3321,52 @@
     "architecture": "x86_64",
     "distro": "liberica",
     "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jre17.0.17+11-linux-x64-musl.tar.gz",
+    "image_type": "jre",
+    "java_version": "17.0.17+11-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "e76bbd9328bd53c7d189ffa433b69a3a",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "327c9365207f8dc555f41c923dacb65283d35e69",
+    "sha256": "29d4450fc57084d3f7c6a33d4d0bc85a030a496bd87ae0b18431016f675605f7",
+    "sha512": "13a0f2274d630dfc6514d961d9f3944d39f7ac03a32d56a8a6adcfdb522f185d29399272f942d3a30a35248082ac18d2ff3b73751ff7eaf277d09bbe0ad445c1",
+    "size": 58378876,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.17+11/bellsoft-jre17.0.17+11-linux-x64-musl.tar.gz",
+    "vendor": "bellsoft",
+    "version": "17.0.17+11"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
+    "file_type": "deb",
+    "filename": "bellsoft-jre17.0.17+15-linux-amd64-full.deb",
+    "image_type": "jre",
+    "java_version": "17.0.17+15-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "59bc40b18ed5970550daa9dfa415113d",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "d9aa7ca9437d5f7390febe1aa8dad60014061c3e",
+    "sha256": "90ab88270a23a1ece9395c869ed86da021180d8a8354fa791fd9b60420d5caa3",
+    "sha512": "ffa85208370922a0677cdd428ce78c8374bdb9c2ebb426376e80503bbbd346e8598bae122493d5ab2af248e6ec30045b6d6212439c0234bf780574e53364745e",
+    "size": 74917236,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.17+15/bellsoft-jre17.0.17+15-linux-amd64-full.deb",
+    "vendor": "bellsoft",
+    "version": "17.0.17+15"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
       "libericafx",
       "minimal-vm",
       "javafx"

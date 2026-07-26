@@ -2532,6 +2532,28 @@
   {
     "architecture": "s390x",
     "distro": "adoptopenjdk",
+    "features": [
+      "large_heap"
+    ],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK11U-jre_s390x_linux_openj9_linuxXL_11.0.6_10_openj9-0.18.0.tar.gz",
+    "image_type": "jre",
+    "java_version": "11.0.6+10",
+    "jvm_impl": "openj9",
+    "md5": "9058ccf90e64f86314d75935ff8a66ab",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "ee3cadb3598ca59a7bf430a38413a2b2395bc61b",
+    "sha256": "30086c6a0d5ae3def70b977dec050e5f5ff82c2fdcdeeaf49c8e8c21d7378b6c",
+    "sha512": "502e06ec0f1b3bce9d42a08fbae094428713d856a25cbb7342ec1e6e02edc3ce351c5f8168ef45d7db651f054c2027b6b2722679b3d962ceeb8a33fadcdaedf8",
+    "size": 42041885,
+    "url": "https://github.com/AdoptOpenJDK/openjdk11-binaries/releases/download/jdk-11.0.6%2B10_openj9-0.18.0/OpenJDK11U-jre_s390x_linux_openj9_linuxXL_11.0.6_10_openj9-0.18.0.tar.gz",
+    "vendor": "adoptopenjdk",
+    "version": "11.0.6+10.1.openj9-0.18.0"
+  },
+  {
+    "architecture": "s390x",
+    "distro": "adoptopenjdk",
     "features": [],
     "file_type": "tar.gz",
     "filename": "OpenJDK11U-jre_s390x_linux_openj9_11.0.6_10_openj9-0.18.1.tar.gz",
@@ -6448,6 +6470,26 @@
     "url": "https://github.com/AdoptOpenJDK/openjdk14-binaries/releases/download/jdk-14.0.2%2B12_openj9-0.21.0/OpenJDK14U-jre_s390x_linux_openj9_linuxXL_14.0.2_12_openj9-0.21.0.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "14.0.2+12.openj9-0.21.0"
+  },
+  {
+    "architecture": "s390x",
+    "distro": "adoptopenjdk",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK15U-jre_s390x_linux_hotspot_15_36.tar.gz",
+    "image_type": "jre",
+    "java_version": "15+36",
+    "jvm_impl": "hotspot",
+    "md5": "5062eafdad27406f1472ddb9e1a3f0c7",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "5494440c921bda6c2059cf980047ff4b08f5e89f",
+    "sha256": "e1e124a29e2bf892d267eb63d00dd136558b4e276bcb6741ea676c995b2fff51",
+    "sha512": "9cf391d33affa1926022e8500c465a65d16043991b67cf72478d8b8d44ebd8847a8ff5c245a8688c8b8b91861c3169a7f631942cd69b30df619d47bf8c14b398",
+    "size": 52205552,
+    "url": "https://github.com/AdoptOpenJDK/openjdk15-binaries/releases/download/jdk-15%2B36/OpenJDK15U-jre_s390x_linux_hotspot_15_36.tar.gz",
+    "vendor": "adoptopenjdk",
+    "version": "15.0.0+36"
   },
   {
     "architecture": "s390x",
