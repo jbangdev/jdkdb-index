@@ -557,6 +557,28 @@
     "architecture": "x86_64",
     "distro": "liberica",
     "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jdk19.0.2+9-linux-x64-musl.tar.gz",
+    "image_type": "jdk",
+    "java_version": "19.0.2+9",
+    "jvm_impl": "hotspot",
+    "md5": "673e8ef775a71a32d8072fc24caa950c",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "3e4d8f18104032374aef4eaa762ac8c5dff2db8f",
+    "sha256": "2c8356e67d12aadf7e559b9bb5af5c1c2c9d00c5a8e2aa5239b66c7d707fa6a3",
+    "sha512": "778671ea97536b7140397b7297679627404b3b102b4ab43ab96c820eff5687d812c652b813a02c36b31a759b6214611ce6ae28f6c3509343225520bb5394bea0",
+    "size": 215044643,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/19.0.2+9/bellsoft-jdk19.0.2+9-linux-x64-musl.tar.gz",
+    "vendor": "bellsoft",
+    "version": "19.0.2+9"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
       "libericafx",
       "minimal-vm",
       "javafx"

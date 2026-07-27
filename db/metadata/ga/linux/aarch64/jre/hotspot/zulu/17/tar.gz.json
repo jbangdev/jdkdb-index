@@ -106,6 +106,28 @@
   {
     "architecture": "aarch64",
     "distro": "zulu",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "zulu17.32.13-ca-jre17.0.2-linux_musl_aarch64.tar.gz",
+    "image_type": "jre",
+    "java_version": "17.0.2",
+    "jvm_impl": "hotspot",
+    "md5": "bc89952febcf5887a6ecb5c9b14aca2b",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "b240f6890efd5c7e7a4107ca3f56b414ae341b77",
+    "sha256": "7fbf4cd19b1921f707255ba0fc23d23a98cc8a722aa4dc2c7a0dc20d09b72f92",
+    "sha512": "6cc8c74ca38417b0a4a31bcaf28c0e44b8382169758eb68869a3eadb507131c26f17829eda20191faed99da8dc06a6f86edbb436d830a62e759f649e251b5105",
+    "size": 39732617,
+    "url": "https://static.azul.com/zulu/bin/zulu17.32.13-ca-jre17.0.2-linux_musl_aarch64.tar.gz",
+    "vendor": "azul",
+    "version": "17.32.13"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "zulu",
     "features": [],
     "file_type": "tar.gz",
     "filename": "zulu17.34.19-ca-jre17.0.3-linux_aarch64.tar.gz",
@@ -1264,6 +1286,28 @@
     "url": "https://static.azul.com/zulu/bin/zulu17.62.17-ca-jre17.0.17-linux_musl_aarch64.tar.gz",
     "vendor": "azul",
     "version": "17.62.17"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "zulu",
+    "features": [
+      "crac"
+    ],
+    "file_type": "tar.gz",
+    "filename": "zulu17.62.19-ca-crac-jre17.0.17-linux_aarch64.tar.gz",
+    "image_type": "jre",
+    "java_version": "17.0.17+10-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "9c63a7b9f65b19924f6ddb3c3adb21c4",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "7543745d93c354bf115c20c3064591e6d02f18f2",
+    "sha256": "077e9bff4d6f7c8f2c6f34f8b53a007e184ee303e0af7ee20eef6d384deab832",
+    "sha512": "aa5eaace4b9526209ac1d8a999cfec2d2a4b29c28302ba09e4a998ede871796a159177d229d843296cdcdaf3e1abc3eabe962624db41f2432300c6ce281adf0d",
+    "size": 49250755,
+    "url": "https://static.azul.com/zulu/bin/zulu17.62.19-ca-crac-jre17.0.17-linux_aarch64.tar.gz",
+    "vendor": "azul",
+    "version": "17.62.19"
   },
   {
     "architecture": "aarch64",
