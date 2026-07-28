@@ -212,6 +212,28 @@
   {
     "architecture": "x86_64",
     "distro": "zulu",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "zulu17.0.23-ea-jdk17.0.0-ea.7-linux_musl_x64.tar.gz",
+    "image_type": "jdk",
+    "java_version": "17.0.0-ea.7",
+    "jvm_impl": "hotspot",
+    "md5": "66571e18df05c9cd0b866e3fd2aac0b9",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "89a4ea07ef6c004c63e32b6ceddeec09ba463e70",
+    "sha256": "a1736c9a48289ff82143050c36617e2e236e4843d11713426e091813c405e023",
+    "sha512": "314cab1bdf58267e32275a23164c3992ac5769d055165a5b58e30f7abcb72860b5655fb87e922eec074e92c08b6de08bfc58a81948c115a234d1cd1523fe5654",
+    "size": 212442865,
+    "url": "https://static.azul.com/zulu/bin/zulu17.0.23-ea-jdk17.0.0-ea.7-linux_musl_x64.tar.gz",
+    "vendor": "azul",
+    "version": "17.0.23"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "zulu",
     "features": [],
     "file_type": "tar.gz",
     "filename": "zulu17.0.23-ea-jdk17.0.0-ea.7-linux_x64.tar.gz",
@@ -2698,6 +2720,28 @@
     "url": "https://static.azul.com/zulu/bin/zulu17.56.15-ca-jdk17.0.14-linux_x64.tar.gz",
     "vendor": "azul",
     "version": "17.56.15"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "zulu",
+    "features": [
+      "javafx"
+    ],
+    "file_type": "tar.gz",
+    "filename": "zulu17.58.21-ca-fx-jdk17.0.15-linux_x64.tar.gz",
+    "image_type": "jdk",
+    "java_version": "17.0.15+6-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "e9a9b6ace6e46deba5082c7e693a4515",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "26910eda3026995098c1288055469160124aa793",
+    "sha256": "42e2731fccef45b70d603f6646dc67976207dcc7f69fadcb1b9253276009d211",
+    "sha512": "7cec054b5c8f7322fa9cfdf7fe37fb713a06b7019ebe1a11348209a799fd823ec257da5caa905114368ed7851a429daa0f940c384f9f091a9411ad020ce60a9f",
+    "size": 306091849,
+    "url": "https://static.azul.com/zulu/bin/zulu17.58.21-ca-fx-jdk17.0.15-linux_x64.tar.gz",
+    "vendor": "azul",
+    "version": "17.58.21"
   },
   {
     "architecture": "x86_64",
