@@ -2814,6 +2814,26 @@
     "version": "8.292.10.1"
   },
   {
+    "architecture": "aarch64",
+    "distro": "corretto",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "amazon-corretto-8.292.10.2-linux-aarch64.tar.gz",
+    "image_type": "jdk",
+    "java_version": "8.292.10.2",
+    "jvm_impl": "hotspot",
+    "md5": "0dce188347bfa1d131294f3f9384182b",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "e4440b34c734f06322d3ad2dc13e387234e4dea7",
+    "sha256": "75a7699df0d9ca14983b5de90173f6e39b5dd800fee69793de714b9b41c3e45e",
+    "sha512": "67ebaa6d490622fba95715efcb8d155565231a3f94f54056949f106382042a5e76a07a377bbf57b52d6bdaa46ede30b238b1a79d74a2c3c664c21f02e209e88c",
+    "size": 101921598,
+    "url": "https://corretto.aws/downloads/resources/8.292.10.2/amazon-corretto-8.292.10.2-linux-aarch64.tar.gz",
+    "vendor": "amazon",
+    "version": "8.292.10.2"
+  },
+  {
     "architecture": "x86_64",
     "distro": "corretto",
     "features": [
@@ -3034,6 +3054,26 @@
     "sha512": "5749f1dc31710dfa911d336ff0ddf31f8c245d93ca6bcbe30f1cddd60772cd0a27d5d66796acb9b8527cdce3dcaf43787672bf56e4a45394f4359e75f4cf1a6e",
     "size": 101953662,
     "url": "https://corretto.aws/downloads/resources/8.312.07.1/amazon-corretto-8.312.07.1-linux-aarch64.tar.gz",
+    "vendor": "amazon",
+    "version": "8.312.07.1"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "corretto",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "amazon-corretto-8.312.07.1-linux-x64.tar.gz",
+    "image_type": "jdk",
+    "java_version": "8.312.07.1",
+    "jvm_impl": "hotspot",
+    "md5": "3e0f701c24eae1f957005a7896d82cf8",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "934b675903e62920e0f08afbcfbd8ca79db7364d",
+    "sha256": "f4ada61e8b238694ddbba024f04809e5e2b5e1ff30e354779d10e5d1ded537e4",
+    "sha512": "c60fd53e35ae5f7d2427ca045bae0f3c946a46f2229ca9ed6415897e8dd997a24e0602f489248904634ea7d143d808b1df7ce2acc398c86200e8d8f4298f2f97",
+    "size": 118011425,
+    "url": "https://corretto.aws/downloads/resources/8.312.07.1/amazon-corretto-8.312.07.1-linux-x64.tar.gz",
     "vendor": "amazon",
     "version": "8.312.07.1"
   },
@@ -5532,6 +5572,28 @@
   {
     "architecture": "aarch64",
     "distro": "corretto",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "amazon-corretto-8.402.08.1-alpine-linux-aarch64.tar.gz",
+    "image_type": "jdk",
+    "java_version": "8.402.08.1",
+    "jvm_impl": "hotspot",
+    "md5": "91e0183d5f6b8d3f6d6cfbd20930d346",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "4f558d4672af073b437565d5762a6d47169408a4",
+    "sha256": "96b7cf592b34e2be1d60938d01c34b835cd85e5f6992dc3160e4f13f84c1d1fc",
+    "sha512": "7165714a94857315071c28847ad4542f41cf391b7ce355387ad91a8b2d585f7d77b477e763e4b778b70a1e1b183df687d3437fff116a13ad31f44b2483b1bd1a",
+    "size": 99590826,
+    "url": "https://corretto.aws/downloads/resources/8.402.08.1/amazon-corretto-8.402.08.1-alpine-linux-aarch64.tar.gz",
+    "vendor": "amazon",
+    "version": "8.402.08.1"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "corretto",
     "features": [],
     "file_type": "tar.gz",
     "filename": "amazon-corretto-8.402.08.1-linux-aarch64.tar.gz",
@@ -6196,6 +6258,28 @@
     "url": "https://corretto.aws/downloads/resources/8.422.05.1/amazon-corretto-8.422.05.1-windows-x86-jre.zip",
     "vendor": "amazon",
     "version": "8.422.05.1"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "corretto",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "amazon-corretto-8.432.06.1-alpine-linux-aarch64.tar.gz",
+    "image_type": "jdk",
+    "java_version": "8.432.06.1",
+    "jvm_impl": "hotspot",
+    "md5": "8f25e287be70133aef68e5e11a8967af",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "91b187fad6e5a80228083d7f63aad1da84e9dc12",
+    "sha256": "3374091fef0b29b9acfc1cdc6e14b2af845d7756842d041b1319efe48ac51fca",
+    "sha512": "337047ee1e4b633b2f8535ced84d30590963a1cb19ec5bd49bfdf2f35dd9be1e9667f200067ac890c753f7488a4078501a63c1b80c145d12659230d05c931927",
+    "size": 99776898,
+    "url": "https://corretto.aws/downloads/resources/8.432.06.1/amazon-corretto-8.432.06.1-alpine-linux-aarch64.tar.gz",
+    "vendor": "amazon",
+    "version": "8.432.06.1"
   },
   {
     "architecture": "x86_64",
@@ -7978,6 +8062,26 @@
     "url": "https://corretto.aws/downloads/resources/8.502.07.1/amazon-corretto-8.502.07.1-macosx-x64.tar.gz",
     "vendor": "amazon",
     "version": "8.502.07.1"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "corretto",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "amazon-corretto-11.0.2.9.1-linux-x64.tar.gz",
+    "image_type": "jdk",
+    "java_version": "11.0.2.9.1",
+    "jvm_impl": "hotspot",
+    "md5": "3300e3daa70ff13188cf1ef2b8e5edfa",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "ebb9433895a82520319d4d5743c02c943c9611ad",
+    "sha256": "6da7cf71d101db8f77e2d4701b092bd4b0dcb55e35c0f0aa929a552e47fb320c",
+    "sha512": "78790b46058bd7f99bd8615689ba010c53f56f337a675ec841b7879472b78d13dd4c6d93ddc35e6b94b3522f601cb5778f32b2f0396ce8b4476be6f64bd7acad",
+    "size": 191350938,
+    "url": "https://d3pxv6yz143wms.cloudfront.net/11.0.2.9.1/amazon-corretto-11.0.2.9.1-linux-x64.tar.gz",
+    "vendor": "amazon",
+    "version": "11.0.2.9.1"
   },
   {
     "architecture": "x86_64",
@@ -12991,6 +13095,26 @@
     "architecture": "x86_64",
     "distro": "corretto",
     "features": [],
+    "file_type": "zip",
+    "filename": "amazon-corretto-11.0.21.9.1-windows-x64-jdk.zip",
+    "image_type": "jdk",
+    "java_version": "11.0.21+9-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "5f2248df2b6f1bf87534c6807708d8ed",
+    "os": "windows",
+    "release_type": "ga",
+    "sha1": "bec9a8ef94474cd45e4bedeb0f33f1f5f7ac0f15",
+    "sha256": "da97d083d34be240f6ba57209c7573627cec729f8401696d208fdcfed1c0aa35",
+    "sha512": "6aa92ef64260f2180eea383379b9a4b22b44698687ea6e0914cc65618dce4085231f1d302023c70b5fe0566d0b2f413f9723d596b58fca6c9cc85d9570d74d00",
+    "size": 188535020,
+    "url": "https://corretto.aws/downloads/resources/11.0.21.9.1/amazon-corretto-11.0.21.9.1-windows-x64-jdk.zip",
+    "vendor": "amazon",
+    "version": "11.0.21.9.1"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "corretto",
+    "features": [],
     "file_type": "msi",
     "filename": "amazon-corretto-11.0.21.9.1-windows-x64.msi",
     "image_type": "jdk",
@@ -14120,6 +14244,28 @@
     "url": "https://corretto.aws/downloads/resources/11.0.25.9.1/amazon-corretto-11.0.25.9.1-windows-x86.msi",
     "vendor": "amazon",
     "version": "11.0.25.9.1"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "corretto",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "amazon-corretto-11.0.26.4.1-alpine-linux-aarch64.tar.gz",
+    "image_type": "jdk",
+    "java_version": "11.0.26+4-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "7dc4ee66372c4341c5e9d88bc1389f76",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "cd529491a8891f156cc1139d5ae41ca45099102d",
+    "sha256": "fda3ffa96ccc07b593c3dafebad721d542543c5ca38240f82e4132b926f8bc21",
+    "sha512": "f9a81712d24d84375abb4bc361506580c9fbfe6d25da0040d7584979b331ab09387d3dd0746d579b1a4147b0893c547edf47454a3e011cc2e1dc4fc10fd83861",
+    "size": 193174699,
+    "url": "https://corretto.aws/downloads/resources/11.0.26.4.1/amazon-corretto-11.0.26.4.1-alpine-linux-aarch64.tar.gz",
+    "vendor": "amazon",
+    "version": "11.0.26.4.1"
   },
   {
     "architecture": "x86_64",
@@ -18006,6 +18152,28 @@
     "version": "17.0.5.8.1"
   },
   {
+    "architecture": "aarch64",
+    "distro": "corretto",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "amazon-corretto-17.0.6.10.1-alpine-linux-aarch64.tar.gz",
+    "image_type": "jdk",
+    "java_version": "17.0.6.10.1",
+    "jvm_impl": "hotspot",
+    "md5": "82ddc39899d0b39ea4e452add5194108",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "de8a46a34fb82e98c55bee62131e6d587834c7e5",
+    "sha256": "4211f9e47ef23995dcff2b5f0193bad68837aaae20cf85756480cc9cf6cec127",
+    "sha512": "1285789baed3de525676c1e0798ae136739f48372eadccddd7270aef913865986788c8463898c0c59eccd7ebd55800589d43a4cb6095409fc2789ae485dc8702",
+    "size": 191245873,
+    "url": "https://corretto.aws/downloads/resources/17.0.6.10.1/amazon-corretto-17.0.6.10.1-alpine-linux-aarch64.tar.gz",
+    "vendor": "amazon",
+    "version": "17.0.6.10.1"
+  },
+  {
     "architecture": "x86_64",
     "distro": "corretto",
     "features": [
@@ -18186,6 +18354,28 @@
     "url": "https://corretto.aws/downloads/resources/17.0.6.10.1/amazon-corretto-17.0.6.10.1-windows-x64.msi",
     "vendor": "amazon",
     "version": "17.0.6.10.1"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "corretto",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "amazon-corretto-17.0.7.7.1-alpine-linux-aarch64.tar.gz",
+    "image_type": "jdk",
+    "java_version": "17.0.7.7.1",
+    "jvm_impl": "hotspot",
+    "md5": "6efe98705cf8b9eec4c66ea6697c91b8",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "4dce93eb81649d5120fe27f819ac85f4211612a2",
+    "sha256": "e533824a2b81af009924183ce3ff544311fe0dc7b7691c26444dbbf6664cc79f",
+    "sha512": "2840a5ce79687fb50d8816f327be3d9c97d377b9c1465c59e3c3135190a5c0b7e460791037ea1dd0195a8a01ce9a1944aae69cea5e72135a48a38961bb5a1422",
+    "size": 191249123,
+    "url": "https://corretto.aws/downloads/resources/17.0.7.7.1/amazon-corretto-17.0.7.7.1-alpine-linux-aarch64.tar.gz",
+    "vendor": "amazon",
+    "version": "17.0.7.7.1"
   },
   {
     "architecture": "x86_64",
@@ -18674,6 +18864,26 @@
     "sha512": "d507c0550ea80006502605d9ea7d9d82f4c33ec01cee128336cefe6581b88ac35bde31f5627512206ced03f7a852da61f13249f902d740e6ea302d9f9dce21ca",
     "size": 186498160,
     "url": "https://corretto.aws/downloads/resources/17.0.8.8.1/amazon-corretto-17.0.8.8.1-macosx-aarch64.pkg",
+    "vendor": "amazon",
+    "version": "17.0.8.8.1"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "corretto",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "amazon-corretto-17.0.8.8.1-macosx-aarch64.tar.gz",
+    "image_type": "jdk",
+    "java_version": "17.0.8.1+8-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "b3ef3cb8932d207ca66a3b65beedc329",
+    "os": "macosx",
+    "release_type": "ga",
+    "sha1": "e9eab3abb2c9cd06f8a3f55f102bce9eb4e3cf12",
+    "sha256": "08833433222ddb241a448eab92e0926d96287986f85dd5a6a065ae724e1bce43",
+    "sha512": "6f5d2abb5f5020f221a67913621705860ed83c33565d85cc2f5c8d5ab46370c26524ac39cb58991819d659e558a4a374d061d22ccd45ac17f7dc06726509ae03",
+    "size": 186434619,
+    "url": "https://corretto.aws/downloads/resources/17.0.8.8.1/amazon-corretto-17.0.8.8.1-macosx-aarch64.tar.gz",
     "vendor": "amazon",
     "version": "17.0.8.8.1"
   },

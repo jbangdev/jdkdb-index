@@ -3321,6 +3321,30 @@
     "architecture": "aarch64",
     "distro": "liberica",
     "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
+    "file_type": "zip",
+    "filename": "bellsoft-jdk11.0.20.1+1-windows-aarch64-full.zip",
+    "image_type": "jdk",
+    "java_version": "11.0.20.1+1-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "3968a5794953e7924fab7a9504cda57d",
+    "os": "windows",
+    "release_type": "ga",
+    "sha1": "f9fea03db834ad661e81dcf7dc554ddf2ecf6ea3",
+    "sha256": "7e9bafa05e746444f147346776b46d4b77319417bb9588880f1e98eba7c795bb",
+    "sha512": "ce162295d0bb4fbe39225a36077195845bd98087d5839880e6ac34106305b7818b6a91055e8add3051305cd1290ae43344363d83c5e84b34baca1de329f69d91",
+    "size": 219944609,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.20.1+1/bellsoft-jdk11.0.20.1+1-windows-aarch64-full.zip",
+    "vendor": "bellsoft",
+    "version": "11.0.20.1+1"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "liberica",
+    "features": [
       "lite"
     ],
     "file_type": "msi",
@@ -25956,6 +25980,26 @@
     "sha512": "52f2cc005d2f77ef29dc86040a940dc4743f60f4352130d933a4b22c2eb760dd3f8c120ef7f785d2db8d635da97142820ba63ede3f9112c66825c1ec98795a08",
     "size": 171794432,
     "url": "https://aka.ms/download-jdk/microsoft-jdk-21.0.10-windows-aarch64.msi",
+    "vendor": "microsoft",
+    "version": "21.0.10"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "microsoft",
+    "features": [],
+    "file_type": "zip",
+    "filename": "microsoft-jdk-21.0.10-windows-aarch64.zip",
+    "image_type": "jdk",
+    "java_version": "21.0.10+7-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "3729e1c7b390ae51e57b9e7190b12056",
+    "os": "windows",
+    "release_type": "ga",
+    "sha1": "730697a880983e1846b42ca108c459c645469a8c",
+    "sha256": "924c7127929aeb90019c1982a26b0a88337aed00ef333afb0bec28c06a6b5767",
+    "sha512": "e2d21f963c58a6674ca78dbc48778fb0d83a037e7f8efa8f23cf37262659d2f89c2daa9b8bcf4566fb5e4371c3146748d6d359d553d901c22bded216ed5a19bb",
+    "size": 192593119,
+    "url": "https://aka.ms/download-jdk/microsoft-jdk-21.0.10-windows-aarch64.zip",
     "vendor": "microsoft",
     "version": "21.0.10"
   },
