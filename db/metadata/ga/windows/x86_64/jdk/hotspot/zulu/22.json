@@ -69,6 +69,26 @@
     "architecture": "x86_64",
     "distro": "zulu",
     "features": [],
+    "file_type": "msi",
+    "filename": "zulu22.28.91-ca-jdk22.0.0-win_x64.msi",
+    "image_type": "jdk",
+    "java_version": "22.0.0",
+    "jvm_impl": "hotspot",
+    "md5": "fd27ad9b2a4cedb526d9faf9c288f726",
+    "os": "windows",
+    "release_type": "ga",
+    "sha1": "bd33a1af8cf538be79fefc86e17db1e13c98b674",
+    "sha256": "1060227e10fc1d7cf65f67321e153ec241bec9de4540011342f6222ea8f3a582",
+    "sha512": "27ad7ccf1c832851f418dc97d1423942cc0abe1cac8451349a21e9ff333292ea9ca51fe1d3fbaaeeab093fa2f49a803f36de12fe4e4bb1960ecc1187cde3074a",
+    "size": 185131008,
+    "url": "https://static.azul.com/zulu/bin/zulu22.28.91-ca-jdk22.0.0-win_x64.msi",
+    "vendor": "azul",
+    "version": "22.28.91"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "zulu",
+    "features": [],
     "file_type": "zip",
     "filename": "zulu22.28.91-ca-jdk22.0.0-win_x64.zip",
     "image_type": "jdk",
@@ -318,5 +338,27 @@
     "url": "https://static.azul.com/zulu/bin/zulu22.32.17-ca-crac-jdk22.0.2-win_x64.zip",
     "vendor": "azul",
     "version": "22.32.17"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "zulu",
+    "features": [
+      "crac"
+    ],
+    "file_type": "zip",
+    "filename": "zulu22.32.21-ca-crac-jdk22.0.2-win_x64.zip",
+    "image_type": "jdk",
+    "java_version": "22.0.2",
+    "jvm_impl": "hotspot",
+    "md5": "c8d7656c2ac3651a72e0bbec06130174",
+    "os": "windows",
+    "release_type": "ga",
+    "sha1": "432ca5f654ec02bed278b40f37b2ae8efcf1ea68",
+    "sha256": "24e7f99d6350c03ffc1a85ad0d2de93fd66e824fc48068b180cf30a5774b7b77",
+    "sha512": "b5830e24bd266977ba68819789f23c44aeb416763d72bcd776c4ce85ae4cb1a5bc585fc6cea33125c9c86635562d3d8da5462150d57578bfe4fadde1a10fc829",
+    "size": 208466924,
+    "url": "https://static.azul.com/zulu/bin/zulu22.32.21-ca-crac-jdk22.0.2-win_x64.zip",
+    "vendor": "azul",
+    "version": "22.32.21"
   }
 ]

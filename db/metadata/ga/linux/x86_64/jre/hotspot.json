@@ -4162,6 +4162,30 @@
       "minimal-vm",
       "javafx"
     ],
+    "file_type": "deb",
+    "filename": "bellsoft-jre8u402+7-linux-amd64-full.deb",
+    "image_type": "jre",
+    "java_version": "1.8.0_402",
+    "jvm_impl": "hotspot",
+    "md5": "54e8f12933ad80a0cb7bb05c2c96b7ef",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "454a671d84127dc91992304370e3fe1b31eb8eaa",
+    "sha256": "d5949d223fd16da1365e420cbad6f7bff628d902fb9cf0960dfe0ca3435ff422",
+    "sha512": "fa0593fbffecfce3e8c5985f9a265e57fd3448246d51f21f3685ad998f789fd651f5fdd3d7cbcc000c64d81519f0e827a82831befbfc8642b01bcb5b3a7aff98",
+    "size": 63105808,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/8u402+7/bellsoft-jre8u402+7-linux-amd64-full.deb",
+    "vendor": "bellsoft",
+    "version": "8u402+7"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
     "file_type": "rpm",
     "filename": "bellsoft-jre8u402+7-linux-amd64-full.rpm",
     "image_type": "jre",
@@ -4977,6 +5001,30 @@
     "sha512": "ae7bdb2ee78043561064dab37f9ad453ce80ca8c7c46f8c2d1d09258205e21b040107ef31cf1f7837ab002eb8822b31b834f571e1e3d6821d1abef7a8759627b",
     "size": 73814432,
     "url": "https://github.com/bell-sw/Liberica/releases/download/8u442+7/bellsoft-jre8u442+7-linux-amd64-full.rpm",
+    "vendor": "bellsoft",
+    "version": "8u442+7"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jre8u442+7-linux-amd64-full.tar.gz",
+    "image_type": "jre",
+    "java_version": "1.8.0_442",
+    "jvm_impl": "hotspot",
+    "md5": "efada95ed0f4742cd91c4e3a4b86d277",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "d0d306bef2d6167a8ec33b7b6a5979261bf1aa12",
+    "sha256": "305717e8c443dcd6f349401e87c5827177a45304429482acc96fd6f02a6e1bd5",
+    "sha512": "575eb5a5aeab20fde352f811c92524a9919d46d8d0a7362b8e288452ce8b56925bb6c9135fca6538e820a8aaef280930019eb62ab8304e24249b5908a16af19a",
+    "size": 97810636,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/8u442+7/bellsoft-jre8u442+7-linux-amd64-full.tar.gz",
     "vendor": "bellsoft",
     "version": "8u442+7"
   },
@@ -11119,6 +11167,28 @@
     "sha512": "5af962ae382070278562ba96315c3a5d7a0843e7ab48ec8da9caf3d2fda4ed383bd35d0f8a14dff0f71e47705bd19b66ab596e018c125e5f027e9347968d0248",
     "size": 102462943,
     "url": "https://static.azul.com/zulu/bin/zulu8.88.0.19-ca-fx-jre8.0.462-linux_x64.tar.gz",
+    "vendor": "azul",
+    "version": "8.88.0.19"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "zulu",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "zulu8.88.0.19-ca-jre8.0.462-linux_musl_x64.tar.gz",
+    "image_type": "jre",
+    "java_version": "8.0.462",
+    "jvm_impl": "hotspot",
+    "md5": "d41a61fed820f99719d3e754e696776f",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "e0b55edcc7860acd36aec09d3e8ca1fad4d49c2e",
+    "sha256": "e4626be33a6f61a9fcfeaa5613f906cf5f2bc33ddad38ab013e7000d0ff304fd",
+    "sha512": "1fb7b6874080406d4613ee7ed32ed2561c839170ede564a5516cc25562c5bda067d9e89f7e78f0629b17b7cae404a89c9f3ef57adf39eb010857fbeb654bfcf5",
+    "size": 42644099,
+    "url": "https://static.azul.com/zulu/bin/zulu8.88.0.19-ca-jre8.0.462-linux_musl_x64.tar.gz",
     "vendor": "azul",
     "version": "8.88.0.19"
   },
@@ -21926,6 +21996,28 @@
   },
   {
     "architecture": "x86_64",
+    "distro": "adoptopenjdk",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK11U-jre_x64_alpine-linux_hotspot_11.0.26_4.tar.gz",
+    "image_type": "jre",
+    "java_version": "11.0.26+4",
+    "jvm_impl": "hotspot",
+    "md5": "bbbfca4cbc26e63409205e9a69657128",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "c8557fa45f27348bb7841a0fbb46b72452bfe0e8",
+    "sha256": "69031fc68d41189691dbeca73447ca543040d26995f61cef83fd7aed8fb4dbd2",
+    "sha512": "019f7155972ff84213148fa1a887718568b7652dde1e4b3f24e66c97c4529aa6ae54d433ea9874a05588691f10999500803b34e399467557ceb140f83af2b762",
+    "size": 42749767,
+    "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.26%2B4/OpenJDK11U-jre_x64_alpine-linux_hotspot_11.0.26_4.tar.gz",
+    "vendor": "adoptopenjdk",
+    "version": "11.0.26+4"
+  },
+  {
+    "architecture": "x86_64",
     "distro": "temurin",
     "features": [
       "musl"
@@ -25061,6 +25153,28 @@
     "sha512": "a57c3c3fc88a0f392ed89bc8fa7eaf9b4bd9dd4637e094002add4e7a2a358a86aa5060920589f3495b7cba8b3c6f99113c71d4f3bf272f0adf927e1e37fbc5e7",
     "size": 83693840,
     "url": "https://static.azul.com/zulu/bin/zulu11.50.19-ca-fx-jre11.0.12-linux_x64.tar.gz",
+    "vendor": "azul",
+    "version": "11.50.19"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "zulu",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "zulu11.50.19-ca-jre11.0.12-linux_musl_x64.tar.gz",
+    "image_type": "jre",
+    "java_version": "11.0.12",
+    "jvm_impl": "hotspot",
+    "md5": "740244b33255508c4918c4849f53382c",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "191ef3b078b9ba9a62b02786de5ae65ae55cb8da",
+    "sha256": "139256ea153bc5ac7d532fd2aaddd1137bd9d10c13c62a470067b59e114cecc9",
+    "sha512": "ee9c9341ae19f1b0b23343a0b595c52d3d650cf1d4ed3ef5721e4be0e61083c3203111f8134125ab57f5e8ed399c3650d48cf72630570fd4c72e809f1a9f3e19",
+    "size": 43706330,
+    "url": "https://static.azul.com/zulu/bin/zulu11.50.19-ca-jre11.0.12-linux_musl_x64.tar.gz",
     "vendor": "azul",
     "version": "11.50.19"
   },
@@ -39829,6 +39943,28 @@
     "features": [
       "musl"
     ],
+    "file_type": "apk",
+    "filename": "bellsoft-jre17.0.5+8-linux-x64-musl.apk",
+    "image_type": "jre",
+    "java_version": "17.0.5+8",
+    "jvm_impl": "hotspot",
+    "md5": "1112fa2e1812df89315f8d6f70c44dff",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "1a916541c5945b565600280ee3541e4cf88f3ac1",
+    "sha256": "8927689641b6ed5a02c8c9f5d9d4be4255af0578a29f384b376ba8609f9fe2e5",
+    "sha512": "e4f897384564fd2ec4495ece51e0f8fd3581577ebbe53d3a41bf2029c46c0831be9e494b0f4706bfe8a1ac44664117e3465ffba452b6bc75d8b3b7be793c4d58",
+    "size": 52327880,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.5+8/bellsoft-jre17.0.5+8-linux-x64-musl.apk",
+    "vendor": "bellsoft",
+    "version": "17.0.5+8"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
+      "musl"
+    ],
     "file_type": "tar.gz",
     "filename": "bellsoft-jre17.0.5+8-linux-x64-musl.tar.gz",
     "image_type": "jre",
@@ -46322,6 +46458,26 @@
   {
     "architecture": "x86_64",
     "distro": "zulu",
+    "features": [],
+    "file_type": "zip",
+    "filename": "zulu17.36.17-ca-jre17.0.4.1-linux_x64.zip",
+    "image_type": "jre",
+    "java_version": "17.0.4.1",
+    "jvm_impl": "hotspot",
+    "md5": "992fe5b17ae90c294eb100aea1f2e5fa",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "c1517ced853129ccbe233dba5cd51049129138f2",
+    "sha256": "2d3ff2fb0dbcfcfbde8f9f931c42bfb40fcf35d0ade3864f3dbb54c7dfcf20b6",
+    "sha512": "bb59301c3f9a9fb1aee64e088e82fa8774b0bb48048b5a15c846c0ec698fe7e90a178af97b62284b857a432f9f6f0b0734d3b5a1f21e1398932f3927e6881c6b",
+    "size": 46684781,
+    "url": "https://static.azul.com/zulu/bin/zulu17.36.17-ca-jre17.0.4.1-linux_x64.zip",
+    "vendor": "azul",
+    "version": "17.36.17"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "zulu",
     "features": [
       "javafx"
     ],
@@ -49805,6 +49961,28 @@
     "sha512": "bfcdbbb3dfc47a7c45878aa6f954b236f7443bbb14ba497f4526439f23811bdc7c01aca534d99d517ef8cb19f22b3cb7b7d16da4454abe6a0abfefa6811dd6ac",
     "size": 85203012,
     "url": "https://static.azul.com/zulu/bin/zulu18.32.13-ca-fx-jre18.0.2.1-linux_x64.tar.gz",
+    "vendor": "azul",
+    "version": "18.32.13"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "zulu",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "zulu18.32.13-ca-jre18.0.2.1-linux_musl_x64.tar.gz",
+    "image_type": "jre",
+    "java_version": "18.0.2.1",
+    "jvm_impl": "hotspot",
+    "md5": "2300360f71576b554e29dd59bf92e2a7",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "9f856d41ddeaaab0a1e68691acc8b2a3bfc1593c",
+    "sha256": "5b78b2b55ff36f8be7f9e2aab059412f78ce024068d9314890c5449f15a5af13",
+    "sha512": "0d6e5f0957df1b580e6f39a79f7f5f5638499e0204c03a523700a90d49e29386b121d6e6ec793463786d66cff59be5e1d5e08c7d36fdccfcfaddbbd7fd4dea55",
+    "size": 46856781,
+    "url": "https://static.azul.com/zulu/bin/zulu18.32.13-ca-jre18.0.2.1-linux_musl_x64.tar.gz",
     "vendor": "azul",
     "version": "18.32.13"
   },
@@ -65382,6 +65560,26 @@
   {
     "architecture": "x86_64",
     "distro": "zulu",
+    "features": [],
+    "file_type": "zip",
+    "filename": "zulu21.28.85-ca-jre21.0.0-linux_x64.zip",
+    "image_type": "jre",
+    "java_version": "21.0.0",
+    "jvm_impl": "hotspot",
+    "md5": "e9f0635c04b328735d51447800562135",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "072f8a5cae176b209dfb185b3b73cdcf4730d57b",
+    "sha256": "2835f03d1f55f3b7210e352b16088e575ead8278ce3ecc07c97373d4ff294d16",
+    "sha512": "e3f71fa1508cdc71711e49a48b457cb42eb0e212c1e264b33231c8473f345e5630d246c3b913943ee0d9b4aa5fa81c727a85b7291f0019693cb52ce4c7e13412",
+    "size": 52761695,
+    "url": "https://static.azul.com/zulu/bin/zulu21.28.85-ca-jre21.0.0-linux_x64.zip",
+    "vendor": "azul",
+    "version": "21.28.85"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "zulu",
     "features": [
       "crac"
     ],
@@ -75164,6 +75362,90 @@
   },
   {
     "architecture": "x86_64",
+    "distro": "temurin",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK25U-jre_x64_alpine-linux_hotspot_25.0.4_7.tar.gz",
+    "image_type": "jre",
+    "java_version": "25.0.4+7-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "69562aae66f5ca513135f890b02ac464",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "b624b8b9073d45fdf88688aff77a1e678004e4bd",
+    "sha256": "4a641bfa74e961efd9cc6dbfb6eccf0bec13014904433f00eb33df84c393318f",
+    "sha512": "5ba7be1841230578cb025197038caa9f12f305d3c7f108004ec46a98eb6c23fd24551dec2a17c410ea599524466cc71064486889ec66bbf39826b4a157276f33",
+    "size": 60871005,
+    "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4%2B7/OpenJDK25U-jre_x64_alpine-linux_hotspot_25.0.4_7.tar.gz",
+    "vendor": "eclipse",
+    "version": "25.0.4+7"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "temurin",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK25U-jre_x64_linux_hotspot_25.0.4_7.tar.gz",
+    "image_type": "jre",
+    "java_version": "25.0.4+7-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "94d9d1e93f03e14d44b4a40b195fdcbd",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "b450ec4332997dcea17e6cd68e2161bffb30393e",
+    "sha256": "aed3915f8facc0c80733ab2448bb0df4b494a36a2c5759e9a6e1eb979720f2b3",
+    "sha512": "934a482e2979558cffba08629933543123165c19f72d60e3f1f842bafa0340b508ab85169c9902078e3311228998c5e42e914ea1e9fe307b449c7d159e5477ef",
+    "size": 61714730,
+    "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4%2B7/OpenJDK25U-jre_x64_linux_hotspot_25.0.4_7.tar.gz",
+    "vendor": "eclipse",
+    "version": "25.0.4+7"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "adoptopenjdk",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK25U-jre_x64_alpine-linux_hotspot_25.0.4_7.tar.gz",
+    "image_type": "jre",
+    "java_version": "25.0.4+7-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "69562aae66f5ca513135f890b02ac464",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "b624b8b9073d45fdf88688aff77a1e678004e4bd",
+    "sha256": "4a641bfa74e961efd9cc6dbfb6eccf0bec13014904433f00eb33df84c393318f",
+    "sha512": "5ba7be1841230578cb025197038caa9f12f305d3c7f108004ec46a98eb6c23fd24551dec2a17c410ea599524466cc71064486889ec66bbf39826b4a157276f33",
+    "size": 60871005,
+    "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4%2B7/OpenJDK25U-jre_x64_alpine-linux_hotspot_25.0.4_7.tar.gz",
+    "vendor": "adoptopenjdk",
+    "version": "25.0.4+7.0.LTS"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "adoptopenjdk",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK25U-jre_x64_linux_hotspot_25.0.4_7.tar.gz",
+    "image_type": "jre",
+    "java_version": "25.0.4+7-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "94d9d1e93f03e14d44b4a40b195fdcbd",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "b450ec4332997dcea17e6cd68e2161bffb30393e",
+    "sha256": "aed3915f8facc0c80733ab2448bb0df4b494a36a2c5759e9a6e1eb979720f2b3",
+    "sha512": "934a482e2979558cffba08629933543123165c19f72d60e3f1f842bafa0340b508ab85169c9902078e3311228998c5e42e914ea1e9fe307b449c7d159e5477ef",
+    "size": 61714730,
+    "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4%2B7/OpenJDK25U-jre_x64_linux_hotspot_25.0.4_7.tar.gz",
+    "vendor": "adoptopenjdk",
+    "version": "25.0.4+7.0.LTS"
+  },
+  {
+    "architecture": "x86_64",
     "distro": "debian",
     "features": [
       "headless"
@@ -76614,6 +76896,46 @@
     "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-26.0.2/sapmachine-jre-26.0.2_linux-x64_bin.tar.gz",
     "vendor": "sap",
     "version": "26.0.2"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "adoptopenjdk",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK26U-jre_x64_linux_hotspot_26.0.2_10.tar.gz",
+    "image_type": "jre",
+    "java_version": "26.0.2+10",
+    "jvm_impl": "hotspot",
+    "md5": "86684fb9e83fd01c8b6e20984c24466f",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "3789ae448f2b06433dbf889905a2e96744c3e97d",
+    "sha256": "585c4cce5807ce5677289a123680a8648c84c9afac66727a0e3027298d8e32c7",
+    "sha512": "8efb1b0fb718badf3f45a0b4966ae89d7ab593015d7873d2a22eb20a1717b6fc6341f246c3b1c12fe17b004bcfb9a7137159bdf1fb772be5ffd7cb5dd87564b2",
+    "size": 63208578,
+    "url": "https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.2%2B10/OpenJDK26U-jre_x64_linux_hotspot_26.0.2_10.tar.gz",
+    "vendor": "adoptopenjdk",
+    "version": "26.0.2+10"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "temurin",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK26U-jre_x64_linux_hotspot_26.0.2_10.tar.gz",
+    "image_type": "jre",
+    "java_version": "26.0.2+10",
+    "jvm_impl": "hotspot",
+    "md5": "86684fb9e83fd01c8b6e20984c24466f",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "3789ae448f2b06433dbf889905a2e96744c3e97d",
+    "sha256": "585c4cce5807ce5677289a123680a8648c84c9afac66727a0e3027298d8e32c7",
+    "sha512": "8efb1b0fb718badf3f45a0b4966ae89d7ab593015d7873d2a22eb20a1717b6fc6341f246c3b1c12fe17b004bcfb9a7137159bdf1fb772be5ffd7cb5dd87564b2",
+    "size": 63208578,
+    "url": "https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.2%2B10/OpenJDK26U-jre_x64_linux_hotspot_26.0.2_10.tar.gz",
+    "vendor": "eclipse",
+    "version": "26.0.2+10"
   },
   {
     "architecture": "x86_64",
