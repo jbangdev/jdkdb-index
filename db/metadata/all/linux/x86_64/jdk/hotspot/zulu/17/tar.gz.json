@@ -842,6 +842,28 @@
   {
     "architecture": "x86_64",
     "distro": "zulu",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "zulu17.0.55-ea-jdk17.0.0-ea.23-linux_musl_x64.tar.gz",
+    "image_type": "jdk",
+    "java_version": "17.0.0-ea.23",
+    "jvm_impl": "hotspot",
+    "md5": "315200d994653b9be33a854a9e62610b",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "39af886fd6fd6e64277d421f6fc0d39eb8f52ea2",
+    "sha256": "c26c0f674a7dfc4734934fdb6b3da7ab1eedcd291a698a6afcc27017ff2be0ac",
+    "sha512": "280c98ab04dc2cde1ee50825298b4ebb0b6b25adf5e5c5a21edb1593873ee704ee75b57281d7bada3eaa67662b12f7d83b79ed7451650c2b5386c66cdbc9a696",
+    "size": 197104418,
+    "url": "https://static.azul.com/zulu/bin/zulu17.0.55-ea-jdk17.0.0-ea.23-linux_musl_x64.tar.gz",
+    "vendor": "azul",
+    "version": "17.0.55"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "zulu",
     "features": [],
     "file_type": "tar.gz",
     "filename": "zulu17.0.55-ea-jdk17.0.0-ea.23-linux_x64.tar.gz",
@@ -2700,6 +2722,29 @@
     "url": "https://static.azul.com/zulu/bin/zulu17.54.21-ca-jdk17.0.13-linux_x64.tar.gz",
     "vendor": "azul",
     "version": "17.54.21"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "zulu",
+    "features": [
+      "crac",
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "zulu17.56.15-ca-crac-jdk17.0.14-linux_musl_x64.tar.gz",
+    "image_type": "jdk",
+    "java_version": "17.0.14+7-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "d7c8b916a42d356d8fd0fb6582b5273b",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "5e011537e639c8b0dd6483f1b91a1dac2aee6fc5",
+    "sha256": "60f885bdf85c3a7f55b338026755c7bacf3c08da1532e5456aeea15761988d41",
+    "sha512": "de9ddc04a018177e14997506662e53a2a9b64baacb73334b705b880a188d5abfe4f80b6671450443e85ef5a6846a4655bc69ffed0e5a00131b4977cb604a36ce",
+    "size": 206311130,
+    "url": "https://static.azul.com/zulu/bin/zulu17.56.15-ca-crac-jdk17.0.14-linux_musl_x64.tar.gz",
+    "vendor": "azul",
+    "version": "17.56.15"
   },
   {
     "architecture": "x86_64",
