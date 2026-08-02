@@ -134,6 +134,30 @@
   {
     "architecture": "aarch64",
     "distro": "liberica",
+    "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
+    "file_type": "msi",
+    "filename": "bellsoft-jre22+37-windows-aarch64-full.msi",
+    "image_type": "jre",
+    "java_version": "22+37",
+    "jvm_impl": "hotspot",
+    "md5": "bc7c96b019a9e1d2c8d1504b5b6e469b",
+    "os": "windows",
+    "release_type": "ga",
+    "sha1": "f187c341adf71a5b9af48486f99626dbfa18ebc2",
+    "sha256": "ba01bcb1890fc9160883c8ed4e653287f394bb616fca7bf95b7067b48d2aa374",
+    "sha512": "8c433135b53e326b0416a0b5605700217a82582e09e660c64b1bbbc8bbf57391b2eec53b5ff07376314456ffee830714053604b227c989ed720ff9bc340fa17e",
+    "size": 48173056,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/22+37/bellsoft-jre22+37-windows-aarch64-full.msi",
+    "vendor": "bellsoft",
+    "version": "22+37"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "liberica",
     "features": [],
     "file_type": "msi",
     "filename": "bellsoft-jre22+37-windows-aarch64.msi",
