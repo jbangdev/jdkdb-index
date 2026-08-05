@@ -22971,6 +22971,26 @@
   },
   {
     "architecture": "aarch64",
+    "distro": "sapmachine",
+    "features": null,
+    "file_type": "tar.gz",
+    "filename": "sapmachine-jre-27-ea.33_linux-aarch64_bin.tar.gz",
+    "image_type": "jre",
+    "java_version": "27-ea.33",
+    "jvm_impl": "hotspot",
+    "md5": "b15cc784ed44a5f7c29c603bb802b026",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "43f05d6c88c348958784fa019dffd85429d83757",
+    "sha256": "2560ee658c6abffeb29487c085fdfd20fccbdcd73463543d873caacb46a75735",
+    "sha512": "7b002dbad47b11b7251b203a50f0ff277ab5bc5a153134ae0adeb53639918509fc0bddfe7ba4e2e30a91294bde7f8912752a300555995014694d51d4c0fea7d6",
+    "size": 51112425,
+    "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-27%2B33/sapmachine-jre-27-ea.33_linux-aarch64_bin.tar.gz",
+    "vendor": "sap",
+    "version": "27-ea.33"
+  },
+  {
+    "architecture": "aarch64",
     "distro": "temurin",
     "features": [
       "musl"
@@ -24265,6 +24285,26 @@
   },
   {
     "architecture": "aarch64",
+    "distro": "sapmachine",
+    "features": null,
+    "file_type": "tar.gz",
+    "filename": "sapmachine-jre-28-ea.9_linux-aarch64_bin.tar.gz",
+    "image_type": "jre",
+    "java_version": "28-ea.9",
+    "jvm_impl": "hotspot",
+    "md5": "2f5ed07366c74609deb8c35e1d2bd025",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "ec6f1b891319203b6cfc4e9bfef811cd696d2d75",
+    "sha256": "be320f54652bf6b0bb4305b3a3f6d8c7075c31b368e974b4e5d442250676028c",
+    "sha512": "351f29343e65977ee30f1f93eab460a41c6d5dc08cf52f2b64030a710e6183ce62630f9f967aba75d1864b05a318cbcc9f1465cf63e8c1f34a8bde166a703312",
+    "size": 51394259,
+    "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-28%2B9/sapmachine-jre-28-ea.9_linux-aarch64_bin.tar.gz",
+    "vendor": "sap",
+    "version": "28-ea.9"
+  },
+  {
+    "architecture": "aarch64",
     "distro": "temurin",
     "features": [
       "musl"
@@ -24556,5 +24596,47 @@
     "url": "https://github.com/adoptium/temurin28-binaries/releases/download/jdk-28%2B8-ea-beta/OpenJDK-jre_aarch64_linux_hotspot_28_8-ea.tar.gz",
     "vendor": "eclipse",
     "version": "28+8-ea-beta"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "temurin",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK-jre_aarch64_alpine-linux_hotspot_28_9-ea.tar.gz",
+    "image_type": "jre",
+    "java_version": "28",
+    "jvm_impl": "hotspot",
+    "md5": "7387d85f57c2f17ef7703dcff8b145fa",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "344cd6683ce73877cd15fb8c2a551c7f78567ee7",
+    "sha256": "f1a3197783e4a9892439529f66f551d82f525c88ebfc43bcebfc6247f965204c",
+    "sha512": "189296ce3c1b46291eaac2a7a156b057b5c70a335ac4210afb80d5a9f64f03bd921006775ddf1e2af65403ae77fc075033ea7b12805a85ff7686a1a09baa82d5",
+    "size": 60530789,
+    "url": "https://github.com/adoptium/temurin28-binaries/releases/download/jdk-28%2B9-ea-beta/OpenJDK-jre_aarch64_alpine-linux_hotspot_28_9-ea.tar.gz",
+    "vendor": "eclipse",
+    "version": "28+9-ea-beta"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "temurin",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK-jre_aarch64_linux_hotspot_28_9-ea.tar.gz",
+    "image_type": "jre",
+    "java_version": "28",
+    "jvm_impl": "hotspot",
+    "md5": "09984c1e61563badcbd552c17aa83887",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "65e5b6f8be2080eee09e81a466ed065a8f4e0d33",
+    "sha256": "a8016cb0139d721aa8c91198f552129eed088ef07661a3eb8dc81834d11a87e6",
+    "sha512": "c01d1b029f81211c4e54cd9e7292981aa03a041dd8252b45b77b5f80bce2dd26b842da7d31f001ece3ef732ef7159e92d0df3edd2c0559a073f978312b3d76ce",
+    "size": 61129686,
+    "url": "https://github.com/adoptium/temurin28-binaries/releases/download/jdk-28%2B9-ea-beta/OpenJDK-jre_aarch64_linux_hotspot_28_9-ea.tar.gz",
+    "vendor": "eclipse",
+    "version": "28+9-ea-beta"
   }
 ]
