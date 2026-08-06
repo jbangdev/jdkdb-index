@@ -1696,6 +1696,29 @@
     "architecture": "aarch64",
     "distro": "liberica",
     "features": [
+      "lite",
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jdk21.0.4+9-linux-aarch64-musl-lite.tar.gz",
+    "image_type": "jdk",
+    "java_version": "21.0.4+9-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "177ff392752105f680d245c2228bb8e7",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "2e8809a551e16cf86840110d74871fefe9e420da",
+    "sha256": "49b7310aa79adabf8ee2f895e211a2c425dd189b6dfab26b2ffef38620808220",
+    "sha512": "e243ac979520e27ee4d119af7193c44c02d74211e21951cf4dd05230fe1ed7d651675c2e82d86c6496aeae531d2e3ee7f2598e4b1e342f00987c10185a790d7e",
+    "size": 77208624,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.4+9/bellsoft-jdk21.0.4+9-linux-aarch64-musl-lite.tar.gz",
+    "vendor": "bellsoft",
+    "version": "21.0.4+9"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "liberica",
+    "features": [
       "musl"
     ],
     "file_type": "apk",

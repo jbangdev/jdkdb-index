@@ -51,6 +51,30 @@
     "architecture": "x86_64",
     "distro": "liberica",
     "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jdk24.0.1+11-linux-amd64-full.tar.gz",
+    "image_type": "jdk",
+    "java_version": "24.0.1+11",
+    "jvm_impl": "hotspot",
+    "md5": "66bd3d83c4d4da6d894fa18d5ce764c4",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "bc6a7c86582e2414c1229a95a9269c741cbbba7c",
+    "sha256": "386fe7ce235b212be61989a26b6840861a795d350659f5c584f715597e19b265",
+    "sha512": "334c817ad2117c556e93b0b386ff71d66fdac78618577c68f54fdcdcf985e6e12d590e570f1500b2260ff32956f17ce81c895d59b7396137e103905102beedd2",
+    "size": 384594273,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/24.0.1+11/bellsoft-jdk24.0.1+11-linux-amd64-full.tar.gz",
+    "vendor": "bellsoft",
+    "version": "24.0.1+11"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
       "lite"
     ],
     "file_type": "deb",

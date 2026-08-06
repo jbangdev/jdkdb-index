@@ -32020,6 +32020,28 @@
   {
     "architecture": "x86_64",
     "distro": "zulu",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "zulu11.33.15-ca-jre11.0.4-linux_musl_x64.tar.gz",
+    "image_type": "jre",
+    "java_version": "11.0.4",
+    "jvm_impl": "hotspot",
+    "md5": "5bafa444b313270b8bb424b50d607f6b",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "c18c214b8daf7151c1d46322f8cd666484ff670f",
+    "sha256": "1a22a3993aff12e8c26dab9eb83975aeb4dc9357a39d0d54b30cd662958fd5a7",
+    "sha512": "20be1eb09994cb3283837d7cdb5d72154cfb22589ceba73132618557daacc1f932624204de9f7e76a810b587bc15f865846d7104f64d38711dbea41dd0a2a69e",
+    "size": 42128008,
+    "url": "https://static.azul.com/zulu/bin/zulu11.33.15-ca-jre11.0.4-linux_musl_x64.tar.gz",
+    "vendor": "azul",
+    "version": "11.33.15"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "zulu",
     "features": [],
     "file_type": "tar.gz",
     "filename": "zulu11.33.15-ca-jre11.0.4-linux_x64.tar.gz",
@@ -92083,6 +92105,48 @@
   },
   {
     "architecture": "x86_64",
+    "distro": "temurin",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK21U-jre_x64_alpine-linux_hotspot_21.0.13_1-ea.tar.gz",
+    "image_type": "jre",
+    "java_version": "21",
+    "jvm_impl": "hotspot",
+    "md5": "5ecc2ffb48c95a311ff66ed0447a332a",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "d99239058f8df08236790c4fc0c62eabbece479e",
+    "sha256": "4811326161cfe294e03cd750cdb910e5ee56c4203cf821e0b84443d2fdba5bbf",
+    "sha512": "0c2addc581b5331208d02e6e427369ea7b8340e117f0cfab02ab0dc3e8aa83e635a76a3b4333235715767e2323a1281fdb9b668b13d981473898203877add6c8",
+    "size": 52278073,
+    "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.13%2B1-ea-beta/OpenJDK21U-jre_x64_alpine-linux_hotspot_21.0.13_1-ea.tar.gz",
+    "vendor": "eclipse",
+    "version": "21.0.13+1-ea-beta"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "temurin",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK21U-jre_x64_linux_hotspot_21.0.13_1-ea.tar.gz",
+    "image_type": "jre",
+    "java_version": "21",
+    "jvm_impl": "hotspot",
+    "md5": "b5adc3306a6917ab12b6b07390afcb96",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "fd3249bc64848e9f80624e5063de8b63174862a5",
+    "sha256": "263d8b4e5d3ef81aa85afe8aea85e321fd9af49ef3f7232f87c59403f8c01df9",
+    "sha512": "6c2806540f8c54fa1895b74c9647150b80d49876786d5ba3e28313610a8598dd2e35995ee9aa2fc84cdb51829fcd87a3e1e8b69cc89204f9012b7bd829e22837",
+    "size": 52126191,
+    "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.13%2B1-ea-beta/OpenJDK21U-jre_x64_linux_hotspot_21.0.13_1-ea.tar.gz",
+    "vendor": "eclipse",
+    "version": "21.0.13+1-ea-beta"
+  },
+  {
+    "architecture": "x86_64",
     "distro": "zulu",
     "features": [
       "javafx"
@@ -96361,6 +96425,28 @@
     "sha512": "f425efa4201ff6467389e24dfe5ec05979f88d3f10fbfd97521bd086d64f7d1bea03f320dc40f33bef28210f5a9010062334feea88df51c50024bd22b77f5b76",
     "size": 65346716,
     "url": "https://github.com/bell-sw/Liberica/releases/download/22.0.2+11/bellsoft-jre22.0.2+11-linux-amd64.tar.gz",
+    "vendor": "bellsoft",
+    "version": "22.0.2+11"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
+      "musl"
+    ],
+    "file_type": "apk",
+    "filename": "bellsoft-jre22.0.2+11-linux-x64-musl.apk",
+    "image_type": "jre",
+    "java_version": "22.0.2+11",
+    "jvm_impl": "hotspot",
+    "md5": "2c5633da12a4e152d7d5b3332d15d6bc",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "32f161e13f5049fc8745b3b376f54ca354fc4bea",
+    "sha256": "1ebb2accf306111fe1cdb0dfb4e39345bfdf82dae56843b66a94462c70c2cca9",
+    "sha512": "f2a32f5c65d6adb7038957eb147ffe44174bdd9f8668960ed3146868494904654417bcfdb49606c721c6f98b5acd228ebd4c1e5c49fc94c7d9e550b935c8815a",
+    "size": 64890396,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/22.0.2+11/bellsoft-jre22.0.2+11-linux-x64-musl.apk",
     "vendor": "bellsoft",
     "version": "22.0.2+11"
   },
@@ -117132,6 +117218,48 @@
     "url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27%2B32-ea-beta/OpenJDK27U-jre_x64_linux_hotspot_27_32-ea.tar.gz",
     "vendor": "eclipse",
     "version": "27+32-ea-beta"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "temurin",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK27U-jre_x64_alpine-linux_hotspot_27_33-ea.tar.gz",
+    "image_type": "jre",
+    "java_version": "27",
+    "jvm_impl": "hotspot",
+    "md5": "6bfe6ba7f4a6841eb5711470718c89d2",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "c9434db174a4213231cd1dfaeea5dd45a68271bb",
+    "sha256": "624119087d207cbb310d23f2d599008c00db2d61e47f0105db226295fffa34d2",
+    "sha512": "eeb55909fa1701d6589aaf3256ed07763c9ef81a7984e43317557baa7e9bcdd370a4e56678b344e4323cefd9b74a74ca94501931e126c73a5e1a3e21c74b2e57",
+    "size": 61544648,
+    "url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27%2B33-ea-beta/OpenJDK27U-jre_x64_alpine-linux_hotspot_27_33-ea.tar.gz",
+    "vendor": "eclipse",
+    "version": "27+33-ea-beta"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "temurin",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK27U-jre_x64_linux_hotspot_27_33-ea.tar.gz",
+    "image_type": "jre",
+    "java_version": "27",
+    "jvm_impl": "hotspot",
+    "md5": "59f89fce49cf8d476ca16161832254c4",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "3151bb4b171009b82dc2139f5b6618f51ebadfea",
+    "sha256": "e1ff7fdddbb28460b8c88263489b66cd9c7157eb402e2bda784af0c7e5904f86",
+    "sha512": "91dcfbe5ee2b33498d49c20bde285faf16f6a10c4d0967510b6a618551f383f11dcd334337718a7a5e2b444701fed571080caa1bcfc9a58c909ee1d61ccd724c",
+    "size": 62125949,
+    "url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27%2B33-ea-beta/OpenJDK27U-jre_x64_linux_hotspot_27_33-ea.tar.gz",
+    "vendor": "eclipse",
+    "version": "27+33-ea-beta"
   },
   {
     "architecture": "x86_64",

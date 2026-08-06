@@ -24857,6 +24857,28 @@
   {
     "architecture": "x86_64",
     "distro": "zulu",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "zulu11.33.15-ca-jre11.0.4-linux_musl_x64.tar.gz",
+    "image_type": "jre",
+    "java_version": "11.0.4",
+    "jvm_impl": "hotspot",
+    "md5": "5bafa444b313270b8bb424b50d607f6b",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "c18c214b8daf7151c1d46322f8cd666484ff670f",
+    "sha256": "1a22a3993aff12e8c26dab9eb83975aeb4dc9357a39d0d54b30cd662958fd5a7",
+    "sha512": "20be1eb09994cb3283837d7cdb5d72154cfb22589ceba73132618557daacc1f932624204de9f7e76a810b587bc15f865846d7104f64d38711dbea41dd0a2a69e",
+    "size": 42128008,
+    "url": "https://static.azul.com/zulu/bin/zulu11.33.15-ca-jre11.0.4-linux_musl_x64.tar.gz",
+    "vendor": "azul",
+    "version": "11.33.15"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "zulu",
     "features": [],
     "file_type": "tar.gz",
     "filename": "zulu11.33.15-ca-jre11.0.4-linux_x64.tar.gz",
@@ -69169,6 +69191,28 @@
     "sha512": "f425efa4201ff6467389e24dfe5ec05979f88d3f10fbfd97521bd086d64f7d1bea03f320dc40f33bef28210f5a9010062334feea88df51c50024bd22b77f5b76",
     "size": 65346716,
     "url": "https://github.com/bell-sw/Liberica/releases/download/22.0.2+11/bellsoft-jre22.0.2+11-linux-amd64.tar.gz",
+    "vendor": "bellsoft",
+    "version": "22.0.2+11"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
+      "musl"
+    ],
+    "file_type": "apk",
+    "filename": "bellsoft-jre22.0.2+11-linux-x64-musl.apk",
+    "image_type": "jre",
+    "java_version": "22.0.2+11",
+    "jvm_impl": "hotspot",
+    "md5": "2c5633da12a4e152d7d5b3332d15d6bc",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "32f161e13f5049fc8745b3b376f54ca354fc4bea",
+    "sha256": "1ebb2accf306111fe1cdb0dfb4e39345bfdf82dae56843b66a94462c70c2cca9",
+    "sha512": "f2a32f5c65d6adb7038957eb147ffe44174bdd9f8668960ed3146868494904654417bcfdb49606c721c6f98b5acd228ebd4c1e5c49fc94c7d9e550b935c8815a",
+    "size": 64890396,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/22.0.2+11/bellsoft-jre22.0.2+11-linux-x64-musl.apk",
     "vendor": "bellsoft",
     "version": "22.0.2+11"
   },
