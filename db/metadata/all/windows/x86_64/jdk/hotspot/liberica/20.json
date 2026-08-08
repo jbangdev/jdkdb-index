@@ -27,6 +27,30 @@
     "architecture": "x86_64",
     "distro": "liberica",
     "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
+    "file_type": "zip",
+    "filename": "bellsoft-jdk20.0.1+10-windows-amd64-full.zip",
+    "image_type": "jdk",
+    "java_version": "20.0.1+10",
+    "jvm_impl": "hotspot",
+    "md5": "32e252d16acfa0259b0848de8acfc4d4",
+    "os": "windows",
+    "release_type": "ga",
+    "sha1": "0f55ec47d51876f1a60be82ad0404fbb59429bbc",
+    "sha256": "2fd09d88dc6135a09ea53ecce7c3812d7507fa5ca637eddcb62494992094d322",
+    "sha512": "d1c61ce1220504b9e37b5209f84a74ce2bbe53665993062512737f72bda78ea65a82ef353654f0b29f59103188ed6dcfd0460ddfbdbf230b17cc24c0427efe4b",
+    "size": 293989692,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/20.0.1+10/bellsoft-jdk20.0.1+10-windows-amd64-full.zip",
+    "vendor": "bellsoft",
+    "version": "20.0.1+10"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
       "lite"
     ],
     "file_type": "msi",

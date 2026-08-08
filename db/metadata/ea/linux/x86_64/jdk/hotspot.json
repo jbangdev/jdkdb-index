@@ -7646,6 +7646,26 @@
     "distro": "zulu",
     "features": [],
     "file_type": "tar.gz",
+    "filename": "zulu14.0.23-ea-jdk14.0.0-ea+b28-linux_x64.tar.gz",
+    "image_type": "jdk",
+    "java_version": "14.0.0-ea+b28",
+    "jvm_impl": "hotspot",
+    "md5": "528361d3caa027c2e9f21703e91e96dd",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "5e4d3f64047ab7d22153cb7741487741a09c5c7a",
+    "sha256": "76fa1fe292a43be0477657c45868ceb0da72f588c0c661aefeed448386141dd3",
+    "sha512": "6f3cb7abfbe9237fa9f351aef04f7f5a788c0d08cb15ec7d2358c07f66186d21466f6fdebf2c76ec2fbba668c81e8cfc68a88597ef6fe3ec719b3143de8b551e",
+    "size": 213352107,
+    "url": "https://static.azul.com/zulu/bin/zulu14.0.23-ea-jdk14.0.0-ea+b28-linux_x64.tar.gz",
+    "vendor": "azul",
+    "version": "14.0.23"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "zulu",
+    "features": [],
+    "file_type": "tar.gz",
     "filename": "zulu14.0.23-ea-jdk14.0.0-ea.28-linux_x64.tar.gz",
     "image_type": "jdk",
     "java_version": "14.0.0-ea.28",
@@ -17768,6 +17788,28 @@
   {
     "architecture": "x86_64",
     "distro": "sapmachine",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "sapmachine-jdk-17.0.19-ea.2_linux-x64-musl_bin.tar.gz",
+    "image_type": "jdk",
+    "java_version": "17.0.19-ea.2",
+    "jvm_impl": "hotspot",
+    "md5": "b56c366aa1cff54d4e78c272cf813010",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "d52aa547a68a8d402c353c81069d1267956df248",
+    "sha256": "e4fb42d1e53799bd821696c9445185a57f94db3fc8f945594ca354737650f32b",
+    "sha512": "6f8e663edd481dcbee416ed5025eb35f19cab1bad418d9b39ad92c248c002a5fb62ea32a4be938c1b25912615d12c8685edf620f2f373d686849b0783a910511",
+    "size": 195094151,
+    "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-17.0.19+2/sapmachine-jdk-17.0.19-ea.2_linux-x64-musl_bin.tar.gz",
+    "vendor": "sap",
+    "version": "17.0.19-ea.2"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "sapmachine",
     "features": [],
     "file_type": "tar.gz",
     "filename": "sapmachine-jdk-17.0.19-ea.2_linux-x64_bin.tar.gz",
@@ -19232,6 +19274,48 @@
     "url": "https://static.azul.com/zulu/bin/zulu17.0.21-ea-jdk17.0.0-ea.6-linux_x64.tar.gz",
     "vendor": "azul",
     "version": "17.0.21"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "temurin",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK17U-jdk_x64_alpine-linux_hotspot_17.0.21_1-ea.tar.gz",
+    "image_type": "jdk",
+    "java_version": "17",
+    "jvm_impl": "hotspot",
+    "md5": "2483743e4d0485e942bdb4d5b121d284",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "808e85b1966ce637a2e6f2530f7b312ed78de6bc",
+    "sha256": "31e49a0977c195625dd56a2b4518608ee6eff39998074832652047d976762b12",
+    "sha512": "df5529a717443be900f5fe8100687ce901898ae964f9a3e7d11af651abfcc1691284e1970bc0cff81a8feb235892a9c29143d4b7bbdf7f675327df4787736b0a",
+    "size": 192552998,
+    "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21%2B1-ea-beta/OpenJDK17U-jdk_x64_alpine-linux_hotspot_17.0.21_1-ea.tar.gz",
+    "vendor": "eclipse",
+    "version": "17.0.21+1-ea-beta"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "temurin",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK17U-jdk_x64_linux_hotspot_17.0.21_1-ea.tar.gz",
+    "image_type": "jdk",
+    "java_version": "17",
+    "jvm_impl": "hotspot",
+    "md5": "a1eca23d34817298900f2ed395d310c8",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "ba2c0c2915c1f344f32a724d427ca644d6859540",
+    "sha256": "9a66ee1c5335fc5ec4735bf46b427ca8952a878fc151bfb3e852ae72e2cc8a3c",
+    "sha512": "a5ee2ab95bbb02ec04427fd00229239ac1001d75e61ddf6aa438ae7d5805fabad4d8c3da73c95ddbc77042f14af6fbdcec6a1515b595e2f265b026a83f5390c3",
+    "size": 193414517,
+    "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21%2B1-ea-beta/OpenJDK17U-jdk_x64_linux_hotspot_17.0.21_1-ea.tar.gz",
+    "vendor": "eclipse",
+    "version": "17.0.21+1-ea-beta"
   },
   {
     "architecture": "x86_64",
@@ -26808,6 +26892,28 @@
     "url": "https://static.azul.com/zulu/bin/zulu20.0.67-ea-jdk20.0.0-ea.28-linux_x64.tar.gz",
     "vendor": "azul",
     "version": "20.0.67"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "zulu",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "zulu20.0.69-ea-jdk20.0.0-ea.29-linux_musl_x64.tar.gz",
+    "image_type": "jdk",
+    "java_version": "20.0.0-ea.29",
+    "jvm_impl": "hotspot",
+    "md5": "36ae7651a032f9438118cd557adf1a6a",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "4ea348401e5c72f780888c4f4477274abac7a212",
+    "sha256": "024fca3d2ef6d3dbcf3aae5b8488475812bf087c22acb83f8aacd5950cdae871",
+    "sha512": "d5f66676f20bb7b5d3137ca2aa51f870723d6f4daa65fccb953ae226a6a6bb5451e42050a1166f9140c41113b54ded864dfba99990cde77b6dea178400014d49",
+    "size": 208270828,
+    "url": "https://static.azul.com/zulu/bin/zulu20.0.69-ea-jdk20.0.0-ea.29-linux_musl_x64.tar.gz",
+    "vendor": "azul",
+    "version": "20.0.69"
   },
   {
     "architecture": "x86_64",
@@ -50863,6 +50969,26 @@
   {
     "architecture": "x86_64",
     "distro": "openjdk",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "openjdk-27-ea+34_linux-x64_bin.tar.gz",
+    "image_type": "jdk",
+    "java_version": "27-ea+34-2321",
+    "jvm_impl": "hotspot",
+    "md5": "eae5b445f2f030ff277a88fdc36111f4",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "8cd74e18533533966196ddbf0e45eb311d7f6900",
+    "sha256": "e82f0b585355fa9b8aa309711cb67afa0d87a6c4ddc5d583951a412e46512f08",
+    "sha512": "e8fbc4acd2ebf6778065e4aada3384ad498c88e4e8e37b2a58b2328fdf62ded6f8bee98e632fe9feed28022b3acc8b1e5806b3b6738c4f99990ec753a7927d67",
+    "size": 226434463,
+    "url": "https://download.java.net/java/early_access/jdk27/34/GPL/openjdk-27-ea+34_linux-x64_bin.tar.gz",
+    "vendor": "oracle",
+    "version": "27-ea+34"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "openjdk",
     "features": [
       "valhalla"
     ],
@@ -52690,6 +52816,48 @@
   },
   {
     "architecture": "x86_64",
+    "distro": "temurin",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK27U-jdk_x64_alpine-linux_hotspot_27_34-ea.tar.gz",
+    "image_type": "jdk",
+    "java_version": "27",
+    "jvm_impl": "hotspot",
+    "md5": "d01fbdb4b6d5c4b6e0977f78e98f0418",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "904d44e83447025bc8ad8a0e52aec8da2fb63d6c",
+    "sha256": "6b19142ffa22071d823cb6fa32835b00cc5921765463d93518597ee8401e49ec",
+    "sha512": "b01f5fa180662bc9b0403caebdc1615053230ef77cf966f7b621c31aac4c9ce5149fa94c68273b45f5f87fc77aed63a9aded6a6bb47830147fc01edda0f86592",
+    "size": 141971038,
+    "url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27%2B34-ea-beta/OpenJDK27U-jdk_x64_alpine-linux_hotspot_27_34-ea.tar.gz",
+    "vendor": "eclipse",
+    "version": "27+34-ea-beta"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "temurin",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK27U-jdk_x64_linux_hotspot_27_34-ea.tar.gz",
+    "image_type": "jdk",
+    "java_version": "27",
+    "jvm_impl": "hotspot",
+    "md5": "20d668ee4c69beee14c2195a576ef77e",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "8be4dcfe5ddd846a865693fb444fe604b16eee86",
+    "sha256": "e46819af24c21104a5e7aef40a0f28b6a1797377d854dc3057327f75129b6dd3",
+    "sha512": "3798c343557528980f81eca74169e594532512be2c67334d5375cf434882b489254ed141b6c5bcd28ddc10d6e9905cd29357ca403450476a2ac885533686a2b1",
+    "size": 142700999,
+    "url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27%2B34-ea-beta/OpenJDK27U-jdk_x64_linux_hotspot_27_34-ea.tar.gz",
+    "vendor": "eclipse",
+    "version": "27+34-ea-beta"
+  },
+  {
+    "architecture": "x86_64",
     "distro": "sapmachine",
     "features": [
       "musl"
@@ -53401,5 +53569,47 @@
     "url": "https://github.com/adoptium/temurin28-binaries/releases/download/jdk-28%2B9-ea-beta/OpenJDK-jdk_x64_linux_hotspot_28_9-ea.tar.gz",
     "vendor": "eclipse",
     "version": "28+9-ea-beta"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "temurin",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK-jdk_x64_alpine-linux_hotspot_28_10-ea.tar.gz",
+    "image_type": "jdk",
+    "java_version": "28",
+    "jvm_impl": "hotspot",
+    "md5": "157e07c08801f5c9659cc172579b75c4",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "0c2f82c8af27f20deb6eda5daa6133996024b375",
+    "sha256": "9999abdf21a1ec6b006192a729f033bc8790ed0e0e9573341bbc0962920e2d9b",
+    "sha512": "768d18099fd25e1b77a80b890d35983499a2fd7e2b99c38799f96c0931487ff5bf44de018c25cb2ab3f1fdc7ac0be77299ac1e9c64acff8c4fd0367587402537",
+    "size": 159297418,
+    "url": "https://github.com/adoptium/temurin28-binaries/releases/download/jdk-28%2B10-ea-beta/OpenJDK-jdk_x64_alpine-linux_hotspot_28_10-ea.tar.gz",
+    "vendor": "eclipse",
+    "version": "28+10-ea-beta"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "temurin",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK-jdk_x64_linux_hotspot_28_10-ea.tar.gz",
+    "image_type": "jdk",
+    "java_version": "28",
+    "jvm_impl": "hotspot",
+    "md5": "4d6e58712a9eb1b93493b1b0185c7046",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "4b95dfd1689788dcbec033dcc27d3ecdf0218727",
+    "sha256": "e4c4054f9f20f96b63b6892f72feb9dab0440ce68b94147ac3d6870136cc1ebb",
+    "sha512": "ebbb1e31778dfed26b61e5822a19dd330a475f61093418e2b130b449bbe683090d650ec84c06ad8542a7ada5cb934fe9fb3cbe238b3871e4202a8f9d5a552b6b",
+    "size": 160036615,
+    "url": "https://github.com/adoptium/temurin28-binaries/releases/download/jdk-28%2B10-ea-beta/OpenJDK-jdk_x64_linux_hotspot_28_10-ea.tar.gz",
+    "vendor": "eclipse",
+    "version": "28+10-ea-beta"
   }
 ]

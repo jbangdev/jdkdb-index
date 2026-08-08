@@ -3966,6 +3966,28 @@
   },
   {
     "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jdk8u345+1-linux-x64-musl.tar.gz",
+    "image_type": "jdk",
+    "java_version": "1.8.0_345",
+    "jvm_impl": "hotspot",
+    "md5": "10f450a7da2fa554ea4995c813a31f5c",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "3431b676764e6ca4cbb0f6cfdfa772cb4beb0117",
+    "sha256": "d297a997414e416238eb401b206cb876a4dd9768ddef4e880b8cd9c899bf24de",
+    "sha512": "57e4f97f09224739cc191855668cff70b03ece4639cc1c664f7435992435d345895120e5aa209a9111934baebc9a9b14d70a1955aee01f35a8401208d83a5b66",
+    "size": 104755468,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/8u345+1/bellsoft-jdk8u345+1-linux-x64-musl.tar.gz",
+    "vendor": "bellsoft",
+    "version": "8u345+1"
+  },
+  {
+    "architecture": "x86_64",
     "distro": "bisheng",
     "features": [],
     "file_type": "tar.gz",
@@ -9052,6 +9074,48 @@
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-8/openjdk-8-jdk_8u502-ga-1_amd64.deb",
     "vendor": "debian",
     "version": "8u502-ga-1"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "debian",
+    "features": [
+      "headless"
+    ],
+    "file_type": "deb",
+    "filename": "openjdk-8-jdk-headless_8u502-ga-1+b1_amd64.deb",
+    "image_type": "jdk",
+    "java_version": "8u502",
+    "jvm_impl": "hotspot",
+    "md5": "1c7c58fe248965dd983fad95df7099ad",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "4a3a94a03c78cf9951e8a06d60c01bcac4e7c796",
+    "sha256": "37711b1b7eccb527b5ff2ddb41a82287262dba26527b7171ae52ac9fa8da4e24",
+    "sha512": "985c8c4b1e8348868893932d42bdae0a05dfbe092d0f4a809278e0fb43eb98c8f2f14c8a1a991109b52dc3e648422fa170af1ac6925797b6936c93d64789aa12",
+    "size": 8215580,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-8/openjdk-8-jdk-headless_8u502-ga-1+b1_amd64.deb",
+    "vendor": "debian",
+    "version": "8u502-ga-1+b1"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "debian",
+    "features": [],
+    "file_type": "deb",
+    "filename": "openjdk-8-jdk_8u502-ga-1+b1_amd64.deb",
+    "image_type": "jdk",
+    "java_version": "8u502",
+    "jvm_impl": "hotspot",
+    "md5": "9abe7fd3c3d52c7aca0b80139d4b16e3",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "a97fb374b9209da1e7bce9472135f9bc1da9a2ca",
+    "sha256": "2d9316990969214be082934cf17afcfafde5c6251ecb5ba55bcdd8fff0b17765",
+    "sha512": "d5f9bbb07048c168c3c48027fceab4725aac6a4c6b9ee115a1c1169c02b6b6d5e81d12f72ff5d40a740ae054d820e3673973381fc57c4df1392085a5d0411794",
+    "size": 4065688,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-8/openjdk-8-jdk_8u502-ga-1+b1_amd64.deb",
+    "vendor": "debian",
+    "version": "8u502-ga-1+b1"
   },
   {
     "architecture": "x86_64",
@@ -14596,6 +14660,26 @@
     "sha512": "099a93ee5b75773e7ebef8744e7c0b1591d4625a48c9be2b9e1a5489afab4518122c10d142ad32f807b209b7a7c56ecfd9d9c6e6bdff876535d62d0598a83cb2",
     "size": 103356964,
     "url": "https://github.com/dragonwell-project/dragonwell8/releases/download/dragonwell-extended-8.18.19_jdk8u402-ga/Alibaba_Dragonwell_Extended_8.18.19_x64_linux.tar.gz",
+    "vendor": "alibaba",
+    "version": "8.18.19"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "dragonwell",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "Alibaba_Dragonwell_Standard_8.18.19_x64_linux.tar.gz",
+    "image_type": "jdk",
+    "java_version": "1.8.0_402-b01",
+    "jvm_impl": "hotspot",
+    "md5": "9564ac5be522a47ff44b4abffe9e3506",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "4c3e1ef4728a3906959d24c01eb0f0424b3562a1",
+    "sha256": "55a217385a67d40c31951bed43216412489be62aea57882541ec02ba45629451",
+    "sha512": "d5f8a3dcc29f5590981fe3cbddc98a3a6244751782ad62853cd861e49ef1d5a5727bd3bf28067008ca4e63f9b856ca4e973526d3a97aed54a5b0d610d79baadd",
+    "size": 102770776,
+    "url": "https://github.com/dragonwell-project/dragonwell8/releases/download/dragonwell-standard-8.18.19_jdk8u402-ga/Alibaba_Dragonwell_Standard_8.18.19_x64_linux.tar.gz",
     "vendor": "alibaba",
     "version": "8.18.19"
   },
@@ -32762,6 +32846,30 @@
       "minimal-vm",
       "javafx"
     ],
+    "file_type": "rpm",
+    "filename": "bellsoft-jdk11.0.20+8-linux-amd64-full.rpm",
+    "image_type": "jdk",
+    "java_version": "11.0.20+8-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "ba5b315d1508b03ae1b9789acd11d0a6",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "62f596ed54d5816883ce5e9ff6c6f36e2d2b0fcd",
+    "sha256": "e596d4c8ac0bc08bd5ac4497bebd34ef6f6feb695097e30c6e1f94539ee5103f",
+    "sha512": "b28e19f89a46f651d8af4812ab98b6934e95fd962c8c22d95be6f1fb6d73f48a6eef9a335e55a940e21fba71a1c56b2b2dd9cccdb5eda07f5521817bbd8d41dc",
+    "size": 288403244,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.20+8/bellsoft-jdk11.0.20+8-linux-amd64-full.rpm",
+    "vendor": "bellsoft",
+    "version": "11.0.20+8"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
     "file_type": "tar.gz",
     "filename": "bellsoft-jdk11.0.20+8-linux-amd64-full.tar.gz",
     "image_type": "jdk",
@@ -34029,6 +34137,28 @@
     "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.22%2B7/OpenJDK11U-jdk_x64_linux_hotspot_11.0.22_7.tar.gz",
     "vendor": "eclipse",
     "version": "11.0.22+7"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "corretto",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "amazon-corretto-11.0.22.7.1-alpine-linux-x64.tar.gz",
+    "image_type": "jdk",
+    "java_version": "11.0.22+7-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "f217fda8d8fa0666cef8fa28e4b4d6d5",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "600f908a7306b9dfba64ef9a7ea2ce8961ee9651",
+    "sha256": "826a76f5de601683f36acf4f147ba6b252fb11706a565c15e8d134cc1c7396e6",
+    "sha512": "896245295f827457d05948f58a7982743dbeb3f790b96cb6fe65d984a5682d48bf31f1e810882855d6069672de0943d712c1bf4eaea6b983d1818c1ee891bbc6",
+    "size": 194892508,
+    "url": "https://corretto.aws/downloads/resources/11.0.22.7.1/amazon-corretto-11.0.22.7.1-alpine-linux-x64.tar.gz",
+    "vendor": "amazon",
+    "version": "11.0.22.7.1"
   },
   {
     "architecture": "x86_64",
@@ -37897,6 +38027,26 @@
     "url": "https://github.com/dragonwell-project/dragonwell11/releases/download/dragonwell-extended-11.0.27.24_jdk-11.0.27-ga/Alibaba_Dragonwell_Extended_11.0.27.24.6_x64_linux.tar.gz",
     "vendor": "alibaba",
     "version": "11.0.27.24.6"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "microsoft",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "microsoft-jdk-11.0.28-linux-x64.tar.gz",
+    "image_type": "jdk",
+    "java_version": "11.0.28+6-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "4b992cce581e9adb8da87c8c2e57b74c",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "873a7048505ee9f017847947ee6932b07cdf7c3c",
+    "sha256": "281cc487016d4c4adda22fbba4a34c01bc0994a25facf2879175cd1ca002c6c1",
+    "sha512": "150a87e814e56627a169b40ac2599d267d7de3f56c3e9230ac9acecfd94c3dd0b29f7ebff29d60b432765c314c5d05c8961e95d8e486150326d8b00aaa4d70de",
+    "size": 197414408,
+    "url": "https://aka.ms/download-jdk/microsoft-jdk-11.0.28-linux-x64.tar.gz",
+    "vendor": "microsoft",
+    "version": "11.0.28"
   },
   {
     "architecture": "x86_64",
@@ -45566,6 +45716,29 @@
     "architecture": "x86_64",
     "distro": "liberica",
     "features": [
+      "lite",
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jdk13.0.2+9-linux-x64-musl-lite.tar.gz",
+    "image_type": "jdk",
+    "java_version": "13.0.2+9",
+    "jvm_impl": "hotspot",
+    "md5": "5e4e31c01a1fe35583ef16e274da5d10",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "243df9bd2195cf3a7dbe124d3e8a55ef0f39e1b4",
+    "sha256": "26bd764970095ca25e960f643a7def9e691ab8513fd0a7bce46a8df5be07f213",
+    "sha512": "958265ad6a9477c54a9c03a87f2de122a5f0cc8572e3896d6c64dadabe46cb08b278f3e7d1973fd6876a08685066f220327cc662c318e79d60d116e0c08db0e0",
+    "size": 78657775,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/13.0.2+9/bellsoft-jdk13.0.2+9-linux-x64-musl-lite.tar.gz",
+    "vendor": "bellsoft",
+    "version": "13.0.2+9"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
       "musl"
     ],
     "file_type": "tar.gz",
@@ -46940,6 +47113,26 @@
     "size": 198665889,
     "url": "https://download.java.net/java/GA/jdk14.0.1/664493ef4a6946b186ff29eb326336a2/7/GPL/openjdk-14.0.1_linux-x64_bin.tar.gz",
     "vendor": "oracle",
+    "version": "14.0.1"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "sapmachine",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "sapmachine-jdk-14.0.1_linux-x64_bin.tar.gz",
+    "image_type": "jdk",
+    "java_version": "14.0.1",
+    "jvm_impl": "hotspot",
+    "md5": "a5fe73725b91ce3ede23779f4e9119c7",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "e3d6ad549eb31783a27793fe765081dda2e45624",
+    "sha256": "08ce3075fb56156c84c0958415d5da277e1fa4f128c9829228126b73ab76e092",
+    "sha512": "a8dffe2bdf1e99bb738f3bdd7ebefb763c6c80859e0c7eb181cc7f1b2487257c6779bc56528548edba331a952da630ed9c223b3b662ca056ae4e4d60ac7a5a67",
+    "size": 205158960,
+    "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-14.0.1/sapmachine-jdk-14.0.1_linux-x64_bin.tar.gz",
+    "vendor": "sap",
     "version": "14.0.1"
   },
   {
