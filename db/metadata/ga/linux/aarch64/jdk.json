@@ -19823,6 +19823,28 @@
     "features": [
       "lite"
     ],
+    "file_type": "deb",
+    "filename": "bellsoft-jdk11.0.16+8-linux-aarch64-lite.deb",
+    "image_type": "jdk",
+    "java_version": "11.0.16+8",
+    "jvm_impl": "hotspot",
+    "md5": "790074701a2d1b2296da96708f9983db",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "f51b25dbec487f0dd5be07d8c63fa7d4e3ecaa06",
+    "sha256": "ade86f8fdb19fd579051f1c499a4f8b92475c417bdacd5f0c6dd0f701fdd3422",
+    "sha512": "de7fbb0056b1828f2679ea53f988ee56643209c47c77fa2596178ce77a23de15d06dbfd7167db563c5e79cfa6c6c0398dc2c87cdf453d8ba8d1e00eba78e85cc",
+    "size": 69348240,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.16+8/bellsoft-jdk11.0.16+8-linux-aarch64-lite.deb",
+    "vendor": "bellsoft",
+    "version": "11.0.16+8"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "liberica",
+    "features": [
+      "lite"
+    ],
     "file_type": "rpm",
     "filename": "bellsoft-jdk11.0.16+8-linux-aarch64-lite.rpm",
     "image_type": "jdk",
@@ -30630,6 +30652,28 @@
     "architecture": "aarch64",
     "distro": "zulu",
     "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "zulu11.80.21-ca-jdk11.0.27-linux_musl_aarch64.tar.gz",
+    "image_type": "jdk",
+    "java_version": "11.0.27+6-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "bea35d72a82d6295e4e8e54e69813409",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "da8f767b725720adcefb347f42138f4b404e7ca0",
+    "sha256": "9b0c7d42176c998315b51a75936e937c06342af977e3f54d3e421ac286333730",
+    "sha512": "1675267943d4f342cf184d9a41689c4c03074cc4c08572fe6d0ac9e5cd5314e716a0fdbc036caf10472eaf4073703b8ad11ebb81e2562d981108e712d39eabc3",
+    "size": 199404612,
+    "url": "https://static.azul.com/zulu/bin/zulu11.80.21-ca-jdk11.0.27-linux_musl_aarch64.tar.gz",
+    "vendor": "azul",
+    "version": "11.80.21"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "zulu",
+    "features": [
       "javafx"
     ],
     "file_type": "tar.gz",
@@ -31385,6 +31429,26 @@
     "sha512": "f478b2584ab0b8cd636703bbbf31113c63fa8ebd88ab30cb626fdae3c80474f6d3db92e7c0c66181a1de8fe55204a402319e51618472f6ad399ba055063121b6",
     "size": 75479177,
     "url": "https://github.com/bell-sw/Liberica/releases/download/12.0.2/bellsoft-jdk12.0.2-linux-aarch64-lite.tar.gz",
+    "vendor": "bellsoft",
+    "version": "12.0.2"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "liberica",
+    "features": [],
+    "file_type": "deb",
+    "filename": "bellsoft-jdk12.0.2-linux-aarch64.deb",
+    "image_type": "jdk",
+    "java_version": "12.0.2",
+    "jvm_impl": "hotspot",
+    "md5": "8d2f944176d9ee9c2f327debb4a67b15",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "5ad5058fe58f1ffdb6e0baa668be34b52a3b73b5",
+    "sha256": "35411a632da2e0b7d5495460b7e4f2b39781c1039ee5c79d67df24f4d01a2f29",
+    "sha512": "51c1b27cf32d918077bb28fc79acc923d83147b480c73c44888cf88d13ac780214a86d6204ec2994d6a8130b8c92ec599728e7b46ecc4d47857e6ebdf7e4897d",
+    "size": 174884106,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/12.0.2/bellsoft-jdk12.0.2-linux-aarch64.deb",
     "vendor": "bellsoft",
     "version": "12.0.2"
   },
@@ -55590,6 +55654,26 @@
   },
   {
     "architecture": "aarch64",
+    "distro": "kona",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "TencentKona-17.0.18.b1-jdk_linux-aarch64.tar.gz",
+    "image_type": "jdk",
+    "java_version": "17.0.18+35-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "e93886d597cb2c00fd23ddd5efe5f806",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "f6c253788cb03571b31955217604203500a650f3",
+    "sha256": "afa38d76c99079c8732574651b67eefaac89e20dfe533ddcc1cced08650f070f",
+    "sha512": "25d10d447affea12a4492f71007990ca8667934fdd280713628cad4fafc5a9e5b8f2fffa43d2e3ff3d2ccf6828c77e1cf7d4c0ece0a19f10ca6b90069ea6da70",
+    "size": 198514358,
+    "url": "https://github.com/Tencent/TencentKona-17/releases/download/TencentKona-17.0.18/TencentKona-17.0.18.b1-jdk_linux-aarch64.tar.gz",
+    "vendor": "tencent",
+    "version": "17.0.18.b1"
+  },
+  {
+    "architecture": "aarch64",
     "distro": "dragonwell",
     "features": [],
     "file_type": "tar.gz",
@@ -63961,6 +64045,30 @@
     "url": "https://corretto.aws/downloads/resources/20.0.2.9.1/amazon-corretto-20.0.2.9.1-linux-aarch64.tar.gz",
     "vendor": "amazon",
     "version": "20.0.2.9.1"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "liberica",
+    "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
+    "file_type": "deb",
+    "filename": "bellsoft-jdk20.0.2+10-linux-aarch64-full.deb",
+    "image_type": "jdk",
+    "java_version": "20.0.2+10",
+    "jvm_impl": "hotspot",
+    "md5": "6f9e58e5da280ec72a8d76574380884c",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "d9a80ad9cf8822a48e3e61a187b9cbd792c407e8",
+    "sha256": "ce642f9d5de289d45bd0ceeaf8d71d190dd02e8612fba8a755ff6d7b84a5ac57",
+    "sha512": "feb6e76d9c68c59182d5499630183f2127c1b90d41896e4a512abbdd16fe18851835627a113ac1c1540d79fb56553e51cbf513074a3939c3766cbfa37aa60a40",
+    "size": 262965888,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/20.0.2+10/bellsoft-jdk20.0.2+10-linux-aarch64-full.deb",
+    "vendor": "bellsoft",
+    "version": "20.0.2+10"
   },
   {
     "architecture": "aarch64",
@@ -101435,5 +101543,25 @@
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-26/openjdk-26-jdk_26+35-2_arm64.deb",
     "vendor": "debian",
     "version": "26+35-2"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "corretto",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "amazon-corretto-27.0.0.33.1-linux-aarch64.tar.gz",
+    "image_type": "jdk",
+    "java_version": "27.0.0.33.1",
+    "jvm_impl": "hotspot",
+    "md5": "ddbd80a65709caff1cafea398fde9557",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "0b738d3c49e28762f48a047a420c29c8722eabb9",
+    "sha256": "fd845835548d88a3174bb21e84a7dcc441f2a02fb07ca6acf39658ce0e5f92cc",
+    "sha512": "daad8be5b1a8a7fbb7270851fa43411b20cd2b7ad8c816b2c6c25848f502123db8ec6054d40c736cebfedb35e3eda972b9c0cf5a06785fd3b2c0872b0025fc83",
+    "size": 227425607,
+    "url": "https://corretto.aws/downloads/resources/27.0.0.33.1/amazon-corretto-27.0.0.33.1-linux-aarch64.tar.gz",
+    "vendor": "amazon",
+    "version": "27.0.0.33.1"
   }
 ]

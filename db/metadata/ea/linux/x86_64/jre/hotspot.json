@@ -1180,6 +1180,48 @@
   },
   {
     "architecture": "x86_64",
+    "distro": "temurin",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK26U-jre_x64_alpine-linux_hotspot_2026-08-08-11-43.tar.gz",
+    "image_type": "jre",
+    "java_version": "26",
+    "jvm_impl": "hotspot",
+    "md5": "14a71d63593efa4a65c516d36c85182f",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "8f3f17586c4fdb4803e347fd9cb7c9e0b71c4e37",
+    "sha256": "7e44189d25f8c69a1a44a496fedf43ae8934d0bb9421110a3d10c3a0a5b13b8d",
+    "sha512": "501bfa872944903960367a6d98850a761081473968453478d7b4f05744e0ecb97536f5261639587564c8b97cca3dff8e59b2574fbc2aab1cd159d0b6fafd6e77",
+    "size": 62583668,
+    "url": "https://github.com/adoptium/temurin26-binaries/releases/download/jdk26u-2026-08-08-11-43-beta/OpenJDK26U-jre_x64_alpine-linux_hotspot_2026-08-08-11-43.tar.gz",
+    "vendor": "eclipse",
+    "version": "26u-2026-08-08-11-43-beta"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "temurin",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK26U-jre_x64_linux_hotspot_2026-08-08-11-43.tar.gz",
+    "image_type": "jre",
+    "java_version": "26",
+    "jvm_impl": "hotspot",
+    "md5": "144cbb7099b7a229d6737d6af38baf21",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "3968e8ffc53d9c383fff757e202572e8c71a097d",
+    "sha256": "795ff744a5f74a6aab924fe2ebb5961568efccb7bfa5309a3b8dae135e24091d",
+    "sha512": "00d7388555af3a0e8badd2548cb929f97ba78de628d875e7e590ed57c0c32c7d08d5d93c38e2e890a37654a4ea18154533535765081dcb17174a800733a79a02",
+    "size": 63213312,
+    "url": "https://github.com/adoptium/temurin26-binaries/releases/download/jdk26u-2026-08-08-11-43-beta/OpenJDK26U-jre_x64_linux_hotspot_2026-08-08-11-43.tar.gz",
+    "vendor": "eclipse",
+    "version": "26u-2026-08-08-11-43-beta"
+  },
+  {
+    "architecture": "x86_64",
     "distro": "liberica",
     "features": [],
     "file_type": "deb",
@@ -2351,6 +2393,48 @@
     "url": "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u502-b07-ea-beta/OpenJDK8U-jre_x64_linux_hotspot_8u502b07-ea.tar.gz",
     "vendor": "eclipse",
     "version": "8u502-b07-ea-beta"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "temurin",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK8U-jre_x64_alpine-linux_hotspot_8u512b01-ea.tar.gz",
+    "image_type": "jre",
+    "java_version": "1.8.0_512-beta-202608082025-b01",
+    "jvm_impl": "hotspot",
+    "md5": "c845b4a41a366d5a898fd77a0b564bb9",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "b199abc8fccd96bd508ef066d2dbab06dbcb18c5",
+    "sha256": "613a16ed9925458f2d1dc5657feaf1fafec66d6ee4f0deddf275e76bc1db6dbd",
+    "sha512": "094a423b3962c00625f86f193d042e0e4eeedb4bc33c730c367dc9563ac2b901e328d5f21c9bb0401bfa04406f0e523d4e3b4863a4c9e9fde2bcda26d9b090a9",
+    "size": 41778289,
+    "url": "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u512-b01-ea-beta/OpenJDK8U-jre_x64_alpine-linux_hotspot_8u512b01-ea.tar.gz",
+    "vendor": "eclipse",
+    "version": "8u512-b01-ea-beta"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "temurin",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK8U-jre_x64_linux_hotspot_8u512b01-ea.tar.gz",
+    "image_type": "jre",
+    "java_version": "1.8.0_512-beta-202608082008-b01",
+    "jvm_impl": "hotspot",
+    "md5": "6dbfe75f60764e5a469b8259612b8924",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "85f3e7844e4a82ef7562dbe61fe492bc050635ae",
+    "sha256": "f5ade85c0c4ed8cad416e6dd189b71a8e1d5aba8d44849e9bd3341f03b1722e3",
+    "sha512": "7a8ea86f5eaa7f013dd46c655db6b42d0cf64b5a083e34ecfde70475bbfd672c1408867689acd428711730f200187912b471b7bac3f9dd737ea836576d99b5d6",
+    "size": 41830735,
+    "url": "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u512-b01-ea-beta/OpenJDK8U-jre_x64_linux_hotspot_8u512b01-ea.tar.gz",
+    "vendor": "eclipse",
+    "version": "8u512-b01-ea-beta"
   },
   {
     "architecture": "x86_64",
@@ -9849,6 +9933,28 @@
     "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-17.0.5+5/sapmachine-jre-17.0.5-eabeta.5_linux-x64-musl_bin.tar.gz",
     "vendor": "sap",
     "version": "17.0.5-eabeta.5"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "sapmachine",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "sapmachine-jre-17.0.5-eabeta.6_linux-x64-musl_bin.tar.gz",
+    "image_type": "jre",
+    "java_version": "17.0.5-eabeta.6",
+    "jvm_impl": "hotspot",
+    "md5": "e379528ede81a37b7a638efda519294a",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "628c7f34c29586cb63b36e20a5af4c9dccc775eb",
+    "sha256": "954647083ae7034995901d60af54410bf8403e422bc863dc8abba5cd580cbdf0",
+    "sha512": "29b041ede97dda1ead95c5918dfbb1f624e933c566ab91eadaf575a11ce7fd76498d18ff8183d84e6a7fa7d65e9fef9ac44d8acf40a7ca9a6e7d354c952e7756",
+    "size": 46923647,
+    "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-17.0.5+6/sapmachine-jre-17.0.5-eabeta.6_linux-x64-musl_bin.tar.gz",
+    "vendor": "sap",
+    "version": "17.0.5-eabeta.6"
   },
   {
     "architecture": "x86_64",
@@ -30744,6 +30850,28 @@
     "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-25+12/sapmachine-jre-25-ea.12_linux-x64_bin.tar.gz",
     "vendor": "sap",
     "version": "25-ea.12"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "sapmachine",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "sapmachine-jre-25-ea.13_linux-x64-musl_bin.tar.gz",
+    "image_type": "jre",
+    "java_version": "25-ea.13",
+    "jvm_impl": "hotspot",
+    "md5": "18499c47598d1e68f1972283e5166e35",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "e4bdca9805d30d3bc5167d1e6aa39b2b201842f6",
+    "sha256": "83f32ed88a46b31beaa126b07a5abba6b7097bd9293a5033a0d01b32ab8eb346",
+    "sha512": "fed542a1ba44788a7ca1e8f2a8b3a87c1a7e060bb56f362b2e2f7829332391d56521d8ee2c7a4af194902aa1ea517fe1ddd7721c3dbff5aac02869a16a02e6b6",
+    "size": 60813610,
+    "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-25+13/sapmachine-jre-25-ea.13_linux-x64-musl_bin.tar.gz",
+    "vendor": "sap",
+    "version": "25-ea.13"
   },
   {
     "architecture": "x86_64",
