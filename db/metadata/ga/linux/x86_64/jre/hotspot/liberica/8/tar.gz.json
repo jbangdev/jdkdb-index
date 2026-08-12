@@ -982,6 +982,30 @@
   {
     "architecture": "x86_64",
     "distro": "liberica",
+    "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jre8u345+1-linux-amd64-full.tar.gz",
+    "image_type": "jre",
+    "java_version": "1.8.0_345",
+    "jvm_impl": "hotspot",
+    "md5": "db32d76cd6983d05d0541251aedd0adf",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "568b39e09c218500be2e900832cb900e62c3eff9",
+    "sha256": "34edcec1fce15aafa0f3e278819c276ab27934b1afdd05e423cd257a9469d482",
+    "sha512": "96e556cd7b39c6e8ae16b345fbcb751e08c5dbd51367476f23cfab17a7ca5cff3146ab7feda7b35f3823d745a44ec492ca400aa388b0648fa22379c541dad09f",
+    "size": 86787574,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/8u345+1/bellsoft-jre8u345+1-linux-amd64-full.tar.gz",
+    "vendor": "bellsoft",
+    "version": "8u345+1"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
     "features": [],
     "file_type": "tar.gz",
     "filename": "bellsoft-jre8u345+1-linux-amd64.tar.gz",
@@ -2027,6 +2051,7 @@
     "sha256": "f958f5bdaf8ea0dbbea8bbe956a0000004917a99996af2e9426dcb49e775fd47",
     "sha512": "3c77c93d5799e434b99536acc261ef7f910f9e0d04000275d693ee09f3e71f4098dc634bd83c8d286cc034b2542496868313ca9c7b20979acaeb86ef574f7f51",
     "size": 52808859,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/bell-sw/Liberica/releases/download/8u192/bellsoft-jre1.8.0-linux-amd64.tar.gz",
     "vendor": "bellsoft",
     "version": "1.8.0"

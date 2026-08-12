@@ -452,6 +452,7 @@
     "sha256": "5a3f0a014ee4aa6831f809e0999a955a0f09b295c3fdf80bffb6d3dae32f795a",
     "sha512": "71f4e13bb56dee96ef121e2ce99f60fd205785688f89b17abf518953a9b2aadd149e6181bd6d76ce8cd6ea2a1759eda8bab6aab6ae4c71bd4735095cb488e245",
     "size": 54686500,
+    "unlisted_since": "2026-08-12",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-26/openjdk-26-jre-headless_26~34ea-1_amd64.deb",
     "vendor": "debian",
     "version": "26~34ea-1"
@@ -474,6 +475,7 @@
     "sha256": "90f80e18b1991cdfc2492931085ac23997013e7a7fd1019f6499d1d52345a9e5",
     "sha512": "5e55aaa6f0b68ae8bb6e63ea7010d703e9c2f475e4cbb2fa8be3b81d308e1ce7ce835f33bf938e4cfa8bf87e053acacd91cd1137a5f3a2af4b5da19676404aa7",
     "size": 16422384,
+    "unlisted_since": "2026-08-12",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-26/openjdk-26-jre-zero_26~34ea-1_amd64.deb",
     "vendor": "debian",
     "version": "26~34ea-1"
@@ -494,6 +496,7 @@
     "sha256": "a67b33a60232e23221acc2c913ae782ddd42949acbb111fb29331cd9c319985a",
     "sha512": "e438bcd25a1133057090ff521b3ac5ecd38a8549a460264405f3e0a0ebd332e78d254ea2086be4d83b8e1ac6cd3798fefdf2ea4323c7e06ae6c70d86d53e3e67",
     "size": 202408,
+    "unlisted_since": "2026-08-12",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-26/openjdk-26-jre_26~34ea-1_amd64.deb",
     "vendor": "debian",
     "version": "26~34ea-1"
@@ -3393,6 +3396,30 @@
   {
     "architecture": "x86_64",
     "distro": "liberica",
+    "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jre8u345+1-linux-amd64-full.tar.gz",
+    "image_type": "jre",
+    "java_version": "1.8.0_345",
+    "jvm_impl": "hotspot",
+    "md5": "db32d76cd6983d05d0541251aedd0adf",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "568b39e09c218500be2e900832cb900e62c3eff9",
+    "sha256": "34edcec1fce15aafa0f3e278819c276ab27934b1afdd05e423cd257a9469d482",
+    "sha512": "96e556cd7b39c6e8ae16b345fbcb751e08c5dbd51367476f23cfab17a7ca5cff3146ab7feda7b35f3823d745a44ec492ca400aa388b0648fa22379c541dad09f",
+    "size": 86787574,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/8u345+1/bellsoft-jre8u345+1-linux-amd64-full.tar.gz",
+    "vendor": "bellsoft",
+    "version": "8u345+1"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
     "features": [],
     "file_type": "deb",
     "filename": "bellsoft-jre8u345+1-linux-amd64.deb",
@@ -5950,6 +5977,7 @@
     "sha256": "236d7e18c312d4b97c2601d270e2a7f8089816b9ff087eb7cca0282ed17a3168",
     "sha512": "083fca4fdb0e45cd25d522f57b51c538ef6aaf8944adfba145ca2babd711ad0fdbc21d3144368c8e7171b7ea482b555eff7c50f4cc0c939a9963612d343f7df8",
     "size": 34370372,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/ibmruntimes/semeru8-binaries/releases/download/jdk8u452-b07_openj9-0.51.0-m2/ibm-semeru-open-8-jre-1.8.0.452.b07_0.51.0-1.x86_64.rpm",
     "vendor": "ibm",
     "version": "8u452-b07_openj9-0.51.0-m2"
@@ -5970,6 +5998,7 @@
     "sha256": "96383db243701638a0ad437240d04d78ae6ded3b2e8527b5fbaaf6e31f6c0871",
     "sha512": "119c8b45c3b04e25a4efba317f2619e0d2c972f883833d35a8b963af9acdfc678901bd54149cf1662a72ab71274e62bb9c70ca812465b4256fad7ad1741d1dc2",
     "size": 49825748,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/ibmruntimes/semeru8-binaries/releases/download/jdk8u452-b07_openj9-0.51.0-m2/ibm-semeru-open-jre_x64_linux_8u452b07_openj9-0.51.0-m2.tar.gz",
     "vendor": "ibm",
     "version": "8u452-b07_openj9-0.51.0-m2"
@@ -6542,6 +6571,7 @@
     "sha256": "5079e0c4fae26dbdef0e72a86741344f452b10619113bd397f8bf5db3c9e24c5",
     "sha512": "283831443f968c14f7626a51b337a16563e676afe2c51aa5d7730e59d58802830fe4a6d383429abf38e33561d3218b1c3ba64eb4dc22d43296f9383fabdb4a8b",
     "size": 36750592,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/ibmruntimes/semeru8-binaries/releases/download/jdk8u472-b06_openj9-0.56.0-m1/ibm-semeru-open-8-jre-1.8.0.472.b06_0.56.0-1.x86_64.rpm",
     "vendor": "ibm",
     "version": "8u472-b06_openj9-0.56.0-m1"
@@ -6562,6 +6592,7 @@
     "sha256": "ddeb55609999939ef0f304f73236c4bf0ee0f40d230d4972a2bd90e9813d86e8",
     "sha512": "19bcd80547782d4955b5c84d60e5904139595105fc08d33ac8787b39100a9e6785d2d4cb65d6776a3daeca866330ccbb805c3a67a12b24f0faa868d0b613d855",
     "size": 52936088,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/ibmruntimes/semeru8-binaries/releases/download/jdk8u472-b06_openj9-0.56.0-m1/ibm-semeru-open-jre_x64_linux_8u472b06_openj9-0.56.0-m1.tar.gz",
     "vendor": "ibm",
     "version": "8u472-b06_openj9-0.56.0-m1"
@@ -6582,6 +6613,7 @@
     "sha256": "87b2db2285e5d24bc86b2d06edd2c0140f21f7cf3f3de8d129f7f6ca21400a49",
     "sha512": "15366e7bc9164d5c980b9767f147a0c60759014b88ffd5656f3dc93dd08d12cff775a39683874fbec35cd269db744810a5144c0eb5a38613d72be860c3524086",
     "size": 36752696,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/ibmruntimes/semeru8-binaries/releases/download/jdk8u472-b07_openj9-0.56.0-m2/ibm-semeru-open-8-jre-1.8.0.472.b07_0.56.0-1.x86_64.rpm",
     "vendor": "ibm",
     "version": "8u472-b07_openj9-0.56.0-m2"
@@ -6602,6 +6634,7 @@
     "sha256": "b7c65e9600c8f5f782dc0e5b8e060c038bac33ec55c474cf6e82f23870e26f89",
     "sha512": "cd53e228efae4d6f60e33db30e5f5bd78c27a0bada024a9fa75d6931929bf6596d65e50cc8995405164b11d35692650b5a7cdcf360490e7712babc04f64a385e",
     "size": 52940737,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/ibmruntimes/semeru8-binaries/releases/download/jdk8u472-b07_openj9-0.56.0-m2/ibm-semeru-open-jre_x64_linux_8u472b07_openj9-0.56.0-m2.tar.gz",
     "vendor": "ibm",
     "version": "8u472-b07_openj9-0.56.0-m2"
@@ -6688,6 +6721,26 @@
   },
   {
     "architecture": "x86_64",
+    "distro": "semeru",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "ibm-semeru-open-jre_x64_linux_8u472b08_openj9-0.56.0.tar.gz",
+    "image_type": "jre",
+    "java_version": "8u472-b08",
+    "jvm_impl": "openj9",
+    "md5": "3529b34f74d9b8e9ff8b1f68d7ed1551",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "cf3281ba54becac4c83911f7ce452f6e6b2955be",
+    "sha256": "5babd67d884af6251b504932e2cdce2e5a969075efa856c91087ecc6f3933fc6",
+    "sha512": "e045857e8d2a9ee917eef4003bcc51669cfe70b100de8fe9bd62c3156205e62aa2258bfe1eaa06340516d94ab98da10f962d6dd544d9229e387b4d23a1d386ea",
+    "size": 52937986,
+    "url": "https://github.com/ibmruntimes/semeru8-binaries/releases/download/jdk8u472-b08_openj9-0.56.0/ibm-semeru-open-jre_x64_linux_8u472b08_openj9-0.56.0.tar.gz",
+    "vendor": "ibm",
+    "version": "8u472-b08_openj9-0.56.0"
+  },
+  {
+    "architecture": "x86_64",
     "distro": "debian",
     "features": [],
     "file_type": "deb",
@@ -6702,6 +6755,7 @@
     "sha256": "ca18372b3d2876d4e974d9d720f46367937f25cc5c0aff2701d6ffd986cc5d72",
     "sha512": "d931289919d61de6ebc9d9df011f4f0817890d0cb4e6cfa538df36f570360f2bcd3f400d7fd54b49b1d1fc78cb093c6dee2f4771a93212e66fa1c09b91fcfae8",
     "size": 70600,
+    "unlisted_since": "2026-08-12",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-8/openjdk-8-jre_8u472-ga-1_amd64.deb",
     "vendor": "debian",
     "version": "8u472-ga-1"
@@ -7074,6 +7128,7 @@
     "sha256": "cfd0438a59c99731b358b4c84917af1b572ae626b102f9562783f2787bcd6228",
     "sha512": "fa9a7d7b422ff6134ee749de4d94e0c0294626db5f5e5b5a270e185678db33996e7f0e5be933c72e8209eeeae99f2a6f427eefa3b76e9eada67a2ba6bc83b0f7",
     "size": 36876952,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/ibmruntimes/semeru8-binaries/releases/download/jdk8u482-b01_openj9-0.57.0-m1a/ibm-semeru-open-8-jre-1.8.0.482.b02_0.57.0-1.x86_64.rpm",
     "vendor": "ibm",
     "version": "8u482-b01_openj9-0.57.0-m1a"
@@ -7094,6 +7149,7 @@
     "sha256": "ee7640ab86cff07a2b6bfab89a80a45118b27da0f189f45b37d2117dce8644d5",
     "sha512": "5f1d0dc4dc8fa7ad7c61caec119a840f6dd0879bb76280d49313fa56a929489689fe903c27af118053b148758d85f2dba74953cec34c4c9e02a10c3e9fe8d1e1",
     "size": 53195995,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/ibmruntimes/semeru8-binaries/releases/download/jdk8u482-b01_openj9-0.57.0-m1a/ibm-semeru-open-jre_x64_linux_8u482b02_openj9-0.57.0-m1a.tar.gz",
     "vendor": "ibm",
     "version": "8u482-b01_openj9-0.57.0-m1a"
@@ -7114,6 +7170,7 @@
     "sha256": "dae34a271edcbf4aeef435257db60129ab95332992e55c4dff6152b2e2ef0162",
     "sha512": "892716923315c9fb25b2f7b3eaf7468b0b553350ad8e6b09733146f5b2cedf4b06e481770f5b49661e1993ca84670a54b73deac623d5fd9343d622791829feeb",
     "size": 36880412,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/ibmruntimes/semeru8-binaries/releases/download/jdk8u482-b05_openj9-0.57.0-m2/ibm-semeru-open-8-jre-1.8.0.482.b05_0.57.0-1.x86_64.rpm",
     "vendor": "ibm",
     "version": "8u482-b05_openj9-0.57.0-m2"
@@ -7134,6 +7191,7 @@
     "sha256": "652ea9bd1e5ed6a599b941dec5ecaf6e14cb569c366fda9ce7817096da137375",
     "sha512": "edb5e47c246473a24f401697ebe381caa18d89eb1164e5e201075550f0f3205e78a0c92b1a95437cdfcdeb0691fdb491a7306dfc915edbb203228b51f96f7908",
     "size": 53188856,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/ibmruntimes/semeru8-binaries/releases/download/jdk8u482-b05_openj9-0.57.0-m2/ibm-semeru-open-jre_x64_linux_8u482b05_openj9-0.57.0-m2.tar.gz",
     "vendor": "ibm",
     "version": "8u482-b05_openj9-0.57.0-m2"
@@ -7296,6 +7354,7 @@
     "sha256": "9e07846f5a46d9fbda31034bb3916ea859f9482d58f79224b25b44b8ac128293",
     "sha512": "283fd78c212a6280fa83d8aaf4eb8e031c3c17f99709ef927d7c70f2f66b3ae7f6bdb84acdfee6c50496ec01ca121e5efe361b7bae6e7661b472a5eaebfddc47",
     "size": 28428560,
+    "unlisted_since": "2026-08-12",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-8/openjdk-8-jre-headless_8u482-ga-1_amd64.deb",
     "vendor": "debian",
     "version": "8u482-ga-1"
@@ -7318,6 +7377,7 @@
     "sha256": "35226a9cf445604716c5a43e5a949dcff26497de4301aa9d692def76fb32d2e7",
     "sha512": "8cf4c9861f6bad3bf734a0803611978c883858260e40da2cd9974804e45e9d7d3a91a7e227468ba586a6483c15bb9db2b6d6553f93005480f777cb70a14eafc8",
     "size": 2110064,
+    "unlisted_since": "2026-08-12",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-8/openjdk-8-jre-zero_8u482-ga-1_amd64.deb",
     "vendor": "debian",
     "version": "8u482-ga-1"
@@ -7338,6 +7398,7 @@
     "sha256": "2f3d49aed8dfb7bbe1d0302c6e0f5621028570e69f23ce956c6f03a8583c0ba3",
     "sha512": "af6ad824949660497da82b259165d98e5b8030fc27c61dbaf1e9ea317c7c1924e1f7931832463330112bd1c2faeef9469fa7137332553e4703620abd5ee263f7",
     "size": 70504,
+    "unlisted_since": "2026-08-12",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-8/openjdk-8-jre_8u482-ga-1_amd64.deb",
     "vendor": "debian",
     "version": "8u482-ga-1"
@@ -7638,6 +7699,7 @@
     "sha256": "b114ada2c43957fe474e7b6392357e2136ed12c25a34ebbaebbc2a21e5b44e23",
     "sha512": "b641dd4e91c292de6443ea293ff286068aa23ef96a7055784ed6e1b80ec966418056d5c0a671dbd604123a61060faa14e53445987af172169fedbfdf2d30e495",
     "size": 28442116,
+    "unlisted_since": "2026-08-12",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-8/openjdk-8-jre-headless_8u492-ga-1_amd64.deb",
     "vendor": "debian",
     "version": "8u492-ga-1"
@@ -7660,6 +7722,7 @@
     "sha256": "e29cfc41dc22d40ac33e2e892a2f01660a97da6f4c824d42a6ad83624a6706de",
     "sha512": "c2af0372e4f8b018ac2c03226de04c35770549366655a9a0630aab8474374f1bd8258adbe5e639512ff34c306f6fe0a3ffda72c90169ecb3e3db4be42ac6c722",
     "size": 2110240,
+    "unlisted_since": "2026-08-12",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-8/openjdk-8-jre-zero_8u492-ga-1_amd64.deb",
     "vendor": "debian",
     "version": "8u492-ga-1"
@@ -7680,6 +7743,7 @@
     "sha256": "5a14b07bfef98f2d8ce2b6864d249dddcf42a0299113e067f4c76fd4bb0c4feb",
     "sha512": "33d2236b1fda2c5dba7234230be44132801597cf72b347cc7e69b931d427701bb0a66c151ca9ac369ec193e3687525a8a1ce7a5f961f322d498236ab8c7a28d7",
     "size": 70740,
+    "unlisted_since": "2026-08-12",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-8/openjdk-8-jre_8u492-ga-1_amd64.deb",
     "vendor": "debian",
     "version": "8u492-ga-1"
@@ -7702,6 +7766,7 @@
     "sha256": "9d55efaccd39cd1d102eda698b91692dde777bfc5c7dc4c2ca02616074adbda3",
     "sha512": "f5dcd6b334cd8351e33b6095c033e17e69c47b8e07291cbf538bee778385366fe1f044b6352bdad4e14e68f35cc39c55c1d126e7748ba12be8aa0424ef614985",
     "size": 28442992,
+    "unlisted_since": "2026-08-12",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-8/openjdk-8-jre-headless_8u492-ga-1+b1_amd64.deb",
     "vendor": "debian",
     "version": "8u492-ga-1+b1"
@@ -7724,6 +7789,7 @@
     "sha256": "ca0be59dfc45fb388585e262de3e2e094647adf005806978c6a2046cb34456f0",
     "sha512": "d56abd2f8e875055d562c48ddf6500f8dfa66b92c3990a926fb303e49e30bebd15b6635ddcc83a5e4e64b6b894b45092b566824cb9e650a993a6de71b410c3c3",
     "size": 2116336,
+    "unlisted_since": "2026-08-12",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-8/openjdk-8-jre-zero_8u492-ga-1+b1_amd64.deb",
     "vendor": "debian",
     "version": "8u492-ga-1+b1"
@@ -7744,6 +7810,7 @@
     "sha256": "89b0dc646896497ee25a9ee61d8e456560d2ea1bc7801aa2d285227e7bc42d8a",
     "sha512": "1bc0b9e987862c137ece7d5f4d3dd874a5ba69e934fb06ea36214d1a40be1a3360cdfe082c2fc5b8968ba8a1d231ce9fa0afdf00576f844b48bfeba67ab4036d",
     "size": 70676,
+    "unlisted_since": "2026-08-12",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-8/openjdk-8-jre_8u492-ga-1+b1_amd64.deb",
     "vendor": "debian",
     "version": "8u492-ga-1+b1"
@@ -7868,6 +7935,7 @@
     "sha256": "329abfee3c535fb1cc20eca86194ff5dbd16cda3919529ea82044bcc3825d426",
     "sha512": "5157007b29823f3c0d26e833774bbbcc356fe1d3caa6dc8d05792bd0f5c0cdd1726207ac4465fc874b3d909337d7ee11563662b8625ad9ec36c52f8732621f12",
     "size": 28441476,
+    "unlisted_since": "2026-08-12",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-8/openjdk-8-jre-headless_8u502-ga-1_amd64.deb",
     "vendor": "debian",
     "version": "8u502-ga-1"
@@ -7890,6 +7958,7 @@
     "sha256": "e1004feb0beddf8b02afedc7bc8bc7baaf9a5fcc990e5d7b8ef12402ed4a97c6",
     "sha512": "4659ba056c93a289db32a4f4c449396ffcd00d83b673d19af1835909c79250f8530e4281800f0c646b099f06496aefd81a9c5e2412c5447593260ad537b11b75",
     "size": 2116440,
+    "unlisted_since": "2026-08-12",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-8/openjdk-8-jre-zero_8u502-ga-1_amd64.deb",
     "vendor": "debian",
     "version": "8u502-ga-1"
@@ -7910,6 +7979,7 @@
     "sha256": "d774dd35c1e6ae3dfa884b0ea86ca6e740bfe08dbe9edd742cd11bf8b66643e7",
     "sha512": "95caed2a73392ded993a2831d5a630bf37e7fc09128f42de7e593f8ffb2296ad551a30d1ce12ea156c6685c26240a4461599f6c61c1f0c75b5e8b4a7af0c5c1b",
     "size": 70480,
+    "unlisted_since": "2026-08-12",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-8/openjdk-8-jre_8u502-ga-1_amd64.deb",
     "vendor": "debian",
     "version": "8u502-ga-1"
@@ -7994,6 +8064,7 @@
     "sha256": "29b7bd9d16148ad2a40cfa6e201f52ae557408cac00897d88adb5029008086e3",
     "sha512": "2ada8f44c6eaa6e7b77a292bab90fb3233ce7a3a86603d2ce1ffca1bfac5c42b5416d82af397e6a7306fa951774e36f4d1b4e3b5891bbef9ebd1552f2be1f55f",
     "size": 39915504,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/bell-sw/Liberica/releases/download/8u192/bellsoft-jre1.8.0-linux-amd64.deb",
     "vendor": "bellsoft",
     "version": "1.8.0"
@@ -8014,6 +8085,7 @@
     "sha256": "f958f5bdaf8ea0dbbea8bbe956a0000004917a99996af2e9426dcb49e775fd47",
     "sha512": "3c77c93d5799e434b99536acc261ef7f910f9e0d04000275d693ee09f3e71f4098dc634bd83c8d286cc034b2542496868313ca9c7b20979acaeb86ef574f7f51",
     "size": 52808859,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/bell-sw/Liberica/releases/download/8u192/bellsoft-jre1.8.0-linux-amd64.tar.gz",
     "vendor": "bellsoft",
     "version": "1.8.0"
@@ -8074,6 +8146,7 @@
     "sha256": "0a965c513bb522004ddb195fbb3cda7124559b8c7c082fc8626b2f45b4ce9a94",
     "sha512": "af8ff89682b0f8c89c4047b61eb2510bcb37e420c616368934790dfc5782d5a4bb817ceae5d1d891340dfd721d47f6c33615f060767fdf59569e710911f14d1a",
     "size": 134905878,
+    "unlisted_since": "2026-08-12",
     "url": "https://public.dhe.ibm.com/ibmdl/export/pub/systems/cloud/runtimes/java/8.0.8.60/linux/x86_64/ibm-java-jre-8.0-8.60-linux-x86_64.tgz",
     "vendor": "ibm",
     "version": "8.0.8.60"
@@ -8094,6 +8167,7 @@
     "sha256": "ec3543b3ce09637a768cbefbfb49f513a0f3fbd8bd3d25d333784e511803a16f",
     "sha512": "7958d9ddb44aa2e270d178b560a4413f7efe6f9f798f6fb2f3ac716c9834bfe96d023e52ee11e1e6e0480fa837a2f09e5d23e11c952f8688be9113b82cbcc9e6",
     "size": 134700791,
+    "unlisted_since": "2026-08-12",
     "url": "https://public.dhe.ibm.com/ibmdl/export/pub/systems/cloud/runtimes/java/8.0.8.60/linux/x86_64/ibm-java-x86_64-jre-8.0-8.60.x86_64.rpm",
     "vendor": "ibm",
     "version": "8.0.8.60"
@@ -8494,6 +8568,7 @@
     "sha256": "68a26aafd2f588c6c5a4ecac5053b26707e6af4d29f5174dddec926a9bf3d6d7",
     "sha512": "4db7b6cf2eb7650bdbbcfb5f0655bad434d24b29925db528a99ef99c6de07e256f3e433096617ffb4532a8eddbd5caf3eb77b6b7906ed0f8c4eabd30cf2fa116",
     "size": 40571648,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u181-b13/OpenJDK8U-jre_x64_linux_hotspot_8u181b13.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "8.0.181+13"
@@ -8514,6 +8589,7 @@
     "sha256": "ba2eb12560314185d55fabbb0e01cb4727ccf287773963654e0e6706779daec3",
     "sha512": "633ff11781a2aac05bf24b37c3478db52c2f42b9b435313d7c36975e121f351bb6bea47e9494d5b135a61e21c3cfe25ec49d28ec237d82f25866d5948111afc9",
     "size": 40576533,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u192-b12/OpenJDK8U-jre_x64_linux_hotspot_8u192b12.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "8.0.192+12"
@@ -8534,6 +8610,7 @@
     "sha256": "87cba417ccc9a2ab6711a3b84875d9479c62da2db777ce16d89b81bd6f94d20b",
     "sha512": "626e599c414fdb35bc91fdc6b199caf4e082e45eeb9b49d4257d3ac73444f83d92e8a07778bef5209bb74b7b03962fb508d1b1167beb5cc20e9d2aa0f66d0fbb",
     "size": 49504172,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u192-b12/OpenJDK8U-jre_x64_linux_openj9_8u192b12.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "8.0.192+12.OpenJDK8U-jre_x64_linux_openj9_8u192b12.tar.gz"
@@ -8556,6 +8633,7 @@
     "sha256": "1592772b57c7b6a0ef54aff771fe21ebb1197d23159f91dc8bdfe629ca186750",
     "sha512": "2e8b2db81c30dd38582a72872e26265339741f9176a85b46089fa7ed0209cb178c12a030e325944429d6628155ecbec9bcf2ad545c828377f56a4b1e2932dd23",
     "size": 49428691,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u192-b12/OpenJDK8U-jre_x64_linux_openj9_linuxXL_8u192b12.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "8.0.192+12.OpenJDK8U-jre_x64_linux_openj9_linuxXL_8u192b12.tar.gz"
@@ -8578,6 +8656,7 @@
     "sha256": "b92ec8d1235f789b1be859ebb8afef1b490a2e376b3873e89f8691254f750b1e",
     "sha512": "1a587e8f155a8d405eefb5fec9865edaccc29f8895d4beb5567e9e6c5aad33e9b7aba2de527003f0c66de8e7cc8e6765f2961dee1d600777df1f2c0086c5d358",
     "size": 49434837,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u192-b12_openj9-0.11.0/OpenJDK8U-jre_x64_linux_openj9_linuxXL_8u192b12_openj9-0.11.0.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "8.0.192+12.openj9-0.11.0"
@@ -8598,6 +8677,7 @@
     "sha256": "b3f9934c6fc83fb2e76a4ded31367e5312013e27d36eac82a6fe1423aae394ce",
     "sha512": "f9bb03cd0876f6b3b36d8ba821a14648b5ac2ec6dc6eefb95dc333aae77b55c940153cdd1715b21feaf7d7f2148bf8c272777c8afab911965e514f9792287962",
     "size": 40856726,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u202-b08/OpenJDK8U-jre_x64_linux_hotspot_8u202b08.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "8.0.202+8"
@@ -8620,6 +8700,7 @@
     "sha256": "bc2707627947fc6460de0d930cb23ff8677570e4e8a818dfadd3d42e8a6a3afe",
     "sha512": "80bb256afb1dad96e892033b3e9afda9260bde13b832ee2474c1f5e0687e5c6c1917c48d89ab086e96e0e50cb3af89ec368ad3b093fc7e8b54d8c9a1732af3af",
     "size": 48650848,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u202-b08/OpenJDK8U-jre_x64_linux_openj9_linuxXL_8u202b08-openj9-0.12.0.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "8.0.202+8.OpenJDK8U-jre_x64_linux_openj9_linuxXL_8u202b08-openj9-0.12.0.tar.gz"
@@ -8640,6 +8721,7 @@
     "sha256": "cd544ed9c973d89dd9a8f4b0a13d0543a7534c475986b0c8e3a3a20224e34062",
     "sha512": "266e6972452c7798f96b6988a6ce72fa9d34cf01d3c6655342d75b2911fd72e5562fdf166a20357803ff5eb3ce08b248f08ce81ac31aacaa7555a7d969547d17",
     "size": 48682225,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u202-b08/OpenJDK8U-jre_x64_linux_openj9_8u202b08_openj9-0.12.0.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "8.0.202+8.openj9-0.12.0"
@@ -8660,6 +8742,7 @@
     "sha256": "bcdbbc53e7faaaf8ee480aad21e7396b91daca19f3b1ce1cd9f748437350669b",
     "sha512": "9e2c2100b4e7e8b87571dd8f0969082070a48f9bfcd81c91e50f2131e04f4e48e006725af69f0706164f7ae54f55d54fdf7d0352fae832a4154b7e20e37557bd",
     "size": 48684976,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u202-b08_openj9-0.12.1/OpenJDK8U-jre_x64_linux_openj9_8u202b08_openj9-0.12.1.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "8.0.202+8.openj9-0.12.1"
@@ -8682,6 +8765,7 @@
     "sha256": "33d6da70ca6dc36dc148eac30a2dedc9e5cc33b31ce6da6fd1543c874f845ecf",
     "sha512": "5013e6d4a484bdaf3675238c2ade77cf8e0202f5a4ca2ce72d6ec09fb3cc71940a309592e2f52b7b6d4b33529afa94775efb06ee6f8e903338f23ecf286ac1d2",
     "size": 48613922,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u202-b08_openj9-0.12.1/OpenJDK8U-jre_x64_linux_openj9_linuxXL_8u202b08-openj9-0.12.1.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "8.0.202+8.openj9-0.12.1"
@@ -8704,6 +8788,7 @@
     "sha256": "1ee31d1d150d8d6fbfd6dc02c821d4cf77a4a3899d360509f42cea2e842d9dcf",
     "sha512": "0af5daa5411da58beec01043de5d52d0539aa67a0fb0d77f74a04f26924710fe045eb257d8024a9ad80fe6ef4d0a66284026d3638affd14b51c3b8f845f110ab",
     "size": 48648725,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u202-b08_openj9-0.12.1/OpenJDK8U-jre_x64_linux_openj9_linuxXL_8u202b08-openj9-0.12.1a.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "8.0.202+8.openj9-0.12.1"
@@ -8724,6 +8809,7 @@
     "sha256": "74daf0b77a7fd679cbb3a6228e0efa8c4a90b7664aa057f211e34bbfb38640fb",
     "sha512": "3b0c560cce673fa0e9506c18c4a25b56e26c8ccd7874098f55c37f1a556387b4c2d3ba81ef0368cc666178028eef0fd7beac6307588628c8c8c051381a21366f",
     "size": 40871242,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u212-b03/OpenJDK8U-jre_x64_linux_hotspot_8u212b03.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "8.0.212+3"
@@ -8744,6 +8830,7 @@
     "sha256": "61abbd6b4ab093adb5a0ed6ec89a54123396d8512a44168f7e01d3e7b1fdd07b",
     "sha512": "d0905830836559f0caae652441614ce3bb82bc76c11c6f6835332715e45512af7a61c232a6eb9dd3e4bd3b0822f6a8a7c2dad4c5dc984a9b8799b5ed76ff2498",
     "size": 47272410,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u212-b03_openj9-0.14.0/OpenJDK8U-jre_x64_linux_openj9_8u212b03_openj9-0.14.0.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "8.0.212+3.openj9-0.14.0"
@@ -8766,6 +8853,7 @@
     "sha256": "d85939b6a26a5efaa2b1a588a1194b2f7adc5d8c6547872515dedcddbd7a57d3",
     "sha512": "427891db9abdacb6b6a9d8ae4c4b4abf3796adbe0351ce05f7dbfba8b353a70ee1a211e7b56940382b10596a5e250cd1586fd400dc4459e52368a34360de5616",
     "size": 47257141,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u212-b03_openj9-0.14.0/OpenJDK8U-jre_x64_linux_openj9_linuxXL_8u212b03_openj9-0.14.0.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "8.0.212+3.openj9-0.14.0"
@@ -8786,6 +8874,7 @@
     "sha256": "96d24d94c022b3e414b612cae8829244329d71ad2cce790f099c020f33247e7e",
     "sha512": "b523f9357d8ab7046c4910ed83b1c531813ee301976af58b933104a6817f1d029bceb65fa276af20b8baceca30367ca82a67cf16ed74084666cb9347ea3afce5",
     "size": 40871664,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u212-b04/OpenJDK8U-jre_x64_linux_hotspot_8u212b04.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "8.0.212+4"
@@ -8806,6 +8895,7 @@
     "sha256": "b0c0aac53694b2ada3a9fdcbb3e9461257a54b50b4573d786d7b0778d6356805",
     "sha512": "463999146d4a62dac3b5febf049cadde556ad6f08860d5fc0e4a107fb731df3873b01a11047690d38534501d53ee36231cba3e721e99f8c2e8423f20d8b41c2d",
     "size": 47269056,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u212-b04_openj9-0.14.2/OpenJDK8U-jre_x64_linux_openj9_8u212b04_openj9-0.14.2.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "8.0.212+4.openj9-0.14.2"
@@ -8828,6 +8918,7 @@
     "sha256": "572bd37b8b15ab436b3a934ae2ee254e45c2bfa15e3291158c436722a9d9cea0",
     "sha512": "aa491d1ac45bd11397c72e3fe5a2dae0f0b6e774ede66a2b653f69eb3561154523e649a859ccd609e43866623891b69d5c5efd5365425881b8cb6220d1082bac",
     "size": 47238193,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u212-b04_openj9-0.14.2/OpenJDK8U-jre_x64_linux_openj9_linuxXL_8u212b04_openj9-0.14.2.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "8.0.212+4.openj9-0.14.2"
@@ -8848,6 +8939,7 @@
     "sha256": "a418ce895c8bf3ca2e7b2f423f038b8b093941684c9430f2e40da0982e12b52d",
     "sha512": "e1810c4115206cf78c69b971354474098e853c786b472c2140b9e16187efcd3e15bfff26e743e7a532a6f0619f4728482348583662c1eeccd1ebbb82b980f8af",
     "size": 40934975,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u222-b10/OpenJDK8U-jre_x64_linux_hotspot_8u222b10.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "8.0.222+10.1"
@@ -8868,6 +8960,7 @@
     "sha256": "ae56994a7c8e8c19939c0c2ff8fe5a850eb2f23845c499aa5ede26deb3d5ad28",
     "sha512": "1474d9ed58938998f40c642283c1e24575888aa86e0d2ec3b4421fa7443939ea7fde50d8582132f3a467121610231cd704a8e834097980841a3fb68cd14f68b2",
     "size": 47344432,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u222-b10_openj9-0.15.1/OpenJDK8U-jre_x64_linux_openj9_8u222b10_openj9-0.15.1.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "8.0.222+10.1.openj9-0.15.1"
@@ -8890,6 +8983,7 @@
     "sha256": "499cd332e9f2a4f658a2053e9b24eff5e4b53870600f51a5d961936cb6660d45",
     "sha512": "64b2cd9923015c31ddb8e7d37290229438488621534c7ac0805f580957e872601b75850fa7ba0ae87cbfe28b8ef573096f34f2ea3bf90a02565f0a86dd933cc3",
     "size": 47305213,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u222-b10_openj9-0.15.1/OpenJDK8U-jre_x64_linux_openj9_linuxXL_8u222b10_openj9-0.15.1.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "8.0.222+10.1.openj9-0.15.1"
@@ -8910,6 +9004,7 @@
     "sha256": "bd06b84a1fc10e0a555431bc49a84e86df45de0be93c8ee4d09d13513219843b",
     "sha512": "5ce98215c36d2870ebf0112205dfae39c3d43528ebe175dd16ff54b16267b44ada5d5d26e7d7744db95c3c8faee2858fad59c92b065993397defa64cb58c294e",
     "size": 40963409,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u232-b09/OpenJDK8U-jre_x64_linux_hotspot_8u232b09.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "8.0.232+9.1"
@@ -8930,6 +9025,7 @@
     "sha256": "30bdfdb38901d4807d96a72a33b83f7a4f40255e11a88853c1e8732acc4644a7",
     "sha512": "83885514ff3c222dc2c04c86fa26595b842ae63b29ad34501ae3bd87a889be51ad81e05f70284c0b484c5e7c03cb994195a30158fbea1fda8ccd8b3a8c61cc92",
     "size": 47492534,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u232-b09_openj9-0.17.0/OpenJDK8U-jre_x64_linux_openj9_8u232b09_openj9-0.17.0.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "8.0.232+9.1.openj9-0.17.0"
@@ -8952,6 +9048,7 @@
     "sha256": "0dbb2814aa509883a4c08342d780540e54efaec0e169cfe304caaa0bb881aa9b",
     "sha512": "5472d41c392fa55a2565b90ac87f39eb3d6d2fb7d0c5dc173eddcfb63b2f72995d0b03da1af0db06b73f1582f74a3206b4f00255568028c0a76001583ba9decf",
     "size": 47485168,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u232-b09_openj9-0.17.0/OpenJDK8U-jre_x64_linux_openj9_linuxXL_8u232b09_openj9-0.17.0.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "8.0.232+9.1.openj9-0.17.0"
@@ -8972,6 +9069,7 @@
     "sha256": "5edfaefdbb0469d8b24d61c8aef80c076611053b1738029c0232b9a632fe2708",
     "sha512": "11dddf75813aa3b88b2bfb2ca89e186cc15601f75ec4f9cbe92c8b60f61438f75a76e45c26bc614eb54de16a584e906f8935cb2146937b96f2970eb89dddea09",
     "size": 40987250,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u242-b08/OpenJDK8U-jre_x64_linux_hotspot_8u242b08.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "8.0.242+8.1"
@@ -8992,6 +9090,7 @@
     "sha256": "985d3134b64c6196d4c9ddbc87af0c62b0e643cef71b29f3d25a8c7811811745",
     "sha512": "33284cb42322294295da3f65fa08957831f465fe31f8805274e25d13ba94c7e29bf5ddbb80e31212acd68c74122197ad7d664ae6e0c14b3ee3cb56cf06bc71aa",
     "size": 48961482,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u242-b08_openj9-0.18.1/OpenJDK8U-jre_x64_linux_openj9_8u242b08_openj9-0.18.1.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "8.0.242+8.1.openj9-0.18.1"
@@ -9014,6 +9113,7 @@
     "sha256": "79423f510e494b272baa2011b817b98d42ba8ae640c80b144ff0dba6fa175255",
     "sha512": "459f4d155e348de12a2fb9bfb5fd330c9625db340501e822ce0699d62e6eb636ee56a738e234b87d559a41945a58e0985226fecd3976395334720ab4d23ad075",
     "size": 48947939,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u242-b08_openj9-0.18.1/OpenJDK8U-jre_x64_linux_openj9_linuxXL_8u242b08_openj9-0.18.1.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "8.0.242+8.1.openj9-0.18.1"
@@ -9034,6 +9134,7 @@
     "sha256": "a93be303ed62398dba9acb0376fb3caf8f488fcde80dc62d0a8e46256b3adfb1",
     "sha512": "b1b0627e8495b11e0ef3e4ecb387d92537bb97b3f3045213658d48b6f2dffa0bc975b1bc92e84c487152b43d1f0ee0449730bf84dd62d98d13354bf73d3a0a20",
     "size": 41104123,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u252-b09/OpenJDK8U-jre_x64_linux_hotspot_8u252b09.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "8.0.252+9.1"
@@ -9054,6 +9155,7 @@
     "sha256": "5c0ab4691ff5f8e69bb14462f2afb8d73d751b01048eacf4b426ed6d6646dc63",
     "sha512": "0725f3a45f299ff468153a103d6a52fd994291d1ec703bdeafc003226c67fb6f01fcf8443cca6c3e421024eeab9e4c1895ad386eb3b3030b7ef6d8c1803177f0",
     "size": 48037881,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u252-b09_openj9-0.20.0/OpenJDK8U-jre_x64_linux_openj9_8u252b09_openj9-0.20.0.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "8.0.252+9.1.openj9-0.20.0"
@@ -9076,6 +9178,7 @@
     "sha256": "2a381dc892c564b2f5e6ea19660fac224a1757dfc89fb5734075c41552ff599b",
     "sha512": "c51404daba9e5295bbb99da8a82b773e15e16ca47adcbd60646cdc91e2255880b54f985e3513316deee1a7ebe3ce73c6b03b5e11e56a9254e18727b97b68716c",
     "size": 48022348,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u252-b09_openj9-0.20.0/OpenJDK8U-jre_x64_linux_openj9_linuxXL_8u252b09_openj9-0.20.0.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "8.0.252+9.1.openj9-0.20.0"
@@ -9096,6 +9199,7 @@
     "sha256": "3ce1f34b279a4f8fc6374f5644739622886dd4bcac4fcb0eb596955bac5ca5a4",
     "sha512": "63d65c576d40b798dbbf2c6923151d07ba74312d8e8b6dc722d4358c38855a3a5c9e9e7c267569d390065c4dcc7f4bcfddc3f78e8388b4faef1a61501e2b7b8c",
     "size": 41755965,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u262-b10/OpenJDK8U-jre_x64_linux_hotspot_8u262b10.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "8.0.262+10"
@@ -9116,6 +9220,7 @@
     "sha256": "aef8750b492ff6371318cf5138e38827d8895815b2ac079dcfcb02007a45c7f6",
     "sha512": "5fce274698ca45f96a074920ca780267c09e52cdae023f4455e81457109a09a85316c0bbb1d5b980b986a1489ccb35fac1ffd8b903ccd0a098c3f46d866ddb5b",
     "size": 48221076,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u262-b10_openj9-0.21.0/OpenJDK8U-jre_x64_linux_openj9_8u262b10_openj9-0.21.0.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "8.0.262+10.openj9-0.21.0"
@@ -9138,6 +9243,7 @@
     "sha256": "be923e7586d6196c49ab2daef0c2392bb134ada836a78e14e1b65a5ba6722634",
     "sha512": "847170a9be8e03f0491d2b8ec9ff53ba022d38bde4eadcc699b0c87ead7e8e9244650db2c851a920b053e22528f27849a44e9543245d6af5e5a4f31c257f37c3",
     "size": 48207157,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u262-b10_openj9-0.21.0/OpenJDK8U-jre_x64_linux_openj9_linuxXL_8u262b10_openj9-0.21.0.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "8.0.262+10.openj9-0.21.0"
@@ -9158,6 +9264,7 @@
     "sha256": "9bce39f63d24626da75778f240294fa466a0ed117e32db798164621fe30b0723",
     "sha512": "01090a26bb18d226da19c82fca173f0d994ba56562178757347b565d39989b6735f5ff37bb22163c9ea270380fe922098bd0efa87d52615b50cde9f0e8291095",
     "size": 41757024,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u265-b01/OpenJDK8U-jre_x64_linux_hotspot_8u265b01.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "8.0.265+1"
@@ -9178,6 +9285,7 @@
     "sha256": "0da0aad21f02b4f08f717647def8beafcf0116c36b195705416f46a1ab97f4de",
     "sha512": "50b10d9c82653715a6c02aec3b44afcf5b17f9f19c42b138bf7a82934d8528c8f7e47b951ed43fa6d451e849041f1eb387e83ac91fbed93176661b075d5c8baf",
     "size": 48213236,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u265-b01_openj9-0.21.0/OpenJDK8U-jre_x64_linux_openj9_8u265b01_openj9-0.21.0.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "8.0.265+1.openj9-0.21.0"
@@ -9200,6 +9308,7 @@
     "sha256": "53aef456f236756b648e9d8ab4a0000f67656d66ea791b32006cbe4418be2023",
     "sha512": "7eecc7806a37b8da47e7bde8d834c11a401d21b92921a2c65c525a159224a37b8061144ba51a2a24702ef59abc9fe159b33c2ef338af5ad9e912feb59efe5169",
     "size": 48202116,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u265-b01_openj9-0.21.0/OpenJDK8U-jre_x64_linux_openj9_linuxXL_8u265b01_openj9-0.21.0.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "8.0.265+1.openj9-0.21.0"
@@ -9220,6 +9329,7 @@
     "sha256": "e6894601a559c5226c6dc337308df263444d356a6430f4aabb66e02607c82956",
     "sha512": "2fd45a9b967e96309c79724fea047d7c35f31da8e0290bd5cdafeea47b83941b9269129d0d557ee488526c0667ba581dee860381fc344374971e1005105db376",
     "size": 42139854,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u272-b10/OpenJDK8U-jre_x64_linux_hotspot_8u272b10.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "8.0.272+10"
@@ -9240,6 +9350,7 @@
     "sha256": "a4e58f3c15ca3bc15cb3aaa9f116de972809ca52ae81e0726f84c059442174d5",
     "sha512": "61324bd31b9c0e104fbbb48004796bdf8e231e3259815433a60ddddba2017be67c1febde780e51d62f4b21859e7e917e7c0e6959613a0609c1e7df17dc383ccd",
     "size": 48685287,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u272-b10_openj9-0.23.0/OpenJDK8U-jre_x64_linux_openj9_8u272b10_openj9-0.23.0.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "8.0.272+10.openj9-0.23.0"
@@ -9262,6 +9373,7 @@
     "sha256": "592ae60ecdcdd45973ab2aa1fffaaca9131d9ff0a084c42cc0be838e62020504",
     "sha512": "2a8dea520fc13818df16e8d23abe176ba6d8c827192fd04bd495deea77da7e0a3d98ca8743577e7ff56f93ccdc75605caaa182142bebbdaf92d88e3051ad8eb3",
     "size": 48667967,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u272-b10_openj9-0.23.0/OpenJDK8U-jre_x64_linux_openj9_linuxXL_8u272b10_openj9-0.23.0.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "8.0.272+10.openj9-0.23.0"
@@ -9282,6 +9394,7 @@
     "sha256": "a044da8bf198ad756b2bbb83f3d48ddeeffb934b9a9974d9b9bb6d0034413a83",
     "sha512": "d7832b6a897abc6dd7be803ceecb055e0fabfbc73c2fe35c1516ab54c93d1ee231ee6b56c8f11c3843322a326d7a3624acd311b4cd6c3f97ccf69b8764ab0cd9",
     "size": 42561162,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u275-b01/OpenJDK8U-jre_x64_linux_hotspot_8u275b01.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "8.0.275+1"
@@ -9302,6 +9415,7 @@
     "sha256": "75850de26fe76a1686f838403a34b67925c573fddc492ecee0b752d30ee2545a",
     "sha512": "17ee3f9c86035a90119ca8f82b7277e14958f443ff95139dfed7dfb46c75f62fda20826cfc1e1d4b43d678479e7f60865def201ec944fadae157e16363cd549d",
     "size": 48685637,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u275-b01_openj9-0.23.0/OpenJDK8U-jre_x64_linux_openj9_8u275b01_openj9-0.23.0.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "8.0.275+1.openj9-0.23.0"
@@ -9324,6 +9438,7 @@
     "sha256": "fe235f716b64cbe0c77a13d57d4e093ef912d8ae58d6dd685a1a09381fb212e1",
     "sha512": "3512abb21b7e286588c17f26aa9163adb14d6f8d3fac24b5aeedc4d3d0ee92d5b10ce8bf4b1e4bfb5ff6320ae5a1181a3279ed24cac55897b0c7bc984c6af321",
     "size": 48678434,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u275-b01_openj9-0.23.0/OpenJDK8U-jre_x64_linux_openj9_linuxXL_8u275b01_openj9-0.23.0.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "8.0.275+1.openj9-0.23.0"
@@ -9344,6 +9459,7 @@
     "sha256": "3b2e2c6ad3ee04a58ffb8d629e3e242b0ae87b38cfd06425e4446b1f9490f521",
     "sha512": "4717ed22d9716ab24175cec7091b400254d633045c8e64e45d05112566a5b489d716cd9af1e4572d7da70cd06d048d84a0fd735402ea60b9210d8214f4ba53d0",
     "size": 41371208,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u282-b08/OpenJDK8U-jre_x64_linux_hotspot_8u282b08.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "8.0.282+8"
@@ -9364,6 +9480,7 @@
     "sha256": "4fad259c32eb23ec98925c8b2cf28aaacbdb55e034db74c31a7636e75b6af08d",
     "sha512": "b1482b10c6cc94ca103d664c60714a486bbaaff08191272de63fa42156d3fc13df523fdad40e982f52a1cc392293a787650c35580ec30ef200344ba894a7b246",
     "size": 47492338,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u282-b08_openj9-0.24.0/OpenJDK8U-jre_x64_linux_openj9_8u282b08_openj9-0.24.0.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "8.0.282+8.openj9-0.24.0"
@@ -9386,6 +9503,7 @@
     "sha256": "5535146d2d6ba845d3a076be490d71623475fd754f39b1256b8c9ca120452da6",
     "sha512": "02fd3af815e084c429427ab0f0079fe4143f14b5a4a48fcea194641959961039de7b47e7e048cc800ef0e748e0c18b857077358684d185b0a5664103dd283b45",
     "size": 47482656,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u282-b08_openj9-0.24.0/OpenJDK8U-jre_x64_linux_openj9_linuxXL_8u282b08_openj9-0.24.0.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "8.0.282+8.openj9-0.24.0"
@@ -9406,6 +9524,7 @@
     "sha256": "cad66f48f90167ed19030c71f8f0580702c43cce5ce5a0d76833f7a5ae7c402a",
     "sha512": "fd63dceddcd32b0f48b6d35c14ab3165f2b45152fdbc2bcaf833ed2624d833592cf1001627029fd04f9b77a033e2d4e993830d54c2e7c08adde5cd7a684447fd",
     "size": 41355668,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u292-b10/OpenJDK8U-jre_x64_linux_hotspot_8u292b10.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "8.0.292+10"
@@ -9426,6 +9545,7 @@
     "sha256": "6d5b67979e0935febe893895b622647bf8a59df6093ae57074db11d2ac9373ea",
     "sha512": "0e37c9e850b5e08b8dafaa26ac03eea87aa64b678c64d297e3cd7e5385c6bfbe8193c07baaf2beef6762de2ab7345f0b9f7b70a2db7988805a0e422684ad3541",
     "size": 49335650,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u292-b10_openj9-0.26.0/OpenJDK8U-jre_x64_linux_openj9_8u292b10_openj9-0.26.0.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "8.0.292+10.openj9-0.26.0"
@@ -12593,6 +12713,28 @@
   {
     "architecture": "x86_64",
     "distro": "zulu",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "zulu8.64.0.15-ca-jre8.0.342-linux_musl_x64.tar.gz",
+    "image_type": "jre",
+    "java_version": "8.0.342",
+    "jvm_impl": "hotspot",
+    "md5": "cc933b3ae16fa273c4fe51d8fc8c9f20",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "66f97739a013cbe964f63669610dd3ea8cde7623",
+    "sha256": "4159754e77fc132442b378dd5ad18feec2bcd08d3411becaed383ab0d4a2d977",
+    "sha512": "024319a4099ab595374e48b0573560f44ba5d3fa5f9f8bfad0fa037098f2fb2ca53860c09313541274c3db62587a28691e87ff94060a18f17d68ad1ce566774f",
+    "size": 44018360,
+    "url": "https://static.azul.com/zulu/bin/zulu8.64.0.15-ca-jre8.0.342-linux_musl_x64.tar.gz",
+    "vendor": "azul",
+    "version": "8.64.0.15"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "zulu",
     "features": [],
     "file_type": "tar.gz",
     "filename": "zulu8.64.0.15-ca-jre8.0.342-linux_x64.tar.gz",
@@ -14282,6 +14424,7 @@
     "sha256": "ed3bfc1f614203adcb29920bfb2034e84126ec58885910cae451d7911aebdc7a",
     "sha512": "17fbc2fa832264f31713241ca9bb55d7ce02ecda828de4c4c05333e284bf5fae13913c46c13141bb5092214aff162f0ed99a8cfa8549ffb265c4a82d78c402a6",
     "size": 41619458,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-10.0.1%2B10-0/sapmachine-jre-10.0.1.10_linux-x64-musl_bin.tar.gz",
     "vendor": "sap",
     "version": "10.0.1.10"
@@ -16860,6 +17003,7 @@
     "sha256": "693095a46cdb819a510be64a6c49f0053fe7b5302af60ebb85faa05bc7a23aa9",
     "sha512": "90551b8843c0c66c887790f2bad5ccdbff0a2f1ad96797888a232125ed747010497bacbb183db8ec846a035a249e7daf55ebecacaa28b062985357325c6245f3",
     "size": 38513844,
+    "unlisted_since": "2026-08-12",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-11/openjdk-11-jre-headless_11.0.32~3ea-1_amd64.deb",
     "vendor": "debian",
     "version": "11.0.32~3ea-1"
@@ -16882,6 +17026,7 @@
     "sha256": "89e6115066cd15c540db7e0c9341545d3c1a6c31ae2850653fadf05486f7742b",
     "sha512": "cf4eda66c4e5b5d73bc236fd1a713cfec1491a562b6a8e8ccc0e0bbd1ac7ea53d7547a4e8903189f267009189459327de4caf0be5dd62a3651da3061fd88316f",
     "size": 2412776,
+    "unlisted_since": "2026-08-12",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-11/openjdk-11-jre-zero_11.0.32~3ea-1_amd64.deb",
     "vendor": "debian",
     "version": "11.0.32~3ea-1"
@@ -16902,6 +17047,7 @@
     "sha256": "ea507d31e9d3ce427328fdb36153c9c165f76b2576dff379579041da479e9452",
     "sha512": "1c87bb04774624326bdca325b466fb6b6bedc550d9d2e2a910fac3f9836a3736cd273648032918d382371800c2a2ad7ee708dadeaa369ea37afd52b885efa1ba",
     "size": 197552,
+    "unlisted_since": "2026-08-12",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-11/openjdk-11-jre_11.0.32~3ea-1_amd64.deb",
     "vendor": "debian",
     "version": "11.0.32~3ea-1"
@@ -16924,6 +17070,7 @@
     "sha256": "962eff1e3a5807fb58f8d4aee3d4bb800a90dcaa9e90028374589ad6243745aa",
     "sha512": "9bba0e347b5325107145456a0c5da71e289a4ec6eb12d5342ebe4deddf40e14ad303a0cf06d20ae33caa0c69731e17f794748f580b5fa67b6e6f8f06e6ee6df0",
     "size": 38511272,
+    "unlisted_since": "2026-08-12",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-11/openjdk-11-jre-headless_11.0.32~8ea-1_amd64.deb",
     "vendor": "debian",
     "version": "11.0.32~8ea-1"
@@ -16946,6 +17093,7 @@
     "sha256": "5d3dd062b72508b0c907710f395c46dd6e9cad883d4d4406cae633051c1cca4c",
     "sha512": "1fa7d5fe132020518460df221c711beb4e130c0522ff041945d1066ba146f633fffaf4ece35713515ff7b0c336d3571fbd094bf34f5a219c0d5e4f020c4d22d8",
     "size": 2418752,
+    "unlisted_since": "2026-08-12",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-11/openjdk-11-jre-zero_11.0.32~8ea-1_amd64.deb",
     "vendor": "debian",
     "version": "11.0.32~8ea-1"
@@ -16966,6 +17114,7 @@
     "sha256": "ba37775ccb644794abb6fd15e328423cf2fc94bc629cba2586b5f026cfc1e8f2",
     "sha512": "5e2b67e9efa94be07eb01039e655aed6f688508af81e69e86a7681a1febf2a20370cd9f16af3834b4103f6f5f811865cbb5f8f35afe7ea49228b9f14d2ffa2af",
     "size": 197092,
+    "unlisted_since": "2026-08-12",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-11/openjdk-11-jre_11.0.32~8ea-1_amd64.deb",
     "vendor": "debian",
     "version": "11.0.32~8ea-1"
@@ -16986,6 +17135,7 @@
     "sha256": "346448142d46c6e51d0fadcaadbcde31251d7678922ec3eb010fcb1b6e17804c",
     "sha512": "84e890ddca32182ca0b51190ff6b94de38ef774ca3a46dc6a87503facb39aadb8dc7ceaa49e27a18e3077eadf8b572b8b1f07b0f903dc64174435e5432cd14e2",
     "size": 41597311,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/AdoptOpenJDK/openjdk11-binaries/releases/download/jdk-11%2B28/OpenJDK11-jre_x64_linux_hotspot_11_28.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "11.0.0+28"
@@ -17006,6 +17156,7 @@
     "sha256": "83a7c95e6b2150a739bdd5e8a6fe0315904fd13d8867c95db67c0318304a2c42",
     "sha512": "1e0a1eb1275ca1328b534468f8dd8a5bf4265a7652517fc10a1455482c92baa94daf82d375fec5dd5458830f99103fbb69f1e29627a78706d02934d5f80ee566",
     "size": 40889035,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/AdoptOpenJDK/openjdk11-binaries/releases/download/jdk-11%2B28/OpenJDK11-jre_x64_linux_openj9_11_28.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "11.0.0+28.OpenJDK11-jre_x64_linux_openj9_11_28.tar.gz"
@@ -17028,6 +17179,7 @@
     "sha256": "ff9fdcb0eb1459297c32ce5f724acde520fe634a9669dd0505128a5b964bd815",
     "sha512": "5e33b3c394fac8c9a899d39b02f540ad94998443b0338dd7464809ec35ee379ba662ec0f4c04bd5d3896d398850c4e5245a5a463106f7987458eb8fcf7c80de6",
     "size": 40870245,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/AdoptOpenJDK/openjdk11-binaries/releases/download/jdk-11%2B28/OpenJDK11-jre_x64_linux_openj9_linuxXL_11_28.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "11.0.0+28.OpenJDK11-jre_x64_linux_openj9_linuxXL_11_28.tar.gz"
@@ -17088,6 +17240,7 @@
     "sha256": "59c34373eec16b53798aedac73776b19e43f396fdff8a2879e66dc4b0cfd73cc",
     "sha512": "7b4498a8d8971a95f32497730de620d3dabdc193ca20c8e896c9e757129b88548a18a14e200ff9bd7c029bbc641f43ce948f573388acacd6d119befb09e257d2",
     "size": 41522652,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/AdoptOpenJDK/openjdk11-binaries/releases/download/jdk-11.0.2%2B7/OpenJDK11U-jre_x64_linux_hotspot_11.0.2_7.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "11.0.2+7"
@@ -17108,6 +17261,7 @@
     "sha256": "e762e4cd50cebd1c63dee2cf0d5737016e9e057520b67761df5ad2dc7bbc7d54",
     "sha512": "96b527be34c49e6351bed0d000153c1bc9491cf89f8a7f90190feccd2984cce1e3d18747e108d476c4417f15947d436f20cd34fe88f8126edecf4a789d725b0a",
     "size": 41525058,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/AdoptOpenJDK/openjdk11-binaries/releases/download/jdk-11.0.2%2B9/OpenJDK11U-jre_x64_linux_hotspot_11.0.2_9.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "11.0.2+9"
@@ -17130,6 +17284,7 @@
     "sha256": "6844846493718e2ca3451e28b2162b32d862d2ef60741a1f0bd23e29a42814c3",
     "sha512": "a1f047ca670345b5b8e0417e349eb0094a344888422a59ede58d2c66416435bd4c441f85ed85ee05f479d81b8c4dbbbc97971efe7a6eb3487a202bb0ac9368f2",
     "size": 42487953,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/AdoptOpenJDK/openjdk11-binaries/releases/download/jdk-11.0.2%2B9/OpenJDK11U-jre_x64_linux_openj9_linuxXL_11.0.2_9-openj9-0.12.0.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "11.0.2+9.OpenJDK11U-jre_x64_linux_openj9_linuxXL_11.0.2_9-openj9-0.12.0.tar.gz"
@@ -17152,6 +17307,7 @@
     "sha256": "f347fc04d1d176da73baba7fe97ee282ed9e655750176ac21e6928007786ae8f",
     "sha512": "37680ae7f1e51304095e2f7b1c7bf445d37393e92e75af9143b1e04993fc96bce1908582557f59ba6a694083728814afe6df37b7c3c86cb03bb372de285d1db4",
     "size": 42490903,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/AdoptOpenJDK/openjdk11-binaries/releases/download/jdk-11.0.2%2B9_openj9-0.12.1/OpenJDK11U-jre_x64_linux_openj9_linuxXL_11.0.2_9_openj9-0.12.1-openj9-0.12.1.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "11.0.2+9.OpenJDK11U-jre_x64_linux_openj9_linuxXL_11.0.2_9_openj9-0.12.1-openj9-0.12.1.tar.gz"
@@ -17172,6 +17328,7 @@
     "sha256": "9c6283485a9fa07c1dca882e6427d785c9f4a99d2e49e91ccefbc6147da27343",
     "sha512": "861dc0088e1b19d2815f89cda50ecb620642ca0e24ddcb75b143581bb1496f805ccbf1efcf6023e17f8d2e2fdfe316ec267fbf71b675289ccd2631b1607de38b",
     "size": 42509367,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/AdoptOpenJDK/openjdk11-binaries/releases/download/jdk-11.0.2%2B9/OpenJDK11U-jre_x64_linux_openj9_11.0.2_9_openj9-0.12.0.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "11.0.2+9.openj9-0.12.0"
@@ -17192,6 +17349,7 @@
     "sha256": "a7fbd197698a3e73086d9b490358015c9cf9c7038392853ae35c5d7a9cc20e8a",
     "sha512": "dc5f08832ff2d2e3121c13438b27f62dc4b5823fc189edf73f6d527a4f390e3080bd8ce013faae2014a70ec03a7303b8a54037410c4ae2188763b247e460f2f6",
     "size": 42510510,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/AdoptOpenJDK/openjdk11-binaries/releases/download/jdk-11.0.2%2B9_openj9-0.12.1/OpenJDK11U-jre_x64_linux_openj9_11.0.2_9_openj9-0.12.1_openj9-0.12.1.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "11.0.2+9.openj9-0.12.1"
@@ -17232,6 +17390,7 @@
     "sha256": "d2df8bc799b09c8375f79bf646747afac3d933bb1f65de71d6c78e7466ff8fe4",
     "sha512": "b7232a3c75a8c4e67f51bd95c8441026b2bfef29cc779768a5f2d300208dc569d672402e06a2d6c6f512450723bc0631c5a18cde80cbc1ec2028c123607df30f",
     "size": 41732132,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/AdoptOpenJDK/openjdk11-binaries/releases/download/jdk-11.0.3%2B7/OpenJDK11U-jre_x64_linux_hotspot_11.0.3_7.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "11.0.3+7"
@@ -17252,6 +17411,7 @@
     "sha256": "14c660294832c7b2deb2845d96dce83df677e204b4f0f1fee0052764c4a56720",
     "sha512": "6973bf3b3b5d21dda5f348803693ca233781d28439ce6b9dd662e3bb88ff3c6bd82add9bf6df0c2e9c3cf3c71bf25a994c7263ac24e0a571fcb1a34d62484812",
     "size": 41084418,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/AdoptOpenJDK/openjdk11-binaries/releases/download/jdk-11.0.3%2B7_openj9-0.14.0/OpenJDK11U-jre_x64_linux_openj9_11.0.3_7_openj9-0.14.0.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "11.0.3+7.openj9-0.14.0"
@@ -17274,6 +17434,7 @@
     "sha256": "4f69891d22496209290660a4afefb9efc7d679d3786d859b56a0bc954de8deec",
     "sha512": "c06cd17a4e74ba566e0d8d7be4da1f1288433edfe8ac4a184f686d73fd9015038d0cba34beb47990801a1cdc92059d2a31998709d9f9c6e6478c08178a74fbde",
     "size": 41072735,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/AdoptOpenJDK/openjdk11-binaries/releases/download/jdk-11.0.3%2B7_openj9-0.14.0/OpenJDK11U-jre_x64_linux_openj9_linuxXL_11.0.3_7_openj9-0.14.0.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "11.0.3+7.openj9-0.14.0"
@@ -17294,6 +17455,7 @@
     "sha256": "493a90023447f9f422db011560732cb018795023ed1166dfc04ffa18a4c1fb83",
     "sha512": "a56db74b86d5ae372d48fb4cb88f8124997bb385555caa4ca9aca79da64203d28f06bff1e669a30c16ae0d72f33cf2a2620ee2eb5aba45ad0b9938ea15ca81dd",
     "size": 41081381,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/AdoptOpenJDK/openjdk11-binaries/releases/download/jdk-11.0.3%2B7_openj9-0.14.3/OpenJDK11U-jre_x64_linux_openj9_11.0.3_7_openj9-0.14.3.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "11.0.3+7.openj9-0.14.3"
@@ -17316,6 +17478,7 @@
     "sha256": "1e0607a5caa99d5e3eaa4e35bf5b323fb71e35e766b74eeb7f4e12b519a15616",
     "sha512": "36bda559debbafbf109bdd78167ae778fcd95ed7cde726167353ddad393175a2378ff4970667ec2abd6a82a63634ff9f1192a3395711d12f9911aa255fcbc1f2",
     "size": 41064657,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/AdoptOpenJDK/openjdk11-binaries/releases/download/jdk-11.0.3%2B7_openj9-0.14.3/OpenJDK11U-jre_x64_linux_openj9_linuxXL_11.0.3_7_openj9-0.14.3.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "11.0.3+7.openj9-0.14.3"
@@ -17356,6 +17519,7 @@
     "sha256": "70d2cc675155476f1d8516a7ae6729d44681e4fad5a6fc8dfa65cab36a67b7e0",
     "sha512": "d2e38e0d7536bfa2f05135e229e3fa35e0c9860f03077da61d77d1b6551f099c957b9a9f8a25f922261b47360f7e4f7b64c1e3796557d478a90945ff2820515b",
     "size": 42055392,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/AdoptOpenJDK/openjdk11-binaries/releases/download/jdk-11.0.4%2B11/OpenJDK11U-jre_x64_linux_hotspot_11.0.4_11.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "11.0.4+11.1"
@@ -17376,6 +17540,7 @@
     "sha256": "c2601e7cb22af7a910e03883280cee805074656104d6d3dcaaf30e3bbb832690",
     "sha512": "2291ca2707f0b3d56cc67ca26868b2a1fef41c50882f372191f212646ef097aba3bbe360995a264cbb3133a5bf1fcc2e6f0a8c60fb6180826a4c3a33b84e447d",
     "size": 41233615,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/AdoptOpenJDK/openjdk11-binaries/releases/download/jdk-11.0.4%2B11_openj9-0.15.1/OpenJDK11U-jre_x64_linux_openj9_11.0.4_11_openj9-0.15.1.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "11.0.4+11.1.openj9-0.15.1"
@@ -17398,6 +17563,7 @@
     "sha256": "3f9212c0cfcae61623511e391452aeb89692a18253ed3e1c06002d0104c6e202",
     "sha512": "8973ecf24714f3746c1d81672a6b6875c8fe5822c2109a38360d19fd0fc356880e7486684f566ec6667da39d8bc3341e53ee1b57c9ba281b1e1ca285113cd8b4",
     "size": 41218881,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/AdoptOpenJDK/openjdk11-binaries/releases/download/jdk-11.0.4%2B11_openj9-0.15.1/OpenJDK11U-jre_x64_linux_openj9_linuxXL_11.0.4_11_openj9-0.15.1.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "11.0.4+11.1.openj9-0.15.1"
@@ -17498,6 +17664,7 @@
     "sha256": "2f08c469c9a8adea1b6ee3444ba2a8242a7e99d87976a077faf037a9eb7f884b",
     "sha512": "b13ee8af718c701195765eb6c36c8a6dfc32a5a39f8da4118db4e5ef8ab2012f8952cea73a964fcac079487b6372c0be727f0f2df43b948ccdd4663e6b327d1d",
     "size": 42132415,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/AdoptOpenJDK/openjdk11-binaries/releases/download/jdk-11.0.5%2B10/OpenJDK11U-jre_x64_linux_hotspot_11.0.5_10.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "11.0.5+10.1"
@@ -17518,6 +17685,7 @@
     "sha256": "2b68ea68d41281238a9dbe494cec762bd97fe34cf4fb6ba44ee1ce66bcec9d38",
     "sha512": "d1e85d332d60af40b6f57f39184731fab61b20d32a26c251e7530c50f57b89868218f979fa1647bdcc2325276665a50ae5834fcdfc1868dfb1d3b119a91de401",
     "size": 41418278,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/AdoptOpenJDK/openjdk11-binaries/releases/download/jdk-11.0.5%2B10_openj9-0.17.0/OpenJDK11U-jre_x64_linux_openj9_11.0.5_10_openj9-0.17.0.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "11.0.5+10.1.openj9-0.17.0"
@@ -17540,6 +17708,7 @@
     "sha256": "4968fcc102ef0050c5a1505ecbd4b2994a646a5f90635f4a2d1fa4e1ec2b1487",
     "sha512": "6dbb92de7d4a9ec5eb8861abadb31d2766b5528f8e4622ae406b48f5b1905927830d1885ca8197b5f174f75d5a22d1c6db4444f278c6a6cfdcd7160126b5753b",
     "size": 41408308,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/AdoptOpenJDK/openjdk11-binaries/releases/download/jdk-11.0.5%2B10_openj9-0.17.0/OpenJDK11U-jre_x64_linux_openj9_linuxXL_11.0.5_10_openj9-0.17.0.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "11.0.5+10.1.openj9-0.17.0"
@@ -17792,6 +17961,7 @@
     "sha256": "c5a4e69e2be0e3e5f5bb7c759960b20650967d0f571baad4a7f15b2c03bda352",
     "sha512": "0d1366c68ad12fafc76edddc7d385f612751182b5492cff4309d542a0e12b13c9b17ca89a0a8218ad0f8182b24285189158c43759db54645758c7ea8dc4d6ce9",
     "size": 42198347,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/AdoptOpenJDK/openjdk11-binaries/releases/download/jdk-11.0.6%2B10/OpenJDK11U-jre_x64_linux_hotspot_11.0.6_10.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "11.0.6+10.1"
@@ -17812,6 +17982,7 @@
     "sha256": "273e9f6a17a27c713407883898bd137f0a4ee1b8a0a4b42a1f7ec22225e01166",
     "sha512": "99ea4f9228aa8d30ad0ab15c64098f4b90437571f57530d3369808115a00ae85f15bf5a1e26af4c766fa2f01b6d4903f5a0e55e433520de3a3a92296b209b787",
     "size": 42691243,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/AdoptOpenJDK/openjdk11-binaries/releases/download/jdk-11.0.6%2B10_openj9-0.18.0/OpenJDK11U-jre_x64_linux_openj9_11.0.6_10_openj9-0.18.0.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "11.0.6+10.1.openj9-0.18.0"
@@ -17834,6 +18005,7 @@
     "sha256": "6e7ff1dceec1cf2c1aaa6ac48066b680b8114605d64c1d3cde2841b9d2268e13",
     "sha512": "132c1e74f7cf31c861bc2d60cb2b16da3c099045fbb9de4123bd40016855d370a8a2d6200188f90c417b7add9e644ef2e9c36f9a6421cb4871af164e5be14e09",
     "size": 42677416,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/AdoptOpenJDK/openjdk11-binaries/releases/download/jdk-11.0.6%2B10_openj9-0.18.0/OpenJDK11U-jre_x64_linux_openj9_linuxXL_11.0.6_10_openj9-0.18.0.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "11.0.6+10.1.openj9-0.18.0"
@@ -17854,6 +18026,7 @@
     "sha256": "056e4b5f7166f5daa44f36b06c735913bda52831d2e77fa2ac371505c66d10c1",
     "sha512": "6dcb9855ca51e25049848a088f3ca16c39af74f2bd6b56504b250d2142091d241ef6542efed0ddab43b6744c0f73f853fa1f746118ba0e07f43b7e640402e870",
     "size": 42690553,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/AdoptOpenJDK/openjdk11-binaries/releases/download/jdk-11.0.6%2B10_openj9-0.18.1/OpenJDK11U-jre_x64_linux_openj9_11.0.6_10_openj9-0.18.1.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "11.0.6+10.1.openj9-0.18.1"
@@ -17876,6 +18049,7 @@
     "sha256": "020fe024cc702932d9d54e3a85b26603096eb7c21075d8b16c21ac422f296e01",
     "sha512": "3d3820779fde2970f19e2970739baf4ab3bb8849c62434af983072c5abba8c3abf015984f57c72717493420dd07e38b82bc60b9cf1c42fbcf566836b6eb770e2",
     "size": 42677604,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/AdoptOpenJDK/openjdk11-binaries/releases/download/jdk-11.0.6%2B10_openj9-0.18.1/OpenJDK11U-jre_x64_linux_openj9_linuxXL_11.0.6_10_openj9-0.18.1.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "11.0.6+10.1.openj9-0.18.1"
@@ -18048,6 +18222,7 @@
     "sha256": "74b493dd8a884dcbee29682ead51b182d9d3e52b40c3d4cbb3167c2fd0063503",
     "sha512": "a776dd9168e3c2635a8492405d58628713e646292d7ee16454681d46866e7ea41afa712227e94ed2e8ce52c727e445f4631db63a02408aa817f1c79af8057dbe",
     "size": 42917723,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/AdoptOpenJDK/openjdk11-binaries/releases/download/jdk-11.0.7%2B10/OpenJDK11U-jre_x64_linux_hotspot_11.0.7_10.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "11.0.7+10.1"
@@ -18068,6 +18243,7 @@
     "sha256": "08258a767a6953bde21d15ef3c08e776d83257afa4acc52b55c70e1ac02f0489",
     "sha512": "eb042145a54fb3336b0afbdff24366145112b0144f59685ff64fb107bea8ab84c7b29e2012f6e4ffd2a6f5a8ceaf5f8c250831233a3de8ff0acfa84b5f5ae546",
     "size": 41653038,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/AdoptOpenJDK/openjdk11-binaries/releases/download/jdk-11.0.7%2B10_openj9-0.20.0/OpenJDK11U-jre_x64_linux_openj9_11.0.7_10_openj9-0.20.0.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "11.0.7+10.1.openj9-0.20.0"
@@ -18090,6 +18266,7 @@
     "sha256": "8a67ab18e869575d7ff531195d943c783aff4fb3ad56da45af889bbe9b1b449b",
     "sha512": "2f44d2972bd540eb9eecdc90143800a5403c54281c35a35b08435fd6688b7282f34a9372c9b077b4c220be77b8d919fe4f82731643be8bcb7d0e7bea2e95ee8d",
     "size": 41643282,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/AdoptOpenJDK/openjdk11-binaries/releases/download/jdk-11.0.7%2B10_openj9-0.20.0/OpenJDK11U-jre_x64_linux_openj9_linuxXL_11.0.7_10_openj9-0.20.0.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "11.0.7+10.1.openj9-0.20.0"
@@ -18130,6 +18307,7 @@
     "sha256": "98615b1b369509965a612232622d39b5cefe117d6189179cbad4dcef2ee2f4e1",
     "sha512": "55ab4c6122422f4765542df747bce5c65bc78e0e5f4fff4b7efc95342d81eb34d72dbdc13c820781c626f92a2c3687161d0c7edfbe4f83c455c75fcecf8ae3d0",
     "size": 42904191,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/AdoptOpenJDK/openjdk11-binaries/releases/download/jdk-11.0.8%2B10/OpenJDK11U-jre_x64_linux_hotspot_11.0.8_10.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "11.0.8+10"
@@ -18304,6 +18482,7 @@
     "sha256": "7cc4b24e2ac0ed26bf3ec31241bde65b672952bf0df5e1606b263fadcb21b3b7",
     "sha512": "51578fd2722c22cb50c678f74612409d34666ac8804c0efa705ed0d695c32ce3f5829f5fbe9be6d3336f39935b7eedad192621977c5e13f365b51e1fb03fd6df",
     "size": 41781638,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/AdoptOpenJDK/openjdk11-binaries/releases/download/jdk-11.0.8%2B10_openj9-0.21.0/OpenJDK11U-jre_x64_linux_openj9_11.0.8_10_openj9-0.21.0.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "11.0.8+10.openj9-0.21.0"
@@ -18326,6 +18505,7 @@
     "sha256": "a2a80fef8cbb4c9288ae4a88dc253c4d27726dea20f7bab75cd2428088242fcc",
     "sha512": "ac2111079c72e349122356275ab6d7b38b13188aec58ee97c7ced2daf3c98900c76abaf33bad5dd8f43321d6786bd71d0cc02836a5820eb0ce20b24b78262293",
     "size": 41774880,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/AdoptOpenJDK/openjdk11-binaries/releases/download/jdk-11.0.8%2B10_openj9-0.21.0/OpenJDK11U-jre_x64_linux_openj9_linuxXL_11.0.8_10_openj9-0.21.0.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "11.0.8+10.openj9-0.21.0"
@@ -18540,6 +18720,7 @@
     "sha256": "57e0e54850487e68f9f99f3678f9a829568e33baa662f4b3a926645b258a3d1c",
     "sha512": "d499b2dfcb16826fc5137c5081c49010ff4772d7a63e1c94e773c4453ce40f1ab86e1a919a75a545a07de3e041451adac9292e165f43a43a3bcf8bc7dead128b",
     "size": 43086798,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/AdoptOpenJDK/openjdk11-binaries/releases/download/jdk-11.0.9%2B11/OpenJDK11U-jre_x64_linux_hotspot_11.0.9_11.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "11.0.9+11"
@@ -18714,6 +18895,7 @@
     "sha256": "54c845c167c197ba789eb6c3508faa5b1c95c9abe2ac26878123b6eecc87a111",
     "sha512": "ec078347d7ba24f32965bc74db7be8a2192958e0dfd5a3647a40960527b0a3878b04022e9360049471d45f77c8874c0d54d8fb837950f83130aa57bffe88f365",
     "size": 42056640,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/AdoptOpenJDK/openjdk11-binaries/releases/download/jdk-11.0.9%2B11_openj9-0.23.0/OpenJDK11U-jre_x64_linux_openj9_11.0.9_11_openj9-0.23.0.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "11.0.9+11.openj9-0.23.0"
@@ -18736,6 +18918,7 @@
     "sha256": "f596606e248b2937da5ac919c6911a1b24e113eab1d822c04d6a2e2590f226a0",
     "sha512": "887d7b7325e0e63914229745c4b52de49326fae8cb7bb7cb7b3d734e435fcb937459706de2cd2e8c88eb411aa7e415f08c63b95b2489dbcb697f92a075f0aec2",
     "size": 42048354,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/AdoptOpenJDK/openjdk11-binaries/releases/download/jdk-11.0.9%2B11_openj9-0.23.0/OpenJDK11U-jre_x64_linux_openj9_linuxXL_11.0.9_11_openj9-0.23.0.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "11.0.9+11.openj9-0.23.0"
@@ -18886,6 +19069,7 @@
     "sha256": "73ce5ce03d2efb097b561ae894903cdab06b8d58fbc2697a5abe44ccd8ecc2e5",
     "sha512": "aef4f05046e3db408da9889cbf58d8937825b24fe4e5db9857e9d038d94fc3783048eb89e98c2eb032320c4e6e31324f808cb3657c9ac26f83794a1809bfb199",
     "size": 43458724,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/AdoptOpenJDK/openjdk11-binaries/releases/download/jdk-11.0.9.1%2B1/OpenJDK11U-jre_x64_linux_hotspot_11.0.9.1_1.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "11.0.9+101"
@@ -18926,6 +19110,7 @@
     "sha256": "25fdcf9427095ac27c8bdfc82096ad2e615693a3f6ea06c700fca7ffb271131a",
     "sha512": "2cb56a58aa9c0644374d437d20eb908a8a997f6b8e49e4a3589e4d79d0d15eb4dc574e815cbba2cffce62e4e20fefec706e0c4a76d42212e10365ed90f8b6263",
     "size": 43146855,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/AdoptOpenJDK/openjdk11-binaries/releases/download/jdk-11.0.10%2B9/OpenJDK11U-jre_x64_linux_hotspot_11.0.10_9.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "11.0.10+9"
@@ -19100,6 +19285,7 @@
     "sha256": "7e5f97071f8b86c22c36ddfd7f821c3e8ec531c1128e2e6c931b2e64118a517a",
     "sha512": "c0e192719c512798b0de5e6aaa20609b6212e8f588af4dfb4ff3e1d218cf80e25cf74a68618c68083190d88f36c71f3193b1a05246151bf5b641adc944972d67",
     "size": 41736680,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/AdoptOpenJDK/openjdk11-binaries/releases/download/jdk-11.0.10%2B9_openj9-0.24.0/OpenJDK11U-jre_x64_linux_openj9_11.0.10_9_openj9-0.24.0.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "11.0.10+9.openj9-0.24.0"
@@ -19122,6 +19308,7 @@
     "sha256": "f7395e402a56a3da3c9ecf192d72ccbfb57e259c399f58e9ed99a98f323b5850",
     "sha512": "dca84169ca0be21683c1ecafd0088b7cc28d88103ee3d6ac3340c7e522bb8819cd67823ac39956b6118447831dc629cd35932a0a1b2f931be691dae179374c02",
     "size": 41724028,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/AdoptOpenJDK/openjdk11-binaries/releases/download/jdk-11.0.10%2B9_openj9-0.24.0/OpenJDK11U-jre_x64_linux_openj9_linuxXL_11.0.10_9_openj9-0.24.0.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "11.0.10+9.openj9-0.24.0"
@@ -19162,6 +19349,7 @@
     "sha256": "144f2c6bcf64faa32016f2474b6c01031be75d25325e9c3097aed6589bc5d548",
     "sha512": "5b8c1c16c5faa467bbb35a1d1e694afc50b0c2dbbe77abb29620f30602187a1a903f60169e2b691dcc81b6d902ed5a17239318f27765f19351281209befb0e96",
     "size": 42432277,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/AdoptOpenJDK/openjdk11-binaries/releases/download/jdk-11.0.11%2B9/OpenJDK11U-jre_x64_linux_hotspot_11.0.11_9.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "11.0.11+9"
@@ -19358,6 +19546,7 @@
     "sha256": "152bf992d965ed018e9e1c3c2eb2c1771f92e0b6485b9a1f2c6d84d282117715",
     "sha512": "b3a0b86f0d86c45bd6e56836ae3dbf08601e1f683ed41dcc384feb1051a1de04e37ee021eded62a5b13ade59d9d400473b1a11dcd1ff8f2530ea9d7d47c1533f",
     "size": 43611878,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/AdoptOpenJDK/openjdk11-binaries/releases/download/jdk-11.0.11%2B9_openj9-0.26.0/OpenJDK11U-jre_x64_linux_openj9_11.0.11_9_openj9-0.26.0.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "11.0.11+9.openj9-0.26.0"
@@ -21284,6 +21473,7 @@
     "sha256": "35b2b2f508354cd98bb305c3aa17896dc2eced92a9bd4751f2d4cb290a506acb",
     "sha512": "b377771e8e3d4bdbc53e83f46ff14e838cb9929556ef7db298f4e2820d7f44cfb64628ee58a6c5954004ed5dec7465062803ae1009850283452d706fd64c924c",
     "size": 4597912,
+    "unlisted_since": "2026-08-12",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-11-jre-dcevm/openjdk-11-jre-dcevm_11.0.15+1-1_amd64.deb",
     "vendor": "debian",
     "version": "11.0.15+1-1"
@@ -26946,6 +27136,7 @@
     "sha256": "d37f5e20348bd8d70a4baa30c1093373c73c9f1ffd843ee8856103b03cf676c6",
     "sha512": "aa7bf3d8bdeaf54f462aea627a14c46d964a13f91abb9ab841f619fb5162b718ae9e1e0ba3bd6cd1cba20c1fb43ae7f53727012da9a1bbc1f0f7bad32cec7565",
     "size": 31027588,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.27+5_openj9-0.51.0-m2/ibm-semeru-open-11-jre-11.0.27.5_0.51.0-1.x86_64.rpm",
     "vendor": "ibm",
     "version": "11.0.27+5_openj9-0.51.0-m2"
@@ -26966,6 +27157,7 @@
     "sha256": "943bd514b7e0955ed49e7856f6fe73282624331a11cc21b023f2945d6d542f3e",
     "sha512": "36eae1fe002f43865c6eeb28073475086d55f7969b46ff793798d45ac8ed4ca200144892da698db4d65d1be1b77fc8e70ecedb96fe0c25ce16ec026f2c87a584",
     "size": 51394280,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.27+5_openj9-0.51.0-m2/ibm-semeru-open-jre_x64_linux_11.0.27_5_openj9-0.51.0-m2.tar.gz",
     "vendor": "ibm",
     "version": "11.0.27+5_openj9-0.51.0-m2"
@@ -27834,6 +28026,7 @@
     "sha256": "6f6cff4981855b1c2e32a7a2b7cc8375697114a2504944547644e39f5334dac1",
     "sha512": "30428b3f4ae40153c0836097e4eb9e136e7a936093c65323655b05f2a8acde091e7cfb528be8b085372d837fa52b1645651fde55c2cb835aff313aecd2c44bf9",
     "size": 33224808,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.29%2B5_openj9-0.56.0-m1/ibm-semeru-open-11-jre-11.0.29.5_0.56.0-1.x86_64.rpm",
     "vendor": "ibm",
     "version": "11.0.29+5_openj9-0.56.0-m1"
@@ -27854,6 +28047,7 @@
     "sha256": "04ddf4d82e119f11a092999a46c917b3581a9b493cedbe9a05199d3f49b78c0c",
     "sha512": "e965bdfee7c43f86a6bab987744b7825f55cf3f46126854600db79121c2c3e043f9657597b8d48f6454785ceed6324ba1d31b9039e2e79595c4d5230453d4f7f",
     "size": 54263968,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.29%2B5_openj9-0.56.0-m1/ibm-semeru-open-jre_x64_linux_11.0.29_5_openj9-0.56.0-m1.tar.gz",
     "vendor": "ibm",
     "version": "11.0.29+5_openj9-0.56.0-m1"
@@ -27874,6 +28068,7 @@
     "sha256": "8deea948d973b2ce28f361852bbfff26688f5ffabc0d1689b61c396c9b10c8ba",
     "sha512": "7be16676e0901e1c4e74f0b154c99660e9fb0547db193ea5b8716968c314cf2ddeb5c546adb6183a82ea0168a23cddb441ceb4f3887bf54b404df516d8ed4121",
     "size": 33222476,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.29%2B6_openj9-0.56.0-m2/ibm-semeru-open-11-jre-11.0.29.6_0.56.0-1.x86_64.rpm",
     "vendor": "ibm",
     "version": "11.0.29+6_openj9-0.56.0-m2"
@@ -27894,6 +28089,7 @@
     "sha256": "a0fbd357cbb44ddcc037b1c0ab696b1b8dcb7d4e2d51d127b2eb474ba419893f",
     "sha512": "8f8ad4f12abbc7d11c72246fddc82bec9a63f02334015223cc1b4bdbdd8a2c128eb3850296d8040bbdeb6cbbb42609a8b4226fc7d97246e2cf6dcd35138e2613",
     "size": 54270853,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.29%2B6_openj9-0.56.0-m2/ibm-semeru-open-jre_x64_linux_11.0.29_6_openj9-0.56.0-m2.tar.gz",
     "vendor": "ibm",
     "version": "11.0.29+6_openj9-0.56.0-m2"
@@ -28514,6 +28710,7 @@
     "sha256": "76fec9f7fd2703b819a305ac30f0a36bc37e4751b860a17d1d201aceda29a397",
     "sha512": "0a76169105862b781077abd48a0e5f8cee8415d70d37604f4859d5c2a0d492337960ccd329f72cc488c17c948c092b5005aa4fa9c5e584e83909f6853642c6c7",
     "size": 33353884,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.30%2B1_openj9-0.57.0-m1a/ibm-semeru-open-11-jre-11.0.30.2_0.57.0-1.x86_64.rpm",
     "vendor": "ibm",
     "version": "11.0.30+1_openj9-0.57.0-m1a"
@@ -28534,6 +28731,7 @@
     "sha256": "1e8dbc72e8072b92475507cd3245ecd5cfa91515767f24cfb4a6118cd801cefd",
     "sha512": "384aead9ef16e5e963563ecaa33801f6037322f870db8847e2d53fcc7f9e6a5d590ac64bfa642502c5df56b7940909c14d28aaa8dbd0b7ab7229db1736053aa9",
     "size": 54535974,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.30%2B1_openj9-0.57.0-m1a/ibm-semeru-open-jre_x64_linux_11.0.30_2_openj9-0.57.0-m1a.tar.gz",
     "vendor": "ibm",
     "version": "11.0.30+1_openj9-0.57.0-m1a"
@@ -28554,6 +28752,7 @@
     "sha256": "a1f1472ca18b94dd0865e4e1480833f063af219e065d72772923f8aa8d9b329e",
     "sha512": "7d7261478648bfe60a77fb1275af8b9152bc778f0ef714f552296a22eb7a1f1f59b5caa771f65a3ef4fa016d54b32ff585756cf9969bebbc73cb14d6d49e8971",
     "size": 33372524,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.30%2B5_openj9-0.57.0-m2a/ibm-semeru-open-11-jre-11.0.30.5_0.57.0-1.x86_64.rpm",
     "vendor": "ibm",
     "version": "11.0.30+5_openj9-0.57.0-m2a"
@@ -28574,6 +28773,7 @@
     "sha256": "03e917c159356f0530a7b705f23096c8f81a6a528890aead63cacda74d754f9f",
     "sha512": "43a0a0279e3a6d7a4d1b1dc48fce7cabf6fbc98f2eacdb9ed94309de5f4dca9d22e0ab8cec96dc5b74995528abde2c30bcb7fe4cd21ff28420a9e9d8c13f8f41",
     "size": 54532324,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.30%2B5_openj9-0.57.0-m2a/ibm-semeru-open-jre_x64_linux_11.0.30_5_openj9-0.57.0-m2a.tar.gz",
     "vendor": "ibm",
     "version": "11.0.30+5_openj9-0.57.0-m2a"
@@ -28864,6 +29064,7 @@
     "sha256": "1c4555d2b83f09cf881276963595d7c0d055bae3aefe92f6d542e230ff4ad8cf",
     "sha512": "96dd6186181299617262e83a5920f8ab37316668fcd15446dce392fdb259731326791d0d0fc699b686cbafb0a91be344d9643d9cd239e456dcf1448c3d4a8263",
     "size": 38517336,
+    "unlisted_since": "2026-08-12",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-11/openjdk-11-jre-headless_11.0.30+7-1_amd64.deb",
     "vendor": "debian",
     "version": "11.0.30+7-1"
@@ -28886,6 +29087,7 @@
     "sha256": "160e9693332bdab6243c0d4ec8e241abc899e6783a5b2b30fb3b808f7e55ed75",
     "sha512": "f27a1eef7e38687fea388f48f36956f42af5f85d6f526df218e0f1954197c3e1ce57f3d20ffd91aa07a6f4e272f588ecae3006e0ccbbfff204abb71ada11b32c",
     "size": 2416152,
+    "unlisted_since": "2026-08-12",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-11/openjdk-11-jre-zero_11.0.30+7-1_amd64.deb",
     "vendor": "debian",
     "version": "11.0.30+7-1"
@@ -28906,6 +29108,7 @@
     "sha256": "6972888fad477e5c04cd56053246c61d2c761f32ee1932c8596507d9eb7d4308",
     "sha512": "1fc87dc073428a02fd4b3d73fb72eed6cccecc72dcd23e14d845fb5d0090d9830c645f5a7afbe3dabc1afa2ed7cf9ee0c3a578a56ded4b56be816bbc4f8869ee",
     "size": 197156,
+    "unlisted_since": "2026-08-12",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-11/openjdk-11-jre_11.0.30+7-1_amd64.deb",
     "vendor": "debian",
     "version": "11.0.30+7-1"
@@ -29304,6 +29507,7 @@
     "sha256": "a2342cc2a662ea41e4ee28604f169f74ba039efd97e9e5a662211d20aa9de9b7",
     "sha512": "18569444dcb36480c00369db1c0fcf82dfc2ee1b30c2082bad3c3cbf958c2715aa3db453fce4988d147ae6a7ce840e3e714be1f9dca70f5f1a901ec46e83e7c1",
     "size": 38512736,
+    "unlisted_since": "2026-08-12",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-11/openjdk-11-jre-headless_11.0.31+11-1_amd64.deb",
     "vendor": "debian",
     "version": "11.0.31+11-1"
@@ -29326,6 +29530,7 @@
     "sha256": "d9f7ed626224d6d302d6c19755c11ddaa2175603ef1e67647301da71d65a276f",
     "sha512": "06c713841111050ffb1cbc8c102d3b402756758ca1db825412d6016eb8a42295d19574c8c4e3992df354a7e2c66e22f7c95ce434223915e78b5834160315e1f4",
     "size": 2414996,
+    "unlisted_since": "2026-08-12",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-11/openjdk-11-jre-zero_11.0.31+11-1_amd64.deb",
     "vendor": "debian",
     "version": "11.0.31+11-1"
@@ -29346,6 +29551,7 @@
     "sha256": "e4c24f254b0a2a9b8defe99695dbac3f5e0208956651640adc6a1abdef1dffb4",
     "sha512": "03b481fe4bde3c6351dda8bcc5b4766b055559d7f14994bb25a1fa397c6b22152fbf8b1a77c1ccde8747557ce0a9dde0badd33147c2709afbddab684f8e07a6d",
     "size": 197280,
+    "unlisted_since": "2026-08-12",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-11/openjdk-11-jre_11.0.31+11-1_amd64.deb",
     "vendor": "debian",
     "version": "11.0.31+11-1"
@@ -29592,6 +29798,7 @@
     "sha256": "9de28b48362ff5cadd7f5b76dabd54d7b6a9a367cf0b7aa5353b4ed871f70acc",
     "sha512": "7e9a8309722cc52da302e4e76073ae5eb5958ac9d9fe2e4a55c7033b21933a1dbf67f990ea7ec6acefcfef142324b3b80b35363bfe37feae1e3f1c11caa03d4a",
     "size": 38506876,
+    "unlisted_since": "2026-08-12",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-11/openjdk-11-jre-headless_11.0.32+9-1_amd64.deb",
     "vendor": "debian",
     "version": "11.0.32+9-1"
@@ -29614,6 +29821,7 @@
     "sha256": "d23c085f91b8116258830a6b00df533afb5ab378ad7e6d2cce5b801ee2ea9e96",
     "sha512": "586576fc6b4bc4f7093c79200ebef5365ee369e32b62b4ed6b83de95324fb2630f2352297a18effad670fb673fa9ce2f2b9040b0785a010c23edfd4b9c6b895a",
     "size": 2418352,
+    "unlisted_since": "2026-08-12",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-11/openjdk-11-jre-zero_11.0.32+9-1_amd64.deb",
     "vendor": "debian",
     "version": "11.0.32+9-1"
@@ -29634,6 +29842,7 @@
     "sha256": "5518aad9a90049bf8a2b3346680d01d145587bbd941f3412f87e9a1110b4e8f3",
     "sha512": "4f92add2ce708774f4101808f6c21b5124784e92791255762e06920d483bea48a332d08990c26f4c31a96d95bb0eb6fccb5bd8905a117364f85ca0ee8747818a",
     "size": 197152,
+    "unlisted_since": "2026-08-12",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-11/openjdk-11-jre_11.0.32+9-1_amd64.deb",
     "vendor": "debian",
     "version": "11.0.32+9-1"
@@ -37152,6 +37361,7 @@
     "sha256": "4aa99cbe5a6838c3ed29fa7aa7bee95c39ddd41e3f7544178dcd257b15a9359e",
     "sha512": "be11f3e6c4711ebc38994a7115ad311d57812202abbd5bc996d82e42d8997c7eac5cb0bd71fd4bf66d6e400f84f70ef2154de5fbf46cb7ba8888d37832c00d2f",
     "size": 48813111,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/AdoptOpenJDK/openjdk16-binaries/releases/download/jdk-16%2B36/OpenJDK16-jre_x64_linux_hotspot_16_36.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "16.0.0+36"
@@ -37172,6 +37382,7 @@
     "sha256": "302b8b9bba4f51d0a9ac087ed91929dbd3ae52cf5a5b6c150373563012db60d9",
     "sha512": "1660e2794c1623764aaacc16d03a75217a7d1eb349bd84773b237d88cacdd5787c4394b2bfaf5e749b2554f4994944057f3ef521e7a3fdd79ddbc43cebef18a7",
     "size": 43333230,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/AdoptOpenJDK/openjdk16-binaries/releases/download/jdk-16%2B36_openj9-0.25.0/OpenJDK16-jre_x64_linux_openj9_16_36_openj9-0.25.0.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "16.0.0+36.openj9-0.25.0"
@@ -37212,6 +37423,7 @@
     "sha256": "5eca19d406c6d130e9c3a4b932b9cb0a6e9cd45932450668c3e911bded4bcf40",
     "sha512": "3a463a15ea306f4e79b60a701e49322974589932b600412479e85203939fe689b64c105652b545137ac217003b1fc5600db3072cdbb9600ff14229c1a7659549",
     "size": 48818276,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/AdoptOpenJDK/openjdk16-binaries/releases/download/jdk-16.0.1%2B9/OpenJDK16U-jre_x64_linux_hotspot_16.0.1_9.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "16.0.1+9"
@@ -37388,6 +37600,7 @@
     "sha256": "fab572dd1a2ef00fd18ad4f5a4c373d0cf140045e61f9104cd5b8dbf6b3a517d",
     "sha512": "b58b674c10fff19ad3a1a3c6e6e9ec9cc4ff31a70710421568a9c9d577632f4bc275944d74b92da8ec19565a4777e91aa6701318ebe34ebbfd7bc5a112cdd353",
     "size": 43355843,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/AdoptOpenJDK/openjdk16-binaries/releases/download/jdk-16.0.1%2B9_openj9-0.26.0/OpenJDK16U-jre_x64_linux_openj9_16.0.1_9_openj9-0.26.0.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "16.0.1+9.openj9-0.26.0"
@@ -40386,6 +40599,7 @@
     "sha256": "11d76eb3bc7f7410af2ac59a5a892134023c5055be5ab872d35d56076c314eb8",
     "sha512": "7f66658a308e658946b585975697cca41e3498742684435a45d59e80187cdbde842c85f539bd12699fd9432ef7a1006ae0c60c3a94368eb2360a22388813e42c",
     "size": 44098416,
+    "unlisted_since": "2026-08-12",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-17/openjdk-17-jre-headless_17.0.20~5ea-1_amd64.deb",
     "vendor": "debian",
     "version": "17.0.20~5ea-1"
@@ -40408,6 +40622,7 @@
     "sha256": "1833610599ead57cd9db63da5a43672b1b707b5a06d6892e1fbd43102e436feb",
     "sha512": "dfbfd85982d955829ab9bf21eb07e5b4374666071754a765f5ab510a90cd03c324b8bd12062be588ba68c3eabd7af5c001b52de4bcf2b4b0a3bafe946be47349",
     "size": 2766080,
+    "unlisted_since": "2026-08-12",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-17/openjdk-17-jre-zero_17.0.20~5ea-1_amd64.deb",
     "vendor": "debian",
     "version": "17.0.20~5ea-1"
@@ -40428,6 +40643,7 @@
     "sha256": "7521204f25b084b8c6bc876a0e2d4f5560f676c3a8bf048397cd42d7e148f741",
     "sha512": "d154cec32536d69326d6a11c31b787e460764b5cc76a4a09dcc75d97321d7b6083f71b5a3ac709e28fc50fb8a06e79aacf9f5c266decfa8a8ce13ffc50d75071",
     "size": 213316,
+    "unlisted_since": "2026-08-12",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-17/openjdk-17-jre_17.0.20~5ea-1_amd64.deb",
     "vendor": "debian",
     "version": "17.0.20~5ea-1"
@@ -40450,6 +40666,7 @@
     "sha256": "232ad518bab02621b5d222b2958cb9580660b399d6e58faf03c14051f4060a9e",
     "sha512": "7a03b98be5039832c08e8677726dd18a6828df47f9a1b72588bb341039de8652872d03dbd878a5b4504d9d3fa7ced2ff47df9d3c21c98a8da09617e0a5dd8e40",
     "size": 44096764,
+    "unlisted_since": "2026-08-12",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-17/openjdk-17-jre-headless_17.0.20~7ea-1_amd64.deb",
     "vendor": "debian",
     "version": "17.0.20~7ea-1"
@@ -40472,6 +40689,7 @@
     "sha256": "8951308cce9fce84844662ce7f36535152bb291b0c5be831d23511035cfa1a1d",
     "sha512": "be4eaf1a8479eecc8a81fc932bda8b3ca8ef9b674408396bb4473c574060a30e51d1f07fa1ebdc1f9facac63c37ec0ee99b163f116ddaad9b073f7af73813076",
     "size": 2770264,
+    "unlisted_since": "2026-08-12",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-17/openjdk-17-jre-zero_17.0.20~7ea-1_amd64.deb",
     "vendor": "debian",
     "version": "17.0.20~7ea-1"
@@ -40492,6 +40710,7 @@
     "sha256": "80ef6f7f1be7572071ddc056d97230c6ae32cc5a56304d7ac48f9285dcc4c58d",
     "sha512": "eb836ba2192a8f4f1126adacf7129402dc50aa3dd01e93a2322507cb5a3491cc95a205b58b26d5f0b509863037b4af85ef96d101750ee22b11280e6fcbf318a9",
     "size": 212584,
+    "unlisted_since": "2026-08-12",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-17/openjdk-17-jre_17.0.20~7ea-1_amd64.deb",
     "vendor": "debian",
     "version": "17.0.20~7ea-1"
@@ -47113,6 +47332,7 @@
     "sha256": "9f4dc99038a56f81bb6d9e3f333b72904cb37aa17f514ea7a7219cc37156e958",
     "sha512": "172e5093bc24a8e0cb70746df1554c25434863d43c8ab3c2dea5b7fb3dfe414d466aada4cb8ca2d6ac7179ed09d637b5fc1066a498dd8845b1315cdf0ac527b6",
     "size": 32643500,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.7%2B7_openj9-0.56.0-m1/ibm-semeru-open-17-jre-17.0.17.7_0.56.0-1.x86_64.rpm",
     "vendor": "ibm",
     "version": "17.0.7+7_openj9-0.56.0-m1"
@@ -47133,6 +47353,7 @@
     "sha256": "661eaa84096ecd8ccc353c7d730f2206c8d6e1c697d7c32d497c6ba8d960b662",
     "sha512": "63e4472dd84e187cecd79dc5d1be9be401186f812e6fcff08d3a2d4f62ddfce11713e474e6dc4718a473c39936e64ef577d45bff58492b2b6b8fb0ea0750348c",
     "size": 54043995,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.7%2B7_openj9-0.56.0-m1/ibm-semeru-open-jre_x64_linux_17.0.17_7_openj9-0.56.0-m1.tar.gz",
     "vendor": "ibm",
     "version": "17.0.7+7_openj9-0.56.0-m1"
@@ -51385,6 +51606,7 @@
     "sha256": "04441b6c07470261fce754744ce8c36de455131b2141c07e50856ad94802f756",
     "sha512": "d7e87a3175eae71f9edd4f1066d9d8808d8791d06fbd2442f6fe4a7c8f161972f224f52b653c2b5afd3f1029ad50e1d857b41ccb8eff8ed18b6eebcfee05e2f8",
     "size": 30109528,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.15+5_openj9-0.51.0-m2/ibm-semeru-open-17-jre-17.0.15.5_0.51.0-1.x86_64.rpm",
     "vendor": "ibm",
     "version": "17.0.15+5_openj9-0.51.0-m2"
@@ -51405,6 +51627,7 @@
     "sha256": "39aa68ae3bcdddb4a587121e65c14c16f026fdac9483202b397d485d695319e3",
     "sha512": "f07d8cef33881aa1bbb618844c0ff30b229ceedbb5643f399760346f3f7948149083661cb8573e10c66023866a30cdfd96e453800ab1a238fa9c4d2cf6c77353",
     "size": 50707716,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.15+5_openj9-0.51.0-m2/ibm-semeru-open-jre_x64_linux_17.0.15_5_openj9-0.51.0-m2.tar.gz",
     "vendor": "ibm",
     "version": "17.0.15+5_openj9-0.51.0-m2"
@@ -52337,6 +52560,7 @@
     "sha256": "a257b02c287eecb0fee832d7864856363d8d5330afb6ebb1e1b0118c8abc2a73",
     "sha512": "053bd1c9f9ac87db735c7709c23fd52443c2cc8dc539ba6474962b949825b33cca4282e88e2091bfc4e768f30ee496d90a3a7c29b3c4e005543bc9a2db66792b",
     "size": 32645628,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.17%2B9_openj9-0.56.0-m2/ibm-semeru-open-17-jre-17.0.17.9_0.56.0-1.x86_64.rpm",
     "vendor": "ibm",
     "version": "17.0.17+9_openj9-0.56.0-m2"
@@ -52357,6 +52581,7 @@
     "sha256": "9a0b0e2e24cc31846242e23cb1dc40b981083ba17ad0fd79c499c2313f14ee93",
     "sha512": "08ce21504f1d6ac9079564fb7c46eeecfb0457edb12c954f97566a306c929624d3832c01aff64a4d15dcc5796ac79236f7d84b885a04aa1100ccd2fbd699e8a1",
     "size": 54040471,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.17%2B9_openj9-0.56.0-m2/ibm-semeru-open-jre_x64_linux_17.0.17_9_openj9-0.56.0-m2.tar.gz",
     "vendor": "ibm",
     "version": "17.0.17+9_openj9-0.56.0-m2"
@@ -52501,6 +52726,7 @@
     "sha256": "719f1d5a61907c3e4a9891aac172765bf60ee12f180b099d33caed2d9a96df65",
     "sha512": "481c5fd3bb45d4d7e448b14c73a2fda88f4ddaa69958a0309f8da1a539b42c8d9fe0d687c2c480bafac119705d7a1799c6fac7bf97128d5c7d4e727b114d2d10",
     "size": 43858072,
+    "unlisted_since": "2026-08-12",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-17/openjdk-17-jre-headless_17.0.17+10-1~deb12u1_amd64.deb",
     "vendor": "debian",
     "version": "17.0.17+10-1~deb12u1"
@@ -52523,6 +52749,7 @@
     "sha256": "0754b6496d7f7ba25c2926a46828dd1a5d3b491f62f27dd9488e51696346fabe",
     "sha512": "a25e4bd8a2862303215bdb924d7f898105456b4d486283807fe1c813a2171075e1ab2a1d6dd1b031d9274bc987632658d22adb72bd36efb3b596c9d9f5dfd014",
     "size": 2684136,
+    "unlisted_since": "2026-08-12",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-17/openjdk-17-jre-zero_17.0.17+10-1~deb12u1_amd64.deb",
     "vendor": "debian",
     "version": "17.0.17+10-1~deb12u1"
@@ -52543,6 +52770,7 @@
     "sha256": "38388bd98ccfdf3f314cdb6470b23844e246e4f190864e9a3f488d03deefa361",
     "sha512": "ba7ebc38943907460f7df107cd69d6abf73be9560bce8386644f3fcc12925047fc3c78dfa335f067bb614d9ce2b69c18632ec81ee423afc07179eab978ff46c1",
     "size": 214888,
+    "unlisted_since": "2026-08-12",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-17/openjdk-17-jre_17.0.17+10-1~deb12u1_amd64.deb",
     "vendor": "debian",
     "version": "17.0.17+10-1~deb12u1"
@@ -52935,6 +53163,7 @@
     "sha256": "c6bbaff13398f3a6e43670fa69e47492600d302e48c1826496f8067d04246163",
     "sha512": "455c137c5af951d93829ce7437f88184b2205a9001a30c66e0f8b622fefa514470c1f16b4b366bfc6a3038095077b5b87cfe6444efa71314ea99ef1391745927",
     "size": 32764904,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.18%2B2_openj9-0.57.0-m1a/ibm-semeru-open-17-jre-17.0.18.3_0.57.0-1.x86_64.rpm",
     "vendor": "ibm",
     "version": "17.0.18+2_openj9-0.57.0-m1a"
@@ -52955,6 +53184,7 @@
     "sha256": "1b028ae2d091e08f6808c526c09ac0e99d7895487bda1cc8717c675d8baf935e",
     "sha512": "ed384b2b61bf4f076cfa2774e4ae0d5a803264c36ad4849d2ffb74457b476baa089ec62c9571614e0542ec7603e0fe56a2376cf87d42776264b27b93bfdfc517",
     "size": 54258084,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.18%2B2_openj9-0.57.0-m1a/ibm-semeru-open-jre_x64_linux_17.0.18_3_openj9-0.57.0-m1a.tar.gz",
     "vendor": "ibm",
     "version": "17.0.18+2_openj9-0.57.0-m1a"
@@ -52975,6 +53205,7 @@
     "sha256": "5c8775a4b1a3adf8d131295419c90a4f76bd0b6519762e9e9d2681be52f2d558",
     "sha512": "4ee2b766476297b5d46f45ba38a2b1ee4f916ca56829184ebd7d3334ac84cb32428a82d1ff023ea6107f12821ace7ffceb57eabb7a641cf80756c5659e786ec4",
     "size": 32773644,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.18%2B5_openj9-0.57.0-m2/ibm-semeru-open-17-jre-17.0.18.5_0.57.0-1.x86_64.rpm",
     "vendor": "ibm",
     "version": "17.0.18+5_openj9-0.57.0-m2"
@@ -52995,6 +53226,7 @@
     "sha256": "37ec8600b4525e1a9b0494c05e2b45d7a71af5175929a58377a782db5ae28ed2",
     "sha512": "01d57792d705c4e0d2d5c7c360b163d67822039860b9a5b740e5e346f4c4cdf69d6b23c7899cbd90ea6b46fc24da085cfa1d70e3ededab132d05441eca0afaca",
     "size": 54263875,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.18%2B5_openj9-0.57.0-m2/ibm-semeru-open-jre_x64_linux_17.0.18_5_openj9-0.57.0-m2.tar.gz",
     "vendor": "ibm",
     "version": "17.0.18+5_openj9-0.57.0-m2"
@@ -53329,6 +53561,7 @@
     "sha256": "5bc36cbb4e383dbea4168d57b5fd9b42375ec8837dd62a1d56677632c3c960e0",
     "sha512": "ea670163fa01890785ca81084957064c2bd5ee3ee0075693b4d02540f31738cfc9dd5b2316562c1e6bf695285b7dd531c6179be7e6a6f6a6dd19546d3265f9f1",
     "size": 43866516,
+    "unlisted_since": "2026-08-12",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-17/openjdk-17-jre-headless_17.0.18+8-1~deb12u1_amd64.deb",
     "vendor": "debian",
     "version": "17.0.18+8-1~deb12u1"
@@ -53351,6 +53584,7 @@
     "sha256": "433818e706b26020b26ed84424171ad06fe61c4ac1a22e52c9b89e8cee9b1dea",
     "sha512": "4a2ef3d441d5cfd3095545c934a3d56e4e8197ac7edcbc3d99abb9b93f966f8fb8f887145058ebf4eae882a09babbe8585462072fcb56d9159ec39edf786f471",
     "size": 2682528,
+    "unlisted_since": "2026-08-12",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-17/openjdk-17-jre-zero_17.0.18+8-1~deb12u1_amd64.deb",
     "vendor": "debian",
     "version": "17.0.18+8-1~deb12u1"
@@ -53371,6 +53605,7 @@
     "sha256": "a6f7467ce888de22b9476c70722b688fbefe6aa65c6ec8625b5a58edeb94b659",
     "sha512": "3cc4e2e1468803c15db585791313fd1eae51c7e9a50dce8613eb9b5636938bc85a0b63269e0e5c3c55d79461f1561fc6d033dc9950b4e55262fc7441f0141483",
     "size": 214564,
+    "unlisted_since": "2026-08-12",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-17/openjdk-17-jre_17.0.18+8-1~deb12u1_amd64.deb",
     "vendor": "debian",
     "version": "17.0.18+8-1~deb12u1"
@@ -53393,6 +53628,7 @@
     "sha256": "9fad00d1d852365451343162051541025730bd829d8c3f4c0568cc8c3ade9d90",
     "sha512": "0192c3cdc54b01314331f2577ed781a6815942852e58a8d431f2a188b7b3191a08b25be7808f88d7eecedddf29eed20563f4a565f2dd5376f0f162abe5583358",
     "size": 44047296,
+    "unlisted_since": "2026-08-12",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-17/openjdk-17-jre-headless_17.0.18+8-1_amd64.deb",
     "vendor": "debian",
     "version": "17.0.18+8-1"
@@ -53415,6 +53651,7 @@
     "sha256": "00c93d082eb41b3755ce57889394b7504ca10179c11b22348ee983bac5b7aab6",
     "sha512": "220854ab57cc5883edc6f75cd3f6f7c14c755710725565c70f2e457e3b8e0c5091bcdd598ef5232fe0c26289d4f2d0b2ba135bd4e272a4a33d94877feb500522",
     "size": 2764412,
+    "unlisted_since": "2026-08-12",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-17/openjdk-17-jre-zero_17.0.18+8-1_amd64.deb",
     "vendor": "debian",
     "version": "17.0.18+8-1"
@@ -53435,6 +53672,7 @@
     "sha256": "6f7aec563bd05dc2bd8a4f6c79dde37da53e937c9d2e1477a80e4bba060cee36",
     "sha512": "0bd2295d4475d4ce2c955dc655bbc8c9a348664869267d522d75a78d939f2c76a72a68fa3f21cf62afe0cf8bd5d787c9cbcd1a78ae4e5e108ec38e08236aa9e0",
     "size": 212364,
+    "unlisted_since": "2026-08-12",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-17/openjdk-17-jre_17.0.18+8-1_amd64.deb",
     "vendor": "debian",
     "version": "17.0.18+8-1"
@@ -53963,6 +54201,7 @@
     "sha256": "29a808dfd0fcd6a8c6ea356561e521a7e9bcc0de87605d03883c7b09c4c3177b",
     "sha512": "12a78a84f626b59e2b4e3685fbd7757e83f511424f667d10d5b903848b1950219e1f014509a4444c5a930740fdd11ab7079e342759c2cbc6574a20ba1f88462b",
     "size": 44084080,
+    "unlisted_since": "2026-08-12",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-17/openjdk-17-jre-headless_17.0.19+10-1_amd64.deb",
     "vendor": "debian",
     "version": "17.0.19+10-1"
@@ -53985,6 +54224,7 @@
     "sha256": "1e2af09f3348f9bdca1b63a7b342f5fe2843544a112f553db0067fadd0e69764",
     "sha512": "d7acadf077556b62bb18eda5ed9f24ff15e413b5b12abd3d5e2ff0a4ceefc11935b0e7b865f533f67c4e789552644a119a3beb0d4dc6b4d9ed04f08a02c55fdb",
     "size": 2764012,
+    "unlisted_since": "2026-08-12",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-17/openjdk-17-jre-zero_17.0.19+10-1_amd64.deb",
     "vendor": "debian",
     "version": "17.0.19+10-1"
@@ -54005,6 +54245,7 @@
     "sha256": "554dbf94273c328ee98b4ccf037a2dab7c4adae697557e5198528b661441feae",
     "sha512": "786cef8fee9c6559e0c6f309321afe5d6ab54eb0e3b1f2a6c75731b8c0232b5858584c7f4a4d38aec38e723017c3324a24ecd5ee0848995f252d3bad15f80bec",
     "size": 213132,
+    "unlisted_since": "2026-08-12",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-17/openjdk-17-jre_17.0.19+10-1_amd64.deb",
     "vendor": "debian",
     "version": "17.0.19+10-1"
@@ -58964,6 +59205,7 @@
     "sha256": "1dbf65eb17cbf0e7ab20d26e32c43417370f90af4f86ea24c63bd6e29d240299",
     "sha512": "36a0afc7e27cb6e8edcdb4e2b6930e031a1afba01635ad332d1bab4abb8e126232e6b6a14360f43edc1562527c177ea7133268134310e612f0402a9379295d23",
     "size": 48420777,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/adoptium/temurin19-binaries/releases/download/jdk-19%2B36-RC1-beta/OpenJDK19U-jre_x64_linux_hotspot_19_36-RC1.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "19.0.0-beta+36.0.202208190932"
@@ -58984,6 +59226,7 @@
     "sha256": "1dbf65eb17cbf0e7ab20d26e32c43417370f90af4f86ea24c63bd6e29d240299",
     "sha512": "36a0afc7e27cb6e8edcdb4e2b6930e031a1afba01635ad332d1bab4abb8e126232e6b6a14360f43edc1562527c177ea7133268134310e612f0402a9379295d23",
     "size": 48420777,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/adoptium/temurin19-binaries/releases/download/jdk-19%2B36-RC1-beta/OpenJDK19U-jre_x64_linux_hotspot_19_36-RC1.tar.gz",
     "vendor": "eclipse",
     "version": "19.0.0-beta+36.0.202208190932"
@@ -61922,6 +62165,7 @@
     "sha256": "fcf23a76056cb0a379063027cf9cc69bdfd1a3ab3249dd336e0a5b446c276511",
     "sha512": "dc60e1d59e8e4e8284cc795c224e20bbba508cd62c38c71606926ded133306128c532208dbccf3cf875f4d71d3d61e983729035c5db0e9a994d29742a8f2949d",
     "size": 41961588,
+    "unlisted_since": "2026-08-12",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-21/openjdk-21-jre-headless_21.0.12~5ea-1_amd64.deb",
     "vendor": "debian",
     "version": "21.0.12~5ea-1"
@@ -61944,6 +62188,7 @@
     "sha256": "dc945c9106c072e9484ff7ff4aa2d10962ed52bbd7125d0fcc32f98fb04ac342",
     "sha512": "605a8fba5bea15566ea9fb4edaa9ec4b1c2cc431242c7dd63542287a790f72310e1a476d52a311d23e3ff9e7edffe890bdeade6de32961801c7aa38fd9c57bb6",
     "size": 9029464,
+    "unlisted_since": "2026-08-12",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-21/openjdk-21-jre-zero_21.0.12~5ea-1_amd64.deb",
     "vendor": "debian",
     "version": "21.0.12~5ea-1"
@@ -61964,6 +62209,7 @@
     "sha256": "dcc9018d0fd445dd9fcc7625764009c4617022f2dc7bc9f5aa45210f2379a4ca",
     "sha512": "f4909066aebb191d2ff861da6d76342f884391dcb5a22ab558537393f3c902a5960df0ee93de1ed11d87d2debc820df3e44f7d6255757365329467142d84f683",
     "size": 210244,
+    "unlisted_since": "2026-08-12",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-21/openjdk-21-jre_21.0.12~5ea-1_amd64.deb",
     "vendor": "debian",
     "version": "21.0.12~5ea-1"
@@ -61986,6 +62232,7 @@
     "sha256": "60dfaf37f2eccc0a6cae1322ddb71c8144f74797a3a4e6585755ed54f2222ba9",
     "sha512": "8df3ef277bfb1265f4eba3965fce5a611ff9dfd6938c81211b4f5696b26adaa96576214657351159cf261343bff7a8cf1933cfa4eb3c51decea199ae12412175",
     "size": 41947356,
+    "unlisted_since": "2026-08-12",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-21/openjdk-21-jre-headless_21.0.12~7ea-1_amd64.deb",
     "vendor": "debian",
     "version": "21.0.12~7ea-1"
@@ -62008,6 +62255,7 @@
     "sha256": "c0148f1612440a15abb40ed51efce082e148db5e040621cdaf662c67ea4858e0",
     "sha512": "2e9af45eb9e816ac511308b4332d42d0f975068af8a41f9145877106877ccb7dd36070cb99600e096b81f621b48e56014f219a4f592cfaf4bbc3df8f0b954fdf",
     "size": 9038172,
+    "unlisted_since": "2026-08-12",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-21/openjdk-21-jre-zero_21.0.12~7ea-1_amd64.deb",
     "vendor": "debian",
     "version": "21.0.12~7ea-1"
@@ -62028,6 +62276,7 @@
     "sha256": "d585c414724a547c66afee263745c6d9eb8b36befba148c6eb91365dd0b2c257",
     "sha512": "3828ea77732ef2df52d53c45375e08236b76919eb96be9225ea3a419c2e4cc0fd33fc6b3315bf5f2eab51f0f5cdf2d5434468186924128b67d69b3a19020db0b",
     "size": 210216,
+    "unlisted_since": "2026-08-12",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-21/openjdk-21-jre_21.0.12~7ea-1_amd64.deb",
     "vendor": "debian",
     "version": "21.0.12~7ea-1"
@@ -72661,6 +72910,7 @@
     "sha256": "911f4e33e5ef2add026563909b2b27da85a5a9be0e87909483e04758f174945e",
     "sha512": "d819d7f948965c71cf9ca539769322cabd6897c9748c556819c7aebf8c21991f9b4e03c34b86ca2d3afb0c2007452090ddbfb65dbb7889eecb12ac115e4f20be",
     "size": 32404820,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.7+5_openj9-0.51.0-m2/ibm-semeru-open-21-jre-21.0.7.5_0.51.0-1.x86_64.rpm",
     "vendor": "ibm",
     "version": "21.0.7+5_openj9-0.51.0-m2"
@@ -72681,6 +72931,7 @@
     "sha256": "13bfc79032bba324bd3def9a6f249b27c1fbf99211dedb8c100bed3ed4631fc9",
     "sha512": "5ddef5ec863ba148b4f1965147424cc98e037ba61ac3b2229339cc8a314d111e87f37fc05ecafbb7e8cebb230b2c536740c9d55523b5c7047a86e94b6cb6edaa",
     "size": 55278559,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.7+5_openj9-0.51.0-m2/ibm-semeru-open-jre_x64_linux_21.0.7_5_openj9-0.51.0-m2.tar.gz",
     "vendor": "ibm",
     "version": "21.0.7+5_openj9-0.51.0-m2"
@@ -72805,6 +73056,7 @@
     "sha256": "357fbeaecb12c4b596c47820f7b34ae7e944c0f361a6a0786931f4a82a8773a3",
     "sha512": "c49249f45d5f1a646abe2d4be978a72c527d6520d6def66b3dffc26904139d049fe4bf8daafbfd3f017bb21f8df1984dfe93757195827f11911f10f6187c5509",
     "size": 57975928,
+    "unlisted_since": "2026-08-12",
     "url": "https://builds.openlogic.com/downloadJDK/openlogic-openjdk-jre/21.0.7+6/openlogic-openjdk-jre-21.0.7+6-linux-x64-el.rpm",
     "vendor": "openlogic",
     "version": "21.0.7+6"
@@ -73583,6 +73835,28 @@
     "features": [
       "certified"
     ],
+    "file_type": "rpm",
+    "filename": "ibm-semeru-certified-21-jre-21.0.9.0-1.x86_64.rpm",
+    "image_type": "jre",
+    "java_version": "21.0.9+10",
+    "jvm_impl": "openj9",
+    "md5": "d6b4de596ce92a0ed8a1bf6245529dc9",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "a6b89fbd29c6f34d93679860c3331a539d87124e",
+    "sha256": "9cac9fdc2b9f90a19abdeb208062e5f2460f1e573a3b66c1f98d0a0d8b9350fa",
+    "sha512": "9068a8e247ad6b1a957278bbefaa513d87f50c1f24fe96ec728c79a99c05d7a2c83afeea32f449f8f383731316887ee93004f6fcbd9d7e16e81f6a7fd8e5191a",
+    "size": 35288472,
+    "url": "https://github.com/ibmruntimes/semeru21-certified-binaries/releases/download/jdk-21.0.9+10_openj9-0.56.0/ibm-semeru-certified-21-jre-21.0.9.0-1.x86_64.rpm",
+    "vendor": "ibm",
+    "version": "21.0.9+10_openj9-0.56.0"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "semeru",
+    "features": [
+      "certified"
+    ],
     "file_type": "tar.gz",
     "filename": "ibm-semeru-certified-jre_x64_linux_21.0.9.0.tar.gz",
     "image_type": "jre",
@@ -73655,6 +73929,7 @@
     "sha256": "c20527b9a581bc81b7b4f13784a4aa1731bfae13236f8396e4a155cd3835d2ed",
     "sha512": "d53235e79c94eb28d163b81978ce88af591879698ca153e1a3aedcc078a7e2cb2b64ff85fbd8d3aecfd5e202de628db545336a45e7b71fd51862f31c72edad00",
     "size": 34927340,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.9%2B7_openj9-0.56.0-m1/ibm-semeru-open-21-jre-21.0.9.7_0.56.0-1.x86_64.rpm",
     "vendor": "ibm",
     "version": "21.0.9+7_openj9-0.56.0-m1"
@@ -73675,6 +73950,7 @@
     "sha256": "3f34bebb1cefe9760907535732729b8a44702850ac767d3e3a1b0ef29e984abe",
     "sha512": "2da8c620aa6775fe1e5f875af3e2ce56b94415fad011520b84ef78debe8e421cb1f201c705e6a54ccfc572a29ce2dc5309886830ede0227aec48f6e1025e38cc",
     "size": 58575452,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.9%2B7_openj9-0.56.0-m1/ibm-semeru-open-jre_x64_linux_21.0.9_7_openj9-0.56.0-m1.tar.gz",
     "vendor": "ibm",
     "version": "21.0.9+7_openj9-0.56.0-m1"
@@ -73695,6 +73971,7 @@
     "sha256": "f35d5c14f9335a8415d4df03fd8e143a8f41b210fd734194a9b817c6c490d61f",
     "sha512": "d227a6559f5abb30fabbc0b72b202727d7e5c7709ee6bf1237934e74a17a793ff310cb842fb190383ff11489b35ec089e030b4c07ad359d61200d19f04c345bc",
     "size": 34924732,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.9%2B9_openj9-0.56.0-m2/ibm-semeru-open-21-jre-21.0.9.9_0.56.0-1.x86_64.rpm",
     "vendor": "ibm",
     "version": "21.0.9+9_openj9-0.56.0-m2"
@@ -73715,6 +73992,7 @@
     "sha256": "8dae84b6105e2684a96e3aafe1f356c953d6708adb77cb3eb3d2c1277b753587",
     "sha512": "0fd260ba62373e70223600bce8af4b6e4528eea7e56f8e304250991dfd8ec1247467907e422ed723f4bc0252383f24d6c1fc4b72cb57c3d82975fdd160671f11",
     "size": 58574551,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.9%2B9_openj9-0.56.0-m2/ibm-semeru-open-jre_x64_linux_21.0.9_9_openj9-0.56.0-m2.tar.gz",
     "vendor": "ibm",
     "version": "21.0.9+9_openj9-0.56.0-m2"
@@ -73797,6 +74075,7 @@
     "sha256": "d0cbb681f46508b173d60cf937b6dd5d8196f6689bffb296e9d1496c62a2a2e5",
     "sha512": "2ea1fcf60c2f68cc950973c30f74e13c944706ae3d061012b0c371451e2991ecbbc811f2add092ac159ec89c1d99bb3558f64974bd1ff288af20244db6888b65",
     "size": 41818132,
+    "unlisted_since": "2026-08-12",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-21/openjdk-21-jre-headless_21.0.9+10-1~deb13u1_amd64.deb",
     "vendor": "debian",
     "version": "21.0.9+10-1~deb13u1"
@@ -73819,6 +74098,7 @@
     "sha256": "27c4ed86445fedaaef965ca42a0803005cb13fa07e82f77cf30f47fa63d3e156",
     "sha512": "ed3c50c2447cf9cb10b770c3a01c48a26320863eadb51a012c4e89d3c1a0d6cef5d5105b8b235e55b74b08d17329e6a8d0da14e417d1037635009ff62b2ebe7a",
     "size": 8967860,
+    "unlisted_since": "2026-08-12",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-21/openjdk-21-jre-zero_21.0.9+10-1~deb13u1_amd64.deb",
     "vendor": "debian",
     "version": "21.0.9+10-1~deb13u1"
@@ -73839,6 +74119,7 @@
     "sha256": "159bfd205dde787fbec76fa2c6ccba28c5f5fdcd3fdfe5b5b7ed20aa9b70f3a0",
     "sha512": "d92e1b15c05faf51294b43965a79efa744fc786a7c748c871a56f3166acae7cfe8ac067a98bfca893a01511d291a241f58ebb062df4a8c72705809e57e50bf33",
     "size": 208348,
+    "unlisted_since": "2026-08-12",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-21/openjdk-21-jre_21.0.9+10-1~deb13u1_amd64.deb",
     "vendor": "debian",
     "version": "21.0.9+10-1~deb13u1"
@@ -74337,6 +74618,7 @@
     "sha256": "a0561b4ce5acd53db24c5e4b63b507377330e3c5740da3d3142e8158f48ba6b4",
     "sha512": "4914b8393ec9f8c29d6141c8b3c586c486f915dc77c8eee8fd66d97df503573b6daf9c265a56b4c5b0bdcae50623701eb2b60014d66556c5ad28f4f9f83c90e5",
     "size": 35064264,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.10%2B2_openj9-0.57.0-m1a/ibm-semeru-open-21-jre-21.0.10.3_0.57.0-1.x86_64.rpm",
     "vendor": "ibm",
     "version": "21.0.10+2_openj9-0.57.0-m1a"
@@ -74357,6 +74639,7 @@
     "sha256": "1fbe8523458a1469b6592a260895c1b8d4950e865299a3a76153bd5b27045d5c",
     "sha512": "6c53ee9711cabb9636ee089bd7352ae8d7415195c2941c54736f13b1a4c7d04e80364285c78b849cdc1fa82c2c46ac0031bd0197b4a7b85e5c3e36d561c20645",
     "size": 58793919,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.10%2B2_openj9-0.57.0-m1a/ibm-semeru-open-jre_x64_linux_21.0.10_3_openj9-0.57.0-m1a.tar.gz",
     "vendor": "ibm",
     "version": "21.0.10+2_openj9-0.57.0-m1a"
@@ -74377,6 +74660,7 @@
     "sha256": "6c5299b26a0117b02d341c4398c6db208f23d4358eeee786371b733e0e365eb3",
     "sha512": "291acbf9cf62c9cefbd4c80d675be5a21a865f8e4ab8d8a24cf0ae05d80b28409798777e67fc6edeefbcb3584e3d665959e7be3f79605b08f883b1ad7d241346",
     "size": 35081112,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.10%2B5_openj9-0.57.0-m2/ibm-semeru-open-21-jre-21.0.10.5_0.57.0-1.x86_64.rpm",
     "vendor": "ibm",
     "version": "21.0.10+5_openj9-0.57.0-m2"
@@ -74397,6 +74681,7 @@
     "sha256": "6c554073e4798e3fc902c7a0b475f431cf1f37576760a3d3848ff425b9d88d3d",
     "sha512": "faf34a4e069826d6e0c0fc01f2e80b7f66d4688aac8071405c259f96eaac7c538aec49af829f6208b7d1d3f522840f2479139d1044e88c7abbb8c671112c4977",
     "size": 58802331,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.10%2B5_openj9-0.57.0-m2/ibm-semeru-open-jre_x64_linux_21.0.10_5_openj9-0.57.0-m2.tar.gz",
     "vendor": "ibm",
     "version": "21.0.10+5_openj9-0.57.0-m2"
@@ -74689,6 +74974,7 @@
     "sha256": "74187f9cff343cb5f7c7b5daf8c4f841570ab005ba72db0a3e2ccf188b5af687",
     "sha512": "c0fe7f2af525639d246fadd08e9d3b3ab0d454044427fc89695eaa13da26c2896ffdbafa14bddabed9e57160bda4294765d9f6df197705935e5f2cb56eba6632",
     "size": 41831340,
+    "unlisted_since": "2026-08-12",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-21/openjdk-21-jre-headless_21.0.10+7-1~deb13u1_amd64.deb",
     "vendor": "debian",
     "version": "21.0.10+7-1~deb13u1"
@@ -74711,6 +74997,7 @@
     "sha256": "20c71da233ecc079b3b9ef992c2214ffbe00f630eb8d87f88e88ed87658dca7b",
     "sha512": "582702bbb37794fe93f078ca5110b26f1e1e748ed71e13f76b9a09e01cdd8ab6eb15a4ee53be91c6083d70e72d91fd0f93f14af8f5cc6ef6a3b24e0c7b8a1a0c",
     "size": 8969256,
+    "unlisted_since": "2026-08-12",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-21/openjdk-21-jre-zero_21.0.10+7-1~deb13u1_amd64.deb",
     "vendor": "debian",
     "version": "21.0.10+7-1~deb13u1"
@@ -74731,6 +75018,7 @@
     "sha256": "0700c033ff26df109d7ef6aaf0c7dba9a58bef60bc6ee39da4e430c29432e5d5",
     "sha512": "fafa0c4d1cb8e2b0a75f33562eac3c9d47043e78ad1555b5d2e9927e9a549a56be5e6d8ea8930d0d0bafc352cbc8e8426e2ef8d957f272fd96df2fbda962b277",
     "size": 208412,
+    "unlisted_since": "2026-08-12",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-21/openjdk-21-jre_21.0.10+7-1~deb13u1_amd64.deb",
     "vendor": "debian",
     "version": "21.0.10+7-1~deb13u1"
@@ -74837,6 +75125,7 @@
     "sha256": "48ee061a1bec9b12e3a75f8f3066c5be694bb1c6862aa812978947488b01b9b2",
     "sha512": "d306edfa4733e507a222fbb53578a43d02d712ca0d59ec6c5bbb5a79fe37085c3e7d5e0625b80bd366d9ef49ea056c42dee542a54cccc030b816ff30fd2c779f",
     "size": 41909944,
+    "unlisted_since": "2026-08-12",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-21/openjdk-21-jre-headless_21.0.10+7-1_amd64.deb",
     "vendor": "debian",
     "version": "21.0.10+7-1"
@@ -74859,6 +75148,7 @@
     "sha256": "c32964b25dd2eff54f50f9ecb7c74599009c3300efd7e54ceff34c556f3b99d4",
     "sha512": "b2301ff5f5cbe2f2f6300de3369f4aca0f98b13fa6b34c1ea564445583768845279d5cab466bc675693e7f94f12ab96caa4e1c292025f67af2c7e21598c3ed1d",
     "size": 9031940,
+    "unlisted_since": "2026-08-12",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-21/openjdk-21-jre-zero_21.0.10+7-1_amd64.deb",
     "vendor": "debian",
     "version": "21.0.10+7-1"
@@ -74879,6 +75169,7 @@
     "sha256": "7cf5ae1c3a9a9d5eaac8c344b32f8aa06723fed3e27421a2d9dfaa3693d45981",
     "sha512": "f7aa91eaeee84c9ccf641d51992bbe311e9ebe4252908638410299c2bf030e903997daeb757bedb78a78e9588fbee8cd2fbc79208658debf4d98e3abef70cc2d",
     "size": 210048,
+    "unlisted_since": "2026-08-12",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-21/openjdk-21-jre_21.0.10+7-1_amd64.deb",
     "vendor": "debian",
     "version": "21.0.10+7-1"
@@ -75407,6 +75698,7 @@
     "sha256": "1db338c2e030cbf27490167dbdc328bb5e0385632203eb7562dc6e6c266df4f2",
     "sha512": "df65a5eb113c4d43877d3ecc97896fd253f2757cf36a2c1104d83ee6fec755fdbc0e7c524f42e4f9b16cb5f499637357d415eb6f5b97c1880c38049c8275919d",
     "size": 41951572,
+    "unlisted_since": "2026-08-12",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-21/openjdk-21-jre-headless_21.0.11+10-1_amd64.deb",
     "vendor": "debian",
     "version": "21.0.11+10-1"
@@ -75429,6 +75721,7 @@
     "sha256": "6bbd6bd585c303f8a3589078ac78932fd0465537a2a7ad269ccf84205d8e8cfc",
     "sha512": "ce1f920ad3e3f7aecf1d1dcb35ad2f281e76f950f11c66e4177f5030738d52ca9587c409ccbc28aab7b192caabcc57ec95372fddf6f3dea990fe5d90d89569ca",
     "size": 9030712,
+    "unlisted_since": "2026-08-12",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-21/openjdk-21-jre-zero_21.0.11+10-1_amd64.deb",
     "vendor": "debian",
     "version": "21.0.11+10-1"
@@ -75449,6 +75742,7 @@
     "sha256": "5cdee77f2df685aacc985f657346f821efdee0d7ec796c127372fbc10c28989a",
     "sha512": "07da2a19c2961586ab6b88954ecd154d71a72f3a12e386c5c4530f5c3051cad880e73175250d593d1526244746b5c94ee5818502fda9ac85d3d9992c23efbfaf",
     "size": 209956,
+    "unlisted_since": "2026-08-12",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-21/openjdk-21-jre_21.0.11+10-1_amd64.deb",
     "vendor": "debian",
     "version": "21.0.11+10-1"
@@ -82380,6 +82674,7 @@
     "sha256": "5852b4705735647c372e07bee4dcf2627464e167b39cd6b9e1bdaf4b36ec1164",
     "sha512": "001dcda5b53eec71e4978b0c667c6c5af14ad57de6f88da48d9e18d7781d4ca05208858835e8a80a5907784646128d0edf005fa4df717ee1454c0535f216a484",
     "size": 58538457,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/ibmruntimes/semeru25-binaries/releases/download/jdk-25%2B36_openj9-0.55.0-m1/ibm-semeru-open-jre_x64_linux_25_36_openj9-0.55.0-m1.tar.gz",
     "vendor": "ibm",
     "version": "25+36_openj9-0.55.0-m1"
@@ -82400,6 +82695,7 @@
     "sha256": "bf5fe11c47f50d90107c83b52859d5d6f7bc0816e235076b007a7a7c52ffa215",
     "sha512": "c62b2e26babb7a275f3646e1a9c6d6bd78ab607857b35fbb3ea9b10efe154a186c765c012bf9bae8a80da8b1821f06b14950e15f2857e9a06a970541919423fc",
     "size": 58398645,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/ibmruntimes/semeru25-binaries/releases/download/jdk-25%2B36_openj9-0.55.0-m2/ibm-semeru-open-jre_x64_linux_25_36_openj9-0.55.0-m2.tar.gz",
     "vendor": "ibm",
     "version": "25+36_openj9-0.55.0-m2"
@@ -82420,6 +82716,7 @@
     "sha256": "fa961f04716a38be59105cbb46a1fb7ebe86a3ab4b1a5cc51020e9ada58672ad",
     "sha512": "2d236d0f43be3ea0195a948b97728a5530f96a3c3cc91b7d79d6b00bb02a51a2ebea229ab51385b0616217f42b6d35c3ee598c7972ce88618f0919c9be09602f",
     "size": 35000456,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/ibmruntimes/semeru25-binaries/releases/download/jdk-25%2B36_openj9-0.56.0-m2/ibm-semeru-open-25-jre-25.36_0.56.0-1.x86_64.rpm",
     "vendor": "ibm",
     "version": "25+36_openj9-0.56.0-m2"
@@ -82440,6 +82737,7 @@
     "sha256": "ee3725154277d2ad026bbdc986ef0515ac1cab5e02a94c5a46dc8cec9828b136",
     "sha512": "e8be0641d598ed4899e2358c958e9e6d751792c81257320e15d288c7f23b4ac7a03832ad3397dd538ee7f11bb52b3dbf87f232c7a1e10315f75f591d4028d577",
     "size": 58395023,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/ibmruntimes/semeru25-binaries/releases/download/jdk-25%2B36_openj9-0.56.0-m2/ibm-semeru-open-jre_x64_linux_25_36_openj9-0.56.0-m2.tar.gz",
     "vendor": "ibm",
     "version": "25+36_openj9-0.56.0-m2"
@@ -84558,6 +84856,7 @@
     "sha256": "2c6f95441ad14f37171b0133428c9d754c6aa2d4f1dfe937b2197f13c5e9fe62",
     "sha512": "47d458a1627eeb81b1fc30fcbb0615a28ce3c0a5440148a43e421b58987963e26a7a51592a7428f2f398a57e588d256f056ff7a5fcfb8a9a4f15a5219833edcd",
     "size": 53655284,
+    "unlisted_since": "2026-08-12",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-25/openjdk-25-jre-headless_25.0.3~8ea-1_amd64.deb",
     "vendor": "debian",
     "version": "25.0.3~8ea-1"
@@ -84580,6 +84879,7 @@
     "sha256": "5f6566bd1ad6f5e753deb69361d0cb8ce23ae9c850b142fdb17724912b443530",
     "sha512": "9d1f06135deead6c891c8faa5d0cec337124d24afd43953a5f3b1b72e0fba1461f79673b547b92e56a59a530d4340164bf46858c7383e40ede77c77a4a710060",
     "size": 16081376,
+    "unlisted_since": "2026-08-12",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-25/openjdk-25-jre-zero_25.0.3~8ea-1_amd64.deb",
     "vendor": "debian",
     "version": "25.0.3~8ea-1"
@@ -84600,6 +84900,7 @@
     "sha256": "01f1752b00b2a406245c9e760ffaac3b5550508e160ec8696f4b091c271b5ff8",
     "sha512": "a10963f0dc87cf0da47f57483bb4eab3b7fd14fca56234d001308a357a0ff9de457658d130c1fbcaa64cf05fb49f5f14a64206850eb45b28500a3d58535ac238",
     "size": 203840,
+    "unlisted_since": "2026-08-12",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-25/openjdk-25-jre_25.0.3~8ea-1_amd64.deb",
     "vendor": "debian",
     "version": "25.0.3~8ea-1"
@@ -84884,6 +85185,7 @@
     "sha256": "8a134887d3d33229d02e301e00735f697c85c7a95dde3e83e1387d1cdfe363b4",
     "sha512": "2a6a9763ec8fe293f4f7b324e84fa78501c092e977e1bd41537dbe4c3e6ab4a9fbc2ceaa53275de2cef3a725de30651cee29cb35e99873b7f9b3de89cf9cd39a",
     "size": 53702616,
+    "unlisted_since": "2026-08-12",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-25/openjdk-25-jre-headless_25.0.4~4ea-1_amd64.deb",
     "vendor": "debian",
     "version": "25.0.4~4ea-1"
@@ -84906,6 +85208,7 @@
     "sha256": "3898e2d0ff123c53efa24d091d0bc9c58837988eb9867c5428c8d9aeeea9cfd8",
     "sha512": "772ec27cefee51270b12e43e4b5e61e62bd194a84d7ebfb04609e186391f25e5ce054246e5b50f47a6a7e3f7dfa8c5a8d3501d68f81d0bf3707688cdfde56fcd",
     "size": 16124260,
+    "unlisted_since": "2026-08-12",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-25/openjdk-25-jre-zero_25.0.4~4ea-1_amd64.deb",
     "vendor": "debian",
     "version": "25.0.4~4ea-1"
@@ -84926,6 +85229,7 @@
     "sha256": "5ad9a68a1ef3c0a0d29483d1b6aec70975a4cc457c4ceb2e2ed8ec9b01cfa7a9",
     "sha512": "5048ba502e4078563cf13eff61452f5842ebceacb9f4dec7352f8a5b1890109865f08b9c1e504fd6888b4b4250c285130889b48f4b4ff2a770955a5d49fddd7b",
     "size": 203952,
+    "unlisted_since": "2026-08-12",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-25/openjdk-25-jre_25.0.4~4ea-1_amd64.deb",
     "vendor": "debian",
     "version": "25.0.4~4ea-1"
@@ -84948,6 +85252,7 @@
     "sha256": "187187b62b7a3f5b2eb24f787c619e744da6d55a8eb157999981f598e25251ca",
     "sha512": "6292d0814fc0e43abd93d42aef8573baa47d5b87cf9ea8e8ca6f847b9d9cd188512f4aa930b874a8135d7bee84b635baa0427a0340f2e731f91bbe4990e916a7",
     "size": 53658764,
+    "unlisted_since": "2026-08-12",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-25/openjdk-25-jre-headless_25.0.4~6ea-1_amd64.deb",
     "vendor": "debian",
     "version": "25.0.4~6ea-1"
@@ -84970,6 +85275,7 @@
     "sha256": "a9f0be852484b6d3a51dbd68bc05b0a07a8f2159a07d42951607b25a43a947ea",
     "sha512": "8d5e8bb0c0939d804d93b1318d364e2d4c4d3fd18880195c98ca3e54a7714f615f8ca346ba314cb0a3fa9fb855eba303ef96f0a80cddffdf1ef3e76eaf7b05cf",
     "size": 16121236,
+    "unlisted_since": "2026-08-12",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-25/openjdk-25-jre-zero_25.0.4~6ea-1_amd64.deb",
     "vendor": "debian",
     "version": "25.0.4~6ea-1"
@@ -84990,6 +85296,7 @@
     "sha256": "42e8cd2e06f80c6ec4d56b624b2bb062e62eecfaade38da82f9baba55716fde6",
     "sha512": "569b68c67be66603f310c44c1fb888cac68390df5dd2a076873ad6aa129badd92c0783e54748ebbd5b3c2cf3fb9a9f246a9aa647ef66cf43ca218f09da1af5d6",
     "size": 203748,
+    "unlisted_since": "2026-08-12",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-25/openjdk-25-jre_25.0.4~6ea-1_amd64.deb",
     "vendor": "debian",
     "version": "25.0.4~6ea-1"
@@ -85220,6 +85527,7 @@
     "sha256": "d64ee2a92717bf0c18c9a1ac155487e48adcb1992bc746cb9fab2721e3592a8a",
     "sha512": "c3d44bd07cb9f4172558708e7d9a155bfb5171c71f70a3b67f8c449bd70ffbfdfe3f2ec6797759d48922e069cf57a702f8079c474bbdaf8e5452fc20ec7ae455",
     "size": 58622852,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/ibmruntimes/semeru25-binaries/releases/download/jdk-25.0.1%2B8_openj9-0.57.0-m1a/ibm-semeru-open-jre_x64_linux_25.0.1_8_openj9-0.57.0-m1a.tar.gz",
     "vendor": "ibm",
     "version": "25.0.1+8_openj9-0.57.0-m1a"
@@ -85240,6 +85548,7 @@
     "sha256": "52c1292e0956b5e99477c43f7f5c86ad8ad237564c6f976285a406ee3a005485",
     "sha512": "fb0be01d013d6ab15fce53dc9585a67826def8f573426e4c621e65c9134ae0b413a193ec6879d65294e7c53f0aee93a129d32b4082ef5dbf62847228cc78d477",
     "size": 35169444,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/ibmruntimes/semeru25-binaries/releases/download/jdk-25.0.1%2B8_openj9-0.57.0-m2/ibm-semeru-open-25-jre-25.0.1.8_0.57.0-1.x86_64.rpm",
     "vendor": "ibm",
     "version": "25.0.1+8_openj9-0.57.0-m2"
@@ -85260,6 +85569,7 @@
     "sha256": "4bdc9cb5eac2e695037ab7be86a3bf91f5edc0a9de513f732006dcf36b82bfbc",
     "sha512": "26acf7d55d74ea48a83a0babbd951599f657cc502852dbc92f57ad16dbbbce30112c2ef46f03f8911616ddbcf5c65a039a33ffaa0f443eaba556f1f17fe576d9",
     "size": 58626822,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/ibmruntimes/semeru25-binaries/releases/download/jdk-25.0.1%2B8_openj9-0.57.0-m2/ibm-semeru-open-jre_x64_linux_25.0.1_8_openj9-0.57.0-m2.tar.gz",
     "vendor": "ibm",
     "version": "25.0.1+8_openj9-0.57.0-m2"
@@ -85342,6 +85652,7 @@
     "sha256": "0d13b84fbf13eb4c0dd4ab47a5eb779f0ba9a8861ff311de731e543b076ca866",
     "sha512": "286c2bd1ec059947705beaec0f77f3ab9b363953bb99611fe08ca4c25fe6aac82f993326a9efda65284b1030147cdbe61a4b9166b7f2ab1f4294e2384c392290",
     "size": 53425416,
+    "unlisted_since": "2026-08-12",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-25/openjdk-25-jre-headless_25.0.1+8-1~deb13u1_amd64.deb",
     "vendor": "debian",
     "version": "25.0.1+8-1~deb13u1"
@@ -85364,6 +85675,7 @@
     "sha256": "5ea15d9391122c35bb6253b93ca491f43ba74cced9408a512b87656012c0bc09",
     "sha512": "d6b10e971f03649a7d00fe3a907eb565a4fea8f06980cc0ad58fd416dbf21e7600acd214f8fbd3aeb71ffe71d9e57d4cd2db6d6449b80912f065c66fcd4fb5c5",
     "size": 16047084,
+    "unlisted_since": "2026-08-12",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-25/openjdk-25-jre-zero_25.0.1+8-1~deb13u1_amd64.deb",
     "vendor": "debian",
     "version": "25.0.1+8-1~deb13u1"
@@ -85384,6 +85696,7 @@
     "sha256": "b0a6f4694185ebde74d76d4bb6bede9858ba483802e11ddf3aa5ed2489e7d939",
     "sha512": "80f463cda614b4689c2bdb1d942b04e88a96d032653b65ee1a9568007e51f5abdf2e43d1282adbbaa0991d4b0f2a5e27c17db04c6fef60c58874bed27563ee04",
     "size": 200348,
+    "unlisted_since": "2026-08-12",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-25/openjdk-25-jre_25.0.1+8-1~deb13u1_amd64.deb",
     "vendor": "debian",
     "version": "25.0.1+8-1~deb13u1"
@@ -86112,6 +86425,7 @@
     "sha256": "0497c17a9f02ba0cd0adfb83ca886bb8602c9be95fc8021c43c282ac69a7a4fa",
     "sha512": "a38c5ab8623f5d2822b2205ffa755c3302f4ba87562c53c2eb03b08dc2892d31b425aef70e0dca3f0f58183dd105b912ea2a6e4e6b6fd1672da71d49dc73fe7e",
     "size": 53428580,
+    "unlisted_since": "2026-08-12",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-25/openjdk-25-jre-headless_25.0.2+10-1~deb13u2_amd64.deb",
     "vendor": "debian",
     "version": "25.0.2+10-1~deb13u2"
@@ -86134,6 +86448,7 @@
     "sha256": "708e2eb6f4455c8819e9286486ec12c1d7c7597295c66d7e36059466c14361f0",
     "sha512": "a493d2d18ed5efdb411b41736dbaf061ea43922df6d58dd6c524ac4965972214980a838b2ba2b266bdcde2d47fc772e6b724adcda051419aab83859377f12ead",
     "size": 16046752,
+    "unlisted_since": "2026-08-12",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-25/openjdk-25-jre-zero_25.0.2+10-1~deb13u2_amd64.deb",
     "vendor": "debian",
     "version": "25.0.2+10-1~deb13u2"
@@ -86154,6 +86469,7 @@
     "sha256": "89ee70091ec56e121bbb701763c2afae187562946f40c21da14e0213a3ec481f",
     "sha512": "5f7c1d8a9a46fe6b73862bad485343949947c96685fd9a6d05e27448a28f2b5ee973c5225206f721b33b63973a77ff6ed1ed0c83824cc22736223bcfe5f735f6",
     "size": 202152,
+    "unlisted_since": "2026-08-12",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-25/openjdk-25-jre_25.0.2+10-1~deb13u2_amd64.deb",
     "vendor": "debian",
     "version": "25.0.2+10-1~deb13u2"
@@ -86260,6 +86576,7 @@
     "sha256": "72944e3160b3aa792404f34df3e33ba19e71795431927aacd293ca36ed4455ed",
     "sha512": "24e213df864245e28e5b5ef57ccd318598490427d3427914de5b92c9e18ecb3df0e696197934302795477ce8f81b0a5602db16b567ff342d4aa4f62c38e18cb2",
     "size": 53499808,
+    "unlisted_since": "2026-08-12",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-25/openjdk-25-jre-headless_25.0.2+10-1_amd64.deb",
     "vendor": "debian",
     "version": "25.0.2+10-1"
@@ -86282,6 +86599,7 @@
     "sha256": "596a660233cb61584d1c84c2823d1fac427eda3128a4c8f6eac464a903995474",
     "sha512": "46a213047b5c58cbb6a82a757f306df0371158349b10f054e50f6821d79e2155ccf784d9a24c80323b590a023f3daefda2351721fcd7e470cb8e6acd80ad2b30",
     "size": 16058944,
+    "unlisted_since": "2026-08-12",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-25/openjdk-25-jre-zero_25.0.2+10-1_amd64.deb",
     "vendor": "debian",
     "version": "25.0.2+10-1"
@@ -86302,6 +86620,7 @@
     "sha256": "3371489f0988cc6fd2b9c6b5ee7e367b081748d1edb2b17da9d6a6022ee3ce0f",
     "sha512": "a2a741cbb482d7844b9b53ef2bff0a2333bf42a7a7832fac60d11d2255888675d428daa70e5918b018afc2eea9e35cb9bd179123ef650369c4ede8ad331a7056",
     "size": 203844,
+    "unlisted_since": "2026-08-12",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-25/openjdk-25-jre_25.0.2+10-1_amd64.deb",
     "vendor": "debian",
     "version": "25.0.2+10-1"
@@ -86830,6 +87149,7 @@
     "sha256": "1572183efb174b5109d10ffb5ffbf69c1de594fbfac701108c3a7305eaaf7329",
     "sha512": "39110c92098bd2a0f326073ec185477f3dfff8f8fe1026fad28502796a68546f9e866ec5bb567cbb0a090cfb658a3557a2bf63c0935cd8b12688fa9b9ad59820",
     "size": 53658220,
+    "unlisted_since": "2026-08-12",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-25/openjdk-25-jre-headless_25.0.3+9-2_amd64.deb",
     "vendor": "debian",
     "version": "25.0.3+9-2"
@@ -86852,6 +87172,7 @@
     "sha256": "5e99c3ebf6bb1dbbcfbb2a55183f03dc767ff9a000b8e57a1e0887351825d424",
     "sha512": "b25f21cef87f3cf9de154db3e66844b54bcf7a08823817e3e553b9a6488f0d3d7f4dfc06e2ceead5c755f3c3d5d8d242259b9bf3adfd45b1c6833b1d76b6b908",
     "size": 16074576,
+    "unlisted_since": "2026-08-12",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-25/openjdk-25-jre-zero_25.0.3+9-2_amd64.deb",
     "vendor": "debian",
     "version": "25.0.3+9-2"
@@ -86872,6 +87193,7 @@
     "sha256": "72dabb4766cb13cb111003a023e18ebb3f3f2f00ccde87ec99a49bef7a150e7b",
     "sha512": "bc7ce58101fca8a27aa6feed80c4a4ffb60cf9e6da421a4f64167ec3f89891eb4f45b23e8321e175e4ea672151d067b9b3a7f182c53cfb8825c3c484c36bb7e2",
     "size": 203932,
+    "unlisted_since": "2026-08-12",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-25/openjdk-25-jre_25.0.3+9-2_amd64.deb",
     "vendor": "debian",
     "version": "25.0.3+9-2"
@@ -88209,6 +88531,7 @@
     "sha256": "e124d2e222a56da17faf414ffe01dbb74f56b7f0232b2c2ccc720d37006170b8",
     "sha512": "8d7e659b1a6ff728ce884288caec8d050934c25e60534f48e79a734742afa9f059ccfe8d6c4229f6b533a0607279020fe025f7e7e9db6aed804e1ccae9f772bf",
     "size": 35747916,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/ibmruntimes/semeru26-binaries/releases/download/jdk-26%2B33_openj9-0.58.0-m1/ibm-semeru-open-26-jre-26.33_0.58.0-1.x86_64.rpm",
     "vendor": "ibm",
     "version": "26+33_openj9-0.58.0-m1"
@@ -88229,6 +88552,7 @@
     "sha256": "a2c7a90479b7c3fe0ea49c0050554bd63fb2e01226f687dfa2d42332e5541b53",
     "sha512": "da326df21dc69b6d9dda6870f67c2d103d6bb142bbfb4a1a5efd747b23e97aafe8132016961ded8f94ef8a538bfe6731f5815ff92c36f153d3d94518230528d8",
     "size": 59736958,
+    "unlisted_since": "2026-08-12",
     "url": "https://github.com/ibmruntimes/semeru26-binaries/releases/download/jdk-26%2B33_openj9-0.58.0-m1/ibm-semeru-open-jre_x64_linux_26_33_openj9-0.58.0-m1.tar.gz",
     "vendor": "ibm",
     "version": "26+33_openj9-0.58.0-m1"
@@ -88539,6 +88863,7 @@
     "sha256": "24344ed14ad90d6c2d77fd0012497586a2943a5a28be6c5db9149605f80d39e7",
     "sha512": "6714522a432f8f24b2d7e1993fc0ca4ee78ba04d52f1c04765c580750f2d57640c2828c0e4eed2c96a293dc0925bea62fc87363bdf6d36e99aa5f95dd2b2cfb0",
     "size": 54819308,
+    "unlisted_since": "2026-08-12",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-26/openjdk-26-jre-headless_26.0.1+8-2_amd64.deb",
     "vendor": "debian",
     "version": "26.0.1+8-2"
@@ -88561,6 +88886,7 @@
     "sha256": "9a413b57f96050b9c93e725195542f863df40503d16d9eff3ece03a6ed88b0fe",
     "sha512": "3de665aa9b1caec1a07917f8e39918e7f3f2a3b9aea297edd042ff986f1d5fad65aed654babd3302a2dfe26b725dfa7ff300906718f0b5c00b69681ffd91b413",
     "size": 16399476,
+    "unlisted_since": "2026-08-12",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-26/openjdk-26-jre-zero_26.0.1+8-2_amd64.deb",
     "vendor": "debian",
     "version": "26.0.1+8-2"
@@ -88581,6 +88907,7 @@
     "sha256": "835cd3aa140873b715e77345857f0a206c7f809c20a0342785fbd348ea724db3",
     "sha512": "e0b5bb5e7acf3dbbe3c329661e7518e0bdb52c6c8871b6592827bdf24d82e492d9cf0b7e57eef974204c63cdda1147585f86abf0b9856afab27be86941e28539",
     "size": 202588,
+    "unlisted_since": "2026-08-12",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-26/openjdk-26-jre_26.0.1+8-2_amd64.deb",
     "vendor": "debian",
     "version": "26.0.1+8-2"
@@ -88603,6 +88930,7 @@
     "sha256": "f5a01dd809aeb5b9a76c59f8442ee38b33cd4be59f339c7640613da74a341d82",
     "sha512": "0d77655e710fdaaba11b6aafe4e02e1932b0fd3ae899d7c40a181a809d3f91a9b208b6e9ac1d2687d6a3fa51c9b1ca859a5764e80297e8aa2ad2eef6b6cfd1c2",
     "size": 54789280,
+    "unlisted_since": "2026-08-12",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-26/openjdk-26-jre-headless_26.0.1+8-3_amd64.deb",
     "vendor": "debian",
     "version": "26.0.1+8-3"
@@ -88625,6 +88953,7 @@
     "sha256": "03843f2ee5a0b9eeaa5bf303f6ca2b34cbedb83ebbd435ee2f41eeb52ce9efd4",
     "sha512": "b942ff29845f00d19a65d1a0f389b44869d2709cb7dd9a50e32f257d49015c6e54cfc62f75e82c34ae5d0d343251b73cd30b1cc9f5adcc3cca6a80e0e042551a",
     "size": 16411472,
+    "unlisted_since": "2026-08-12",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-26/openjdk-26-jre-zero_26.0.1+8-3_amd64.deb",
     "vendor": "debian",
     "version": "26.0.1+8-3"
@@ -88645,6 +88974,7 @@
     "sha256": "f47536107c60a6438800788d18b625ca28317e6fc7ab2288b4ce17f1b587a25a",
     "sha512": "0b58d5e2704542a71f602bc4a8301d37be4c547600f5234327b468104c79483b10fb325df4a53d726f899b7ac4f7df9981d755537cd715de78db514d4d258b70",
     "size": 202380,
+    "unlisted_since": "2026-08-12",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-26/openjdk-26-jre_26.0.1+8-3_amd64.deb",
     "vendor": "debian",
     "version": "26.0.1+8-3"
@@ -88667,6 +88997,7 @@
     "sha256": "ed589be64e57942a6a5fbfbca8e232e3a186318f535ed91a093f790100dbd5fb",
     "sha512": "f903676e1223a223b35fb5d84761e7e5d3176b21b8111df9c3ff786c6c04ca1c43723a1aa7ff41454819686d4c2e06d67afa3f76e9bfad6a7fd70053cbf2da29",
     "size": 54811904,
+    "unlisted_since": "2026-08-12",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-26/openjdk-26-jre-headless_26.0.1+8-4_amd64.deb",
     "vendor": "debian",
     "version": "26.0.1+8-4"
@@ -88689,6 +89020,7 @@
     "sha256": "a6b7995109cd58db79d9ea539e50693df00f5f2986a45e957478627f1436d7ac",
     "sha512": "b84489caddb8930259493a95f66ab92574b9bff21b0b0523314f469ffa93aa0574f1058f32459c0a81bb7394966eaf9746369a7b4d690249371cebdfabaab1fe",
     "size": 16417392,
+    "unlisted_since": "2026-08-12",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-26/openjdk-26-jre-zero_26.0.1+8-4_amd64.deb",
     "vendor": "debian",
     "version": "26.0.1+8-4"
@@ -88709,6 +89041,7 @@
     "sha256": "f496d6867efede05dc34adf7baccd11ab292feb981981670564943a7658d06d8",
     "sha512": "68a27baaf734fb8a9bb0c1f18b9497093e71df9ce03c6b2b220b8489ebbf28375491bfd84b324cc8a457f8b3ee20cb7f78b122cb2b5939a6f2210baab100e1d7",
     "size": 202084,
+    "unlisted_since": "2026-08-12",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-26/openjdk-26-jre_26.0.1+8-4_amd64.deb",
     "vendor": "debian",
     "version": "26.0.1+8-4"
@@ -88937,6 +89270,7 @@
     "sha256": "56b4f51c7f66fc99a04f4b2d82cce5d5711f631d6899ea9d92f20983527e142a",
     "sha512": "46b691c7d2e8e0dba511f0846fc098732621ca4e699565b53d19071fa35b427aea0376119d22ea0ec538c736d439713caa50a4ea7dc96c0a0a89e2b507e2501c",
     "size": 54820244,
+    "unlisted_since": "2026-08-12",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-26/openjdk-26-jre-headless_26.0.2+10-1_amd64.deb",
     "vendor": "debian",
     "version": "26.0.2+10-1"
@@ -88959,6 +89293,7 @@
     "sha256": "348498cfa0c291e042affe09c762129b3edf960cb5535ac7cde538d026ae7279",
     "sha512": "4e881403911a63b557308f34ddd64c2b5bc1ce694d14e252ca4124286a35edde268f79348047cab487ff407d8c483a8a7de5948c80080b9ab4f4b45e4f694fa9",
     "size": 16418572,
+    "unlisted_since": "2026-08-12",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-26/openjdk-26-jre-zero_26.0.2+10-1_amd64.deb",
     "vendor": "debian",
     "version": "26.0.2+10-1"
@@ -88979,6 +89314,7 @@
     "sha256": "10506075dc82d6a7bd921f69c2f2889e7a439d6b72861afac71831cbbf53f282",
     "sha512": "2ef944c6dfa95c86cf7b1a912ed730fbf6ef32505ff2e53bc0a89f89d0a3c2d6203a72fbff95f0e7a687a6f97aaa4d63bd2009a2e45deb661727e25f46b06019",
     "size": 202476,
+    "unlisted_since": "2026-08-12",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-26/openjdk-26-jre_26.0.2+10-1_amd64.deb",
     "vendor": "debian",
     "version": "26.0.2+10-1"
