@@ -1776,6 +1776,7 @@
     "sha256": "ba6d3b23aa8a0124e02aad05b07a65cc177060c016471a371e16824d6f84f58f",
     "sha512": "6c8ac27e9f1d0c620272629396de182ccd3af3bc2f2599f2702fb23c8b65097f0c272d6fb02a4713803fdefd4fd0c7aa91944d025d9e89dc32451f8c9db36bbb",
     "size": 25165824,
+    "unlisted_since": "2026-08-14",
     "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.19%2B2-ea-beta/OpenJDK17U-jre_aarch64_windows_hotspot_17.0.19_2-ea.msi",
     "vendor": "eclipse",
     "version": "17.0.19+2-ea-beta"
@@ -1796,6 +1797,7 @@
     "sha256": "2c796862d90512db74529fbd414dedae064d20c7b80817a98c51a7419a64d916",
     "sha512": "cd908fa407eba28e38322bfd05502fa1fdd19d24576ac95b988a5fce81569f3ea00e9a1e1e9322a3d872c8a91d2c795b2d3a5cd971e6aa0a55b4e2731199e45a",
     "size": 35715992,
+    "unlisted_since": "2026-08-14",
     "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.19%2B2-ea-beta/OpenJDK17U-jre_aarch64_windows_hotspot_17.0.19_2-ea.zip",
     "vendor": "eclipse",
     "version": "17.0.19+2-ea-beta"
@@ -3119,6 +3121,7 @@
     "sha256": "165631ba351b44ebe19bcc0998412523dc88686cbbb78e3f57db8fa33f9759df",
     "sha512": "b0f8ad073159f62caa574d441c56f9d33a0798836fce1242751f7ebaa0cc26892e4b453feae740dc5a94199332fb8d3b32488f56284920143e66060744e43132",
     "size": 27738112,
+    "unlisted_since": "2026-08-14",
     "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.11%2B2-ea-beta/OpenJDK21U-jre_aarch64_windows_hotspot_21.0.11_2-ea.msi",
     "vendor": "eclipse",
     "version": "21.0.11+2-ea-beta"
@@ -3139,6 +3142,7 @@
     "sha256": "382b1284efb2691b96c480d19b814faaf27522b8286585a4f2a4a2247734924a",
     "sha512": "5d25d4f21fa1ad48ff4227ce15e5db9d3851a6bb5f8970fa76d6f09a6510e431bbb2ec6e645e2b68be85626826e1c8fd3fdc2c7b3058d65683fa4dc3eca9d9c4",
     "size": 40053422,
+    "unlisted_since": "2026-08-14",
     "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.11%2B2-ea-beta/OpenJDK21U-jre_aarch64_windows_hotspot_21.0.11_2-ea.zip",
     "vendor": "eclipse",
     "version": "21.0.11+2-ea-beta"
@@ -3805,6 +3809,46 @@
   },
   {
     "architecture": "aarch64",
+    "distro": "temurin",
+    "features": [],
+    "file_type": "msi",
+    "filename": "OpenJDK21U-jre_aarch64_windows_hotspot_21.0.13_2-ea.msi",
+    "image_type": "jre",
+    "java_version": "21",
+    "jvm_impl": "hotspot",
+    "md5": "82d66700a9ca17377dfe17edb101a6b3",
+    "os": "windows",
+    "release_type": "ea",
+    "sha1": "25e893ec34939d393f5d77e716c4164a39d7bbb0",
+    "sha256": "01a1f554b7bdc43e10c5c557e89c17235ffff58945eae94087131dbbf67869ed",
+    "sha512": "b5227fe14582d44f00b3d41e992aee3a201d883aa80bc6a93165105dd906fc1a1e782c3d0351b92f77210d1ab3573746c389be65c1416f3b2c57d4a7b0e1583b",
+    "size": 27799552,
+    "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.13%2B2-ea-beta/OpenJDK21U-jre_aarch64_windows_hotspot_21.0.13_2-ea.msi",
+    "vendor": "eclipse",
+    "version": "21.0.13+2-ea-beta"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "temurin",
+    "features": [],
+    "file_type": "zip",
+    "filename": "OpenJDK21U-jre_aarch64_windows_hotspot_21.0.13_2-ea.zip",
+    "image_type": "jre",
+    "java_version": "21",
+    "jvm_impl": "hotspot",
+    "md5": "2ccbbaba50ad06d581ae0b95d0bf23c6",
+    "os": "windows",
+    "release_type": "ea",
+    "sha1": "3e23e8141ff94f09cf3a0baa1b028e1a35b47750",
+    "sha256": "e05080935e4b7a28cc890dab6c5c9aa275b7c5fd5d1abcc578fe34a548778d8e",
+    "sha512": "dfe9b601629cd375c0b465e0362cb128f618d5e3a98e320206ccbfb19cbe4abc40fedc3471392cdf345516876e40fe3c04495a5f29d5be2d9cc9b11aac3e0bec",
+    "size": 40147546,
+    "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.13%2B2-ea-beta/OpenJDK21U-jre_aarch64_windows_hotspot_21.0.13_2-ea.zip",
+    "vendor": "eclipse",
+    "version": "21.0.13+2-ea-beta"
+  },
+  {
+    "architecture": "aarch64",
     "distro": "liberica",
     "features": [
       "leyden"
@@ -4079,6 +4123,7 @@
     "sha256": "6f629d4b7447c2f1d31e3acbffc7edb85923a9a4c5a085bad058de5caca6feec",
     "sha512": "70f8b15f6e2f6d19be62e41d0cf2d5d61d607dd19dacb50d6172f815b8bf4b0b8ed8f88fcc59bca39a955fcd91c1a9ae33cf1b3c47ba2b526aa8431c7148c540",
     "size": 27955200,
+    "unlisted_since": "2026-08-14",
     "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.3%2B2-ea-beta/OpenJDK25U-jre_aarch64_windows_hotspot_25.0.3_2-ea.msi",
     "vendor": "eclipse",
     "version": "25.0.3+2-ea-beta"
@@ -4099,6 +4144,7 @@
     "sha256": "4fd51f944f249506a124967719c79be42b2819b7455a4ae1438a6230985500d0",
     "sha512": "b6e2b15c264b0392ad28d2828b35a3c63453aa15b884560ba941f3a7c2e0426bae8c5d17cb16bb6ede1ed405edcdd61ab81eaa43675f39ce11539ed7a95a377f",
     "size": 40164110,
+    "unlisted_since": "2026-08-14",
     "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.3%2B2-ea-beta/OpenJDK25U-jre_aarch64_windows_hotspot_25.0.3_2-ea.zip",
     "vendor": "eclipse",
     "version": "25.0.3+2-ea-beta"
@@ -5897,6 +5943,7 @@
     "sha256": "cfd48ce47ba860fa23beb27082c6786b6bcfb16e04b3ba93d561de1517a67577",
     "sha512": "5278da6816cc3ffd4765f763493efba30291aad09e8199b26ec394aeb27ee3725d839dd40f8d806a70308db044ae9217de0f85103dddc82625a3639d3ab49f35",
     "size": 28835840,
+    "unlisted_since": "2026-08-14",
     "url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27%2B9-ea-beta/OpenJDK-jre_aarch64_windows_hotspot_27_9-ea.msi",
     "vendor": "eclipse",
     "version": "27+9-ea-beta"
@@ -5917,6 +5964,7 @@
     "sha256": "a2b063824c6034f2c102513d13499273fe119ffd8e9bf54514d6bdc6ba2391d5",
     "sha512": "b7f81c04382d417933f3cdc28f7062567ce551648c89c58dae28899930c4a83c7aff35dddab0e11618d60cef683804101b03f34ce5e628837a078dc7caa4ec85",
     "size": 41437890,
+    "unlisted_since": "2026-08-14",
     "url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27%2B9-ea-beta/OpenJDK-jre_aarch64_windows_hotspot_27_9-ea.zip",
     "vendor": "eclipse",
     "version": "27+9-ea-beta"
