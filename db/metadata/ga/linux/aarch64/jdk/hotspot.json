@@ -16542,6 +16542,29 @@
     "architecture": "aarch64",
     "distro": "liberica",
     "features": [
+      "lite",
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jdk11.0.14+9-linux-aarch64-musl-lite.tar.gz",
+    "image_type": "jdk",
+    "java_version": "11.0.14+9",
+    "jvm_impl": "hotspot",
+    "md5": "0d3570458c80cc3a709590763406ca54",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "cec2664b1c52d79116f5243536de802f866b65f9",
+    "sha256": "165d481d44775791ed75dd09ea82e7d147f57e5a03d04ff1cca4256c2070883e",
+    "sha512": "9145bf48b5b0cc435fb51e47282d1e3c29045d4ffd2e7ba8f36b81eaaa3c09555a0550f917a39e64697cff63e49cafcec55c2841dca62281f4cb83f4e6be424a",
+    "size": 73705759,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.14+9/bellsoft-jdk11.0.14+9-linux-aarch64-musl-lite.tar.gz",
+    "vendor": "bellsoft",
+    "version": "11.0.14+9"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "liberica",
+    "features": [
       "musl"
     ],
     "file_type": "apk",
@@ -26219,6 +26242,26 @@
     "url": "https://static.azul.com/zulu/bin/zulu11.37.48-ca-jdk11.0.6-linux_aarch64.tar.gz",
     "vendor": "azul",
     "version": "11.37.48"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "zulu",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "zulu11.39.61-ca-jdk11.0.7-linux_aarch64.tar.gz",
+    "image_type": "jdk",
+    "java_version": "11.0.7",
+    "jvm_impl": "hotspot",
+    "md5": "5d0f587d4e097bec0de5f2b1440f4843",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "d3751a1a179719e4f3b18556067f21f78bb20d22",
+    "sha256": "90152dcc1185672a98c21c24c05d172925d0b625cd8e3ebb9139332a7dda3321",
+    "sha512": "978fdea1e6ef003e06631cf5d8cf640c5a7d6457861ea75f3edb26ecc72a29b3ce58d93e31656c184458f1087613a46ddb4d5c48844ef8af565e8fb34307f7e1",
+    "size": 432932481,
+    "url": "https://static.azul.com/zulu/bin/zulu11.39.61-ca-jdk11.0.7-linux_aarch64.tar.gz",
+    "vendor": "azul",
+    "version": "11.39.61"
   },
   {
     "architecture": "aarch64",
@@ -70368,6 +70411,26 @@
   },
   {
     "architecture": "aarch64",
+    "distro": "corretto",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "amazon-corretto-21.0.6.7.1-linux-aarch64.tar.gz",
+    "image_type": "jdk",
+    "java_version": "21.0.6+7-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "14e42338d8e0b52a69edaede9892ec23",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "65bcdcf79b54c3132b796e5aec8d19a0394cc7f1",
+    "sha256": "3cb9d8553655ffb5e3992f8ee1822ed8e179b69d56058b0eb6a1aacc30668c8f",
+    "sha512": "990931a3b671aaded80e15dda59d478cae3e968a038ebc50c58ec65c6705f34054b4b40174565fd110003797e11af59004036c5e22858ad170bbce8ff19d41b1",
+    "size": 206404065,
+    "url": "https://corretto.aws/downloads/resources/21.0.6.7.1/amazon-corretto-21.0.6.7.1-linux-aarch64.tar.gz",
+    "vendor": "amazon",
+    "version": "21.0.6.7.1"
+  },
+  {
+    "architecture": "aarch64",
     "distro": "liberica",
     "features": [
       "libericafx",
@@ -72099,6 +72162,28 @@
     "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.8+12/bellsoft-jdk21.0.8+12-linux-aarch64.tar.gz",
     "vendor": "bellsoft",
     "version": "21.0.8+12"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "liberica",
+    "features": [
+      "crac"
+    ],
+    "file_type": "deb",
+    "filename": "bellsoft-jdk21.0.8+13-linux-aarch64-crac.deb",
+    "image_type": "jdk",
+    "java_version": "21.0.8+13-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "bbb7b5286ffc3cd51edd314025828272",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "df551a56f988ea4ec448d339b1f47ee589d36961",
+    "sha256": "985bf8542c1deec2bd20a5592880a80ae988524cd651647c6a667a0768e5b53d",
+    "sha512": "dea304fcecc2bf4717c5ffa2835d2fb3ea380a22d38aab641180145d9546cca5a8c579be3c5e5b743abd86b80a4857a7f4f4272015f41fab38027c8066c1c179",
+    "size": 170781404,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.8+13/bellsoft-jdk21.0.8+13-linux-aarch64-crac.deb",
+    "vendor": "bellsoft",
+    "version": "21.0.8+13"
   },
   {
     "architecture": "aarch64",
@@ -80797,6 +80882,26 @@
     "sha512": "54177ae355c570dbc1a1c8d9ae00b926e209745f06f5c66f101283071cb347e175d59118cec5ed2f3e694dd4c0a8fc0b3911953c2d5cd1bbda77fae6df503535",
     "size": 240041203,
     "url": "https://java.oraclecloud.com/java/24/archive/jdk-24.0.1_linux-aarch64_bin.rpm",
+    "vendor": "oracle",
+    "version": "24.0.1"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "oracle",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "jdk-24.0.1_linux-aarch64_bin.tar.gz",
+    "image_type": "jdk",
+    "java_version": "24.0.1+9-30",
+    "jvm_impl": "hotspot",
+    "md5": "dbc6b57cc80999719dad7c2725e8d28e",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "d0cf57f4f2254baece633dfe7417e9224e6bed4e",
+    "sha256": "4a9c23c7b6b7b343634376c45213068ce99067c23e8e7c5fa238bf2c0e2a4f54",
+    "sha512": "bb06d53782423790f37fbead90a5c899dd7341da5820ca1720ec305d2780569152fea60ae46183aa36e6c7465eb7fba2bac3e799bdbc412e57387fa439a3ffda",
+    "size": 240455717,
+    "url": "https://java.oraclecloud.com/java/24/archive/jdk-24.0.1_linux-aarch64_bin.tar.gz",
     "vendor": "oracle",
     "version": "24.0.1"
   },
