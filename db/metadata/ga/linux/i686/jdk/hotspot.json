@@ -5771,7 +5771,6 @@
     "sha256": "6bb64c6c4e6d8238d2ae09297acf0420878fd80e07a60341f5c4a4eb02f33f12",
     "sha512": "6045d7e893085311a2d380816ec7cbc42ef8c06b62b14f852c9cae5fe7ff4e21a8bdbf9f29006f4eca410b4bbb0e7fbe00e72a8e011653961255f1c45ef3abfb",
     "size": 113142276,
-    "unlisted_since": "2026-08-15",
     "url": "https://builds.openlogic.com/downloadJDK/openlogic-openjdk/8u482-b08/openlogic-openjdk-8u482-b08-linux-x32-deb.deb",
     "vendor": "openlogic",
     "version": "8u482-b08"
@@ -6825,6 +6824,48 @@
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-8/openjdk-8-jdk_8u502-ga-1+b1_i386.deb",
     "vendor": "debian",
     "version": "8u502-ga-1+b1"
+  },
+  {
+    "architecture": "i686",
+    "distro": "debian",
+    "features": [
+      "headless"
+    ],
+    "file_type": "deb",
+    "filename": "openjdk-8-jdk-headless_8u502-ga-2_i386.deb",
+    "image_type": "jdk",
+    "java_version": "8u502",
+    "jvm_impl": "hotspot",
+    "md5": "6c785072d020a6b2066d50dcce6b5fa0",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "533cc9461afe70054aab98724aed2a971265b1de",
+    "sha256": "fef9163300e948cba79ef949ff75015969e2078f831a13fe291b1fd9c87ba8be",
+    "sha512": "7b3417a8246325a2597ca8fb143cb573fccae9953b310208ba0e7ecc15ebf7965bb7bc28a7bc150252a8c9b0f76dba312c7b5f3bfc2798f2727e7ef135cf8499",
+    "size": 8215780,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-8/openjdk-8-jdk-headless_8u502-ga-2_i386.deb",
+    "vendor": "debian",
+    "version": "8u502-ga-2"
+  },
+  {
+    "architecture": "i686",
+    "distro": "debian",
+    "features": [],
+    "file_type": "deb",
+    "filename": "openjdk-8-jdk_8u502-ga-2_i386.deb",
+    "image_type": "jdk",
+    "java_version": "8u502",
+    "jvm_impl": "hotspot",
+    "md5": "8edad404a243c5ef35d6a56bd9b131af",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "c987eaf408b9b4853ca58c82e57024a1f09dcf5f",
+    "sha256": "72e0f1584a955d1b0976044cd09ddef3f630a79d7e9c44475bed57293d7277ed",
+    "sha512": "1c13c23638358d63b904f1c4321c74be66457e0f91be2af880be0636379433e5d7789b00e2d04ec7167130975e069e359d67d65ef7248d5ecca68738abd3d677",
+    "size": 4054968,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-8/openjdk-8-jdk_8u502-ga-2_i386.deb",
+    "vendor": "debian",
+    "version": "8u502-ga-2"
   },
   {
     "architecture": "i686",
@@ -30987,6 +31028,28 @@
     "sha512": "089976897669def2f49aa635888cecff24658b5216361138a48f7fa16d040534c4656f26022f42fea69bd88824eb459a746196f9e8a1d7500bcc0ab15d8945ad",
     "size": 71582348,
     "url": "https://github.com/bell-sw/Liberica/releases/download/20+37/bellsoft-jdk20+37-linux-i586-lite.rpm",
+    "vendor": "bellsoft",
+    "version": "20+37"
+  },
+  {
+    "architecture": "i686",
+    "distro": "liberica",
+    "features": [
+      "lite"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jdk20+37-linux-i586-lite.tar.gz",
+    "image_type": "jdk",
+    "java_version": "20+37",
+    "jvm_impl": "hotspot",
+    "md5": "925346ab4395116e03d1c3c70922c8a3",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "8dcebbeafcc9a515ade581954e7eb50cac3fac79",
+    "sha256": "fb96ac1d455cf61a4ecd0ba2f3bf8a8b132b9b3b693f578de989fab18c997059",
+    "sha512": "74d497c3b78135fddf0dd65daeb90c6b2d6b8dbc9c8803ee4495eeb13997327c63ca14f1c5ec7bd42a1c13c3b4fda7f3a2bb86bf7aab2e95100d68795fcb7583",
+    "size": 75857239,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/20+37/bellsoft-jdk20+37-linux-i586-lite.tar.gz",
     "vendor": "bellsoft",
     "version": "20+37"
   },
