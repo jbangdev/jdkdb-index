@@ -14433,6 +14433,7 @@
     "sha256": "c1db868b8c4f57bef2a0bbbb90257be23d571147e4dffdb27413a2460585b0d3",
     "sha512": "98d9ac7673b7a4bb7d3b44d563f30d912c2a850ca3ed5d08a1a3168e552fb42a6352fb74a1d476559f2f1c68413e2f58c7aafc59506006a4d0e45173d86c499f",
     "size": 194236599,
+    "unlisted_since": "2026-08-17",
     "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.31%2B2-ea-beta/OpenJDK11U-jdk_x64_alpine-linux_hotspot_11.0.31_2-ea.tar.gz",
     "vendor": "eclipse",
     "version": "11.0.31+2-ea-beta"
@@ -14453,6 +14454,7 @@
     "sha256": "6e1fff8b8005a79ef9e4a8907a733904f9e4c690e7b04f661275147a2130e65a",
     "sha512": "d8a0b9d86da63c526d45f11c3c7c2a7ba4f635f87a8819ef64bbfdf10c4903b2ecc68602c37c727ce442cbf7a2658c43628b3ca22f646a6823e554ccb911c359",
     "size": 195563867,
+    "unlisted_since": "2026-08-17",
     "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.31%2B2-ea-beta/OpenJDK11U-jdk_x64_linux_hotspot_11.0.31_2-ea.tar.gz",
     "vendor": "eclipse",
     "version": "11.0.31+2-ea-beta"
@@ -14475,6 +14477,7 @@
     "sha256": "7d9817fa6636e1baed05d7830445855b20ad0638a3630d660e15b2ca81e9549a",
     "sha512": "f3e915274423b8a317c624eb0616c27d90265d2887b6b33a530c6387890f5fa6914b44f517e0c4fef5b5fbb8ed6251b759b767a6346170b8d24fa634b760a046",
     "size": 42809771,
+    "unlisted_since": "2026-08-17",
     "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.31%2B2-ea-beta/OpenJDK11U-jre_x64_alpine-linux_hotspot_11.0.31_2-ea.tar.gz",
     "vendor": "eclipse",
     "version": "11.0.31+2-ea-beta"
@@ -14495,6 +14498,7 @@
     "sha256": "4aa2ea48957f65d874030460d14ad2baa17d2de98d943cf8a27313caa94d24f5",
     "sha512": "ccc195efce8d1589321c0ed9eb25ab4b3c5cd91b4aa3f3d39cf59dd3a6d7687d005f46401cab4f6386519393780b2336801a07ea9b82ffa9901f900247db0163",
     "size": 43475878,
+    "unlisted_since": "2026-08-17",
     "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.31%2B2-ea-beta/OpenJDK11U-jre_x64_linux_hotspot_11.0.31_2-ea.tar.gz",
     "vendor": "eclipse",
     "version": "11.0.31+2-ea-beta"
@@ -51799,6 +51803,29 @@
   {
     "architecture": "x86_64",
     "distro": "sapmachine",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "sapmachine-jdk-21-ea.33_linux-x64-musl_bin.tar.gz",
+    "image_type": "jdk",
+    "java_version": "21-ea.33",
+    "jvm_impl": "hotspot",
+    "md5": "f5a103dc27de8e2d857912896b79cdf2",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "f47507c5701ae5a907f7eb72f79e0a72ea599090",
+    "sha256": "ee941fc7b84320c78e938cea9e128ec23a8f8f992c2df1994bdb5d1cd3188b73",
+    "sha512": "930d6a83501029ad06c3d70caf9e83786d316ab0426d5cf54dbfa66beb37f1cba543181ca40ffc1d258502a2e2d84b69121dedfe41be0cd41fafb05a84782cbe",
+    "size": 209090721,
+    "unlisted_since": "2026-08-12",
+    "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-21+33/sapmachine-jdk-21-ea.33_linux-x64-musl_bin.tar.gz",
+    "vendor": "sap",
+    "version": "21-ea.33"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "sapmachine",
     "features": [],
     "file_type": "tar.gz",
     "filename": "sapmachine-jdk-21-ea.33_linux-x64_bin.tar.gz",
@@ -59742,6 +59769,7 @@
     "sha256": "d44da10293d3facea453a94f4610fbbf0b4f7ca7d311d97b3078b07a51659c51",
     "sha512": "561c556b13380402252aaaa1a21bb9024daa8224e31258720a9d95ef3ce00528dc5ca64f1ac0bd1aa6af8f022058043d4b78c341ae3fe066164bfc5cf921b06b",
     "size": 210325165,
+    "unlisted_since": "2026-08-17",
     "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-21.0.11%2B1/sapmachine-jdk-21.0.11-ea.1_linux-x64-musl_bin.tar.gz",
     "vendor": "sap",
     "version": "21.0.11-ea.1"
@@ -59762,6 +59790,7 @@
     "sha256": "7fd9a952c85300f71eefd287ec95c55dbbb2c790461034f221b9b18320e324cd",
     "sha512": "b724fa0537b1f6f6ab77c6fbf47f25635aa726f3f20f2212fc8ed53efafdec829f9934c3777bc15f17be4fa4eb01463f64dc3c7b8595e5a3311d521425b42ffa",
     "size": 210512288,
+    "unlisted_since": "2026-08-17",
     "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-21.0.11%2B1/sapmachine-jdk-21.0.11-ea.1_linux-x64_bin.tar.gz",
     "vendor": "sap",
     "version": "21.0.11-ea.1"
@@ -59784,6 +59813,7 @@
     "sha256": "9f8e1c600fa1e53ed5d12bc615fc0f35c913e2f6b048b8b07a584ba2c2ee9ec3",
     "sha512": "687f49f9a0152e9ac30dff4f78c7a6818eae3edf4246f522221c53727d58d2e26c0fabb1136717340083cbf1974c9b64ec9f37de2cfa130cadd4712c3f2c2e6a",
     "size": 53754735,
+    "unlisted_since": "2026-08-17",
     "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-21.0.11%2B1/sapmachine-jre-21.0.11-ea.1_linux-x64-musl_bin.tar.gz",
     "vendor": "sap",
     "version": "21.0.11-ea.1"
@@ -59804,6 +59834,7 @@
     "sha256": "861d8898e478b0b7351920b4f432afa75414a43dd76899482d930e6200ec78c9",
     "sha512": "1f00a17e339ecfc02d1de2af69c04a05adc0a688faffb34d6b4207683f87c147e064339f04cd9a51b1c2720e2a6c5afc29f48c20d7581111074ef89f5a283e5f",
     "size": 54884717,
+    "unlisted_since": "2026-08-17",
     "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-21.0.11%2B1/sapmachine-jre-21.0.11-ea.1_linux-x64_bin.tar.gz",
     "vendor": "sap",
     "version": "21.0.11-ea.1"
@@ -82716,6 +82747,7 @@
     "sha256": "ff114f9e12e854d26a80e1e889182134fb073b5237382c859fdbe4d151af8a76",
     "sha512": "cc148248ce0ecfe10641b10d4236df81a8b50efce13a016237a4b65c56635bbd5ea93d15887eb61e29fe78a5059c2b278e0afc3dd4bf6c0433c683e19f17bcde",
     "size": 215631666,
+    "unlisted_since": "2026-08-17",
     "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-25.0.3%2B2/sapmachine-jdk-25.0.3-ea.2_linux-x64-musl_bin.tar.gz",
     "vendor": "sap",
     "version": "25.0.3-ea.2"
@@ -82736,6 +82768,7 @@
     "sha256": "7d52d065908606ab1e381e4cec1f43c00a9c16ab9b7ec1a1e805c67180553456",
     "sha512": "a230fc4da137f57dcbfbd2b590cd8cf3322dce17a666c9cf66b1fd1b4e501dd6902f4c5973839245ecb8f4042ec3ef13267585831a9711d5cf3b06e3bc8abe0a",
     "size": 215929648,
+    "unlisted_since": "2026-08-17",
     "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-25.0.3%2B2/sapmachine-jdk-25.0.3-ea.2_linux-x64_bin.tar.gz",
     "vendor": "sap",
     "version": "25.0.3-ea.2"
@@ -82758,6 +82791,7 @@
     "sha256": "b6b5a1f2b3c152bfb5c515be09de33348d77207a86e0d5e70bf101a91f8e0d2e",
     "sha512": "4b831383e9e8f2d437c3d9894eaaa29ee9a19e1bcb1756e2bf26242a2b5c25df8b9553926e07b8b6fdc974d0b55be7bef2f05afb4009abb02c91836b9b0f3153",
     "size": 50946400,
+    "unlisted_since": "2026-08-17",
     "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-25.0.3%2B2/sapmachine-jre-25.0.3-ea.2_linux-x64-musl_bin.tar.gz",
     "vendor": "sap",
     "version": "25.0.3-ea.2"
@@ -82778,6 +82812,7 @@
     "sha256": "b728c5258b20a3289cc04410a35e3af8b03a952f856c756f5a477989f2396bea",
     "sha512": "86af6af4ad76c945b49d62a4506b2973ea0f3fa3baa1617d567cbc03517c94d72531f50f2e2d95c618b855f8f89183fee9c13387a2918dba3e4e501b56504cfa",
     "size": 52064621,
+    "unlisted_since": "2026-08-17",
     "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-25.0.3%2B2/sapmachine-jre-25.0.3-ea.2_linux-x64_bin.tar.gz",
     "vendor": "sap",
     "version": "25.0.3-ea.2"
@@ -92843,6 +92878,7 @@
     "sha256": "c2edf8b39175a64ce1f18ac186f4a6169dae31dee8d5c491075bd25e5ea3cf18",
     "sha512": "2565fd343b38d3a924084d0cae8df13330e084317f421875e0175414661df13e82e16806a1a0e6b750f1a76201f57878e7a76695873a8c62c89ed0261050cb75",
     "size": 143584032,
+    "unlisted_since": "2026-08-17",
     "url": "https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26%2B35-ea-beta/OpenJDK26U-jdk_x64_alpine-linux_hotspot_26_35-ea.tar.gz",
     "vendor": "eclipse",
     "version": "26+35-ea-beta"
@@ -92863,6 +92899,7 @@
     "sha256": "b5b35e5afcf1dcae2548edf071e10c0f0282659c3ecfd2df570ab9289bc02134",
     "sha512": "1e4c2cfd925ac6937905949b666b195adf2ba8c47fe378f7ef0dcd81cee609ad09a61c62d631ca7c5c1d591ce289502b30f291d2cb2c3056ff48d7738680742d",
     "size": 144293122,
+    "unlisted_since": "2026-08-17",
     "url": "https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26%2B35-ea-beta/OpenJDK26U-jdk_x64_linux_hotspot_26_35-ea.tar.gz",
     "vendor": "eclipse",
     "version": "26+35-ea-beta"
@@ -92885,6 +92922,7 @@
     "sha256": "b5f1cb6fbef1dd92252c54fcdb3b41ebabf7c182f83b062a73702b96bd5e2372",
     "sha512": "e5e4051a9255897cbf654e147875a54b08fda7eb97407c0fad8813681232e6bfb5b5caa054c77dd989aaabcd365fe521bc72192652eda6773a064380ad2e857d",
     "size": 62500357,
+    "unlisted_since": "2026-08-17",
     "url": "https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26%2B35-ea-beta/OpenJDK26U-jre_x64_alpine-linux_hotspot_26_35-ea.tar.gz",
     "vendor": "eclipse",
     "version": "26+35-ea-beta"
@@ -92905,6 +92943,7 @@
     "sha256": "d32a55e2315160ea37e29ef6f8f34325a4fec3bc279f9d81f204408ce7d87813",
     "sha512": "111886cc1abfb8d1ba6863838e797c61ef952ce3e7e6686177770ef11da94b0ab226f08152f5b112f0a64b98e462a97be2523ce2111db051ecb571e9412e0688",
     "size": 63054231,
+    "unlisted_since": "2026-08-17",
     "url": "https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26%2B35-ea-beta/OpenJDK26U-jre_x64_linux_hotspot_26_35-ea.tar.gz",
     "vendor": "eclipse",
     "version": "26+35-ea-beta"

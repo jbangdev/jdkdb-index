@@ -13173,6 +13173,26 @@
     "architecture": "x86_64",
     "distro": "sapmachine",
     "features": [],
+    "file_type": "msi",
+    "filename": "sapmachine-jre-11.0.10_windows-x64_bin.msi",
+    "image_type": "jre",
+    "java_version": "11.0.10",
+    "jvm_impl": "hotspot",
+    "md5": "9ca2ed8a196c172b9251f47eaf4b7066",
+    "os": "windows",
+    "release_type": "ga",
+    "sha1": "6a35efcc89f9124a84a56459abb1dbbbb581f637",
+    "sha256": "436d8ad32e6984d8db770c917ef460e729c7dd8725bd5878e22c5677eee70997",
+    "sha512": "9c432f0de4fa5614fed1430567d83f10d3cae96a37ab88ddb69b858058381cb69ffb94fcef58646a8ba0ad52b677f41b1cafb3a8d1ebe6af7821ba6c2a94cc71",
+    "size": 43278336,
+    "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-11.0.10/sapmachine-jre-11.0.10_windows-x64_bin.msi",
+    "vendor": "sap",
+    "version": "11.0.10"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "sapmachine",
+    "features": [],
     "file_type": "zip",
     "filename": "sapmachine-jre-11.0.10_windows-x64_bin.zip",
     "image_type": "jre",
@@ -126180,6 +126200,29 @@
     "version": "17.0.8-ea.3"
   },
   {
+    "architecture": "ppc64",
+    "distro": "sapmachine",
+    "features": [
+      "le"
+    ],
+    "file_type": "tar.gz",
+    "filename": "sapmachine-jdk-17.0.8-ea.3_linux-ppc64le_bin.tar.gz",
+    "image_type": "jdk",
+    "java_version": "17.0.8-ea.3",
+    "jvm_impl": "hotspot",
+    "md5": "acd7b292bb11fc744633f64be2de9856",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "7bf89a31273650e020a309f0fe09f87cc7e2d8c5",
+    "sha256": "48f8c03573af1859585cee75b0f053624ad41978d402af36b1496d485c8c553d",
+    "sha512": "4779e02cbbc41951ea67c953a8db24532cecd7fb5f3789aaf53a6697413616718399fc7c7769adbfe706c947482eb6d0f2f0d7e3b56d10a5e1a2ddc3a83f8d1b",
+    "size": 193046546,
+    "unlisted_since": "2026-08-12",
+    "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-17.0.8+3/sapmachine-jdk-17.0.8-ea.3_linux-ppc64le_bin.tar.gz",
+    "vendor": "sap",
+    "version": "17.0.8-ea.3"
+  },
+  {
     "architecture": "x86_64",
     "distro": "sapmachine",
     "features": [
@@ -228335,6 +228378,29 @@
   {
     "architecture": "x86_64",
     "distro": "sapmachine",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "sapmachine-jdk-21-ea.33_linux-x64-musl_bin.tar.gz",
+    "image_type": "jdk",
+    "java_version": "21-ea.33",
+    "jvm_impl": "hotspot",
+    "md5": "f5a103dc27de8e2d857912896b79cdf2",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "f47507c5701ae5a907f7eb72f79e0a72ea599090",
+    "sha256": "ee941fc7b84320c78e938cea9e128ec23a8f8f992c2df1994bdb5d1cd3188b73",
+    "sha512": "930d6a83501029ad06c3d70caf9e83786d316ab0426d5cf54dbfa66beb37f1cba543181ca40ffc1d258502a2e2d84b69121dedfe41be0cd41fafb05a84782cbe",
+    "size": 209090721,
+    "unlisted_since": "2026-08-12",
+    "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-21+33/sapmachine-jdk-21-ea.33_linux-x64-musl_bin.tar.gz",
+    "vendor": "sap",
+    "version": "21-ea.33"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "sapmachine",
     "features": [],
     "file_type": "tar.gz",
     "filename": "sapmachine-jdk-21-ea.33_linux-x64_bin.tar.gz",
@@ -232256,6 +232322,26 @@
     "sha512": "4152589d38eadecac000cd5d4b058479150dd21fb8bd386977ccae44e73f206892926e4d5975ad873951a185fd73066662062ebd203bda7f77acf370e27cd0fc",
     "size": 41690237,
     "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-21.0.3/sapmachine-jre-21.0.3_aix-ppc64_bin.tar.gz",
+    "vendor": "sap",
+    "version": "21.0.3"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "sapmachine",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "sapmachine-jre-21.0.3_linux-aarch64_bin.tar.gz",
+    "image_type": "jre",
+    "java_version": "21.0.3+9-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "5a325cc746aac9a421f9f6ff1563bcc4",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "a251ee99e1224a44c9b323a5c0a00926de17e7dd",
+    "sha256": "0d2c647ff947eeb96211d8a1be42650984decbebe1af7961edd8920d4a2491fd",
+    "sha512": "fcf956922876f565026b9891a2a1b126ba9cb0cc590412fdb47c8dded9b218eb3ba528219f98f9ea36dbb95e37c9b14dda66a4ef2b1ffbaf6089ddb64ddc893b",
+    "size": 51951265,
+    "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-21.0.3/sapmachine-jre-21.0.3_linux-aarch64_bin.tar.gz",
     "vendor": "sap",
     "version": "21.0.3"
   },
@@ -263681,6 +263767,7 @@
     "sha256": "c444023198780f8a4902da8daefcdcbb7ab932f6ce5c0b6ac583f6c1cd029f49",
     "sha512": "dba4db9089f30fed1a49d54dd1677cccc04515cb91533fdba111920c928f5fa4c8ae16d4120c9051af74d1c4cce94ea7d40af0300fe2fbfdf21680b047b7acaa",
     "size": 187821121,
+    "unlisted_since": "2026-08-17",
     "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-21.0.11%2B1/sapmachine-jdk-21.0.11-ea.1_aix-ppc64_bin.tar.gz",
     "vendor": "sap",
     "version": "21.0.11-ea.1"
@@ -263701,6 +263788,7 @@
     "sha256": "2f21937707a81ef0f836fbd613faf4d09bfe229d40e9c390c2affb5fe2a8528d",
     "sha512": "56f7121e7d36870a73406cc9bcd0b95fd1d049084a2d1a871e7d97f79031756c22f5bdf624b367fae9a14617ce648a2a87c97ed6b8533e3210d7303cbe233421",
     "size": 208710178,
+    "unlisted_since": "2026-08-17",
     "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-21.0.11%2B1/sapmachine-jdk-21.0.11-ea.1_linux-aarch64_bin.tar.gz",
     "vendor": "sap",
     "version": "21.0.11-ea.1"
@@ -263723,6 +263811,7 @@
     "sha256": "470b7ba8366376675c85581cd6bebadfde73cc47e1af6a0d798afe94943dfce4",
     "sha512": "804c1c91380ef68c55c572f1e40d5774c5267b389c743f12c62849a6d446c88561613d969e910ba0f2330147fbb8b5c4c3f85de1c0dee3b4146777a2d2b7329b",
     "size": 208541330,
+    "unlisted_since": "2026-08-17",
     "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-21.0.11%2B1/sapmachine-jdk-21.0.11-ea.1_linux-ppc64le_bin.tar.gz",
     "vendor": "sap",
     "version": "21.0.11-ea.1"
@@ -263745,6 +263834,7 @@
     "sha256": "d44da10293d3facea453a94f4610fbbf0b4f7ca7d311d97b3078b07a51659c51",
     "sha512": "561c556b13380402252aaaa1a21bb9024daa8224e31258720a9d95ef3ce00528dc5ca64f1ac0bd1aa6af8f022058043d4b78c341ae3fe066164bfc5cf921b06b",
     "size": 210325165,
+    "unlisted_since": "2026-08-17",
     "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-21.0.11%2B1/sapmachine-jdk-21.0.11-ea.1_linux-x64-musl_bin.tar.gz",
     "vendor": "sap",
     "version": "21.0.11-ea.1"
@@ -263765,6 +263855,7 @@
     "sha256": "7fd9a952c85300f71eefd287ec95c55dbbb2c790461034f221b9b18320e324cd",
     "sha512": "b724fa0537b1f6f6ab77c6fbf47f25635aa726f3f20f2212fc8ed53efafdec829f9934c3777bc15f17be4fa4eb01463f64dc3c7b8595e5a3311d521425b42ffa",
     "size": 210512288,
+    "unlisted_since": "2026-08-17",
     "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-21.0.11%2B1/sapmachine-jdk-21.0.11-ea.1_linux-x64_bin.tar.gz",
     "vendor": "sap",
     "version": "21.0.11-ea.1"
@@ -263785,6 +263876,7 @@
     "sha256": "640265add486e40feecae53960285a1e30da1c42b1e44fc1663d03eeffd9e2ad",
     "sha512": "1d9ede5ed63b36977b56ebf37f1977fd26a49493ed535ad8e19678e24307cd756aa3a8b9deb938e1600253adfd08ab63de54252c05c622b96aa7b3c4dc4f98d9",
     "size": 211819716,
+    "unlisted_since": "2026-08-17",
     "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-21.0.11%2B1/sapmachine-jdk-21.0.11-ea.1_macos-aarch64_bin.dmg",
     "vendor": "sap",
     "version": "21.0.11-ea.1"
@@ -263805,6 +263897,7 @@
     "sha256": "6bf9e7d87c4857ce1e27c9b31cb595ae5190bb4af904d63075934572b2e9901e",
     "sha512": "b2cc286d75d1732772d6cfc24bc86b1fbc5ad2fd9de079de340f6cdbdaca7135a5507e20f17f9de949ab4391ae8039509ad68d03d46d66fc368ceeffbd2c7ae5",
     "size": 201685744,
+    "unlisted_since": "2026-08-17",
     "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-21.0.11%2B1/sapmachine-jdk-21.0.11-ea.1_macos-aarch64_bin.tar.gz",
     "vendor": "sap",
     "version": "21.0.11-ea.1"
@@ -263825,6 +263918,7 @@
     "sha256": "3656d54fb5adb301a780c533ee4a38598d981515881ff72f22f87d2a3dd89906",
     "sha512": "7c918bcfe6e8402f43f60b3a1f7cf4c9cf7b8df08bc470e79d758f84688f77e60946dee1a9ae088b356d5df423fc8fde8c43ab30076cc2e4eb15dca651e5a898",
     "size": 214312207,
+    "unlisted_since": "2026-08-17",
     "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-21.0.11%2B1/sapmachine-jdk-21.0.11-ea.1_macos-x64_bin.dmg",
     "vendor": "sap",
     "version": "21.0.11-ea.1"
@@ -263845,6 +263939,7 @@
     "sha256": "50316fe44558c69caae51eba5105df20da2e0ea7db21e9aa15c8d330ca039d0c",
     "sha512": "0009d84450698b7515b2e94e4c9596f907dbeeb7629cc4c1d317e1d9eda0af22d1ec03566679913781433136a988b905ebf30673bd2030b24f608cd11adf27e0",
     "size": 203992380,
+    "unlisted_since": "2026-08-17",
     "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-21.0.11%2B1/sapmachine-jdk-21.0.11-ea.1_macos-x64_bin.tar.gz",
     "vendor": "sap",
     "version": "21.0.11-ea.1"
@@ -263865,6 +263960,7 @@
     "sha256": "d0c74081b21e5ca4fcd874bbbaaee1c7319de7da68dd80eaa813850759fcb921",
     "sha512": "7a849fa1246f80a030efc1aedeb6821d3610a18230125b3578092605ee8d6c477997ce2c434130a722a2ab44c76490544edc7a75a253b9157d4fb1947973d618",
     "size": 214493960,
+    "unlisted_since": "2026-08-17",
     "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-21.0.11%2B1/sapmachine-jdk-21.0.11-ea.1_windows-x64_bin.zip",
     "vendor": "sap",
     "version": "21.0.11-ea.1"
@@ -263885,6 +263981,7 @@
     "sha256": "cef6e6426fdcde411230866b4caabe2365ec570b0853cfbdf4d8443841e589c1",
     "sha512": "d97ea221138d493c72aefc9453a88e1cdf808dc9bc3ccc491c85e4c040f58e5e3bb6cfe62707ed62056042c481026b10036af0d2cfb6707e9eb2b611447fbec6",
     "size": 42315527,
+    "unlisted_since": "2026-08-17",
     "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-21.0.11%2B1/sapmachine-jre-21.0.11-ea.1_aix-ppc64_bin.tar.gz",
     "vendor": "sap",
     "version": "21.0.11-ea.1"
@@ -263905,6 +264002,7 @@
     "sha256": "6abc17682931a4d89e87db96a3aac1b9be764a380fb787de120cef0b4acf7661",
     "sha512": "f2aab4bff9534911b207bcd24d880633f81ec50155499346f5fd4d7e7fd842c8393ec4013f2c00965edacd7b03205ef09e8d527729821eb96b3b36068a73e725",
     "size": 54003213,
+    "unlisted_since": "2026-08-17",
     "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-21.0.11%2B1/sapmachine-jre-21.0.11-ea.1_linux-aarch64_bin.tar.gz",
     "vendor": "sap",
     "version": "21.0.11-ea.1"
@@ -263927,6 +264025,7 @@
     "sha256": "d4c0092af2cf15c8c1c55959795e2b1edd4a48050cb8d8398d49c6831851bdae",
     "sha512": "dfc9bbddf2751e0f218cb65ae774a481f6d25765d6ad527f08500b06f861a4f16fc1565b439603fe1de6d1d7474bca21926a985a0bdb0e877c3466bb6a711733",
     "size": 53146493,
+    "unlisted_since": "2026-08-17",
     "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-21.0.11%2B1/sapmachine-jre-21.0.11-ea.1_linux-ppc64le_bin.tar.gz",
     "vendor": "sap",
     "version": "21.0.11-ea.1"
@@ -263949,6 +264048,7 @@
     "sha256": "9f8e1c600fa1e53ed5d12bc615fc0f35c913e2f6b048b8b07a584ba2c2ee9ec3",
     "sha512": "687f49f9a0152e9ac30dff4f78c7a6818eae3edf4246f522221c53727d58d2e26c0fabb1136717340083cbf1974c9b64ec9f37de2cfa130cadd4712c3f2c2e6a",
     "size": 53754735,
+    "unlisted_since": "2026-08-17",
     "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-21.0.11%2B1/sapmachine-jre-21.0.11-ea.1_linux-x64-musl_bin.tar.gz",
     "vendor": "sap",
     "version": "21.0.11-ea.1"
@@ -263969,6 +264069,7 @@
     "sha256": "861d8898e478b0b7351920b4f432afa75414a43dd76899482d930e6200ec78c9",
     "sha512": "1f00a17e339ecfc02d1de2af69c04a05adc0a688faffb34d6b4207683f87c147e064339f04cd9a51b1c2720e2a6c5afc29f48c20d7581111074ef89f5a283e5f",
     "size": 54884717,
+    "unlisted_since": "2026-08-17",
     "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-21.0.11%2B1/sapmachine-jre-21.0.11-ea.1_linux-x64_bin.tar.gz",
     "vendor": "sap",
     "version": "21.0.11-ea.1"
@@ -263989,6 +264090,7 @@
     "sha256": "808385154e80d16c8384e29bbcb86bee0bc751d2d2de87f9a7eaedffcfca5888",
     "sha512": "cd5ea5f8f853c3ec031778ffcc61bdabc29858ea5b9962f67ce59a8f196f9983b4792b99b5f1c139822ccfd387f74f2decd13e326818f8287dd60f2dd7921317",
     "size": 56233544,
+    "unlisted_since": "2026-08-17",
     "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-21.0.11%2B1/sapmachine-jre-21.0.11-ea.1_macos-aarch64_bin.dmg",
     "vendor": "sap",
     "version": "21.0.11-ea.1"
@@ -264009,6 +264111,7 @@
     "sha256": "6287c729e99040f3c2cb3888b8112e86f86494ac09a99f2d31a018cca4f92bb0",
     "sha512": "bf93d54284b8a9dce5736803004eed14c0386618a0eefd54e097ffb30712e814244ca8b66e751461d29504e47af15d35e7bcb2906ff8c44ac07bac4cb46edbfe",
     "size": 49179497,
+    "unlisted_since": "2026-08-17",
     "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-21.0.11%2B1/sapmachine-jre-21.0.11-ea.1_macos-aarch64_bin.tar.gz",
     "vendor": "sap",
     "version": "21.0.11-ea.1"
@@ -264029,6 +264132,7 @@
     "sha256": "db2d748214943615b1de6dc59c56ee5fc5ca419d4d3d2cd1ba3ad68cfe048108",
     "sha512": "cdb03199b0ac9d8f091d2b3c583f3dc2bdc2668e07392169a5297bfd573574629a6a8c332d2482a018fb38ee9a924563833e4f88157d846cffe2bb642a86900f",
     "size": 57590862,
+    "unlisted_since": "2026-08-17",
     "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-21.0.11%2B1/sapmachine-jre-21.0.11-ea.1_macos-x64_bin.dmg",
     "vendor": "sap",
     "version": "21.0.11-ea.1"
@@ -264049,6 +264153,7 @@
     "sha256": "d1f2a3f4065733f03c2065ad03a33640f230279c366347d79273f7bf7a1727de",
     "sha512": "dedaaea1c7b15af5167b2520a108e9dee69755824004438041076aa7ab8f924c522426cf18e37ab7af31f4360727315bf8802a0efdf56d89bf9c239b6e05c493",
     "size": 50330054,
+    "unlisted_since": "2026-08-17",
     "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-21.0.11%2B1/sapmachine-jre-21.0.11-ea.1_macos-x64_bin.tar.gz",
     "vendor": "sap",
     "version": "21.0.11-ea.1"
@@ -264069,6 +264174,7 @@
     "sha256": "1144376c43743552955fd8a829a0a2de798af4105f0694db78a9c62d0bc51def",
     "sha512": "0b94509c429169e35d3512cb7fdd7e79d426bf6ab4b83d3d97bd577968989b6f3817f8bf81499efeee6228b9f19257e83cad3a08b7ec6567a938f22fb15d38e4",
     "size": 53755406,
+    "unlisted_since": "2026-08-17",
     "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-21.0.11%2B1/sapmachine-jre-21.0.11-ea.1_windows-x64_bin.zip",
     "vendor": "sap",
     "version": "21.0.11-ea.1"
@@ -338843,6 +338949,7 @@
     "sha256": "7132e3047c00c95dfdf64142cf79bc0376224f59f4d4ec01e0da6b10d446745c",
     "sha512": "0d5060e6c8de40b191bb87442dcd00736b930ace89d6bb10f15877bd403a98f40b0ce9526dee7f76d5f075093c2dd2b951032dd48fbf00b9372b51a921512417",
     "size": 195692885,
+    "unlisted_since": "2026-08-17",
     "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-25.0.3%2B2/sapmachine-jdk-25.0.3-ea.2_aix-ppc64_bin.tar.gz",
     "vendor": "sap",
     "version": "25.0.3-ea.2"
@@ -338863,6 +338970,7 @@
     "sha256": "f4e8634a3574fe751a7f4cd48f7d159007933f63418b85eddfae500af8739cd0",
     "sha512": "f597dfb82f898374479c466038403dd841ab86cfc1a19b0198c2c5cf67be92de3f846c88f0846a1b6b84f1f91ff850186fae0f891e37d7bc997dcc980ecfb196",
     "size": 213641007,
+    "unlisted_since": "2026-08-17",
     "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-25.0.3%2B2/sapmachine-jdk-25.0.3-ea.2_linux-aarch64_bin.tar.gz",
     "vendor": "sap",
     "version": "25.0.3-ea.2"
@@ -338885,6 +338993,7 @@
     "sha256": "619a46ea5ec294543f9b162eeca4a041b88614db1cdec73c73eb233398cf329b",
     "sha512": "e48083e629299f652d7469688b01c70c158f49d1a8ac4bcd8fc9c7e60b6588e5cdd8df901c33cb105dc615ae822ca5e44c43560cb2c75fabf6cbea469a8ac3cc",
     "size": 214083587,
+    "unlisted_since": "2026-08-17",
     "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-25.0.3%2B2/sapmachine-jdk-25.0.3-ea.2_linux-ppc64le_bin.tar.gz",
     "vendor": "sap",
     "version": "25.0.3-ea.2"
@@ -338907,6 +339016,7 @@
     "sha256": "ff114f9e12e854d26a80e1e889182134fb073b5237382c859fdbe4d151af8a76",
     "sha512": "cc148248ce0ecfe10641b10d4236df81a8b50efce13a016237a4b65c56635bbd5ea93d15887eb61e29fe78a5059c2b278e0afc3dd4bf6c0433c683e19f17bcde",
     "size": 215631666,
+    "unlisted_since": "2026-08-17",
     "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-25.0.3%2B2/sapmachine-jdk-25.0.3-ea.2_linux-x64-musl_bin.tar.gz",
     "vendor": "sap",
     "version": "25.0.3-ea.2"
@@ -338927,6 +339037,7 @@
     "sha256": "7d52d065908606ab1e381e4cec1f43c00a9c16ab9b7ec1a1e805c67180553456",
     "sha512": "a230fc4da137f57dcbfbd2b590cd8cf3322dce17a666c9cf66b1fd1b4e501dd6902f4c5973839245ecb8f4042ec3ef13267585831a9711d5cf3b06e3bc8abe0a",
     "size": 215929648,
+    "unlisted_since": "2026-08-17",
     "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-25.0.3%2B2/sapmachine-jdk-25.0.3-ea.2_linux-x64_bin.tar.gz",
     "vendor": "sap",
     "version": "25.0.3-ea.2"
@@ -338947,6 +339058,7 @@
     "sha256": "3a7fcf0a537ae721cebcd5d648e88ff7a3ea97d66f4a269db5b71fb04dae3bf6",
     "sha512": "a5589b186d2cc227bd41cb5d6dbfe705a2645c1485a0da99516a24aba3277929ddfb8ba2a22185f05db21097dffaec806cb5e6f89ed31ec81da4579a43430252",
     "size": 216158281,
+    "unlisted_since": "2026-08-17",
     "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-25.0.3%2B2/sapmachine-jdk-25.0.3-ea.2_macos-aarch64_bin.dmg",
     "vendor": "sap",
     "version": "25.0.3-ea.2"
@@ -338967,6 +339079,7 @@
     "sha256": "1115750ea17fd4766b04dcf8573be66a0b00d17cb9a3c44536ef2b952f349397",
     "sha512": "cf9c4af9e30643b1597dfe65df7c3bbd4bf27edde87b8338d4c591ee166d0186ff7d83e9433b2523f97a46e091e085a79b3ea859b2b6a07a03be7b092780d66d",
     "size": 206265963,
+    "unlisted_since": "2026-08-17",
     "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-25.0.3%2B2/sapmachine-jdk-25.0.3-ea.2_macos-aarch64_bin.tar.gz",
     "vendor": "sap",
     "version": "25.0.3-ea.2"
@@ -338987,6 +339100,7 @@
     "sha256": "f903818fa9220ae6fd8a59503673dea3692cbb03a86f1f54c984cc433e868e13",
     "sha512": "864c507e58aacfc6ac6a2cd17f58568e016302f67833382e9a6f2d2111bbc07de605b48b345a6e9e087a3b2a61156fcb192cab50bf4997506b6327b0ac3e1234",
     "size": 221469971,
+    "unlisted_since": "2026-08-17",
     "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-25.0.3%2B2/sapmachine-jdk-25.0.3-ea.2_windows-x64_bin.zip",
     "vendor": "sap",
     "version": "25.0.3-ea.2"
@@ -339007,6 +339121,7 @@
     "sha256": "0c63ac965ec01d6b8a86a275f0ddc6fbf24ab9b2d3fc3e9dd9d8bf73aff9528c",
     "sha512": "c9c8412cbaa4db3b5e636ef70976b3a361a3b99d3815e60c82e51853e4835a2590540ca72f5a2bea948902c6797f0bf029349c9457cb98e4ecbd518ea0fdc3d0",
     "size": 42263599,
+    "unlisted_since": "2026-08-17",
     "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-25.0.3%2B2/sapmachine-jre-25.0.3-ea.2_aix-ppc64_bin.tar.gz",
     "vendor": "sap",
     "version": "25.0.3-ea.2"
@@ -339027,6 +339142,7 @@
     "sha256": "136f622325befc4d90758016a76210ed7ca1922d512e1fc7506b749bcd754c74",
     "sha512": "dab31f181bb967903720f47b99da19e89c4e9101be41184c3f1e64f6badb945b9526472f8521d54768d8c2bd7bf420d31f9dbed8b7b4a5b4148f7e1a5637a393",
     "size": 50937806,
+    "unlisted_since": "2026-08-17",
     "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-25.0.3%2B2/sapmachine-jre-25.0.3-ea.2_linux-aarch64_bin.tar.gz",
     "vendor": "sap",
     "version": "25.0.3-ea.2"
@@ -339049,6 +339165,7 @@
     "sha256": "0e0088dfe2d20511c7d07eb7ac1e694c20b529b490a4c9b47e995e1d0d3b89cc",
     "sha512": "3f73e2f0e981b62b40b4a51c5d78ed188679c1a6366eee9db20d117ddaa3e1463d1d1324d674f6925b1da53af607fe9c49255b7faceaca03438e5af712394bdd",
     "size": 50360804,
+    "unlisted_since": "2026-08-17",
     "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-25.0.3%2B2/sapmachine-jre-25.0.3-ea.2_linux-ppc64le_bin.tar.gz",
     "vendor": "sap",
     "version": "25.0.3-ea.2"
@@ -339071,6 +339188,7 @@
     "sha256": "b6b5a1f2b3c152bfb5c515be09de33348d77207a86e0d5e70bf101a91f8e0d2e",
     "sha512": "4b831383e9e8f2d437c3d9894eaaa29ee9a19e1bcb1756e2bf26242a2b5c25df8b9553926e07b8b6fdc974d0b55be7bef2f05afb4009abb02c91836b9b0f3153",
     "size": 50946400,
+    "unlisted_since": "2026-08-17",
     "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-25.0.3%2B2/sapmachine-jre-25.0.3-ea.2_linux-x64-musl_bin.tar.gz",
     "vendor": "sap",
     "version": "25.0.3-ea.2"
@@ -339091,6 +339209,7 @@
     "sha256": "b728c5258b20a3289cc04410a35e3af8b03a952f856c756f5a477989f2396bea",
     "sha512": "86af6af4ad76c945b49d62a4506b2973ea0f3fa3baa1617d567cbc03517c94d72531f50f2e2d95c618b855f8f89183fee9c13387a2918dba3e4e501b56504cfa",
     "size": 52064621,
+    "unlisted_since": "2026-08-17",
     "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-25.0.3%2B2/sapmachine-jre-25.0.3-ea.2_linux-x64_bin.tar.gz",
     "vendor": "sap",
     "version": "25.0.3-ea.2"
@@ -339111,6 +339230,7 @@
     "sha256": "12a63896ee25d06985258898f6c9e5086380e6ab9fc36b268a88405e7ba784a2",
     "sha512": "62e1753ebb17855fd8d73898f7c1097a6f77e7e7541f53bc1346d5adce767048dabe63921ddebb6631bfc89a692c97455345380f233b599c0c79719f01857f4f",
     "size": 52551575,
+    "unlisted_since": "2026-08-17",
     "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-25.0.3%2B2/sapmachine-jre-25.0.3-ea.2_macos-aarch64_bin.dmg",
     "vendor": "sap",
     "version": "25.0.3-ea.2"
@@ -339131,6 +339251,7 @@
     "sha256": "444f5df735bfc7f1e70d3612834edabba8da4aa3e881a06455e82ae7502eb801",
     "sha512": "0363382eeda1fe71497154c7b48fd61de1c6b9c12956af6a9a61c0ccd85d7e7ccdbe57fe04a00337d3b8d8f8731163f8d96597791bd19082f1474dc6cb1e7d5a",
     "size": 45918183,
+    "unlisted_since": "2026-08-17",
     "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-25.0.3%2B2/sapmachine-jre-25.0.3-ea.2_macos-aarch64_bin.tar.gz",
     "vendor": "sap",
     "version": "25.0.3-ea.2"
@@ -339151,6 +339272,7 @@
     "sha256": "708480588d0de398c4e40e9816a03b7f6121fc2c8c8148e8d881cdf1ac36f22a",
     "sha512": "fee1e896c2da95d3d4290d664161a8c0004269509c6e317abee6d4ad2b9ba5a6c99fc8beaf50f0bed704ef6b8f108df7ce019a9eb1803380c3d9f41f11046d78",
     "size": 51817950,
+    "unlisted_since": "2026-08-17",
     "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-25.0.3%2B2/sapmachine-jre-25.0.3-ea.2_windows-x64_bin.zip",
     "vendor": "sap",
     "version": "25.0.3-ea.2"

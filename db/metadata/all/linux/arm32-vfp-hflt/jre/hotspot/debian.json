@@ -443,6 +443,7 @@
     "sha256": "d331294b9b398115adfe2c634992c4703ca692db1504fd572e6fd66d6c49f07d",
     "sha512": "63900cb5fd657df6178b4602ad3bb56e8deaf14134f7454a1ac80e64309ee9d0b088a3259c197872ceb9a15f6678ec5f43087c871b8d91eaf99cc01372cabbe4",
     "size": 26561416,
+    "unlisted_since": "2026-08-17",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-8/openjdk-8-jre-headless_8u502-ga-1+b1_armhf.deb",
     "vendor": "debian",
     "version": "8u502-ga-1+b1"
@@ -466,6 +467,7 @@
     "sha256": "011168a359bd439e3dbab5a4e579ac315d298bbf963df4bc21b56c9837da7a87",
     "sha512": "d90ebd7b38d61479858d76d9764e780f86e6898411e2d121d38ea710b026664dd5813c1f8c4abdc1e902b9b39e550ec9090a5e093bfb019079aef96526b365fa",
     "size": 1750080,
+    "unlisted_since": "2026-08-17",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-8/openjdk-8-jre-zero_8u502-ga-1+b1_armhf.deb",
     "vendor": "debian",
     "version": "8u502-ga-1+b1"
@@ -488,6 +490,7 @@
     "sha256": "79e0db8ec93f69b82aae245cf1f42c6039df761ef04d120cf639c9fe6c2d3b6f",
     "sha512": "da8dfa08b891ad9d017fd0097863ad95818e0f0988f45ba5b1085e59d01e8a71d14b07547a3badef8ac9c79ad0526230ec47b195687c96814fbf48e097fbdd40",
     "size": 63184,
+    "unlisted_since": "2026-08-17",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-8/openjdk-8-jre_8u502-ga-1+b1_armhf.deb",
     "vendor": "debian",
     "version": "8u502-ga-1+b1"
@@ -907,6 +910,51 @@
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-11/openjdk-11-jre_11.0.32+9-2_armhf.deb",
     "vendor": "debian",
     "version": "11.0.32+9-2"
+  },
+  {
+    "architecture": "arm32-vfp-hflt",
+    "distro": "debian",
+    "features": [
+      "headless",
+      "hard-float"
+    ],
+    "file_type": "deb",
+    "filename": "openjdk-11-jre-headless_11.0.32+9-3_armhf.deb",
+    "image_type": "jre",
+    "java_version": "11.0.32+9-post-3-Debian",
+    "jvm_impl": "hotspot",
+    "md5": "94a8ee219d6faf41d292df5839eba736",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "f4c182c9d2e12bbbb4efb1ec084a0b3cd41fa415",
+    "sha256": "86be674d29fd9af4c7a43179fad0862b01a0ea4eb300534c8ada372e92e85213",
+    "sha512": "9c72b1bd9820dd8c368422655106e70bc6788cdc36084fdbfb00134bc9cb8ad76a4236d3254f34f73d533eaa80fade5674dd8a09371867e445bc557a062383b9",
+    "size": 34072900,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-11/openjdk-11-jre-headless_11.0.32+9-3_armhf.deb",
+    "vendor": "debian",
+    "version": "11.0.32+9-3"
+  },
+  {
+    "architecture": "arm32-vfp-hflt",
+    "distro": "debian",
+    "features": [
+      "hard-float"
+    ],
+    "file_type": "deb",
+    "filename": "openjdk-11-jre_11.0.32+9-3_armhf.deb",
+    "image_type": "jre",
+    "java_version": "11.0.32+9",
+    "jvm_impl": "hotspot",
+    "md5": "5d82fbe15b485a5c8db0d9ba0d309c88",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "1da00cdf45f219bdc7a75d7dda5f05343130ae9f",
+    "sha256": "6c41fc0c323b0b1edc159688fcd4bcff603b4abf5f7503cb3554e8f56955cd28",
+    "sha512": "30e1577e4ae2b166448578edda65b3284aaf139171c533503ea42284efcd957a04492bea01314a4cb79834f409b664c1321e434e138c75912849d1b99d7cb4e4",
+    "size": 174200,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-11/openjdk-11-jre_11.0.32+9-3_armhf.deb",
+    "vendor": "debian",
+    "version": "11.0.32+9-3"
   },
   {
     "architecture": "arm32-vfp-hflt",
@@ -1546,6 +1594,74 @@
       "hard-float"
     ],
     "file_type": "deb",
+    "filename": "openjdk-17-jre-headless_17.0.20+8-2_armhf.deb",
+    "image_type": "jre",
+    "java_version": "17.0.20+8-2-Debian",
+    "jvm_impl": "hotspot",
+    "md5": "81637818a69faf36e8abcfcfeed3dc62",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "b2a2d96b93cbb003be69889a202a064ab7097d14",
+    "sha256": "6e437fcb9844e3a5068f606827a87cba9dc192151c258fac3251c882f649b8b6",
+    "sha512": "c6b936102eccf2a91b3217c8902a398dda0c6c8b381480c8f603183fad24609aca961b2756f92a33d5a41f202ec0b932e870300ed7108a8bc0eb3c445739e79d",
+    "size": 38613940,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-17/openjdk-17-jre-headless_17.0.20+8-2_armhf.deb",
+    "vendor": "debian",
+    "version": "17.0.20+8-2"
+  },
+  {
+    "architecture": "arm32-vfp-hflt",
+    "distro": "debian",
+    "features": [
+      "zero",
+      "hard-float"
+    ],
+    "file_type": "deb",
+    "filename": "openjdk-17-jre-zero_17.0.20+8-2_armhf.deb",
+    "image_type": "jre",
+    "java_version": "17.0.20+8",
+    "jvm_impl": "hotspot",
+    "md5": "ed2fee577938a8023453294e3bc6d08d",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "20c0580150032517faadb84e7015daa8ce12a6c4",
+    "sha256": "99695cfb9d733b70dfddfe60dea0ae3abc8a538c6fe83ae2df459b3f5b151f5b",
+    "sha512": "4beeb526ece281867ffa3ed7ebbbe599db617a3da9803870f51eb38fdd792219508456f867978c76a51f90f69dccb3081840d52df9edfa3acf213e898b545a50",
+    "size": 2219712,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-17/openjdk-17-jre-zero_17.0.20+8-2_armhf.deb",
+    "vendor": "debian",
+    "version": "17.0.20+8-2"
+  },
+  {
+    "architecture": "arm32-vfp-hflt",
+    "distro": "debian",
+    "features": [
+      "hard-float"
+    ],
+    "file_type": "deb",
+    "filename": "openjdk-17-jre_17.0.20+8-2_armhf.deb",
+    "image_type": "jre",
+    "java_version": "17.0.20+8",
+    "jvm_impl": "hotspot",
+    "md5": "f0f000daa45493d54edaa821df7017aa",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "4fa3ce7d1c57ac5b0f992349f8bbe75c28a2807d",
+    "sha256": "3f6e96993c787e008c16290477664ac0e42eaf59d3eb2fa6fb2ec6a27df0c8f6",
+    "sha512": "0f267078c6573d5c33bbec78812ad401870afcadb6c22dcd8844d9b4098201b71cc861e7dedfcbf1b82f1deeb8eb948bfb6a286e248ef3d5ea7900239924ca1f",
+    "size": 187804,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-17/openjdk-17-jre_17.0.20+8-2_armhf.deb",
+    "vendor": "debian",
+    "version": "17.0.20+8-2"
+  },
+  {
+    "architecture": "arm32-vfp-hflt",
+    "distro": "debian",
+    "features": [
+      "headless",
+      "hard-float"
+    ],
+    "file_type": "deb",
     "filename": "openjdk-21-jre-headless_21.0.12~5ea-1_armhf.deb",
     "image_type": "jre",
     "java_version": "21.0.11-ea+5-1-Debian",
@@ -2176,6 +2292,74 @@
       "hard-float"
     ],
     "file_type": "deb",
+    "filename": "openjdk-21-jre-headless_21.0.12+8-2_armhf.deb",
+    "image_type": "jre",
+    "java_version": "21.0.12+8-2-Debian",
+    "jvm_impl": "hotspot",
+    "md5": "a69fda0d7efdb76cc844f2e66d659981",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "27ba9f65c690f36ab773a47b7889de3d98464d0f",
+    "sha256": "9b476a0bf249b924d471f503fe12fe819f25f3d2933d0751a24d5ddde5757e19",
+    "sha512": "22125eb2f1a559456692afcbee9988e7c60147b6cc89e86081273c1ae7af0144d99a6369502437cd77ab62aeebb2ffd890db9bbd4d7d52fe9bdf134173d367f8",
+    "size": 35892316,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-21/openjdk-21-jre-headless_21.0.12+8-2_armhf.deb",
+    "vendor": "debian",
+    "version": "21.0.12+8-2"
+  },
+  {
+    "architecture": "arm32-vfp-hflt",
+    "distro": "debian",
+    "features": [
+      "zero",
+      "hard-float"
+    ],
+    "file_type": "deb",
+    "filename": "openjdk-21-jre-zero_21.0.12+8-2_armhf.deb",
+    "image_type": "jre",
+    "java_version": "21.0.12+8",
+    "jvm_impl": "hotspot",
+    "md5": "066fcf3159a3a17af769bc118b90ea8b",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "792076a8dcb44151d150f9c1a2b9b02fcb2e8060",
+    "sha256": "a6aa294db23a9f491c182fed7b6687181b00e15cf309cd3c5249bf9aead99e0b",
+    "sha512": "cb65be64564f3bd8ad997d6463624fada1b7ac38a497b33efeeadf8a1a6f7ac8c4801f9b8423ba7868c636919db5807dae4f7a0d36cb84c567ebf97793c0e3c3",
+    "size": 5106740,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-21/openjdk-21-jre-zero_21.0.12+8-2_armhf.deb",
+    "vendor": "debian",
+    "version": "21.0.12+8-2"
+  },
+  {
+    "architecture": "arm32-vfp-hflt",
+    "distro": "debian",
+    "features": [
+      "hard-float"
+    ],
+    "file_type": "deb",
+    "filename": "openjdk-21-jre_21.0.12+8-2_armhf.deb",
+    "image_type": "jre",
+    "java_version": "21.0.12+8",
+    "jvm_impl": "hotspot",
+    "md5": "8e81ef64a43e5ff15a9379e9acc4d974",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "9d4b1940699c99701589a56a14e696ca2704d054",
+    "sha256": "51a8b1ae89e74f0f1e5b003fe96620d13f3262ebae6208e321348a1fc9fa3e07",
+    "sha512": "392fc7c0a3c1cb8092f83a3f68a96023fa97e74512c7fd21ebed8248662e0c0dcc9bd11921cc5e58bd32e3f914c09c136b22fd7ca685f511041be563c48538eb",
+    "size": 186376,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-21/openjdk-21-jre_21.0.12+8-2_armhf.deb",
+    "vendor": "debian",
+    "version": "21.0.12+8-2"
+  },
+  {
+    "architecture": "arm32-vfp-hflt",
+    "distro": "debian",
+    "features": [
+      "headless",
+      "hard-float"
+    ],
+    "file_type": "deb",
     "filename": "openjdk-25-jre-headless_25.0.3~8ea-1_armhf.deb",
     "image_type": "jre",
     "java_version": "25.0.3-ea+8-Debian-1",
@@ -2595,6 +2779,51 @@
       "hard-float"
     ],
     "file_type": "deb",
+    "filename": "openjdk-25-jre-headless_25.0.4+7-2_armhf.deb",
+    "image_type": "jre",
+    "java_version": "25.0.4+7-2-Debian",
+    "jvm_impl": "hotspot",
+    "md5": "950640bb9ba0088d3da09456ac34e58c",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "daa2335e00290bd8187af36595113ef51c1fb95e",
+    "sha256": "9b06c11520d2680fe06bc103ed37f47e79c27582f00f13e1e1ef70dd9339f849",
+    "sha512": "cead140735c446e823cf2426cedef96a2c18a43e6239d197c0d99bf1a22fffabc7c5d46e3e64f7671f0964391eb6628ccb553a47aa6732abde9d800e27178013",
+    "size": 37692672,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-25/openjdk-25-jre-headless_25.0.4+7-2_armhf.deb",
+    "vendor": "debian",
+    "version": "25.0.4+7-2"
+  },
+  {
+    "architecture": "arm32-vfp-hflt",
+    "distro": "debian",
+    "features": [
+      "hard-float"
+    ],
+    "file_type": "deb",
+    "filename": "openjdk-25-jre_25.0.4+7-2_armhf.deb",
+    "image_type": "jre",
+    "java_version": "25.0.4+7",
+    "jvm_impl": "hotspot",
+    "md5": "825f04a7aaeb106701108d353cdad56c",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "d4faf20630f58885105e4939b6e4ca94ddab30ad",
+    "sha256": "cf5be82cdb1a848a775983dc310c84b9d9b1d197da903608443555365893e613",
+    "sha512": "e049cd54889bfdd54dcbaa7fbe63086104c8fcd4c4d561b51aa5a4c9c9d2f51f41c93781a2de67080a648313d2e2f8936839b2bebb3950b6c455658c7d171177",
+    "size": 179476,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-25/openjdk-25-jre_25.0.4+7-2_armhf.deb",
+    "vendor": "debian",
+    "version": "25.0.4+7-2"
+  },
+  {
+    "architecture": "arm32-vfp-hflt",
+    "distro": "debian",
+    "features": [
+      "headless",
+      "hard-float"
+    ],
+    "file_type": "deb",
     "filename": "openjdk-26-jre-headless_26.0.1+8-2_armhf.deb",
     "image_type": "jre",
     "java_version": "26.0.1+8-2-Debian",
@@ -2819,6 +3048,51 @@
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-26/openjdk-26-jre_26.0.2+10-2_armhf.deb",
     "vendor": "debian",
     "version": "26.0.2+10-2"
+  },
+  {
+    "architecture": "arm32-vfp-hflt",
+    "distro": "debian",
+    "features": [
+      "headless",
+      "hard-float"
+    ],
+    "file_type": "deb",
+    "filename": "openjdk-26-jre-headless_26.0.2+10-3_armhf.deb",
+    "image_type": "jre",
+    "java_version": "26.0.2+10-3-Debian",
+    "jvm_impl": "hotspot",
+    "md5": "e81317bc39ad01e60e18d08a2514d5e0",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "984a9b0bfdf847d3aaf2f4c9547965295c162d90",
+    "sha256": "1c078dd5fdb59e2027ee979e14e7c01dad77f9aa301cb270ffd12ddd2004935d",
+    "sha512": "1b53095534fa35edcedcbf4051620b0a0f177a351adeaa432c70ca29dd092aef2585a0ca5ae27773fc677232fdb15dec13ea476282a2e3d5da8b87e99bcc1590",
+    "size": 38503540,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-26/openjdk-26-jre-headless_26.0.2+10-3_armhf.deb",
+    "vendor": "debian",
+    "version": "26.0.2+10-3"
+  },
+  {
+    "architecture": "arm32-vfp-hflt",
+    "distro": "debian",
+    "features": [
+      "hard-float"
+    ],
+    "file_type": "deb",
+    "filename": "openjdk-26-jre_26.0.2+10-3_armhf.deb",
+    "image_type": "jre",
+    "java_version": "26.0.2+10",
+    "jvm_impl": "hotspot",
+    "md5": "e54e46d5a06a91c770c5057d97ff35c0",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "e590843ca9de98dc6ac4ed103014a603a4cd1c0d",
+    "sha256": "1ef416d2362394c01b435c00c4c633dd3f4666533f61b9958d7bb0d501833c4d",
+    "sha512": "b6ede0f9b2ea2b99ffb05afebecfe1e352dcffff115e57e0a0dbc574880e2885ed45d0c2404c5915457ecd3c56b32b4f406cd31c12287c772b01c500f9386cb4",
+    "size": 178244,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-26/openjdk-26-jre_26.0.2+10-3_armhf.deb",
+    "vendor": "debian",
+    "version": "26.0.2+10-3"
   },
   {
     "architecture": "arm32-vfp-hflt",
