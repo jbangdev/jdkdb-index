@@ -6749,6 +6749,7 @@
     "sha256": "c3f072251d41742546b8b36950f4bcd5eca2ea606c8eb75f3f92a943c2da4edf",
     "sha512": "ac58ee66450c39461c87b80d7402f7236d17d36337f7482e8b8fd7c71fcc7ccc6e3a709d179a7acffe4f3cc68832e2ca25dfc43979331769f702808a8a2bcc0c",
     "size": 88858624,
+    "unlisted_since": "2026-08-18",
     "url": "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u492-b03-ea-beta/OpenJDK8U-jdk_x64_windows_hotspot_8u492b03-ea.msi",
     "vendor": "eclipse",
     "version": "8u492-b03-ea-beta"
@@ -6769,6 +6770,7 @@
     "sha256": "6017255aeaf4c41a0f52d24f764bd2f70b287c3e49afbad2654cb08e9f278b5d",
     "sha512": "51f0c72899c46ff9827747fbafb567d6f603a8dfcb2fe3c873dc640ca29d38780b570d5e185fcf86230b54e9fd2aeeeecf83357c95c55996ec0628f0b4ccada9",
     "size": 106454504,
+    "unlisted_since": "2026-08-18",
     "url": "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u492-b03-ea-beta/OpenJDK8U-jdk_x64_windows_hotspot_8u492b03-ea.zip",
     "vendor": "eclipse",
     "version": "8u492-b03-ea-beta"
@@ -6789,6 +6791,7 @@
     "sha256": "a2d0c53f4a8df73bb551699514f37f649b2ecadebc93846837f98eaa1e3cd9be",
     "sha512": "cd26f6051229b302084586d531b0004a6690dc40d1d0ffc1e2c35b298ed9f2ec1ff59452ab61e36cb4fb6027eb6a850135501fab8d0cb00027ec0435b83764bb",
     "size": 32022528,
+    "unlisted_since": "2026-08-18",
     "url": "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u492-b03-ea-beta/OpenJDK8U-jre_x64_windows_hotspot_8u492b03-ea.msi",
     "vendor": "eclipse",
     "version": "8u492-b03-ea-beta"
@@ -6809,6 +6812,7 @@
     "sha256": "99bb087b00e123a2175c5952f09f0d11b69dfc0b05bdcbe6085193b5854d7689",
     "sha512": "9ee40cfb4f3a75000d8ff16becec134baded7277dc81dbd587591f56b713ec912a464267447ff1bfe5e70017beb327ec8861397c10d75cae4dc86dea1fe02529",
     "size": 40108459,
+    "unlisted_since": "2026-08-18",
     "url": "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u492-b03-ea-beta/OpenJDK8U-jre_x64_windows_hotspot_8u492b03-ea.zip",
     "vendor": "eclipse",
     "version": "8u492-b03-ea-beta"
@@ -11481,6 +11485,27 @@
     "size": 43282432,
     "unlisted_since": "2026-08-12",
     "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-11.0.11+3/sapmachine-jre-11.0.11-ea.3_windows-x64_bin.msi",
+    "vendor": "sap",
+    "version": "11.0.11-ea.3"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "sapmachine",
+    "features": [],
+    "file_type": "zip",
+    "filename": "sapmachine-jre-11.0.11-ea.3_windows-x64_bin.zip",
+    "image_type": "jre",
+    "java_version": "11.0.11-ea.3",
+    "jvm_impl": "hotspot",
+    "md5": "818bea5b30808ca3b39dffab60717de1",
+    "os": "windows",
+    "release_type": "ea",
+    "sha1": "723e174a469fd521a0447f6e26f6a00ec1b66654",
+    "sha256": "955ef67c2eacdd0a2c78e4ae6e48b9904a4b52766394b4e07ff5de648333fe13",
+    "sha512": "ef990cbb16bd4cb01a5ff249a31cdc323e9ff87f76065cab2b088306ab7b2830a06b01e0b27334a4dd88978f8460dc74f32104d645dda1f9281be9bf5ee1a45a",
+    "size": 43203175,
+    "unlisted_since": "2026-08-12",
+    "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-11.0.11+3/sapmachine-jre-11.0.11-ea.3_windows-x64_bin.zip",
     "vendor": "sap",
     "version": "11.0.11-ea.3"
   },
@@ -32598,6 +32623,27 @@
     "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-17+28/sapmachine-jre-17-ea.28_windows-x64_bin.zip",
     "vendor": "sap",
     "version": "17-ea.28"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "sapmachine",
+    "features": [],
+    "file_type": "msi",
+    "filename": "sapmachine-jdk-17-ea.29_windows-x64_bin.msi",
+    "image_type": "jdk",
+    "java_version": "17-ea.29",
+    "jvm_impl": "hotspot",
+    "md5": "6eb69c0d10e7f59cc0e5ff37134708d6",
+    "os": "windows",
+    "release_type": "ea",
+    "sha1": "fa1b1a408296f0527d6782011dc3cbf7b7b34e40",
+    "sha256": "78f34bbe89fd474621f8a0a72b91db3cde576bebaeafaed67f200854d9772dd2",
+    "sha512": "cb0e9117da265c6bec92e2c49e6bf1b5cbe61f1474556a0b4b8923c22f5da2bdc171a15a56d4814c8dd31c2895f40fc985d73a32e811f3fda6b2a277fa8cfa4d",
+    "size": 193384448,
+    "unlisted_since": "2026-08-12",
+    "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-17+29/sapmachine-jdk-17-ea.29_windows-x64_bin.msi",
+    "vendor": "sap",
+    "version": "17-ea.29"
   },
   {
     "architecture": "x86_64",
@@ -66424,6 +66470,7 @@
     "sha256": "49b86dba47b7a31ab3c6c95fc791bbd5dc1f8303af4e1b1175a4ec4af6b0bfa7",
     "sha512": "7145c5975ebe2a60a497e4392eefe3baaae6f7a3de02420f09d218d5c0999b9145e188f536c19604f69994774b2dcc8d53a30e872e4c4f6a646ff55c58100834",
     "size": 214494177,
+    "unlisted_since": "2026-08-18",
     "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-21.0.11%2B2/sapmachine-jdk-21.0.11-ea.2_windows-x64_bin.zip",
     "vendor": "sap",
     "version": "21.0.11-ea.2"
@@ -66444,6 +66491,7 @@
     "sha256": "000794059f9bd743b066d424e81c088e929264f25ef9015bbd0ee466e04603d1",
     "sha512": "73bda0f7ce88422e0ba6d393bd4ec5180c95b9c4df0f2d3118339b03fe33ae859844839b6abba8c4162319d35e9d6c025c6d1e55985f0f711daf03240eda0b0a",
     "size": 53754264,
+    "unlisted_since": "2026-08-18",
     "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-21.0.11%2B2/sapmachine-jre-21.0.11-ea.2_windows-x64_bin.zip",
     "vendor": "sap",
     "version": "21.0.11-ea.2"
@@ -78715,6 +78763,27 @@
     "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-25+8/sapmachine-jre-25-ea.8_windows-x64_bin.zip",
     "vendor": "sap",
     "version": "25-ea.8"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "sapmachine",
+    "features": [],
+    "file_type": "zip",
+    "filename": "sapmachine-jdk-25-ea.9_windows-x64_bin.zip",
+    "image_type": "jdk",
+    "java_version": "25-ea.9",
+    "jvm_impl": "hotspot",
+    "md5": "7ca48a6659d3959cb50c1e1341a7dc8e",
+    "os": "windows",
+    "release_type": "ea",
+    "sha1": "897ee0adcf9e911237ac69dbe3baae5857aeeafc",
+    "sha256": "6bcd265ec63a9440299cf45bc84905854db92fa23243106a1663686d53f46de6",
+    "sha512": "94434e83c3c006a9ebff8ecb9e1026127eba72e61ec2f1e07d3385abf0d485af6d7c492bcc89774d7e9c45e4396fee0e247b8dd8fdb7509029ff145e3a8d00a5",
+    "size": 231179619,
+    "unlisted_since": "2026-08-12",
+    "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-25+9/sapmachine-jdk-25-ea.9_windows-x64_bin.zip",
+    "vendor": "sap",
+    "version": "25-ea.9"
   },
   {
     "architecture": "x86_64",
@@ -91968,6 +92037,7 @@
     "sha256": "d1432c88d30b58d092b5037125bd3a101e3c727da20c1c5a29a28543e9582f9c",
     "sha512": "bc4bf27f425d1268483440dddad16dafde8c2598ef2b9db9c850e83db12826dcc07cafa47b53c9f8b7ee825aafcdf451bcb9f26be9adcf0d658b08ddf69c2212",
     "size": 226938785,
+    "unlisted_since": "2026-08-19",
     "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-27%2B9/sapmachine-jdk-27-ea.9_windows-x64_bin.zip",
     "vendor": "sap",
     "version": "27-ea.9"
@@ -91988,6 +92058,7 @@
     "sha256": "c090b2b31e7155e1dc67ee1a31beba2a2c766ed3f581cccb91c1255179ae2d0a",
     "sha512": "35e3c615d6a66596a0004203506d53c0c980cfefc58d281d4c00238e06e4b3acb449fd8db89f096584695632f8d73d38d759e8b2962db8a420df7bbaf73b7f50",
     "size": 53313408,
+    "unlisted_since": "2026-08-19",
     "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-27%2B9/sapmachine-jre-27-ea.9_windows-x64_bin.zip",
     "vendor": "sap",
     "version": "27-ea.9"
