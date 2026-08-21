@@ -3562,6 +3562,70 @@
   },
   {
     "architecture": "ppc64le",
+    "distro": "debian",
+    "features": [
+      "headless"
+    ],
+    "file_type": "deb",
+    "filename": "openjdk-8-jre-headless_8u504-ga-1_ppc64el.deb",
+    "image_type": "jre",
+    "java_version": "8u504",
+    "jvm_impl": "hotspot",
+    "md5": "c75527a89e442655bf1b438088d295c6",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "c168f20d1e1806cc25f114aad535826873273405",
+    "sha256": "afd19dc2eff6374220bb52e74052d575701c62d91277f09f98fdbcbbdf8d467e",
+    "sha512": "2ef0cf49ddca75022550d64c6161038b5da34dd07d0d4d941ed103890e19400d11e72ef20b1dee11b198d54e4422f060d38a4f4d139ce2b908045c8f3a95d034",
+    "size": 28293128,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-8/openjdk-8-jre-headless_8u504-ga-1_ppc64el.deb",
+    "vendor": "debian",
+    "version": "8u504-ga-1"
+  },
+  {
+    "architecture": "ppc64le",
+    "distro": "debian",
+    "features": [
+      "zero"
+    ],
+    "file_type": "deb",
+    "filename": "openjdk-8-jre-zero_8u504-ga-1_ppc64el.deb",
+    "image_type": "jre",
+    "java_version": "8u504",
+    "jvm_impl": "hotspot",
+    "md5": "005aa417773b897b36e95764cd13e038",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "0cc89f8077f3b39bb37231fa9a861c1c31bfddd0",
+    "sha256": "5de9663a1efd3ba338d51c294314f94d73db5aba14d5643fc86ceecafc5cb65e",
+    "sha512": "84400acb0f4f1311588940c6f8ce00feccd04f65e3e58a970a72a25a7d08106c461487cf339b3bb0d7e46e0278254e87dec873654f488de54a4e1fc0fd9acbc9",
+    "size": 2242500,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-8/openjdk-8-jre-zero_8u504-ga-1_ppc64el.deb",
+    "vendor": "debian",
+    "version": "8u504-ga-1"
+  },
+  {
+    "architecture": "ppc64le",
+    "distro": "debian",
+    "features": [],
+    "file_type": "deb",
+    "filename": "openjdk-8-jre_8u504-ga-1_ppc64el.deb",
+    "image_type": "jre",
+    "java_version": "8u504",
+    "jvm_impl": "hotspot",
+    "md5": "3c85b66ce3a229700dea9418b1866562",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "829b52c765643b13e1f5c2c844be365a82b49698",
+    "sha256": "60782c2663246963c965f77a019f0898d37132f46ce3010e91279c08765fed6e",
+    "sha512": "ead912328bc50ea8c55ddabe82d3e161df79cef2872c9caca41c63c3bfeef72702d8154baa3383e3c9a8f00d2e3e8e8c56ee9612287ad7aa857f67c4a0b64698",
+    "size": 72212,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-8/openjdk-8-jre_8u504-ga-1_ppc64el.deb",
+    "vendor": "debian",
+    "version": "8u504-ga-1"
+  },
+  {
+    "architecture": "ppc64le",
     "distro": "ibm",
     "features": [],
     "file_type": "tar.gz",
@@ -11828,6 +11892,28 @@
   },
   {
     "architecture": "ppc64le",
+    "distro": "debian",
+    "features": [
+      "headless"
+    ],
+    "file_type": "deb",
+    "filename": "openjdk-11-jre-headless_11.0.32.1+1-1_ppc64el.deb",
+    "image_type": "jre",
+    "java_version": "11.0.32.1+1-post-1-Debian",
+    "jvm_impl": "hotspot",
+    "md5": "6dc359a69f6cd76d56e69139a3de1db0",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "ad78555159cbe98b78d6646dfe69c730d1a0c66a",
+    "sha256": "2b7f111354a56d2958d41e99f64993067744b388b4ad681b5589456688659799",
+    "sha512": "75c33496e98454cf1396f7137f848e7c0c6d0b7ddc1b78534bf527083501943431d7dfb1f9190261aa8441e0a04b8d84465f02096ac0049bbaa148e17195badc",
+    "size": 35249492,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-11/openjdk-11-jre-headless_11.0.32.1+1-1_ppc64el.deb",
+    "vendor": "debian",
+    "version": "11.0.32.1+1-1"
+  },
+  {
+    "architecture": "ppc64le",
     "distro": "temurin",
     "features": [],
     "file_type": "tar.gz",
@@ -18987,6 +19073,7 @@
     "sha256": "b2f330a8dbaf98c549d5ee18f2c29aa5ad1fb6912f982e78765d5421bf94e17e",
     "sha512": "c7011a56420bcca3a64aa5517b247a03c813bcc7e301c125cdd30e250579645fa454487e049cd3b0d35f067013f27f75508cf8938b3d27879bb7259fb1851238",
     "size": 43257708,
+    "unlisted_since": "2026-08-21",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-17/openjdk-17-jre-headless_17.0.20+8-2_ppc64el.deb",
     "vendor": "debian",
     "version": "17.0.20+8-2"
@@ -19009,6 +19096,7 @@
     "sha256": "553dfd94856f59a94afcc0d1d9409f7d32714edabe0f637016a0ab288a342bf5",
     "sha512": "ed9dda96eb0747d5487fc5cd1a31dafa8cd07fbccd476b1320de12698386bce565a9657a30f24da6dd1636518c2c6cc2c04af52e0de52884392ff894834a4ee1",
     "size": 2928664,
+    "unlisted_since": "2026-08-21",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-17/openjdk-17-jre-zero_17.0.20+8-2_ppc64el.deb",
     "vendor": "debian",
     "version": "17.0.20+8-2"
@@ -19029,6 +19117,7 @@
     "sha256": "bc6c7b75d3d13f79570f5eb983bc295dc0778c56bb6a0a609be79368e0c593e6",
     "sha512": "5dcf9c3a1377d6e7c181798ab46440122d48d453f1699388e7f4e8e5d2acfa02e2b0e14dc7b65f0582cd2802d6c3001049f8a551ab47f648a242549eea482a5f",
     "size": 229184,
+    "unlisted_since": "2026-08-21",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-17/openjdk-17-jre_17.0.20+8-2_ppc64el.deb",
     "vendor": "debian",
     "version": "17.0.20+8-2"
@@ -23423,6 +23512,28 @@
     "architecture": "ppc64le",
     "distro": "debian",
     "features": [
+      "headless"
+    ],
+    "file_type": "deb",
+    "filename": "openjdk-21-jre-headless_21.0.12.1+1-1_ppc64el.deb",
+    "image_type": "jre",
+    "java_version": "21.0.12.1+1-1-Debian",
+    "jvm_impl": "hotspot",
+    "md5": "81586af4a646c17764ba9dcd9adcdbe5",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "82c79e3576c1f5bf8f23f7c74d6fee943c91321c",
+    "sha256": "8dde3edddd92d7a295010a4062d163e4c49f8d533664d2cb0a7391272d8c320c",
+    "sha512": "bc5e308c02324ad8f8d2c0483756cc598ab7c8a456414094a758c16ec4277e5ba6b3aad6bb2cc7f880efef6eb4e7bd9947e37526a7b6dbabb0cb010a15211f2e",
+    "size": 41034212,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-21/openjdk-21-jre-headless_21.0.12.1+1-1_ppc64el.deb",
+    "vendor": "debian",
+    "version": "21.0.12.1+1-1"
+  },
+  {
+    "architecture": "ppc64le",
+    "distro": "debian",
+    "features": [
       "zero"
     ],
     "file_type": "deb",
@@ -26536,6 +26647,26 @@
   },
   {
     "architecture": "ppc64le",
+    "distro": "debian",
+    "features": [],
+    "file_type": "deb",
+    "filename": "openjdk-25-jre_25.0.4.1+1-1_ppc64el.deb",
+    "image_type": "jre",
+    "java_version": "25.0.4.1+1",
+    "jvm_impl": "hotspot",
+    "md5": "075c788c9b507dc0d9a6540dcd388e69",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "af240e21012ed1f4deeec780bdd86148453707c3",
+    "sha256": "67c948b501172af7409cc98b6f5f0a3f90ca3bd4621ccaf22fe5056480e67671",
+    "sha512": "38bf364d24cb4a32244e77ba8e6ccf83417b560761c988f180b4360b0d6cef631911158e24ae6b89e9da2079c8bdc7445af68b0a1acf24d3a690273c1818d0d5",
+    "size": 217968,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-25/openjdk-25-jre_25.0.4.1+1-1_ppc64el.deb",
+    "vendor": "debian",
+    "version": "25.0.4.1+1-1"
+  },
+  {
+    "architecture": "ppc64le",
     "distro": "temurin",
     "features": [],
     "file_type": "tar.gz",
@@ -27306,6 +27437,28 @@
     "url": "https://github.com/ibmruntimes/semeru26-binaries/releases/download/jdk-26.0.2.0-m2/ibm-semeru-open-jre_ppc64le_linux_26.0.2.0-m2.tar.gz",
     "vendor": "ibm",
     "version": "26.0.2.0-m2"
+  },
+  {
+    "architecture": "ppc64le",
+    "distro": "debian",
+    "features": [
+      "zero"
+    ],
+    "file_type": "deb",
+    "filename": "openjdk-26-jre-zero_26.0.2.1+1-1_ppc64el.deb",
+    "image_type": "jre",
+    "java_version": "26.0.2.1+1",
+    "jvm_impl": "hotspot",
+    "md5": "79caeb4b75ea076ccd619b7c131ef2c5",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "f71e87d6ea5e417b7e34aa23b9a233fed5ed0b8d",
+    "sha256": "2b2f103196ae50da566dcf51065f3976e5a840c959b4cb1b197b4086933d4bae",
+    "sha512": "7cc661a7092fa973376ee04a26bbf537f5819ba3e41a658da7d068df402ddbf8f947c735c83aebe266e1e3368220f9a7c471d632a1c8aef167119dacf1b68e62",
+    "size": 16567044,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-26/openjdk-26-jre-zero_26.0.2.1+1-1_ppc64el.deb",
+    "vendor": "debian",
+    "version": "26.0.2.1+1-1"
   },
   {
     "architecture": "ppc64le",

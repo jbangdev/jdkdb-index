@@ -5229,6 +5229,26 @@
   },
   {
     "architecture": "aarch64",
+    "distro": "debian",
+    "features": [],
+    "file_type": "deb",
+    "filename": "openjdk-8-jre_8u504-ga-1_arm64.deb",
+    "image_type": "jre",
+    "java_version": "8u504",
+    "jvm_impl": "hotspot",
+    "md5": "20f05db19272514e05ccb706a7f570d7",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "d7b6890669740b28adec8159c7cc4b38c9296f50",
+    "sha256": "eeecc1f2b2cd11ff0c562f3781fe1db069daaccba8d393ede250befad69d1c2a",
+    "sha512": "331b7a27d7e0ba0f2aa6ba35a74a8f8e011c1f615afd66f3f158c78df4ef551610e56956a1d0f50d89571cb6cf49c08d0269e8f6a16c19fcbfe97487121c18de",
+    "size": 65740,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-8/openjdk-8-jre_8u504-ga-1_arm64.deb",
+    "vendor": "debian",
+    "version": "8u504-ga-1"
+  },
+  {
+    "architecture": "aarch64",
     "distro": "liberica",
     "features": [],
     "file_type": "deb",
@@ -7505,6 +7525,48 @@
     "url": "https://static.azul.com/zulu/bin/zulu8.96.0.19-ca-jre8.0.502-linux_musl_aarch64.tar.gz",
     "vendor": "azul",
     "version": "8.96.0.19"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "zulu",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "zulu8.96.0.205-ca-jre8.0.504-linux_aarch64.tar.gz",
+    "image_type": "jre",
+    "java_version": "8.0.504",
+    "jvm_impl": "hotspot",
+    "md5": "7fcacdf208442a771525b14bf2d5edb2",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "5c487b42a631a2bab0411a769c5336176450a35d",
+    "sha256": "8a8dc1855937d17fde3ee29ea84b71403d662fe467e027ee58f2e7b9be99ac13",
+    "sha512": "b72ae0504e601cffbdfb69f6919a43bf1047b4175d1e6af25f66ca4e36cd795193320476325000a7ebf778001dd1a667b5d28d2405f1537cb1a3a0cfe05ff269",
+    "size": 42110324,
+    "url": "https://static.azul.com/zulu/bin/zulu8.96.0.205-ca-jre8.0.504-linux_aarch64.tar.gz",
+    "vendor": "azul",
+    "version": "8.96.0.205"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "zulu",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "zulu8.96.0.205-ca-jre8.0.504-linux_musl_aarch64.tar.gz",
+    "image_type": "jre",
+    "java_version": "8.0.504",
+    "jvm_impl": "hotspot",
+    "md5": "9a6976f807478d42ce2846a5f759cda0",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "d8215431c7925d59c2996d496d8650132cf6dd26",
+    "sha256": "81351dce68e474914251ed08530fba2d95e6f756ec0817590c4bfb5b0e37bde5",
+    "sha512": "f51770ad70237f4f0793f584e7ad01ccd1eb6c8582692070412d916faa0880309382105ebed22028cd9a68ef8776cd939b13f9931e8ca577936f7beb500d0712",
+    "size": 41797315,
+    "url": "https://static.azul.com/zulu/bin/zulu8.96.0.205-ca-jre8.0.504-linux_musl_aarch64.tar.gz",
+    "vendor": "azul",
+    "version": "8.96.0.205"
   },
   {
     "architecture": "aarch64",
@@ -19230,6 +19292,48 @@
     "url": "https://static.azul.com/zulu/bin/zulu11.90.19-ca-jre11.0.32-linux_musl_aarch64.tar.gz",
     "vendor": "azul",
     "version": "11.90.19"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "zulu",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "zulu11.90.205-ca-jre11.0.32.1-linux_aarch64.tar.gz",
+    "image_type": "jre",
+    "java_version": "11.0.32.1+1-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "caaa52097393c94d19d55e499081addb",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "f9fed4c6a908f66eae61089611c8ea4d740169c0",
+    "sha256": "da766c80bd295dcd67ea11f73e275410deffa07f42448f85ae4e5a973d71291c",
+    "sha512": "5f72bd50e2544c74526c392883b8228359901e140dd82c1e9c6e3f8b90d82b6edc26d9e6c87553688d2ea06d13352213d4d25a1d76f8a34e0a7569b8e7b2334c",
+    "size": 42641033,
+    "url": "https://static.azul.com/zulu/bin/zulu11.90.205-ca-jre11.0.32.1-linux_aarch64.tar.gz",
+    "vendor": "azul",
+    "version": "11.90.205"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "zulu",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "zulu11.90.205-ca-jre11.0.32.1-linux_musl_aarch64.tar.gz",
+    "image_type": "jre",
+    "java_version": "11.0.32.1+1-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "672bcaaf33f0ef5eac21f737671046bf",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "494070e07c0b8ffaa5496d91ce631a773557c4b7",
+    "sha256": "9ee3cff24965785bf7c875566cfab237dddf6faaeedc4a18f88c73556e83de1e",
+    "sha512": "52fcfaec6f6c6517da48500fd4915b446528631678794ff87393bd944481b065a21fb592e47e51d530c5aca1eeeb7fa5813a02f85566410da621b1332769065b",
+    "size": 42571972,
+    "url": "https://static.azul.com/zulu/bin/zulu11.90.205-ca-jre11.0.32.1-linux_musl_aarch64.tar.gz",
+    "vendor": "azul",
+    "version": "11.90.205"
   },
   {
     "architecture": "aarch64",
@@ -36227,6 +36331,7 @@
     "sha256": "c3e5738af130e494d7e097774d306e8de407eb468075c040b1fa70cf963c079f",
     "sha512": "87fffe05b8cde5719292974826ac30a130e9f41c72821e85c2729cff583ceb688d43812f2ad490e281a814c2de57a01df49531fcd0377f15f8a11f1cb24cb69f",
     "size": 43320436,
+    "unlisted_since": "2026-08-21",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-17/openjdk-17-jre-headless_17.0.20+8-2_arm64.deb",
     "vendor": "debian",
     "version": "17.0.20+8-2"
@@ -36249,6 +36354,7 @@
     "sha256": "767bf91a4aab328138c615ba7e5cb9548f0093bf68ec3bb6a1f5db9ea908bf5c",
     "sha512": "24069f62469bd6e3c04ef65455da495548146b032ea068f6e24deb5a1d8ac549c8d507bfef5b06240a9b8e953b6eb40a0893814a0ab8a9884fb60f3e7edd3cd0",
     "size": 2637432,
+    "unlisted_since": "2026-08-21",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-17/openjdk-17-jre-zero_17.0.20+8-2_arm64.deb",
     "vendor": "debian",
     "version": "17.0.20+8-2"
@@ -36269,6 +36375,7 @@
     "sha256": "b05c9502408b9271992bcc3741c26f8541f33ed7d439b2b9acb59f406cae4282",
     "sha512": "db1a4f18ca7a3cc519d6d030dc99694c5cd01930338403ae87b2e5f4fb47c39960869a6981a6c0e93e5bb6bc7c9822585dcc6760f2c1f138c4b2486f841b7cba",
     "size": 198468,
+    "unlisted_since": "2026-08-21",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-17/openjdk-17-jre_17.0.20+8-2_arm64.deb",
     "vendor": "debian",
     "version": "17.0.20+8-2"
@@ -38162,6 +38269,28 @@
     "url": "https://static.azul.com/zulu/bin/zulu17.68.19-ca-crac-jre17.0.20-linux_aarch64.tar.gz",
     "vendor": "azul",
     "version": "17.68.19"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "zulu",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "zulu17.68.203-ca-jre17.0.20.1-linux_musl_aarch64.tar.gz",
+    "image_type": "jre",
+    "java_version": "17.0.20.1+1-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "aa9aacf4fc4319505d168018e0b6c4c9",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "ba6d78e8eff4c4c2419fdb4e9949d366a0b90ee0",
+    "sha256": "4da2ea2957dab2e357484acadf2f36ed1506e1688454f59cdded1c3b4d7e912d",
+    "sha512": "81754b3a27a87918c0a6f81d13b87a2e4dc9b63f85ea2205241e9374edaf86999e38f410335063c0ebaa9f8b6381f179d2f8dde2a8868696f760112e0388c80a",
+    "size": 46265813,
+    "url": "https://static.azul.com/zulu/bin/zulu17.68.203-ca-jre17.0.20.1-linux_musl_aarch64.tar.gz",
+    "vendor": "azul",
+    "version": "17.68.203"
   },
   {
     "architecture": "aarch64",
@@ -55049,6 +55178,7 @@
     "sha256": "9a33e6b2daae6818785d06ee589ac62ce109af4d6a695631ec47f76ec4cdce48",
     "sha512": "7f0182498bcd95cabb2754a14b51f82f4a73788cfdd4c55353f1acd7f527acb29fdbb4f35e99825c0276ffc6f60d908e14f4be9777cce8aebaa8a521d3890504",
     "size": 41059496,
+    "unlisted_since": "2026-08-21",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-21/openjdk-21-jre-headless_21.0.12+8-2_arm64.deb",
     "vendor": "debian",
     "version": "21.0.12+8-2"
@@ -55071,6 +55201,7 @@
     "sha256": "7ab1d15f0753a383baba921527584020dc045e0f078e6e77291e1596e1e2d26d",
     "sha512": "eb02bc5015a52df6de2bafb6fb8d0d45e0180a2d21d70d2efef5ba10f160f754e61dfce98ac6622f9c6ee862a65108ac6a32d5bf80e6e62c4138215444eb68fa",
     "size": 8933628,
+    "unlisted_since": "2026-08-21",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-21/openjdk-21-jre-zero_21.0.12+8-2_arm64.deb",
     "vendor": "debian",
     "version": "21.0.12+8-2"
@@ -55091,9 +55222,32 @@
     "sha256": "f1a508328b42dc5e2858005f9df94e24719f9e1537b8c46bd47de24ae58df8d8",
     "sha512": "2eec7b181f21b58120fd69ff24b0e0c01354bb9fda6301dadae6819127bd18ec7acbd333c6f093abe7e73cee21a5e1726ac50b1554156794bb96071d0afb67c3",
     "size": 196228,
+    "unlisted_since": "2026-08-21",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-21/openjdk-21-jre_21.0.12+8-2_arm64.deb",
     "vendor": "debian",
     "version": "21.0.12+8-2"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "adoptopenjdk",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK21U-jre_aarch64_alpine-linux_hotspot_21.0.12.1_1.tar.gz",
+    "image_type": "jre",
+    "java_version": "21.0.12.1+1-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "32c9939a726aceb3428999a0bb333e25",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "1955bab1e96ad1c3aee4f61975f0287d9d28be71",
+    "sha256": "98e15ae359e1f87160ee4c0abb43336513e41712d439fd4a805a5474af32b2c7",
+    "sha512": "4acb9950e3e1f740e9130d047a5ad84fdcb1b1680e18ff752fc7627567dcc022d30f55408c5eead5a1b5b54520b937733904d0a2177d8216399257c994d5a536",
+    "size": 51189819,
+    "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.12.1%2B1/OpenJDK21U-jre_aarch64_alpine-linux_hotspot_21.0.12.1_1.tar.gz",
+    "vendor": "adoptopenjdk",
+    "version": "21.0.12+101.0.LTS"
   },
   {
     "architecture": "aarch64",
@@ -64948,6 +65102,28 @@
   },
   {
     "architecture": "aarch64",
+    "distro": "temurin",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK25U-jre_aarch64_alpine-linux_hotspot_25.0.4.1_1.tar.gz",
+    "image_type": "jre",
+    "java_version": "25.0.4.1+1-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "0d7adf070249699141642c65c0fe1774",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "3cc9024f096b172c8bed66fd763136558549eb02",
+    "sha256": "0200539904de3669dce5c435aa1ef71f530325d6461c76d85fe90d5424e4974e",
+    "sha512": "2ca5172b93aa9e044342ac888fbbd2321beaf120dd6a1d153f2e91be194113d3deaa5e8e32980a8ceb970589b9811e978dba1794b54cb3caa08540a69686177d",
+    "size": 59694476,
+    "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-jre_aarch64_alpine-linux_hotspot_25.0.4.1_1.tar.gz",
+    "vendor": "eclipse",
+    "version": "25.0.4.1+1"
+  },
+  {
+    "architecture": "aarch64",
     "distro": "debian",
     "features": [
       "headless"
@@ -65243,6 +65419,28 @@
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-25/openjdk-25-jre_25.0.4+7-2_arm64.deb",
     "vendor": "debian",
     "version": "25.0.4+7-2"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "adoptopenjdk",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK25U-jre_aarch64_alpine-linux_hotspot_25.0.4.1_1.tar.gz",
+    "image_type": "jre",
+    "java_version": "25.0.4.1+1-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "0d7adf070249699141642c65c0fe1774",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "3cc9024f096b172c8bed66fd763136558549eb02",
+    "sha256": "0200539904de3669dce5c435aa1ef71f530325d6461c76d85fe90d5424e4974e",
+    "sha512": "2ca5172b93aa9e044342ac888fbbd2321beaf120dd6a1d153f2e91be194113d3deaa5e8e32980a8ceb970589b9811e978dba1794b54cb3caa08540a69686177d",
+    "size": 59694476,
+    "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-jre_aarch64_alpine-linux_hotspot_25.0.4.1_1.tar.gz",
+    "vendor": "adoptopenjdk",
+    "version": "25.0.4+101.0.LTS"
   },
   {
     "architecture": "aarch64",
@@ -65779,6 +65977,48 @@
     "url": "https://static.azul.com/zulu/bin/zulu25.36.17-ca-crac-jre25.0.4-linux_aarch64.tar.gz",
     "vendor": "azul",
     "version": "25.36.17"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "zulu",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "zulu25.36.205-ca-jre25.0.4.1-linux_aarch64.tar.gz",
+    "image_type": "jre",
+    "java_version": "25.0.4.1+1-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "c502f4a4ad601ca67ac20fab8f2e1cb7",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "579aa815d587a5027597efc831adff8362d2712a",
+    "sha256": "7bb8df19d2855ddfc85298d869be5434d3b5835ff186292075ef348c2f8f0f39",
+    "sha512": "fd8553be1ce452e92e0afbed4c7b42355581fca96d486e0c2f98914678ebdaa0432c77ab76ce3aeaba608c23de217f1d810dcb984b5190c324981d8454266109",
+    "size": 60619652,
+    "url": "https://static.azul.com/zulu/bin/zulu25.36.205-ca-jre25.0.4.1-linux_aarch64.tar.gz",
+    "vendor": "azul",
+    "version": "25.36.205"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "zulu",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "zulu25.36.205-ca-jre25.0.4.1-linux_musl_aarch64.tar.gz",
+    "image_type": "jre",
+    "java_version": "25.0.4.1+1-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "6770be2ff8ffa3a6a62d938946800a36",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "d90c8b1737b7645976b3a50f6dacc7a6d5c2f513",
+    "sha256": "d303fdf8ee4ffc1849f1affb8ccd8343b9cc50abb1b8439c63d63cad894dd0a0",
+    "sha512": "706b1f17113856252d19c7e0858325d5be0e6a29101745bd3201d07d930646ea3d75011748dcc94a175fbc70c1a21db37c1376db299b7933bca7ffc2e8cf8892",
+    "size": 60573332,
+    "url": "https://static.azul.com/zulu/bin/zulu25.36.205-ca-jre25.0.4.1-linux_musl_aarch64.tar.gz",
+    "vendor": "azul",
+    "version": "25.36.205"
   },
   {
     "architecture": "aarch64",
@@ -66560,6 +66800,28 @@
     "url": "https://github.com/ibmruntimes/semeru26-binaries/releases/download/jdk-26.0.2.0-m2/ibm-semeru-open-jre_aarch64_linux_26.0.2.0-m2.tar.gz",
     "vendor": "ibm",
     "version": "26.0.2.0-m2"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "debian",
+    "features": [
+      "zero"
+    ],
+    "file_type": "deb",
+    "filename": "openjdk-26-jre-zero_26.0.2.1+1-1_arm64.deb",
+    "image_type": "jre",
+    "java_version": "26.0.2.1+1",
+    "jvm_impl": "hotspot",
+    "md5": "0b883443d1a02da96d33883d44f40895",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "8caa802d52b2c8dad7620f0175ea6d562f6e77cd",
+    "sha256": "b2d8be2bb1fba0c07ec1cddb0504c602b7265921e44e4354bc4926ea9b1a390c",
+    "sha512": "ddc0b385dba11ffe80db486b32bd566de91e24dd161ecd4155dbb3b3a00e436119c0a4a7541b0f289fd7286c424cafda705e9410bfe93c79a06c76aa592da617",
+    "size": 16153508,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-26/openjdk-26-jre-zero_26.0.2.1+1-1_arm64.deb",
+    "vendor": "debian",
+    "version": "26.0.2.1+1-1"
   },
   {
     "architecture": "aarch64",
