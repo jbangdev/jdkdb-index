@@ -281,6 +281,7 @@
     "sha256": "d3cf6b2b5f9e1e2eb3946495c27e2743d0ee01028eb67540222f624b4ade752f",
     "sha512": "d47a4bb5124a8d61b562cca479a3b047e68e158a3c3b541b832c04df6e916cd651b02c5bd6d639b9409eadd16da4aac68616d22416c7440b7269334c3d73cf3d",
     "size": 8210976,
+    "unlisted_since": "2026-08-22",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-8/openjdk-8-jdk-headless_8u502-ga-2_arm64.deb",
     "vendor": "debian",
     "version": "8u502-ga-2"
@@ -301,9 +302,30 @@
     "sha256": "a2e4e0ff2d5110dc40d910c8b96e5137f036649d540d20f745287a97eeb82cd2",
     "sha512": "60f5e4debc6b100437f74b9bb9377524dd8cc207c367f23a5bb81f5fc8a7e61a8c90aafeac1c678a7e5f06bef2e913cd5b40fc8ae30c361e2b72e5eeb01708d3",
     "size": 4042628,
+    "unlisted_since": "2026-08-22",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-8/openjdk-8-jdk_8u502-ga-2_arm64.deb",
     "vendor": "debian",
     "version": "8u502-ga-2"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "debian",
+    "features": [],
+    "file_type": "deb",
+    "filename": "openjdk-8-jdk_8u504-ga-1_arm64.deb",
+    "image_type": "jdk",
+    "java_version": "8u504",
+    "jvm_impl": "hotspot",
+    "md5": "16fe3f1454b432900d39ac1ccb174495",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "6f8629141659d80588ffb4da45bf5db2fbf2e00c",
+    "sha256": "e6b825d36a8402667e15f6095431ed16cfe485808dc135ef174054b774837983",
+    "sha512": "d5650ae50dc95aa5c0b38a4b0a6bf979562e9f69b44802c5bcfa805155220c2448821529fbfa229fa5e3b93c55e33770aa8a9ebf4984a488127f6294ee86fca7",
+    "size": 4028500,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-8/openjdk-8-jdk_8u504-ga-1_arm64.deb",
+    "vendor": "debian",
+    "version": "8u504-ga-1"
   },
   {
     "architecture": "aarch64",
@@ -671,6 +693,7 @@
     "sha256": "8f374e9ed315d2425ae86d362120095fc839e1906f1e50226703436c7d762ec5",
     "sha512": "e5498de9635a0473bf6392e2a11dd29259090765da4428fa3b806f36d9cfbea3d280cf63f4532ad8a2c671e40e34eeb69a8ad740ed6039df2a213c61dafa4f6f",
     "size": 73626564,
+    "unlisted_since": "2026-08-22",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-11/openjdk-11-jdk-headless_11.0.32+9-3_arm64.deb",
     "vendor": "debian",
     "version": "11.0.32+9-3"
@@ -691,6 +714,7 @@
     "sha256": "519e7b72a023ee58c555c45ad18ac8cab2fe07d73bae0807bf67f514f9d344d9",
     "sha512": "832caec1992515fc33611e2466c4f4031bece51e69782159e86c291a07f6456f27993304be494792b541825bf31c209731fbd96bfaf6bb78c0efc569c16e47d7",
     "size": 2987348,
+    "unlisted_since": "2026-08-22",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-11/openjdk-11-jdk_11.0.32+9-3_arm64.deb",
     "vendor": "debian",
     "version": "11.0.32+9-3"
@@ -2146,6 +2170,7 @@
     "sha256": "1d79bc8274cb4d3b003b5e70428500defd84295761639fdcc7b26337d783266f",
     "sha512": "330db0a2861e812f6471c8503b922dac72d88419dffc688446581726f5bf3c93a49d77b90f07e977fb5d0299ba04d43a94590f33c7eed9c645453ec665c7fe4a",
     "size": 88835832,
+    "unlisted_since": "2026-08-22",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-25/openjdk-25-jdk-headless_25.0.4+7-2_arm64.deb",
     "vendor": "debian",
     "version": "25.0.4+7-2"
@@ -2166,6 +2191,7 @@
     "sha256": "2d49bf8d587e93ce68c1c2fa68899adcc0e1be5600cda4cf74cd9133af02cb3b",
     "sha512": "1e1e87b05890848754dab09342e95d974dbf6873a37b054512339ba628b9795d4cbd03f31369300231e3ddd427d4e653c119d8136b3b094c1ed9cadc29f0eb2f",
     "size": 3743132,
+    "unlisted_since": "2026-08-22",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-25/openjdk-25-jdk_25.0.4+7-2_arm64.deb",
     "vendor": "debian",
     "version": "25.0.4+7-2"
@@ -2327,6 +2353,26 @@
   {
     "architecture": "aarch64",
     "distro": "debian",
+    "features": [],
+    "file_type": "deb",
+    "filename": "openjdk-26-jdk_26.0.2.1+1-1_arm64.deb",
+    "image_type": "jdk",
+    "java_version": "26.0.2.1+1",
+    "jvm_impl": "hotspot",
+    "md5": "8037a3f7d85febd6793aac8108d8e81f",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "ef418ddff8db3216b5a588f51b9e39b6f950270b",
+    "sha256": "955a3ce935e2bcf0c1ae7f5da67b7aab682f4fe2e6fd0e368fe5a470310c6dd6",
+    "sha512": "3c47f53221efbab70168611c762c4041b6d744663c6f63e61f232faa74ba9e8212cdf3d5f5c0fd76dd7c30759b90c94f230bdbbf9067dd786e8b3afb4accbc69",
+    "size": 3778344,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-26/openjdk-26-jdk_26.0.2.1+1-1_arm64.deb",
+    "vendor": "debian",
+    "version": "26.0.2.1+1-1"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "debian",
     "features": [
       "headless"
     ],
@@ -2430,6 +2476,7 @@
     "sha256": "c8a99ab7d6f5d6a4157b3fc3af8eb83a24e88d2b9499c3b79f2c043d76c5fbb5",
     "sha512": "360c20357cf096e260301ecf1ed88d4b3160ce6951c54784aaa64cd377219b78d3b3ff123eb37d6785b589d000984d203716e5abadac4acd987144bdede781b3",
     "size": 90585752,
+    "unlisted_since": "2026-08-22",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-26/openjdk-26-jdk-headless_26.0.2+10-3_arm64.deb",
     "vendor": "debian",
     "version": "26.0.2+10-3"
@@ -2450,6 +2497,7 @@
     "sha256": "93497ac06d2267f677f9db5296d5553721bedd4eae845de6bd210b4b2b0aa960",
     "sha512": "003e511818a3b871d84000002b11178f6ec7ddfa9dbe765c4a6ba2b3d24796986b5f00a9e3859a012a74fdebc078edae9099ac68c85b93179cd9cdee8d5e69d4",
     "size": 3828528,
+    "unlisted_since": "2026-08-22",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-26/openjdk-26-jdk_26.0.2+10-3_arm64.deb",
     "vendor": "debian",
     "version": "26.0.2+10-3"

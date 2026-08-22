@@ -325,6 +325,7 @@
     "sha256": "ad6d9b41ffeb2876cc0fc5121dcb602523b3dc9adf38892f734dd0e3676e584c",
     "sha512": "4db180916fcedec5eb63941c6f74680cebfd66d8ccadf302c30a76be49d2a2d9fe66f718f3d13dbed468ad069cda16707bd5a797036d6379e380ed0bf5a9e039",
     "size": 142678652,
+    "unlisted_since": "2026-08-22",
     "url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27%2B10-ea-beta/OpenJDK-jdk_aarch64_alpine-linux_hotspot_27_10-ea.tar.gz",
     "vendor": "eclipse",
     "version": "27+10-ea-beta"
@@ -345,6 +346,7 @@
     "sha256": "43f926bfc3e2a55d73efad914cba658ede69c8985bfc84e1393a6f1fe29c579d",
     "sha512": "f6f594f3ef06f329b6ecf3dc0da099b5da168a27ebceca1edd1872095440aad485fe91e0a57c0fd86869723984df3b233bfaca5caf38b20482d76c50e8a6c47e",
     "size": 143443279,
+    "unlisted_since": "2026-08-22",
     "url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27%2B10-ea-beta/OpenJDK-jdk_aarch64_linux_hotspot_27_10-ea.tar.gz",
     "vendor": "eclipse",
     "version": "27+10-ea-beta"
@@ -1230,5 +1232,27 @@
     "url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27%2B34-ea-beta/OpenJDK27U-jdk_aarch64_linux_hotspot_27_34-ea.tar.gz",
     "vendor": "eclipse",
     "version": "27+34-ea-beta"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "temurin",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK27U-jdk_aarch64_alpine-linux_hotspot_27_35-ea.tar.gz",
+    "image_type": "jdk",
+    "java_version": "27",
+    "jvm_impl": "hotspot",
+    "md5": "7507ad6012580c4ced066b1d138d5f87",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "c6491194c4200a97bb1dccaddf6f4c095abfb946",
+    "sha256": "6ec0644e5813ab736664580a0e9307376ab9b8c340c9f6a073559997111a5406",
+    "sha512": "650e2e67ffc176982d599b1041df21794d8bc78f238e0547c0d009f4c34f21acaa5ff108b350702f89df749c26674620def84697be6ae32af5bef0acb048323d",
+    "size": 140735304,
+    "url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27%2B35-ea-beta/OpenJDK27U-jdk_aarch64_alpine-linux_hotspot_27_35-ea.tar.gz",
+    "vendor": "eclipse",
+    "version": "27+35-ea-beta"
   }
 ]

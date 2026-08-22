@@ -7094,6 +7094,7 @@
     "sha256": "a9618ff8bfb22e89ee73fd0fd193d1212d79d86c824c239e733df25ee155f233",
     "sha512": "209f35f1c3b5ee7c256d7ce0a53413598a1f32ed1a84df0311ff0455bc828b4d0f450e7557e45ad6bbf1a3258978eeaf7c7c7029df5c6e7ebc53ae3478a61496",
     "size": 42813703,
+    "unlisted_since": "2026-08-22",
     "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.31%2B3-ea-beta/OpenJDK11U-jre_x64_alpine-linux_hotspot_11.0.31_3-ea.tar.gz",
     "vendor": "eclipse",
     "version": "11.0.31+3-ea-beta"
@@ -7114,6 +7115,7 @@
     "sha256": "e13e4de1a7892bafdc4c5b866b0f464d32e68974282d602b9c79539696dae159",
     "sha512": "ab1b9a003e14e3133ddaedf8b9882ffe61e9c1831aa92bf8bfb22d92fa76a5bebe301612a9757106172dbc447262248ce9d23ec0558d2e4d5e3b7bd523605ff7",
     "size": 43476030,
+    "unlisted_since": "2026-08-22",
     "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.31%2B3-ea-beta/OpenJDK11U-jre_x64_linux_hotspot_11.0.31_3-ea.tar.gz",
     "vendor": "eclipse",
     "version": "11.0.31+3-ea-beta"
@@ -27522,6 +27524,28 @@
   {
     "architecture": "x86_64",
     "distro": "temurin",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK21U-jre_x64_alpine-linux_hotspot_21.0.13_3-ea.tar.gz",
+    "image_type": "jre",
+    "java_version": "21",
+    "jvm_impl": "hotspot",
+    "md5": "a0c0fa57978a767bb1d6b7696e03a5db",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "4f34eea778276baa71fecb4b13c4d1b2c03c77c1",
+    "sha256": "ba14cd1e9908bdc87708d9b6ad3096dec4ca1fbff1ae342843223071e47f2a03",
+    "sha512": "8afcc07ea63bdac306777b224264e387fc3f2ab84400b877fe068776b74c6b51eba10e066ac621a9b7234e97f76fa26c7696120f01c643bd9868162debb56104",
+    "size": 52313593,
+    "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.13%2B3-ea-beta/OpenJDK21U-jre_x64_alpine-linux_hotspot_21.0.13_3-ea.tar.gz",
+    "vendor": "eclipse",
+    "version": "21.0.13+3-ea-beta"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "temurin",
     "features": [],
     "file_type": "tar.gz",
     "filename": "OpenJDK21U-jre_x64_linux_hotspot_21.0.13_3-ea.tar.gz",
@@ -35497,6 +35521,48 @@
   },
   {
     "architecture": "x86_64",
+    "distro": "temurin",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK25U-jre_x64_alpine-linux_hotspot_25.0.5_3-ea.tar.gz",
+    "image_type": "jre",
+    "java_version": "25",
+    "jvm_impl": "hotspot",
+    "md5": "13b9787a79003f3dd8a4feae0adb13c7",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "f4b02f4571eab837880232c1eec5cc1a36e3957d",
+    "sha256": "e1f2b96eb1368673e7569b8bf1f85dc3321443f58f7fbde6be95cfabffdb29dc",
+    "sha512": "b0c3117af6f664ce915c2e804b4b87e021b64a4e41dc756abbfb0bc497e3ab1214d21e8fc89ae775397df0f89ab68efa25a076d90a5a6f085bead3b2ddbc237e",
+    "size": 60936278,
+    "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B3-ea-beta/OpenJDK25U-jre_x64_alpine-linux_hotspot_25.0.5_3-ea.tar.gz",
+    "vendor": "eclipse",
+    "version": "25.0.5+3-ea-beta"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "temurin",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK25U-jre_x64_linux_hotspot_25.0.5_3-ea.tar.gz",
+    "image_type": "jre",
+    "java_version": "25",
+    "jvm_impl": "hotspot",
+    "md5": "33262d32f94ce346ac5a5fa32b2689f9",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "644475b68e9400f18ddf05192e90e4e912579d55",
+    "sha256": "5e92d0f45e65eaa3519e2f13b0acd6795f60d8050d64cb084a9245d95aa76c5b",
+    "sha512": "821854165f672eb3b15be4e4c61d103326d6b754545cd285e254f65374836bf17ab40fece76dbee86a58261857cd96219c5470846c68baef20654dba1c314982",
+    "size": 61770358,
+    "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B3-ea-beta/OpenJDK25U-jre_x64_linux_hotspot_25.0.5_3-ea.tar.gz",
+    "vendor": "eclipse",
+    "version": "25.0.5+3-ea-beta"
+  },
+  {
+    "architecture": "x86_64",
     "distro": "liberica",
     "features": [
       "leyden"
@@ -40022,6 +40088,7 @@
     "sha256": "eef19130e70cdbf0c45143975df4fc4d17aa67090264ff60defd0923a047e8e2",
     "sha512": "82aebb188f05d35e048c48c80bd078fe59a8c4883498465db2b9c933556b088d538945037ccb5b16783b82b90858334f694d78b8f99d2aa70ff09f7e6e6027bb",
     "size": 62625508,
+    "unlisted_since": "2026-08-22",
     "url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27%2B10-ea-beta/OpenJDK-jre_x64_alpine-linux_hotspot_27_10-ea.tar.gz",
     "vendor": "eclipse",
     "version": "27+10-ea-beta"
@@ -40042,6 +40109,7 @@
     "sha256": "51531dfaf382c08670428626f7ca95b63fb8aa2bba34b2cf1413ef2c1670402a",
     "sha512": "191a04acb5ffc51be69459480491bd8e491d9c782491d466528a349f41dfeed6e90ae78ef4f07c54efa6cf6f1a13018f9280a4214269280c62a39d732705fabd",
     "size": 63141452,
+    "unlisted_since": "2026-08-22",
     "url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27%2B10-ea-beta/OpenJDK-jre_x64_linux_hotspot_27_10-ea.tar.gz",
     "vendor": "eclipse",
     "version": "27+10-ea-beta"
@@ -40930,6 +40998,48 @@
   },
   {
     "architecture": "x86_64",
+    "distro": "temurin",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK27U-jre_x64_alpine-linux_hotspot_27_35-ea.tar.gz",
+    "image_type": "jre",
+    "java_version": "27",
+    "jvm_impl": "hotspot",
+    "md5": "9439dd870eb4f5431c5fcde478757ef2",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "51a50b49db9a66e66efee2face98b3ca18d1bd50",
+    "sha256": "aea36736a6357c126cf04525bbc28d29395bf3805a46144d5c9f2dfd74e3dd8e",
+    "sha512": "c3dfc7c824f2d03c8ee27e773871cfc091503d3c42b3bf92a3bf648e457b6fc8686ae102b42cddd8664b0a23a1c06cb7f13f2f97db1d8a93dd88b55d38880cc9",
+    "size": 61551770,
+    "url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27%2B35-ea-beta/OpenJDK27U-jre_x64_alpine-linux_hotspot_27_35-ea.tar.gz",
+    "vendor": "eclipse",
+    "version": "27+35-ea-beta"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "temurin",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK27U-jre_x64_linux_hotspot_27_35-ea.tar.gz",
+    "image_type": "jre",
+    "java_version": "27",
+    "jvm_impl": "hotspot",
+    "md5": "ccec6f512d5d709d8adaa998476293c5",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "d8f35874020a96a613298cec203b07f088e9cbe2",
+    "sha256": "45745c90d58256b296c11eaad8463f9367d4690d79739c0f4c8a8a98d2644dcf",
+    "sha512": "c45f5f30b05cf38d7722c45474daa04f2233b7573fe78d7ca614982bc9f92487e577567994b290eff2e5b38d067f45bb5283cf99dad6e47f608374142ca1b4bb",
+    "size": 62130495,
+    "url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27%2B35-ea-beta/OpenJDK27U-jre_x64_linux_hotspot_27_35-ea.tar.gz",
+    "vendor": "eclipse",
+    "version": "27+35-ea-beta"
+  },
+  {
+    "architecture": "x86_64",
     "distro": "sapmachine",
     "features": [
       "musl"
@@ -41809,5 +41919,47 @@
     "url": "https://github.com/adoptium/temurin28-binaries/releases/download/jdk-28%2B11-ea-beta/OpenJDK-jre_x64_linux_hotspot_28_11-ea.tar.gz",
     "vendor": "eclipse",
     "version": "28+11-ea-beta"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "temurin",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK-jre_x64_alpine-linux_hotspot_28_12-ea.tar.gz",
+    "image_type": "jre",
+    "java_version": "28",
+    "jvm_impl": "hotspot",
+    "md5": "d33b15c48bf9b3f7558854a71e9d933b",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "ac756956fd1f4f89a57c5084af2984c8e430c9c1",
+    "sha256": "0d7cdea7f2a4741172bdd8af600775dcfef36b331419939644f3b0123187424f",
+    "sha512": "d851fb6db02d126cb4c2445cee2072e7e0dd63cfcdeb939e26d73db092007b919239de946e689ec26866a0a372325bcc219f035dd284aa1db7481a8760e91d4b",
+    "size": 79018780,
+    "url": "https://github.com/adoptium/temurin28-binaries/releases/download/jdk-28%2B12-ea-beta/OpenJDK-jre_x64_alpine-linux_hotspot_28_12-ea.tar.gz",
+    "vendor": "eclipse",
+    "version": "28+12-ea-beta"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "temurin",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK-jre_x64_linux_hotspot_28_12-ea.tar.gz",
+    "image_type": "jre",
+    "java_version": "28",
+    "jvm_impl": "hotspot",
+    "md5": "75ddfc0a27efb71b5a257c3afa936ac3",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "51bf5feeb8b5385501f43ebf1e707fdd1b641d63",
+    "sha256": "4622001b1259c21e6654f4192ddc903007243ae66deabb36582a99fe1813ed33",
+    "sha512": "8a8a0b3340da153f076027899bff9bed5052b63e9f0872084271c792a23123ca7048fbbf8a4e21c102d1afeb5aeeb5de19820b7b284055a44db744033e7ee386",
+    "size": 79613855,
+    "url": "https://github.com/adoptium/temurin28-binaries/releases/download/jdk-28%2B12-ea-beta/OpenJDK-jre_x64_linux_hotspot_28_12-ea.tar.gz",
+    "vendor": "eclipse",
+    "version": "28+12-ea-beta"
   }
 ]
