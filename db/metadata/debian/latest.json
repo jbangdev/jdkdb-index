@@ -84,6 +84,50 @@
     "version": "8u502-ga-2"
   },
   {
+    "architecture": "x86_64",
+    "distro": "debian",
+    "features": [
+      "headless"
+    ],
+    "file_type": "deb",
+    "filename": "openjdk-8-jdk-headless_8u504-ga-1_amd64.deb",
+    "image_type": "jdk",
+    "java_version": "8u504",
+    "jvm_impl": "hotspot",
+    "md5": "9e4c280d3f7b4f91d8edb7d6680dd88e",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "e83900f49411e41442895e392a486d9b3e91e824",
+    "sha256": "d1ad748a3ff38da2cdfcd065e07527511558f830ba91bbe8bdc7b02c72f3c5c9",
+    "sha512": "889d1512e15550dd476eb167f336b292eab142c23b1fe1151159dfc9d8103b7f09491c701848e04800a91597f9196fc8ea35825084bbf1053b6160713e4b647d",
+    "size": 8215576,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-8/openjdk-8-jdk-headless_8u504-ga-1_amd64.deb",
+    "vendor": "debian",
+    "version": "8u504-ga-1"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "debian",
+    "features": [
+      "headless"
+    ],
+    "file_type": "deb",
+    "filename": "openjdk-8-jdk-headless_8u504-ga-1_arm64.deb",
+    "image_type": "jdk",
+    "java_version": "8u504",
+    "jvm_impl": "hotspot",
+    "md5": "0a48e0a556e8854600f52270838bd4e4",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "e23dc02d08c99c20e77a32a40e7aa3b45190b126",
+    "sha256": "5a2ee4bd8e5e1f22d77a9cdd561d8e1b603afd1deb42f78ef42a86ec2cdeb454",
+    "sha512": "dc5d5fdf1af4faa03eec81a83e80593a2c5d2f459616b4c5168cbe182e5c13d3b759f87867f7f627070574f336b4196a7223eccc0db481d9bad7fd65b52702c7",
+    "size": 8211312,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-8/openjdk-8-jdk-headless_8u504-ga-1_arm64.deb",
+    "vendor": "debian",
+    "version": "8u504-ga-1"
+  },
+  {
     "architecture": "arm32-vfp-hflt",
     "distro": "debian",
     "features": [
@@ -129,6 +173,28 @@
     "version": "8u504-ga-1"
   },
   {
+    "architecture": "loong64",
+    "distro": "debian",
+    "features": [
+      "headless"
+    ],
+    "file_type": "deb",
+    "filename": "openjdk-8-jdk-headless_8u504-ga-1_loong64.deb",
+    "image_type": "jdk",
+    "java_version": "8u504",
+    "jvm_impl": "hotspot",
+    "md5": "2c11d6d60dcf9dac08ddae088dbc7a7b",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "0930d39d76f0c406597b7e1bee5e9c72a107a267",
+    "sha256": "c98c13571558f24443baba122a2aba14a7d215059a62c1011120629ac89a2ad9",
+    "sha512": "eb17aaa20a049778282dc9c44818ad8ffff401ee4222477004a3d50a3f5141ed1b0227af859ccf4a347ea2a2e487c02c1823c211a02f775d3bb88065b95eac8c",
+    "size": 6242060,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-8/openjdk-8-jdk-headless_8u504-ga-1_loong64.deb",
+    "vendor": "debian",
+    "version": "8u504-ga-1"
+  },
+  {
     "architecture": "ppc64le",
     "distro": "debian",
     "features": [
@@ -147,6 +213,28 @@
     "sha512": "bd046c1bf4ffc7f5405a0d4f4895652c91bede2534056f7985f95cc8d3cf72ef933b30a20a49e2b773282ae2e43973f64de0339a378119192fef63a03c860b35",
     "size": 6232264,
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-8/openjdk-8-jdk-headless_8u504-ga-1_ppc64el.deb",
+    "vendor": "debian",
+    "version": "8u504-ga-1"
+  },
+  {
+    "architecture": "s390x",
+    "distro": "debian",
+    "features": [
+      "headless"
+    ],
+    "file_type": "deb",
+    "filename": "openjdk-8-jdk-headless_8u504-ga-1_s390x.deb",
+    "image_type": "jdk",
+    "java_version": "8u504",
+    "jvm_impl": "hotspot",
+    "md5": "d3931bc5293cf561dda09e0c6dfdf105",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "9611082748a80ef422448f91fd9951684f8b93b3",
+    "sha256": "2f8aa0f42ed29d82db15716810d69ed4e6d04d944170b852fabbb8ed30e9dd98",
+    "sha512": "4cf29008030f59922da147f066226222239efa86ec37edfe358dd2e4b0b908a2f75a84ce602ebf967fada86e721de9f40cb6a4f77b69f67d62f09600ff44c212",
+    "size": 6245388,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-8/openjdk-8-jdk-headless_8u504-ga-1_s390x.deb",
     "vendor": "debian",
     "version": "8u504-ga-1"
   },
@@ -253,6 +341,26 @@
     "version": "8u504-ga-1"
   },
   {
+    "architecture": "ppc64le",
+    "distro": "debian",
+    "features": [],
+    "file_type": "deb",
+    "filename": "openjdk-8-jdk_8u504-ga-1_ppc64el.deb",
+    "image_type": "jdk",
+    "java_version": "8u504",
+    "jvm_impl": "hotspot",
+    "md5": "ca58472ae3bfeddb274c7130315f2a38",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "b38071d11ff68f77d74da8e0f7fdcdd2e654876a",
+    "sha256": "bb779920f477d65b2bac6943c07389c0e1852f0377a4a16f6567f500b64b0ee5",
+    "sha512": "1a59142650eb650c46bf68a8dc6af0624084050e753d52512096646d1f2b9db22d2b92acb0e9220c49ea4ea7fd056c8bc668932104f7c14c387bb0fd3a2def15",
+    "size": 4055556,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-8/openjdk-8-jdk_8u504-ga-1_ppc64el.deb",
+    "vendor": "debian",
+    "version": "8u504-ga-1"
+  },
+  {
     "architecture": "s390x",
     "distro": "debian",
     "features": [],
@@ -291,6 +399,28 @@
     "sha512": "c2f825d2392a6169b4863164ef6d6746c80c727f8433664f78c8ac2cc9e7431ca5cc5aa30637ac63bce269f98d457252e03957618bae5808154e2f8a91fce4c7",
     "size": 28662596,
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-8/openjdk-8-jre-headless_8u504-ga-1_amd64.deb",
+    "vendor": "debian",
+    "version": "8u504-ga-1"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "debian",
+    "features": [
+      "headless"
+    ],
+    "file_type": "deb",
+    "filename": "openjdk-8-jre-headless_8u504-ga-1_arm64.deb",
+    "image_type": "jre",
+    "java_version": "8u504",
+    "jvm_impl": "hotspot",
+    "md5": "1fefe6e4c26237ba73b8929fa7ffd242",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "e52dca0b5e97908be0f5a80397d34f56200c928c",
+    "sha256": "03f56233d8f538addaa585af0279683ce3127da176f25e75a8cd0f8094f2a746",
+    "sha512": "a1b1141a14b408f45a784727d139b04dd591cd5e041e661cdd8d6b0636b8ff6a7405055bae7bc34a68ea454ce2b442ef05be0bedebcc8042c69c6641257240f9",
+    "size": 28002384,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-8/openjdk-8-jre-headless_8u504-ga-1_arm64.deb",
     "vendor": "debian",
     "version": "8u504-ga-1"
   },
@@ -424,6 +554,51 @@
     "sha512": "217104b3a1fddd2d53512edfd19853cf9b6ec76648465d4565cff86baf36d98385fa78ee7f7add604ba753b9a1160117be72f28d698b91f20baa4c3a96ebdbc6",
     "size": 2243436,
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-8/openjdk-8-jre-zero_8u504-ga-1_amd64.deb",
+    "vendor": "debian",
+    "version": "8u504-ga-1"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "debian",
+    "features": [
+      "zero"
+    ],
+    "file_type": "deb",
+    "filename": "openjdk-8-jre-zero_8u504-ga-1_arm64.deb",
+    "image_type": "jre",
+    "java_version": "8u504",
+    "jvm_impl": "hotspot",
+    "md5": "daae16678fcd236dc8e75215beb846b2",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "0a7feb4003561e278ca3137cd9aa814d46bac91d",
+    "sha256": "345e261985b43b09c8148a52a74d45761d747308ac9a1a54268e9c7ccefacfbf",
+    "sha512": "be88c79852ae744fdf21ed8c89615b9100a570ea07ac89da0771fd40ff346428bdf2879dcc7ad8532c463cfeedc95ea9c9d86d23f6eb004d16de50592c37aa4b",
+    "size": 1969792,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-8/openjdk-8-jre-zero_8u504-ga-1_arm64.deb",
+    "vendor": "debian",
+    "version": "8u504-ga-1"
+  },
+  {
+    "architecture": "arm32-vfp-hflt",
+    "distro": "debian",
+    "features": [
+      "zero",
+      "hard-float"
+    ],
+    "file_type": "deb",
+    "filename": "openjdk-8-jre-zero_8u504-ga-1_armhf.deb",
+    "image_type": "jre",
+    "java_version": "8u504",
+    "jvm_impl": "hotspot",
+    "md5": "bc13bb9374feb7023bbf2ee141164ea5",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "eb0f32c092997d696d21e146ab19ea9b15bac921",
+    "sha256": "aadc2e9db9bacf87b74559a46213fe650836cedc143821471e132779b3c418b8",
+    "sha512": "0cd6681f94be89df05ae5afef757b06ffd332df370c72b25394e292c0b41711f7c99aa24c62c5ee8f541442ef61dc9d5992996b2eb31338c4f63642ca96c51a1",
+    "size": 1796908,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-8/openjdk-8-jre-zero_8u504-ga-1_armhf.deb",
     "vendor": "debian",
     "version": "8u504-ga-1"
   },
@@ -4343,6 +4518,7 @@
     "sha256": "79f923f54f262c01938feede9c5404b9d5144ee043ff6a5b9d8b12c5b20a084f",
     "sha512": "95c3a592cb093670d5d6afea3e1fba71d42da5d302195b6ebb7a32380dc64de3ce99e04f55bf848584d9b64e74fab298652b296b03143563818fefe9a24f53e0",
     "size": 83021844,
+    "unlisted_since": "2026-08-23",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-26/openjdk-26-jdk-headless_26.0.2+10-3_loong64.deb",
     "vendor": "debian",
     "version": "26.0.2+10-3"
@@ -4363,6 +4539,7 @@
     "sha256": "bf7bd476ed0d35c636ac2abfcd0db8ffb9f9aae7907e42ba1b3e083dc788cafb",
     "sha512": "3fe79d6d86c18bc742d3e2537f66fc050745625b0ec4b5d8db861d05ecaa4033db8e80a201187979c9fceb3b8c37b8432c6adf2b8be8f806e44a8f6bc0169b87",
     "size": 3991248,
+    "unlisted_since": "2026-08-23",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-26/openjdk-26-jdk_26.0.2+10-3_loong64.deb",
     "vendor": "debian",
     "version": "26.0.2+10-3"
@@ -4385,6 +4562,7 @@
     "sha256": "ca741ee7551dc28b922c69e8cdf6489190a2acd2695f0a97302f6a7a52f632f0",
     "sha512": "b2d065b627a9af3e388c30068169ba6ab76213da4de091fbd9838bc66c5b4944dc13acf618fd6aea016a2208f733ebf32a02b358e19a6156004e04d6e385d925",
     "size": 42739400,
+    "unlisted_since": "2026-08-23",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-26/openjdk-26-jre-headless_26.0.2+10-3_loong64.deb",
     "vendor": "debian",
     "version": "26.0.2+10-3"
@@ -4405,6 +4583,7 @@
     "sha256": "dd935da0ba518f57d9a0252163a993dd83495937e9cbdf129cce4b434e38210f",
     "sha512": "7c31882aa2c2a3196f8b6c962925062e0b0e24797a3baf6ddfecbf85491366da851fbd7668e2e277284bc009d7946efb05d5352fcdc5ec12df6b232a75253e24",
     "size": 195520,
+    "unlisted_since": "2026-08-23",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-26/openjdk-26-jre_26.0.2+10-3_loong64.deb",
     "vendor": "debian",
     "version": "26.0.2+10-3"

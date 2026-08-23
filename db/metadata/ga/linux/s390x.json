@@ -2823,6 +2823,28 @@
   {
     "architecture": "s390x",
     "distro": "debian",
+    "features": [
+      "headless"
+    ],
+    "file_type": "deb",
+    "filename": "openjdk-8-jdk-headless_8u504-ga-1_s390x.deb",
+    "image_type": "jdk",
+    "java_version": "8u504",
+    "jvm_impl": "hotspot",
+    "md5": "d3931bc5293cf561dda09e0c6dfdf105",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "9611082748a80ef422448f91fd9951684f8b93b3",
+    "sha256": "2f8aa0f42ed29d82db15716810d69ed4e6d04d944170b852fabbb8ed30e9dd98",
+    "sha512": "4cf29008030f59922da147f066226222239efa86ec37edfe358dd2e4b0b908a2f75a84ce602ebf967fada86e721de9f40cb6a4f77b69f67d62f09600ff44c212",
+    "size": 6245388,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-8/openjdk-8-jdk-headless_8u504-ga-1_s390x.deb",
+    "vendor": "debian",
+    "version": "8u504-ga-1"
+  },
+  {
+    "architecture": "s390x",
+    "distro": "debian",
     "features": [],
     "file_type": "deb",
     "filename": "openjdk-8-jdk_8u504-ga-1_s390x.deb",
@@ -13577,6 +13599,26 @@
   {
     "architecture": "s390x",
     "distro": "debian",
+    "features": [],
+    "file_type": "deb",
+    "filename": "openjdk-11-jdk_11.0.32.1+1-1_s390x.deb",
+    "image_type": "jdk",
+    "java_version": "11.0.32.1+1",
+    "jvm_impl": "hotspot",
+    "md5": "7e357d5e9a96275da2dc618f9bcf5cb9",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "fe45e167aee7cbffbe380bb01de63d94e4977d89",
+    "sha256": "15b042ed8cd39c846ad464800ccd2369cb02b147bcff906cb8e3ed57bba39623",
+    "sha512": "9ecc7626002bde605226fea9db27f54124f9f9c71693a86906475c4d897369976cab81bcb38efffc866ac4933d23091dc36cdbbb138b4ea02be4f182e8e2c322",
+    "size": 3621368,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-11/openjdk-11-jdk_11.0.32.1+1-1_s390x.deb",
+    "vendor": "debian",
+    "version": "11.0.32.1+1-1"
+  },
+  {
+    "architecture": "s390x",
+    "distro": "debian",
     "features": [
       "headless"
     ],
@@ -13593,6 +13635,28 @@
     "sha512": "7f6a150f75e1f79b641da4ad66889948586ceb481334b1860dfd54005ec3205d7b0922fd87bca94c6d2db9dbea109dea0eb1b23ba90c03d5a1e795723ec2c811",
     "size": 33974644,
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-11/openjdk-11-jre-headless_11.0.32.1+1-1_s390x.deb",
+    "vendor": "debian",
+    "version": "11.0.32.1+1-1"
+  },
+  {
+    "architecture": "s390x",
+    "distro": "debian",
+    "features": [
+      "zero"
+    ],
+    "file_type": "deb",
+    "filename": "openjdk-11-jre-zero_11.0.32.1+1-1_s390x.deb",
+    "image_type": "jre",
+    "java_version": "11.0.32.1+1",
+    "jvm_impl": "hotspot",
+    "md5": "e194b849eb74dded4aa44be81b282e2f",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "38604a9f97506ebbe22ee41697551144d0a4c0fd",
+    "sha256": "8c48f13f8edc36ec5dc6a40b3d71312195a9636d8eaec2e025c17d4829b2eed0",
+    "sha512": "4a4d243ae4d7e3139422b3776fb30aa3402883a838a0355e3c62ea8462382276f9c55ce60199c21ac34d2a7448a2c38beb9f5c61a82a5b83399e6040e4303e79",
+    "size": 2116524,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-11/openjdk-11-jre-zero_11.0.32.1+1-1_s390x.deb",
     "vendor": "debian",
     "version": "11.0.32.1+1-1"
   },
@@ -22756,6 +22820,28 @@
     "url": "https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.20.0-m2/ibm-semeru-open-jre_s390x_linux_17.0.20.0-m2.tar.gz",
     "vendor": "ibm",
     "version": "17.0.20.0-m2"
+  },
+  {
+    "architecture": "s390x",
+    "distro": "debian",
+    "features": [
+      "headless"
+    ],
+    "file_type": "deb",
+    "filename": "openjdk-17-jdk-headless_17.0.20.1+1-1_s390x.deb",
+    "image_type": "jdk",
+    "java_version": "17.0.20.1+1",
+    "jvm_impl": "hotspot",
+    "md5": "e6056692d3bcf62d4d7d47cbed6da3ca",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "097292c196ddf7e9840f7769de0f8353b4c9745a",
+    "sha256": "89482d33d7c4ec14917a27842b5b794a5c90ee91fa899828b3e71286624d9b40",
+    "sha512": "adaab785c225494afb418fada760c5a0beae83f53d3cb24cb4afdaeffc84935d718819103c33142336da5b17b1dcf11c10b1235f8fe9a85209a9a7d6ddd06f58",
+    "size": 68035412,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-17/openjdk-17-jdk-headless_17.0.20.1+1-1_s390x.deb",
+    "vendor": "debian",
+    "version": "17.0.20.1+1-1"
   },
   {
     "architecture": "s390x",
@@ -35364,6 +35450,26 @@
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-26/openjdk-26-jre_26+35-2_s390x.deb",
     "vendor": "debian",
     "version": "26+35-2"
+  },
+  {
+    "architecture": "s390x",
+    "distro": "semeru",
+    "features": [],
+    "file_type": "rpm",
+    "filename": "ibm-semeru-open-27+34-jdk-27.0.0.0_m1a-1.s390x.rpm",
+    "image_type": "jdk",
+    "java_version": "27.0.0.0",
+    "jvm_impl": "openj9",
+    "md5": "baf95279ba8a91f4d96d8257d19285dc",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "dd755abc3c0d89f8df65c843532a62b290c2b7ba",
+    "sha256": "e1dd0f6c20bc85cb482f230241becbe3e3bc04d88af6392b67c0323067a957b2",
+    "sha512": "e6607d7c9c03b19b1a7a1494cf2ee9b81588eff73f818f92f2df3306598b3b50c92f43b84c4572433f70f9923cbf172e00c419a8f5ba66c98588e8e8a7a5549b",
+    "size": 217687952,
+    "url": "https://github.com/ibmruntimes/semeru27-binaries/releases/download/jdk-27.0.0.0-m1a/ibm-semeru-open-27%2B34-jdk-27.0.0.0_m1a-1.s390x.rpm",
+    "vendor": "ibm",
+    "version": "27.0.0.0-m1a"
   },
   {
     "architecture": "s390x",

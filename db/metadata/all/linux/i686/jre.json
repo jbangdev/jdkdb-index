@@ -5374,6 +5374,7 @@
     "sha256": "783fab672f6236460067fe28f4aab392e51086a8116fa6101b18edc089f00a47",
     "sha512": "e921a7cfc52bf02a4aa00d9310fba7d0f11294b23830d6b18533001570a9788c8242c51cd0588141007fb48f4d85501f413473885d1d3d3325650e0adc63c80b",
     "size": 28138388,
+    "unlisted_since": "2026-08-23",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-8/openjdk-8-jre-headless_8u502-ga-2_i386.deb",
     "vendor": "debian",
     "version": "8u502-ga-2"
@@ -5396,6 +5397,7 @@
     "sha256": "e246190b05c4383b1ab6fcd17ec58431ffef60a1a96892e7323ba9a2b0a69e0d",
     "sha512": "3f825c6d02eab7dc3b4a44ab7a89bba6449f534fc97f645352e68380ba63899495451a9f486f8126ce0f02317bafbb706d0cb2aedf7d92111b20680fc9bfcb54",
     "size": 2023052,
+    "unlisted_since": "2026-08-23",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-8/openjdk-8-jre-zero_8u502-ga-2_i386.deb",
     "vendor": "debian",
     "version": "8u502-ga-2"
@@ -5416,6 +5418,7 @@
     "sha256": "bb248341639bb048041a5093e3df691abafdeca260bc4875a830f526b852fb8e",
     "sha512": "d591cd1d946c2ef956e0b382add218112d0da1675d80109b5e93d047e4e4441b362c8022f5e1cc6699784deca81bd3fd2afe309958d3341c1689d92cb23212e9",
     "size": 72256,
+    "unlisted_since": "2026-08-23",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-8/openjdk-8-jre_8u502-ga-2_i386.deb",
     "vendor": "debian",
     "version": "8u502-ga-2"
@@ -5912,6 +5915,28 @@
     "features": [
       "javafx"
     ],
+    "file_type": "deb",
+    "filename": "bellsoft-jre8u504+1-linux-i586-full.deb",
+    "image_type": "jre",
+    "java_version": "1.8.0_504",
+    "jvm_impl": "hotspot",
+    "md5": "1426f6b9d5c46708c7e7c9bace70082a",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "4f3bd8ed7257211ef741346ba9c297b23a982050",
+    "sha256": "bf7ddbbad0b608f8c81bbe43947880991802ad9a8e754262dac6f93ea5c41924",
+    "sha512": "cd65533bcd0b379f40cc675e515a8123ad2829283c2faeda3a28fe208b99a6a0be6e31cd2d5cbb8064942b881c914fd7b08aca3d1c25caf1d6eb41c13745003c",
+    "size": 68987376,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/8u504+1/bellsoft-jre8u504+1-linux-i586-full.deb",
+    "vendor": "bellsoft",
+    "version": "8u504+1"
+  },
+  {
+    "architecture": "i686",
+    "distro": "liberica",
+    "features": [
+      "javafx"
+    ],
     "file_type": "rpm",
     "filename": "bellsoft-jre8u504+1-linux-i586-full.rpm",
     "image_type": "jre",
@@ -5967,6 +5992,26 @@
     "sha512": "16636ae4de8128e9d6358e700064193aa2901844b49219c0745ce3b0166c916295a54506419d49d79022740a443b481095ebfbabbc74ef00b433c7ed309e30c1",
     "size": 32193252,
     "url": "https://github.com/bell-sw/Liberica/releases/download/8u504+1/bellsoft-jre8u504+1-linux-i586.deb",
+    "vendor": "bellsoft",
+    "version": "8u504+1"
+  },
+  {
+    "architecture": "i686",
+    "distro": "liberica",
+    "features": [],
+    "file_type": "rpm",
+    "filename": "bellsoft-jre8u504+1-linux-i586.rpm",
+    "image_type": "jre",
+    "java_version": "1.8.0_504",
+    "jvm_impl": "hotspot",
+    "md5": "177dca853f304ff9eab870eb3a8a4e0d",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "5ae2e7badc2a37f29adecde5314764b9e6f90fc9",
+    "sha256": "370a140e07d3a640d68a7c6678301edc4176a77d50794b96f0bf3a4705d35eff",
+    "sha512": "ec2619a07b3ebd6b90541c6a64ac075a3bf6e11fefd48aed042758a8b2cc1b9a13d861f5e85c24ffb46a9b1480add817309864b2706034149fe86d8a0642c377",
+    "size": 36143692,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/8u504+1/bellsoft-jre8u504+1-linux-i586.rpm",
     "vendor": "bellsoft",
     "version": "8u504+1"
   },
@@ -12255,6 +12300,28 @@
     "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.32.1+1/bellsoft-jre11.0.32.1+1-linux-x64-musl.tar.gz",
     "vendor": "bellsoft",
     "version": "11.0.32.1+1"
+  },
+  {
+    "architecture": "i686",
+    "distro": "debian",
+    "features": [
+      "headless"
+    ],
+    "file_type": "deb",
+    "filename": "openjdk-11-jre-headless_11.0.32.1+1-1_i386.deb",
+    "image_type": "jre",
+    "java_version": "11.0.32.1+1-post-1-Debian",
+    "jvm_impl": "hotspot",
+    "md5": "dfdd83f862cec193958bb9d68cbb3fd3",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "aa185551ea1620cef3bf9ff9622b767bb2075601",
+    "sha256": "f9bb06f141df830f20e95f19411c884a3555303aea34065f56cfb3ada45b264d",
+    "sha512": "9458c84773317c489711a198c6ee5fee3ca0f524072072a0bff9970ee9c39acc23a7c1811ea0fbc81f04387ebea571bc8092df4a1e2b8810bb5520419c61c599",
+    "size": 38820376,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-11/openjdk-11-jre-headless_11.0.32.1+1-1_i386.deb",
+    "vendor": "debian",
+    "version": "11.0.32.1+1-1"
   },
   {
     "architecture": "i686",
@@ -19826,6 +19893,28 @@
   {
     "architecture": "i686",
     "distro": "debian",
+    "features": [
+      "zero"
+    ],
+    "file_type": "deb",
+    "filename": "openjdk-17-jre-zero_17.0.20.1+1-1_i386.deb",
+    "image_type": "jre",
+    "java_version": "17.0.20.1+1",
+    "jvm_impl": "hotspot",
+    "md5": "2e8e964309d0dbfac7baad8801172c46",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "84ece7abf8399033e8817b0351ea91d677ed0431",
+    "sha256": "62ed358e547f95c50386b03e74aadff9f356486a1d5a1a22a9f6104c8a813612",
+    "sha512": "ff03e843393d4c7f7bed8bb9019503c26e1220b24180d1fbeb9cbfdbcd2744b551f3a394ffed41b6d4382315a15c298d868a507d11e715eb4b4277a0cda2fab8",
+    "size": 2660592,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-17/openjdk-17-jre-zero_17.0.20.1+1-1_i386.deb",
+    "vendor": "debian",
+    "version": "17.0.20.1+1-1"
+  },
+  {
+    "architecture": "i686",
+    "distro": "debian",
     "features": [],
     "file_type": "deb",
     "filename": "openjdk-17-jre_17.0.20.1+1-1_i386.deb",
@@ -25368,6 +25457,26 @@
     "architecture": "i686",
     "distro": "liberica",
     "features": [],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jre21.0.12.1+1-linux-amd64.tar.gz",
+    "image_type": "jre",
+    "java_version": "21.0.12.1+1-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "301543321a048f8f496cc84bc267e222",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "79628781b2bdd424a7fb62c8d49ad7cd242ed67c",
+    "sha256": "c0a7dac8f8d8a631eda3630e123108e13507051b3e61adce7e1ee354fcd97776",
+    "sha512": "c962744486e9b2fd9180b27f1d47764c60cf9ca739a0f65e7d89246166f753c3484fd989a41842ec4b6cdc6568af6fa56b9dd2a2f5e1047d8e8df7b7fdbe3c97",
+    "size": 65882696,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.12.1+1/bellsoft-jre21.0.12.1+1-linux-amd64.tar.gz",
+    "vendor": "bellsoft",
+    "version": "21.0.12.1+1"
+  },
+  {
+    "architecture": "i686",
+    "distro": "liberica",
+    "features": [],
     "file_type": "deb",
     "filename": "bellsoft-jre21.0.12.1+1-linux-i586.deb",
     "image_type": "jre",
@@ -25401,6 +25510,26 @@
     "sha512": "02098034edc97bf0cb00d2a032f1e374227a8fa834bdbb511f46898a400be533cf0b0f2a4994aaa408d329be6768d8e0131d9ec9bce87afc0e70f244fda0d9da",
     "size": 39053588,
     "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.12.1+1/bellsoft-jre21.0.12.1+1-linux-i586.rpm",
+    "vendor": "bellsoft",
+    "version": "21.0.12.1+1"
+  },
+  {
+    "architecture": "i686",
+    "distro": "liberica",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jre21.0.12.1+1-linux-i586.tar.gz",
+    "image_type": "jre",
+    "java_version": "21.0.12.1+1-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "0285946428e796ed34a9be1070f1bd7d",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "f7c8da955067e7ecda9851c7fde7f760f2a6d66b",
+    "sha256": "386c795617217ace46b9acb1ba1a40c604b8c753d9c121972a496a62d95cd305",
+    "sha512": "62cc3877911e3c64048853bf3cde3a5042663b87eb229f5fd9482c0ea19e16bc75d4a9a88029207a52bb58e60c35ebae251c708063ee6c20e9026850596a8c6c",
+    "size": 54947369,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.12.1+1/bellsoft-jre21.0.12.1+1-linux-i586.tar.gz",
     "vendor": "bellsoft",
     "version": "21.0.12.1+1"
   },
@@ -27698,6 +27827,28 @@
     "features": [
       "javafx"
     ],
+    "file_type": "deb",
+    "filename": "bellsoft-jre26.0.2.1+1-linux-amd64-full.deb",
+    "image_type": "jre",
+    "java_version": "26.0.2.1+1",
+    "jvm_impl": "hotspot",
+    "md5": "c3cba937238d6b748024d9f87b1ccc4e",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "f4e8dadd8ec3c8a38c88bcf49f4eb27555e14a8a",
+    "sha256": "ab003e4206a3ce726459115ab0794f6ac3519929bbfeddde0c1fe93f8783b360",
+    "sha512": "b84c6aefeeaf86bc0d85a00712e9e0710ca6340d9c815aa71a79dbb214d531d1c63b7cee8300fdf1a865ba61b0f737f998dd0188e06d5d163fd62d47cc2c7356",
+    "size": 94998784,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/26.0.2.1+1/bellsoft-jre26.0.2.1+1-linux-amd64-full.deb",
+    "vendor": "bellsoft",
+    "version": "26.0.2.1+1"
+  },
+  {
+    "architecture": "i686",
+    "distro": "liberica",
+    "features": [
+      "javafx"
+    ],
     "file_type": "rpm",
     "filename": "bellsoft-jre26.0.2.1+1-linux-amd64-full.rpm",
     "image_type": "jre",
@@ -27779,6 +27930,26 @@
   {
     "architecture": "i686",
     "distro": "liberica",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jre26.0.2.1+1-linux-amd64.tar.gz",
+    "image_type": "jre",
+    "java_version": "26.0.2.1+1",
+    "jvm_impl": "hotspot",
+    "md5": "095946f40072a11a2b89ce862498743f",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "34484f2728bd4b2dc3553f36c1d27a04b940d5f9",
+    "sha256": "ab9ca1a509cd2dfb72b16092261ade100fca6793d8b04236c386d06dc93de413",
+    "sha512": "4748029cc58033b03f529e247fb5ef85077d0589ac2d7febe0ea9bad869c61b3a0751167473ab3cbd289adfd9eb330daacf073467f365f38c2b23fbd5e0a8f6b",
+    "size": 86039962,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/26.0.2.1+1/bellsoft-jre26.0.2.1+1-linux-amd64.tar.gz",
+    "vendor": "bellsoft",
+    "version": "26.0.2.1+1"
+  },
+  {
+    "architecture": "i686",
+    "distro": "liberica",
     "features": [
       "musl"
     ],
@@ -27819,6 +27990,28 @@
     "url": "https://github.com/bell-sw/Liberica/releases/download/26.0.2.1+1/bellsoft-jre26.0.2.1+1-linux-x64-musl.tar.gz",
     "vendor": "bellsoft",
     "version": "26.0.2.1+1"
+  },
+  {
+    "architecture": "i686",
+    "distro": "debian",
+    "features": [
+      "headless"
+    ],
+    "file_type": "deb",
+    "filename": "openjdk-26-jre-headless_26.0.2.1+1-1_i386.deb",
+    "image_type": "jre",
+    "java_version": "26.0.2.1+1-1-Debian",
+    "jvm_impl": "hotspot",
+    "md5": "235a89ea8b5bb714e38aa256b8ded9d0",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "50e5d5332fe552aa6bb10f6795086b1790dac22e",
+    "sha256": "0699f98bac03a612218f0402f603278d89e35e656a22b58e1cd00e218a37501f",
+    "sha512": "c8efab9745e4c7deab30b8b8b4fd58eaca1c6513c513e7c94dea3ca06c7b728da8e0a170dde676373f9b82e791b497b27f50c5238ef64dca92e24157d5d554fe",
+    "size": 39140716,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-26/openjdk-26-jre-headless_26.0.2.1+1-1_i386.deb",
+    "vendor": "debian",
+    "version": "26.0.2.1+1-1"
   },
   {
     "architecture": "i686",

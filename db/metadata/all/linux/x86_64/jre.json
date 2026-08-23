@@ -34373,7 +34373,6 @@
     "sha256": "a8b72c221ca74f920f575511607e8672fc10e24da0f2b3441dc3c63a97d0d728",
     "sha512": "3e2018f15f82580878847a61992187631a62da04157f4059942f42b7030c121353d2a61fbd10ebaaa9a7f6f7cc52197954a3a8b1fd4021a870de1059bd8e6e4b",
     "size": 56604600,
-    "unlisted_since": "2026-08-22",
     "url": "https://builds.openlogic.com/downloadJDK/openlogic-openjdk-jre/11.0.28+6/openlogic-openjdk-jre-11.0.28+6-linux-x64-deb.deb",
     "vendor": "openlogic",
     "version": "11.0.28+6"
@@ -64126,6 +64125,29 @@
   {
     "architecture": "x86_64",
     "distro": "sapmachine",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "sapmachine-jre-17.0.13-ea.2_linux-x64-musl_bin.tar.gz",
+    "image_type": "jre",
+    "java_version": "17.0.13-ea.2",
+    "jvm_impl": "hotspot",
+    "md5": "5903a52d0d44df7636b73f00af8fc571",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "941d94c0f4dde4f2a3239b824c50a41e0a9047dc",
+    "sha256": "c6ab4f2be598fc62e718f6f7927845dfce36977c152ea4e89f872142636c7e95",
+    "sha512": "7ff69eeac6a2610f430eeb0545c57f131ca4a096859105006c0e6055987d91177a2d41b9a9578b8a90c11810aa6411b76c9546460c1bb758344227d67025c447",
+    "size": 47090154,
+    "unlisted_since": "2026-08-12",
+    "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-17.0.13+2/sapmachine-jre-17.0.13-ea.2_linux-x64-musl_bin.tar.gz",
+    "vendor": "sap",
+    "version": "17.0.13-ea.2"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "sapmachine",
     "features": [],
     "file_type": "tar.gz",
     "filename": "sapmachine-jre-17.0.13-ea.2_linux-x64_bin.tar.gz",
@@ -71797,6 +71819,26 @@
   },
   {
     "architecture": "x86_64",
+    "distro": "temurin",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK17U-jre_x64_linux_hotspot_17.0.20.1_1.tar.gz",
+    "image_type": "jre",
+    "java_version": "17.0.20.1+1",
+    "jvm_impl": "hotspot",
+    "md5": "ce55b994c02414294b2370cdae9d5253",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "5e958453a7108fee451e4e8e20657cc251a0c6b8",
+    "sha256": "0b2b640e3046b64c8ec504de0ab9d91bb5610182bda21fad454681ce54d45a62",
+    "sha512": "30fbb2d8c90f91eeaae3b9c502818543ba095ff39fb113c61ec2aef2392108a6deff318bc40ba1e5de5d68d98a69c9deba4ac7bbd04cff49b71d8a0581f6096b",
+    "size": 46640574,
+    "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20.1%2B1/OpenJDK17U-jre_x64_linux_hotspot_17.0.20.1_1.tar.gz",
+    "vendor": "eclipse",
+    "version": "17.0.20.1+1"
+  },
+  {
+    "architecture": "x86_64",
     "distro": "debian",
     "features": [
       "headless"
@@ -72450,6 +72492,26 @@
     "sha512": "d6a249dae77c131ab662c4730b83a316d0211345d9f71aded04e37472e1f04c55d62c3ac289d5aa689921ebb48d26eb68a1faa93aad3cc0a9afb2b94321dc35a",
     "size": 46314023,
     "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20.1%2B1/OpenJDK17U-jre_x64_alpine-linux_hotspot_17.0.20.1_1.tar.gz",
+    "vendor": "adoptopenjdk",
+    "version": "17.0.20+101"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "adoptopenjdk",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK17U-jre_x64_linux_hotspot_17.0.20.1_1.tar.gz",
+    "image_type": "jre",
+    "java_version": "17.0.20.1+1",
+    "jvm_impl": "hotspot",
+    "md5": "ce55b994c02414294b2370cdae9d5253",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "5e958453a7108fee451e4e8e20657cc251a0c6b8",
+    "sha256": "0b2b640e3046b64c8ec504de0ab9d91bb5610182bda21fad454681ce54d45a62",
+    "sha512": "30fbb2d8c90f91eeaae3b9c502818543ba095ff39fb113c61ec2aef2392108a6deff318bc40ba1e5de5d68d98a69c9deba4ac7bbd04cff49b71d8a0581f6096b",
+    "size": 46640574,
+    "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20.1%2B1/OpenJDK17U-jre_x64_linux_hotspot_17.0.20.1_1.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "17.0.20+101"
   },
@@ -98104,7 +98166,6 @@
     "sha256": "357fbeaecb12c4b596c47820f7b34ae7e944c0f361a6a0786931f4a82a8773a3",
     "sha512": "c49249f45d5f1a646abe2d4be978a72c527d6520d6def66b3dffc26904139d049fe4bf8daafbfd3f017bb21f8df1984dfe93757195827f11911f10f6187c5509",
     "size": 57975928,
-    "unlisted_since": "2026-08-22",
     "url": "https://builds.openlogic.com/downloadJDK/openlogic-openjdk-jre/21.0.7+6/openlogic-openjdk-jre-21.0.7+6-linux-x64-el.rpm",
     "vendor": "openlogic",
     "version": "21.0.7+6"
@@ -101613,6 +101674,7 @@
     "sha256": "50b5e24d665f5a7ba3f0d925b488adbf6b328d34ba52942517f93ed40249ad1f",
     "sha512": "f96fa941d4f820a4dcbb816c317890109bf5f619dd7b70d77795465093558448784c19500e490a97356b2b6791e3d7d433112f4b473f434abd5ea2b781b04544",
     "size": 58094576,
+    "unlisted_since": "2026-08-23",
     "url": "https://builds.openlogic.com/downloadJDK/openlogic-openjdk-jre/21.0.10+7/openlogic-openjdk-jre-21.0.10+7-linux-x64-deb.deb",
     "vendor": "openlogic",
     "version": "21.0.10+7"
@@ -104051,6 +104113,26 @@
     "sha512": "980ba2560b85995d3abb7ba2ad8361e860f264ffc474034209dc34bf346a51f102424be491a06cb7f4a03753cb77c36d6d2a06039e53ebcdfd1810e224a8877f",
     "size": 9163524,
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-21/openjdk-21-jre-zero_21.0.12.1+1-1_amd64.deb",
+    "vendor": "debian",
+    "version": "21.0.12.1+1-1"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "debian",
+    "features": [],
+    "file_type": "deb",
+    "filename": "openjdk-21-jre_21.0.12.1+1-1_amd64.deb",
+    "image_type": "jre",
+    "java_version": "21.0.12.1+1",
+    "jvm_impl": "hotspot",
+    "md5": "f32ab5a1727d5c272fdc01587c399a61",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "642ad3dce7c6c10ec1e8a5dd2f7d36ea623cb8d4",
+    "sha256": "8d8681bfd140d8126b74867150abd6c4949d92ba3b8f2259a6a395b215584206",
+    "sha512": "85439f324958f8f6fd0c5eff00a946e45de358ba959c17ec4ff5acb145b2b39375cef4a22280b11a8ed88060008061d906288918783b7402309168b90ef7441b",
+    "size": 215316,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-21/openjdk-21-jre_21.0.12.1+1-1_amd64.deb",
     "vendor": "debian",
     "version": "21.0.12.1+1-1"
   },
@@ -123894,6 +123976,26 @@
   },
   {
     "architecture": "x86_64",
+    "distro": "temurin",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK25U-jre_x64_linux_hotspot_25.0.4.1_1.tar.gz",
+    "image_type": "jre",
+    "java_version": "25.0.4.1+1-LTS",
+    "jvm_impl": "hotspot",
+    "md5": "dc22566f89ad35891b4a8884271cb06f",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "a1d55121d43f866efc01e08fe9e245c7913a0952",
+    "sha256": "1731a34baadec5479258ea0202e4d5d865d2efeee60cb0c7d7eb056fe96ca219",
+    "sha512": "dca7d903ad79de0ba836bfee11a0d81206f265147cef15add9d7b840c0738e7dbc38530c499e8e21d07a98cb34adaf8f20b50b77d221fa302f139768e59d0eb3",
+    "size": 61718288,
+    "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-jre_x64_linux_hotspot_25.0.4.1_1.tar.gz",
+    "vendor": "eclipse",
+    "version": "25.0.4.1+1"
+  },
+  {
+    "architecture": "x86_64",
     "distro": "debian",
     "features": [
       "headless"
@@ -131672,6 +131774,26 @@
     "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-27%2B33/sapmachine-jre-27-ea.33_linux-x64_bin.tar.gz",
     "vendor": "sap",
     "version": "27-ea.33"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "semeru",
+    "features": [],
+    "file_type": "rpm",
+    "filename": "ibm-semeru-open-27+34-jre-27.0.0.0_m1a-1.x86_64.rpm",
+    "image_type": "jre",
+    "java_version": "27.0.0.0",
+    "jvm_impl": "openj9",
+    "md5": "f24ce10da146c577daaedb09c120f24e",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "25a08d04c28c3c31579e52fbbe7108c263565751",
+    "sha256": "965f97163ec7214018ccac512b2d82d6717e4fc351756941384aba571229f2df",
+    "sha512": "94d7aca6221e1c4c1152907eaf0329483b726d523aa7c2f5f3877a4352be2aabfe2f046fa45b1f75232557b3d918d8268ed601b98d863606a301ac2e3fcc740b",
+    "size": 36060356,
+    "url": "https://github.com/ibmruntimes/semeru27-binaries/releases/download/jdk-27.0.0.0-m1a/ibm-semeru-open-27%2B34-jre-27.0.0.0_m1a-1.x86_64.rpm",
+    "vendor": "ibm",
+    "version": "27.0.0.0-m1a"
   },
   {
     "architecture": "x86_64",
