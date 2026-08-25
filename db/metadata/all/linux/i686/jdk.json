@@ -5771,6 +5771,7 @@
     "sha256": "6bb64c6c4e6d8238d2ae09297acf0420878fd80e07a60341f5c4a4eb02f33f12",
     "sha512": "6045d7e893085311a2d380816ec7cbc42ef8c06b62b14f852c9cae5fe7ff4e21a8bdbf9f29006f4eca410b4bbb0e7fbe00e72a8e011653961255f1c45ef3abfb",
     "size": 113142276,
+    "unlisted_since": "2026-08-25",
     "url": "https://builds.openlogic.com/downloadJDK/openlogic-openjdk/8u482-b08/openlogic-openjdk-8u482-b08-linux-x32-deb.deb",
     "vendor": "openlogic",
     "version": "8u482-b08"
@@ -5811,7 +5812,6 @@
     "sha256": "557622b9a44065fa68ac12201ce5f1e866d3a2bda870c54da04d23b47dedc630",
     "sha512": "5b9162f34f52a4a2b1e45b107a404a19f392c3b6ececa61c4b7c9869a7f62928ed86e98ec93e6882b87e8479267d75d3a3554e5388c94fa9b744d3b43878255e",
     "size": 113130581,
-    "unlisted_since": "2026-08-23",
     "url": "https://builds.openlogic.com/downloadJDK/openlogic-openjdk/8u482-b08/openlogic-openjdk-8u482-b08-linux-x32.tar.gz",
     "vendor": "openlogic",
     "version": "8u482-b08"
@@ -6696,6 +6696,7 @@
     "sha256": "17158ea3a91a39a1da8c5dc579dfe3fbae2ac4651f19393cb4d229c14b7f397f",
     "sha512": "301913260e5262a4cb41dd031a3e39955208961f8f072facbad5b89c0c3895c7bbb0c5d35892ee0e2806603b6efe7b0e16106fe4f603082d137bd70dc65ec0f6",
     "size": 113178180,
+    "unlisted_since": "2026-08-25",
     "url": "https://builds.openlogic.com/downloadJDK/openlogic-openjdk/8u502-b07/openlogic-openjdk-8u502-b07-linux-x32-deb.deb",
     "vendor": "openlogic",
     "version": "8u502-b07"
@@ -8140,6 +8141,7 @@
     "sha256": "30b17029a543d1adadfb1c719eb09a6001966ff896b58bf3c6b2c4d70e9fb389",
     "sha512": "1e54131da5de4e912d1a878113fed8be9cd13d3e2346d7015cd05542c2f1be8684a87376000c4bdc8a03b7e2ded97a7e1791242e1832fd0644116b02d68ac4f8",
     "size": 155862612,
+    "unlisted_since": "2026-08-25",
     "url": "https://public.dhe.ibm.com/ibmdl/export/pub/systems/cloud/runtimes/java/8.0.8.65/linux/i386/ibm-java-i386-sdk-8.0-8.65.i386.rpm",
     "vendor": "ibm",
     "version": "8.0.8.65"
@@ -8160,6 +8162,7 @@
     "sha256": "5d1322ebecb36620fa55aeb05074b25530a2b65d6a7406876bbceb4b714e138b",
     "sha512": "83695c2795d506b64601314413dc036b69e0357b4cfc1decf82e11611d6945137c7ad640a0fe00fe9c1034d3dcf19e8d0f0a3464261abbe3b1024582fa7f4dd0",
     "size": 155752961,
+    "unlisted_since": "2026-08-25",
     "url": "https://public.dhe.ibm.com/ibmdl/export/pub/systems/cloud/runtimes/java/8.0.8.65/linux/i386/ibm-java-sdk-8.0-8.65-linux-i386.tgz",
     "vendor": "ibm",
     "version": "8.0.8.65"
@@ -8203,6 +8206,46 @@
     "url": "https://public.dhe.ibm.com/ibmdl/export/pub/systems/cloud/runtimes/java/8.0.8.70/linux/i386/ibm-java-sdk-8.0-8.70-linux-i386.tgz",
     "vendor": "ibm",
     "version": "8.0.8.70"
+  },
+  {
+    "architecture": "i686",
+    "distro": "ibm",
+    "features": [],
+    "file_type": "rpm",
+    "filename": "ibm-java-i386-sdk-8.0-8.71.i386.rpm",
+    "image_type": "jdk",
+    "java_version": "1.8.0_503",
+    "jvm_impl": "openj9",
+    "md5": "fa3dee456ab69e41f2cd58a19ee726bd",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "aaf4061145c6cc8122416bab591e63480ecbd3c4",
+    "sha256": "7796b3c35163ddd83abcb5d8179d68fca91ef0650ad76b2a5768b409da82e0a4",
+    "sha512": "a304ed167e9bd5c6bf8c5a44b45e2ae74aa5380a974efa9970e9baf185e17755d4fc5d465ea87c2df7181a820084e1912af009e7be1c9e729fff4c09b6e3a216",
+    "size": 156182907,
+    "url": "https://public.dhe.ibm.com/ibmdl/export/pub/systems/cloud/runtimes/java/8.0.8.71/linux/i386/ibm-java-i386-sdk-8.0-8.71.i386.rpm",
+    "vendor": "ibm",
+    "version": "8.0.8.71"
+  },
+  {
+    "architecture": "i686",
+    "distro": "ibm",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "ibm-java-sdk-8.0-8.71-linux-i386.tgz",
+    "image_type": "jdk",
+    "java_version": "1.8.0_503",
+    "jvm_impl": "openj9",
+    "md5": "bec829f3a79b3d5c92248382aa7dff71",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "64def8db76c5d134652f4f6deaa4341968a73319",
+    "sha256": "ab86c7755bad42d5e49c96f978ca8e62214b7cc23ec82b8575c68d1d19c2cbac",
+    "sha512": "2bf72a477b76f8fdee1ea0e85708327f4df694acdee6dc84354ea5960e6175f19fe0097cde3da07f5328a375e50be551f91ce1b0d862672537b19db2eb871250",
+    "size": 156047481,
+    "url": "https://public.dhe.ibm.com/ibmdl/export/pub/systems/cloud/runtimes/java/8.0.8.71/linux/i386/ibm-java-sdk-8.0-8.71-linux-i386.tgz",
+    "vendor": "ibm",
+    "version": "8.0.8.71"
   },
   {
     "architecture": "i686",
