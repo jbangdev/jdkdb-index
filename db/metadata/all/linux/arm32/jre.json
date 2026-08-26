@@ -5843,6 +5843,7 @@
     "sha256": "52d490b35a703a7d689be863f1adc810a982d3845de5fdd350ebcae03d219f1f",
     "sha512": "488a4ba256e2e16c885c30a337a7c0a4712ab35bf5eaa4e6dc3872f8b5603f830b183aebe36c8730c7cd5711e746ea887d5036b19817fb6a951fcd63fecad380",
     "size": 44039678,
+    "unlisted_since": "2026-08-26",
     "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.19%2B4-ea-beta/OpenJDK17U-jre_arm_linux_hotspot_17.0.19_4-ea.tar.gz",
     "vendor": "eclipse",
     "version": "17.0.19+4-ea-beta"
@@ -8267,6 +8268,51 @@
       "soft-float"
     ],
     "file_type": "deb",
+    "filename": "openjdk-21-jre-headless_21.0.12.1+1-1~deb13u1_armel.deb",
+    "image_type": "jre",
+    "java_version": "21.0.12.1+1-1-deb13u1-Debian",
+    "jvm_impl": "hotspot",
+    "md5": "05b4b52bd27d4db6ee5de13db316acf6",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "1e728fb9fc1ab55783f6f35af72c40c1ca7da8db",
+    "sha256": "5ec18d6bab5e80c23ef348ce369fa4bafb6c109a546b3056a4cf4981f7dd6e6b",
+    "sha512": "fe3d8a7438610bbe53c08f449f0712337731c3ed41428bc296c7640d621ca813f70baca78f6db39a5d5e1835c03c414f2e684a57a5c93e759d423fd11c54c09a",
+    "size": 33005768,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-21/openjdk-21-jre-headless_21.0.12.1+1-1~deb13u1_armel.deb",
+    "vendor": "debian",
+    "version": "21.0.12.1+1-1~deb13u1"
+  },
+  {
+    "architecture": "arm32",
+    "distro": "debian",
+    "features": [
+      "soft-float"
+    ],
+    "file_type": "deb",
+    "filename": "openjdk-21-jre_21.0.12.1+1-1~deb13u1_armel.deb",
+    "image_type": "jre",
+    "java_version": "21.0.12.1+1",
+    "jvm_impl": "hotspot",
+    "md5": "1b400ec4504634c9e22703ed71f76920",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "da886f6d9871624baa4412acf8dc974c444c4ac2",
+    "sha256": "a8e7608f318ceef0f4099781c9e09a1a2e5d140e4161e67c7b27cd8c81c58eda",
+    "sha512": "ad0c4be2ccb6ac4ebd99f5a1a3cffc604fb2fe48437117c1f630e906442b82307a5a2866b9063448bb5ec1e05c97fe7ebb0cb12295b584f4a57726a19fa033ea",
+    "size": 187868,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-21/openjdk-21-jre_21.0.12.1+1-1~deb13u1_armel.deb",
+    "vendor": "debian",
+    "version": "21.0.12.1+1-1~deb13u1"
+  },
+  {
+    "architecture": "arm32",
+    "distro": "debian",
+    "features": [
+      "headless",
+      "soft-float"
+    ],
+    "file_type": "deb",
     "filename": "openjdk-21-jre-headless_21.0.12+8-1~deb13u1_armel.deb",
     "image_type": "jre",
     "java_version": "21.0.12+8-1-deb13u1-Debian",
@@ -9330,6 +9376,51 @@
     "url": "https://github.com/bell-sw/Liberica/releases/download/25.0.4.1+1/bellsoft-jre25.0.4.1+1-linux-arm32-vfp-hflt.tar.gz",
     "vendor": "bellsoft",
     "version": "25.0.4.1+1"
+  },
+  {
+    "architecture": "arm32",
+    "distro": "debian",
+    "features": [
+      "headless",
+      "soft-float"
+    ],
+    "file_type": "deb",
+    "filename": "openjdk-25-jre-headless_25.0.4.1+1-1~deb13u1_armel.deb",
+    "image_type": "jre",
+    "java_version": "25.0.4.1+1-1-deb13u1-Debian",
+    "jvm_impl": "hotspot",
+    "md5": "2fbb1244080e781e69e4c9fa7e5b58e9",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "45ccae13ca9ee15d090559f1b0d6f8aaa8c31649",
+    "sha256": "759643b12a7c1a0f51ba6dfc9590766acc83afbd59101d412c33519dda56d604",
+    "sha512": "83283cbe698aba9c673850353324ff1e7b2a3dc4627ccc8c6f9e7d0277e26723a37b0c49f1f9a0f30b1a2d6a6068373ed5a6e42dcd513dc8d751cdeb94d5bf83",
+    "size": 37557004,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-25/openjdk-25-jre-headless_25.0.4.1+1-1~deb13u1_armel.deb",
+    "vendor": "debian",
+    "version": "25.0.4.1+1-1~deb13u1"
+  },
+  {
+    "architecture": "arm32",
+    "distro": "debian",
+    "features": [
+      "soft-float"
+    ],
+    "file_type": "deb",
+    "filename": "openjdk-25-jre_25.0.4.1+1-1~deb13u1_armel.deb",
+    "image_type": "jre",
+    "java_version": "25.0.4.1+1",
+    "jvm_impl": "hotspot",
+    "md5": "1dbfceba216a37e02d1dcef455ff42c3",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "a232d3a664ee45bfcacb9da7d51b3b681d74a5b9",
+    "sha256": "73c227ca4e3cd54395476ef9397b0975a434800a6d41350192362b71bb4ed9e2",
+    "sha512": "68d3547f23fa693c0acee91b61c16a9575be2d5346c5a70dbea1d2fb0a21b26655eed9caafa287b77dc9da55e8dfb1dfb3a77847ededb6c0650415725440bee7",
+    "size": 181244,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-25/openjdk-25-jre_25.0.4.1+1-1~deb13u1_armel.deb",
+    "vendor": "debian",
+    "version": "25.0.4.1+1-1~deb13u1"
   },
   {
     "architecture": "arm32",
