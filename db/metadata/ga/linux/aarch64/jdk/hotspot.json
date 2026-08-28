@@ -51438,6 +51438,31 @@
       "minimal-vm",
       "javafx"
     ],
+    "file_type": "rpm",
+    "filename": "bellsoft-jdk17+35-linux-aarch64-full.rpm",
+    "image_type": "jdk",
+    "java_version": "17+35",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-08-28",
+    "md5": "f758ee36464b05ca38602ef6f0f590f0",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "b710c3ec985049753ffecf298674d51bddb4ec7e",
+    "sha256": "4b34f421b4a7fa301994ab6904614b4618ed240fd315e4dee43a74a75d65a440",
+    "sha512": "de6187eb8c3d24706c2d79bf09f9b77911f2ad10296e827f491a730430734ad288a292ac9e80bb26e75e0c4de7677e62c76a9d8abe2caf28cdb31c5df249095c",
+    "size": 251888040,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/17+35/bellsoft-jdk17+35-linux-aarch64-full.rpm",
+    "vendor": "bellsoft",
+    "version": "17+35"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "liberica",
+    "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
     "file_type": "tar.gz",
     "filename": "bellsoft-jdk17+35-linux-aarch64-full.tar.gz",
     "image_type": "jdk",
@@ -71483,6 +71508,29 @@
     "architecture": "aarch64",
     "distro": "liberica",
     "features": [
+      "lite"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jdk21.0.6+10-linux-aarch64-lite.tar.gz",
+    "image_type": "jdk",
+    "java_version": "21.0.6+10-LTS",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-08-28",
+    "md5": "77f46a05bf469ac0d382963d99a4f02b",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "71ca1b487f6c118307561bdb202c51a964207fd6",
+    "sha256": "10e043400ecee92d9369ebbd2350e53462b69855d16aa8b82a500ee09f8220be",
+    "sha512": "82293aa7993fc4dcf44cec5436af2fa78c5757c6403bf1770945005622695c9ea99f79f41a86880a64d8912da17c0c3fde87f091fc4f020da94bc49064aceee1",
+    "size": 77392987,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.6+10/bellsoft-jdk21.0.6+10-linux-aarch64-lite.tar.gz",
+    "vendor": "bellsoft",
+    "version": "21.0.6+10"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "liberica",
+    "features": [
       "lite",
       "musl"
     ],
@@ -90986,6 +91034,27 @@
     "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-26.0.2.1/sapmachine-jdk-26.0.2.1_linux-aarch64_bin.tar.gz",
     "vendor": "sap",
     "version": "26.0.2.1"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "temurin",
+    "features": [ ],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK26U-jdk_aarch64_linux_hotspot_26.0.2.1_1.tar.gz",
+    "image_type": "jdk",
+    "java_version": "26.0.2.1+1",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-08-28",
+    "md5": "ddd585790ca48aa9983f32cbbc9da902",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "a21bd6c9104fb6c9a427e4bcf954293ef01c7aff",
+    "sha256": "9f6ad9856a7dd880061adaf88db3c4da0642113d59b7960a892f0e551c0c948c",
+    "sha512": "f0bef8d4d9e702565285c74ad8def8c7e61b480637bd4e6eb3e26ff1682abc16225cf3908290548368d6bec12288ab8b0b39518b809bd1e9983ae981d00f7c04",
+    "size": 143333360,
+    "url": "https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.2.1%2B1/OpenJDK26U-jdk_aarch64_linux_hotspot_26.0.2.1_1.tar.gz",
+    "vendor": "eclipse",
+    "version": "26.0.2.1+1"
   },
   {
     "architecture": "aarch64",

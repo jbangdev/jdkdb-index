@@ -28264,7 +28264,6 @@
     "sha256": "a8b72c221ca74f920f575511607e8672fc10e24da0f2b3441dc3c63a97d0d728",
     "sha512": "3e2018f15f82580878847a61992187631a62da04157f4059942f42b7030c121353d2a61fbd10ebaaa9a7f6f7cc52197954a3a8b1fd4021a870de1059bd8e6e4b",
     "size": 56604600,
-    "unlisted_since": "2026-08-27",
     "url": "https://builds.openlogic.com/downloadJDK/openlogic-openjdk-jre/11.0.28+6/openlogic-openjdk-jre-11.0.28+6-linux-x64-deb.deb",
     "vendor": "openlogic",
     "version": "11.0.28+6"
@@ -30158,6 +30157,29 @@
   {
     "architecture": "x86_64",
     "distro": "temurin",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK11U-jre_x64_alpine-linux_hotspot_11.0.32.1_1.tar.gz",
+    "image_type": "jre",
+    "java_version": "11.0.32.1+1",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-08-28",
+    "md5": "3bde74983db56a6ddf23cd9648f59ea2",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "185cf1417ba73831facf9561d5a24c25a4a1407f",
+    "sha256": "bb9951aab1dcd0f6c2b22d76a46773100a6639ad199f339ff288d360b3217ae2",
+    "sha512": "4887cc5bb78981b1cbe8366a50f8e64319659c11f5630116fd9e0f43949e5cde9e1c4e49f94f27dc87c7acc377c4b0fc3e0001a2a761280b276e558db616edd3",
+    "size": 42863365,
+    "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.32.1%2B1/OpenJDK11U-jre_x64_alpine-linux_hotspot_11.0.32.1_1.tar.gz",
+    "vendor": "eclipse",
+    "version": "11.0.32.1+1"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "temurin",
     "features": [ ],
     "file_type": "tar.gz",
     "filename": "OpenJDK11U-jre_x64_linux_hotspot_11.0.32.1_1.tar.gz",
@@ -30516,6 +30538,29 @@
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-11/openjdk-11-jre_11.0.32+9-3_amd64.deb",
     "vendor": "debian",
     "version": "11.0.32+9-3"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "adoptopenjdk",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK11U-jre_x64_alpine-linux_hotspot_11.0.32.1_1.tar.gz",
+    "image_type": "jre",
+    "java_version": "11.0.32.1+1",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-08-28",
+    "md5": "3bde74983db56a6ddf23cd9648f59ea2",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "185cf1417ba73831facf9561d5a24c25a4a1407f",
+    "sha256": "bb9951aab1dcd0f6c2b22d76a46773100a6639ad199f339ff288d360b3217ae2",
+    "sha512": "4887cc5bb78981b1cbe8366a50f8e64319659c11f5630116fd9e0f43949e5cde9e1c4e49f94f27dc87c7acc377c4b0fc3e0001a2a761280b276e558db616edd3",
+    "size": 42863365,
+    "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.32.1%2B1/OpenJDK11U-jre_x64_alpine-linux_hotspot_11.0.32.1_1.tar.gz",
+    "vendor": "adoptopenjdk",
+    "version": "11.0.32+101"
   },
   {
     "architecture": "x86_64",
@@ -48363,6 +48408,29 @@
     "sha512": "8ae4e59f18ec53b8bf16bd30d0969e270170b35fb6f7b450d1dedd9dc879a87edce2ea29d1a81377477c28dceef18ee3a9a03020335a5e47334b5125b7d86420",
     "size": 52404197,
     "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.7+7/bellsoft-jre17.0.7+7-linux-x64-musl.apk",
+    "vendor": "bellsoft",
+    "version": "17.0.7+7"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jre17.0.7+7-linux-x64-musl.tar.gz",
+    "image_type": "jre",
+    "java_version": "17.0.7+7",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-08-28",
+    "md5": "eb8891126b52828aaa9ec52241f74931",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "b3f3349bfee3e18baebac4e240147e7405ea39f1",
+    "sha256": "5da6d50b8bb540546a6bd1b7c22214a16e8d155bfc31a2e312579f1baefa81f7",
+    "sha512": "c0a6ba1033c2d95531b7941b48d15fd0814f0cf3a1200623e0f574a1cb756737b6aa444a0122ed4510f304ee4e6820fd7f815497b9c3ab55201ca12d71793b21",
+    "size": 52747666,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.7+7/bellsoft-jre17.0.7+7-linux-x64-musl.tar.gz",
     "vendor": "bellsoft",
     "version": "17.0.7+7"
   },
@@ -74205,6 +74273,28 @@
   },
   {
     "architecture": "x86_64",
+    "distro": "redhat",
+    "features": [ ],
+    "file_type": "tar.xz",
+    "filename": "java-21-openjdk-21.0.7.0.6-1.portable.jre.x86_64.tar.xz",
+    "image_type": "jre",
+    "java_version": "21.0.7+6-LTS",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-08-28",
+    "md5": "3155596b3066ae13c964464fcd0f4399",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "af8cbfac8aa6aef8439beb6c440525161583011f",
+    "sha256": "1dc7da5f7dc56a5a081a124ab535a73cfa31a864ac8b845ee4d9a4e6a8c4566d",
+    "sha512": "345dabd2d2def77720d6a2a78bea29b92cec93ca63084125f778425ed64d48820547b25a3de71b6e9826f618fbee139cc761406d50aedd8e969875106a6d0faa",
+    "size": 32513412,
+    "unlisted_since": "2026-08-12",
+    "url": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/April_2025/java-21-openjdk-21.0.7.0.6-1.portable.jre.x86_64.tar.xz",
+    "vendor": "redhat",
+    "version": "21.0.7+6_1"
+  },
+  {
+    "architecture": "x86_64",
     "distro": "semeru",
     "features": [
       "certified"
@@ -74303,7 +74393,6 @@
     "sha256": "4bf96d2dfe4a108b1bd3a92b01ba72929c4b3fd25b1d7ed5f5c61ddd9c2c5ded",
     "sha512": "5abb86a3afa0a8b914ce61526c981b5917b6bc39bfdc8df379881f0c92ba654880d3388bdee6d11e51e8a2cb741bb83ae8bf3e71162cf2c8a231189521a33dc3",
     "size": 58027068,
-    "unlisted_since": "2026-08-27",
     "url": "https://builds.openlogic.com/downloadJDK/openlogic-openjdk-jre/21.0.7+6/openlogic-openjdk-jre-21.0.7+6-linux-x64-deb.deb",
     "vendor": "openlogic",
     "version": "21.0.7+6"
@@ -76095,6 +76184,7 @@
     "sha256": "50b5e24d665f5a7ba3f0d925b488adbf6b328d34ba52942517f93ed40249ad1f",
     "sha512": "f96fa941d4f820a4dcbb816c317890109bf5f619dd7b70d77795465093558448784c19500e490a97356b2b6791e3d7d433112f4b473f434abd5ea2b781b04544",
     "size": 58094576,
+    "unlisted_since": "2026-08-28",
     "url": "https://builds.openlogic.com/downloadJDK/openlogic-openjdk-jre/21.0.10+7/openlogic-openjdk-jre-21.0.10+7-linux-x64-deb.deb",
     "vendor": "openlogic",
     "version": "21.0.10+7"

@@ -18208,6 +18208,30 @@
     "architecture": "x86_64",
     "distro": "zulu",
     "features": [
+      "crac",
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "zulu23.32.11-ca-crac-jdk23.0.2-linux_musl_x64.tar.gz",
+    "image_type": "jdk",
+    "java_version": "23.0.2",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-08-28",
+    "md5": "01a356f7f1f13e1efd7a12923e0e9839",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "50f404ff9fb046878dfc5797bdcc063a339144f3",
+    "sha256": "4be8d8740607d4b1679689eb27d684ee62bcf35af6b9d642431506bcb6c22b5f",
+    "sha512": "2eeccc9e67f1c901663485ad610d8089f91db2b39c560dc5b8fcd227de74cae1d33719680a285c806aa36b2b4612dd37bec4807932c0e28fbdadd3b0e855c9fc",
+    "size": 228685035,
+    "url": "https://static.azul.com/zulu/bin/zulu23.32.11-ca-crac-jdk23.0.2-linux_musl_x64.tar.gz",
+    "vendor": "azul",
+    "version": "23.32.11"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "zulu",
+    "features": [
       "crac"
     ],
     "file_type": "tar.gz",
@@ -18891,6 +18915,27 @@
     "sha512": "9a79d96dc55a52b464cceaad549559899d4e5edb193655f5afc09cc462cd0a9643e779dfbf9ab66cb618328b7cda98f7ec216c098f1e8116f824effeeaa084ea",
     "size": 232402573,
     "url": "https://static.azul.com/zulu/bin/zulu25.30.17-ca-jdk25.0.1-linux_x64.tar.gz",
+    "vendor": "azul",
+    "version": "25.30.17"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "zulu",
+    "features": [ ],
+    "file_type": "zip",
+    "filename": "zulu25.30.17-ca-jdk25.0.1-linux_x64.zip",
+    "image_type": "jdk",
+    "java_version": "25.0.1+8-LTS",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-08-28",
+    "md5": "e1fc55a015baeb725da8f6015212cac2",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "294dad72bb44adb23976ede5af18d7838d540ca8",
+    "sha256": "c27be6c92288073d282894e7bac647a0d72091927db2e014ffb5d0e60944f1c1",
+    "sha512": "99d3da790cb3beb3bd2ea8fee4567b3f29485cc1cccc6152457b1ce7d92e3b4a621b1d1074d37ae3ec43db44e7dde30d42c2f60c1b8b2a3e723bc7b8365952b0",
+    "size": 235995114,
+    "url": "https://static.azul.com/zulu/bin/zulu25.30.17-ca-jdk25.0.1-linux_x64.zip",
     "vendor": "azul",
     "version": "25.30.17"
   },
