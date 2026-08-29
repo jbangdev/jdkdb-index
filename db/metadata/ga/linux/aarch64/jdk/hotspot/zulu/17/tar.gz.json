@@ -1945,6 +1945,53 @@
     "architecture": "aarch64",
     "distro": "zulu",
     "features": [
+      "crac"
+    ],
+    "file_type": "tar.gz",
+    "filename": "zulu17.68.203-ca-crac-jdk17.0.20.1-linux_aarch64.tar.gz",
+    "image_type": "jdk",
+    "java_version": "17.0.20.1+1-LTS",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-08-29",
+    "md5": "60c99e2474366a706a0afc5f20b07aaf",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "9150ae9ccaa3feaeb0381ee5282635922c6f4266",
+    "sha256": "b00c4923f0bddec323db441881dceb4ce6f9d63aaec685af879e0a4cb9f8d17d",
+    "sha512": "3f33bfd127e1ca383f8a7e0e2534da6d002647aa86fbc2a3645215767e3cfee14baffb957a6329f3ea7ea34bba117de042f0042640511dd8b5400b8f9a0d1d2e",
+    "size": 204530083,
+    "url": "https://static.azul.com/zulu/bin/zulu17.68.203-ca-crac-jdk17.0.20.1-linux_aarch64.tar.gz",
+    "vendor": "azul",
+    "version": "17.68.203"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "zulu",
+    "features": [
+      "crac",
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "zulu17.68.203-ca-crac-jdk17.0.20.1-linux_musl_aarch64.tar.gz",
+    "image_type": "jdk",
+    "java_version": "17.0.20.1+1-LTS",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-08-29",
+    "md5": "b08f91b368708cf5450fc49a5e75fc7b",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "7755f84fa1114e19761e4dab919265ed48b3467d",
+    "sha256": "8a47c00397af1a1ee148a0854a63fe857cb7b8af5c2a6b428afa01dccd615b78",
+    "sha512": "bb1e65ab4d3bb016612965c7f61df09f33471be2a23965f91dcd840c24d01f91c068457f5b18899b427c58a4cab3e5b89dcfa67ce4a002d968b42f275cf0e411",
+    "size": 205600131,
+    "url": "https://static.azul.com/zulu/bin/zulu17.68.203-ca-crac-jdk17.0.20.1-linux_musl_aarch64.tar.gz",
+    "vendor": "azul",
+    "version": "17.68.203"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "zulu",
+    "features": [
       "javafx"
     ],
     "file_type": "tar.gz",
