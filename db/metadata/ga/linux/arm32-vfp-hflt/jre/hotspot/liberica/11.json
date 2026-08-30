@@ -830,6 +830,31 @@
   {
     "architecture": "arm32-vfp-hflt",
     "distro": "liberica",
+    "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jre11.0.9+12-linux-arm32-vfp-hflt-full.tar.gz",
+    "image_type": "jre",
+    "java_version": "11.0.9+12",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-08-30",
+    "md5": "d0d3a8cf7475e39a318add9724c39b75",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "9e5cb892de60ebd332ac32b3cd83df9ae58030bf",
+    "sha256": "5b59ca9583bab42194038babbcd906dac8f660e43de80e06b1f1ae93aa2c4578",
+    "sha512": "6b7ff1482888209845e4d83a955359de271cc15ecbfe8880c084efb713653c9daba45335b9d8ef15a6ce49ddd17cad7cc7714e9e07e3b41f92fb7be6b7bc411d",
+    "size": 47967817,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.9+12/bellsoft-jre11.0.9+12-linux-arm32-vfp-hflt-full.tar.gz",
+    "vendor": "bellsoft",
+    "version": "11.0.9+12"
+  },
+  {
+    "architecture": "arm32-vfp-hflt",
+    "distro": "liberica",
     "features": [ ],
     "file_type": "deb",
     "filename": "bellsoft-jre11.0.9+12-linux-arm32-vfp-hflt.deb",
