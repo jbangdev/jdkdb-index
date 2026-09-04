@@ -1936,6 +1936,7 @@
     "sha256": "feca1b84e879ac4408e37ebfcc8d9c9a50e936498bf093b2e9a3f0984e9d6dfe",
     "sha512": "f0d63491b0d53e88ec2bcf5110c59217bfc60f225dea4519e7fe6eb35548a1f388f30fc94d7d892272c27a56d635e7b20bbdf187b0bbed494d5d37b3d50cfd32",
     "size": 158547968,
+    "unlisted_since": "2026-09-04",
     "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.19%2B5-ea-beta/OpenJDK17U-jdk_aarch64_windows_hotspot_17.0.19_5-ea.msi",
     "vendor": "eclipse",
     "version": "17.0.19+5-ea-beta"
@@ -1957,6 +1958,7 @@
     "sha256": "a08f39017a0077c735e19017a4a9cd41a2166dd77db3581f2758187b2dd065ec",
     "sha512": "e06b30457982aab1fa09d1768f15283e5f8d35c8c4d614945fe75541b6fbcc3e1329ac122fdc1a2a6292c0a138bd185fb63362c420766e63eb0bbc3058af42d0",
     "size": 179086656,
+    "unlisted_since": "2026-09-04",
     "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.19%2B5-ea-beta/OpenJDK17U-jdk_aarch64_windows_hotspot_17.0.19_5-ea.zip",
     "vendor": "eclipse",
     "version": "17.0.19+5-ea-beta"
@@ -3292,6 +3294,7 @@
     "sha256": "fc0498b803cd1c9338d7249bd001b95220250863b5a7b110d805683cf9dcccbe",
     "sha512": "cdb084e05f8cebc6017e9542944f7dd1771b333ad41b60bc0658cf02466ddd0e694be6436c00027e03998db5ad3d69048fd236b693403749948349cde41148a5",
     "size": 168894464,
+    "unlisted_since": "2026-09-04",
     "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.11%2B5-ea-beta/OpenJDK21U-jdk_aarch64_windows_hotspot_21.0.11_5-ea.msi",
     "vendor": "eclipse",
     "version": "21.0.11+5-ea-beta"
@@ -3313,6 +3316,7 @@
     "sha256": "c12157c4ecbc631ddd770b2c77fd043acda7ea40b0c62ce96abd5497d16b9e5e",
     "sha512": "989b42b0049364afda2abcc1c59108438050e5fe82111258c35c9ae926655aa0d14928f036a560f5a9541ba90aedbc68ec6bae5c3cd627383f775da686aa3f79",
     "size": 192668303,
+    "unlisted_since": "2026-09-04",
     "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.11%2B5-ea-beta/OpenJDK21U-jdk_aarch64_windows_hotspot_21.0.11_5-ea.zip",
     "vendor": "eclipse",
     "version": "21.0.11+5-ea-beta"
@@ -3988,6 +3992,48 @@
     "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.13%2B4-ea-beta/OpenJDK21U-jdk_aarch64_windows_hotspot_21.0.13_4-ea.zip",
     "vendor": "eclipse",
     "version": "21.0.13+4-ea-beta"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "temurin",
+    "features": [ ],
+    "file_type": "msi",
+    "filename": "OpenJDK21U-jdk_aarch64_windows_hotspot_21.0.13_5-ea.msi",
+    "image_type": "jdk",
+    "java_version": "21",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-04",
+    "md5": "29a2fca671cd497285dd5262e0a0ebfd",
+    "os": "windows",
+    "release_type": "ea",
+    "sha1": "512e4c3f8b334f92e1c9e866fd30def55724edd8",
+    "sha256": "eefa26cece27570ad4d7c9e45fdaea50b52b48607dbdee9371322c4e9cd78f33",
+    "sha512": "0121677d4633d6e29b75331bd99d4428b833b638dd2fa09554c85ed5cd703211041a22e6303de8134a87bbd66b49534b0d6c437a382e227db4af7530d6252c7b",
+    "size": 169172992,
+    "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.13%2B5-ea-beta/OpenJDK21U-jdk_aarch64_windows_hotspot_21.0.13_5-ea.msi",
+    "vendor": "eclipse",
+    "version": "21.0.13+5-ea-beta"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "temurin",
+    "features": [ ],
+    "file_type": "zip",
+    "filename": "OpenJDK21U-jdk_aarch64_windows_hotspot_21.0.13_5-ea.zip",
+    "image_type": "jdk",
+    "java_version": "21",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-04",
+    "md5": "42a969a6729f793e296b06ad7df40a10",
+    "os": "windows",
+    "release_type": "ea",
+    "sha1": "8f064cedc5244d1166d673a305a0cf6f23871b4e",
+    "sha256": "088cb1810eaaba7a8a7da732d16ef2417ad73b1d80a7aea1d46fc641f273ef24",
+    "sha512": "acbbb7885312edde4cba0028bbdf5d4f34d7b7b14760dda3d6b66e4dad9337b753e9358ef84f42fa129cdaa2301e21fcbad84537f77162e258993cfdc9d2694f",
+    "size": 192963580,
+    "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.13%2B5-ea-beta/OpenJDK21U-jdk_aarch64_windows_hotspot_21.0.13_5-ea.zip",
+    "vendor": "eclipse",
+    "version": "21.0.13+5-ea-beta"
   },
   {
     "architecture": "aarch64",
@@ -6218,6 +6264,7 @@
     "sha256": "6aea2a3a6eba4c701d4b1ee30adf59823b8154009242d1f0b07b393b0847bc11",
     "sha512": "5e3a3ba118ab5a7749efcf3abcbda81de5f8d997804e1de2127c68ecaf39d3851086fa5cba18e2ce720a137bd99fa36a0ab285bce351bd645eabd462aca794d1",
     "size": 101818368,
+    "unlisted_since": "2026-09-04",
     "url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27%2B12-ea-beta/OpenJDK-jdk_aarch64_windows_hotspot_27_12-ea.msi",
     "vendor": "eclipse",
     "version": "27+12-ea-beta"
@@ -6239,6 +6286,7 @@
     "sha256": "990761619be02bcebd6e603103c325a28db473df7aa7f4417f56718befa311d3",
     "sha512": "6f9dd6533f65f82430a84778e79333d3a5e059f7a3a7626de10ec68b78bc795544dde32bc1767b076d3ea05f6cf24fbdaa88f3a9b389700fad8e11f245f03091",
     "size": 123669097,
+    "unlisted_since": "2026-09-04",
     "url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27%2B12-ea-beta/OpenJDK-jdk_aarch64_windows_hotspot_27_12-ea.zip",
     "vendor": "eclipse",
     "version": "27+12-ea-beta"
