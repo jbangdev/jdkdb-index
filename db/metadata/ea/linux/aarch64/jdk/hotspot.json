@@ -12298,6 +12298,27 @@
   },
   {
     "architecture": "aarch64",
+    "distro": "sapmachine",
+    "features": null,
+    "file_type": "tar.gz",
+    "filename": "sapmachine-jdk-17.0.21-ea.4_linux-aarch64_bin.tar.gz",
+    "image_type": "jdk",
+    "java_version": "17.0.21-ea.4",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-05",
+    "md5": "b06c04fa7d8d098ee4309677c2c51e61",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "2779c112d82bbfa794d953ff7c58f528c82fb648",
+    "sha256": "8ddaf0c3e7f38b763ee07df6f44fa87fdfe670c39bcc0fde55be1e188682fc1c",
+    "sha512": "567e7a7458048a8b8a0677f63f13e92e0542a2e6d0896700449bc36b7ec1ea297a2dc2da9e5a5aa38a216c73d676df62df27f13417c8c422ef9647ff2a8b22f1",
+    "size": 195440452,
+    "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-17.0.21%2B4/sapmachine-jdk-17.0.21-ea.4_linux-aarch64_bin.tar.gz",
+    "vendor": "sap",
+    "version": "17.0.21-ea.4"
+  },
+  {
+    "architecture": "aarch64",
     "distro": "temurin",
     "features": [
       "musl"
@@ -28085,6 +28106,7 @@
     "sha256": "71b0094a427962aa5b606392accb60c8dca3d0e2630b6ca6c302bee1f4b5a33a",
     "sha512": "a4a067a8ea32b706077f817a3f688bc13635753245bcd1c8f6b86bc6a87597d073e5794d36db036c04d4fa77442815965f7c03782254382748d6bf755886a415",
     "size": 139140104,
+    "unlisted_since": "2026-09-05",
     "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.3%2B5-ea-beta/OpenJDK25U-jdk_aarch64_alpine-linux_hotspot_25.0.3_5-ea.tar.gz",
     "vendor": "eclipse",
     "version": "25.0.3+5-ea-beta"
@@ -28106,6 +28128,7 @@
     "sha256": "49ac9ec6570f51f39d96150074206ebd51f7331cd1fdcabc77cb9116e10e9f45",
     "sha512": "7a5350a2442b1d1fdaf5080564cb735007d3490e4804babebea0b6e6b8ec8324b31ef8d75e0551c5ed91d3005a8764e1659a5395848f8e657c179ea2fc9a386d",
     "size": 139991998,
+    "unlisted_since": "2026-09-05",
     "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.3%2B5-ea-beta/OpenJDK25U-jdk_aarch64_linux_hotspot_25.0.3_5-ea.tar.gz",
     "vendor": "eclipse",
     "version": "25.0.3+5-ea-beta"
@@ -29043,6 +29066,50 @@
     "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B4-ea-beta/OpenJDK25U-jdk_aarch64_linux_hotspot_25.0.5_4-ea.tar.gz",
     "vendor": "eclipse",
     "version": "25.0.5+4-ea-beta"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "temurin",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK25U-jdk_aarch64_alpine-linux_hotspot_25.0.5_5-ea.tar.gz",
+    "image_type": "jdk",
+    "java_version": "25",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-05",
+    "md5": "9cbb7f2119a35a9428196ec339a9e305",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "746856a462cba12b95a207fcb5fd5732681433e3",
+    "sha256": "eb9533a5b79c1416808e73d72bafd859ec45f4c9ebd32f914243a408e2725e6e",
+    "sha512": "79adc981911e57d8ceba98f794a9451ad976476496cefe7d3b2d5873d7e7e9c48df42ab0e08b30bdbe5379bef5ba94e641cac01cfeec84b64d6fb548bba9c78a",
+    "size": 139160442,
+    "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B5-ea-beta/OpenJDK25U-jdk_aarch64_alpine-linux_hotspot_25.0.5_5-ea.tar.gz",
+    "vendor": "eclipse",
+    "version": "25.0.5+5-ea-beta"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "temurin",
+    "features": [ ],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK25U-jdk_aarch64_linux_hotspot_25.0.5_5-ea.tar.gz",
+    "image_type": "jdk",
+    "java_version": "25",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-05",
+    "md5": "cdd3246eae9d27e47ae5e7a5e0445b94",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "07fe0f9d83b81c159eccb57c22c08346d7c5d8b4",
+    "sha256": "e943ee2c1eed00b7ceaa7cc62120d81a2908ad4c337ab3d1ae4dd0c612f5be25",
+    "sha512": "8466db9cac60e6bc93d63b3d5ea9064b2b58eeead9fd4948f7bca68ba31f0b8be2c44bc8be6910ab013fb29092bb97b270e9364d23576d9abdb808c16ccb3d43",
+    "size": 140141041,
+    "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B5-ea-beta/OpenJDK25U-jdk_aarch64_linux_hotspot_25.0.5_5-ea.tar.gz",
+    "vendor": "eclipse",
+    "version": "25.0.5+5-ea-beta"
   },
   {
     "architecture": "aarch64",
@@ -35224,6 +35291,27 @@
   },
   {
     "architecture": "aarch64",
+    "distro": "sapmachine",
+    "features": null,
+    "file_type": "tar.gz",
+    "filename": "sapmachine-jdk-28-ea.13_linux-aarch64_bin.tar.gz",
+    "image_type": "jdk",
+    "java_version": "28-ea.13",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-05",
+    "md5": "211eec05a744f56c72bb8fd629548d31",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "f7f76ef948a5a45b81c08d5cf631485401253711",
+    "sha256": "32fa5d1d128d89405699d7ec22808174e0ca595bbdd2e63b6761dfd4ea78d3ec",
+    "sha512": "fad1d8025847602b3391b149c1eef24100d8e4239c824637618ae2319edea7874784b8355ff5b1d70c5ed440f8fa9041d090704752a661ad20c2e09612bac1c1",
+    "size": 128701911,
+    "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-28%2B13/sapmachine-jdk-28-ea.13_linux-aarch64_bin.tar.gz",
+    "vendor": "sap",
+    "version": "28-ea.13"
+  },
+  {
+    "architecture": "aarch64",
     "distro": "temurin",
     "features": [
       "musl"
@@ -35749,5 +35837,49 @@
     "url": "https://github.com/adoptium/temurin28-binaries/releases/download/jdk-28%2B13-ea-beta/OpenJDK-jdk_aarch64_linux_hotspot_28_13-ea.tar.gz",
     "vendor": "eclipse",
     "version": "28+13-ea-beta"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "temurin",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK-jdk_aarch64_alpine-linux_hotspot_28_14-ea.tar.gz",
+    "image_type": "jdk",
+    "java_version": "28",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-05",
+    "md5": "89ad17da57e11f2bf24efd1b5d10b14f",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "906b5ee2bbd112a7b9d2a7ed779de4fa9d34ca77",
+    "sha256": "249fff3d0e1b6f197b589d729626bb08f861f37fdcf79489ae8a2ab070876f94",
+    "sha512": "a7f4fba5f5b5f96c97c94fb51aacc0601979f834a96dada1d1991f774c08a9ae6c26629ddaad910d254a6acf6feb9f8cf439c03dab9816abd7570464eca415de",
+    "size": 158183491,
+    "url": "https://github.com/adoptium/temurin28-binaries/releases/download/jdk-28%2B14-ea-beta/OpenJDK-jdk_aarch64_alpine-linux_hotspot_28_14-ea.tar.gz",
+    "vendor": "eclipse",
+    "version": "28+14-ea-beta"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "temurin",
+    "features": [ ],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK-jdk_aarch64_linux_hotspot_28_14-ea.tar.gz",
+    "image_type": "jdk",
+    "java_version": "28",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-05",
+    "md5": "ef61d024398df460da645ab5616b2220",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "3d0d18f5f1b9ad3496b1df975b46b60cdb57e7c0",
+    "sha256": "98d8fd6b1dfda1c05a942858b7a8185a8a22b99e9fc3d36e0e825304d9e7429a",
+    "sha512": "2b979c48be62999375f6aad0e5a26c79b72a0c066e13150f3aa0db939d0c4f5d0fc1abe9e1a59a99cc6ccbc9ddf87b909b86f89f76a6723b6474351cb4a59b09",
+    "size": 159019059,
+    "url": "https://github.com/adoptium/temurin28-binaries/releases/download/jdk-28%2B14-ea-beta/OpenJDK-jdk_aarch64_linux_hotspot_28_14-ea.tar.gz",
+    "vendor": "eclipse",
+    "version": "28+14-ea-beta"
   }
 ]

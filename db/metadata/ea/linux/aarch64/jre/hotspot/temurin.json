@@ -6585,6 +6585,7 @@
     "sha256": "7d9a14ac860fb731babf5abe69dd13915d89cd447dc28aff77cfd23c5f16983c",
     "sha512": "1894814344efe8b4e0ad4e4ab4c8ad7ac517c8b6af668f56abf5bb70e23d4844080847ece9f292af014fc4353cb846d77e097d0488896d92c7ea53eae66e1bfc",
     "size": 59700793,
+    "unlisted_since": "2026-09-05",
     "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.3%2B5-ea-beta/OpenJDK25U-jre_aarch64_alpine-linux_hotspot_25.0.3_5-ea.tar.gz",
     "vendor": "eclipse",
     "version": "25.0.3+5-ea-beta"
@@ -6606,6 +6607,7 @@
     "sha256": "8101fef396bad998059be5657b457b1b95d13942cecc6cf508d9095a41567219",
     "sha512": "aad47bd5df40338a00e8d7a06ddf1eec0fa43c70e567873cb81f3fd9b4485cb50dbe14b65229a3828e373a9ae101d63d591963a67f0468cf76fd2fb02cbb05b6",
     "size": 60344055,
+    "unlisted_since": "2026-09-05",
     "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.3%2B5-ea-beta/OpenJDK25U-jre_aarch64_linux_hotspot_25.0.3_5-ea.tar.gz",
     "vendor": "eclipse",
     "version": "25.0.3+5-ea-beta"
@@ -7269,6 +7271,50 @@
     "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B4-ea-beta/OpenJDK25U-jre_aarch64_linux_hotspot_25.0.5_4-ea.tar.gz",
     "vendor": "eclipse",
     "version": "25.0.5+4-ea-beta"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "temurin",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK25U-jre_aarch64_alpine-linux_hotspot_25.0.5_5-ea.tar.gz",
+    "image_type": "jre",
+    "java_version": "25",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-05",
+    "md5": "a166fea153c708b724dfabe1666b8e58",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "ecf96e603d20c5a96a8ecf2d72d1e74c8c9ba470",
+    "sha256": "de2893fe31b5b26d2c5032f01e89b50f192b167d07c3bc77685a8b270a33d9f3",
+    "sha512": "0cde60d820c6858e506a9375d7c2a1d066abc71018da098f35602fadcfcb1f9a77083ba5f6c6f8a409b88e0876e66affeb199d04bc95ecb54c81704e936f6a2d",
+    "size": 59719798,
+    "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B5-ea-beta/OpenJDK25U-jre_aarch64_alpine-linux_hotspot_25.0.5_5-ea.tar.gz",
+    "vendor": "eclipse",
+    "version": "25.0.5+5-ea-beta"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "temurin",
+    "features": [ ],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK25U-jre_aarch64_linux_hotspot_25.0.5_5-ea.tar.gz",
+    "image_type": "jre",
+    "java_version": "25",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-05",
+    "md5": "9b306b40fa11d701367defb29654a131",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "ec4bd57c3520af6e24328991bd4fa876edc1ae17",
+    "sha256": "61618d29bbf19152aef18afdaf0f610ede13c82312fccac7946e49e0a9d320fc",
+    "sha512": "d268ddd2889aa060e2c178abf27e9e779a282a82ece7f022235c36bb8b020049f03dfb5641725f1f7c1cf534c02ed911f6908e1039f9f99c53333883e8525b00",
+    "size": 60492050,
+    "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B5-ea-beta/OpenJDK25U-jre_aarch64_linux_hotspot_25.0.5_5-ea.tar.gz",
+    "vendor": "eclipse",
+    "version": "25.0.5+5-ea-beta"
   },
   {
     "architecture": "aarch64",
@@ -10173,5 +10219,49 @@
     "url": "https://github.com/adoptium/temurin28-binaries/releases/download/jdk-28%2B13-ea-beta/OpenJDK-jre_aarch64_linux_hotspot_28_13-ea.tar.gz",
     "vendor": "eclipse",
     "version": "28+13-ea-beta"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "temurin",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK-jre_aarch64_alpine-linux_hotspot_28_14-ea.tar.gz",
+    "image_type": "jre",
+    "java_version": "28",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-05",
+    "md5": "11f7bfb22aeb3164eb539874cdb346e9",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "b6aa76eeaecacf11a03672aa0f08982fb925f0d9",
+    "sha256": "4dc9af751e48892d8d17e9a217b90614f0f7d11a5205cbd213395c1a6a4945e8",
+    "sha512": "a5da9d69132beb45bf05aacaef8f85ec02badecfb21b0bf47590e1f840c527d6967599a1490e723f781498c400c5a0b92a5dc0b9fc69bca37d66718767165adf",
+    "size": 77867589,
+    "url": "https://github.com/adoptium/temurin28-binaries/releases/download/jdk-28%2B14-ea-beta/OpenJDK-jre_aarch64_alpine-linux_hotspot_28_14-ea.tar.gz",
+    "vendor": "eclipse",
+    "version": "28+14-ea-beta"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "temurin",
+    "features": [ ],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK-jre_aarch64_linux_hotspot_28_14-ea.tar.gz",
+    "image_type": "jre",
+    "java_version": "28",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-05",
+    "md5": "fa77e619d902ff5962802397cfa457f7",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "73a46cb0e9f6bc72ee0e82e18ec2aafe5e840213",
+    "sha256": "6f41ffb7ac5f0b877428d040598bad5be3ff2fa3b2825499693984f2e7b96e22",
+    "sha512": "c3e193e7a08135b4edfe2d5751771b88537c47cf9abcc05e373b1e23b9a93b9441f0b0ab8585ebb2ede74deb0d865c7ba242797620f18ff13304638d1b61d678",
+    "size": 78503063,
+    "url": "https://github.com/adoptium/temurin28-binaries/releases/download/jdk-28%2B14-ea-beta/OpenJDK-jre_aarch64_linux_hotspot_28_14-ea.tar.gz",
+    "vendor": "eclipse",
+    "version": "28+14-ea-beta"
   }
 ]
