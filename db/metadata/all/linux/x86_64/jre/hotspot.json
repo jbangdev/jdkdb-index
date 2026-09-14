@@ -13738,6 +13738,29 @@
   {
     "architecture": "x86_64",
     "distro": "zulu",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "zulu8.50.0.51-ca-jre8.0.275-linux_musl_x64.tar.gz",
+    "image_type": "jre",
+    "java_version": "8.0.275",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-14",
+    "md5": "85dbb805854da2a9389e82aceddffc23",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "339cc8f64c8433f4740ace12f7c4d0ee80894bee",
+    "sha256": "2848527486b567b8af95c50a5a689631d1b8b4403670a52733b8234f526c8551",
+    "sha512": "6a50459aa50f32d38410064955b0c66e1dfe2a45e9c963bc766c499858d3d8d08d7d7d66b12020b4c1b58b620dd0271afd4cd4cbad3c9dfe7f54e29280e0a70b",
+    "size": 43345621,
+    "url": "https://static.azul.com/zulu/bin/zulu8.50.0.51-ca-jre8.0.275-linux_musl_x64.tar.gz",
+    "vendor": "azul",
+    "version": "8.50.0.51"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "zulu",
     "features": [ ],
     "file_type": "tar.gz",
     "filename": "zulu8.50.0.51-ca-jre8.0.275-linux_x64.tar.gz",
@@ -31504,6 +31527,7 @@
     "sha256": "7a658affcdf5e09748612d51181ace0ef90c19d541f4bae9a1d871e441e7b911",
     "sha512": "a2498dca3a8034b1dc16d5e7ba96ee29eacee3ef9bcd3ffff5b9dcb92f2769e01f60351ec02f392342f53953448102bae0a31e370910f3222adf3dfb3092a8b6",
     "size": 56571467,
+    "unlisted_since": "2026-09-14",
     "url": "https://builds.openlogic.com/downloadJDK/openlogic-openjdk-jre/11.0.27+6/openlogic-openjdk-jre-11.0.27+6-linux-x64.tar.gz",
     "vendor": "openlogic",
     "version": "11.0.27+6"
@@ -35226,6 +35250,7 @@
     "sha256": "344f5be689ec2ac9f340e4597255a635e348e316e742902c3977906459f13692",
     "sha512": "99d2eed033b30e9c90f48eb534442bac46242cb114b0ff09738e2b9d439661be7069e97c2b3d3438a863c51cde96bd8f31a73c3f9313154f9fedbd1bd5cc6f3d",
     "size": 38766476,
+    "unlisted_since": "2026-09-14",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-11/openjdk-11-jre-headless_11.0.32+9-3_amd64.deb",
     "vendor": "debian",
     "version": "11.0.32+9-3"
@@ -35249,6 +35274,7 @@
     "sha256": "f58fc5e7d6fa579f85860f2dd3a627a299f8ae7327253cf513a8a3337c545165",
     "sha512": "e5ba22fe667957ef5a69e2ed256c279f298448c9c3f80aa1db67deb720a78a1b540d59ee61f472a05e8eddd132a666fc4bcfee79f682a9957964b454a1797c39",
     "size": 2522948,
+    "unlisted_since": "2026-09-14",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-11/openjdk-11-jre-zero_11.0.32+9-3_amd64.deb",
     "vendor": "debian",
     "version": "11.0.32+9-3"
@@ -35270,6 +35296,7 @@
     "sha256": "908a7c1f7c20adaa8edcba04f87ef444ab40660246013bae37879c8aacd5d8e6",
     "sha512": "d1f5f5a041ec4b372c90415d45415b7094bc04e67a0c28bf03dee9a28d55b334f07e575965e98000338fb2e27c1a6954e06c63fad3aa96e682864e423fc337af",
     "size": 201584,
+    "unlisted_since": "2026-09-14",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-11/openjdk-11-jre_11.0.32+9-3_amd64.deb",
     "vendor": "debian",
     "version": "11.0.32+9-3"
@@ -67697,6 +67724,7 @@
     "sha256": "b7b5a8bdf672f5419861608c91e7a51ca20aece2d67595477bc9fbf6959b515a",
     "sha512": "6b60e4f2b1612c7b38c4c65b655599a52c48634b9ca561d76228e83ddfea0d267eba785cb6e77d06c12f412494658a037babbc985fecfde78562a69509df679a",
     "size": 47891770,
+    "unlisted_since": "2026-09-14",
     "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-17.0.20%2B1/sapmachine-jre-17.0.20-ea.1_linux-x64-musl_bin.tar.gz",
     "vendor": "sap",
     "version": "17.0.20-ea.1"
@@ -67718,6 +67746,7 @@
     "sha256": "f1d5c588147c51bd7d7b6c0b747b05f5c58a3e92946738b8360a6b5c491f6f33",
     "sha512": "191d7768a470da80e35cf1af1a726999c2ecd488381e51e3089985ae09187d6637ad2c3123d0d03e2ca690d7f72bd0fe32d390c39c3817e5ab7548cec6eb25df",
     "size": 49488710,
+    "unlisted_since": "2026-09-14",
     "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-17.0.20%2B1/sapmachine-jre-17.0.20-ea.1_linux-x64_bin.tar.gz",
     "vendor": "sap",
     "version": "17.0.20-ea.1"
@@ -98324,6 +98353,7 @@
     "sha256": "50b5e24d665f5a7ba3f0d925b488adbf6b328d34ba52942517f93ed40249ad1f",
     "sha512": "f96fa941d4f820a4dcbb816c317890109bf5f619dd7b70d77795465093558448784c19500e490a97356b2b6791e3d7d433112f4b473f434abd5ea2b781b04544",
     "size": 58094576,
+    "unlisted_since": "2026-09-14",
     "url": "https://builds.openlogic.com/downloadJDK/openlogic-openjdk-jre/21.0.10+7/openlogic-openjdk-jre-21.0.10+7-linux-x64-deb.deb",
     "vendor": "openlogic",
     "version": "21.0.10+7"
@@ -98366,7 +98396,6 @@
     "sha256": "6f4f11c28ccf1dcc1736616a666c2090d774873da63843cf5989c1b0fcbb7fae",
     "sha512": "86793e0a2897a4aa0d366d06370386c2830b947bec1a96f7ab8bb6749f081da534e2ec529f0aff0f27a783c4273ac392f2eac8a075549a421a884b88b3f97c0b",
     "size": 58094222,
-    "unlisted_since": "2026-09-13",
     "url": "https://builds.openlogic.com/downloadJDK/openlogic-openjdk-jre/21.0.10+7/openlogic-openjdk-jre-21.0.10+7-linux-x64.tar.gz",
     "vendor": "openlogic",
     "version": "21.0.10+7"
@@ -100136,6 +100165,7 @@
     "sha256": "d051349318dc7e4489556abc6949da0bfd068d46d9724e15fd6325e70b889d9a",
     "sha512": "63a659cbff95ef0062024ce51a970ff6b33766f4729dc2038b171c6b250262fc377d16da70302e9d8ad174e05ea44427cd6786680fcd800d20640ebe722a77d7",
     "size": 53818721,
+    "unlisted_since": "2026-09-14",
     "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-21.0.12%2B1/sapmachine-jre-21.0.12-ea.1_linux-x64-musl_bin.tar.gz",
     "vendor": "sap",
     "version": "21.0.12-ea.1"
@@ -100157,6 +100187,7 @@
     "sha256": "a8c1571a5f668d676ca56bfc0737229df57d7f702ac993c1fc34d632ca5e0b44",
     "sha512": "f89b9b39dc74b5c58f6a121b77f2a085512549a1989d6f366cc36aa0c0ff87af95f107474688bf2646783e8bda528c61e929668d7a7b257acd0f7a8de2825fc9",
     "size": 55157186,
+    "unlisted_since": "2026-09-14",
     "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-21.0.12%2B1/sapmachine-jre-21.0.12-ea.1_linux-x64_bin.tar.gz",
     "vendor": "sap",
     "version": "21.0.12-ea.1"
@@ -120641,6 +120672,7 @@
     "sha256": "fa699def91b34524bf08dc94d0028eda0999cfc5824baf92ebf770cc53799317",
     "sha512": "0d35f8f4aa5148cd742a30ba1d1ddb5a3ae2d0d0c87870697685b91b1f40d0daf3453b00c7ef19a0b232e35222642e8cbe063b71b7f0cb336e80605083a4d7b8",
     "size": 51034296,
+    "unlisted_since": "2026-09-14",
     "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-25.0.4%2B1/sapmachine-jre-25.0.4-ea.1_linux-x64-musl_bin.tar.gz",
     "vendor": "sap",
     "version": "25.0.4-ea.1"
@@ -120662,6 +120694,7 @@
     "sha256": "eb3ef36261bbf9cd2cc131b273a960970ed8084643aea296ab0c3d13355d0f49",
     "sha512": "9c7a1c13bb12adc7ee4ccade6e8f2ab9c476ff36a69d73129304d5f45725f2d9e486badf2dd9bd960acaf0fdd9791b0b7657501e12a99646ab9268afe4b152d7",
     "size": 52171327,
+    "unlisted_since": "2026-09-14",
     "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-25.0.4%2B1/sapmachine-jre-25.0.4-ea.1_linux-x64_bin.tar.gz",
     "vendor": "sap",
     "version": "25.0.4-ea.1"
@@ -121700,6 +121733,7 @@
     "sha256": "0aead3ed453cc49244f2e7d94f0ac5468191f0131ef7145d1ae18de14eac4286",
     "sha512": "e871d01ab8657e81fa0d0eae56826ffe21987af9a83f11ba3587c00c01875fb5a302c8b0420bea21271d6ab8d4e2bdfbc89e1783adbb83c8db339fcb9651042e",
     "size": 53701508,
+    "unlisted_since": "2026-09-14",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-25/openjdk-25-jre-headless_25.0.4+7-1_amd64.deb",
     "vendor": "debian",
     "version": "25.0.4+7-1"
@@ -121723,6 +121757,7 @@
     "sha256": "535aa1288716e08a855dfb19b710b4e2f61642409d297bfc8005cc3bf81e4120",
     "sha512": "d9ffb1f0ba91cec409fbe1d583fe6db11c63a36e488227012f2bdc206c84d587e4266885a1bd17c45868804f14a8dcfe6a4a5c69c0e0baed75e17a2aab3c4a2b",
     "size": 16099172,
+    "unlisted_since": "2026-09-14",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-25/openjdk-25-jre-zero_25.0.4+7-1_amd64.deb",
     "vendor": "debian",
     "version": "25.0.4+7-1"
@@ -121744,6 +121779,7 @@
     "sha256": "ff3c0e43987f5a01792eaac93667f97b20c460441f164f00445c5bac515d2065",
     "sha512": "e19ef65fbacc175f44f7cc2cea31ffc002cfb6ad9f786814e9cf9e947fb0f3f4608155cbd65689eb0c1cdcc010d718b389dab65ac7594ae44227dd4bf0af1e57",
     "size": 203604,
+    "unlisted_since": "2026-09-14",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-25/openjdk-25-jre_25.0.4+7-1_amd64.deb",
     "vendor": "debian",
     "version": "25.0.4+7-1"
@@ -129029,6 +129065,7 @@
     "sha256": "de0b9b53c182b72289b17f9bd0a133252bee66f255fa632c5662db2a398d7377",
     "sha512": "ac121c319810f770ce1b9c930e17e20b8c61a0bace1619c8f09712b0bc83f858b3ae49f29cbece927b2286eb88f6b90f710323b810f2e3b244b5eb2e6607f155",
     "size": 51914138,
+    "unlisted_since": "2026-09-14",
     "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-27%2B21/sapmachine-jre-27-ea.21_linux-x64-musl_bin.tar.gz",
     "vendor": "sap",
     "version": "27-ea.21"
@@ -129050,6 +129087,7 @@
     "sha256": "05fe6b3ab9adddc0a3f93d49f8cdefe8c1e01fb140a139e11f3ce9300f6dd2f4",
     "sha512": "632b8c54a5d446ce89514ab514941b70a6180a902c684623f4f69036745527e0459e1ebcdc85952d412419465069d274c2b77e475ff449e64af18929f84fe3bb",
     "size": 52715822,
+    "unlisted_since": "2026-09-14",
     "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-27%2B21/sapmachine-jre-27-ea.21_linux-x64_bin.tar.gz",
     "vendor": "sap",
     "version": "27-ea.21"

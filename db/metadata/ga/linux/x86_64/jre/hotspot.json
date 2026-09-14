@@ -10858,6 +10858,29 @@
   {
     "architecture": "x86_64",
     "distro": "zulu",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "zulu8.50.0.51-ca-jre8.0.275-linux_musl_x64.tar.gz",
+    "image_type": "jre",
+    "java_version": "8.0.275",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-14",
+    "md5": "85dbb805854da2a9389e82aceddffc23",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "339cc8f64c8433f4740ace12f7c4d0ee80894bee",
+    "sha256": "2848527486b567b8af95c50a5a689631d1b8b4403670a52733b8234f526c8551",
+    "sha512": "6a50459aa50f32d38410064955b0c66e1dfe2a45e9c963bc766c499858d3d8d08d7d7d66b12020b4c1b58b620dd0271afd4cd4cbad3c9dfe7f54e29280e0a70b",
+    "size": 43345621,
+    "url": "https://static.azul.com/zulu/bin/zulu8.50.0.51-ca-jre8.0.275-linux_musl_x64.tar.gz",
+    "vendor": "azul",
+    "version": "8.50.0.51"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "zulu",
     "features": [ ],
     "file_type": "tar.gz",
     "filename": "zulu8.50.0.51-ca-jre8.0.275-linux_x64.tar.gz",
@@ -24840,6 +24863,7 @@
     "sha256": "7a658affcdf5e09748612d51181ace0ef90c19d541f4bae9a1d871e441e7b911",
     "sha512": "a2498dca3a8034b1dc16d5e7ba96ee29eacee3ef9bcd3ffff5b9dcb92f2769e01f60351ec02f392342f53953448102bae0a31e370910f3222adf3dfb3092a8b6",
     "size": 56571467,
+    "unlisted_since": "2026-09-14",
     "url": "https://builds.openlogic.com/downloadJDK/openlogic-openjdk-jre/11.0.27+6/openlogic-openjdk-jre-11.0.27+6-linux-x64.tar.gz",
     "vendor": "openlogic",
     "version": "11.0.27+6"
@@ -26992,6 +27016,7 @@
     "sha256": "344f5be689ec2ac9f340e4597255a635e348e316e742902c3977906459f13692",
     "sha512": "99d2eed033b30e9c90f48eb534442bac46242cb114b0ff09738e2b9d439661be7069e97c2b3d3438a863c51cde96bd8f31a73c3f9313154f9fedbd1bd5cc6f3d",
     "size": 38766476,
+    "unlisted_since": "2026-09-14",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-11/openjdk-11-jre-headless_11.0.32+9-3_amd64.deb",
     "vendor": "debian",
     "version": "11.0.32+9-3"
@@ -27015,6 +27040,7 @@
     "sha256": "f58fc5e7d6fa579f85860f2dd3a627a299f8ae7327253cf513a8a3337c545165",
     "sha512": "e5ba22fe667957ef5a69e2ed256c279f298448c9c3f80aa1db67deb720a78a1b540d59ee61f472a05e8eddd132a666fc4bcfee79f682a9957964b454a1797c39",
     "size": 2522948,
+    "unlisted_since": "2026-09-14",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-11/openjdk-11-jre-zero_11.0.32+9-3_amd64.deb",
     "vendor": "debian",
     "version": "11.0.32+9-3"
@@ -27036,6 +27062,7 @@
     "sha256": "908a7c1f7c20adaa8edcba04f87ef444ab40660246013bae37879c8aacd5d8e6",
     "sha512": "d1f5f5a041ec4b372c90415d45415b7094bc04e67a0c28bf03dee9a28d55b334f07e575965e98000338fb2e27c1a6954e06c63fad3aa96e682864e423fc337af",
     "size": 201584,
+    "unlisted_since": "2026-09-14",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-11/openjdk-11-jre_11.0.32+9-3_amd64.deb",
     "vendor": "debian",
     "version": "11.0.32+9-3"
@@ -70687,6 +70714,7 @@
     "sha256": "50b5e24d665f5a7ba3f0d925b488adbf6b328d34ba52942517f93ed40249ad1f",
     "sha512": "f96fa941d4f820a4dcbb816c317890109bf5f619dd7b70d77795465093558448784c19500e490a97356b2b6791e3d7d433112f4b473f434abd5ea2b781b04544",
     "size": 58094576,
+    "unlisted_since": "2026-09-14",
     "url": "https://builds.openlogic.com/downloadJDK/openlogic-openjdk-jre/21.0.10+7/openlogic-openjdk-jre-21.0.10+7-linux-x64-deb.deb",
     "vendor": "openlogic",
     "version": "21.0.10+7"
@@ -70729,7 +70757,6 @@
     "sha256": "6f4f11c28ccf1dcc1736616a666c2090d774873da63843cf5989c1b0fcbb7fae",
     "sha512": "86793e0a2897a4aa0d366d06370386c2830b947bec1a96f7ab8bb6749f081da534e2ec529f0aff0f27a783c4273ac392f2eac8a075549a421a884b88b3f97c0b",
     "size": 58094222,
-    "unlisted_since": "2026-09-13",
     "url": "https://builds.openlogic.com/downloadJDK/openlogic-openjdk-jre/21.0.10+7/openlogic-openjdk-jre-21.0.10+7-linux-x64.tar.gz",
     "vendor": "openlogic",
     "version": "21.0.10+7"
@@ -83709,6 +83736,7 @@
     "sha256": "0aead3ed453cc49244f2e7d94f0ac5468191f0131ef7145d1ae18de14eac4286",
     "sha512": "e871d01ab8657e81fa0d0eae56826ffe21987af9a83f11ba3587c00c01875fb5a302c8b0420bea21271d6ab8d4e2bdfbc89e1783adbb83c8db339fcb9651042e",
     "size": 53701508,
+    "unlisted_since": "2026-09-14",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-25/openjdk-25-jre-headless_25.0.4+7-1_amd64.deb",
     "vendor": "debian",
     "version": "25.0.4+7-1"
@@ -83732,6 +83760,7 @@
     "sha256": "535aa1288716e08a855dfb19b710b4e2f61642409d297bfc8005cc3bf81e4120",
     "sha512": "d9ffb1f0ba91cec409fbe1d583fe6db11c63a36e488227012f2bdc206c84d587e4266885a1bd17c45868804f14a8dcfe6a4a5c69c0e0baed75e17a2aab3c4a2b",
     "size": 16099172,
+    "unlisted_since": "2026-09-14",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-25/openjdk-25-jre-zero_25.0.4+7-1_amd64.deb",
     "vendor": "debian",
     "version": "25.0.4+7-1"
@@ -83753,6 +83782,7 @@
     "sha256": "ff3c0e43987f5a01792eaac93667f97b20c460441f164f00445c5bac515d2065",
     "sha512": "e19ef65fbacc175f44f7cc2cea31ffc002cfb6ad9f786814e9cf9e947fb0f3f4608155cbd65689eb0c1cdcc010d718b389dab65ac7594ae44227dd4bf0af1e57",
     "size": 203604,
+    "unlisted_since": "2026-09-14",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-25/openjdk-25-jre_25.0.4+7-1_amd64.deb",
     "vendor": "debian",
     "version": "25.0.4+7-1"
