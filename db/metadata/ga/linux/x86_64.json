@@ -25360,6 +25360,28 @@
   },
   {
     "architecture": "x86_64",
+    "distro": "trava",
+    "features": [ ],
+    "file_type": "tar.gz",
+    "filename": "java8-openjdk-dcevm-linux.tar.gz",
+    "image_type": "jdk",
+    "java_version": "1.8.0_282b08-internal-202101310925-dcevm8u282b08",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-15",
+    "md5": "0d8961a6b524d90b27fb4b3cce1954a9",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "3c0eb71c2566cc04ec4bdf56141a181adbcbbaff",
+    "sha256": "3ef68175d1927529a94bd01a7dadf7e6904e803592ecf50e19ef6dbab7a8a1ed",
+    "sha512": "593299da32a03dd23da201d753ceae91b90c1b2549287cdf346d3f14dbd53b458ecd2a7fc16a49c456a5f51b3e08ee9ad017cf97495df3777b47766a0407293b",
+    "size": 105457846,
+    "unlisted_since": "2026-08-12",
+    "url": "https://github.com/TravaOpenJDK/trava-jdk-8-dcevm/releases/download/dcevm8u282b08/java8-openjdk-dcevm-linux.tar.gz",
+    "vendor": "trava",
+    "version": "8.0.282+8"
+  },
+  {
+    "architecture": "x86_64",
     "distro": "adoptopenjdk",
     "features": [ ],
     "file_type": "tar.gz",
@@ -58272,6 +58294,28 @@
   },
   {
     "architecture": "x86_64",
+    "distro": "trava",
+    "features": [ ],
+    "file_type": "tar.gz",
+    "filename": "Openjdk11u-dcevm-linux-x64.tar.gz",
+    "image_type": "jdk",
+    "java_version": "11.0.15+1-202204281458",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-15",
+    "md5": "9618c02bd07e84d18d99829832d96fc4",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "5d6938490e072edee2ea508fa7fa58da58311dcc",
+    "sha256": "1fa4bd70c5fb5ca041c9022043036fd2f64da2d4d77501c81173f88e41713255",
+    "sha512": "8593aabbde7db71cc1da5f5e4fb74502932c4eb746a6cd50199b8296907fbf3575cf4fddc296a275b881f89eabd332927b67d366f9178efd757df50c11bda8f3",
+    "size": 197487461,
+    "unlisted_since": "2026-08-12",
+    "url": "https://github.com/TravaOpenJDK/trava-jdk-11-dcevm/releases/download/dcevm-11.0.15+1/Openjdk11u-dcevm-linux-x64.tar.gz",
+    "vendor": "trava",
+    "version": "11.0.15+1"
+  },
+  {
+    "architecture": "x86_64",
     "distro": "debian",
     "features": [
       "dcevm"
@@ -70167,6 +70211,31 @@
       "minimal-vm",
       "javafx"
     ],
+    "file_type": "rpm",
+    "filename": "bellsoft-jre11.0.23+10-linux-amd64-full.rpm",
+    "image_type": "jre",
+    "java_version": "11.0.23+10-LTS",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-15",
+    "md5": "3b08554f758375e60ad9c1a7b7c58a4d",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "8348e6af56e8fe5bced91a768eee357c6fba115e",
+    "sha256": "84e4196ee6d0c849d5f6b4c3e03ba37e3f4ab94bf502a2629dd21f87b800109b",
+    "sha512": "6a647a94fdc48225cd1efe55aa6c51999496318366bf070c7ed9973b8ffda519c12155d5f9bc86cee45d171bdd186cf6e1b6c31f2684275673332d45a6bc9062",
+    "size": 73024112,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.23+10/bellsoft-jre11.0.23+10-linux-amd64-full.rpm",
+    "vendor": "bellsoft",
+    "version": "11.0.23+10"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
     "file_type": "tar.gz",
     "filename": "bellsoft-jre11.0.23+10-linux-amd64-full.tar.gz",
     "image_type": "jre",
@@ -75503,6 +75572,7 @@
     "sha256": "8499b5f1b1536b1011a55d9f82fd55ac1a22062412ef0f3ce85cbd1e6e9162de",
     "sha512": "00aa15aa1279d80f37ef6c56d9094fe22a74d2d2edf398a8de66ff8ab0405673f5ab6db66227ba958d387f13095dcf004c3b8e65506e4901ee8861bc39a5e277",
     "size": 56581328,
+    "unlisted_since": "2026-09-15",
     "url": "https://builds.openlogic.com/downloadJDK/openlogic-openjdk-jre/11.0.27+6/openlogic-openjdk-jre-11.0.27+6-linux-x64-deb.deb",
     "vendor": "openlogic",
     "version": "11.0.27+6"
@@ -75545,7 +75615,6 @@
     "sha256": "7a658affcdf5e09748612d51181ace0ef90c19d541f4bae9a1d871e441e7b911",
     "sha512": "a2498dca3a8034b1dc16d5e7ba96ee29eacee3ef9bcd3ffff5b9dcb92f2769e01f60351ec02f392342f53953448102bae0a31e370910f3222adf3dfb3092a8b6",
     "size": 56571467,
-    "unlisted_since": "2026-09-14",
     "url": "https://builds.openlogic.com/downloadJDK/openlogic-openjdk-jre/11.0.27+6/openlogic-openjdk-jre-11.0.27+6-linux-x64.tar.gz",
     "vendor": "openlogic",
     "version": "11.0.27+6"
@@ -76708,6 +76777,7 @@
     "sha256": "a8b72c221ca74f920f575511607e8672fc10e24da0f2b3441dc3c63a97d0d728",
     "sha512": "3e2018f15f82580878847a61992187631a62da04157f4059942f42b7030c121353d2a61fbd10ebaaa9a7f6f7cc52197954a3a8b1fd4021a870de1059bd8e6e4b",
     "size": 56604600,
+    "unlisted_since": "2026-09-15",
     "url": "https://builds.openlogic.com/downloadJDK/openlogic-openjdk-jre/11.0.28+6/openlogic-openjdk-jre-11.0.28+6-linux-x64-deb.deb",
     "vendor": "openlogic",
     "version": "11.0.28+6"
@@ -133333,6 +133403,7 @@
     "sha256": "b644279ebbb61dcd4afae84ac38d9248e9bdd442e7f6b97d132673bb701c06d4",
     "sha512": "c7684beafb677fc22dd5a8409ec4a753aee1cc6803f205bcf80c2958fa8193aaf24f6f23c91d98c4f6f7f69280b30f9b3246fcb1d7bc4466b058345af61809d3",
     "size": 229055598,
+    "unlisted_since": "2026-09-15",
     "url": "https://builds.openlogic.com/downloadJDK/openlogic-openjdk/17.0.11+9/openlogic-openjdk-17.0.11+9-linux-x64.tar.gz",
     "vendor": "openlogic",
     "version": "17.0.11+9"
@@ -201738,7 +201809,6 @@
     "sha256": "50b5e24d665f5a7ba3f0d925b488adbf6b328d34ba52942517f93ed40249ad1f",
     "sha512": "f96fa941d4f820a4dcbb816c317890109bf5f619dd7b70d77795465093558448784c19500e490a97356b2b6791e3d7d433112f4b473f434abd5ea2b781b04544",
     "size": 58094576,
-    "unlisted_since": "2026-09-14",
     "url": "https://builds.openlogic.com/downloadJDK/openlogic-openjdk-jre/21.0.10+7/openlogic-openjdk-jre-21.0.10+7-linux-x64-deb.deb",
     "vendor": "openlogic",
     "version": "21.0.10+7"
@@ -203722,6 +203792,7 @@
     "sha256": "4839c00d1b5e329d7c6e0944456f1b338652eb5ce103a67181ad4995e634e0f0",
     "sha512": "be2e18a875c84f04c68c74457a50836fd4522ac3652043018db512e2754caf79d6e5a01cf062bc1e8e687d1f8363be31aabae9296267aada3593696a9e5df8ef",
     "size": 83016640,
+    "unlisted_since": "2026-09-15",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-21/openjdk-21-jdk-headless_21.0.11+10-1~deb13u2_amd64.deb",
     "vendor": "debian",
     "version": "21.0.11+10-1~deb13u2"
@@ -203743,6 +203814,7 @@
     "sha256": "6c2d63c60807ffb903474faec932bb54bb1989b658e0c6998f94bed0d9ca11e4",
     "sha512": "4fba5cbf07866151f46ca26b6c32e7c71dafcf19bb87404f9c4902e74dcca426839dd190bee8ded9228de8b4bfae60c95d6f1be0e4abff6ae7e9f681fedf996f",
     "size": 3552036,
+    "unlisted_since": "2026-09-15",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-21/openjdk-21-jdk_21.0.11+10-1~deb13u2_amd64.deb",
     "vendor": "debian",
     "version": "21.0.11+10-1~deb13u2"
@@ -203766,6 +203838,7 @@
     "sha256": "0ccabe10b76b1327650c3ae6d87b55ab4f6608a630b49329a44b0da8843d91a3",
     "sha512": "73d4d6d31587bb03ea998df61621f71de2149d38411f83cfbc42f8b8b556941cf71e42fe3b6fe75eebf02bfcd1524ff1519764e84f6bb7dd073a408b9f5ee980",
     "size": 41883012,
+    "unlisted_since": "2026-09-15",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-21/openjdk-21-jre-headless_21.0.11+10-1~deb13u2_amd64.deb",
     "vendor": "debian",
     "version": "21.0.11+10-1~deb13u2"
@@ -203789,6 +203862,7 @@
     "sha256": "097159090ba46b873c7606c6a355357f5ba455c5b86be40cb42fabeebdbcf60f",
     "sha512": "5110852d833a1b580cd80aa9035ea13c1dfd0a5272f59bc216143dad87eb4519a2201cab2de935bc789f1ef4df2a5064c6a4e74ed3b933fe4425a3b6baa059be",
     "size": 8956808,
+    "unlisted_since": "2026-09-15",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-21/openjdk-21-jre-zero_21.0.11+10-1~deb13u2_amd64.deb",
     "vendor": "debian",
     "version": "21.0.11+10-1~deb13u2"
@@ -203810,6 +203884,7 @@
     "sha256": "e4b0fcae4ed950b8ab5c2a6aa8390dc5dd92ccc712b676f1a0a239e0af514307",
     "sha512": "045c5e7ccc635408454c9322adc304675a1cbd68cd8f0ebb03dbc76ba9ed144c9fee2e7a92ea84b8819da3e3721c845564738b5bc84e63133e634785686107da",
     "size": 208380,
+    "unlisted_since": "2026-09-15",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-21/openjdk-21-jre_21.0.11+10-1~deb13u2_amd64.deb",
     "vendor": "debian",
     "version": "21.0.11+10-1~deb13u2"
