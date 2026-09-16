@@ -29683,7 +29683,6 @@
     "sha256": "a8b72c221ca74f920f575511607e8672fc10e24da0f2b3441dc3c63a97d0d728",
     "sha512": "3e2018f15f82580878847a61992187631a62da04157f4059942f42b7030c121353d2a61fbd10ebaaa9a7f6f7cc52197954a3a8b1fd4021a870de1059bd8e6e4b",
     "size": 56604600,
-    "unlisted_since": "2026-09-15",
     "url": "https://builds.openlogic.com/downloadJDK/openlogic-openjdk-jre/11.0.28+6/openlogic-openjdk-jre-11.0.28+6-linux-x64-deb.deb",
     "vendor": "openlogic",
     "version": "11.0.28+6"
@@ -29726,6 +29725,7 @@
     "sha256": "a537b66981788cb83a3fd7dfd8cf4cfc20783d8facd1411c7b7c62c1b620bcc1",
     "sha512": "642872227aeccf7be61fe1cf4d6dd1108165a4f87aa6159353c42815a84091c3af231f6c8394c73ea35432f9aa4e3a24dfee6e9af40b704bcac6f3df9dd3c1d5",
     "size": 56590719,
+    "unlisted_since": "2026-09-16",
     "url": "https://builds.openlogic.com/downloadJDK/openlogic-openjdk-jre/11.0.28+6/openlogic-openjdk-jre-11.0.28+6-linux-x64.tar.gz",
     "vendor": "openlogic",
     "version": "11.0.28+6"
@@ -97612,6 +97612,50 @@
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-26/openjdk-26-jre_26+35-2_amd64.deb",
     "vendor": "debian",
     "version": "26+35-2"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "sapmachine",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "sapmachine-jre-27_linux-x64-musl_bin.tar.gz",
+    "image_type": "jre",
+    "java_version": "27+35",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-16",
+    "md5": "31fa54d1ba420b12ffbb26d94f264cc8",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "c89a0d7a45622fb09d047140e4d3e9092868d795",
+    "sha256": "604826ac425e2f2452e0f088cd0f1db891173f837653d8a699cd667c0a89db30",
+    "sha512": "73fed652f0de0d1dea8407dba8482be107ef25cce647da5fc7963b6d5cb3c4fb4b778c97ebbafabe49a14da7950a56188604fcf062e9ffef69ee15a6f42344bc",
+    "size": 51337124,
+    "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-27/sapmachine-jre-27_linux-x64-musl_bin.tar.gz",
+    "vendor": "sap",
+    "version": "27"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "sapmachine",
+    "features": null,
+    "file_type": "tar.gz",
+    "filename": "sapmachine-jre-27_linux-x64_bin.tar.gz",
+    "image_type": "jre",
+    "java_version": "27+35",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-16",
+    "md5": "2773cd8fd9da970dcde678ded43416ee",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "c6c65c0c8aa7e9354dcf9e4ea417074fe8ca25cf",
+    "sha256": "02f75e7c881f68b05f557330cf5b82b1f08c2b356386f92473c877b0d76da75a",
+    "sha512": "0318273e8f501fe1b80585069634973e82343b7b1ecb4000039e47c8e191ee66729a64e509208cc7b74b67e49ff3a311377a8fc5ba99eb5380ae166fb97260fb",
+    "size": 52202079,
+    "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-27/sapmachine-jre-27_linux-x64_bin.tar.gz",
+    "vendor": "sap",
+    "version": "27"
   },
   {
     "architecture": "x86_64",
