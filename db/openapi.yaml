@@ -91,6 +91,12 @@ components:
       enum:
         - "ga"
         - "ea"
+    releaseTypesQuery:
+      type: string
+      enum:
+        - "all"
+        - "ga"
+        - "ea"
     imageTypes:
       type: string
       enum:
@@ -305,6 +311,28 @@ paths:
                 $ref: '#/components/schemas/response'
         404:
           description: "Invalid input"
+  "/metadata/{distro}/latest.json":
+    get:
+      description: "List of information about the latest Java distribution by the given distro"
+      tags:
+      - "metadata"
+      operationId: "findLatestByDistro"
+      parameters:
+        - name: "distro"
+          in: path
+          description: "The JVM distro"
+          required: true
+          schema:
+            $ref: '#/components/schemas/distros'
+      responses:
+        200:
+          description: "Meta data about download artifact"
+          content:
+            "application/json":
+              schema:
+                $ref: '#/components/schemas/response'
+        404:
+          description: "Invalid input"
   "/metadata/{release_type}.json":
     get:
       description: "List of information about Java distributions that match the current query"
@@ -317,7 +345,7 @@ paths:
           description: "The release type"
           required: true
           schema:
-            $ref: '#/components/schemas/releaseTypes'
+            $ref: '#/components/schemas/releaseTypesQuery'
       responses:
         200:
           description: "Meta data about download artifact"
@@ -339,7 +367,7 @@ paths:
           description: "The release type"
           required: true
           schema:
-            $ref: '#/components/schemas/releaseTypes'
+            $ref: '#/components/schemas/releaseTypesQuery'
         - name: "os"
           in: path
           description: "The operating system"
@@ -367,7 +395,7 @@ paths:
           description: "The release type"
           required: true
           schema:
-            $ref: '#/components/schemas/releaseTypes'
+            $ref: '#/components/schemas/releaseTypesQuery'
         - name: "os"
           in: path
           description: "The operating system"
@@ -401,7 +429,7 @@ paths:
           description: "The release type"
           required: true
           schema:
-            $ref: '#/components/schemas/releaseTypes'
+            $ref: '#/components/schemas/releaseTypesQuery'
         - name: "os"
           in: path
           description: "The operating system"
@@ -441,7 +469,7 @@ paths:
           description: "The release type"
           required: true
           schema:
-            $ref: '#/components/schemas/releaseTypes'
+            $ref: '#/components/schemas/releaseTypesQuery'
         - name: "os"
           in: path
           description: "The operating system"
@@ -487,7 +515,7 @@ paths:
           description: "The release type"
           required: true
           schema:
-            $ref: '#/components/schemas/releaseTypes'
+            $ref: '#/components/schemas/releaseTypesQuery'
         - name: "os"
           in: path
           description: "The operating system"
@@ -539,7 +567,7 @@ paths:
           description: "The release type"
           required: true
           schema:
-            $ref: '#/components/schemas/releaseTypes'
+            $ref: '#/components/schemas/releaseTypesQuery'
         - name: "os"
           in: path
           description: "The operating system"
@@ -597,7 +625,71 @@ paths:
           description: "The release type"
           required: true
           schema:
-            $ref: '#/components/schemas/releaseTypes'
+            $ref: '#/components/schemas/releaseTypesQuery'
+        - name: "os"
+          in: path
+          description: "The operating system"
+          required: true
+          schema:
+            $ref: '#/components/schemas/operatingSystems'
+        - name: "arch"
+          in: path
+          description: "The machine architecture"
+          required: true
+          schema:
+            $ref: '#/components/schemas/architectures'
+        - name: "image_type"
+          in: path
+          description: "The distribution image type"
+          required: true
+          schema:
+            $ref: '#/components/schemas/imageTypes'
+        - name: "jvm_impl"
+          in: path
+          description: "The JVM implementation"
+          required: true
+          schema:
+            $ref: '#/components/schemas/jvmImpls'
+        - name: "distro"
+          in: path
+          description: "The JVM distro"
+          required: true
+          schema:
+            $ref: '#/components/schemas/distros'
+        - name: "version"
+          in: path
+          description: "The JVM version"
+          required: true
+          schema:
+            $ref: '#/components/schemas/versions'
+        - name: "file_type"
+          in: path
+          description: "The distribution file type"
+          required: true
+          schema:
+            $ref: '#/components/schemas/fileTypes'
+      responses:
+        200:
+          description: "Meta data about download artifact"
+          content:
+            "application/json":
+              schema:
+                $ref: '#/components/schemas/response'
+        404:
+          description: "Invalid input"
+  "/metadata/{release_type}/{os}/{arch}/{image_type}/{jvm_impl}/{distro}/{version}/{file_type}-latest.json":
+    get:
+      description: "List of information about the latest Java distributions that match the current query"
+      tags:
+      - "metadata"
+      operationId: "findLatestByReleaseTypeOsArchVariantJvmImplDistroVersionFileType"
+      parameters:
+        - name: "release_type"
+          in: path
+          description: "The release type"
+          required: true
+          schema:
+            $ref: '#/components/schemas/releaseTypesQuery'
         - name: "os"
           in: path
           description: "The operating system"
