@@ -24213,7 +24213,6 @@
     "sha256": "8499b5f1b1536b1011a55d9f82fd55ac1a22062412ef0f3ce85cbd1e6e9162de",
     "sha512": "00aa15aa1279d80f37ef6c56d9094fe22a74d2d2edf398a8de66ff8ab0405673f5ab6db66227ba958d387f13095dcf004c3b8e65506e4901ee8861bc39a5e277",
     "size": 56581328,
-    "unlisted_since": "2026-09-15",
     "url": "https://builds.openlogic.com/downloadJDK/openlogic-openjdk-jre/11.0.27+6/openlogic-openjdk-jre-11.0.27+6-linux-x64-deb.deb",
     "vendor": "openlogic",
     "version": "11.0.27+6"
@@ -25910,6 +25909,7 @@
     "sha256": "e19a9c6110db22a1a761841dbe8eab01cb54c7bce95fa97200ad3acd01f01e96",
     "sha512": "1212c8e42786ecac2bb7166e54f75ffbbfdaf24230b34578a3e5b0d572a04bc861e7435c55e1732dcedb6a1cf802e8834cb8083f60e11c567f6fc674af8cca23",
     "size": 38787672,
+    "unlisted_since": "2026-09-18",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-11/openjdk-11-jre-headless_11.0.32.1+1-2_amd64.deb",
     "vendor": "debian",
     "version": "11.0.32.1+1-2"
@@ -25933,6 +25933,7 @@
     "sha256": "3cea3c3da6869a0db7c15edb7cef8d11380bc102b82f829024f5875145d2ea3e",
     "sha512": "28009d71f4acaa5a01ebd121a3e8e52bd9dae34f11d072597f71e7cca6880bc84487a3ade0ccdda85d498465833d02b08813fd7f40a10af953b0e75939192d07",
     "size": 2523124,
+    "unlisted_since": "2026-09-18",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-11/openjdk-11-jre-zero_11.0.32.1+1-2_amd64.deb",
     "vendor": "debian",
     "version": "11.0.32.1+1-2"
@@ -25954,6 +25955,7 @@
     "sha256": "f189ff67928462e4f040a24b6fe270f616de82451321401f2c81ae3e94a71172",
     "sha512": "cd1c21b206a0a45fffadb0692cf4db822806af9ccff776e86ff2175b990e74fc2ab4e5192ccb9e93fb89eff7d595588714b0c022a5ee004d91906fefc2b32a3d",
     "size": 201492,
+    "unlisted_since": "2026-09-18",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-11/openjdk-11-jre_11.0.32.1+1-2_amd64.deb",
     "vendor": "debian",
     "version": "11.0.32.1+1-2"
@@ -26488,6 +26490,27 @@
     "sha512": "0ce73a98efe3634e12415a4892348b181806dc8572e3f3cf5b2f6dba24b34f0a2c6cd52b3ac975740e1424743f57b1880447b97d80062e1ca31cbbfc019a1442",
     "size": 42746916,
     "url": "https://static.azul.com/zulu/bin/zulu11.35.15-ca-jre11.0.5-linux_musl_x64.tar.gz",
+    "vendor": "azul",
+    "version": "11.35.15"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "zulu",
+    "features": [ ],
+    "file_type": "tar.gz",
+    "filename": "zulu11.35.15-ca-jre11.0.5-linux_x64.tar.gz",
+    "image_type": "jre",
+    "java_version": "11.0.5",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-18",
+    "md5": "ccb15428f4ff62741ae18ebde20698d0",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "487de1733fa10671c8fc34fc6f7a27fd52ac082a",
+    "sha256": "da8545b2b5f68c8414044a4e20d461065adfb1b8a15d60167ab2e2c9397e8cf3",
+    "sha512": "f3ec77b3cf6c61b87ac13544087927677839ca5999896e7f5e280d383a840dc05be65c189e1d685db0cbf377696b13a305e631c96ffc1636158c94c55ae60102",
+    "size": 42863023,
+    "url": "https://static.azul.com/zulu/bin/zulu11.35.15-ca-jre11.0.5-linux_x64.tar.gz",
     "vendor": "azul",
     "version": "11.35.15"
   },
@@ -45842,6 +45865,27 @@
   },
   {
     "architecture": "x86_64",
+    "distro": "adoptopenjdk",
+    "features": [ ],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK17U-jre_x64_linux_hotspot_17.0.12_7.tar.gz",
+    "image_type": "jre",
+    "java_version": "17.0.12+7",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-18",
+    "md5": "7ebc83ad05df2a9a4394bea98639ac73",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "64d2ae00297899946966bcf6cea2c71fae7225c5",
+    "sha256": "0e8088d7a3a7496faba7ac8787db09dc0264c2bc6f568ea8024fd775a783e13c",
+    "sha512": "38777e636dac27452e652e522dc21b9d24f611e0b82fa9b38ddba9780896d32a030998e5a011de3c32c4d69865e4d88bdc19ab739373253f7eeb6f887ed279fd",
+    "size": 46398176,
+    "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.12%2B7/OpenJDK17U-jre_x64_linux_hotspot_17.0.12_7.tar.gz",
+    "vendor": "adoptopenjdk",
+    "version": "17.0.12+7"
+  },
+  {
+    "architecture": "x86_64",
     "distro": "temurin",
     "features": [ ],
     "file_type": "tar.gz",
@@ -49089,6 +49133,7 @@
     "sha256": "afb90573685fcfe364a3ec295f1ec0a5607fc587bddeb4aa788ab8f650319c4c",
     "sha512": "ecaed779374d1b84b35389de5a51d4debc9da71a58d68d4d9871a0442777df775857d9bf363ae06ce1e20788e0408edd90c38a1b34ffb0a79beeffdd6809e234",
     "size": 44326360,
+    "unlisted_since": "2026-09-18",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-17/openjdk-17-jre-headless_17.0.20.1+1-1_amd64.deb",
     "vendor": "debian",
     "version": "17.0.20.1+1-1"
@@ -49112,6 +49157,7 @@
     "sha256": "93ac4354ac726f896921b523e10df6ad06d64a795ceace6e1437ca04ffa853a3",
     "sha512": "91817be6965c2522a355c3207a363bd53383cc234dda5c594d792d8278ce2af7b2589c018fecdb3ca407c5fdeacba6c5245ba1604bee0b552ddcf6c6ba74d113",
     "size": 2896816,
+    "unlisted_since": "2026-09-18",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-17/openjdk-17-jre-zero_17.0.20.1+1-1_amd64.deb",
     "vendor": "debian",
     "version": "17.0.20.1+1-1"
@@ -49133,6 +49179,7 @@
     "sha256": "876d481b693345198c5616d3f9fadbeaa0d5c748c73f7cefcf722346bfba470e",
     "sha512": "3a4bbd53c621b4018b94b3679600f511695107a12a45635b86f708b54f52378f3da76f08b94b16c5958e4e5562aa9f18bda68e4a9b6c8a6aa3c26f996af6551b",
     "size": 217808,
+    "unlisted_since": "2026-09-18",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-17/openjdk-17-jre_17.0.20.1+1-1_amd64.deb",
     "vendor": "debian",
     "version": "17.0.20.1+1-1"
@@ -69232,6 +69279,7 @@
     "sha256": "6f4f11c28ccf1dcc1736616a666c2090d774873da63843cf5989c1b0fcbb7fae",
     "sha512": "86793e0a2897a4aa0d366d06370386c2830b947bec1a96f7ab8bb6749f081da534e2ec529f0aff0f27a783c4273ac392f2eac8a075549a421a884b88b3f97c0b",
     "size": 58094222,
+    "unlisted_since": "2026-09-18",
     "url": "https://builds.openlogic.com/downloadJDK/openlogic-openjdk-jre/21.0.10+7/openlogic-openjdk-jre-21.0.10+7-linux-x64.tar.gz",
     "vendor": "openlogic",
     "version": "21.0.10+7"

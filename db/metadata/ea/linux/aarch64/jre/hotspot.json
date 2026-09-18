@@ -11846,6 +11846,27 @@
   },
   {
     "architecture": "aarch64",
+    "distro": "sapmachine",
+    "features": null,
+    "file_type": "tar.gz",
+    "filename": "sapmachine-jre-17.0.21-ea.6_linux-aarch64_bin.tar.gz",
+    "image_type": "jre",
+    "java_version": "17.0.21-ea.6",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-18",
+    "md5": "51b55b1ee6674cf9914c4e4e165e32a4",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "bd8d7bf225fdd6d74cfdd81ba4b639c6639b2a06",
+    "sha256": "5879b243e81c2e69c5553aea15a833f9b459d1605946b52c54bef8723189b96c",
+    "sha512": "3a3db6ca9e25055f213c48b90562759865a4396fb458ac2fc8ed81d2785f4f3bbef722fe47fe77d1f7dcb2bb503e033b841bb42c60160b61661f496d7fed0f5f",
+    "size": 48953493,
+    "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-17.0.21%2B6/sapmachine-jre-17.0.21-ea.6_linux-aarch64_bin.tar.gz",
+    "vendor": "sap",
+    "version": "17.0.21-ea.6"
+  },
+  {
+    "architecture": "aarch64",
     "distro": "temurin",
     "features": [
       "musl"
@@ -19086,6 +19107,27 @@
   },
   {
     "architecture": "aarch64",
+    "distro": "sapmachine",
+    "features": null,
+    "file_type": "tar.gz",
+    "filename": "sapmachine-jre-25.0.5-ea.6_linux-aarch64_bin.tar.gz",
+    "image_type": "jre",
+    "java_version": "25.0.5-ea.6",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-18",
+    "md5": "c22393b6ca1acfe156b79bf5b1eaead7",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "a5b01aa8c29dfce97b9773757369c3c745530328",
+    "sha256": "f45990c657d752b4dc8f07ab2479fb201548a3db566e3891c0d2d74bc3e8f71f",
+    "sha512": "0e19b4f7e72ba5703d72eea2310b98212e34d20d5acf76179b62a7f2814ea841e7c97ca79861b9aca750262cdef391ee9f4e14e2204e34d8b0b0ed2ed8c1e340",
+    "size": 51062352,
+    "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-25.0.5%2B6/sapmachine-jre-25.0.5-ea.6_linux-aarch64_bin.tar.gz",
+    "vendor": "sap",
+    "version": "25.0.5-ea.6"
+  },
+  {
+    "architecture": "aarch64",
     "distro": "temurin",
     "features": [
       "musl"
@@ -19347,6 +19389,50 @@
     "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B6-ea-beta/OpenJDK25U-jre_aarch64_linux_hotspot_25.0.5_6-ea.tar.gz",
     "vendor": "eclipse",
     "version": "25.0.5+6-ea-beta"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "temurin",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK25U-jre_aarch64_alpine-linux_hotspot_25.0.5_7-ea.tar.gz",
+    "image_type": "jre",
+    "java_version": "25",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-18",
+    "md5": "1c40853469aa15ca39396f647ec579bc",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "3a9c929e455cc34989e05f1d01f6280f01514944",
+    "sha256": "d3b9cfd6cc5d653ac8c9079b47ad434d70cf0ce344823c026ee9032ddbc4589c",
+    "sha512": "966c4aa9c4789254078cecb5999f8cdbf996042c4f8ccfe966df1e1cf3a32317727908233df8ae6592c0fecf8ac7156481ea563ab7ba8d046b5f04def7fce28b",
+    "size": 59718612,
+    "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B7-ea-beta/OpenJDK25U-jre_aarch64_alpine-linux_hotspot_25.0.5_7-ea.tar.gz",
+    "vendor": "eclipse",
+    "version": "25.0.5+7-ea-beta"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "temurin",
+    "features": [ ],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK25U-jre_aarch64_linux_hotspot_25.0.5_7-ea.tar.gz",
+    "image_type": "jre",
+    "java_version": "25",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-18",
+    "md5": "d67978d7a3a2a469f827b15d57edab5b",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "e5f902bdc1f9d4c6c2b81ea35be6fab81dba83f1",
+    "sha256": "2711f9cbce1ca685d9ec699d838ba10eab58d482658a0f0c5fa7ea94f45c0b09",
+    "sha512": "b5af54ade726cdb84a520c6d83eea9eff765234b424795c35e712bd5e21e46afaaf357634e52f73cf7e999190379d20294415108de24bfa080a4fd8f588dd0a9",
+    "size": 60501141,
+    "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B7-ea-beta/OpenJDK25U-jre_aarch64_linux_hotspot_25.0.5_7-ea.tar.gz",
+    "vendor": "eclipse",
+    "version": "25.0.5+7-ea-beta"
   },
   {
     "architecture": "aarch64",
