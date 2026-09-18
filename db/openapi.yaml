@@ -102,6 +102,8 @@ components:
         - "hotspot"
         - "openj9"
         - "graalvm"
+    versions:
+      type: integer
     metadata:
       type: "object"
       properties:
@@ -303,12 +305,182 @@ paths:
                 $ref: '#/components/schemas/response'
         404:
           description: "Invalid input"
+  "/metadata/{release_type}.json":
+    get:
+      description: "List of information about Java distributions that match the current query"
+      tags:
+      - "metadata"
+      operationId: "findByReleaseType"
+      parameters:
+        - name: "release_type"
+          in: path
+          description: "The release type"
+          required: true
+          schema:
+            $ref: '#/components/schemas/releaseTypes'
+      responses:
+        200:
+          description: "Meta data about download artifact"
+          content:
+            "application/json":
+              schema:
+                $ref: '#/components/schemas/response'
+        404:
+          description: "Invalid input"
+  "/metadata/{release_type}/{os}.json":
+    get:
+      description: "List of information about Java distributions that match the current query"
+      tags:
+      - "metadata"
+      operationId: "findByReleaseTypeOs"
+      parameters:
+        - name: "release_type"
+          in: path
+          description: "The release type"
+          required: true
+          schema:
+            $ref: '#/components/schemas/releaseTypes'
+        - name: "os"
+          in: path
+          description: "The operating system"
+          required: true
+          schema:
+            $ref: '#/components/schemas/operatingSystems'
+      responses:
+        200:
+          description: "Meta data about download artifact"
+          content:
+            "application/json":
+              schema:
+                $ref: '#/components/schemas/response'
+        404:
+          description: "Invalid input"
+  "/metadata/{release_type}/{os}/{arch}.json":
+    get:
+      description: "List of information about Java distributions that match the current query"
+      tags:
+      - "metadata"
+      operationId: "findByReleaseTypeOsArch"
+      parameters:
+        - name: "release_type"
+          in: path
+          description: "The release type"
+          required: true
+          schema:
+            $ref: '#/components/schemas/releaseTypes'
+        - name: "os"
+          in: path
+          description: "The operating system"
+          required: true
+          schema:
+            $ref: '#/components/schemas/operatingSystems'
+        - name: "arch"
+          in: path
+          description: "The machine architecture"
+          required: true
+          schema:
+            $ref: '#/components/schemas/architectures'
+      responses:
+        200:
+          description: "Meta data about download artifact"
+          content:
+            "application/json":
+              schema:
+                $ref: '#/components/schemas/response'
+        404:
+          description: "Invalid input"
+  "/metadata/{release_type}/{os}/{arch}/{image_type}.json":
+    get:
+      description: "List of information about Java distributions that match the current query"
+      tags:
+      - "metadata"
+      operationId: "findByReleaseTypeOsArchVariant"
+      parameters:
+        - name: "release_type"
+          in: path
+          description: "The release type"
+          required: true
+          schema:
+            $ref: '#/components/schemas/releaseTypes'
+        - name: "os"
+          in: path
+          description: "The operating system"
+          required: true
+          schema:
+            $ref: '#/components/schemas/operatingSystems'
+        - name: "arch"
+          in: path
+          description: "The machine architecture"
+          required: true
+          schema:
+            $ref: '#/components/schemas/architectures'
+        - name: "image_type"
+          in: path
+          description: "The distribution image type"
+          required: true
+          schema:
+            $ref: '#/components/schemas/imageTypes'
+      responses:
+        200:
+          description: "Meta data about download artifact"
+          content:
+            "application/json":
+              schema:
+                $ref: '#/components/schemas/response'
+        404:
+          description: "Invalid input"
+  "/metadata/{release_type}/{os}/{arch}/{image_type}/{jvm_impl}.json":
+    get:
+      description: "List of information about Java distributions that match the current query"
+      tags:
+      - "metadata"
+      operationId: "findByReleaseTypeOsArchVariantJvmImpl"
+      parameters:
+        - name: "release_type"
+          in: path
+          description: "The release type"
+          required: true
+          schema:
+            $ref: '#/components/schemas/releaseTypes'
+        - name: "os"
+          in: path
+          description: "The operating system"
+          required: true
+          schema:
+            $ref: '#/components/schemas/operatingSystems'
+        - name: "arch"
+          in: path
+          description: "The machine architecture"
+          required: true
+          schema:
+            $ref: '#/components/schemas/architectures'
+        - name: "image_type"
+          in: path
+          description: "The distribution image type"
+          required: true
+          schema:
+            $ref: '#/components/schemas/imageTypes'
+        - name: "jvm_impl"
+          in: path
+          description: "The JVM implementation"
+          required: true
+          schema:
+            $ref: '#/components/schemas/jvmImpls'
+      responses:
+        200:
+          description: "Meta data about download artifact"
+          content:
+            "application/json":
+              schema:
+                $ref: '#/components/schemas/response'
+        404:
+          description: "Invalid input"
   "/metadata/{release_type}/{os}/{arch}/{image_type}/{jvm_impl}/{distro}.json":
     get:
       description: "List of information about Java distributions that match the current query"
       tags:
       - "metadata"
-      operationId: "findByReleaseTypeOsArchVariantJvmImpl/Distro"
+      operationId: "findByReleaseTypeOsArchVariantJvmImplDistro"
       parameters:
         - name: "release_type"
           in: path
@@ -346,6 +518,128 @@ paths:
           required: true
           schema:
             $ref: '#/components/schemas/distros'
+      responses:
+        200:
+          description: "Meta data about download artifact"
+          content:
+            "application/json":
+              schema:
+                $ref: '#/components/schemas/response'
+        404:
+          description: "Invalid input"
+  "/metadata/{release_type}/{os}/{arch}/{image_type}/{jvm_impl}/{distro}/{version}.json":
+    get:
+      description: "List of information about Java distributions that match the current query"
+      tags:
+      - "metadata"
+      operationId: "findByReleaseTypeOsArchVariantJvmImplDistroVersion"
+      parameters:
+        - name: "release_type"
+          in: path
+          description: "The release type"
+          required: true
+          schema:
+            $ref: '#/components/schemas/releaseTypes'
+        - name: "os"
+          in: path
+          description: "The operating system"
+          required: true
+          schema:
+            $ref: '#/components/schemas/operatingSystems'
+        - name: "arch"
+          in: path
+          description: "The machine architecture"
+          required: true
+          schema:
+            $ref: '#/components/schemas/architectures'
+        - name: "image_type"
+          in: path
+          description: "The distribution image type"
+          required: true
+          schema:
+            $ref: '#/components/schemas/imageTypes'
+        - name: "jvm_impl"
+          in: path
+          description: "The JVM implementation"
+          required: true
+          schema:
+            $ref: '#/components/schemas/jvmImpls'
+        - name: "distro"
+          in: path
+          description: "The JVM distro"
+          required: true
+          schema:
+            $ref: '#/components/schemas/distros'
+        - name: "version"
+          in: path
+          description: "The JVM version"
+          required: true
+          schema:
+            $ref: '#/components/schemas/versions'
+      responses:
+        200:
+          description: "Meta data about download artifact"
+          content:
+            "application/json":
+              schema:
+                $ref: '#/components/schemas/response'
+        404:
+          description: "Invalid input"
+  "/metadata/{release_type}/{os}/{arch}/{image_type}/{jvm_impl}/{distro}/{version}/{file_type}.json":
+    get:
+      description: "List of information about Java distributions that match the current query"
+      tags:
+      - "metadata"
+      operationId: "findByReleaseTypeOsArchVariantJvmImplDistroVersionFileType"
+      parameters:
+        - name: "release_type"
+          in: path
+          description: "The release type"
+          required: true
+          schema:
+            $ref: '#/components/schemas/releaseTypes'
+        - name: "os"
+          in: path
+          description: "The operating system"
+          required: true
+          schema:
+            $ref: '#/components/schemas/operatingSystems'
+        - name: "arch"
+          in: path
+          description: "The machine architecture"
+          required: true
+          schema:
+            $ref: '#/components/schemas/architectures'
+        - name: "image_type"
+          in: path
+          description: "The distribution image type"
+          required: true
+          schema:
+            $ref: '#/components/schemas/imageTypes'
+        - name: "jvm_impl"
+          in: path
+          description: "The JVM implementation"
+          required: true
+          schema:
+            $ref: '#/components/schemas/jvmImpls'
+        - name: "distro"
+          in: path
+          description: "The JVM distro"
+          required: true
+          schema:
+            $ref: '#/components/schemas/distros'
+        - name: "version"
+          in: path
+          description: "The JVM version"
+          required: true
+          schema:
+            $ref: '#/components/schemas/versions'
+        - name: "file_type"
+          in: path
+          description: "The distribution file type"
+          required: true
+          schema:
+            $ref: '#/components/schemas/fileTypes'
       responses:
         200:
           description: "Meta data about download artifact"
