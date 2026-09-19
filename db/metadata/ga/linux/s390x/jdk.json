@@ -11892,6 +11892,7 @@
     "sha256": "89482d33d7c4ec14917a27842b5b794a5c90ee91fa899828b3e71286624d9b40",
     "sha512": "adaab785c225494afb418fada760c5a0beae83f53d3cb24cb4afdaeffc84935d718819103c33142336da5b17b1dcf11c10b1235f8fe9a85209a9a7d6ddd06f58",
     "size": 68035412,
+    "unlisted_since": "2026-09-19",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-17/openjdk-17-jdk-headless_17.0.20.1+1-1_s390x.deb",
     "vendor": "debian",
     "version": "17.0.20.1+1-1"
@@ -11913,6 +11914,7 @@
     "sha256": "6ac61300d31188e4c972bdda974e90c8bb01e092595e4e538a812199652b2355",
     "sha512": "2380a3cbb1b06d3ff867c312045a104753507c66a0e683a677e5b7b03bff5509eeb97001583efb6f3183cd2f946515b0d0d9e55fad9775d1c03b997c3f0bb951",
     "size": 2468028,
+    "unlisted_since": "2026-09-19",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-17/openjdk-17-jdk_17.0.20.1+1-1_s390x.deb",
     "vendor": "debian",
     "version": "17.0.20.1+1-1"
@@ -17581,5 +17583,47 @@
     "url": "https://github.com/ibmruntimes/semeru27-binaries/releases/download/jdk-27.0.0.0-m1a/ibm-semeru-open-jdk_s390x_linux_27.0.0.0-m1a.tar.gz",
     "vendor": "ibm",
     "version": "27.0.0.0-m1a"
+  },
+  {
+    "architecture": "s390x",
+    "distro": "semeru",
+    "features": [ ],
+    "file_type": "rpm",
+    "filename": "ibm-semeru-open-27-jdk-27.0.1.0_m1-1.s390x.rpm",
+    "image_type": "jdk",
+    "java_version": "27.0.1.0",
+    "jvm_impl": "openj9",
+    "last_verified": "2026-09-19",
+    "md5": "d6324e8e5ac5d1b31c074832f2948d3a",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "f5f3fed1d642629511df192b53a3c095e492aae7",
+    "sha256": "b70e42c121753c8d128f6547f48d4bfde049165194fd094023fd29a813829431",
+    "sha512": "0ac90d0b369e7f18105e0f27dc1f94418f918925bd90a60a712ed084d846089d55a69f22adddfcc6cd7e43777dfee2f634c4944c415098043e7024a1583feb07",
+    "size": 217707044,
+    "url": "https://github.com/ibmruntimes/semeru27-binaries/releases/download/jdk-27.0.1.0-m1/ibm-semeru-open-27-jdk-27.0.1.0_m1-1.s390x.rpm",
+    "vendor": "ibm",
+    "version": "27.0.1.0-m1"
+  },
+  {
+    "architecture": "s390x",
+    "distro": "semeru",
+    "features": [ ],
+    "file_type": "tar.gz",
+    "filename": "ibm-semeru-open-jdk_s390x_linux_27.0.1.0-m1.tar.gz",
+    "image_type": "jdk",
+    "java_version": "27.0.1.0",
+    "jvm_impl": "openj9",
+    "last_verified": "2026-09-19",
+    "md5": "d684ecf0b3f55d1c0a66d8cd8fbe26cd",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "f8d0884956a65f3b3db4996fd27abddd2772dea4",
+    "sha256": "c9d70357018da04ec1af04094601f0574484501354845eabb914bc224fcc8bfb",
+    "sha512": "55d2d040e361e55ee8a99881122d27ed803532af327f09592ad571c2df5dbde34e290a3311230c28757ae5a5a58266dac1e7be304483a98aaa82dc166bd208dc",
+    "size": 256082034,
+    "url": "https://github.com/ibmruntimes/semeru27-binaries/releases/download/jdk-27.0.1.0-m1/ibm-semeru-open-jdk_s390x_linux_27.0.1.0-m1.tar.gz",
+    "vendor": "ibm",
+    "version": "27.0.1.0-m1"
   }
 ]
