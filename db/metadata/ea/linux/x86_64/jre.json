@@ -1481,6 +1481,50 @@
   },
   {
     "architecture": "x86_64",
+    "distro": "temurin",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK26U-jre_x64_alpine-linux_hotspot_2026-09-19-12-01.tar.gz",
+    "image_type": "jre",
+    "java_version": "26",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-20",
+    "md5": "04b3c38785dadc7497f60d6b217f7665",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "3062e482ab597d37a2ebf206e781e3324e9e09b5",
+    "sha256": "a6a4cb72ea976d07e8d7766e32bba64567273d19d68b03e3a48cc07a60d3224a",
+    "sha512": "5492df019ff256597787898e7e20310315f3c8fdef47b8d26a5f1c37cf411e48821d837fa5f8483afea0e87c2e04494111cb3709cc1595a928edf8b8e011fe9f",
+    "size": 62578949,
+    "url": "https://github.com/adoptium/temurin26-binaries/releases/download/jdk26u-2026-09-19-12-01-beta/OpenJDK26U-jre_x64_alpine-linux_hotspot_2026-09-19-12-01.tar.gz",
+    "vendor": "eclipse",
+    "version": "26u-2026-09-19-12-01-beta"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "temurin",
+    "features": [ ],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK26U-jre_x64_linux_hotspot_2026-09-19-12-01.tar.gz",
+    "image_type": "jre",
+    "java_version": "26",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-20",
+    "md5": "ec9abdb0170efb479d3918d776a304c4",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "bcd36d4cefaad338b5ef16d845b4f04cb17319fb",
+    "sha256": "b0132aa512525f6e35b557b6fd509007cb0bbc50117920f432e5e2c6bc36111a",
+    "sha512": "aa45e4c98dbd18ce2c2ab03851032a57e4d78415e207f22cf70444145dd7add9b5b4ff17a79ec7d85bed958c3ab7db885d1ee7b4587089d141259761b04f78f1",
+    "size": 63214970,
+    "url": "https://github.com/adoptium/temurin26-binaries/releases/download/jdk26u-2026-09-19-12-01-beta/OpenJDK26U-jre_x64_linux_hotspot_2026-09-19-12-01.tar.gz",
+    "vendor": "eclipse",
+    "version": "26u-2026-09-19-12-01-beta"
+  },
+  {
+    "architecture": "x86_64",
     "distro": "liberica",
     "features": [ ],
     "file_type": "deb",
@@ -27889,6 +27933,7 @@
     "sha256": "f4ec939f909e7a35c854b058423ac5b24ddbf6b17d62c50bef22a16af8128e1b",
     "sha512": "f8d48d5e3343001c4b365bfac1c2d2f1d605895fff92e884bc14f5435815b05149d1b0818788b6fcc93d49743cbf022a5f27cadd98d847f9cb65a4a7782fea5a",
     "size": 60878720,
+    "unlisted_since": "2026-09-20",
     "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.3%2B6-ea-beta/OpenJDK25U-jre_x64_alpine-linux_hotspot_25.0.3_6-ea.tar.gz",
     "vendor": "eclipse",
     "version": "25.0.3+6-ea-beta"
@@ -27910,6 +27955,7 @@
     "sha256": "600783909a3e3d50b995285dd96d77f5820868811910d134a9ec2475774eb34f",
     "sha512": "22a5822a36a0e1880998fb1d464a1fd475ceb93c8af70e76e6d1653cffa9f12c3eb00da49d51e63327a8b0d982082c67724ac30e6009a12552affc3462caa780",
     "size": 61523790,
+    "unlisted_since": "2026-09-20",
     "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.3%2B6-ea-beta/OpenJDK25U-jre_x64_linux_hotspot_25.0.3_6-ea.tar.gz",
     "vendor": "eclipse",
     "version": "25.0.3+6-ea-beta"
@@ -32795,6 +32841,7 @@
     "sha256": "6063cce0cc0e1e993f90eff2f3147131c35bca0167887872fd315c1257413def",
     "sha512": "d46f00f88a643a51b5a8af9cd437f2de17075388170247ed7a15378aef77fac0c3d50accf3c5710b095aeafc405e9b350b5cb7429f9c7cbff84f8fe1790b7f63",
     "size": 62622201,
+    "unlisted_since": "2026-09-20",
     "url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27%2B14-ea-beta/OpenJDK-jre_x64_alpine-linux_hotspot_27_14-ea.tar.gz",
     "vendor": "eclipse",
     "version": "27+14-ea-beta"
@@ -32816,6 +32863,7 @@
     "sha256": "0b91a300068b575b9c67b750d80bc31b638ef59b3d2707890ab7a423b23af539",
     "sha512": "adc8f14379bbd7bf2f97b97e1a405bab999ad3ddd88f4f45ce4eba63b9a47416bc35b2373a69d8959d58ce23df576c52fa3847440438f24f3fda9aa0ac6fce9d",
     "size": 63204191,
+    "unlisted_since": "2026-09-20",
     "url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27%2B14-ea-beta/OpenJDK-jre_x64_linux_hotspot_27_14-ea.tar.gz",
     "vendor": "eclipse",
     "version": "27+14-ea-beta"
