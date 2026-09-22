@@ -19271,6 +19271,27 @@
     "distro": "dragonwell",
     "features": [ ],
     "file_type": "tar.gz",
+    "filename": "Alibaba_Dragonwell_Extended_8.30.29_x64_linux.tar.gz",
+    "image_type": "jdk",
+    "java_version": "1.8.0_502-b01",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-22",
+    "md5": "d0dd574df4500e609d7e59cd3a51c260",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "920e29f61d80f17fc5467dc254de2c5fca2145cd",
+    "sha256": "33c986836f407443c8bb4c4f84fc5ca6c75455ca644cf1c42eda5d880ca850aa",
+    "sha512": "9d0ad791324f6e56a1ff928e4ab184edd0c0df701e53aa0a24e3ae632f847969fbba9493f3c9da5da733951e238478befa7262a2a7f792bc17be19a8188b68f1",
+    "size": 103525044,
+    "url": "https://github.com/dragonwell-project/dragonwell8/releases/download/dragonwell-extended-8.30.29_jdk8u502-ga/Alibaba_Dragonwell_Extended_8.30.29_x64_linux.tar.gz",
+    "vendor": "alibaba",
+    "version": "8.30.29"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "dragonwell",
+    "features": [ ],
+    "file_type": "tar.gz",
     "filename": "Alibaba_Dragonwell_Standard_8.30.29_x64_linux.tar.gz",
     "image_type": "jdk",
     "java_version": "1.8.0_502-b01",
@@ -87059,6 +87080,7 @@
     "sha256": "ff474977b93dd155646e18462444930c0b1c37a24f6be2bec280b0b760fc4b7a",
     "sha512": "714ebda0ed4b6ad01e5f79f0de52d226e6177b84af70dc52b3ffa631a9b5e1f1f66e7b3c1d95aad674e38a8606c3564150f01d97fe51f134702ac965e2c2cab2",
     "size": 229049220,
+    "unlisted_since": "2026-09-22",
     "url": "https://builds.openlogic.com/downloadJDK/openlogic-openjdk/17.0.11+9/openlogic-openjdk-17.0.11+9-linux-x64-deb.deb",
     "vendor": "openlogic",
     "version": "17.0.11+9"
@@ -98321,6 +98343,7 @@
     "sha256": "8a9ac4320235424a162cd9183a7e4d59c99f3cfc97dd8ab808e73df912b1baf4",
     "sha512": "127bd8b49c1f313a12e4ac1ef16cfc3ca67d6ba56683ac70ebd42787f4dfa9fd4735f834d43bc5687485cf0223c8634bbe7a60b05887a63a6a61ef8d8c9a0fbc",
     "size": 192495266,
+    "unlisted_since": "2026-09-22",
     "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.19%2B8-ea-beta/OpenJDK17U-jdk_x64_alpine-linux_hotspot_17.0.19_8-ea.tar.gz",
     "vendor": "eclipse",
     "version": "17.0.19+8-ea-beta"
@@ -98342,6 +98365,7 @@
     "sha256": "127d2cd6a226e372b0f97710cfcfaa00838812a1f52a5e18d8f91acc87b13ee8",
     "sha512": "7042073636cbadf29161535902fbc2886894b1ed97d8a171056970cb88b5a5d1b206d7da4fd4f7e66354f726c4806fb4bc53037b6d794a7a656c98c5c8f699c7",
     "size": 193349276,
+    "unlisted_since": "2026-09-22",
     "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.19%2B8-ea-beta/OpenJDK17U-jdk_x64_linux_hotspot_17.0.19_8-ea.tar.gz",
     "vendor": "eclipse",
     "version": "17.0.19+8-ea-beta"
@@ -100190,6 +100214,50 @@
     "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-17.0.21%2B6/sapmachine-jdk-17.0.21-ea.6_linux-x64_bin.tar.gz",
     "vendor": "sap",
     "version": "17.0.21-ea.6"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "sapmachine",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "sapmachine-jdk-17.0.21-ea.7_linux-x64-musl_bin.tar.gz",
+    "image_type": "jdk",
+    "java_version": "17.0.21-ea.7",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-22",
+    "md5": "ec73b49390393602a25b1bd94ba788ad",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "6ede94a94f12eb5f36e497c23a95f6fe56e4629d",
+    "sha256": "4a226590b0b407526377989e1bfc8a0fc8f9fa567d47c3c0e0b6f35d26826790",
+    "sha512": "8ecd624bc454d36390158511c1c4ff1fb4f1b9487bc2c447d56fe6a0f9437f2915e04d96f07f0ec4463831188e863cbdf07627efaed4696a5cc893c360f948a8",
+    "size": 195561489,
+    "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-17.0.21%2B7/sapmachine-jdk-17.0.21-ea.7_linux-x64-musl_bin.tar.gz",
+    "vendor": "sap",
+    "version": "17.0.21-ea.7"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "sapmachine",
+    "features": null,
+    "file_type": "tar.gz",
+    "filename": "sapmachine-jdk-17.0.21-ea.7_linux-x64_bin.tar.gz",
+    "image_type": "jdk",
+    "java_version": "17.0.21-ea.7",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-22",
+    "md5": "20ffb66f379e7328260caf16d42a5d80",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "4cdb236e5122f57b94bec3194b89aa0706c331fc",
+    "sha256": "8b9209ed6f4cbf3f82c1a16dc79b39cc667cc0d78b8b017051d927b86802bad1",
+    "sha512": "b51288bb8e7c709e5473f7975342a63d27ea5f4d2185237acd9c706253dc72fa3d671338f5f8903997bdabc4bf5bf3fba3c8e28aa80cd99327a2c85fa089f816",
+    "size": 196448849,
+    "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-17.0.21%2B7/sapmachine-jdk-17.0.21-ea.7_linux-x64_bin.tar.gz",
+    "vendor": "sap",
+    "version": "17.0.21-ea.7"
   },
   {
     "architecture": "x86_64",
@@ -112979,7 +113047,6 @@
     "sha256": "1186435d0673df35465316144f06381dbc2d35122f5afc552611e11894a15da1",
     "sha512": "b4c4c9b63ed5257cfda503c4ce53faabc40a019402a41b4ed0a078eefc409c11d3abf36cc51f53de710b8ad7fe8a5ad71e081f72eb268dcfe68068e1255424f9",
     "size": 163059820,
-    "unlisted_since": "2026-09-21",
     "url": "https://download.oracle.com/java/20/archive/jdk-20_linux-x64_bin.deb",
     "vendor": "oracle",
     "version": "20"
@@ -113001,7 +113068,6 @@
     "sha256": "3eca3a70b3047c68cc542b8ccc08c20c628b009971dc953960296a5b3b111b5b",
     "sha512": "ce42ea72c765f31f66ea95cfcb9423daa595137dee52108ebb1c82ce988a7df4d0fdf00112ffdd38536fa86f575fab58a5b503f9b286f9b8a68913ebb7b57670",
     "size": 191252398,
-    "unlisted_since": "2026-09-21",
     "url": "https://download.oracle.com/java/20/archive/jdk-20_linux-x64_bin.rpm",
     "vendor": "oracle",
     "version": "20"
@@ -113023,7 +113089,6 @@
     "sha256": "1157bba2126efd115b5133cc078e6bcc52b15583657e980a5197f34a7505222e",
     "sha512": "9e768923a9bd4e23a46e55127b13f3a2c9a9ffcdf6552dc7d8e7ea6361a42f1af7aa0c83d3a90f8a291454dbf597f3681b00fb9f2dab4b9cd20dc6e21b8b55ca",
     "size": 191554581,
-    "unlisted_since": "2026-09-21",
     "url": "https://download.oracle.com/java/20/archive/jdk-20_linux-x64_bin.tar.gz",
     "vendor": "oracle",
     "version": "20"
@@ -113332,7 +113397,6 @@
     "sha256": "a12452c172169aafd8ea23caae1eb13898c0d9e9eb12ebd2b66d3e3bde8bc80f",
     "sha512": "5ed412abfd43cd6cd934c7a15b2242adc52d6c26edb84e673404ea30e1210d655817e97c74e2abdc265fec99e0f0634cba19013f8f5260484a9d17da926a9114",
     "size": 163154490,
-    "unlisted_since": "2026-09-21",
     "url": "https://download.oracle.com/java/20/archive/jdk-20.0.1_linux-x64_bin.deb",
     "vendor": "oracle",
     "version": "20.0.1"
@@ -113354,7 +113418,6 @@
     "sha256": "8c4a00350fc6a7aa52f09604bffdc08554ae1e540fd0d064e9258189e3925521",
     "sha512": "b26f7ce216fd550b7039753ab3e3e762990c7595df05f3032d5c0d1bb956e8177e3af37aad29f94dbc5f699c0105d3328c5044986ce92c8ba79ecd07207c87c5",
     "size": 191270203,
-    "unlisted_since": "2026-09-21",
     "url": "https://download.oracle.com/java/20/archive/jdk-20.0.1_linux-x64_bin.rpm",
     "vendor": "oracle",
     "version": "20.0.1"
@@ -113376,7 +113439,6 @@
     "sha256": "bb118683feb4d66476198c8176a9845a9125bf5b303089b56b4b59ff9a544ccf",
     "sha512": "e7a3c2117e93d9a1c70a4c69553b272df619d71465ae6df7f61f8e4793df6e8caaebce66f4bd2045bb705e3bac864f23d9854304cec946c258685c29d5c97ab0",
     "size": 191562615,
-    "unlisted_since": "2026-09-21",
     "url": "https://download.oracle.com/java/20/archive/jdk-20.0.1_linux-x64_bin.tar.gz",
     "vendor": "oracle",
     "version": "20.0.1"
@@ -113939,7 +114001,6 @@
     "sha256": "4a3b1697078f5115b9e3e9b877eaeb274e3b4bfe6a2ee9ebc1422dfe83e861bc",
     "sha512": "11b204b49a112416dead86b575beafd1e19764df76c284a1d39f1cf52299a3c8cc1429add784859bcac7eb131e1c3aca7f17899f45116aef0848005dad67880d",
     "size": 163485260,
-    "unlisted_since": "2026-09-21",
     "url": "https://download.oracle.com/java/20/archive/jdk-20.0.2_linux-x64_bin.deb",
     "vendor": "oracle",
     "version": "20.0.2"
@@ -113961,7 +114022,6 @@
     "sha256": "b2757ee3325a2b589ff0e9bb5834819a05536f1be22e3301d203d2637296d7a3",
     "sha512": "cb594ea155a4b96a92d6d66800c1ad1b060a418db06f1b0e4e936af573f19df52bb55aa8cda405ea1f79c632f20b5ff999553e372ce922c49869992131eaa4f8",
     "size": 191697334,
-    "unlisted_since": "2026-09-21",
     "url": "https://download.oracle.com/java/20/archive/jdk-20.0.2_linux-x64_bin.rpm",
     "vendor": "oracle",
     "version": "20.0.2"
@@ -113983,7 +114043,6 @@
     "sha256": "499b59be8e3613c223e76f101598d7c28dc04b8e154d860edf2ed05980c67526",
     "sha512": "458a687fd28914d54f33ef5a0ac0822088a8c2158654f6d6f947519a6499f840a8f1711f0f5a26fa842209c7b060927ad0ecdf119df8a0eb9f887c2d856bfa52",
     "size": 192003505,
-    "unlisted_since": "2026-09-21",
     "url": "https://download.oracle.com/java/20/archive/jdk-20.0.2_linux-x64_bin.tar.gz",
     "vendor": "oracle",
     "version": "20.0.2"
@@ -143455,6 +143514,50 @@
   },
   {
     "architecture": "x86_64",
+    "distro": "sapmachine",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "sapmachine-jdk-21.0.13-ea.7_linux-x64-musl_bin.tar.gz",
+    "image_type": "jdk",
+    "java_version": "21.0.13-ea.7",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-22",
+    "md5": "15d6a1594a2ce2fe7f196bb4fb6bcb77",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "d0b71168a0c2de987ac6ea75b5d900d5c3cd67ba",
+    "sha256": "e31934d47f16b41a6a9cecea837090a966771b85719b5b223547d1c3e69e2556",
+    "sha512": "028023e55a7c5925932f1d03001e1a171f365ee2a0371e9e9ccde66d38b4af3458e9ab581dbd29f93ab51f69de338e46bd544984dfee7bfe873e278227f883d6",
+    "size": 210762560,
+    "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-21.0.13%2B7/sapmachine-jdk-21.0.13-ea.7_linux-x64-musl_bin.tar.gz",
+    "vendor": "sap",
+    "version": "21.0.13-ea.7"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "sapmachine",
+    "features": null,
+    "file_type": "tar.gz",
+    "filename": "sapmachine-jdk-21.0.13-ea.7_linux-x64_bin.tar.gz",
+    "image_type": "jdk",
+    "java_version": "21.0.13-ea.7",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-22",
+    "md5": "13df58c84cdcd1ca455aa26566b4d2e0",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "954afbd2e2d023c7243cec42d28d7ff3eb235629",
+    "sha256": "df67c330e323a57322692a45256832c0c4ac7398986a2ea2b7ea3a578b1031f4",
+    "sha512": "d5db25cc4a0ff4c796e32c7ff81840b8847fabd0f5ad400f51b89a710e1c1617fd25225d70561249323f80492cfe77c664a9da3979d64dce1a3012d83c882314",
+    "size": 211543904,
+    "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-21.0.13%2B7/sapmachine-jdk-21.0.13-ea.7_linux-x64_bin.tar.gz",
+    "vendor": "sap",
+    "version": "21.0.13-ea.7"
+  },
+  {
+    "architecture": "x86_64",
     "distro": "temurin",
     "features": [
       "musl"
@@ -167932,6 +168035,50 @@
   },
   {
     "architecture": "x86_64",
+    "distro": "sapmachine",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "sapmachine-jdk-25.0.5-ea.7_linux-x64-musl_bin.tar.gz",
+    "image_type": "jdk",
+    "java_version": "25.0.5-ea.7",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-22",
+    "md5": "10fb865805d62664c916a3738c23b880",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "e56d92b4f16dd648ab7b91df3b414150d7384ae7",
+    "sha256": "8eb1d43fac9cd92ade0e38870e1c807cef875c990a217b757a74293257a7a1d9",
+    "sha512": "e5a87dcc273bce98810db87271f17a460b1913ec8dc8fb5494c052782a5da0c8b66cdf03a4f66a5a8174b3afd7e0353322e423cebe5c2eeb9b40d74c9a739b41",
+    "size": 128917286,
+    "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-25.0.5%2B7/sapmachine-jdk-25.0.5-ea.7_linux-x64-musl_bin.tar.gz",
+    "vendor": "sap",
+    "version": "25.0.5-ea.7"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "sapmachine",
+    "features": null,
+    "file_type": "tar.gz",
+    "filename": "sapmachine-jdk-25.0.5-ea.7_linux-x64_bin.tar.gz",
+    "image_type": "jdk",
+    "java_version": "25.0.5-ea.7",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-22",
+    "md5": "e6751bb104cca7a5accc6030914186a9",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "09e6ffff4b3fe7aee6acf6f04baffacc566799dc",
+    "sha256": "cb6d79ee907d71246531af54462b8508510f8753924362bca096474ea7f8b310",
+    "sha512": "ff4122fc556b07b798a7ef11520a7b176853f39656375b4dbf0fe71a67395636b04fb00537f5123d933d735a3da630d5b32cdfe03c88fa6ec66c71471c1e0497",
+    "size": 130038063,
+    "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-25.0.5%2B7/sapmachine-jdk-25.0.5-ea.7_linux-x64_bin.tar.gz",
+    "vendor": "sap",
+    "version": "25.0.5-ea.7"
+  },
+  {
+    "architecture": "x86_64",
     "distro": "temurin",
     "features": [
       "musl"
@@ -178270,6 +178417,29 @@
       "musl"
     ],
     "file_type": "tar.gz",
+    "filename": "OpenJDK27U-jdk_x64_alpine-linux_hotspot_27_35.tar.gz",
+    "image_type": "jdk",
+    "java_version": "27+35",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-22",
+    "md5": "fb0bc1af8293e1539921b2393aa564a7",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "b4a0cc04d53128e2d14bd8d6723054e7c9df76c0",
+    "sha256": "45aef7cd5ae667c6f5dd100c96a99e5a00e61c512664bb13326cf149b7d37e0f",
+    "sha512": "a61a95f44aaa14eb5a3ca630abd01c8238d19d0e786157c0e277a814fc98d167e5b6e4c35105f21b7d9a253aebe75564410e4578909decdb9ae094620114046f",
+    "size": 141968410,
+    "url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27%2B35/OpenJDK27U-jdk_x64_alpine-linux_hotspot_27_35.tar.gz",
+    "vendor": "eclipse",
+    "version": "27+35"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "temurin",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
     "filename": "OpenJDK27U-jdk_x64_alpine-linux_hotspot_27_35-ea.tar.gz",
     "image_type": "jdk",
     "java_version": "27",
@@ -178966,6 +179136,50 @@
     "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-28%2B15/sapmachine-jdk-28-ea.15_linux-x64_bin.tar.gz",
     "vendor": "sap",
     "version": "28-ea.15"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "sapmachine",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "sapmachine-jdk-28-ea.16_linux-x64-musl_bin.tar.gz",
+    "image_type": "jdk",
+    "java_version": "28-ea.16",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-22",
+    "md5": "4d746e7d15f00b227065b34dcd0a45f4",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "a17a1a6464ada896937b4a63759a365e8c472957",
+    "sha256": "1e3d547d684c7528c4e39b6873f9689e1034f3711410eb760fbf807b8c045cf1",
+    "sha512": "e4d6264d5d964a65178b6b97b73ddfbd22d69c5da1b3b622bca9c2d70c8f66e3734bb50b4dd606d83b2a5d02406815dc36fde87e6785f49576aab5a1fcf87000",
+    "size": 129009417,
+    "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-28%2B16/sapmachine-jdk-28-ea.16_linux-x64-musl_bin.tar.gz",
+    "vendor": "sap",
+    "version": "28-ea.16"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "sapmachine",
+    "features": null,
+    "file_type": "tar.gz",
+    "filename": "sapmachine-jdk-28-ea.16_linux-x64_bin.tar.gz",
+    "image_type": "jdk",
+    "java_version": "28-ea.16",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-22",
+    "md5": "9df13612eefec275dbbeb8b907a55dad",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "e86647c9bd5022dcaef19bcefceaf2978db5bd8f",
+    "sha256": "c3fc009c29428f508874aaf7abd30d5235c7597604a3ce16839bbfa5e270b879",
+    "sha512": "f74c7cf09b6e52e705fc1bb3cb3718b0a0d5c500a3392e9cb9d593398c76fd836858ce622ac410898e2efc656de372ce660d8a112250c14fa5dc5d19197afc95",
+    "size": 129809667,
+    "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-28%2B16/sapmachine-jdk-28-ea.16_linux-x64_bin.tar.gz",
+    "vendor": "sap",
+    "version": "28-ea.16"
   },
   {
     "architecture": "x86_64",

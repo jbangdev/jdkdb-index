@@ -5723,6 +5723,7 @@
     "sha256": "352b1437b623a63454142579ecbefbd1ad51e22d6cf22b6f5d96d43135bd8239",
     "sha512": "3b0ed34450e4db6f7ec2e4eb42ac03ba1a9206fc5f713dff41eb8049fed8e1ff351d9a523db50f3eb0fa5ed62eb2390fbebfb671de49e7143e7ed035b04751ac",
     "size": 190813226,
+    "unlisted_since": "2026-09-22",
     "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.19%2B8-ea-beta/OpenJDK17U-jdk_aarch64_alpine-linux_hotspot_17.0.19_8-ea.tar.gz",
     "vendor": "eclipse",
     "version": "17.0.19+8-ea-beta"
@@ -5744,6 +5745,7 @@
     "sha256": "a7c965eb13bc4a14878f210ec3f6408cb4cff716d386114d8b39a87785651cf1",
     "sha512": "ef0545f0cde91343edef610902c1e893d1ded47e6cc1eaa4379d4b625bbcf5e186e96412ebd0476cbedf1d5514c5f96a5c1d1e482a2b6acd53e099e7a3fedfd0",
     "size": 192017092,
+    "unlisted_since": "2026-09-22",
     "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.19%2B8-ea-beta/OpenJDK17U-jdk_aarch64_linux_hotspot_17.0.19_8-ea.tar.gz",
     "vendor": "eclipse",
     "version": "17.0.19+8-ea-beta"
@@ -13365,6 +13367,29 @@
     "url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27%2B34-ea-beta/OpenJDK27U-jdk_aarch64_linux_hotspot_27_34-ea.tar.gz",
     "vendor": "eclipse",
     "version": "27+34-ea-beta"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "temurin",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK27U-jdk_aarch64_alpine-linux_hotspot_27_35.tar.gz",
+    "image_type": "jdk",
+    "java_version": "27+35",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-22",
+    "md5": "36fba46f59b833c15d614528477da651",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "6d567854f26b016af8ca32db3dd2e6ad6a0e67a2",
+    "sha256": "440353d641e7726396dff5d9a9d0d17c05a070dc25664c20f9d7efafc2f16cf7",
+    "sha512": "84cbffbff7f0b2e002f1d9ec7f3588d9e6b1756f7c9556b58639685fdadfed9c1fa1d6adb07fec57221e5fa10dc16587209e840998cba56e52617a01499520e4",
+    "size": 140735216,
+    "url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27%2B35/OpenJDK27U-jdk_aarch64_alpine-linux_hotspot_27_35.tar.gz",
+    "vendor": "eclipse",
+    "version": "27+35"
   },
   {
     "architecture": "aarch64",

@@ -11170,6 +11170,7 @@
     "sha256": "e5d4fd90fb29185862230795b8428e4268a2c66e57fd2e619caba0511f26274b",
     "sha512": "b485a1b83ff5473cfab2afc0d27fb66befd16a31d61a175d55ee8c58fff0a046ad6bb62173fc8f465ba1898413d7ccfeda14f16b084735bcc0151514ff042e2a",
     "size": 45557967,
+    "unlisted_since": "2026-09-22",
     "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.19%2B8-ea-beta/OpenJDK17U-jre_aarch64_alpine-linux_hotspot_17.0.19_8-ea.tar.gz",
     "vendor": "eclipse",
     "version": "17.0.19+8-ea-beta"
@@ -11191,6 +11192,7 @@
     "sha256": "aaefd41348480fb680d3f792a7c6afbb69e1453f95d94005e35dbc5eab689855",
     "sha512": "51023144c709758099431287c9188ae029030c06d83bffebd17a5ac239be3ccccf17ae2e164f7a4501ee103526bb1e773ecbd39a3d07c8e75e12a07b2f0aa479",
     "size": 46028570,
+    "unlisted_since": "2026-09-22",
     "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.19%2B8-ea-beta/OpenJDK17U-jre_aarch64_linux_hotspot_17.0.19_8-ea.tar.gz",
     "vendor": "eclipse",
     "version": "17.0.19+8-ea-beta"
@@ -19221,6 +19223,27 @@
   },
   {
     "architecture": "aarch64",
+    "distro": "sapmachine",
+    "features": null,
+    "file_type": "tar.gz",
+    "filename": "sapmachine-jre-25.0.5-ea.7_linux-aarch64_bin.tar.gz",
+    "image_type": "jre",
+    "java_version": "25.0.5-ea.7",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-22",
+    "md5": "6515278b38a73404f6f45d7be9d71a3f",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "a9a105ee5125776cd73aab50c4024b3c1102f979",
+    "sha256": "829a3d5b479d39b20919ea73817fa753f83730191e33e3852ae9aeeb6ed150ed",
+    "sha512": "6596fe2b36d076fa9b9297e5ea3543fc77ec802deea2df42545ac61a5e0321b9a051d7643a6ebc0a8713aa641fd358203e2c6cc2cbd67e4dc948985c8f5c1e21",
+    "size": 51064655,
+    "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-25.0.5%2B7/sapmachine-jre-25.0.5-ea.7_linux-aarch64_bin.tar.gz",
+    "vendor": "sap",
+    "version": "25.0.5-ea.7"
+  },
+  {
+    "architecture": "aarch64",
     "distro": "temurin",
     "features": [
       "musl"
@@ -23352,6 +23375,27 @@
     "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-28%2B15/sapmachine-jre-28-ea.15_linux-aarch64_bin.tar.gz",
     "vendor": "sap",
     "version": "28-ea.15"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "sapmachine",
+    "features": null,
+    "file_type": "tar.gz",
+    "filename": "sapmachine-jre-28-ea.16_linux-aarch64_bin.tar.gz",
+    "image_type": "jre",
+    "java_version": "28-ea.16",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-22",
+    "md5": "c5816bc714fc21c6d8ecd1f4f831d44f",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "a637028418e60f4c1f9c7c289be99561a01f236b",
+    "sha256": "e908973afeb497f51ed17c809c5dfc1daef77477d403ae03865c196ff22753d2",
+    "sha512": "57e0d7473af904dac6c48b3eb180ddcb4fd6933d67fdb0be15d4277469f8f77e4c6375d173323e917ef7c745a94eecee603c631b7e893a523d165f36128f115f",
+    "size": 52161747,
+    "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-28%2B16/sapmachine-jre-28-ea.16_linux-aarch64_bin.tar.gz",
+    "vendor": "sap",
+    "version": "28-ea.16"
   },
   {
     "architecture": "aarch64",

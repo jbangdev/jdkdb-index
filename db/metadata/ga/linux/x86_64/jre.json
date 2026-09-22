@@ -76817,7 +76817,6 @@
     "sha256": "4bf96d2dfe4a108b1bd3a92b01ba72929c4b3fd25b1d7ed5f5c61ddd9c2c5ded",
     "sha512": "5abb86a3afa0a8b914ce61526c981b5917b6bc39bfdc8df379881f0c92ba654880d3388bdee6d11e51e8a2cb741bb83ae8bf3e71162cf2c8a231189521a33dc3",
     "size": 58027068,
-    "unlisted_since": "2026-09-20",
     "url": "https://builds.openlogic.com/downloadJDK/openlogic-openjdk-jre/21.0.7+6/openlogic-openjdk-jre-21.0.7+6-linux-x64-deb.deb",
     "vendor": "openlogic",
     "version": "21.0.7+6"
@@ -78686,6 +78685,7 @@
     "sha256": "6f4f11c28ccf1dcc1736616a666c2090d774873da63843cf5989c1b0fcbb7fae",
     "sha512": "86793e0a2897a4aa0d366d06370386c2830b947bec1a96f7ab8bb6749f081da534e2ec529f0aff0f27a783c4273ac392f2eac8a075549a421a884b88b3f97c0b",
     "size": 58094222,
+    "unlisted_since": "2026-09-22",
     "url": "https://builds.openlogic.com/downloadJDK/openlogic-openjdk-jre/21.0.10+7/openlogic-openjdk-jre-21.0.10+7-linux-x64.tar.gz",
     "vendor": "openlogic",
     "version": "21.0.10+7"
@@ -95250,5 +95250,28 @@
     "url": "https://static.azul.com/zulu/bin/zulu27.28.103-ca-fx-jre27.0.0-linux_x64.tar.gz",
     "vendor": "azul",
     "version": "27.28.103"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "temurin",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK27U-jre_x64_alpine-linux_hotspot_27_35.tar.gz",
+    "image_type": "jre",
+    "java_version": "27+35",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-22",
+    "md5": "84d35f100ee2b4567e84fa5bc1205e50",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "d673d672709575dff1b1554938a8b8d8adb64ffb",
+    "sha256": "09323dd71131eb7f30a98cd4a6e050fe10135a23ab5e7ad01b0e097e533ce7c3",
+    "sha512": "cf22be97064bb285337118646c0301ce728e39bb64d01c1bd7883342b3fd5a94f0a05d7a3cf54ad4677ec049a823ca37aaf84327d682c6e9d6a99c5bbfa87015",
+    "size": 61524111,
+    "url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27%2B35/OpenJDK27U-jre_x64_alpine-linux_hotspot_27_35.tar.gz",
+    "vendor": "eclipse",
+    "version": "27+35"
   }
 ]
