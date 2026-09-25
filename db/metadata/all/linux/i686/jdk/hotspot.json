@@ -6056,6 +6056,7 @@
     "sha256": "557622b9a44065fa68ac12201ce5f1e866d3a2bda870c54da04d23b47dedc630",
     "sha512": "5b9162f34f52a4a2b1e45b107a404a19f392c3b6ececa61c4b7c9869a7f62928ed86e98ec93e6882b87e8479267d75d3a3554e5388c94fa9b744d3b43878255e",
     "size": 113130581,
+    "unlisted_since": "2026-09-25",
     "url": "https://builds.openlogic.com/downloadJDK/openlogic-openjdk/8u482-b08/openlogic-openjdk-8u482-b08-linux-x32.tar.gz",
     "vendor": "openlogic",
     "version": "8u482-b08"
@@ -6885,6 +6886,7 @@
     "sha256": "58108cb1747a28d30fe4e4f35e4da7089d75ef67aea404bbc560f9be3fc6d019",
     "sha512": "26f7a761df8b5ee52cbf46137c9e0a890bb7c27c61c8276251fc36fb539d7dc65fc217e68b90432b140213979285f08e9e693e9db59ebac8775a6b7102f7736b",
     "size": 113168879,
+    "unlisted_since": "2026-09-25",
     "url": "https://builds.openlogic.com/downloadJDK/openlogic-openjdk/8u502-b07/openlogic-openjdk-8u502-b07-linux-x32.tar.gz",
     "vendor": "openlogic",
     "version": "8u502-b07"
@@ -42508,6 +42510,50 @@
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-25/openjdk-25-jdk_25.0.5~6ea-1_i386.deb",
     "vendor": "debian",
     "version": "25.0.5~6ea-1"
+  },
+  {
+    "architecture": "i686",
+    "distro": "debian",
+    "features": [
+      "headless"
+    ],
+    "file_type": "deb",
+    "filename": "openjdk-25-jdk-headless_25.0.5~7ea-1_i386.deb",
+    "image_type": "jdk",
+    "java_version": "25.0.5",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-25",
+    "md5": "0b364b3d26505ddbd21860507caf280c",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "a76e0b849c77eff0c60c26f58f50b1cee529e3d7",
+    "sha256": "06f494db1f31e1dfb351152ed59052f7ae3353f11cb5c038e6e5a031b59ee6bc",
+    "sha512": "e988d9294f312d39ffb5b55bf0bb6336e8ab8c29979ce34be9de4393f7b4fb90cf2ea8d7161ba834c7d080430e61e5b9e2859b8e516408675dc532bf3ff086ee",
+    "size": 194112696,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-25/openjdk-25-jdk-headless_25.0.5~7ea-1_i386.deb",
+    "vendor": "debian",
+    "version": "25.0.5~7ea-1"
+  },
+  {
+    "architecture": "i686",
+    "distro": "debian",
+    "features": [ ],
+    "file_type": "deb",
+    "filename": "openjdk-25-jdk_25.0.5~7ea-1_i386.deb",
+    "image_type": "jdk",
+    "java_version": "25.0.5",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-25",
+    "md5": "c0e2722e9d7ebb0d77691f6371cf3d0d",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "6d1f910d172f468a66fa321bfe7c0fce36d066a2",
+    "sha256": "eccbd450833352af53a9abaf04295694d0abd9626388908f0a7b7a9e46fc7f67",
+    "sha512": "db3e3b0fd7c6212db91d56badf49549c795fc9bd4c7d3254ce97d812e896bff813307914703c4573541e4d538a6a52840c66e4807271a66a45e3e45ea77f95e9",
+    "size": 9764,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-25/openjdk-25-jdk_25.0.5~7ea-1_i386.deb",
+    "vendor": "debian",
+    "version": "25.0.5~7ea-1"
   },
   {
     "architecture": "i686",
