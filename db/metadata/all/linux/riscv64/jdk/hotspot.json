@@ -641,6 +641,27 @@
   },
   {
     "architecture": "riscv64",
+    "distro": "temurin",
+    "features": [ ],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK27U-jdk_riscv64_linux_hotspot_2026-09-25-19-42.tar.gz",
+    "image_type": "jdk",
+    "java_version": "27",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-26",
+    "md5": "f753158c909c82bde70497b86441108f",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "800b3a81416800406f961e70d91e51fcbc167251",
+    "sha256": "869f4af38ab74d74a4f78aabe145744ecc905ea407c8e689e41aaf214701897b",
+    "sha512": "3217aca21297c6d1bfae26022d312c5d517176cc979c9dfed5afde6f9e67dfed13d1573306d3a1fe57ad05293c2495f4d0f5725b28dfbadb9d4cb65cb2de7a7b",
+    "size": 141130789,
+    "url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk27u-2026-09-25-19-42-beta/OpenJDK27U-jdk_riscv64_linux_hotspot_2026-09-25-19-42.tar.gz",
+    "vendor": "eclipse",
+    "version": "27u-2026-09-25-19-42-beta"
+  },
+  {
+    "architecture": "riscv64",
     "distro": "debian",
     "features": [
       "headless"
@@ -12762,6 +12783,27 @@
   },
   {
     "architecture": "riscv64",
+    "distro": "adoptopenjdk",
+    "features": [ ],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK27U-jdk_riscv64_linux_hotspot_27_35.tar.gz",
+    "image_type": "jdk",
+    "java_version": "27+35",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-26",
+    "md5": "7a458627bae8c5f4d31e1eafe706fa38",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "4be22c91ddb8a795cade738baa3e8002051feaca",
+    "sha256": "270d74d7732adbaa7af4e153154126c144e6000bb736fd0985421f75075555aa",
+    "sha512": "73af510d21d698324262febff0857d553c39846d542f4b21194f86dd5bf2417886214930b75a1ad754b9642fd727b0f59276b24b485e45f6e845304cfcd0a909",
+    "size": 141221181,
+    "url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27%2B35/OpenJDK27U-jdk_riscv64_linux_hotspot_27_35.tar.gz",
+    "vendor": "adoptopenjdk",
+    "version": "27.0.0+35"
+  },
+  {
+    "architecture": "riscv64",
     "distro": "temurin",
     "features": [ ],
     "file_type": "tar.gz",
@@ -13828,5 +13870,26 @@
     "url": "https://github.com/adoptium/temurin28-binaries/releases/download/jdk-28%2B16-ea-beta/OpenJDK-jdk_riscv64_linux_hotspot_28_16-ea.tar.gz",
     "vendor": "eclipse",
     "version": "28+16-ea-beta"
+  },
+  {
+    "architecture": "riscv64",
+    "distro": "temurin",
+    "features": [ ],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK-jdk_riscv64_linux_hotspot_28_17-ea.tar.gz",
+    "image_type": "jdk",
+    "java_version": "28",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-26",
+    "md5": "8b8580ace54ee3bc1252ce4dda1c117a",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "7a054c54c536e7b0cdf0780990ed343ef1f314df",
+    "sha256": "08d99df327f0cfafa6b101e79161f098ea7b7129388230bd584d7ce232da7bc8",
+    "sha512": "401e227839a75f062e4140d4d963087a830d374f7fb257ae7507cd0e4e1b7b835bc5eb97d9b3b05557fbbf1beaf882c3cfbef74594c4d9b4ce810442c8c506f2",
+    "size": 158915408,
+    "url": "https://github.com/adoptium/temurin28-binaries/releases/download/jdk-28%2B17-ea-beta/OpenJDK-jdk_riscv64_linux_hotspot_28_17-ea.tar.gz",
+    "vendor": "eclipse",
+    "version": "28+17-ea-beta"
   }
 ]

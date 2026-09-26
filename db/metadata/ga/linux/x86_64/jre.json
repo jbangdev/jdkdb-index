@@ -28561,7 +28561,6 @@
     "sha256": "8499b5f1b1536b1011a55d9f82fd55ac1a22062412ef0f3ce85cbd1e6e9162de",
     "sha512": "00aa15aa1279d80f37ef6c56d9094fe22a74d2d2edf398a8de66ff8ab0405673f5ab6db66227ba958d387f13095dcf004c3b8e65506e4901ee8861bc39a5e277",
     "size": 56581328,
-    "unlisted_since": "2026-09-25",
     "url": "https://builds.openlogic.com/downloadJDK/openlogic-openjdk-jre/11.0.27+6/openlogic-openjdk-jre-11.0.27+6-linux-x64-deb.deb",
     "vendor": "openlogic",
     "version": "11.0.27+6"
@@ -29048,6 +29047,7 @@
     "sha256": "a537b66981788cb83a3fd7dfd8cf4cfc20783d8facd1411c7b7c62c1b620bcc1",
     "sha512": "642872227aeccf7be61fe1cf4d6dd1108165a4f87aa6159353c42815a84091c3af231f6c8394c73ea35432f9aa4e3a24dfee6e9af40b704bcac6f3df9dd3c1d5",
     "size": 56590719,
+    "unlisted_since": "2026-09-26",
     "url": "https://builds.openlogic.com/downloadJDK/openlogic-openjdk-jre/11.0.28+6/openlogic-openjdk-jre-11.0.28+6-linux-x64.tar.gz",
     "vendor": "openlogic",
     "version": "11.0.28+6"
@@ -76845,7 +76845,6 @@
     "sha256": "357fbeaecb12c4b596c47820f7b34ae7e944c0f361a6a0786931f4a82a8773a3",
     "sha512": "c49249f45d5f1a646abe2d4be978a72c527d6520d6def66b3dffc26904139d049fe4bf8daafbfd3f017bb21f8df1984dfe93757195827f11911f10f6187c5509",
     "size": 57975928,
-    "unlisted_since": "2026-09-25",
     "url": "https://builds.openlogic.com/downloadJDK/openlogic-openjdk-jre/21.0.7+6/openlogic-openjdk-jre-21.0.7+6-linux-x64-el.rpm",
     "vendor": "openlogic",
     "version": "21.0.7+6"
@@ -78651,7 +78650,6 @@
     "sha256": "50b5e24d665f5a7ba3f0d925b488adbf6b328d34ba52942517f93ed40249ad1f",
     "sha512": "f96fa941d4f820a4dcbb816c317890109bf5f619dd7b70d77795465093558448784c19500e490a97356b2b6791e3d7d433112f4b473f434abd5ea2b781b04544",
     "size": 58094576,
-    "unlisted_since": "2026-09-25",
     "url": "https://builds.openlogic.com/downloadJDK/openlogic-openjdk-jre/21.0.10+7/openlogic-openjdk-jre-21.0.10+7-linux-x64-deb.deb",
     "vendor": "openlogic",
     "version": "21.0.10+7"
@@ -95154,6 +95152,50 @@
     "url": "https://github.com/ibmruntimes/semeru27-binaries/releases/download/jdk-27.0.0.0-m1a/ibm-semeru-open-jre_x64_linux_27.0.0.0-m1a.tar.gz",
     "vendor": "ibm",
     "version": "27.0.0.0-m1a"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "adoptopenjdk",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK27U-jre_x64_alpine-linux_hotspot_27_35.tar.gz",
+    "image_type": "jre",
+    "java_version": "27+35",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-26",
+    "md5": "84d35f100ee2b4567e84fa5bc1205e50",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "d673d672709575dff1b1554938a8b8d8adb64ffb",
+    "sha256": "09323dd71131eb7f30a98cd4a6e050fe10135a23ab5e7ad01b0e097e533ce7c3",
+    "sha512": "cf22be97064bb285337118646c0301ce728e39bb64d01c1bd7883342b3fd5a94f0a05d7a3cf54ad4677ec049a823ca37aaf84327d682c6e9d6a99c5bbfa87015",
+    "size": 61524111,
+    "url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27%2B35/OpenJDK27U-jre_x64_alpine-linux_hotspot_27_35.tar.gz",
+    "vendor": "adoptopenjdk",
+    "version": "27.0.0+35"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "adoptopenjdk",
+    "features": [ ],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK27U-jre_x64_linux_hotspot_27_35.tar.gz",
+    "image_type": "jre",
+    "java_version": "27+35",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-26",
+    "md5": "8ee0cde8617ea0c5e1ef8b3c7214d72b",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "41df42178fa88ab105ada9e0ce22cb7d28bc7036",
+    "sha256": "2cb1b81ab49f516e5aeb28ee8acf3c73d64c77ca432ac959c6511a335342d8e9",
+    "sha512": "f96a458bad8510195cfd2c7bd30dc9a728e32305c929f2b47bf74b9cc18abd12fee93758ac6bb0386064c9a85568b56edc2a66a8c22235b43f090aa345c4c8ff",
+    "size": 62130166,
+    "url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27%2B35/OpenJDK27U-jre_x64_linux_hotspot_27_35.tar.gz",
+    "vendor": "adoptopenjdk",
+    "version": "27.0.0+35"
   },
   {
     "architecture": "x86_64",
