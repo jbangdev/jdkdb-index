@@ -23107,6 +23107,7 @@
     "sha256": "2430e1bc7c8192f29028abcaafac4686bb45d5fc69ce1bb5d8874b024a33c090",
     "sha512": "bb2102bf88e7be1958b498e9a66e2f09a05614fd72bb17a72649afb8fe4f7618c22e2bcde5329889d8797ad643606c0bb30f10ede6dba3bfa95e0351f71e2928",
     "size": 27738112,
+    "unlisted_since": "2026-10-03",
     "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.11%2B9-ea-beta/OpenJDK21U-jre_aarch64_windows_hotspot_21.0.11_9-ea.msi",
     "vendor": "eclipse",
     "version": "21.0.11+9-ea-beta"
@@ -23128,6 +23129,7 @@
     "sha256": "b7c1fe00dba4c7ea799b1dd3e15c3212531c79fa7dad58ba9bfd35bc3a629f01",
     "sha512": "36ae4c491fdae8b359529a2d17ef6e80644aae0643ab3ec7b50c293decf3aed7ec0f624b8fd0d37bd635fc00eaef10bd591d1bb35eb3336f8832715db96cccb4",
     "size": 40080958,
+    "unlisted_since": "2026-10-03",
     "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.11%2B9-ea-beta/OpenJDK21U-jre_aarch64_windows_hotspot_21.0.11_9-ea.zip",
     "vendor": "eclipse",
     "version": "21.0.11+9-ea-beta"
@@ -28513,6 +28515,7 @@
     "sha256": "e22261c6d52629fba5593c3d9fa24c02a0fae0d5e0a6cec039eee8458701c541",
     "sha512": "93322324866a56af8133ff7949f711a3e38853535bbff3afc0adb3f6e358682866d22e1a765c06465d5e13bdff97adc840630d2c5cc66d56cb474be46180d15f",
     "size": 27987968,
+    "unlisted_since": "2026-10-03",
     "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.3%2B8-ea-beta/OpenJDK25U-jre_aarch64_windows_hotspot_25.0.3_8-ea.msi",
     "vendor": "eclipse",
     "version": "25.0.3+8-ea-beta"
@@ -28534,6 +28537,7 @@
     "sha256": "fd86792c0e34f5e98b9f91aea92dac603e23c105a357fd143b34f233b84e3031",
     "sha512": "5eff9ad264a9033c9c1f0afdafe27c96c615ced1027149e3a21e5e8d46302bada2dd25897b74585e7e5a485b36ffa1a84bf02c1c15724da1bfb3d170815cabcb",
     "size": 40178422,
+    "unlisted_since": "2026-10-03",
     "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.3%2B8-ea-beta/OpenJDK25U-jre_aarch64_windows_hotspot_25.0.3_8-ea.zip",
     "vendor": "eclipse",
     "version": "25.0.3+8-ea-beta"
@@ -32597,5 +32601,47 @@
     "url": "https://github.com/adoptium/temurin28-binaries/releases/download/jdk-28%2B17-ea-beta/OpenJDK-jre_aarch64_windows_hotspot_28_17-ea.zip",
     "vendor": "eclipse",
     "version": "28+17-ea-beta"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "temurin",
+    "features": [ ],
+    "file_type": "msi",
+    "filename": "OpenJDK-jre_aarch64_windows_hotspot_28_18-ea.msi",
+    "image_type": "jre",
+    "java_version": "28",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-10-03",
+    "md5": "2cb9795f01597cc0a40c1536d895244a",
+    "os": "windows",
+    "release_type": "ea",
+    "sha1": "b4bde9d9d30ee9bf29aa9e0b4601b04605de79cd",
+    "sha256": "f8dc41bed95e604ecacd239f4a56987fc88e6b922eefe0e486f75357da032d36",
+    "sha512": "4bea8adb0b03766c17d1cd3480337cda485965bb6ca57bc0667fa0f50819b049c4964813e0f7d1120bc7c9d00efc4f58355ab220ea65a822d8170b18ef73c0fd",
+    "size": 28598272,
+    "url": "https://github.com/adoptium/temurin28-binaries/releases/download/jdk-28%2B18-ea-beta/OpenJDK-jre_aarch64_windows_hotspot_28_18-ea.msi",
+    "vendor": "eclipse",
+    "version": "28+18-ea-beta"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "temurin",
+    "features": [ ],
+    "file_type": "zip",
+    "filename": "OpenJDK-jre_aarch64_windows_hotspot_28_18-ea.zip",
+    "image_type": "jre",
+    "java_version": "28",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-10-03",
+    "md5": "0cd729c0ad6863a1af53bedfb3ade9b3",
+    "os": "windows",
+    "release_type": "ea",
+    "sha1": "7b57e301a3e634ce83d2fc941d3cb7ff35d6361a",
+    "sha256": "4e8cd5537b835c36ae723cabf7d5ddcc6998b9cc2ef34ffe6c337d79ca91546e",
+    "sha512": "9bfa6315a98e7a531611a6b99ad2d98ef4c7805e00da8dbc8c70f1d74a780805e84db69aa544f1277fef21f5ab54c705a63379c9463d80898786209a6a7a7269",
+    "size": 41295311,
+    "url": "https://github.com/adoptium/temurin28-binaries/releases/download/jdk-28%2B18-ea-beta/OpenJDK-jre_aarch64_windows_hotspot_28_18-ea.zip",
+    "vendor": "eclipse",
+    "version": "28+18-ea-beta"
   }
 ]
