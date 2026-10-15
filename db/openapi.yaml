@@ -750,3 +750,67 @@ paths:
                 $ref: '#/components/schemas/response'
         404:
           description: "Invalid input"
+  "/metadata/{release_type}/{os}/{arch}/{image_type}/{jvm_impl}/{distro}/{version}/{file_type}-latest-url.txt":
+    get:
+      description: "The download URLs for the latest Java distributions that match the current query"
+      tags:
+      - "metadata"
+      operationId: "findLatestByReleaseTypeOsArchVariantJvmImplDistroVersionFileType_Url"
+      parameters:
+        - name: "release_type"
+          in: path
+          description: "The release type"
+          required: true
+          schema:
+            $ref: '#/components/schemas/releaseTypesQuery'
+        - name: "os"
+          in: path
+          description: "The operating system"
+          required: true
+          schema:
+            $ref: '#/components/schemas/operatingSystemsExt'
+        - name: "arch"
+          in: path
+          description: "The machine architecture"
+          required: true
+          schema:
+            $ref: '#/components/schemas/architectures'
+        - name: "image_type"
+          in: path
+          description: "The distribution image type"
+          required: true
+          schema:
+            $ref: '#/components/schemas/imageTypes'
+        - name: "jvm_impl"
+          in: path
+          description: "The JVM implementation"
+          required: true
+          schema:
+            $ref: '#/components/schemas/jvmImpls'
+        - name: "distro"
+          in: path
+          description: "The JVM distro"
+          required: true
+          schema:
+            $ref: '#/components/schemas/distros'
+        - name: "version"
+          in: path
+          description: "The JVM version"
+          required: true
+          schema:
+            $ref: '#/components/schemas/versions'
+        - name: "file_type"
+          in: path
+          description: "The distribution file type"
+          required: true
+          schema:
+            $ref: '#/components/schemas/fileTypes'
+      responses:
+        200:
+          description: "URLs for download artifacts"
+          content:
+            "text/plain":
+              schema:
+                type: string
+        404:
+          description: "Invalid input"
