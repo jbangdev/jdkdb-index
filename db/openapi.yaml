@@ -53,6 +53,15 @@ components:
         - "windows"
         - "solaris"
         - "aix"
+    operatingSystemsExt:
+      type: string
+      enum:
+        - "linux"
+        - "linux-musl"
+        - "macosx"
+        - "windows"
+        - "solaris"
+        - "aix"
     architectures:
       type: string
       enum:
@@ -373,7 +382,7 @@ paths:
           description: "The operating system"
           required: true
           schema:
-            $ref: '#/components/schemas/operatingSystems'
+            $ref: '#/components/schemas/operatingSystemsExt'
       responses:
         200:
           description: "Meta data about download artifact"
@@ -401,7 +410,7 @@ paths:
           description: "The operating system"
           required: true
           schema:
-            $ref: '#/components/schemas/operatingSystems'
+            $ref: '#/components/schemas/operatingSystemsExt'
         - name: "arch"
           in: path
           description: "The machine architecture"
@@ -435,7 +444,7 @@ paths:
           description: "The operating system"
           required: true
           schema:
-            $ref: '#/components/schemas/operatingSystems'
+            $ref: '#/components/schemas/operatingSystemsExt'
         - name: "arch"
           in: path
           description: "The machine architecture"
@@ -475,7 +484,7 @@ paths:
           description: "The operating system"
           required: true
           schema:
-            $ref: '#/components/schemas/operatingSystems'
+            $ref: '#/components/schemas/operatingSystemsExt'
         - name: "arch"
           in: path
           description: "The machine architecture"
@@ -521,7 +530,7 @@ paths:
           description: "The operating system"
           required: true
           schema:
-            $ref: '#/components/schemas/operatingSystems'
+            $ref: '#/components/schemas/operatingSystemsExt'
         - name: "arch"
           in: path
           description: "The machine architecture"
@@ -573,7 +582,7 @@ paths:
           description: "The operating system"
           required: true
           schema:
-            $ref: '#/components/schemas/operatingSystems'
+            $ref: '#/components/schemas/operatingSystemsExt'
         - name: "arch"
           in: path
           description: "The machine architecture"
@@ -631,7 +640,7 @@ paths:
           description: "The operating system"
           required: true
           schema:
-            $ref: '#/components/schemas/operatingSystems'
+            $ref: '#/components/schemas/operatingSystemsExt'
         - name: "arch"
           in: path
           description: "The machine architecture"
@@ -695,7 +704,7 @@ paths:
           description: "The operating system"
           required: true
           schema:
-            $ref: '#/components/schemas/operatingSystems'
+            $ref: '#/components/schemas/operatingSystemsExt'
         - name: "arch"
           in: path
           description: "The machine architecture"
