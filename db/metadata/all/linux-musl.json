@@ -142390,6 +142390,7 @@
     "sha256": "97e099ea6a02ebe1e99c1fa5db2960d8294b2476966b7202a26c17a67bf943f6",
     "sha512": "2d472f591190bbb90fa7a3d5f70abd61c31f2df8c6288b134786815202c9a5add38ce68131c42e39134cd79fb6970c42b89c4f6702e9ba1f5167a9ac5c408ead",
     "size": 142785114,
+    "unlisted_since": "2026-10-16",
     "url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27%2B18-ea-beta/OpenJDK-jdk_aarch64_alpine-linux_hotspot_27_18-ea.tar.gz",
     "vendor": "eclipse",
     "version": "27+18-ea-beta"
@@ -142413,6 +142414,7 @@
     "sha256": "ec72a08b7f49d0cedeedf0b3e6de28a7d78862ea7026f7b740321196ad7b2806",
     "sha512": "7a72f8c057c2a4082a4154a0e65e9fb6ea79c2bf122218f937003e4f4e8883d88ff828d6fee35ae1ee31f3f28948b8cd6d29ce9bfc39911569947a6c2f7ec280",
     "size": 143997587,
+    "unlisted_since": "2026-10-16",
     "url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27%2B18-ea-beta/OpenJDK-jdk_x64_alpine-linux_hotspot_27_18-ea.tar.gz",
     "vendor": "eclipse",
     "version": "27+18-ea-beta"
@@ -142436,6 +142438,7 @@
     "sha256": "1959d71ee94be43a04451b987332715cd6b785ef261ccf90b9bbbd34f0455c9d",
     "sha512": "0e51ac13a07d516d995922b5fb0fd0894601e2ea3266d6bc418ef16e9d9b5e1d2b06a963fe1e17a3ed55dc535429aeda91ff03d4b802ec0c49210a1e9d11eb17",
     "size": 61470198,
+    "unlisted_since": "2026-10-16",
     "url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27%2B18-ea-beta/OpenJDK-jre_aarch64_alpine-linux_hotspot_27_18-ea.tar.gz",
     "vendor": "eclipse",
     "version": "27+18-ea-beta"
@@ -142459,6 +142462,7 @@
     "sha256": "b9897f973bb728e61f0735ad5a8509e47f1614b9726e1972acc80367176abce6",
     "sha512": "ae73eca31cff9e90371c639e9f69b8012347d733f35efda0d8ddda0783f868b1f164650d11c2dcc5be3ac30a0921cf26fc161437afd208ae26b62fd793e3ed23",
     "size": 62700350,
+    "unlisted_since": "2026-10-16",
     "url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27%2B18-ea-beta/OpenJDK-jre_x64_alpine-linux_hotspot_27_18-ea.tar.gz",
     "vendor": "eclipse",
     "version": "27+18-ea-beta"
@@ -145140,6 +145144,52 @@
     "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-28%2B18/sapmachine-jre-28-ea.18_linux-x64-musl_bin.tar.gz",
     "vendor": "sap",
     "version": "28-ea.18"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "sapmachine",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "sapmachine-jdk-28-ea.19_linux-x64-musl_bin.tar.gz",
+    "image_type": "jdk",
+    "java_version": "28-ea.19",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-10-16",
+    "md5": "3736f36396fe01f9bcd3556708c87ef5",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "cf78651bd46ac5cb3b22623880c7fff04ab69507",
+    "sha256": "7b93a5fd0fd09b0fd33564f108aee47575b6c0d1544febe624a8d93a26177756",
+    "sha512": "2447d2b27515bc8bf6a96d8759b9c2c05bcfce39f2df5befdfbab2515d95a13a213d8e4396d0901bb01f39e8433ca6fb598611002d27becee21345a3cd0a628b",
+    "size": 129011248,
+    "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-28%2B19/sapmachine-jdk-28-ea.19_linux-x64-musl_bin.tar.gz",
+    "vendor": "sap",
+    "version": "28-ea.19"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "sapmachine",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "sapmachine-jre-28-ea.19_linux-x64-musl_bin.tar.gz",
+    "image_type": "jre",
+    "java_version": "28-ea.19",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-10-16",
+    "md5": "1a5918dfa2649182395b2116e846a319",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "f86a94a6d35c1771228429e7e4460b4359337dcd",
+    "sha256": "2de838f7955823393a422b10a34b65d1c00dd139c7ca94a63ae725001db1a314",
+    "sha512": "bf2456dce3e0a6e6e8861a9774b0cf2fd1e63405dc5dfd77fd7c1c7ab198a8d67a09e50282f628032ea144a53ace21fdcd167465b818ad645fe5614b33fd1382",
+    "size": 52345903,
+    "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-28%2B19/sapmachine-jre-28-ea.19_linux-x64-musl_bin.tar.gz",
+    "vendor": "sap",
+    "version": "28-ea.19"
   },
   {
     "architecture": "x86_64",
