@@ -194,6 +194,17 @@ components:
           "sha512": "1851cf24db0b48007a2373d8596cf4b8d832d10a2f41316799c4af2bd37cbab4b211e7913d431b59f6bc212957cdbae401c6bcd389635c248c939433cef63516",
           "size": 216382990
         }
+    metadataTsv:
+      type: string
+      description: |
+        UTF-8 tab-separated metadata with a header line. Columns, in order:
+        release_type, os, architecture, image_type, jvm_impl, vendor, distro,
+        java_version, url, filename, size, sha256, features.
+        Missing text fields are empty. Features are comma-separated, unquoted
+        values in square brackets with no spaces (for example, [musl,javafx]);
+        missing or empty features are []. Backslashes, tabs, carriage returns,
+        and newlines in text fields are backslash-escaped.
+      example: "release_type\tos\tarchitecture\timage_type\tjvm_impl\tvendor\tdistro\tjava_version\turl\tfilename\tsize\tsha256\tfeatures\n"
     response:
       type: array
       items:
@@ -464,6 +475,126 @@ paths:
             "application/json":
               schema:
                 $ref: '#/components/schemas/response'
+        404:
+          description: "Invalid input"
+  "/metadata/{release_type}/{os}/{arch}/{image_type}-latest.json":
+    get:
+      description: "List of information about the latest Java distributions per major version for each distro and JVM implementation that match the current query. GA releases are preferred over EA releases when querying all release types."
+      tags:
+      - "metadata"
+      operationId: "findLatestByReleaseTypeOsArchVariant"
+      parameters:
+        - name: "release_type"
+          in: path
+          description: "The release type"
+          required: true
+          schema:
+            $ref: '#/components/schemas/releaseTypesQuery'
+        - name: "os"
+          in: path
+          description: "The operating system"
+          required: true
+          schema:
+            $ref: '#/components/schemas/operatingSystemsExt'
+        - name: "arch"
+          in: path
+          description: "The machine architecture"
+          required: true
+          schema:
+            $ref: '#/components/schemas/architectures'
+        - name: "image_type"
+          in: path
+          description: "The distribution image type"
+          required: true
+          schema:
+            $ref: '#/components/schemas/imageTypes'
+      responses:
+        200:
+          description: "Meta data about download artifact"
+          content:
+            "application/json":
+              schema:
+                $ref: '#/components/schemas/response'
+        404:
+          description: "Invalid input"
+  "/metadata/{release_type}/{os}/{arch}/{image_type}.tsv":
+    get:
+      description: "Tab-separated metadata about all Java distributions that match the current query, including a header line"
+      tags:
+      - "metadata"
+      operationId: "findByReleaseTypeOsArchVariantTsv"
+      parameters:
+        - name: "release_type"
+          in: path
+          description: "The release type"
+          required: true
+          schema:
+            $ref: '#/components/schemas/releaseTypesQuery'
+        - name: "os"
+          in: path
+          description: "The operating system"
+          required: true
+          schema:
+            $ref: '#/components/schemas/operatingSystemsExt'
+        - name: "arch"
+          in: path
+          description: "The machine architecture"
+          required: true
+          schema:
+            $ref: '#/components/schemas/architectures'
+        - name: "image_type"
+          in: path
+          description: "The distribution image type"
+          required: true
+          schema:
+            $ref: '#/components/schemas/imageTypes'
+      responses:
+        200:
+          description: "Tab-separated metadata with a header line"
+          content:
+            "text/tab-separated-values":
+              schema:
+                $ref: '#/components/schemas/metadataTsv'
+        404:
+          description: "Invalid input"
+  "/metadata/{release_type}/{os}/{arch}/{image_type}-latest.tsv":
+    get:
+      description: "Tab-separated metadata about the latest Java distributions per major version for each distro and JVM implementation that match the current query, including a header line. GA releases are preferred over EA releases when querying all release types."
+      tags:
+      - "metadata"
+      operationId: "findLatestByReleaseTypeOsArchVariantTsv"
+      parameters:
+        - name: "release_type"
+          in: path
+          description: "The release type"
+          required: true
+          schema:
+            $ref: '#/components/schemas/releaseTypesQuery'
+        - name: "os"
+          in: path
+          description: "The operating system"
+          required: true
+          schema:
+            $ref: '#/components/schemas/operatingSystemsExt'
+        - name: "arch"
+          in: path
+          description: "The machine architecture"
+          required: true
+          schema:
+            $ref: '#/components/schemas/architectures'
+        - name: "image_type"
+          in: path
+          description: "The distribution image type"
+          required: true
+          schema:
+            $ref: '#/components/schemas/imageTypes'
+      responses:
+        200:
+          description: "Tab-separated metadata with a header line"
+          content:
+            "text/tab-separated-values":
+              schema:
+                $ref: '#/components/schemas/metadataTsv'
         404:
           description: "Invalid input"
   "/metadata/{release_type}/{os}/{arch}/{image_type}/{jvm_impl}.json":
