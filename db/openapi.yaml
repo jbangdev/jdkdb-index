@@ -199,12 +199,12 @@ components:
       description: |
         UTF-8 tab-separated metadata with a header line. Columns, in order:
         release_type, os, architecture, image_type, jvm_impl, vendor, distro,
-        java_version, url, filename, size, sha256, features.
+        java_version, version, file_type, url, filename, size, sha256, features.
         Missing text fields are empty. Features are comma-separated, unquoted
         values in square brackets with no spaces (for example, [musl,javafx]);
         missing or empty features are []. Backslashes, tabs, carriage returns,
         and newlines in text fields are backslash-escaped.
-      example: "release_type\tos\tarchitecture\timage_type\tjvm_impl\tvendor\tdistro\tjava_version\turl\tfilename\tsize\tsha256\tfeatures\n"
+      example: "release_type\tos\tarchitecture\timage_type\tjvm_impl\tvendor\tdistro\tjava_version\tversion\tfile_type\turl\tfilename\tsize\tsha256\tfeatures\n"
     response:
       type: array
       items:
