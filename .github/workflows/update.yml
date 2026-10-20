@@ -29,6 +29,7 @@ jobs:
     runs-on: 'ubuntu-latest'
     outputs:
       changes_detected: ${{ steps.auto_commit.outputs.changes_detected }}
+      commit_sha: ${{ steps.index_commit.outputs.sha }}
     steps:
     - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6
 
@@ -84,6 +85,10 @@ jobs:
       with:
         commit_message: "Update metadata indices"
 
+    - name: Capture index commit
+      id: index_commit
+      run: echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+
     - name: Upload log files
       uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7
       if: always()
@@ -96,6 +101,8 @@ jobs:
     needs: update
     if: needs.update.outputs.changes_detected == 'true'
     uses: ./.github/workflows/static.yml
+    with:
+      ref: ${{ needs.update.outputs.commit_sha }}
     permissions:
       contents: read
       pages: write
