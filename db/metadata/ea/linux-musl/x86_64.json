@@ -14189,6 +14189,52 @@
   },
   {
     "architecture": "x86_64",
+    "distro": "temurin",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK17U-jdk_x64_alpine-linux_hotspot_17.0.21_9-ea.tar.gz",
+    "image_type": "jdk",
+    "java_version": "17",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-10-23",
+    "md5": "86ec8cea012117e27fa120adbe1e8482",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "361fe1e74f5a876f022348deeeabcb9ab67bf623",
+    "sha256": "a83cd8ccbb57ecba3a007e0aab9292c08117bc5f684f4978c5e77e773b9ddc44",
+    "sha512": "19230edc18b30862e91ce6ac07faa43a6fbb0a27610b163702fa97a18a6dc4d0435197af720260fbc54f6e93529875375bafa28115304abfe49b11e2716cd028",
+    "size": 192763103,
+    "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21%2B9-ea-beta/OpenJDK17U-jdk_x64_alpine-linux_hotspot_17.0.21_9-ea.tar.gz",
+    "vendor": "eclipse",
+    "version": "17.0.21+9-ea-beta"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "temurin",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK17U-jre_x64_alpine-linux_hotspot_17.0.21_9-ea.tar.gz",
+    "image_type": "jre",
+    "java_version": "17",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-10-23",
+    "md5": "0aa0ee73378f265da4262dafa2e45447",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "5c04722b69e7c318148e1291ba7994f123842a05",
+    "sha256": "294913a052949e625418250341f5ad5c7cc3c3921a0c2e63bb0d09d9cb610bd1",
+    "sha512": "d011524989ed0b0972fe940e2d8fce09a1ec67012499973bcf88a525d50d5cbd79c8a48fa9d0844e866d4ff3ed605d1aa8783dbd1e67c57ed9b68ad4f875d0e5",
+    "size": 46404824,
+    "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21%2B9-ea-beta/OpenJDK17U-jre_x64_alpine-linux_hotspot_17.0.21_9-ea.tar.gz",
+    "vendor": "eclipse",
+    "version": "17.0.21+9-ea-beta"
+  },
+  {
+    "architecture": "x86_64",
     "distro": "zulu",
     "features": [
       "musl"
@@ -31581,6 +31627,52 @@
     "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B7-ea-beta/OpenJDK25U-jre_x64_alpine-linux_hotspot_25.0.5_7-ea.tar.gz",
     "vendor": "eclipse",
     "version": "25.0.5+7-ea-beta"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "temurin",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK25U-jdk_x64_alpine-linux_hotspot_25.0.5_8-ea.tar.gz",
+    "image_type": "jdk",
+    "java_version": "25",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-10-23",
+    "md5": "71e57586c3b51013fc89e8f756e17d5e",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "97c26038f91b6d13d5cefc7fa343955497f3d477",
+    "sha256": "bf1ec7d8bedaa03b437fc2969633babf65ec8181745b70e4db4e3a7c0b49f14e",
+    "sha512": "d63e3408079c2c0ad0688b0a70f236818c4a34d0c547aa784f35eb216e6abee5aa4b5fcc364db0c13efdbd2f3d88b1029b8c78072d81dde0cde4e3d6b1947aca",
+    "size": 140392891,
+    "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B8-ea-beta/OpenJDK25U-jdk_x64_alpine-linux_hotspot_25.0.5_8-ea.tar.gz",
+    "vendor": "eclipse",
+    "version": "25.0.5+8-ea-beta"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "temurin",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK25U-jre_x64_alpine-linux_hotspot_25.0.5_8-ea.tar.gz",
+    "image_type": "jre",
+    "java_version": "25",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-10-23",
+    "md5": "4b88cf5c3ff12f9e08aa7f92809b144f",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "dc86a83db630fd948999b92adf23cb3c27b0fff9",
+    "sha256": "ebeaa610a368d24038a591a358b32fb2bc6a29e9dc76e211bbb348f97939ddf4",
+    "sha512": "4c9a8dddc4122d7f160335e8010261160f7b70ea4acdb336e017af6ef9afa745f4b50df24931de59cb38bc813a2f1495963dc53a545dea0a592b700c1a033bf3",
+    "size": 60933967,
+    "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B8-ea-beta/OpenJDK25U-jre_x64_alpine-linux_hotspot_25.0.5_8-ea.tar.gz",
+    "vendor": "eclipse",
+    "version": "25.0.5+8-ea-beta"
   },
   {
     "architecture": "x86_64",
