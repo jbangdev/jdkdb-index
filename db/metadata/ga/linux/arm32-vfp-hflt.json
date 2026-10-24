@@ -38535,6 +38535,7 @@
     "sha256": "193b07516e7fa3b9d79a5682f10191e6a88639430518ed6735906f4864909044",
     "sha512": "1e69878db854a3caa1663bbef8f14bcda2038a1146a6d3516a6a52b3ca67804b11623939aaa9516c8fcf8aa1012dc84af4e84d2212c2d6bd9207f30e033dc2f9",
     "size": 171026036,
+    "unlisted_since": "2026-10-24",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-25/openjdk-25-jdk-headless_25.0.5~7ea-2_armhf.deb",
     "vendor": "debian",
     "version": "25.0.5~7ea-2"
@@ -38558,6 +38559,7 @@
     "sha256": "9ee0e5874cada6496dad9729075a705886f9b7d36082d1e6bd5c19313e36413e",
     "sha512": "e0154f94bbb839e9f7f93fcf53abbc8f96431aa0141a1986c7e85c86d4904017ff8cee00ed415d75ea705ad08b26cdd00b2ec31c9e8fd026ef67c241ed52b19e",
     "size": 9548,
+    "unlisted_since": "2026-10-24",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-25/openjdk-25-jdk_25.0.5~7ea-2_armhf.deb",
     "vendor": "debian",
     "version": "25.0.5~7ea-2"
@@ -38582,6 +38584,7 @@
     "sha256": "128141ac93309b14564b87875ff7e4b9cc6f212c436124b34b4e7c4d7e4b984b",
     "sha512": "b9d9bc97e6cd09b25774e58a2bd68aef25a20714d7ae3fcda044f4cd03798a95cd8f815ddf46f520792f9add7e8310be294ecc4a2f8a78d02ddd375ef2e476fb",
     "size": 37720200,
+    "unlisted_since": "2026-10-24",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-25/openjdk-25-jre-headless_25.0.5~7ea-2_armhf.deb",
     "vendor": "debian",
     "version": "25.0.5~7ea-2"
@@ -38605,6 +38608,7 @@
     "sha256": "d8d0689ee247706ab0e3dcf242155eeb6ba124645e89b3145b0890df189fcba3",
     "sha512": "8c51e093ba647620b42018cce1895a56a88bff2a5159c55395002f3b32b574e65653a137d0517b2e6120ab43a8cbe40f20a84713eeb1a0d9774d08271604a3e7",
     "size": 179608,
+    "unlisted_since": "2026-10-24",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-25/openjdk-25-jre_25.0.5~7ea-2_armhf.deb",
     "vendor": "debian",
     "version": "25.0.5~7ea-2"
@@ -39086,6 +39090,53 @@
     "sha512": "8894bace623584d22cc837db6b6cd2ffb09c1c8835d8b94c25336405ac719833978e6f4a222096b369b7f014c331278d13eb78ff16cb5dee015f81534f19388a",
     "size": 9544,
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-25/openjdk-25-jdk_25.0.5+8-1_armhf.deb",
+    "vendor": "debian",
+    "version": "25.0.5+8-1"
+  },
+  {
+    "architecture": "arm32-vfp-hflt",
+    "distro": "debian",
+    "features": [
+      "headless",
+      "hard-float"
+    ],
+    "file_type": "deb",
+    "filename": "openjdk-25-jre-headless_25.0.5+8-1_armhf.deb",
+    "image_type": "jre",
+    "java_version": "25.0.5+8-1-Debian",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-10-24",
+    "md5": "66efed505d8d4955b29144a151db71d3",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "6300d058e706c4a5e67f39f66b42b99b2d078d45",
+    "sha256": "751c0ef0e4f160afd343e7e23d31f085187d26d964c272bc78fd4d33b9e6426f",
+    "sha512": "de6b7930518375675f739f6320abf31f4c3e20a460bbf3f202c7884ad20476648f7d67bb51a01afbf0115483e6f7fb0380c3296943ef67f3fa17c3c5e52d7952",
+    "size": 37725216,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-25/openjdk-25-jre-headless_25.0.5+8-1_armhf.deb",
+    "vendor": "debian",
+    "version": "25.0.5+8-1"
+  },
+  {
+    "architecture": "arm32-vfp-hflt",
+    "distro": "debian",
+    "features": [
+      "hard-float"
+    ],
+    "file_type": "deb",
+    "filename": "openjdk-25-jre_25.0.5+8-1_armhf.deb",
+    "image_type": "jre",
+    "java_version": "25.0.5+8",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-10-24",
+    "md5": "7d423390977b93cfeb4f5bb8a6d45a78",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "3d1f4607f4a7f369fef100371533c7f8e027026e",
+    "sha256": "9166e8515a5b829358d15cb3ba1b50f6d9e4fb371c413f16aacb6cadf8675da7",
+    "sha512": "61d7c712f17f0934c6a62dc31c8aea3e4d83795abe863949160d6719ef7eb9dce9b4eb1ca0ab3da24e448f9e6e0769fff997c36aaca8b9530a393ce343bb5ea6",
+    "size": 179348,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-25/openjdk-25-jre_25.0.5+8-1_armhf.deb",
     "vendor": "debian",
     "version": "25.0.5+8-1"
   },

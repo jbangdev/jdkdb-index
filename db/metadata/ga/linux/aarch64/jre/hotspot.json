@@ -16983,6 +16983,7 @@
     "sha256": "fc0ef064703e0905d6b7613965d939f81707fcb85d9276361b5b03a6dad65a01",
     "sha512": "4ca623313da589de72b5d4f448d259e832f103296a3d9661e7b30178de6008fe0cdcb972edab784d0f18f84e5412d7fdcd6870b7661ab33c45b04bf2e09c2cc8",
     "size": 43388372,
+    "unlisted_since": "2026-10-24",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-17/openjdk-17-jre-headless_17.0.21~8ea-1_arm64.deb",
     "vendor": "debian",
     "version": "17.0.21~8ea-1"
@@ -17006,6 +17007,7 @@
     "sha256": "b92b07b4910099a247569732913f796c13ce0f058148526d7f305155898abcaa",
     "sha512": "a48e8350652ea238bc7f3ad5a3851999093a0ed7c7c2405fd99beb3b75c015e1cdc1be07e49a0f87f54419539b80ff0f832878a6b33b6fa3540b2b2ce360ea1d",
     "size": 2639416,
+    "unlisted_since": "2026-10-24",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-17/openjdk-17-jre-zero_17.0.21~8ea-1_arm64.deb",
     "vendor": "debian",
     "version": "17.0.21~8ea-1"
@@ -17027,6 +17029,7 @@
     "sha256": "0bc326a5c73e8cd396bd3e6c1c6e65185d3352007e09d208301bc3838d96476b",
     "sha512": "5e9d3ee4ba50eb5b2413f98ab7d87d4e9ba8b92027e3a883a2d819048926dbe751667ac1272a1bf3a2aa527310b85508462577bd61c41bd6ea4f199253533894",
     "size": 198500,
+    "unlisted_since": "2026-10-24",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-17/openjdk-17-jre_17.0.21~8ea-1_arm64.deb",
     "vendor": "debian",
     "version": "17.0.21~8ea-1"
@@ -39588,6 +39591,27 @@
   },
   {
     "architecture": "aarch64",
+    "distro": "temurin",
+    "features": [ ],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK21U-jre_aarch64_linux_hotspot_21.0.13_9.tar.gz",
+    "image_type": "jre",
+    "java_version": "21.0.13+9-LTS",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-10-24",
+    "md5": "803d017006dcd1d6c0bdb80d173cd6bf",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "50280e7d46c3c1cc937138d753108e3734ed4bde",
+    "sha256": "b1734db7ade49c3f6acc6ae06233b8c2dd90e3e2f00f67000ae1c972aaa64d8c",
+    "sha512": "bb1bac59d0d9329bad7b565eb875e63bf95e642e6a87ca616c0bfe29ff31d344fb8f7cd866fa343d165795a5967913210b635f36a61e288184553ddc553913b6",
+    "size": 51266660,
+    "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.13%2B9/OpenJDK21U-jre_aarch64_linux_hotspot_21.0.13_9.tar.gz",
+    "vendor": "eclipse",
+    "version": "21.0.13+9"
+  },
+  {
+    "architecture": "aarch64",
     "distro": "debian",
     "features": [
       "headless"
@@ -39629,6 +39653,27 @@
     "sha512": "03ad66496f6f07c5b03c005bbb5e466b240a880ef41e28c99a86d5eb670c68dabd2d56c62aea605fbef1895704eda3cf75d3c531bec6f5827408a3acf064304f",
     "size": 8935432,
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-21/openjdk-21-jre-zero_21.0.13+9-1_arm64.deb",
+    "vendor": "debian",
+    "version": "21.0.13+9-1"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "debian",
+    "features": [ ],
+    "file_type": "deb",
+    "filename": "openjdk-21-jre_21.0.13+9-1_arm64.deb",
+    "image_type": "jre",
+    "java_version": "21.0.13+9",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-10-24",
+    "md5": "e674446be67fa0b320e0a9dc27ef36bd",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "6a8a68c466fc88c45d81937ed9641695e9d55af2",
+    "sha256": "649289cfdf9575a05ece5f931abf977c9bf9ef529d0a659b49a7d554298ba306",
+    "sha512": "300c31e0780393d98074d78e77a0aede23841ec1630fe50e2717342e8a12906b393b762c37232fac89c9cf0a40b9eb167b95e7c82b9567dbdbfc74befe50aaea",
+    "size": 196124,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-21/openjdk-21-jre_21.0.13+9-1_arm64.deb",
     "vendor": "debian",
     "version": "21.0.13+9-1"
   },
@@ -45584,6 +45629,7 @@
     "sha256": "20b899b92b9439e0e9acec1bd933be3b3b75383bd63270b62cb78bce6750e1f0",
     "sha512": "fe82eb134e37dd7013ecacdf76791119516e0d9e73ca4449a1d076da9a04e874a46b4eb3e9e1ebb020a6537e36a2dbdfa46b4829ba2583fcada308e89b4d2367",
     "size": 52595188,
+    "unlisted_since": "2026-10-24",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-25/openjdk-25-jre-headless_25.0.5~7ea-2_arm64.deb",
     "vendor": "debian",
     "version": "25.0.5~7ea-2"
@@ -45607,6 +45653,7 @@
     "sha256": "0833626eaf014dab2e59f9a9a422f133185bd35c59ba7cffca8a14e983f66339",
     "sha512": "cc99b420131df8d25bbba3ee4df8cf5878e1559ad1147350811b239e1815c5a0645201ac97ddad8754049951e8b3ec547aa8a4967135b169801137101efefcf5",
     "size": 16019936,
+    "unlisted_since": "2026-10-24",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-25/openjdk-25-jre-zero_25.0.5~7ea-2_arm64.deb",
     "vendor": "debian",
     "version": "25.0.5~7ea-2"
@@ -45628,6 +45675,7 @@
     "sha256": "da2dca59f33b98fbd560b01d8fcb7787ec0229a2cd07eb14d6ed02bb7f1d398c",
     "sha512": "690869e89a381108d71c88ee738f9825e32e7dc51fafdbea910e07eb93205cb819e2d29a225cf009bb59b1624b5a30b417915dd2f9bde9c0643fb1e94a1c8572",
     "size": 191976,
+    "unlisted_since": "2026-10-24",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-25/openjdk-25-jre_25.0.5~7ea-2_arm64.deb",
     "vendor": "debian",
     "version": "25.0.5~7ea-2"
@@ -46522,6 +46570,30 @@
     "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbr_lb-25.0.4.1-linux-aarch64-b508.37.tar.gz",
     "vendor": "jetbrains",
     "version": "25.0.4.1b508.37"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "jetbrains",
+    "features": [
+      "fastdebug",
+      "jcef"
+    ],
+    "file_type": "tar.gz",
+    "filename": "jbr_fd-25.0.4.1-linux-aarch64-b508.40.tar.gz",
+    "image_type": "jre",
+    "java_version": "25.0.4.1+1-b508.40",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-10-24",
+    "md5": "3e5a1992ebb99ca844673acdacb6602d",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "1d3313c460651b13d4c74c2a60d364d751f7e82a",
+    "sha256": "ee5d112ee21e02cc3ba370e34b377e0addbb78b28c5342e00870bc0094092f1b",
+    "sha512": "f35591965f81973ebf80fc8e663f04b305ab659c89676f40276883151a59953e79f9e47c2f2fe629e5a13f518acd035c1f8f3796c3a259a2e27fc6969c8043a4",
+    "size": 109453550,
+    "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbr_fd-25.0.4.1-linux-aarch64-b508.40.tar.gz",
+    "vendor": "jetbrains",
+    "version": "25.0.4.1b508.40"
   },
   {
     "architecture": "aarch64",
@@ -47653,6 +47725,27 @@
     "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-25.0.5/sapmachine-jre-25.0.5_linux-aarch64_bin.tar.gz",
     "vendor": "sap",
     "version": "25.0.5"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "temurin",
+    "features": [ ],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK25U-jre_aarch64_linux_hotspot_25.0.5_8.tar.gz",
+    "image_type": "jre",
+    "java_version": "25.0.5+8-LTS",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-10-24",
+    "md5": "1c40942bf45ee51f3b78a8e5a463bc42",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "c1a254cf5ab7c63b23e77407e5ebce8380247482",
+    "sha256": "963931723891302ebb2687178532c3d793d71e2577cd058061c7efb396140a86",
+    "sha512": "678d42af3cefd66a0c32a9c449f1a87b4ac5f922c000f669cf4c22e1931fab624fa83b32997e129350bcc78ec9852cdb5413768a2d9a5f3e65289c72f3a69f95",
+    "size": 60517419,
+    "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B8/OpenJDK25U-jre_aarch64_linux_hotspot_25.0.5_8.tar.gz",
+    "vendor": "eclipse",
+    "version": "25.0.5+8"
   },
   {
     "architecture": "aarch64",

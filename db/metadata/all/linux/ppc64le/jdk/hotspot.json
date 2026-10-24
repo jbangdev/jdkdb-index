@@ -24191,6 +24191,50 @@
   },
   {
     "architecture": "ppc64le",
+    "distro": "debian",
+    "features": [
+      "headless"
+    ],
+    "file_type": "deb",
+    "filename": "openjdk-17-jdk-headless_17.0.21+9-1_ppc64el.deb",
+    "image_type": "jdk",
+    "java_version": "17.0.21+9",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-10-24",
+    "md5": "a8ae7a40cc95441425b31207db1003b8",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "890b2f124eb58c42480495a09b57e13571eefa07",
+    "sha256": "493a1cd72b4402feb25a8fbec5bc00e1589f59f1d8443dc2d0b8a418798930ab",
+    "sha512": "66f4374ab2fb26569fd539d47a559c6b94d6dd1ca3a13be6e2b9007cd1eed7e6babbfa1a59c84a5da96dd1fc5c0b94a478abae19226a2b10c4cf89daed6a1210",
+    "size": 71748900,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-17/openjdk-17-jdk-headless_17.0.21+9-1_ppc64el.deb",
+    "vendor": "debian",
+    "version": "17.0.21+9-1"
+  },
+  {
+    "architecture": "ppc64le",
+    "distro": "debian",
+    "features": [ ],
+    "file_type": "deb",
+    "filename": "openjdk-17-jdk_17.0.21+9-1_ppc64el.deb",
+    "image_type": "jdk",
+    "java_version": "17.0.21+9",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-10-24",
+    "md5": "5ba0215de3ceaec249a142718d28cb4e",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "9ff9f25565f38e7eb3977b765e8c35c229874c8f",
+    "sha256": "ca5749d087d4284e1fa60675c2be5c41c3bd8531402f120c910ab3bd82ab7e35",
+    "sha512": "58c41de35c7c66a3a8f3d7ad76a6730261ef7e9a212b89044a14c43344d303b5b615c27d8cd154aba5f10f60cd0939911109f1cbf7937809f35cee210d909437",
+    "size": 2497840,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-17/openjdk-17-jdk_17.0.21+9-1_ppc64el.deb",
+    "vendor": "debian",
+    "version": "17.0.21+9-1"
+  },
+  {
+    "architecture": "ppc64le",
     "distro": "liberica",
     "features": [
       "lite"
@@ -29479,6 +29523,29 @@
   },
   {
     "architecture": "ppc64le",
+    "distro": "debian",
+    "features": [
+      "headless"
+    ],
+    "file_type": "deb",
+    "filename": "openjdk-21-jdk-headless_21.0.13+9-1_ppc64el.deb",
+    "image_type": "jdk",
+    "java_version": "21.0.13+9",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-10-24",
+    "md5": "51cb2a287be375078595d5183084e8c0",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "da72ddc90a8b43e955e122d5fdf27421799bf98b",
+    "sha256": "ba27ac41f7849f2570cba9c7ae33c695395e1914756c167ad513be1d5d8ffa38",
+    "sha512": "48da73df826223f46dfcd56363b4a710faba1b06197d300ebbb65857ea36471c91f696c4a9fbc14645d491993f109175b7b5b30daf782e2a75b2f9af000b6a13",
+    "size": 82933172,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-21/openjdk-21-jdk-headless_21.0.13+9-1_ppc64el.deb",
+    "vendor": "debian",
+    "version": "21.0.13+9-1"
+  },
+  {
+    "architecture": "ppc64le",
     "distro": "liberica",
     "features": [
       "lite"
@@ -32909,6 +32976,50 @@
     "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B8-ea-beta/OpenJDK25U-jdk_ppc64le_linux_hotspot_25.0.5_8-ea.tar.gz",
     "vendor": "eclipse",
     "version": "25.0.5+8-ea-beta"
+  },
+  {
+    "architecture": "ppc64le",
+    "distro": "debian",
+    "features": [
+      "headless"
+    ],
+    "file_type": "deb",
+    "filename": "openjdk-25-jdk-headless_25.0.5+8-1_ppc64el.deb",
+    "image_type": "jdk",
+    "java_version": "25.0.5+8",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-10-24",
+    "md5": "c9e378ba37c85ce52c2bc33e075d5bf4",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "0ab228102a9ede67946199868dc072583a18af8c",
+    "sha256": "209108c7de9b48ddc7f3da57d533b8322c6ca35c7a960af261bfa42d66640323",
+    "sha512": "fb736ac725d7a95e5e626a61e9bab7f02d580e10706d5494de3b39c524c4140132b5b4c56a69ec36b5c0c9fc475e4d24f33f635fd6c69fae97dd7ee0614c9327",
+    "size": 311420880,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-25/openjdk-25-jdk-headless_25.0.5+8-1_ppc64el.deb",
+    "vendor": "debian",
+    "version": "25.0.5+8-1"
+  },
+  {
+    "architecture": "ppc64le",
+    "distro": "debian",
+    "features": [ ],
+    "file_type": "deb",
+    "filename": "openjdk-25-jdk_25.0.5+8-1_ppc64el.deb",
+    "image_type": "jdk",
+    "java_version": "25.0.5+8",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-10-24",
+    "md5": "473b0203de77182d539d57346c862bc1",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "cd2f43c51bf30ff229afdbc7596ba3d6e86699ef",
+    "sha256": "6d043643e48225ff1dd9f84c375986a143b6a8c550d7c5b35a28fe6a6eec5979",
+    "sha512": "26ec9ef548dd835c0117dc3e245684f7f9091c54864714de0ecdb0d3302debf21f8afb9b9389e07c93f422ea259c025f76478b17b9fcf79a3e7b7193565ee0aa",
+    "size": 3781224,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-25/openjdk-25-jdk_25.0.5+8-1_ppc64el.deb",
+    "vendor": "debian",
+    "version": "25.0.5+8-1"
   },
   {
     "architecture": "ppc64le",
