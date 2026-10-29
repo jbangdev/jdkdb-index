@@ -5,6 +5,29 @@
     "features": [
       "native-image"
     ],
+    "file_type": "zip",
+    "filename": "bellsoft-liberica-vm-full-openjdk11.0.22+12-22.3.5+1-macos-aarch64.zip",
+    "image_type": "jdk",
+    "java_version": "11.0.22+12-LTS",
+    "jvm_impl": "graalvm",
+    "last_verified": "2026-09-01",
+    "md5": "966bcf5b11ab33940c5f2a339c72a251",
+    "os": "macosx",
+    "release_type": "ga",
+    "sha1": "a2ea5f0a31689f3c7ca3c139fcfda1b9728dbdec",
+    "sha256": "bd3ad10e658563cab4c8f0a0a84421d1c073dd05d0a156ea43816712e1becbf9",
+    "sha512": "963fe52320a10e0c4963a4d17c998e914cb8864b66e90f90784ead9761b174019770f828c909dc692fe3dcf0815d0a9c469913f84820d18640f6938af41b9e7a",
+    "size": 277529911,
+    "url": "https://github.com/bell-sw/LibericaNIK/releases/download/22.3.5+1-11.0.22+12/bellsoft-liberica-vm-full-openjdk11.0.22+12-22.3.5+1-macos-aarch64.zip",
+    "vendor": "bellsoft",
+    "version": "22.3.5+1"
+  },
+  {
+    "architecture": "arm32",
+    "distro": "liberica-native",
+    "features": [
+      "native-image"
+    ],
     "file_type": "dmg",
     "filename": "bellsoft-liberica-vm-full-openjdk11.0.22+12-22.3.5+1-macos-aarch64.dmg",
     "image_type": "jdk",
@@ -19,29 +42,6 @@
     "sha512": "8e487e404325a4ac7e14135083637f25159a9a6c719f9e873867fb2f470789cb468318460f99ac95423594358c5e1beccae4a1a7b46989b8a5c28cae63c29b60",
     "size": 277595259,
     "url": "https://github.com/bell-sw/LibericaNIK/releases/download/22.3.5+1-11.0.22+12/bellsoft-liberica-vm-full-openjdk11.0.22+12-22.3.5+1-macos-aarch64.dmg",
-    "vendor": "bellsoft",
-    "version": "22.3.5+1"
-  },
-  {
-    "architecture": "arm32",
-    "distro": "liberica-native",
-    "features": [
-      "native-image"
-    ],
-    "file_type": "pkg",
-    "filename": "bellsoft-liberica-vm-full-openjdk11.0.22+12-22.3.5+1-macos-aarch64.pkg",
-    "image_type": "jdk",
-    "java_version": "11.0.22+12-LTS",
-    "jvm_impl": "graalvm",
-    "last_verified": "2026-09-17",
-    "md5": "0d17b877411820d36db7871b7fdf374c",
-    "os": "macosx",
-    "release_type": "ga",
-    "sha1": "7a691330d6a2cd7ffa6c062dd81fc909b5216430",
-    "sha256": "c0a523c7c4c92155949617eb95605d6b8796acfcf3c8c7f869be540ae6789fc5",
-    "sha512": "9d6e78fb31ed66ea610da269c4b3469d59547d466333937caba9d0934a7350db25681bb6343da1aa178c6c80b78cbee305ca7e18fb59eba98cd0f154e95b6030",
-    "size": 272856200,
-    "url": "https://github.com/bell-sw/LibericaNIK/releases/download/22.3.5+1-11.0.22+12/bellsoft-liberica-vm-full-openjdk11.0.22+12-22.3.5+1-macos-aarch64.pkg",
     "vendor": "bellsoft",
     "version": "22.3.5+1"
   },
@@ -74,20 +74,20 @@
     "features": [
       "native-image"
     ],
-    "file_type": "zip",
-    "filename": "bellsoft-liberica-vm-full-openjdk11.0.22+12-22.3.5+1-macos-aarch64.zip",
+    "file_type": "pkg",
+    "filename": "bellsoft-liberica-vm-full-openjdk11.0.22+12-22.3.5+1-macos-aarch64.pkg",
     "image_type": "jdk",
     "java_version": "11.0.22+12-LTS",
     "jvm_impl": "graalvm",
-    "last_verified": "2026-09-01",
-    "md5": "966bcf5b11ab33940c5f2a339c72a251",
+    "last_verified": "2026-09-17",
+    "md5": "0d17b877411820d36db7871b7fdf374c",
     "os": "macosx",
     "release_type": "ga",
-    "sha1": "a2ea5f0a31689f3c7ca3c139fcfda1b9728dbdec",
-    "sha256": "bd3ad10e658563cab4c8f0a0a84421d1c073dd05d0a156ea43816712e1becbf9",
-    "sha512": "963fe52320a10e0c4963a4d17c998e914cb8864b66e90f90784ead9761b174019770f828c909dc692fe3dcf0815d0a9c469913f84820d18640f6938af41b9e7a",
-    "size": 277529911,
-    "url": "https://github.com/bell-sw/LibericaNIK/releases/download/22.3.5+1-11.0.22+12/bellsoft-liberica-vm-full-openjdk11.0.22+12-22.3.5+1-macos-aarch64.zip",
+    "sha1": "7a691330d6a2cd7ffa6c062dd81fc909b5216430",
+    "sha256": "c0a523c7c4c92155949617eb95605d6b8796acfcf3c8c7f869be540ae6789fc5",
+    "sha512": "9d6e78fb31ed66ea610da269c4b3469d59547d466333937caba9d0934a7350db25681bb6343da1aa178c6c80b78cbee305ca7e18fb59eba98cd0f154e95b6030",
+    "size": 272856200,
+    "url": "https://github.com/bell-sw/LibericaNIK/releases/download/22.3.5+1-11.0.22+12/bellsoft-liberica-vm-full-openjdk11.0.22+12-22.3.5+1-macos-aarch64.pkg",
     "vendor": "bellsoft",
     "version": "22.3.5+1"
   }

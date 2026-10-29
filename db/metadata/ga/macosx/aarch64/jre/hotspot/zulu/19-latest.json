@@ -2,23 +2,25 @@
   {
     "architecture": "aarch64",
     "distro": "zulu",
-    "features": [ ],
-    "file_type": "dmg",
-    "filename": "zulu19.32.13-ca-jre19.0.2-macosx_aarch64.dmg",
+    "features": [
+      "javafx"
+    ],
+    "file_type": "zip",
+    "filename": "zulu19.32.15-ca-fx-jre19.0.2-macosx_aarch64.zip",
     "image_type": "jre",
     "java_version": "19.0.2",
     "jvm_impl": "hotspot",
-    "last_verified": "2026-09-17",
-    "md5": "b3bc17fc80744a46db56c4f310a8527f",
+    "last_verified": "2026-09-07",
+    "md5": "d06af1df4520607cfb96cbff894be45b",
     "os": "macosx",
     "release_type": "ga",
-    "sha1": "ffd80dd6d6015df4da51a9559a9828ddca0e870f",
-    "sha256": "9dbfbd818c4629cb3bf043a94f5faabefa2d3763379bbeb3f1f72aefbbc27861",
-    "sha512": "f0ac28c1ca7561beeb9491ec99f025197a3ae0503b395d0fb72182abb4fdaeeabcb2df6d56a642f596bebedf10a81d139c8002010d669791e9680fe661a1e7a0",
-    "size": 46976355,
-    "url": "https://static.azul.com/zulu/bin/zulu19.32.13-ca-jre19.0.2-macosx_aarch64.dmg",
+    "sha1": "5d32ac0740c63634bdf6de8d088f92f24c42e43e",
+    "sha256": "4c0797c3fdb81f8130d47a44320c6c9c1764c8949fa66be049e05d185baf71bb",
+    "sha512": "f0f78764bcb2fdd9e71ea896ddfa09bf5d89c60a855f5e5a1f2e837104fd957cd1554307e7efa781e50711a11e81741acbb054e928bcf90686e4bdf0558225dd",
+    "size": 79989709,
+    "url": "https://static.azul.com/zulu/bin/zulu19.32.15-ca-fx-jre19.0.2-macosx_aarch64.zip",
     "vendor": "azul",
-    "version": "19.32.13"
+    "version": "19.32.15"
   },
   {
     "architecture": "aarch64",
@@ -46,24 +48,22 @@
   {
     "architecture": "aarch64",
     "distro": "zulu",
-    "features": [
-      "javafx"
-    ],
-    "file_type": "zip",
-    "filename": "zulu19.32.15-ca-fx-jre19.0.2-macosx_aarch64.zip",
+    "features": [ ],
+    "file_type": "dmg",
+    "filename": "zulu19.32.13-ca-jre19.0.2-macosx_aarch64.dmg",
     "image_type": "jre",
     "java_version": "19.0.2",
     "jvm_impl": "hotspot",
-    "last_verified": "2026-09-07",
-    "md5": "d06af1df4520607cfb96cbff894be45b",
+    "last_verified": "2026-09-17",
+    "md5": "b3bc17fc80744a46db56c4f310a8527f",
     "os": "macosx",
     "release_type": "ga",
-    "sha1": "5d32ac0740c63634bdf6de8d088f92f24c42e43e",
-    "sha256": "4c0797c3fdb81f8130d47a44320c6c9c1764c8949fa66be049e05d185baf71bb",
-    "sha512": "f0f78764bcb2fdd9e71ea896ddfa09bf5d89c60a855f5e5a1f2e837104fd957cd1554307e7efa781e50711a11e81741acbb054e928bcf90686e4bdf0558225dd",
-    "size": 79989709,
-    "url": "https://static.azul.com/zulu/bin/zulu19.32.15-ca-fx-jre19.0.2-macosx_aarch64.zip",
+    "sha1": "ffd80dd6d6015df4da51a9559a9828ddca0e870f",
+    "sha256": "9dbfbd818c4629cb3bf043a94f5faabefa2d3763379bbeb3f1f72aefbbc27861",
+    "sha512": "f0ac28c1ca7561beeb9491ec99f025197a3ae0503b395d0fb72182abb4fdaeeabcb2df6d56a642f596bebedf10a81d139c8002010d669791e9680fe661a1e7a0",
+    "size": 46976355,
+    "url": "https://static.azul.com/zulu/bin/zulu19.32.13-ca-jre19.0.2-macosx_aarch64.dmg",
     "vendor": "azul",
-    "version": "19.32.15"
+    "version": "19.32.13"
   }
 ]
