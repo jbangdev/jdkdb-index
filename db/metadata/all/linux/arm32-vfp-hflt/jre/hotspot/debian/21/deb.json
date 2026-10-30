@@ -151,6 +151,77 @@
     "architecture": "arm32-vfp-hflt",
     "distro": "debian",
     "features": [
+      "hard-float"
+    ],
+    "file_type": "deb",
+    "filename": "openjdk-21-jre_21.0.13+9-1~deb13u2_armhf.deb",
+    "image_type": "jre",
+    "java_version": "21.0.13+9",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-10-30",
+    "md5": "eee2e872a3a993c8aad29f8b01b1b208",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "838b2dc7cb11da555001e3319bb72ba84a799475",
+    "sha256": "327c5b68e1fe511740eedd5e976d3785ddfc9e8aad9c352cc180bf6ce712a9e3",
+    "sha512": "bb88187819fa660593805b795011e8fa2f2fb79759ff6574bddb63da0fc6038bc4ff506a669c207f44ca2c78ad206b7a8bfab0be99f02d53b67f9d707e42c03d",
+    "size": 185072,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-21/openjdk-21-jre_21.0.13+9-1~deb13u2_armhf.deb",
+    "vendor": "debian",
+    "version": "21.0.13+9-1~deb13u2"
+  },
+  {
+    "architecture": "arm32-vfp-hflt",
+    "distro": "debian",
+    "features": [
+      "headless",
+      "hard-float"
+    ],
+    "file_type": "deb",
+    "filename": "openjdk-21-jre-headless_21.0.13+9-1~deb13u2_armhf.deb",
+    "image_type": "jre",
+    "java_version": "21.0.13+9-1-deb13u2-Debian",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-10-30",
+    "md5": "9fce9e565b6fcb7c26e107e481122a0d",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "3501c9e0cafd1f748df04da5555fbb0a2057086b",
+    "sha256": "0d194bac25f98628d11783c33abb89bcae24feb7398eac75021a7f6f55f6ed4c",
+    "sha512": "78f5af6d9780c80aa3782bb47cd4c679770bdf93621708363ab49da4767b989eb376c260c2d37ab47a33dff2b9ee914b2e22179c6bde782535daefa97f36da2e",
+    "size": 35794488,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-21/openjdk-21-jre-headless_21.0.13+9-1~deb13u2_armhf.deb",
+    "vendor": "debian",
+    "version": "21.0.13+9-1~deb13u2"
+  },
+  {
+    "architecture": "arm32-vfp-hflt",
+    "distro": "debian",
+    "features": [
+      "zero",
+      "hard-float"
+    ],
+    "file_type": "deb",
+    "filename": "openjdk-21-jre-zero_21.0.13+9-1~deb13u2_armhf.deb",
+    "image_type": "jre",
+    "java_version": "21.0.13+9",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-10-30",
+    "md5": "c7c40e2ffea082f4b438d2488edf3905",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "e69637843a3e0cf2965152e18a5099509d9bf647",
+    "sha256": "53a15a15d8fec09e30acfcb083ee3d965025bd458bca190141a199bd739b268d",
+    "sha512": "4d2d42e14f8dd8313521664ab3249287e046e81fc2a5db34123dbc18b1927e61228ea359d4faccb332d7decdd2268b4c52866623053776b53fd14da92c924630",
+    "size": 5017864,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-21/openjdk-21-jre-zero_21.0.13+9-1~deb13u2_armhf.deb",
+    "vendor": "debian",
+    "version": "21.0.13+9-1~deb13u2"
+  },
+  {
+    "architecture": "arm32-vfp-hflt",
+    "distro": "debian",
+    "features": [
       "headless",
       "hard-float"
     ],

@@ -3,6 +3,53 @@
     "architecture": "arm32",
     "distro": "debian",
     "features": [
+      "soft-float"
+    ],
+    "file_type": "deb",
+    "filename": "openjdk-25-jdk_25.0.5+8-1~deb13u1_armel.deb",
+    "image_type": "jdk",
+    "java_version": "25.0.5+8",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-10-30",
+    "md5": "299cdd12b148d625f5bdefda9d89e253",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "4d2085667a85dcfb400db8d6c5164f582ac398d7",
+    "sha256": "7dff4d32ec7be2825e4ae7e375e57020637b1bee1cad2a302da9c24003a36cc5",
+    "sha512": "332a9adf60243622be301616e4d2aaeb5bdf96804bef3db4421ccfc5a2ddb12be1e3d26ec7df486b61aa6bc950bb7374e15dd701eac5dd5e6f366be50a9871b6",
+    "size": 9640,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-25/openjdk-25-jdk_25.0.5+8-1~deb13u1_armel.deb",
+    "vendor": "debian",
+    "version": "25.0.5+8-1~deb13u1"
+  },
+  {
+    "architecture": "arm32",
+    "distro": "debian",
+    "features": [
+      "headless",
+      "soft-float"
+    ],
+    "file_type": "deb",
+    "filename": "openjdk-25-jdk-headless_25.0.5+8-1~deb13u1_armel.deb",
+    "image_type": "jdk",
+    "java_version": "25.0.5+8",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-10-30",
+    "md5": "242854a394b82f5eccba7677b33d3a7f",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "ee66f7d986170a0c2f45c663d9608ec57bb2e3f4",
+    "sha256": "825afa123ad582f04c30b4730f435b8f2004b05723b31d4dc4be0649375abc70",
+    "sha512": "d50cbfc288e2927303ed0b1615833000eeb4686bb645dbf16e26ebc092c5401d4942d977d7a97350d745edc1aa29d29b669b36af363401e62a62660e5a8f5c9b",
+    "size": 169816412,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-25/openjdk-25-jdk-headless_25.0.5+8-1~deb13u1_armel.deb",
+    "vendor": "debian",
+    "version": "25.0.5+8-1~deb13u1"
+  },
+  {
+    "architecture": "arm32",
+    "distro": "debian",
+    "features": [
       "headless",
       "soft-float"
     ],
@@ -141,6 +188,53 @@
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-25/openjdk-25-jdk-headless_25.0.3+9-2~deb13u1_armel.deb",
     "vendor": "debian",
     "version": "25.0.3+9-2~deb13u1"
+  },
+  {
+    "architecture": "arm32",
+    "distro": "debian",
+    "features": [
+      "soft-float"
+    ],
+    "file_type": "deb",
+    "filename": "openjdk-21-jdk_21.0.13+9-1~deb13u2_armel.deb",
+    "image_type": "jdk",
+    "java_version": "21.0.13+9",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-10-30",
+    "md5": "ca66234c0a081880d728f71074f3a95a",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "3269423b521ac07135933a9c826c53030ff29d84",
+    "sha256": "c364d2522dacd6632f433ad4c5301ec93e05789cdd97c72b69e6fff4c32a639c",
+    "sha512": "9a01d2aa87d8ae0d985f93a758ee5e41d06ae1521764b809d62b64bcbd76ce502c2bf6e2c3adf4c513be15b48f81a1bd4f9ef838f99982df6dcefa0691867186",
+    "size": 10388,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-21/openjdk-21-jdk_21.0.13+9-1~deb13u2_armel.deb",
+    "vendor": "debian",
+    "version": "21.0.13+9-1~deb13u2"
+  },
+  {
+    "architecture": "arm32",
+    "distro": "debian",
+    "features": [
+      "headless",
+      "soft-float"
+    ],
+    "file_type": "deb",
+    "filename": "openjdk-21-jdk-headless_21.0.13+9-1~deb13u2_armel.deb",
+    "image_type": "jdk",
+    "java_version": "21.0.13+9",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-10-30",
+    "md5": "dab26c9d2f876213e3130037721b4a02",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "b23464ecdae27f9187649f47e2c28fd1bbc2a75f",
+    "sha256": "486d41ed7c8aa3282371f9d66f14f3a0f3b5baba70cec82206f205795f8db8b3",
+    "sha512": "cafd6e02510117d2b975e36736fb54532d0c3956f5f47004743ec0e3bb74c015c7b1a9dad7bc740da608145ebb9f7c38ba3e505c8f415e394bf68ad341c916cf",
+    "size": 74614400,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-21/openjdk-21-jdk-headless_21.0.13+9-1~deb13u2_armel.deb",
+    "vendor": "debian",
+    "version": "21.0.13+9-1~deb13u2"
   },
   {
     "architecture": "arm32",
