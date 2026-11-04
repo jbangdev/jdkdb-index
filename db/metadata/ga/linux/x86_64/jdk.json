@@ -11208,6 +11208,7 @@
     "sha256": "dcf68efeb7b31b6f05d9e2ec9512c2cbf197a2b7f0b866b60182efef4273ffed",
     "sha512": "e9276700caf7d58371f023d004c1d0650a0c9410a701d1437c19087e6ccf6c5f4866099d9823b871bc281482fadd92f20b062795983adebba0bf3a0fb3ee065d",
     "size": 74355364,
+    "unlisted_since": "2026-11-04",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-11/openjdk-11-jdk-headless_11.0.33~8ea-1_amd64.deb",
     "vendor": "debian",
     "version": "11.0.33~8ea-1"
@@ -11229,6 +11230,7 @@
     "sha256": "367e2ca6ffc053f5b06281fd829ab1824a36e05040e13cf97d4ee98688211f03",
     "sha512": "2e76152242754221218ed48f85318cf387ee2bf5886f7bf4d0c6cc3e6aebf6e8baf2ac02f0568869ab5daf9a84f8045ac9db74b687c9378fb03d2287fef77066",
     "size": 2987272,
+    "unlisted_since": "2026-11-04",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-11/openjdk-11-jdk_11.0.33~8ea-1_amd64.deb",
     "vendor": "debian",
     "version": "11.0.33~8ea-1"
@@ -74862,7 +74864,6 @@
     "sha256": "b644279ebbb61dcd4afae84ac38d9248e9bdd442e7f6b97d132673bb701c06d4",
     "sha512": "c7684beafb677fc22dd5a8409ec4a753aee1cc6803f205bcf80c2958fa8193aaf24f6f23c91d98c4f6f7f69280b30f9b3246fcb1d7bc4466b058345af61809d3",
     "size": 229055598,
-    "unlisted_since": "2026-11-03",
     "url": "https://builds.openlogic.com/downloadJDK/openlogic-openjdk/17.0.11+9/openlogic-openjdk-17.0.11+9-linux-x64.tar.gz",
     "vendor": "openlogic",
     "version": "17.0.11+9"
@@ -74884,6 +74885,7 @@
     "sha256": "ff474977b93dd155646e18462444930c0b1c37a24f6be2bec280b0b760fc4b7a",
     "sha512": "714ebda0ed4b6ad01e5f79f0de52d226e6177b84af70dc52b3ffa631a9b5e1f1f66e7b3c1d95aad674e38a8606c3564150f01d97fe51f134702ac965e2c2cab2",
     "size": 229049220,
+    "unlisted_since": "2026-11-04",
     "url": "https://builds.openlogic.com/downloadJDK/openlogic-openjdk/17.0.11+9/openlogic-openjdk-17.0.11+9-linux-x64-deb.deb",
     "vendor": "openlogic",
     "version": "17.0.11+9"
@@ -75703,6 +75705,7 @@
     "sha256": "c15badd161ddae4dddd71755f9fc0baf95a8627bcfdc2ea63d4e8112fafe3c00",
     "sha512": "750a19fb69950e474ce3f7492405220c0ce1301d3dfe4b5f9a74b72c8e197d27053d52022e0c91c7eff5842acd2ea517e77f1b0e3c23019f260f7e7cf825505a",
     "size": 113668167,
+    "unlisted_since": "2026-11-04",
     "url": "https://builds.openlogic.com/downloadJDK/openlogic-openjdk/8u492-b09/openlogic-openjdk-8u492-b09-linux-x64.tar.gz",
     "vendor": "openlogic",
     "version": "8u492-b09"
@@ -75724,7 +75727,6 @@
     "sha256": "491142cee980d94cda12c47e3b21f29470fef73dcbd8ba94cd237c2e8a21b6aa",
     "sha512": "31d371a6c30cbdd2e3c5a4be3d921c83dc53bcece7d20fc6bc10230d97203fc7d066d459cd93cdbd4f2eb5936a8d7726d3ab899b251a55f5862394ad5894a6e0",
     "size": 113674840,
-    "unlisted_since": "2026-11-03",
     "url": "https://builds.openlogic.com/downloadJDK/openlogic-openjdk/8u492-b09/openlogic-openjdk-8u492-b09-linux-x64-deb.deb",
     "vendor": "openlogic",
     "version": "8u492-b09"
@@ -100411,6 +100413,29 @@
   {
     "architecture": "x86_64",
     "distro": "zulu",
+    "features": [
+      "javafx"
+    ],
+    "file_type": "tar.gz",
+    "filename": "zulu27.30.109-ca-fx-jdk27.0.1.0.3-linux_x64.tar.gz",
+    "image_type": "jdk",
+    "java_version": "27.0.1.0.3+1",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-11-04",
+    "md5": "9630fddc61ef71de518a9d4efaa70b9d",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "44a80797f55ee42bf6b4bc28a33543f33da45980",
+    "sha256": "d3c292cedfd0fed36454601916982b77a907fe95d97afc3e88669934a70e8fb6",
+    "sha512": "136e53505409fc58ff66e1b9c7d49c32632af62295bc5e35e550f48111709cab6048cadf522d2dc5278067f0ddb0638ab6316969c94a29ad0a4af42436584aa3",
+    "size": 349089423,
+    "url": "https://static.azul.com/zulu/bin/zulu27.30.109-ca-fx-jdk27.0.1.0.3-linux_x64.tar.gz",
+    "vendor": "azul",
+    "version": "27.30.109"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "zulu",
     "features": [ ],
     "file_type": "zip",
     "filename": "zulu27.30.107-ca-jdk27.0.1-linux_x64.zip",
@@ -100929,6 +100954,29 @@
     "sha512": "aaf9e671dc44f30a295c4f9099bad49164036589248c103475160358895b9e52500aedd44820328eb6ecca482b6b41c2efa359bc86a4db63cd025b609841d776",
     "size": 235604826,
     "url": "https://static.azul.com/zulu/bin/zulu25.38.109-ca-jdk25.0.5.0.3-linux_x64.zip",
+    "vendor": "azul",
+    "version": "25.38.109"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "zulu",
+    "features": [
+      "javafx"
+    ],
+    "file_type": "tar.gz",
+    "filename": "zulu25.38.109-ca-fx-jdk25.0.5.0.3-linux_x64.tar.gz",
+    "image_type": "jdk",
+    "java_version": "25.0.5.0.3+1-LTS",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-11-04",
+    "md5": "75b5d613be05a5d968d02c13277a53f1",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "332c424dd3b5291c128f8b78882e042f507e99c5",
+    "sha256": "58da871f1d12ff834e408cfa9c10ad3e5ca590bc4623dfb2421c449b1971518a",
+    "sha512": "793ff14bca87729ee5fb146d3727acd19f7f29cf70ca9a75812d09971653a0ce0f9e9562d355f4fb530f2147998d2c4b04988cc8d8fa2bab6fe5d22611e2a502",
+    "size": 346816112,
+    "url": "https://static.azul.com/zulu/bin/zulu25.38.109-ca-fx-jdk25.0.5.0.3-linux_x64.tar.gz",
     "vendor": "azul",
     "version": "25.38.109"
   },
@@ -102486,6 +102534,29 @@
     "sha512": "627d715cf6ca54b44772db75988ee589c3cd987a35db61977bd752bfcf473f007dcf7284173129607e43adb81f71e5384ad8cc33bf71db668650d2f9736170b0",
     "size": 213609132,
     "url": "https://static.azul.com/zulu/bin/zulu21.54.109-ca-jdk21.0.13.0.3-linux_x64.tar.gz",
+    "vendor": "azul",
+    "version": "21.54.109"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "zulu",
+    "features": [
+      "javafx"
+    ],
+    "file_type": "tar.gz",
+    "filename": "zulu21.54.109-ca-fx-jdk21.0.13.0.3-linux_x64.tar.gz",
+    "image_type": "jdk",
+    "java_version": "21.0.13.0.3+1-LTS",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-11-04",
+    "md5": "71decbea3fc7f011e67f58e11c44a6b0",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "2ec25af322a8deba021326087070614471d4f31b",
+    "sha256": "8f5168f564c67cef3c4c371e6eb26f480799565659999da9aa3c142f9604e7ac",
+    "sha512": "9a7a3d7c08c8a39e06bbf9ebbdc638f52ff2d5e7a6a60652654d64c922ecb6300d61052a7d427349b0cf9d00c638684fb15da600bde05e63e9b40643762b94f6",
+    "size": 325570055,
+    "url": "https://static.azul.com/zulu/bin/zulu21.54.109-ca-fx-jdk21.0.13.0.3-linux_x64.tar.gz",
     "vendor": "azul",
     "version": "21.54.109"
   },
@@ -104586,6 +104657,29 @@
     "sha512": "8dc80ed55e5c639736c6984e1d0067d502135afef3508c83fbfa09c9dda55b22e565d3fd811e38a78c2fc0d2f2f342912a5d60dea7cb7774b65fc8aec3bc2ff8",
     "size": 198641822,
     "url": "https://static.azul.com/zulu/bin/zulu17.70.113-ca-jdk17.0.21.0.3-linux_x64.tar.gz",
+    "vendor": "azul",
+    "version": "17.70.113"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "zulu",
+    "features": [
+      "javafx"
+    ],
+    "file_type": "tar.gz",
+    "filename": "zulu17.70.113-ca-fx-jdk17.0.21.0.3-linux_x64.tar.gz",
+    "image_type": "jdk",
+    "java_version": "17.0.21.0.3+1-LTS",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-11-04",
+    "md5": "d961df93c2d56ed9e98c1860367e9505",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "ed76abaabc3124a09cee4a82d0334843ef94b383",
+    "sha256": "5337e0507ed539f1c35f9e0d3c4c7669d594a66e5acb937f84b65a9777a14ebd",
+    "sha512": "4e2f90ec8aa6fcc4c8301f09ea27a39afac5301d8de4a962db9af48b7e020d9252e057d0d1445631e95809c4b41d4ac63d6a80042fac3d8b9b9cf4609adcc256",
+    "size": 310228551,
+    "url": "https://static.azul.com/zulu/bin/zulu17.70.113-ca-fx-jdk17.0.21.0.3-linux_x64.tar.gz",
     "vendor": "azul",
     "version": "17.70.113"
   },

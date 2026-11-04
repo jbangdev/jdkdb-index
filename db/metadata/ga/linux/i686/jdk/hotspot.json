@@ -1972,6 +1972,7 @@
     "sha256": "7d2ebfba985dac69dcb621f47431f8072f88166e88686711baf955bda341b1c2",
     "sha512": "83b40ab9c5014083c71b95d2aac138a00da2d7392fc0c5b75610bc2cc47a9648bcc53edb17c6c55494b81692c61745b9ff1c19233795bcaa639647e7699825d7",
     "size": 2972944,
+    "unlisted_since": "2026-11-04",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-11/openjdk-11-jdk_11.0.33~8ea-1_i386.deb",
     "vendor": "debian",
     "version": "11.0.33~8ea-1"
@@ -1995,6 +1996,7 @@
     "sha256": "cd435e730cf4338d59a06e7b033dcbf8d56af197eea3ec64239703bb81754c27",
     "sha512": "f162a5e332d592d48cedf8a4b882622b6796c309f8fee8f0cc0750c1a0b2982524fb405d36f331c3f0b3e50c32ababc7bed17bcc4d9a3fb7763e6f0c8fc9e319",
     "size": 71818104,
+    "unlisted_since": "2026-11-04",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-11/openjdk-11-jdk-headless_11.0.33~8ea-1_i386.deb",
     "vendor": "debian",
     "version": "11.0.33~8ea-1"
@@ -37203,7 +37205,6 @@
     "sha256": "58108cb1747a28d30fe4e4f35e4da7089d75ef67aea404bbc560f9be3fc6d019",
     "sha512": "26f7a761df8b5ee52cbf46137c9e0a890bb7c27c61c8276251fc36fb539d7dc65fc217e68b90432b140213979285f08e9e693e9db59ebac8775a6b7102f7736b",
     "size": 113168879,
-    "unlisted_since": "2026-11-03",
     "url": "https://builds.openlogic.com/downloadJDK/openlogic-openjdk/8u502-b07/openlogic-openjdk-8u502-b07-linux-x32.tar.gz",
     "vendor": "openlogic",
     "version": "8u502-b07"
@@ -37288,6 +37289,7 @@
     "sha256": "557622b9a44065fa68ac12201ce5f1e866d3a2bda870c54da04d23b47dedc630",
     "sha512": "5b9162f34f52a4a2b1e45b107a404a19f392c3b6ececa61c4b7c9869a7f62928ed86e98ec93e6882b87e8479267d75d3a3554e5388c94fa9b744d3b43878255e",
     "size": 113130581,
+    "unlisted_since": "2026-11-04",
     "url": "https://builds.openlogic.com/downloadJDK/openlogic-openjdk/8u482-b08/openlogic-openjdk-8u482-b08-linux-x32.tar.gz",
     "vendor": "openlogic",
     "version": "8u482-b08"
@@ -37950,6 +37952,29 @@
     "sha512": "63c352b4d79c28e9b9f33236f091642a8b2ca2b6c4e54436ebb98828ef24c4634a21954b16e44a3b1ecfdf29d145f04704b0703b607714b3ac946e7a5c1ca095",
     "size": 190507148,
     "url": "https://static.azul.com/zulu/bin/zulu17.70.113-ca-jdk17.0.21.0.3-linux_i686.tar.gz",
+    "vendor": "azul",
+    "version": "17.70.113"
+  },
+  {
+    "architecture": "i686",
+    "distro": "zulu",
+    "features": [
+      "javafx"
+    ],
+    "file_type": "tar.gz",
+    "filename": "zulu17.70.113-ca-fx-jdk17.0.21.0.3-linux_i686.tar.gz",
+    "image_type": "jdk",
+    "java_version": "17.0.21.0.3+1-LTS",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-11-04",
+    "md5": "3f6b5e43dd0f9b9789c56aca9a19ded2",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "b82079a2fd45794d23991ffe61a470338e72b88e",
+    "sha256": "9b5e554b105849d60822c99d7d4360229465b4cca1eb45f0fd4e4762cffb5355",
+    "sha512": "18690c96c1f8738dbe6fa34d15596ddb15a6289468707a92bf31dbed821518679d4e7e61e7200e74e423a5b5488018c6ca108a2aba51f26d67fb0f51ecd05c3a",
+    "size": 296535793,
+    "url": "https://static.azul.com/zulu/bin/zulu17.70.113-ca-fx-jdk17.0.21.0.3-linux_i686.tar.gz",
     "vendor": "azul",
     "version": "17.70.113"
   },
