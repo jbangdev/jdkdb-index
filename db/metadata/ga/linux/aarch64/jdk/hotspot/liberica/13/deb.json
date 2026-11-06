@@ -3,31 +3,6 @@
     "architecture": "aarch64",
     "distro": "liberica",
     "features": [
-      "libericafx",
-      "minimal-vm",
-      "javafx"
-    ],
-    "file_type": "deb",
-    "filename": "bellsoft-jdk13.0.2+9-linux-aarch64-full.deb",
-    "image_type": "jdk",
-    "java_version": "13.0.2+9",
-    "jvm_impl": "hotspot",
-    "last_verified": "2026-09-02",
-    "md5": "c4e4e4040e367222b2bc251171964c2e",
-    "os": "linux",
-    "release_type": "ga",
-    "sha1": "34437a32938dcbdf4285dab8ea01bc62c6174741",
-    "sha256": "8f25c5086839cbc6f5947a051c2338042485451c4e4e9d48ca49c0cbcf4c7de8",
-    "sha512": "32d9df69b8a8bc261beb382253d2a87bce4f5acd538fbe505bee580336335391995e4cc0816254d94e4efce170d57da11e5973e3f2cd87b55abc506113ce44fe",
-    "size": 247034250,
-    "url": "https://github.com/bell-sw/Liberica/releases/download/13.0.2+9/bellsoft-jdk13.0.2+9-linux-aarch64-full.deb",
-    "vendor": "bellsoft",
-    "version": "13.0.2+9"
-  },
-  {
-    "architecture": "aarch64",
-    "distro": "liberica",
-    "features": [
       "lite"
     ],
     "file_type": "deb",
@@ -65,6 +40,31 @@
     "sha512": "c6773308587c3b6ad4e29b58a84b187d3a91fd31551086eca05a5b0aa339ef67a9418d5c034abaf432c32f713322d07dc38a7ad92f034a468a93e7fc0a71a0ee",
     "size": 179015076,
     "url": "https://github.com/bell-sw/Liberica/releases/download/13.0.2+9/bellsoft-jdk13.0.2+9-linux-aarch64.deb",
+    "vendor": "bellsoft",
+    "version": "13.0.2+9"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "liberica",
+    "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
+    "file_type": "deb",
+    "filename": "bellsoft-jdk13.0.2+9-linux-aarch64-full.deb",
+    "image_type": "jdk",
+    "java_version": "13.0.2+9",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-02",
+    "md5": "c4e4e4040e367222b2bc251171964c2e",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "34437a32938dcbdf4285dab8ea01bc62c6174741",
+    "sha256": "8f25c5086839cbc6f5947a051c2338042485451c4e4e9d48ca49c0cbcf4c7de8",
+    "sha512": "32d9df69b8a8bc261beb382253d2a87bce4f5acd538fbe505bee580336335391995e4cc0816254d94e4efce170d57da11e5973e3f2cd87b55abc506113ce44fe",
+    "size": 247034250,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/13.0.2+9/bellsoft-jdk13.0.2+9-linux-aarch64-full.deb",
     "vendor": "bellsoft",
     "version": "13.0.2+9"
   },
@@ -159,27 +159,6 @@
   {
     "architecture": "aarch64",
     "distro": "liberica",
-    "features": [ ],
-    "file_type": "deb",
-    "filename": "bellsoft-jdk13-linux-aarch64.deb",
-    "image_type": "jdk",
-    "java_version": "13",
-    "jvm_impl": "hotspot",
-    "last_verified": "2026-09-09",
-    "md5": "050b5e6102e28f20ed3ca4c4ec48e554",
-    "os": "linux",
-    "release_type": "ga",
-    "sha1": "02b973fd729fdf9a6cff3b00ec6f22ae5f437606",
-    "sha256": "1511e5157c1ce034bf9f5a761dc061dd4eeb271887cf0575ffaaabb5c94d81b8",
-    "sha512": "daef5097475654dbb1c4dca711ba13d44ee36b781d6e37bb79b7c95f9feeb900cdd7004f45957c8c140372d4983d1d8ed504c59b5868d181745a78f3d5eede6a",
-    "size": 243618404,
-    "url": "https://github.com/bell-sw/Liberica/releases/download/13/bellsoft-jdk13-linux-aarch64.deb",
-    "vendor": "bellsoft",
-    "version": "13"
-  },
-  {
-    "architecture": "aarch64",
-    "distro": "liberica",
     "features": [
       "lite"
     ],
@@ -197,6 +176,27 @@
     "sha512": "62cd4c2490151bd4432236db9afd65aef8c0a8262c5b63c2fdb47993a5d03f430c95af10379092820d0337efe0baf16e0e6649b0affd3d21e251662c30899ab3",
     "size": 72290934,
     "url": "https://github.com/bell-sw/Liberica/releases/download/13/bellsoft-jdk13-linux-aarch64-lite.deb",
+    "vendor": "bellsoft",
+    "version": "13"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "liberica",
+    "features": [ ],
+    "file_type": "deb",
+    "filename": "bellsoft-jdk13-linux-aarch64.deb",
+    "image_type": "jdk",
+    "java_version": "13",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-09",
+    "md5": "050b5e6102e28f20ed3ca4c4ec48e554",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "02b973fd729fdf9a6cff3b00ec6f22ae5f437606",
+    "sha256": "1511e5157c1ce034bf9f5a761dc061dd4eeb271887cf0575ffaaabb5c94d81b8",
+    "sha512": "daef5097475654dbb1c4dca711ba13d44ee36b781d6e37bb79b7c95f9feeb900cdd7004f45957c8c140372d4983d1d8ed504c59b5868d181745a78f3d5eede6a",
+    "size": 243618404,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/13/bellsoft-jdk13-linux-aarch64.deb",
     "vendor": "bellsoft",
     "version": "13"
   }

@@ -2,6 +2,31 @@
   {
     "architecture": "aarch64",
     "distro": "liberica",
+    "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
+    "file_type": "msi",
+    "filename": "bellsoft-jdk23.0.2+9-windows-aarch64-full.msi",
+    "image_type": "jdk",
+    "java_version": "23.0.2+9",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-09",
+    "md5": "774b155277a32588f463ae5d1faa692c",
+    "os": "windows",
+    "release_type": "ga",
+    "sha1": "78e1a7fcde037e8b4e9c9c5d8905c3ca05364a0d",
+    "sha256": "53a973941af0e5ec2f0d73f4d8c449612b860eac50ec4b341131a22fc4562e5e",
+    "sha512": "0c3bc58a2263cc31947b98fa40c33ba32eea4cb2fbee84e4ce1d784900d9e62b81c013ceeaee688a649fd902f6a4a27e362dcd404682c3b5b7676343afcbaab9",
+    "size": 225366016,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/23.0.2+9/bellsoft-jdk23.0.2+9-windows-aarch64-full.msi",
+    "vendor": "bellsoft",
+    "version": "23.0.2+9"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "liberica",
     "features": [ ],
     "file_type": "msi",
     "filename": "bellsoft-jdk23.0.2+9-windows-aarch64.msi",
@@ -40,31 +65,6 @@
     "sha512": "1d04c889149ccdf60f166c78d0677091725791d4ab38d2e2fd0f2fc0425cb9b9a521ab9699569b88b68b3a20722d48117e9cfd0523bf3dcec122e02a568adf3e",
     "size": 79765504,
     "url": "https://github.com/bell-sw/Liberica/releases/download/23.0.2+9/bellsoft-jdk23.0.2+9-windows-aarch64-lite.msi",
-    "vendor": "bellsoft",
-    "version": "23.0.2+9"
-  },
-  {
-    "architecture": "aarch64",
-    "distro": "liberica",
-    "features": [
-      "libericafx",
-      "minimal-vm",
-      "javafx"
-    ],
-    "file_type": "msi",
-    "filename": "bellsoft-jdk23.0.2+9-windows-aarch64-full.msi",
-    "image_type": "jdk",
-    "java_version": "23.0.2+9",
-    "jvm_impl": "hotspot",
-    "last_verified": "2026-09-09",
-    "md5": "774b155277a32588f463ae5d1faa692c",
-    "os": "windows",
-    "release_type": "ga",
-    "sha1": "78e1a7fcde037e8b4e9c9c5d8905c3ca05364a0d",
-    "sha256": "53a973941af0e5ec2f0d73f4d8c449612b860eac50ec4b341131a22fc4562e5e",
-    "sha512": "0c3bc58a2263cc31947b98fa40c33ba32eea4cb2fbee84e4ce1d784900d9e62b81c013ceeaee688a649fd902f6a4a27e362dcd404682c3b5b7676343afcbaab9",
-    "size": 225366016,
-    "url": "https://github.com/bell-sw/Liberica/releases/download/23.0.2+9/bellsoft-jdk23.0.2+9-windows-aarch64-full.msi",
     "vendor": "bellsoft",
     "version": "23.0.2+9"
   }

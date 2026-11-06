@@ -25,6 +25,29 @@
   {
     "architecture": "aarch64",
     "distro": "jetbrains",
+    "features": [
+      "legacy"
+    ],
+    "file_type": "tar.gz",
+    "filename": "jbrsdk_lb-21.0.11-linux-aarch64-b1163.125.tar.gz",
+    "image_type": "jdk",
+    "java_version": "21.0.11+10-b1163.125",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-10-29",
+    "md5": "4981ac9d735c19986ab0184786277dcb",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "5ed3d39d956f995ff602e19a5e1678fe88ff72f8",
+    "sha256": "41a6b8490df6593417243b08427fa59d2ff8597097134b3dcb7c7e9e9f2efe26",
+    "sha512": "2683367cd9788adaf4c5e4bfe9afa25e093168d3b662bdd8568f6ff77e25a878262ee8f94764fbef0cc10785fe65784566d5b9fe4bfcde20815b8b48b09198eb",
+    "size": 237868969,
+    "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_lb-21.0.11-linux-aarch64-b1163.125.tar.gz",
+    "vendor": "jetbrains",
+    "version": "21.0.11b1163.125"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "jetbrains",
     "features": [ ],
     "file_type": "tar.gz",
     "filename": "jbrsdk-21.0.11-linux-aarch64-b1163.125.tar.gz",
@@ -40,29 +63,6 @@
     "sha512": "3943662d179c9ec41ea383ef8382bc861dcb21207d6cc378600b56e409218d9e868ac96ec48c6878af8036c23a4220881e5a73d02e75e0416a1e308ae413c3d8",
     "size": 239403579,
     "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-21.0.11-linux-aarch64-b1163.125.tar.gz",
-    "vendor": "jetbrains",
-    "version": "21.0.11b1163.125"
-  },
-  {
-    "architecture": "aarch64",
-    "distro": "jetbrains",
-    "features": [
-      "jcef"
-    ],
-    "file_type": "tar.gz",
-    "filename": "jbrsdk_jcef-21.0.11-linux-aarch64-b1163.125.tar.gz",
-    "image_type": "jdk",
-    "java_version": "21.0.11+10-b1163.125",
-    "jvm_impl": "hotspot",
-    "last_verified": "2026-10-28",
-    "md5": "554446256a316852e3158af2ea934fb7",
-    "os": "linux",
-    "release_type": "ga",
-    "sha1": "174ee9dd414c9999fc3fe644c7de122d2da0e28f",
-    "sha256": "d8d22a81287296803a18571a08fdf22c1f03b2834714b2fb3a870e1709f7d110",
-    "sha512": "21fe2491a8057029a2dd182c7d1f0a4e6d65ad61a5912dc33c34f32da68168f6a163aa07fbaafac60864676b4abb4b2ba17adbb185d0c7823db3455f3df99428",
-    "size": 523422913,
-    "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-21.0.11-linux-aarch64-b1163.125.tar.gz",
     "vendor": "jetbrains",
     "version": "21.0.11b1163.125"
   },
@@ -93,22 +93,22 @@
     "architecture": "aarch64",
     "distro": "jetbrains",
     "features": [
-      "legacy"
+      "jcef"
     ],
     "file_type": "tar.gz",
-    "filename": "jbrsdk_lb-21.0.11-linux-aarch64-b1163.125.tar.gz",
+    "filename": "jbrsdk_jcef-21.0.11-linux-aarch64-b1163.125.tar.gz",
     "image_type": "jdk",
     "java_version": "21.0.11+10-b1163.125",
     "jvm_impl": "hotspot",
-    "last_verified": "2026-10-29",
-    "md5": "4981ac9d735c19986ab0184786277dcb",
+    "last_verified": "2026-10-28",
+    "md5": "554446256a316852e3158af2ea934fb7",
     "os": "linux",
     "release_type": "ga",
-    "sha1": "5ed3d39d956f995ff602e19a5e1678fe88ff72f8",
-    "sha256": "41a6b8490df6593417243b08427fa59d2ff8597097134b3dcb7c7e9e9f2efe26",
-    "sha512": "2683367cd9788adaf4c5e4bfe9afa25e093168d3b662bdd8568f6ff77e25a878262ee8f94764fbef0cc10785fe65784566d5b9fe4bfcde20815b8b48b09198eb",
-    "size": 237868969,
-    "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_lb-21.0.11-linux-aarch64-b1163.125.tar.gz",
+    "sha1": "174ee9dd414c9999fc3fe644c7de122d2da0e28f",
+    "sha256": "d8d22a81287296803a18571a08fdf22c1f03b2834714b2fb3a870e1709f7d110",
+    "sha512": "21fe2491a8057029a2dd182c7d1f0a4e6d65ad61a5912dc33c34f32da68168f6a163aa07fbaafac60864676b4abb4b2ba17adbb185d0c7823db3455f3df99428",
+    "size": 523422913,
+    "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-21.0.11-linux-aarch64-b1163.125.tar.gz",
     "vendor": "jetbrains",
     "version": "21.0.11b1163.125"
   }

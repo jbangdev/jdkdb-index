@@ -6,21 +6,21 @@
       "musl"
     ],
     "file_type": "tar.gz",
-    "filename": "zulu28.0.51-beta-jdk28.0.0-beta.21-linux_musl_x64.tar.gz",
+    "filename": "zulu28.0.53-beta-jdk28.0.0-beta.22-linux_musl_x64.tar.gz",
     "image_type": "jdk",
-    "java_version": "28-beta+21",
+    "java_version": "28-beta+22",
     "jvm_impl": "hotspot",
-    "last_verified": "2026-11-04",
-    "md5": "1713bae5c197d4d7e0e2c5f9280463b5",
+    "last_verified": "2026-11-06",
+    "md5": "6cfb1c8b28890e48efba744794e7df02",
     "os": "linux",
     "release_type": "ea",
-    "sha1": "34c7e847e6f22b5194df60fff7ea6e9cd809fb8c",
-    "sha256": "8f49936af34ba2bdf5543004d6850d7999b0d949421c50c1f9c9d71cd9ddd040",
-    "sha512": "35391de78620a4ab99c51bbad11b4e8067ba414bebb72c3f5b00c9e684a094d979aee99ca569f4f2533884d28793c0b444d17694d4626475952090aa284ae3d4",
-    "size": 252169062,
-    "url": "https://static.azul.com/zulu/bin/zulu28.0.51-beta-jdk28.0.0-beta.21-linux_musl_x64.tar.gz",
+    "sha1": "e7c411cd882dff56b70cf7df1ab8b4c38dc0d4de",
+    "sha256": "3ec8935cf003ff90565836c9a0f7adcf468c7a042f2493d7ce77d5464fb4b9cc",
+    "sha512": "0e3e8e517891d8350fc8c963dbaf30e7fcdb780290d00ddd22bf28ae0ee0235564ef3280db959d1233efdfbfd10e36a1b17a21796ecf8ac4bf93965907cfd94f",
+    "size": 252397231,
+    "url": "https://static.azul.com/zulu/bin/zulu28.0.53-beta-jdk28.0.0-beta.22-linux_musl_x64.tar.gz",
     "vendor": "azul",
-    "version": "28.0.51"
+    "version": "28.0.53"
   },
   {
     "architecture": "x86_64",
@@ -119,6 +119,29 @@
     "architecture": "x86_64",
     "distro": "zulu",
     "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "zulu24.32.13-ca-jdk24.0.2-linux_musl_x64.tar.gz",
+    "image_type": "jdk",
+    "java_version": "24.0.2+12",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-05",
+    "md5": "6ff7f997ce966d548df894102bf2291c",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "ea789336375b77e5bcb58019c1f2acef7c667992",
+    "sha256": "46f6439677ede421f43c427be6c9c6a1c5fe1b823634138a1d2a4ba3755a081a",
+    "sha512": "304c73063f634f3d30a8897663bff5935d6ad8bab0b4137e4a45f810e7f6962321b6fc4d08703bd6ea40b6d2ca33e747359fc57b715ecafdeb8943c7d4e295a8",
+    "size": 231782968,
+    "url": "https://static.azul.com/zulu/bin/zulu24.32.13-ca-jdk24.0.2-linux_musl_x64.tar.gz",
+    "vendor": "azul",
+    "version": "24.32.13"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "zulu",
+    "features": [
       "crac",
       "musl"
     ],
@@ -136,29 +159,6 @@
     "sha512": "6d1f0302a00ca77e3c4d4eafafeca6c259b4597d7dcc9b2e4e45d0ea0109fb1145acc8d02de7653f80ea034b6fba1083bde71fd4350cd189811bbcea7f844985",
     "size": 239616566,
     "url": "https://static.azul.com/zulu/bin/zulu24.32.13-ca-crac-jdk24.0.2-linux_musl_x64.tar.gz",
-    "vendor": "azul",
-    "version": "24.32.13"
-  },
-  {
-    "architecture": "x86_64",
-    "distro": "zulu",
-    "features": [
-      "musl"
-    ],
-    "file_type": "tar.gz",
-    "filename": "zulu24.32.13-ca-jdk24.0.2-linux_musl_x64.tar.gz",
-    "image_type": "jdk",
-    "java_version": "24.0.2+12",
-    "jvm_impl": "hotspot",
-    "last_verified": "2026-09-05",
-    "md5": "6ff7f997ce966d548df894102bf2291c",
-    "os": "linux",
-    "release_type": "ga",
-    "sha1": "ea789336375b77e5bcb58019c1f2acef7c667992",
-    "sha256": "46f6439677ede421f43c427be6c9c6a1c5fe1b823634138a1d2a4ba3755a081a",
-    "sha512": "304c73063f634f3d30a8897663bff5935d6ad8bab0b4137e4a45f810e7f6962321b6fc4d08703bd6ea40b6d2ca33e747359fc57b715ecafdeb8943c7d4e295a8",
-    "size": 231782968,
-    "url": "https://static.azul.com/zulu/bin/zulu24.32.13-ca-jdk24.0.2-linux_musl_x64.tar.gz",
     "vendor": "azul",
     "version": "24.32.13"
   },

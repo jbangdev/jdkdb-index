@@ -3,6 +3,30 @@
     "architecture": "arm32-vfp-hflt",
     "distro": "debian",
     "features": [
+      "headless",
+      "hard-float"
+    ],
+    "file_type": "deb",
+    "filename": "openjdk-21-jre-headless_21.0.13.0.3+1-1_armhf.deb",
+    "image_type": "jre",
+    "java_version": "21.0.13.0.3+1-1-Debian",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-10-31",
+    "md5": "a1b5368ba7f3c6e6430396fd41a89002",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "f45006b867be5161316c0f5ac3204a73f554875d",
+    "sha256": "52aaea184072d0260d343bc20e0a22709787a2564451e8134ffe192df8f7d164",
+    "sha512": "a45d800875c2e34b8ccbbd3cf52c4e5ff529a189199e8bff67d1050a4aa459be7b4ae81c827785c0bacc355a8241a2362629dcca2746b7ec79cb5cb92dc8fe49",
+    "size": 35950604,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-21/openjdk-21-jre-headless_21.0.13.0.3+1-1_armhf.deb",
+    "vendor": "debian",
+    "version": "21.0.13.0.3+1-1"
+  },
+  {
+    "architecture": "arm32-vfp-hflt",
+    "distro": "debian",
+    "features": [
       "hard-float"
     ],
     "file_type": "deb",
@@ -43,30 +67,6 @@
     "sha512": "3562e8bb9d76ddb74d32e87e68809bf1f2004f58c9022d42b0696b465cfcabef0a646d0fd7c2c48321e301d67e4ec6692f25849eae3431557e04d3ac38dbd2cc",
     "size": 5113260,
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-21/openjdk-21-jre-zero_21.0.13.0.3+1-1_armhf.deb",
-    "vendor": "debian",
-    "version": "21.0.13.0.3+1-1"
-  },
-  {
-    "architecture": "arm32-vfp-hflt",
-    "distro": "debian",
-    "features": [
-      "headless",
-      "hard-float"
-    ],
-    "file_type": "deb",
-    "filename": "openjdk-21-jre-headless_21.0.13.0.3+1-1_armhf.deb",
-    "image_type": "jre",
-    "java_version": "21.0.13.0.3+1-1-Debian",
-    "jvm_impl": "hotspot",
-    "last_verified": "2026-10-31",
-    "md5": "a1b5368ba7f3c6e6430396fd41a89002",
-    "os": "linux",
-    "release_type": "ga",
-    "sha1": "f45006b867be5161316c0f5ac3204a73f554875d",
-    "sha256": "52aaea184072d0260d343bc20e0a22709787a2564451e8134ffe192df8f7d164",
-    "sha512": "a45d800875c2e34b8ccbbd3cf52c4e5ff529a189199e8bff67d1050a4aa459be7b4ae81c827785c0bacc355a8241a2362629dcca2746b7ec79cb5cb92dc8fe49",
-    "size": 35950604,
-    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-21/openjdk-21-jre-headless_21.0.13.0.3+1-1_armhf.deb",
     "vendor": "debian",
     "version": "21.0.13.0.3+1-1"
   }

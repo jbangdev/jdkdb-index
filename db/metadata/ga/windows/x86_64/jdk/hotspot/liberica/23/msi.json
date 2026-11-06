@@ -93,29 +93,6 @@
     "architecture": "x86_64",
     "distro": "liberica",
     "features": [
-      "lite"
-    ],
-    "file_type": "msi",
-    "filename": "bellsoft-jdk23.0.1+13-windows-amd64-lite.msi",
-    "image_type": "jdk",
-    "java_version": "23.0.1+13",
-    "jvm_impl": "hotspot",
-    "last_verified": "2026-09-08",
-    "md5": "40ccbc18e8560bb74c244813eaaed198",
-    "os": "windows",
-    "release_type": "ga",
-    "sha1": "dbff4bc7f0d1770705f5524630bbfd0bf86886c1",
-    "sha256": "f33a6e72335cb62f707ef7394f30dd4734b8b3cb1faaca4e5f9f03563dc7cd12",
-    "sha512": "6448cbe2cf6c91ab31af96337f15eb807f3e332a5a86ac671560864eb7817fa82726e31c8f1e7753c51b3eee65779c04a9ab5c18133422ca15ae75d071954831",
-    "size": 82223104,
-    "url": "https://github.com/bell-sw/Liberica/releases/download/23.0.1+13/bellsoft-jdk23.0.1+13-windows-amd64-lite.msi",
-    "vendor": "bellsoft",
-    "version": "23.0.1+13"
-  },
-  {
-    "architecture": "x86_64",
-    "distro": "liberica",
-    "features": [
       "libericafx",
       "minimal-vm",
       "javafx"
@@ -140,23 +117,25 @@
   {
     "architecture": "x86_64",
     "distro": "liberica",
-    "features": [ ],
+    "features": [
+      "lite"
+    ],
     "file_type": "msi",
-    "filename": "bellsoft-jdk23+38-windows-amd64.msi",
+    "filename": "bellsoft-jdk23.0.1+13-windows-amd64-lite.msi",
     "image_type": "jdk",
-    "java_version": "23+38",
+    "java_version": "23.0.1+13",
     "jvm_impl": "hotspot",
-    "last_verified": "2026-09-03",
-    "md5": "75356dcfe4db9278259e5ed18dc88b51",
+    "last_verified": "2026-09-08",
+    "md5": "40ccbc18e8560bb74c244813eaaed198",
     "os": "windows",
     "release_type": "ga",
-    "sha1": "72c42293f399e78c2ea2867547eb785fbd7b3280",
-    "sha256": "d081724b37d62c6bb02c848c380e109800fce185c85f08e601b323602a8155f3",
-    "sha512": "9a42c37fb9f114f7ba5ba458c8c2733b2de336a678199c6877b70d2cad3a5b00455c194e8c24bddab252b844cd778e4384a02e100b22340728a4c4ff87b98862",
-    "size": 223842304,
-    "url": "https://github.com/bell-sw/Liberica/releases/download/23+38/bellsoft-jdk23+38-windows-amd64.msi",
+    "sha1": "dbff4bc7f0d1770705f5524630bbfd0bf86886c1",
+    "sha256": "f33a6e72335cb62f707ef7394f30dd4734b8b3cb1faaca4e5f9f03563dc7cd12",
+    "sha512": "6448cbe2cf6c91ab31af96337f15eb807f3e332a5a86ac671560864eb7817fa82726e31c8f1e7753c51b3eee65779c04a9ab5c18133422ca15ae75d071954831",
+    "size": 82223104,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/23.0.1+13/bellsoft-jdk23.0.1+13-windows-amd64-lite.msi",
     "vendor": "bellsoft",
-    "version": "23+38"
+    "version": "23.0.1+13"
   },
   {
     "architecture": "x86_64",
@@ -203,6 +182,27 @@
     "sha512": "0d8ac7166d29a5c330ebdbb1422d406a43a9ed75317c93ed336b27418bef3d622a6ab667c30195eec8a4224abc1a3ba6a480041182c3744dddecff8ad9647d6a",
     "size": 82206720,
     "url": "https://github.com/bell-sw/Liberica/releases/download/23+38/bellsoft-jdk23+38-windows-amd64-lite.msi",
+    "vendor": "bellsoft",
+    "version": "23+38"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [ ],
+    "file_type": "msi",
+    "filename": "bellsoft-jdk23+38-windows-amd64.msi",
+    "image_type": "jdk",
+    "java_version": "23+38",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-03",
+    "md5": "75356dcfe4db9278259e5ed18dc88b51",
+    "os": "windows",
+    "release_type": "ga",
+    "sha1": "72c42293f399e78c2ea2867547eb785fbd7b3280",
+    "sha256": "d081724b37d62c6bb02c848c380e109800fce185c85f08e601b323602a8155f3",
+    "sha512": "9a42c37fb9f114f7ba5ba458c8c2733b2de336a678199c6877b70d2cad3a5b00455c194e8c24bddab252b844cd778e4384a02e100b22340728a4c4ff87b98862",
+    "size": 223842304,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/23+38/bellsoft-jdk23+38-windows-amd64.msi",
     "vendor": "bellsoft",
     "version": "23+38"
   }

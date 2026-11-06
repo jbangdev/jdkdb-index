@@ -92,6 +92,27 @@
   {
     "architecture": "loong64",
     "distro": "debian",
+    "features": [ ],
+    "file_type": "deb",
+    "filename": "openjdk-21-jre_21.0.13+9-1_loong64.deb",
+    "image_type": "jre",
+    "java_version": "21.0.13+9",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-10-25",
+    "md5": "bfbaafe3d2a9758485c786dcdac1fee1",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "928af419fbe0b3f75a9432b50a289df3fcfed25e",
+    "sha256": "88252fd65b6840e81f3630042bf93afe3d05f144cc76136582f3293831577597",
+    "sha512": "474316c88acf99e79879d33c0508ccc0001dcf68d4728c9f6ef23b2373b82b6f7ae2a693f05a3bd6d13dc8f3e9b768a63920e7f52944cde0f235d7517443ffa1",
+    "size": 203780,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-21/openjdk-21-jre_21.0.13+9-1_loong64.deb",
+    "vendor": "debian",
+    "version": "21.0.13+9-1"
+  },
+  {
+    "architecture": "loong64",
+    "distro": "debian",
     "features": [
       "headless"
     ],
@@ -115,23 +136,26 @@
   {
     "architecture": "loong64",
     "distro": "debian",
-    "features": [ ],
+    "features": [
+      "headless"
+    ],
     "file_type": "deb",
-    "filename": "openjdk-21-jre_21.0.13+9-1_loong64.deb",
+    "filename": "openjdk-21-jre-headless_21.0.12.1+1-1_loong64.deb",
     "image_type": "jre",
-    "java_version": "21.0.13+9",
+    "java_version": "21.0.12.1+1-1-Debian",
     "jvm_impl": "hotspot",
-    "last_verified": "2026-10-25",
-    "md5": "bfbaafe3d2a9758485c786dcdac1fee1",
+    "last_verified": "2026-09-01",
+    "md5": "8887ebf22c37610e13573aeb4984bd57",
     "os": "linux",
     "release_type": "ga",
-    "sha1": "928af419fbe0b3f75a9432b50a289df3fcfed25e",
-    "sha256": "88252fd65b6840e81f3630042bf93afe3d05f144cc76136582f3293831577597",
-    "sha512": "474316c88acf99e79879d33c0508ccc0001dcf68d4728c9f6ef23b2373b82b6f7ae2a693f05a3bd6d13dc8f3e9b768a63920e7f52944cde0f235d7517443ffa1",
-    "size": 203780,
-    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-21/openjdk-21-jre_21.0.13+9-1_loong64.deb",
+    "sha1": "1a13310ce3bb11d623f437517e3afc1b4cc92c40",
+    "sha256": "7ac957d6c4b6833707783a215f8cb63695969b71dda6a66676f4292083153839",
+    "sha512": "7905d7a5dd79b384bd5a0e21c2e7af25b56430e04da9393da9967939114cf119c9c1586dc2294eb54c025c33d339ca6116de639e97690db6b06901ac0eb99844",
+    "size": 36994996,
+    "unlisted_since": "2026-10-22",
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-21/openjdk-21-jre-headless_21.0.12.1+1-1_loong64.deb",
     "vendor": "debian",
-    "version": "21.0.13+9-1"
+    "version": "21.0.12.1+1-1"
   },
   {
     "architecture": "loong64",
@@ -152,30 +176,6 @@
     "size": 203788,
     "unlisted_since": "2026-10-22",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-21/openjdk-21-jre_21.0.12.1+1-1_loong64.deb",
-    "vendor": "debian",
-    "version": "21.0.12.1+1-1"
-  },
-  {
-    "architecture": "loong64",
-    "distro": "debian",
-    "features": [
-      "headless"
-    ],
-    "file_type": "deb",
-    "filename": "openjdk-21-jre-headless_21.0.12.1+1-1_loong64.deb",
-    "image_type": "jre",
-    "java_version": "21.0.12.1+1-1-Debian",
-    "jvm_impl": "hotspot",
-    "last_verified": "2026-09-01",
-    "md5": "8887ebf22c37610e13573aeb4984bd57",
-    "os": "linux",
-    "release_type": "ga",
-    "sha1": "1a13310ce3bb11d623f437517e3afc1b4cc92c40",
-    "sha256": "7ac957d6c4b6833707783a215f8cb63695969b71dda6a66676f4292083153839",
-    "sha512": "7905d7a5dd79b384bd5a0e21c2e7af25b56430e04da9393da9967939114cf119c9c1586dc2294eb54c025c33d339ca6116de639e97690db6b06901ac0eb99844",
-    "size": 36994996,
-    "unlisted_since": "2026-10-22",
-    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-21/openjdk-21-jre-headless_21.0.12.1+1-1_loong64.deb",
     "vendor": "debian",
     "version": "21.0.12.1+1-1"
   }

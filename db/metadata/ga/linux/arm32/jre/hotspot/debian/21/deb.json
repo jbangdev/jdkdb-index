@@ -50,29 +50,6 @@
     "architecture": "arm32",
     "distro": "debian",
     "features": [
-      "soft-float"
-    ],
-    "file_type": "deb",
-    "filename": "openjdk-21-jre_21.0.12.1+1-1~deb13u1_armel.deb",
-    "image_type": "jre",
-    "java_version": "21.0.12.1+1",
-    "jvm_impl": "hotspot",
-    "last_verified": "2026-09-03",
-    "md5": "1b400ec4504634c9e22703ed71f76920",
-    "os": "linux",
-    "release_type": "ga",
-    "sha1": "da886f6d9871624baa4412acf8dc974c444c4ac2",
-    "sha256": "a8e7608f318ceef0f4099781c9e09a1a2e5d140e4161e67c7b27cd8c81c58eda",
-    "sha512": "ad0c4be2ccb6ac4ebd99f5a1a3cffc604fb2fe48437117c1f630e906442b82307a5a2866b9063448bb5ec1e05c97fe7ebb0cb12295b584f4a57726a19fa033ea",
-    "size": 187868,
-    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-21/openjdk-21-jre_21.0.12.1+1-1~deb13u1_armel.deb",
-    "vendor": "debian",
-    "version": "21.0.12.1+1-1~deb13u1"
-  },
-  {
-    "architecture": "arm32",
-    "distro": "debian",
-    "features": [
       "headless",
       "soft-float"
     ],
@@ -97,26 +74,24 @@
     "architecture": "arm32",
     "distro": "debian",
     "features": [
-      "headless",
       "soft-float"
     ],
     "file_type": "deb",
-    "filename": "openjdk-21-jre-headless_21.0.11+10-1~deb13u2_armel.deb",
+    "filename": "openjdk-21-jre_21.0.12.1+1-1~deb13u1_armel.deb",
     "image_type": "jre",
-    "java_version": "21.0.11+10-1-deb13u2-Debian",
+    "java_version": "21.0.12.1+1",
     "jvm_impl": "hotspot",
-    "last_verified": "2026-09-06",
-    "md5": "56a27017856b1eee2501158b3cb96230",
+    "last_verified": "2026-09-03",
+    "md5": "1b400ec4504634c9e22703ed71f76920",
     "os": "linux",
     "release_type": "ga",
-    "sha1": "f01575ad97c12c8b062c466368e99b489d5c7799",
-    "sha256": "c90d36064b2c82f0c45ecb190694a4f50ed7286d733bbafeabf66edfaa4ad895",
-    "sha512": "8daf91e7159515ff1d9f00dd1c49abc1253d1dbfc1ec8d851c64815554bd1e5a370f554a07549abea780624e17a4dcee9cdc430aa08c4dd353a2f36c5b25be19",
-    "size": 32992208,
-    "unlisted_since": "2026-09-15",
-    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-21/openjdk-21-jre-headless_21.0.11+10-1~deb13u2_armel.deb",
+    "sha1": "da886f6d9871624baa4412acf8dc974c444c4ac2",
+    "sha256": "a8e7608f318ceef0f4099781c9e09a1a2e5d140e4161e67c7b27cd8c81c58eda",
+    "sha512": "ad0c4be2ccb6ac4ebd99f5a1a3cffc604fb2fe48437117c1f630e906442b82307a5a2866b9063448bb5ec1e05c97fe7ebb0cb12295b584f4a57726a19fa033ea",
+    "size": 187868,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-21/openjdk-21-jre_21.0.12.1+1-1~deb13u1_armel.deb",
     "vendor": "debian",
-    "version": "21.0.11+10-1~deb13u2"
+    "version": "21.0.12.1+1-1~deb13u1"
   },
   {
     "architecture": "arm32",
@@ -139,6 +114,31 @@
     "size": 187344,
     "unlisted_since": "2026-09-15",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-21/openjdk-21-jre_21.0.11+10-1~deb13u2_armel.deb",
+    "vendor": "debian",
+    "version": "21.0.11+10-1~deb13u2"
+  },
+  {
+    "architecture": "arm32",
+    "distro": "debian",
+    "features": [
+      "headless",
+      "soft-float"
+    ],
+    "file_type": "deb",
+    "filename": "openjdk-21-jre-headless_21.0.11+10-1~deb13u2_armel.deb",
+    "image_type": "jre",
+    "java_version": "21.0.11+10-1-deb13u2-Debian",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-06",
+    "md5": "56a27017856b1eee2501158b3cb96230",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "f01575ad97c12c8b062c466368e99b489d5c7799",
+    "sha256": "c90d36064b2c82f0c45ecb190694a4f50ed7286d733bbafeabf66edfaa4ad895",
+    "sha512": "8daf91e7159515ff1d9f00dd1c49abc1253d1dbfc1ec8d851c64815554bd1e5a370f554a07549abea780624e17a4dcee9cdc430aa08c4dd353a2f36c5b25be19",
+    "size": 32992208,
+    "unlisted_since": "2026-09-15",
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-21/openjdk-21-jre-headless_21.0.11+10-1~deb13u2_armel.deb",
     "vendor": "debian",
     "version": "21.0.11+10-1~deb13u2"
   }

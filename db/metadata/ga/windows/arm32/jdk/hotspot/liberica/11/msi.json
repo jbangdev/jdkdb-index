@@ -136,6 +136,27 @@
   {
     "architecture": "arm32",
     "distro": "liberica",
+    "features": [ ],
+    "file_type": "msi",
+    "filename": "bellsoft-jdk11.0.33+11-windows-aarch64.msi",
+    "image_type": "jdk",
+    "java_version": "11.0.33+11-LTS",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-10-22",
+    "md5": "d81586802f15c278cac0c33cc4f5a737",
+    "os": "windows",
+    "release_type": "ga",
+    "sha1": "dc2a0cdd2781151a74ed36cbf085befdd5045a04",
+    "sha256": "8aadc327626da602c83d113c62c64c96cbcd879e5a41abd0dc8e39488bd73da1",
+    "sha512": "e275c4008586c9764a07faa49d40a04cfa84c79cbb8dd4a47757c16f2423425fe69dd84535ea988d8e404d1ad56ec8259fd511f2f8a174f33f575186792a0f3c",
+    "size": 189779968,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.33+11/bellsoft-jdk11.0.33+11-windows-aarch64.msi",
+    "vendor": "bellsoft",
+    "version": "11.0.33+11"
+  },
+  {
+    "architecture": "arm32",
+    "distro": "liberica",
     "features": [
       "javafx"
     ],
@@ -182,23 +203,25 @@
   {
     "architecture": "arm32",
     "distro": "liberica",
-    "features": [ ],
+    "features": [
+      "lite"
+    ],
     "file_type": "msi",
-    "filename": "bellsoft-jdk11.0.33+11-windows-aarch64.msi",
+    "filename": "bellsoft-jdk11.0.32.1+1-windows-aarch64-lite.msi",
     "image_type": "jdk",
-    "java_version": "11.0.33+11-LTS",
+    "java_version": "11.0.32.1+1-LTS",
     "jvm_impl": "hotspot",
-    "last_verified": "2026-10-22",
-    "md5": "d81586802f15c278cac0c33cc4f5a737",
+    "last_verified": "2026-09-06",
+    "md5": "d5cc0a2df6b385d9b987e1946d523927",
     "os": "windows",
     "release_type": "ga",
-    "sha1": "dc2a0cdd2781151a74ed36cbf085befdd5045a04",
-    "sha256": "8aadc327626da602c83d113c62c64c96cbcd879e5a41abd0dc8e39488bd73da1",
-    "sha512": "e275c4008586c9764a07faa49d40a04cfa84c79cbb8dd4a47757c16f2423425fe69dd84535ea988d8e404d1ad56ec8259fd511f2f8a174f33f575186792a0f3c",
-    "size": 189779968,
-    "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.33+11/bellsoft-jdk11.0.33+11-windows-aarch64.msi",
+    "sha1": "eeeb0b5e46d11e2847e3823f0f61a195444e008f",
+    "sha256": "cf6606d153d350491d62cace8e4c78845aab173826540468ae7cf17e9c904e1d",
+    "sha512": "b450f54937a8be776f8d5a62a54e5b6d3c29e1a5b078b5aff3e60a394e42f634266476cd1257f212218c78aef7b38f14ddddf29cc1b8b5e77f7e85d55265b8aa",
+    "size": 73129984,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.32.1+1/bellsoft-jdk11.0.32.1+1-windows-aarch64-lite.msi",
     "vendor": "bellsoft",
-    "version": "11.0.33+11"
+    "version": "11.0.32.1+1"
   },
   {
     "architecture": "arm32",
@@ -225,29 +248,6 @@
     "architecture": "arm32",
     "distro": "liberica",
     "features": [
-      "lite"
-    ],
-    "file_type": "msi",
-    "filename": "bellsoft-jdk11.0.32.1+1-windows-aarch64-lite.msi",
-    "image_type": "jdk",
-    "java_version": "11.0.32.1+1-LTS",
-    "jvm_impl": "hotspot",
-    "last_verified": "2026-09-06",
-    "md5": "d5cc0a2df6b385d9b987e1946d523927",
-    "os": "windows",
-    "release_type": "ga",
-    "sha1": "eeeb0b5e46d11e2847e3823f0f61a195444e008f",
-    "sha256": "cf6606d153d350491d62cace8e4c78845aab173826540468ae7cf17e9c904e1d",
-    "sha512": "b450f54937a8be776f8d5a62a54e5b6d3c29e1a5b078b5aff3e60a394e42f634266476cd1257f212218c78aef7b38f14ddddf29cc1b8b5e77f7e85d55265b8aa",
-    "size": 73129984,
-    "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.32.1+1/bellsoft-jdk11.0.32.1+1-windows-aarch64-lite.msi",
-    "vendor": "bellsoft",
-    "version": "11.0.32.1+1"
-  },
-  {
-    "architecture": "arm32",
-    "distro": "liberica",
-    "features": [
       "javafx"
     ],
     "file_type": "msi",
@@ -266,29 +266,6 @@
     "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.32.1+1/bellsoft-jdk11.0.32.1+1-windows-aarch64-full.msi",
     "vendor": "bellsoft",
     "version": "11.0.32.1+1"
-  },
-  {
-    "architecture": "arm32",
-    "distro": "liberica",
-    "features": [
-      "javafx"
-    ],
-    "file_type": "msi",
-    "filename": "bellsoft-jdk11.0.32+11-windows-aarch64-full.msi",
-    "image_type": "jdk",
-    "java_version": "11.0.32+11-LTS",
-    "jvm_impl": "hotspot",
-    "last_verified": "2026-09-08",
-    "md5": "e1a3876510532ffe745cc4d4400dc0d7",
-    "os": "windows",
-    "release_type": "ga",
-    "sha1": "9016800057df375bde21f9aaa8f6603489d99d94",
-    "sha256": "5c8209a2d7c70ecf571ef6b0c77d50d5505778d604315c82e15931b115812da1",
-    "sha512": "65db0ece4490be21742ecc556a1a1e60c1267d2766c827a0ca9c831d17cc634d3b2c4593fcbfe3e7fb246bcd202b61213bd2ae102f51dd1c06a1a114fa0b878f",
-    "size": 216875008,
-    "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.32+11/bellsoft-jdk11.0.32+11-windows-aarch64-full.msi",
-    "vendor": "bellsoft",
-    "version": "11.0.32+11"
   },
   {
     "architecture": "arm32",
@@ -331,6 +308,29 @@
     "sha512": "3e771211905dde2a92a1d504e3ee6f9690db8107019fab1074db2afea5b85753386e7921a3f5c432c3fadf566d868a383fb3e79e281a58f4ccef07f7bab50991",
     "size": 73129984,
     "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.32+11/bellsoft-jdk11.0.32+11-windows-aarch64-lite.msi",
+    "vendor": "bellsoft",
+    "version": "11.0.32+11"
+  },
+  {
+    "architecture": "arm32",
+    "distro": "liberica",
+    "features": [
+      "javafx"
+    ],
+    "file_type": "msi",
+    "filename": "bellsoft-jdk11.0.32+11-windows-aarch64-full.msi",
+    "image_type": "jdk",
+    "java_version": "11.0.32+11-LTS",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-08",
+    "md5": "e1a3876510532ffe745cc4d4400dc0d7",
+    "os": "windows",
+    "release_type": "ga",
+    "sha1": "9016800057df375bde21f9aaa8f6603489d99d94",
+    "sha256": "5c8209a2d7c70ecf571ef6b0c77d50d5505778d604315c82e15931b115812da1",
+    "sha512": "65db0ece4490be21742ecc556a1a1e60c1267d2766c827a0ca9c831d17cc634d3b2c4593fcbfe3e7fb246bcd202b61213bd2ae102f51dd1c06a1a114fa0b878f",
+    "size": 216875008,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.32+11/bellsoft-jdk11.0.32+11-windows-aarch64-full.msi",
     "vendor": "bellsoft",
     "version": "11.0.32+11"
   },
