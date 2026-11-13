@@ -3546,6 +3546,73 @@
     "architecture": "ppc64le",
     "distro": "debian",
     "features": [
+      "headless"
+    ],
+    "file_type": "deb",
+    "filename": "openjdk-25-jre-headless_25.0.5.0.3+1-3_ppc64el.deb",
+    "image_type": "jre",
+    "java_version": "25.0.5.0.3+1-3-Debian",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-11-13",
+    "md5": "e0b8c80c5e628da721106ab39d764894",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "ca12f94bcce13d6387ecd12d645c576d5b0a85f3",
+    "sha256": "c4509650ae63c02420a0e53ee7af428099458d0b0b294b735f530bcb5c68f12f",
+    "sha512": "596b0767f0c76edc18a7e876c403408a7caef2e774c0fedbdea260082208449969d61426bda824decd4c3c1c895c1a3b3e4f23fb611ba2865093740ffb80be67",
+    "size": 51996024,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-25/openjdk-25-jre-headless_25.0.5.0.3+1-3_ppc64el.deb",
+    "vendor": "debian",
+    "version": "25.0.5.0.3+1-3"
+  },
+  {
+    "architecture": "ppc64le",
+    "distro": "debian",
+    "features": [ ],
+    "file_type": "deb",
+    "filename": "openjdk-25-jre_25.0.5.0.3+1-3_ppc64el.deb",
+    "image_type": "jre",
+    "java_version": "25.0.5.0.3+1",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-11-13",
+    "md5": "43c530f721d6fa732bd19a80e9591208",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "58dbf4e1663e8599ebcb8c467cd3114cfbd7d545",
+    "sha256": "62943c7423523b76e59432e468808e50f1046f33b53bba05919a062c81ef198b",
+    "sha512": "63127d2f67ceb880c0825fa8ca0aa3f1a82a569c1f165a48badb7db91a05bff5505a16608b385a1799a138d5da3a13a3597ced61749b0cdf51a3d59291db9b62",
+    "size": 217824,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-25/openjdk-25-jre_25.0.5.0.3+1-3_ppc64el.deb",
+    "vendor": "debian",
+    "version": "25.0.5.0.3+1-3"
+  },
+  {
+    "architecture": "ppc64le",
+    "distro": "debian",
+    "features": [
+      "zero"
+    ],
+    "file_type": "deb",
+    "filename": "openjdk-25-jre-zero_25.0.5.0.3+1-3_ppc64el.deb",
+    "image_type": "jre",
+    "java_version": "25.0.5.0.3+1",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-11-13",
+    "md5": "e71fd58d42338c7123e52df3a5c4cba7",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "e237a5693b2755046e04976939a1d0200f61d3f2",
+    "sha256": "965194eb4a60dbe38db046184019382dbb3d0c3e575a53731970e1dd92450285",
+    "sha512": "1cd86e219cd159240240c5d2c38447c3d14505be2787efaf01f3e8d3881957aa596e9aa762b0c073c8607bfabc0ddaba73473920b8b27411ef61fad37eaebc61",
+    "size": 15813476,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-25/openjdk-25-jre-zero_25.0.5.0.3+1-3_ppc64el.deb",
+    "vendor": "debian",
+    "version": "25.0.5.0.3+1-3"
+  },
+  {
+    "architecture": "ppc64le",
+    "distro": "debian",
+    "features": [
       "zero"
     ],
     "file_type": "deb",
@@ -3628,6 +3695,7 @@
     "sha256": "e2966a70f5fc6fa9120674b509f422072f23db62b81f7f0149929560b2958b99",
     "sha512": "9e33842f28468ac5c31c518f83c7979630a6ac346425ab78912111d53016fbe9699e4e0c8d6921e810e03dcb8a5d0e4d301b0a4cd221dd950553e3a0c953d331",
     "size": 15804736,
+    "unlisted_since": "2026-11-13",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-25/openjdk-25-jre-zero_25.0.5.0.3+1-1_ppc64el.deb",
     "vendor": "debian",
     "version": "25.0.5.0.3+1-1"
@@ -3649,6 +3717,7 @@
     "sha256": "f7a0d93af67043b65207c8e3cffe47ebed28fa87ceba1875e2a3cd4caa531663",
     "sha512": "f2799c3b68b8b9a1b193cd7ad13a06839e63e41a4ffd6ca088da9740d4ebd67903a2ce30dae03651440d35a1b3dcc2a2c4d50e5df8e86791a10373f372688fb8",
     "size": 217924,
+    "unlisted_since": "2026-11-13",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-25/openjdk-25-jre_25.0.5.0.3+1-1_ppc64el.deb",
     "vendor": "debian",
     "version": "25.0.5.0.3+1-1"
@@ -3672,6 +3741,7 @@
     "sha256": "b9ede578f9b68975223fbe35eb7c364d039a97229ec521dd872b6d2d67d65d97",
     "sha512": "d62010b574bdd9237a0ee13fee76a5bd3f14a52eb43972169b251ba09a2530a4beea53308549dcc729cff041ffff7b0fa5851a5a1c2eaec4c9633f349606241a",
     "size": 51984360,
+    "unlisted_since": "2026-11-13",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-25/openjdk-25-jre-headless_25.0.5.0.3+1-1_ppc64el.deb",
     "vendor": "debian",
     "version": "25.0.5.0.3+1-1"
