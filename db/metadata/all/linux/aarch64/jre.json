@@ -4238,6 +4238,7 @@
     "sha256": "27c64e1a28f6236860f99b8fac9271c1a1099edd6e318addc8b5e98f7a751f9e",
     "sha512": "cda585bfcf726cf3a549289adc69adaa13bba5b54acd445621d422f39e9c610441fa0ee2a1a302431536a6ccb6b92ca040177cdfd5c372f6619592e70d20ace7",
     "size": 191772,
+    "unlisted_since": "2026-11-14",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-25/openjdk-25-jre_25.0.5.0.3+1-2_arm64.deb",
     "vendor": "debian",
     "version": "25.0.5.0.3+1-2"
@@ -4261,6 +4262,7 @@
     "sha256": "80234e4dc3f36d1b977a96dfd8ac2a835897de2f22a083e2eb48cb2c52054762",
     "sha512": "eec2dc5784f66becd917009769fe37407817844742a059168092ec1977928ae67f1a5df869a1d8cddbd315409be100817522c300b49027cd0227a0886a377837",
     "size": 15974280,
+    "unlisted_since": "2026-11-14",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-25/openjdk-25-jre-zero_25.0.5.0.3+1-2_arm64.deb",
     "vendor": "debian",
     "version": "25.0.5.0.3+1-2"
@@ -4284,6 +4286,7 @@
     "sha256": "82d18fc8f278090776209d967e5a9923deb7fed8cd20d289d894471cd4036d22",
     "sha512": "c01e30d121e065e37a3c551f70c1c187caac1d4755dc296872bdb7f3de198d36e1d0f356897da70c9f0bd4e4e5f3c3706af7fa6a3fd961461fb35c154cb78c6c",
     "size": 52606824,
+    "unlisted_since": "2026-11-14",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-25/openjdk-25-jre-headless_25.0.5.0.3+1-2_arm64.deb",
     "vendor": "debian",
     "version": "25.0.5.0.3+1-2"
@@ -66234,6 +66237,27 @@
     "url": "https://github.com/ibmruntimes/semeru8-binaries/releases/download/jdk8u302-b08_openj9-0.27.0/ibm-semeru-open-8-jre-1.8.0.302.b08-1.aarch64.rpm",
     "vendor": "ibm",
     "version": "8u302-b08_openj9-0.27.0"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "temurin",
+    "features": [ ],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK-jre_aarch64_linux_hotspot_28_24-ea.tar.gz",
+    "image_type": "jre",
+    "java_version": "28",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-11-14",
+    "md5": "b206fdc2bf3aa590072d7aaf776c5ead",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "7525199c926eee27cf510461a4e0eeebfeabf955",
+    "sha256": "b381c7e88c78ef3221d26ff2379fd5aca38155d18c96130b4daa2e8cf9402519",
+    "sha512": "079e8219cee7d43110e931292a2c6689138e2fb904a118333ada9a17d8e46022d0574fbbede42848af2afaeb294f92fc64322d9f35b06a1a1d108ecbb5e028e5",
+    "size": 79148537,
+    "url": "https://github.com/adoptium/temurin28-binaries/releases/download/jdk-28%2B24-ea-beta/OpenJDK-jre_aarch64_linux_hotspot_28_24-ea.tar.gz",
+    "vendor": "eclipse",
+    "version": "28+24-ea-beta"
   },
   {
     "architecture": "aarch64",

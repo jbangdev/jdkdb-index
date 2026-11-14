@@ -7796,6 +7796,7 @@
     "sha256": "2bd186ff7eca53e5e193ff431a5be3bf0f66652e6f05c13ba99a752a458f40b3",
     "sha512": "60fc888920c0865ba634c8d218690c49389deedd4bb3f4d3cb32d159172eeb2fd52f4697b55d80ef3b4e5c3f0decea971d07417dffa4f77fba988a0d8b48d639",
     "size": 88887224,
+    "unlisted_since": "2026-11-14",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-25/openjdk-25-jdk-headless_25.0.5.0.3+1-2_arm64.deb",
     "vendor": "debian",
     "version": "25.0.5.0.3+1-2"
@@ -7817,6 +7818,7 @@
     "sha256": "f309b26e5d1928c70ae89d68a198e32adf039cdd9ca0d854d1d2d811cd848ff5",
     "sha512": "a68477741313d7082938f43cf4f42785671201f32fe277bed917c0f675479cc3cd2aeb52e741c3c793c49e3d3435bf25c48be7c4b5ce61603f804970dbc90039",
     "size": 3810724,
+    "unlisted_since": "2026-11-14",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-25/openjdk-25-jdk_25.0.5.0.3+1-2_arm64.deb",
     "vendor": "debian",
     "version": "25.0.5.0.3+1-2"
@@ -82785,6 +82787,27 @@
     "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-11.0.9/sapmachine-jdk-11.0.9-beta_linux-aarch64_bin.tar.gz",
     "vendor": "sap",
     "version": "11.0.9-beta"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "temurin",
+    "features": [ ],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK-jdk_aarch64_linux_hotspot_28_24-ea.tar.gz",
+    "image_type": "jdk",
+    "java_version": "28",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-11-14",
+    "md5": "dc290dd3ede7944de02f8c83922abca9",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "11c83f3ea7e3c692b547adb430ebee9826572ea1",
+    "sha256": "54e35bb7e895cee19dc1f21dfe16168c8dd6e48b7b1b5650fde056395eadff25",
+    "sha512": "a82f53d99526efefbad3e6012514a6f6a588b826b8472c6bc482e83fb3373bee599e907106889216a375689ffef0b26ae4de2474faf29e79392e04f48e62b93e",
+    "size": 160148665,
+    "url": "https://github.com/adoptium/temurin28-binaries/releases/download/jdk-28%2B24-ea-beta/OpenJDK-jdk_aarch64_linux_hotspot_28_24-ea.tar.gz",
+    "vendor": "eclipse",
+    "version": "28+24-ea-beta"
   },
   {
     "architecture": "aarch64",

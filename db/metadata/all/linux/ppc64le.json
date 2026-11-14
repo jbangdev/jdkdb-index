@@ -10287,6 +10287,7 @@
     "sha256": "bb2b6f612971492ea278974f7637fcab08fe313e18669a0e59a52f3d43eec58d",
     "sha512": "8eee2ccf1a71594ab94cbcd89b98241c908f614d078f819cfacad44e895fb77e29fd897eee79d9200186485a02ffd2d520cb56684aa8f0c90d8523a0a25a959f",
     "size": 15779484,
+    "unlisted_since": "2026-11-14",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-25/openjdk-25-jre-zero_25.0.5.0.3+1-2_ppc64el.deb",
     "vendor": "debian",
     "version": "25.0.5.0.3+1-2"
@@ -10308,6 +10309,7 @@
     "sha256": "e8a7e694be0ee6ba50b9ff7c71ae64bdd9898f5f197c17466467ff19d417da30",
     "sha512": "f4ff17bc59cdfb8addd4c32a991892e6b4fa2b3a89e752d26cc7a97c6cd6f89e9c27beac5e64fd412991569d9aeb4bf11bdccf1be29298235381b496bae77ff4",
     "size": 3808556,
+    "unlisted_since": "2026-11-14",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-25/openjdk-25-jdk_25.0.5.0.3+1-2_ppc64el.deb",
     "vendor": "debian",
     "version": "25.0.5.0.3+1-2"
@@ -10329,6 +10331,7 @@
     "sha256": "196c6c695134960124becef006d55cb9340f321a5c7ba86225f8b044762dfc12",
     "sha512": "ec554c05b72b9d10a1c295228f291942acb681bc80596e399b0d9d875fb2e453035b5a1c092ba76aacbdb0c575d7485cb096c82b12a0519276954171cbc7b5ff",
     "size": 217828,
+    "unlisted_since": "2026-11-14",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-25/openjdk-25-jre_25.0.5.0.3+1-2_ppc64el.deb",
     "vendor": "debian",
     "version": "25.0.5.0.3+1-2"
@@ -10352,6 +10355,7 @@
     "sha256": "145b747c619fbc5e5c5aea69caeb44578461dd4d0a2249aa9eabb382e6a974fd",
     "sha512": "42f59743bd904d248eec0047c13ba45c967b320cd4f6f54aed9264aa5c3066cdb967a8f664926a7ce35ab691007447c8ad3aac9359d26f1b5b98d2e482495512",
     "size": 88077404,
+    "unlisted_since": "2026-11-14",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-25/openjdk-25-jdk-headless_25.0.5.0.3+1-2_ppc64el.deb",
     "vendor": "debian",
     "version": "25.0.5.0.3+1-2"
@@ -10375,6 +10379,7 @@
     "sha256": "75da4d28481361bbf4965aaa2402726e293c638d8c81554781ef7810d3208d6f",
     "sha512": "f4bfb478b988ccfc28b3aaac773bd50f30f43ab7c2fb54327d6f81b4e9898a78cf7c80b474032b6660923a7cc4be549b65c023993321c0b000b7dd2883d7753b",
     "size": 52006016,
+    "unlisted_since": "2026-11-14",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-25/openjdk-25-jre-headless_25.0.5.0.3+1-2_ppc64el.deb",
     "vendor": "debian",
     "version": "25.0.5.0.3+1-2"
@@ -69207,6 +69212,48 @@
     "url": "https://github.com/ibmruntimes/semeru8-binaries/releases/download/jdk8u302-b08_openj9-0.27.0/ibm-semeru-open-8-jre-1.8.0.302.b08-1.ppc64le.rpm",
     "vendor": "ibm",
     "version": "8u302-b08_openj9-0.27.0"
+  },
+  {
+    "architecture": "ppc64le",
+    "distro": "temurin",
+    "features": [ ],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK-jdk_ppc64le_linux_hotspot_28_24-ea.tar.gz",
+    "image_type": "jdk",
+    "java_version": "28",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-11-14",
+    "md5": "0409c9ef6b9fe4bdba7bb1e18cee500a",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "c933949d02daefe92928b948ad0b1d4c6ba5437d",
+    "sha256": "f057634a85e9d32d9f0a36931f18392e8c1c702223df4131e49f3b492658b763",
+    "sha512": "b2c96e3a86528d248660afd49f0f68bd390237a93486d4bb0f91519a38af4ea18779056acdc006ac7628cd7fb058973d741091025d65a382ebbc27f27f4578b9",
+    "size": 159362443,
+    "url": "https://github.com/adoptium/temurin28-binaries/releases/download/jdk-28%2B24-ea-beta/OpenJDK-jdk_ppc64le_linux_hotspot_28_24-ea.tar.gz",
+    "vendor": "eclipse",
+    "version": "28+24-ea-beta"
+  },
+  {
+    "architecture": "ppc64le",
+    "distro": "temurin",
+    "features": [ ],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK-jre_ppc64le_linux_hotspot_28_24-ea.tar.gz",
+    "image_type": "jre",
+    "java_version": "28",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-11-14",
+    "md5": "6d12709618a5b47283e00c0081d9374c",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "cd212bc0d823375cf90d354aa0a008d9ad5d890e",
+    "sha256": "27b767850b72fbf7bf6f71b9c64dbac0e99c4a113680dcea2f4148ecb347966f",
+    "sha512": "9f7d9f2aef04fa02d99f9ebddfae08a82590056342ee8c21a41d78dbe82f806ae41d2d907a83a0ff87e26bc8d23a536df4a36453e34b4c58c1c300679ee16607",
+    "size": 78676654,
+    "url": "https://github.com/adoptium/temurin28-binaries/releases/download/jdk-28%2B24-ea-beta/OpenJDK-jre_ppc64le_linux_hotspot_28_24-ea.tar.gz",
+    "vendor": "eclipse",
+    "version": "28+24-ea-beta"
   },
   {
     "architecture": "ppc64le",
