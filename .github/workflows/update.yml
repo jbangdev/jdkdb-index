@@ -1,0 +1,129 @@
+name: Update jdkdb - indices
+on:
+  schedule:
+    - cron: '0 6 * * *'
+      timezone: 'UTC'
+  workflow_dispatch:
+    inputs:
+      allow_incomplete:
+        description: 'Allow incomplete metadata files to be indexed'
+        required: true
+        type: boolean
+        default: false
+      do_commit:
+        description: 'Commit the changes after creating indices'
+        required: true
+        type: boolean
+        default: true
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  update:
+    runs-on: 'ubuntu-latest'
+    outputs:
+      changes_detected: ${{ steps.publish.outputs.changes_detected }}
+      commit_sha: ${{ steps.publish.outputs.sha }}
+    steps:
+    - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6
+      with:
+        fetch-depth: 5
+
+    - name: Capture expected remote commit
+      id: checkout_commit
+      run: echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+
+    - name: Checkout jdkdb-data
+      uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6
+      with:
+        repository: jbangdev/jdkdb-data
+        path: jdkdb-data
+
+    - name: Set up JDK 21
+      uses: actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654 # v5
+      with:
+        java-version: '21'
+        distribution: 'temurin'
+    
+    - name: Setup JBang
+      uses: jbangdev/setup-jbang@312c53a4221283f9c8e4aa84d8261b82f0c680fb # main
+
+    - name: Run indexer manually
+      if: github.event_name == 'workflow_dispatch'
+      env:
+        GITHUB_API_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        APP=https://github.com/jbangdev/jdkdb-scraper/releases/latest/download/jdkdb-scraper-standalone.jar
+        EXTRA_OPTS="-m jdkdb-data/db/metadata"
+        if [ "${{ inputs.allow_incomplete }}" = "true" ]; then
+          EXTRA_OPTS="$EXTRA_OPTS --allow-incomplete"
+        fi
+        echo "Running indexer with: $EXTRA_OPTS"
+        jbang --java 21+ $APP --version
+        jbang --java 21+ $APP index $EXTRA_OPTS
+
+    - name: Run indexer on schedule
+      if: github.event_name == 'schedule'
+      env:
+        GITHUB_API_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        APP=https://github.com/jbangdev/jdkdb-scraper/releases/latest/download/jdkdb-scraper-standalone.jar
+        EXTRA_OPTS="-m jdkdb-data/db/metadata"
+        echo "Running indexer with: $EXTRA_OPTS"
+        jbang --java 21+ $APP --version
+        jbang --java 21+ $APP index $EXTRA_OPTS
+
+    - name: Remove jdkdb-data directory
+      run: rm -rf jdkdb-data
+
+    - name: Commit, retain five commits and push
+      id: publish
+      if: github.event_name == 'schedule' || inputs.do_commit
+      env:
+        BRANCH: ${{ github.ref_name }}
+        EXPECTED_SHA: ${{ steps.checkout_commit.outputs.sha }}
+      run: |
+        git config user.name 'github-actions[bot]'
+        git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+        git add -A
+        changes_detected=false
+        if ! git diff --cached --quiet; then
+          git commit -m "Update metadata indices"
+          changes_detected=true
+        fi
+
+        # This also trims existing history on the first run without data changes.
+        sha=$(python3 .github/scripts/retain-history.py)
+        if [ "$sha" != "$EXPECTED_SHA" ]; then
+          git push --force-with-lease="refs/heads/$BRANCH:$EXPECTED_SHA" \
+            origin "$sha:refs/heads/$BRANCH"
+        fi
+        echo "changes_detected=$changes_detected" >> "$GITHUB_OUTPUT"
+        echo "sha=$sha" >> "$GITHUB_OUTPUT"
+
+    - name: Upload log files
+      uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7
+      if: always()
+      with:
+        name: update-logs
+        path: logs/**/*.log
+        retention-days: 30
+
+  deploy_pages:
+    needs: update
+    if: needs.update.outputs.changes_detected == 'true'
+    uses: ./.github/workflows/static.yml
+    with:
+      ref: ${{ needs.update.outputs.commit_sha }}
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
