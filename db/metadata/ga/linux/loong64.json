@@ -542,6 +542,29 @@
   {
     "architecture": "loong64",
     "distro": "debian",
+    "features": [
+      "headless"
+    ],
+    "file_type": "deb",
+    "filename": "openjdk-21-jre-headless_21.0.13.1+2-1_loong64.deb",
+    "image_type": "jre",
+    "java_version": "21.0.13.1+2-1-Debian",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-11-20",
+    "md5": "c8e642acd8510a7576557b8e5688bfe8",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "fffbd18d8aed2f0aa81df6c63b50b98aa7634b84",
+    "sha256": "b4848c167fffbc6d7d06f7326225ba50873a7707abb8c20aeacb04e671791544",
+    "sha512": "1290b73116c9902d2ec5102d69a95592bf68d5fda9a5dd0e09400a960b8741645f64cec2db0b2c3406cd7863c7d3b0fc8dd829fdbac752a60bf13b619d84459f",
+    "size": 37060612,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-21/openjdk-21-jre-headless_21.0.13.1+2-1_loong64.deb",
+    "vendor": "debian",
+    "version": "21.0.13.1+2-1"
+  },
+  {
+    "architecture": "loong64",
+    "distro": "debian",
     "features": [ ],
     "file_type": "deb",
     "filename": "openjdk-21-jre_21.0.13.0.3+1-1_loong64.deb",
@@ -1310,6 +1333,29 @@
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-17/openjdk-17-jre-headless_17.0.20~7ea-1_loong64.deb",
     "vendor": "debian",
     "version": "17.0.20~7ea-1"
+  },
+  {
+    "architecture": "loong64",
+    "distro": "debian",
+    "features": [
+      "headless"
+    ],
+    "file_type": "deb",
+    "filename": "openjdk-8-jre-headless_8u514-ga-1_loong64.deb",
+    "image_type": "jre",
+    "java_version": "8u514",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-11-20",
+    "md5": "b66cfab9597d653b25a2054912eb058b",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "34c7cea94f0c747b363db7445c04ef46bdf7dfe3",
+    "sha256": "34f4c4ca2bd2787cb150b77171ebf9b3406514e3d34c7a409ee7af3713f7ef92",
+    "sha512": "0bc48e15aa41d8e370c262c258a37aa02138bc8a60c4cd4fd7ec948e2d82e99ebc8c8893a725320e72676d6a1873e04e583fb03f4266a6719c886ba9912ae6e8",
+    "size": 26385840,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-8/openjdk-8-jre-headless_8u514-ga-1_loong64.deb",
+    "vendor": "debian",
+    "version": "8u514-ga-1"
   },
   {
     "architecture": "loong64",

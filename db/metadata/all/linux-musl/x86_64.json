@@ -305,6 +305,52 @@
       "musl"
     ],
     "file_type": "tar.gz",
+    "filename": "OpenJDK25U-jdk_x64_alpine-linux_hotspot_25.0.5.1_2.tar.gz",
+    "image_type": "jdk",
+    "java_version": "25.0.5.1+2-LTS",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-11-20",
+    "md5": "16f89237c65a41a269ee4aae874d3801",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "235787437050653dd3dfa681e1a50faaf96682fc",
+    "sha256": "dbd75c6332ad995d20b6e25624b84652ef332d6babee4e9ddac3f36ee38d57be",
+    "sha512": "f11f7d61150cdded74bb6c2be17037dcb941ce2ab8d00be3af858da0e75bc82aabd0f404a37128dd0889aa1b7fdf796cf011fe43909fa13e95e8e2a6af6a2645",
+    "size": 140407144,
+    "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5.1%2B2/OpenJDK25U-jdk_x64_alpine-linux_hotspot_25.0.5.1_2.tar.gz",
+    "vendor": "adoptopenjdk",
+    "version": "25.0.5+100000002.0.LTS"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "adoptopenjdk",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK25U-jre_x64_alpine-linux_hotspot_25.0.5.1_2.tar.gz",
+    "image_type": "jre",
+    "java_version": "25.0.5.1+2-LTS",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-11-20",
+    "md5": "689f779eeb6d262fc771a42e481858b8",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "4f91ee56bcd54948a39946b96980a4c18259f00d",
+    "sha256": "b3d29ef8453da5e29c86b1ae08d8ed2a02597782b4ab5637e87f87b6bcc4cba9",
+    "sha512": "54bc914477c98d23ca5d8985dcd90e6206bdb6f8509d88784b8d6cc3f1510600325c46a4c253ea46e720629fc70eb7a1db6c705d2616f68fc3f62f7bb7de068c",
+    "size": 60946552,
+    "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5.1%2B2/OpenJDK25U-jre_x64_alpine-linux_hotspot_25.0.5.1_2.tar.gz",
+    "vendor": "adoptopenjdk",
+    "version": "25.0.5+100000002.0.LTS"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "adoptopenjdk",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
     "filename": "OpenJDK25U-jre_x64_alpine-linux_hotspot_25.0.5_8.tar.gz",
     "image_type": "jre",
     "java_version": "25.0.5+8-LTS",
@@ -2183,6 +2229,52 @@
     "url": "https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18%2B36/OpenJDK18U-jdk_x64_alpine-linux_hotspot_18_36.tar.gz",
     "vendor": "adoptopenjdk",
     "version": "18.0.0+36"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "adoptopenjdk",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK17U-jdk_x64_alpine-linux_hotspot_17.0.21.1_2.tar.gz",
+    "image_type": "jdk",
+    "java_version": "17.0.21.1+2",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-11-20",
+    "md5": "3791dbc9eb81581fd30a13ae6aa98412",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "479da1029ef0c86d4cc01af62c8740f43b653ed7",
+    "sha256": "4ac50955ad93051e45280c4edabae97c7c9ca4e1d2842c4e430e5b7d9960a570",
+    "sha512": "f1af66815c397a0567e67e1f17ea149302de79de17a98ca36b3c1ded75711226780b3cc030ee51ac92d3892a6da061b18b2affd10fd61ee04fad16ed1a4251cd",
+    "size": 192775348,
+    "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21.1%2B2/OpenJDK17U-jdk_x64_alpine-linux_hotspot_17.0.21.1_2.tar.gz",
+    "vendor": "adoptopenjdk",
+    "version": "17.0.21+100000002"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "adoptopenjdk",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK17U-jre_x64_alpine-linux_hotspot_17.0.21.1_2.tar.gz",
+    "image_type": "jre",
+    "java_version": "17.0.21.1+2",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-11-20",
+    "md5": "516e19d4e46a01220f8ebce2fd370a29",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "95119fcdc0d538403639b863cadc32752c17b562",
+    "sha256": "99fabb8e2517861fbbf1fc26103ee62240ec693340c4c7a812f7043e82acb203",
+    "sha512": "b41f40aff23003f2ae06cbd480149f135105cfdcbaec0775178b986c4a37c958c38920a154e54e0e220fd4a3e4969b62aa6b3b2f9d80af9d13e8815593514572",
+    "size": 46417416,
+    "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21.1%2B2/OpenJDK17U-jre_x64_alpine-linux_hotspot_17.0.21.1_2.tar.gz",
+    "vendor": "adoptopenjdk",
+    "version": "17.0.21+100000002"
   },
   {
     "architecture": "x86_64",
@@ -8743,6 +8835,29 @@
       "musl"
     ],
     "file_type": "tar.gz",
+    "filename": "Alibaba_Dragonwell_Standard_25.0.5.1.6.2_x64_alpine-linux.tar.gz",
+    "image_type": "jdk",
+    "java_version": "25.0.5.1.6.2",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-11-20",
+    "md5": "2e4356b84d4e47cfd1fc85144f959569",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "4636440487f5c246d0591cf0e2bae6bfa99e2886",
+    "sha256": "fb69e9647667905bea14024a2944d7a0338385edc5ed3c10d9b2c82bc8fc653e",
+    "sha512": "7ada20516284a9eded4d59bf6f9272143fe0cb24e7b9e8d24057d04af9da78d942186c680af7d674eaf3f229cd6cae58752eff5f2d917b28977d2edc985a7e2c",
+    "size": 140404576,
+    "url": "https://github.com/dragonwell-project/dragonwell25/releases/download/dragonwell-standard-25.0.5.1.6%2B2_jdk-25.0.5.1-ga/Alibaba_Dragonwell_Standard_25.0.5.1.6.2_x64_alpine-linux.tar.gz",
+    "vendor": "alibaba",
+    "version": "25.0.5.1.6.2"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "dragonwell",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
     "filename": "Alibaba_Dragonwell_Standard_25.0.5.0.5.8_x64_alpine-linux.tar.gz",
     "image_type": "jdk",
     "java_version": "25.0.5.0.5.8",
@@ -8919,6 +9034,29 @@
     "url": "https://github.com/dragonwell-project/dragonwell25/releases/download/dragonwell-standard-25.0.0.0.1%2B36_jdk-25.0.0-ga/Alibaba_Dragonwell_Standard_25.0.0.0.1.36_x64_alpine-linux.tar.gz",
     "vendor": "alibaba",
     "version": "25.0.0.0.1.36"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "dragonwell",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "Alibaba_Dragonwell_Standard_21.0.13.1.14.2_x64_alpine-linux.tar.gz",
+    "image_type": "jdk",
+    "java_version": "21.0.13.1.14.2",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-11-20",
+    "md5": "74fab1eeff9ce358dad40d7d3cd50374",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "32ac9d158e460dd6a80848dbed2937e0e1e850b2",
+    "sha256": "3bd46f5c6b110d83ad7a8ce3bbac44bc282bfc7442ef5dd0b82ab8d232e8b5ec",
+    "sha512": "587abfd04d1410be50f9b1ee5361d55a796db6e5d38b70b77ae98ca6cfc8c5449106e30f3ab21a06245fdf14f5b40df5910e83d0fea62bed48d1fb23404f6374",
+    "size": 208039730,
+    "url": "https://github.com/dragonwell-project/dragonwell21/releases/download/dragonwell-standard-21.0.13.1.14%2B2_jdk-21.0.13.1-ga/Alibaba_Dragonwell_Standard_21.0.13.1.14.2_x64_alpine-linux.tar.gz",
+    "vendor": "alibaba",
+    "version": "21.0.13.1.14.2"
   },
   {
     "architecture": "x86_64",
@@ -9448,6 +9586,29 @@
     "url": "https://github.com/dragonwell-project/dragonwell21/releases/download/dragonwell-standard-21.0.1.0.1+12_jdk-21.0.1-ga/Alibaba_Dragonwell_Standard_21.0.1.0.1.12_x64_alpine-linux.tar.gz",
     "vendor": "alibaba",
     "version": "21.0.1.0.1.12"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "dragonwell",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "Alibaba_Dragonwell_Standard_17.0.21.1.22.2_x64_alpine-linux.tar.gz",
+    "image_type": "jdk",
+    "java_version": "17.0.21.1.22.2",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-11-20",
+    "md5": "57521492b57da2f9741a9d38b9c3efc0",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "fdbf968b7dc1adf085b51e596df7c14022fcaa8a",
+    "sha256": "3af5fab347313d7eaa828960cd5499925ebd6015f5625f05ad4f99280530c6d9",
+    "sha512": "b37868405d1d6ef864dc74b06a272a4f2bc8646dc2413ef329a0b919814db87e2af99936ea6e5a147d1cdd8aa7d829e2c2ac185785a598c5cfec12968afe504c",
+    "size": 191948795,
+    "url": "https://github.com/dragonwell-project/dragonwell17/releases/download/dragonwell-standard-17.0.21.1.22%2B2_jdk-17.0.21.1-ga/Alibaba_Dragonwell_Standard_17.0.21.1.22.2_x64_alpine-linux.tar.gz",
+    "vendor": "alibaba",
+    "version": "17.0.21.1.22.2"
   },
   {
     "architecture": "x86_64",
@@ -36892,6 +37053,29 @@
       "musl"
     ],
     "file_type": "tar.gz",
+    "filename": "sapmachine-jre-28-ea.24_linux-x64-musl_bin.tar.gz",
+    "image_type": "jre",
+    "java_version": "28-ea.24",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-11-20",
+    "md5": "ccaf70d302b2e3c8216e560aaafcb88a",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "b93c191b80d57b8bc20c106aea90f9d7d09c9672",
+    "sha256": "ff5870b844e9392b0d55f3dfa57a14a43f2b2770d7edb042e4a9538a320e202a",
+    "sha512": "1de4ea669d24bde0545f2793b0b0ae3fb2aaff3bb82c46993b7e0dde083788afda70b2eefe131972b42042cd94095e247ebe73250c9395b66ebf96e2ee66dffb",
+    "size": 53023401,
+    "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-28%2B24/sapmachine-jre-28-ea.24_linux-x64-musl_bin.tar.gz",
+    "vendor": "sap",
+    "version": "28-ea.24"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "sapmachine",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
     "filename": "sapmachine-jre-28-ea.23_linux-x64-musl_bin.tar.gz",
     "image_type": "jre",
     "java_version": "28-ea.23",
@@ -44478,6 +44662,29 @@
     "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-21.0.14%2B1/sapmachine-jre-21.0.14-ea.1_linux-x64-musl_bin.tar.gz",
     "vendor": "sap",
     "version": "21.0.14-ea.1"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "sapmachine",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "sapmachine-jdk-21.0.13.1-ea.2_linux-x64-musl_bin.tar.gz",
+    "image_type": "jdk",
+    "java_version": "21.0.13.1-ea.2",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-11-20",
+    "md5": "e20f54ebd269ac046f927b3c001b5c2c",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "604e26ca713cdb4ac0fffdfa77e2b9eec106f863",
+    "sha256": "ab1b57e881df946dbe60a35b9231bf7cb599aa42e4cb673cf32a5b3135831cf8",
+    "sha512": "2e5f52befc191c09fce649349bc4a6a1799187e014e6b0d34cebbac9c270b7060008672195cec408b06ea01548220460e18d6e55e8d2a63d44787b0102e66e35",
+    "size": 210844875,
+    "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-21.0.13.1%2B2/sapmachine-jdk-21.0.13.1-ea.2_linux-x64-musl_bin.tar.gz",
+    "vendor": "sap",
+    "version": "21.0.13.1-ea.2"
   },
   {
     "architecture": "x86_64",
@@ -59278,6 +59485,29 @@
       "musl"
     ],
     "file_type": "tar.gz",
+    "filename": "OpenJDK-jre_x64_alpine-linux_hotspot_28_25-ea.tar.gz",
+    "image_type": "jre",
+    "java_version": "28",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-11-20",
+    "md5": "b29fa433c1b3c9bdb9d7a6f18b1e60b9",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "9e01ec466ddebbc7780be3cf8d8918938fd673bb",
+    "sha256": "afd957258b6a17a9881add73898c114fedac172fa8eb09bd68220c94f84d285c",
+    "sha512": "4ee7c7cdfc73bf4c6b9798fe9db4264faf985d4fb9cae63fb4b983be1ede077e9383cd969709423e1d2d3aebb5a499053ba47902f9ee32316d1658aef80915e5",
+    "size": 79705339,
+    "url": "https://github.com/adoptium/temurin28-binaries/releases/download/jdk-28%2B25-ea-beta/OpenJDK-jre_x64_alpine-linux_hotspot_28_25-ea.tar.gz",
+    "vendor": "eclipse",
+    "version": "28+25-ea-beta"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "temurin",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
     "filename": "OpenJDK-jdk_x64_alpine-linux_hotspot_28_24-ea.tar.gz",
     "image_type": "jdk",
     "java_version": "28",
@@ -60328,6 +60558,29 @@
     "url": "https://github.com/adoptium/temurin28-binaries/releases/download/jdk-28%2B2-ea-beta/OpenJDK-jdk_x64_alpine-linux_hotspot_28_2-ea.tar.gz",
     "vendor": "eclipse",
     "version": "28+2-ea-beta"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "temurin",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK27U-jre_x64_alpine-linux_hotspot_27.0.1.1_4.tar.gz",
+    "image_type": "jre",
+    "java_version": "27.0.1.1+4",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-11-20",
+    "md5": "2499bb96685e39da99989308affbc900",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "fa2f393ec705f2598ecbfb1e85bfcf89f1525429",
+    "sha256": "b77dceb6bc1ddcddb2a1c291d1e972d5e6eda22c15c4cb843c95ea36f833023f",
+    "sha512": "ac96214ba1927f281fc717ed4c4c78d77176e52aac162ec6d594f83f058a6641b3a40919ba8092a37a0f3590e8a6c34e6106e6e6cb1fe9b792954fb2f64de5ff",
+    "size": 61565674,
+    "url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.1%2B4/OpenJDK27U-jre_x64_alpine-linux_hotspot_27.0.1.1_4.tar.gz",
+    "vendor": "eclipse",
+    "version": "27.0.1.1+4"
   },
   {
     "architecture": "x86_64",
@@ -67048,6 +67301,29 @@
       "musl"
     ],
     "file_type": "tar.gz",
+    "filename": "OpenJDK21U-jre_x64_alpine-linux_hotspot_21.0.14_2-ea.tar.gz",
+    "image_type": "jre",
+    "java_version": "21",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-11-20",
+    "md5": "89b416f61e9b105c0e6e4d5637a8a7e3",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "7a713a1c4536c374b8e1c14f9a96cf30228ce795",
+    "sha256": "a99d7782219916fc5255d9b4a8113bb0bd5d77c3a8d4dfa4b7bc17b5ca910a75",
+    "sha512": "0c244ca783606d848544ab7bb095c85291af8b18f26ea641e705a159f6a1e33201477ce7e97cdd003276ced896c14318afe7342dac7eecf6555f603322dc6d8f",
+    "size": 52469255,
+    "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.14%2B2-ea-beta/OpenJDK21U-jre_x64_alpine-linux_hotspot_21.0.14_2-ea.tar.gz",
+    "vendor": "eclipse",
+    "version": "21.0.14+2-ea-beta"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "temurin",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
     "filename": "OpenJDK21U-jre_x64_alpine-linux_hotspot_21.0.14_1-ea.tar.gz",
     "image_type": "jre",
     "java_version": "21",
@@ -67086,6 +67362,29 @@
     "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.14%2B1-ea-beta/OpenJDK21U-jdk_x64_alpine-linux_hotspot_21.0.14_1-ea.tar.gz",
     "vendor": "eclipse",
     "version": "21.0.14+1-ea-beta"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "temurin",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK21U-jre_x64_alpine-linux_hotspot_21.0.13.1_2.tar.gz",
+    "image_type": "jre",
+    "java_version": "21.0.13.1+2-LTS",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-11-20",
+    "md5": "c4cf4e8e279fd27252b2a649e6ea69d6",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "5342857c375e175bf1997eaf6337735eb8b603dd",
+    "sha256": "72835f41a468ae949fc058f8ec6a73d303ca3e5ea165621e08aacb36bb537bba",
+    "sha512": "bae4770cd87491a0b4f9cba6d7049e44ec17f507a6326cab0c20faf9d61440958983d6a84fba8d0c6cb7f7abea1969e62f8cf10a12093a232c26aedf4da41431",
+    "size": 52334950,
+    "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.13.1%2B2/OpenJDK21U-jre_x64_alpine-linux_hotspot_21.0.13.1_2.tar.gz",
+    "vendor": "eclipse",
+    "version": "21.0.13.1+2"
   },
   {
     "architecture": "x86_64",
@@ -78746,6 +79045,30 @@
     "architecture": "x86_64",
     "distro": "zulu",
     "features": [
+      "crac",
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "zulu27.30.201-ca-crac-jdk27.0.1.1-linux_musl_x64.tar.gz",
+    "image_type": "jdk",
+    "java_version": "27.0.1.1+4",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-11-20",
+    "md5": "5ab0a67041c1a795361b7e94b6ea8dc7",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "d68c994bbcbd2da3c25716ab8c4188c170b60038",
+    "sha256": "6569ae5913272ccf234fa6a1e04088158f59d4f02f1656bdb69344d9da3cd9aa",
+    "sha512": "d753d1cfb1c04d0845df60dfb492be2a04ec3d8a240d40f7249437d538e7f4e1f49ec5b9b382233ee75501fd88f4f57505606fd6409d5a29c32bc30231283626",
+    "size": 244240526,
+    "url": "https://static.azul.com/zulu/bin/zulu27.30.201-ca-crac-jdk27.0.1.1-linux_musl_x64.tar.gz",
+    "vendor": "azul",
+    "version": "27.30.201"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "zulu",
+    "features": [
       "musl"
     ],
     "file_type": "tar.gz",
@@ -80066,6 +80389,77 @@
     "url": "https://static.azul.com/zulu/bin/zulu26.0.17-beta-jdk26.0.0-beta.8-linux_musl_x64.tar.gz",
     "vendor": "azul",
     "version": "26.0.17"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "zulu",
+    "features": [
+      "crac",
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "zulu25.38.201-ca-crac-jdk25.0.5.1-linux_musl_x64.tar.gz",
+    "image_type": "jdk",
+    "java_version": "25.0.5.1+2-LTS",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-11-20",
+    "md5": "e2f085ef0384578e1a3b9f584ca7cc40",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "a2915ea0c1be6942ebc05774ca94d40468971157",
+    "sha256": "ccb05f866e03a764d4abca12b633593da3a74e71b96be1a90f2e0332d9156d4c",
+    "sha512": "f47744e3d0ba10da1d9ae89993dd156c044efd28d4ce39bb22cb2222f009ee8a47c172b5925b946cb224214faabd98d1d347e0fb93f980999bfd7bebc706de2d",
+    "size": 241954718,
+    "url": "https://static.azul.com/zulu/bin/zulu25.38.201-ca-crac-jdk25.0.5.1-linux_musl_x64.tar.gz",
+    "vendor": "azul",
+    "version": "25.38.201"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "zulu",
+    "features": [
+      "crac",
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "zulu25.38.201-ca-crac-jre25.0.5.1-linux_musl_x64.tar.gz",
+    "image_type": "jre",
+    "java_version": "25.0.5.1+2-LTS",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-11-20",
+    "md5": "a9d2cf6978fe9d67d4e6a8a904e29590",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "b8a72f4e76b464c3d29205459c3eff794bcbac1b",
+    "sha256": "a72506910fbc796f59142089e854a9e39df4ea8e5940953516ca41c9191f1b97",
+    "sha512": "634a5f2e872e6f43d06ff034234b7a424a998bc2789a3d61997b6f4469ff8b57c731445a125247dc1c80c962d76282619246415f75e36a78ae74de908bbfc749",
+    "size": 66214872,
+    "url": "https://static.azul.com/zulu/bin/zulu25.38.201-ca-crac-jre25.0.5.1-linux_musl_x64.tar.gz",
+    "vendor": "azul",
+    "version": "25.38.201"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "zulu",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "zulu25.38.201-ca-jdk25.0.5.1-linux_musl_x64.tar.gz",
+    "image_type": "jdk",
+    "java_version": "25.0.5.1+2-LTS",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-11-20",
+    "md5": "a86b8c799a00707410a165dcbe091dbb",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "c16c060a70944c0b2bc0d50f37fdc807e1b728b8",
+    "sha256": "62e947b17d1191c1ab094f91e8487d1a12387f3dc8cedceff29c4c7989a66561",
+    "sha512": "668cc049d5012c9f870c30c91e96d4c145f8a03287abe1ff698981b481540be58892570a81f6fa42d4a43bc893b4f4016d4996354ee810adeb6a0aea30e2e1c3",
+    "size": 233586500,
+    "url": "https://static.azul.com/zulu/bin/zulu25.38.201-ca-jdk25.0.5.1-linux_musl_x64.tar.gz",
+    "vendor": "azul",
+    "version": "25.38.201"
   },
   {
     "architecture": "x86_64",
@@ -93912,6 +94306,29 @@
       "musl"
     ],
     "file_type": "tar.gz",
+    "filename": "zulu11.92.201-ca-jre11.0.33.1-linux_musl_x64.tar.gz",
+    "image_type": "jre",
+    "java_version": "11.0.33.1+1-LTS",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-11-20",
+    "md5": "5b201ddc8c3ffc790739a4c01815952d",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "758fc4bdb7a75be336e94e7c2abde72f9870cf18",
+    "sha256": "743766b0e943435a51be2f3a21713ff662bfd3a5bb31d4c88cf8ce8129f2a754",
+    "sha512": "dd0a063e9d4ad45e2e161c77ed581f09cc38b714ff949f3ba1128656286032087baf3e0734e472a6a721df7a09ed60540d249b39eac2f99475b545b6cd833147",
+    "size": 43525492,
+    "url": "https://static.azul.com/zulu/bin/zulu11.92.201-ca-jre11.0.33.1-linux_musl_x64.tar.gz",
+    "vendor": "azul",
+    "version": "11.92.201"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "zulu",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
     "filename": "zulu11.92.113-ca-jre11.0.33-linux_musl_x64.tar.gz",
     "image_type": "jre",
     "java_version": "11.0.33+10-LTS",
@@ -95816,6 +96233,29 @@
     "url": "https://static.azul.com/zulu/bin/zulu11.2.3-jdk11.0.1-linux_musl_x64.tar.gz",
     "vendor": "azul",
     "version": "11.2.3"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "zulu",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "zulu8.98.0.201-ca-jre8.0.514-linux_musl_x64.tar.gz",
+    "image_type": "jre",
+    "java_version": "8.0.514",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-11-20",
+    "md5": "a64d25c1e79a2500093461090fae5fe8",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "13a8c4eb32b71bb2d4785ed340ee0e05e50d779e",
+    "sha256": "b61f78ce48c83742d2dcb2c7a0730216b1af7fae7a7f010419ca37a868b77c6f",
+    "sha512": "6376168b02e122a8f61a3b50ba40beeb5dff0990133dd4be951145e1f94c10bb2ed6a35b46465d83b42286b82021e5dee4227f454bd61f21bc808c5dc0e5f909",
+    "size": 42206326,
+    "url": "https://static.azul.com/zulu/bin/zulu8.98.0.201-ca-jre8.0.514-linux_musl_x64.tar.gz",
+    "vendor": "azul",
+    "version": "8.98.0.201"
   },
   {
     "architecture": "x86_64",

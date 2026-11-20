@@ -144,6 +144,29 @@
       "musl"
     ],
     "file_type": "tar.gz",
+    "filename": "OpenJDK25U-jdk_aarch64_alpine-linux_hotspot_25.0.5.1_2.tar.gz",
+    "image_type": "jdk",
+    "java_version": "25.0.5.1+2-LTS",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-11-20",
+    "md5": "f1ab612428964d813e7cd462858083df",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "a605a58c339c6050b2aca2f497cb538ae77746f9",
+    "sha256": "0501ef55ea9ec19b14987def7a73e044cd1748f7f3b97237b49007d387a84a1a",
+    "sha512": "280f6b80b3036c7559e7c5facb794c2081f5c8fb503f1b9ad2515c83e418c507156a7d780f81d2306704c51523b2e7e3e766db2cf3c894a88da462e5b140969f",
+    "size": 139216170,
+    "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5.1%2B2/OpenJDK25U-jdk_aarch64_alpine-linux_hotspot_25.0.5.1_2.tar.gz",
+    "vendor": "adoptopenjdk",
+    "version": "25.0.5+100000002.0.LTS"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "adoptopenjdk",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
     "filename": "OpenJDK25U-jdk_aarch64_alpine-linux_hotspot_25.0.5_8.tar.gz",
     "image_type": "jdk",
     "java_version": "25.0.5+8-LTS",
@@ -19396,6 +19419,53 @@
     "architecture": "aarch64",
     "distro": "zulu",
     "features": [
+      "crac",
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "zulu25.38.201-ca-crac-jdk25.0.5.1-linux_musl_aarch64.tar.gz",
+    "image_type": "jdk",
+    "java_version": "25.0.5.1+2-LTS",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-11-20",
+    "md5": "02cca5db81975d7b1d7d8adabaabf0e8",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "2c4368cb5fb63b9714c2a131e3a55f2241b5b666",
+    "sha256": "4a3067cdecd1a90f809bc0cacc451e750b934aa876e748fe59e4a1d6f10ef5c4",
+    "sha512": "2e5701935f2949815dbb34a511603465c8542cd43a6f17109561035263d4f9b2eafd1da09d0758dc5189916d06361541167fa5d85046d894633ee469d39bc2ab",
+    "size": 239340794,
+    "url": "https://static.azul.com/zulu/bin/zulu25.38.201-ca-crac-jdk25.0.5.1-linux_musl_aarch64.tar.gz",
+    "vendor": "azul",
+    "version": "25.38.201"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "zulu",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "zulu25.38.201-ca-jdk25.0.5.1-linux_musl_aarch64.tar.gz",
+    "image_type": "jdk",
+    "java_version": "25.0.5.1+2-LTS",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-11-20",
+    "md5": "3c080f1ebe5b950a13266a225c81828c",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "35775551222ab142fb8a2ffa89a9aa10c607f6ec",
+    "sha256": "0d6134ff74396b7776972686e3e848e420ff2cdf06b08560b51b84b3ca26af07",
+    "sha512": "7876267de7f5238d6e2d0c1d1f8079d8b86b209efc1f8f8f2065ba3a2cda54222aaf7a20f63c23d0c1a14d389e070b1f72c731c4061724a44e1af6cb6ca35f87",
+    "size": 231039913,
+    "url": "https://static.azul.com/zulu/bin/zulu25.38.201-ca-jdk25.0.5.1-linux_musl_aarch64.tar.gz",
+    "vendor": "azul",
+    "version": "25.38.201"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "zulu",
+    "features": [
       "musl"
     ],
     "file_type": "tar.gz",
@@ -20285,6 +20355,30 @@
     "url": "https://static.azul.com/zulu/bin/zulu22.28.93-ca-crac-jdk22.0.0-linux_musl_aarch64.tar.gz",
     "vendor": "azul",
     "version": "22.28.93"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "zulu",
+    "features": [
+      "crac",
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "zulu21.54.201-ca-crac-jdk21.0.13.1-linux_musl_aarch64.tar.gz",
+    "image_type": "jdk",
+    "java_version": "21.0.13.1+2-LTS",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-11-20",
+    "md5": "6fff3b0ea8daa9f00727183dfca29057",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "13591f7c022c66cabbb27bdc5d4213de29c4b726",
+    "sha256": "ffcb3a3df6d627a2ba12108e1c6bf540d21f770bc3910a88bda415323712b2ab",
+    "sha512": "05b36d808f6f7c5d93a72a910c0af88bf4c91edc2ef3339d219e8f7670c46217dc68e5d4a7f34893e2ad8adde4708ceb0da2d44f7dc678519b311bb2719ef2ce",
+    "size": 220646110,
+    "url": "https://static.azul.com/zulu/bin/zulu21.54.201-ca-crac-jdk21.0.13.1-linux_musl_aarch64.tar.gz",
+    "vendor": "azul",
+    "version": "21.54.201"
   },
   {
     "architecture": "aarch64",
