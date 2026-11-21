@@ -3,6 +3,29 @@
     "architecture": "i686",
     "distro": "liberica",
     "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jdk8u514+5-linux-x64-musl.tar.gz",
+    "image_type": "jdk",
+    "java_version": "1.8.0_514",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-11-19",
+    "md5": "b7926fc6cfb661584f4be8b5f8ac7e33",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "392c86b422db32759d54fd88365d153658660432",
+    "sha256": "6f8eeb263ef41c31707bc2b83d7d7338719c6dab0262d932d752a0caded31d6a",
+    "sha512": "8473874bf91289319bc8d5c3c8dcf1225364fc3fcaeb4bc46d0cd9fc7bf6e1462eda46b60098bfd55febd6ce4fcfbb485552e50a17af4dbd958103c985f06979",
+    "size": 105270878,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/8u514+5/bellsoft-jdk8u514+5-linux-x64-musl.tar.gz",
+    "vendor": "bellsoft",
+    "version": "8u514+5"
+  },
+  {
+    "architecture": "i686",
+    "distro": "liberica",
+    "features": [
       "musl",
       "lite"
     ],
@@ -27,22 +50,23 @@
     "architecture": "i686",
     "distro": "liberica",
     "features": [
-      "musl"
+      "musl",
+      "lite"
     ],
-    "file_type": "tar.gz",
-    "filename": "bellsoft-jdk8u514+5-linux-x64-musl.tar.gz",
+    "file_type": "apk",
+    "filename": "bellsoft-jdk8u514+5-linux-x64-musl-lite.apk",
     "image_type": "jdk",
     "java_version": "1.8.0_514",
     "jvm_impl": "hotspot",
-    "last_verified": "2026-11-19",
-    "md5": "b7926fc6cfb661584f4be8b5f8ac7e33",
+    "last_verified": "2026-11-20",
+    "md5": "6dbb1b29fdf29e65218a6672ada40fe8",
     "os": "linux",
     "release_type": "ga",
-    "sha1": "392c86b422db32759d54fd88365d153658660432",
-    "sha256": "6f8eeb263ef41c31707bc2b83d7d7338719c6dab0262d932d752a0caded31d6a",
-    "sha512": "8473874bf91289319bc8d5c3c8dcf1225364fc3fcaeb4bc46d0cd9fc7bf6e1462eda46b60098bfd55febd6ce4fcfbb485552e50a17af4dbd958103c985f06979",
-    "size": 105270878,
-    "url": "https://github.com/bell-sw/Liberica/releases/download/8u514+5/bellsoft-jdk8u514+5-linux-x64-musl.tar.gz",
+    "sha1": "45db0333a5159b884b1499b7cdb021c3fb965770",
+    "sha256": "17510c3037c67c48cab2378224c911f491426b52494a393dffcf0fcdcaac1d36",
+    "sha512": "f5530b0665259d1f84ff84e11732a798437e523d85f8bb11d6dd9da96335b8fe00f34fd0ca215f0fd7f52ff503e3b8aa69253a3a104a1ee77b7a0b19fa4884ca",
+    "size": 51930955,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/8u514+5/bellsoft-jdk8u514+5-linux-x64-musl-lite.apk",
     "vendor": "bellsoft",
     "version": "8u514+5"
   },
@@ -66,30 +90,6 @@
     "sha512": "1f2f08073d5651ec64060cd8220f7b2e9ff9f6fbecda9b818efed20e3f0011a8422764a8d14d18ab37f5817a1cc33e310d3e6e9d98675d2a4f17e53d8d659952",
     "size": 105125741,
     "url": "https://github.com/bell-sw/Liberica/releases/download/8u514+5/bellsoft-jdk8u514+5-linux-x64-musl.apk",
-    "vendor": "bellsoft",
-    "version": "8u514+5"
-  },
-  {
-    "architecture": "i686",
-    "distro": "liberica",
-    "features": [
-      "musl",
-      "lite"
-    ],
-    "file_type": "apk",
-    "filename": "bellsoft-jdk8u514+5-linux-x64-musl-lite.apk",
-    "image_type": "jdk",
-    "java_version": "1.8.0_514",
-    "jvm_impl": "hotspot",
-    "last_verified": "2026-11-20",
-    "md5": "6dbb1b29fdf29e65218a6672ada40fe8",
-    "os": "linux",
-    "release_type": "ga",
-    "sha1": "45db0333a5159b884b1499b7cdb021c3fb965770",
-    "sha256": "17510c3037c67c48cab2378224c911f491426b52494a393dffcf0fcdcaac1d36",
-    "sha512": "f5530b0665259d1f84ff84e11732a798437e523d85f8bb11d6dd9da96335b8fe00f34fd0ca215f0fd7f52ff503e3b8aa69253a3a104a1ee77b7a0b19fa4884ca",
-    "size": 51930955,
-    "url": "https://github.com/bell-sw/Liberica/releases/download/8u514+5/bellsoft-jdk8u514+5-linux-x64-musl-lite.apk",
     "vendor": "bellsoft",
     "version": "8u514+5"
   }

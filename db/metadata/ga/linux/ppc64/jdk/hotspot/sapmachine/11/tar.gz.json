@@ -555,6 +555,27 @@
   {
     "architecture": "ppc64",
     "distro": "sapmachine",
+    "features": null,
+    "file_type": "tar.gz",
+    "filename": "sapmachine-jdk-11.0.3_linux-ppc64_bin.tar.gz",
+    "image_type": "jdk",
+    "java_version": "11.0.3",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-08-31",
+    "md5": "603a98ffaefc40e502bb7a553fa4dbaf",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "b29049eaed7a956f50a36bad95b6ee642a7a4c2f",
+    "sha256": "49d202808c2be10a1e679f1c398c439f6a0f72bca5ee8aaa48b2111322a1d05e",
+    "sha512": "a799b11e4b5a8c63e788b91fe4ad18c03342e43e039fcfbbd6198299cebcf7655cceb85207a0088edc9ec6ac3825e688ca061c174b86e9a6e9a04e62bcc56305",
+    "size": 174094690,
+    "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-11.0.3/sapmachine-jdk-11.0.3_linux-ppc64_bin.tar.gz",
+    "vendor": "sap",
+    "version": "11.0.3"
+  },
+  {
+    "architecture": "ppc64",
+    "distro": "sapmachine",
     "features": [
       "le"
     ],
@@ -578,23 +599,25 @@
   {
     "architecture": "ppc64",
     "distro": "sapmachine",
-    "features": null,
+    "features": [
+      "le"
+    ],
     "file_type": "tar.gz",
-    "filename": "sapmachine-jdk-11.0.3_linux-ppc64_bin.tar.gz",
+    "filename": "sapmachine-jdk-11.0.2_linux-ppc64le_bin.tar.gz",
     "image_type": "jdk",
-    "java_version": "11.0.3",
+    "java_version": "11.0.2",
     "jvm_impl": "hotspot",
-    "last_verified": "2026-08-31",
-    "md5": "603a98ffaefc40e502bb7a553fa4dbaf",
+    "last_verified": "2026-09-11",
+    "md5": "28dda426eb5ba86328165f4bdc807840",
     "os": "linux",
     "release_type": "ga",
-    "sha1": "b29049eaed7a956f50a36bad95b6ee642a7a4c2f",
-    "sha256": "49d202808c2be10a1e679f1c398c439f6a0f72bca5ee8aaa48b2111322a1d05e",
-    "sha512": "a799b11e4b5a8c63e788b91fe4ad18c03342e43e039fcfbbd6198299cebcf7655cceb85207a0088edc9ec6ac3825e688ca061c174b86e9a6e9a04e62bcc56305",
-    "size": 174094690,
-    "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-11.0.3/sapmachine-jdk-11.0.3_linux-ppc64_bin.tar.gz",
+    "sha1": "d760477cd07629f9b932661822177acf6fbdb226",
+    "sha256": "e98c40d4e7a83b1d3420509034e3c3148d10ff5230c46e5b8cfea3ba04edeefe",
+    "sha512": "d2e13f8f176189bb8ccde1a14f38c8c7da3bcb67dd9a7b42885d8edff4223c5ff90536719f2582547469f9e4c43b9c2268c23e5eed1d4cb3971f54f11a63c1ca",
+    "size": 172772489,
+    "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-11.0.2/sapmachine-jdk-11.0.2_linux-ppc64le_bin.tar.gz",
     "vendor": "sap",
-    "version": "11.0.3"
+    "version": "11.0.2"
   },
   {
     "architecture": "ppc64",
@@ -614,29 +637,6 @@
     "sha512": "a89fb0241f46569f6901f0f633e2e20fb6c8740eb2c5f3c24e2eeb5c5da0c1d203bb28bfc8801c38a9ecfeea8f29d3e621146a15ab90403511bf4e6fdcdf87f1",
     "size": 174092936,
     "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-11.0.2/sapmachine-jdk-11.0.2_linux-ppc64_bin.tar.gz",
-    "vendor": "sap",
-    "version": "11.0.2"
-  },
-  {
-    "architecture": "ppc64",
-    "distro": "sapmachine",
-    "features": [
-      "le"
-    ],
-    "file_type": "tar.gz",
-    "filename": "sapmachine-jdk-11.0.2_linux-ppc64le_bin.tar.gz",
-    "image_type": "jdk",
-    "java_version": "11.0.2",
-    "jvm_impl": "hotspot",
-    "last_verified": "2026-09-11",
-    "md5": "28dda426eb5ba86328165f4bdc807840",
-    "os": "linux",
-    "release_type": "ga",
-    "sha1": "d760477cd07629f9b932661822177acf6fbdb226",
-    "sha256": "e98c40d4e7a83b1d3420509034e3c3148d10ff5230c46e5b8cfea3ba04edeefe",
-    "sha512": "d2e13f8f176189bb8ccde1a14f38c8c7da3bcb67dd9a7b42885d8edff4223c5ff90536719f2582547469f9e4c43b9c2268c23e5eed1d4cb3971f54f11a63c1ca",
-    "size": 172772489,
-    "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-11.0.2/sapmachine-jdk-11.0.2_linux-ppc64le_bin.tar.gz",
     "vendor": "sap",
     "version": "11.0.2"
   }

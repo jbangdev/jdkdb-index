@@ -2,29 +2,6 @@
   {
     "architecture": "loong64",
     "distro": "debian",
-    "features": [
-      "headless"
-    ],
-    "file_type": "deb",
-    "filename": "openjdk-17-jdk-headless_17.0.21.1+2-1_loong64.deb",
-    "image_type": "jdk",
-    "java_version": "17.0.21.1+2",
-    "jvm_impl": "hotspot",
-    "last_verified": "2026-11-19",
-    "md5": "368188ec2c850cd406dceb6247ad8d53",
-    "os": "linux",
-    "release_type": "ga",
-    "sha1": "f269e1e7d1b23ef68405275a984b9fa2c7da636d",
-    "sha256": "bd1f42bf589c0a31d5f486a53cbe59c96cb12bd939f84bf27168353e76ee5bda",
-    "sha512": "c046fdea5d5c54fbf84207156580f9b69ee59ec1c9e2fc8ca5bcdc5cd001e22cfaf8e1b6b2fbb048d38c29493bbf8572eaaf0d9f3e7a32a2567153c590fad781",
-    "size": 64759900,
-    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-17/openjdk-17-jdk-headless_17.0.21.1+2-1_loong64.deb",
-    "vendor": "debian",
-    "version": "17.0.21.1+2-1"
-  },
-  {
-    "architecture": "loong64",
-    "distro": "debian",
     "features": [ ],
     "file_type": "deb",
     "filename": "openjdk-17-jdk_17.0.21.1+2-1_loong64.deb",
@@ -50,6 +27,29 @@
       "headless"
     ],
     "file_type": "deb",
+    "filename": "openjdk-17-jdk-headless_17.0.21.1+2-1_loong64.deb",
+    "image_type": "jdk",
+    "java_version": "17.0.21.1+2",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-11-19",
+    "md5": "368188ec2c850cd406dceb6247ad8d53",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "f269e1e7d1b23ef68405275a984b9fa2c7da636d",
+    "sha256": "bd1f42bf589c0a31d5f486a53cbe59c96cb12bd939f84bf27168353e76ee5bda",
+    "sha512": "c046fdea5d5c54fbf84207156580f9b69ee59ec1c9e2fc8ca5bcdc5cd001e22cfaf8e1b6b2fbb048d38c29493bbf8572eaaf0d9f3e7a32a2567153c590fad781",
+    "size": 64759900,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-17/openjdk-17-jdk-headless_17.0.21.1+2-1_loong64.deb",
+    "vendor": "debian",
+    "version": "17.0.21.1+2-1"
+  },
+  {
+    "architecture": "loong64",
+    "distro": "debian",
+    "features": [
+      "headless"
+    ],
+    "file_type": "deb",
     "filename": "openjdk-17-jdk-headless_17.0.21.0.3+1-1_loong64.deb",
     "image_type": "jdk",
     "java_version": "17.0.21.0.3+1",
@@ -62,6 +62,7 @@
     "sha256": "da44e7ab45b9a8d4907091cfbe886763f866c5a5be815573d53d3bdcc5da6302",
     "sha512": "d402eee1d904d9e05ce166a821b37b25d36ff6e70383622d73c0d1a5d5dba0712efa44464db25509de3bed40643f0fde47f9f80accbe4ef7222c5ac696b5fc9b",
     "size": 64759056,
+    "unlisted_since": "2026-11-21",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-17/openjdk-17-jdk-headless_17.0.21.0.3+1-1_loong64.deb",
     "vendor": "debian",
     "version": "17.0.21.0.3+1-1"
@@ -83,6 +84,7 @@
     "sha256": "1b357ef721144e0a3899c0b3f90a4b9f6c60672ad4557c186cc32cb65cc76f63",
     "sha512": "0db20939e736744ad6f27e1891751b477bdeff260c86aacf13fc9003ec2ba664fe094948be65142b48c0c78c884777d53af5fdd0f53d18cd49e24fe882b5daa4",
     "size": 1905008,
+    "unlisted_since": "2026-11-21",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-17/openjdk-17-jdk_17.0.21.0.3+1-1_loong64.deb",
     "vendor": "debian",
     "version": "17.0.21.0.3+1-1"
@@ -136,28 +138,6 @@
   {
     "architecture": "loong64",
     "distro": "debian",
-    "features": [ ],
-    "file_type": "deb",
-    "filename": "openjdk-17-jdk_17.0.21+9-1_loong64.deb",
-    "image_type": "jdk",
-    "java_version": "17.0.21+9",
-    "jvm_impl": "hotspot",
-    "last_verified": "2026-10-23",
-    "md5": "f03960ad39795d47df723b96aa82e9bb",
-    "os": "linux",
-    "release_type": "ga",
-    "sha1": "e2c81ce25159e9361a2d0c60f0437d873ca605be",
-    "sha256": "81388a5fb224f2d33c6eff39b45fd28dc59cd0fac17396168b01a2e7aef43186",
-    "sha512": "390357091d17bb8d154246c2c83cb71187747ef35a1e79af98d823bb7b9fe1f1067d14175f182888587c26434141071a05bc918ec839670c484e47c812d61d3a",
-    "size": 1905008,
-    "unlisted_since": "2026-11-01",
-    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-17/openjdk-17-jdk_17.0.21+9-1_loong64.deb",
-    "vendor": "debian",
-    "version": "17.0.21+9-1"
-  },
-  {
-    "architecture": "loong64",
-    "distro": "debian",
     "features": [
       "headless"
     ],
@@ -176,6 +156,28 @@
     "size": 64759780,
     "unlisted_since": "2026-11-01",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-17/openjdk-17-jdk-headless_17.0.21+9-1_loong64.deb",
+    "vendor": "debian",
+    "version": "17.0.21+9-1"
+  },
+  {
+    "architecture": "loong64",
+    "distro": "debian",
+    "features": [ ],
+    "file_type": "deb",
+    "filename": "openjdk-17-jdk_17.0.21+9-1_loong64.deb",
+    "image_type": "jdk",
+    "java_version": "17.0.21+9",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-10-23",
+    "md5": "f03960ad39795d47df723b96aa82e9bb",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "e2c81ce25159e9361a2d0c60f0437d873ca605be",
+    "sha256": "81388a5fb224f2d33c6eff39b45fd28dc59cd0fac17396168b01a2e7aef43186",
+    "sha512": "390357091d17bb8d154246c2c83cb71187747ef35a1e79af98d823bb7b9fe1f1067d14175f182888587c26434141071a05bc918ec839670c484e47c812d61d3a",
+    "size": 1905008,
+    "unlisted_since": "2026-11-01",
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-17/openjdk-17-jdk_17.0.21+9-1_loong64.deb",
     "vendor": "debian",
     "version": "17.0.21+9-1"
   },

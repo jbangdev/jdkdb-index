@@ -3,6 +3,29 @@
     "architecture": "riscv64",
     "distro": "debian",
     "features": [
+      "headless"
+    ],
+    "file_type": "deb",
+    "filename": "openjdk-21-jre-headless_21.0.13.0.3+1-1_riscv64.deb",
+    "image_type": "jre",
+    "java_version": "21.0.13.0.3+1-1-Debian",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-11-05",
+    "md5": "584e321ce2caf96398380cecf0b10478",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "19d37c8831c221890c786f876c9a5286237166f7",
+    "sha256": "148c22cd7909f5f042f49c22619b2026493a9f5f88ce156ce51d9cc123ab02f5",
+    "sha512": "21b49a9a6443c56f93095916b5fb81e38a91ba01c9b9d7d44519c5859ddf298f108c3fe0a904ba2bb95b0268cfe7e0dc4a4017444d0730f812bc8bdd0a3a0a53",
+    "size": 41709588,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-21/openjdk-21-jre-headless_21.0.13.0.3+1-1_riscv64.deb",
+    "vendor": "debian",
+    "version": "21.0.13.0.3+1-1"
+  },
+  {
+    "architecture": "riscv64",
+    "distro": "debian",
+    "features": [
       "zero"
     ],
     "file_type": "deb",
@@ -42,53 +65,6 @@
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-21/openjdk-21-jre_21.0.13.0.3+1-1_riscv64.deb",
     "vendor": "debian",
     "version": "21.0.13.0.3+1-1"
-  },
-  {
-    "architecture": "riscv64",
-    "distro": "debian",
-    "features": [
-      "headless"
-    ],
-    "file_type": "deb",
-    "filename": "openjdk-21-jre-headless_21.0.13.0.3+1-1_riscv64.deb",
-    "image_type": "jre",
-    "java_version": "21.0.13.0.3+1-1-Debian",
-    "jvm_impl": "hotspot",
-    "last_verified": "2026-11-05",
-    "md5": "584e321ce2caf96398380cecf0b10478",
-    "os": "linux",
-    "release_type": "ga",
-    "sha1": "19d37c8831c221890c786f876c9a5286237166f7",
-    "sha256": "148c22cd7909f5f042f49c22619b2026493a9f5f88ce156ce51d9cc123ab02f5",
-    "sha512": "21b49a9a6443c56f93095916b5fb81e38a91ba01c9b9d7d44519c5859ddf298f108c3fe0a904ba2bb95b0268cfe7e0dc4a4017444d0730f812bc8bdd0a3a0a53",
-    "size": 41709588,
-    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-21/openjdk-21-jre-headless_21.0.13.0.3+1-1_riscv64.deb",
-    "vendor": "debian",
-    "version": "21.0.13.0.3+1-1"
-  },
-  {
-    "architecture": "riscv64",
-    "distro": "debian",
-    "features": [
-      "zero"
-    ],
-    "file_type": "deb",
-    "filename": "openjdk-21-jre-zero_21.0.13~8ea-1_riscv64.deb",
-    "image_type": "jre",
-    "java_version": "21.0.13",
-    "jvm_impl": "hotspot",
-    "last_verified": "2026-10-20",
-    "md5": "306ec3f0b8436856376d1ce4b3d06f80",
-    "os": "linux",
-    "release_type": "ga",
-    "sha1": "19fab79411588b0ed4ed14d2457cefa7a0518710",
-    "sha256": "0a91414f482c76923d7addddd47a0a64e0a6e7d6c66f38c3ca1d227c70a550a2",
-    "sha512": "2a1caf26ac8280363849bd228f4a6ea35ddfe983aaaa29325fca2745629a93f9b2792cc2444d8c191e244f68e99124e851d216468003fdec1969bedf1fcf0d45",
-    "size": 9189820,
-    "unlisted_since": "2026-10-29",
-    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-21/openjdk-21-jre-zero_21.0.13~8ea-1_riscv64.deb",
-    "vendor": "debian",
-    "version": "21.0.13~8ea-1"
   },
   {
     "architecture": "riscv64",
@@ -133,6 +109,30 @@
     "size": 41668416,
     "unlisted_since": "2026-10-29",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-21/openjdk-21-jre-headless_21.0.13~8ea-1_riscv64.deb",
+    "vendor": "debian",
+    "version": "21.0.13~8ea-1"
+  },
+  {
+    "architecture": "riscv64",
+    "distro": "debian",
+    "features": [
+      "zero"
+    ],
+    "file_type": "deb",
+    "filename": "openjdk-21-jre-zero_21.0.13~8ea-1_riscv64.deb",
+    "image_type": "jre",
+    "java_version": "21.0.13",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-10-20",
+    "md5": "306ec3f0b8436856376d1ce4b3d06f80",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "19fab79411588b0ed4ed14d2457cefa7a0518710",
+    "sha256": "0a91414f482c76923d7addddd47a0a64e0a6e7d6c66f38c3ca1d227c70a550a2",
+    "sha512": "2a1caf26ac8280363849bd228f4a6ea35ddfe983aaaa29325fca2745629a93f9b2792cc2444d8c191e244f68e99124e851d216468003fdec1969bedf1fcf0d45",
+    "size": 9189820,
+    "unlisted_since": "2026-10-29",
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-21/openjdk-21-jre-zero_21.0.13~8ea-1_riscv64.deb",
     "vendor": "debian",
     "version": "21.0.13~8ea-1"
   },
@@ -206,6 +206,30 @@
   {
     "architecture": "riscv64",
     "distro": "debian",
+    "features": [
+      "zero"
+    ],
+    "file_type": "deb",
+    "filename": "openjdk-21-jre-zero_21.0.13+9-1_riscv64.deb",
+    "image_type": "jre",
+    "java_version": "21.0.13+9",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-10-24",
+    "md5": "bac0fd27bf1081b613e196b1bc9f55f2",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "2a09da8a4562b6b565b8d18070fdef1042b99688",
+    "sha256": "f558f6a003922d47d3ae30f0f071328419c19c48a8c8e5cf86b420398fe34f10",
+    "sha512": "04248834982b2a14a78b795e83a4f6e9dce0e25ad929c00ba7aa8001694e38b27cb6a0635e4d18e87ccd8c00946f020b404c9063ab9376cf21f31e5b350413f8",
+    "size": 9190724,
+    "unlisted_since": "2026-11-11",
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-21/openjdk-21-jre-zero_21.0.13+9-1_riscv64.deb",
+    "vendor": "debian",
+    "version": "21.0.13+9-1"
+  },
+  {
+    "architecture": "riscv64",
+    "distro": "debian",
     "features": [ ],
     "file_type": "deb",
     "filename": "openjdk-21-jre_21.0.13+9-1_riscv64.deb",
@@ -246,30 +270,6 @@
     "size": 41707288,
     "unlisted_since": "2026-11-11",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-21/openjdk-21-jre-headless_21.0.13+9-1_riscv64.deb",
-    "vendor": "debian",
-    "version": "21.0.13+9-1"
-  },
-  {
-    "architecture": "riscv64",
-    "distro": "debian",
-    "features": [
-      "zero"
-    ],
-    "file_type": "deb",
-    "filename": "openjdk-21-jre-zero_21.0.13+9-1_riscv64.deb",
-    "image_type": "jre",
-    "java_version": "21.0.13+9",
-    "jvm_impl": "hotspot",
-    "last_verified": "2026-10-24",
-    "md5": "bac0fd27bf1081b613e196b1bc9f55f2",
-    "os": "linux",
-    "release_type": "ga",
-    "sha1": "2a09da8a4562b6b565b8d18070fdef1042b99688",
-    "sha256": "f558f6a003922d47d3ae30f0f071328419c19c48a8c8e5cf86b420398fe34f10",
-    "sha512": "04248834982b2a14a78b795e83a4f6e9dce0e25ad929c00ba7aa8001694e38b27cb6a0635e4d18e87ccd8c00946f020b404c9063ab9376cf21f31e5b350413f8",
-    "size": 9190724,
-    "unlisted_since": "2026-11-11",
-    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-21/openjdk-21-jre-zero_21.0.13+9-1_riscv64.deb",
     "vendor": "debian",
     "version": "21.0.13+9-1"
   },
@@ -344,30 +344,6 @@
     "architecture": "riscv64",
     "distro": "debian",
     "features": [
-      "zero"
-    ],
-    "file_type": "deb",
-    "filename": "openjdk-21-jre-zero_21.0.12.1+1-1_riscv64.deb",
-    "image_type": "jre",
-    "java_version": "21.0.12.1+1",
-    "jvm_impl": "hotspot",
-    "last_verified": "2026-08-29",
-    "md5": "40dfa23fc97afca59bd850f2f7a9685c",
-    "os": "linux",
-    "release_type": "ga",
-    "sha1": "38bc2ee99660d5993b98e12d86c026ef00bfc407",
-    "sha256": "f041e9ce9633be6b13fec269d89d86d3c8274b3336a5af75a43ea8706df70a98",
-    "sha512": "c5f5db838b2a90ab36b23b11c127b11720b7c13a1275d00abdd651829733877b4649243e05bbd72617954e23bb2bef4510bd0c8165bfa0768937acc46afc3e80",
-    "size": 9174420,
-    "unlisted_since": "2026-10-22",
-    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-21/openjdk-21-jre-zero_21.0.12.1+1-1_riscv64.deb",
-    "vendor": "debian",
-    "version": "21.0.12.1+1-1"
-  },
-  {
-    "architecture": "riscv64",
-    "distro": "debian",
-    "features": [
       "headless"
     ],
     "file_type": "deb",
@@ -385,6 +361,30 @@
     "size": 41629344,
     "unlisted_since": "2026-10-22",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-21/openjdk-21-jre-headless_21.0.12.1+1-1_riscv64.deb",
+    "vendor": "debian",
+    "version": "21.0.12.1+1-1"
+  },
+  {
+    "architecture": "riscv64",
+    "distro": "debian",
+    "features": [
+      "zero"
+    ],
+    "file_type": "deb",
+    "filename": "openjdk-21-jre-zero_21.0.12.1+1-1_riscv64.deb",
+    "image_type": "jre",
+    "java_version": "21.0.12.1+1",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-08-29",
+    "md5": "40dfa23fc97afca59bd850f2f7a9685c",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "38bc2ee99660d5993b98e12d86c026ef00bfc407",
+    "sha256": "f041e9ce9633be6b13fec269d89d86d3c8274b3336a5af75a43ea8706df70a98",
+    "sha512": "c5f5db838b2a90ab36b23b11c127b11720b7c13a1275d00abdd651829733877b4649243e05bbd72617954e23bb2bef4510bd0c8165bfa0768937acc46afc3e80",
+    "size": 9174420,
+    "unlisted_since": "2026-10-22",
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-21/openjdk-21-jre-zero_21.0.12.1+1-1_riscv64.deb",
     "vendor": "debian",
     "version": "21.0.12.1+1-1"
   },
@@ -414,30 +414,6 @@
     "architecture": "riscv64",
     "distro": "debian",
     "features": [
-      "headless"
-    ],
-    "file_type": "deb",
-    "filename": "openjdk-21-jre-headless_21.0.12+8-1_riscv64.deb",
-    "image_type": "jre",
-    "java_version": "21.0.12+8-1-Debian",
-    "jvm_impl": "hotspot",
-    "last_verified": "2026-08-30",
-    "md5": "f9c84e4363f836b2eb8ed45a9a8ae642",
-    "os": "linux",
-    "release_type": "ga",
-    "sha1": "c44745ffc165c7c9e49d96aac16e3da418e5a69a",
-    "sha256": "6c3db931dff0b42a5e362ad05c65d562555cab8334ec4c5ec35ffde491f51aad",
-    "sha512": "6a63513e457478eee6ba17ec6ae2e3668996f20fe5e89db71affff3d0353e36c1f662c564ffc0611313b417df108f20a04f5e36b5fd54384d601ec6321ec6f5a",
-    "size": 41450524,
-    "unlisted_since": "2026-08-30",
-    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-21/openjdk-21-jre-headless_21.0.12+8-1_riscv64.deb",
-    "vendor": "debian",
-    "version": "21.0.12+8-1"
-  },
-  {
-    "architecture": "riscv64",
-    "distro": "debian",
-    "features": [
       "zero"
     ],
     "file_type": "deb",
@@ -455,6 +431,30 @@
     "size": 9125316,
     "unlisted_since": "2026-08-30",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-21/openjdk-21-jre-zero_21.0.12+8-1_riscv64.deb",
+    "vendor": "debian",
+    "version": "21.0.12+8-1"
+  },
+  {
+    "architecture": "riscv64",
+    "distro": "debian",
+    "features": [
+      "headless"
+    ],
+    "file_type": "deb",
+    "filename": "openjdk-21-jre-headless_21.0.12+8-1_riscv64.deb",
+    "image_type": "jre",
+    "java_version": "21.0.12+8-1-Debian",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-08-30",
+    "md5": "f9c84e4363f836b2eb8ed45a9a8ae642",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "c44745ffc165c7c9e49d96aac16e3da418e5a69a",
+    "sha256": "6c3db931dff0b42a5e362ad05c65d562555cab8334ec4c5ec35ffde491f51aad",
+    "sha512": "6a63513e457478eee6ba17ec6ae2e3668996f20fe5e89db71affff3d0353e36c1f662c564ffc0611313b417df108f20a04f5e36b5fd54384d601ec6321ec6f5a",
+    "size": 41450524,
+    "unlisted_since": "2026-08-30",
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-21/openjdk-21-jre-headless_21.0.12+8-1_riscv64.deb",
     "vendor": "debian",
     "version": "21.0.12+8-1"
   },
@@ -484,30 +484,6 @@
     "architecture": "riscv64",
     "distro": "debian",
     "features": [
-      "headless"
-    ],
-    "file_type": "deb",
-    "filename": "openjdk-21-jre-headless_21.0.11+10-1~deb13u2_riscv64.deb",
-    "image_type": "jre",
-    "java_version": "21.0.11+10-1-deb13u2-Debian",
-    "jvm_impl": "hotspot",
-    "last_verified": "2026-09-04",
-    "md5": "ab6eb73576ad1341529898f4b7fdf520",
-    "os": "linux",
-    "release_type": "ga",
-    "sha1": "58d4bb598bfda30cc8a1c1370bb8a3cf4faaf439",
-    "sha256": "670bfd77710d18f07e89e3db9089629009705633563747d0acef799f14e00b3c",
-    "sha512": "84613d394a78bee2d352ad896ffd59cd550107cf7fbc7382a2a7ab670cbb61851661bf6945359f4e44256be4aa06f8869b445892d5eb7fea4cefa8a1ed21a6e7",
-    "size": 41316444,
-    "unlisted_since": "2026-09-15",
-    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-21/openjdk-21-jre-headless_21.0.11+10-1~deb13u2_riscv64.deb",
-    "vendor": "debian",
-    "version": "21.0.11+10-1~deb13u2"
-  },
-  {
-    "architecture": "riscv64",
-    "distro": "debian",
-    "features": [
       "zero"
     ],
     "file_type": "deb",
@@ -525,6 +501,30 @@
     "size": 9061832,
     "unlisted_since": "2026-09-15",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-21/openjdk-21-jre-zero_21.0.11+10-1~deb13u2_riscv64.deb",
+    "vendor": "debian",
+    "version": "21.0.11+10-1~deb13u2"
+  },
+  {
+    "architecture": "riscv64",
+    "distro": "debian",
+    "features": [
+      "headless"
+    ],
+    "file_type": "deb",
+    "filename": "openjdk-21-jre-headless_21.0.11+10-1~deb13u2_riscv64.deb",
+    "image_type": "jre",
+    "java_version": "21.0.11+10-1-deb13u2-Debian",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-04",
+    "md5": "ab6eb73576ad1341529898f4b7fdf520",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "58d4bb598bfda30cc8a1c1370bb8a3cf4faaf439",
+    "sha256": "670bfd77710d18f07e89e3db9089629009705633563747d0acef799f14e00b3c",
+    "sha512": "84613d394a78bee2d352ad896ffd59cd550107cf7fbc7382a2a7ab670cbb61851661bf6945359f4e44256be4aa06f8869b445892d5eb7fea4cefa8a1ed21a6e7",
+    "size": 41316444,
+    "unlisted_since": "2026-09-15",
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-21/openjdk-21-jre-headless_21.0.11+10-1~deb13u2_riscv64.deb",
     "vendor": "debian",
     "version": "21.0.11+10-1~deb13u2"
   },

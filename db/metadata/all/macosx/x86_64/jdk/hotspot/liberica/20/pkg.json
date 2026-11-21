@@ -3,29 +3,6 @@
     "architecture": "x86_64",
     "distro": "liberica",
     "features": [
-      "lite"
-    ],
-    "file_type": "pkg",
-    "filename": "bellsoft-jdk20.0.2+10-macos-amd64-lite.pkg",
-    "image_type": "jdk",
-    "java_version": "20.0.2+10",
-    "jvm_impl": "hotspot",
-    "last_verified": "2026-09-17",
-    "md5": "e59d8c0e1763d13756d7d9abe3c292fe",
-    "os": "macosx",
-    "release_type": "ga",
-    "sha1": "7194ba47133d4a922dc37bb983519745f0da1cb1",
-    "sha256": "14b4fb84181db58dcacad7a5cc851b28a8a3e5e9b6dc878b37e982b2f4b62ef3",
-    "sha512": "86e9de9dfaf9cef011b7205c0a885e150a194b5acd604d0937808e78594b989da052f029b6bb927b7717e48349bf676528d8013d8d58c99c1ed2b2c6d570ca94",
-    "size": 75344266,
-    "url": "https://github.com/bell-sw/Liberica/releases/download/20.0.2+10/bellsoft-jdk20.0.2+10-macos-amd64-lite.pkg",
-    "vendor": "bellsoft",
-    "version": "20.0.2+10"
-  },
-  {
-    "architecture": "x86_64",
-    "distro": "liberica",
-    "features": [
       "libericafx",
       "minimal-vm",
       "javafx"
@@ -44,6 +21,29 @@
     "sha512": "4f8272c50a07caec6e76ff8385a39ea882198052ac13934a2d84c2ac3d5d4b821e02a1042389512add0bf6dcd3d7c89ead6ac486ce5bbbfd5eccc73b4bce53ae",
     "size": 309207051,
     "url": "https://github.com/bell-sw/Liberica/releases/download/20.0.2+10/bellsoft-jdk20.0.2+10-macos-amd64-full.pkg",
+    "vendor": "bellsoft",
+    "version": "20.0.2+10"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
+      "lite"
+    ],
+    "file_type": "pkg",
+    "filename": "bellsoft-jdk20.0.2+10-macos-amd64-lite.pkg",
+    "image_type": "jdk",
+    "java_version": "20.0.2+10",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-17",
+    "md5": "e59d8c0e1763d13756d7d9abe3c292fe",
+    "os": "macosx",
+    "release_type": "ga",
+    "sha1": "7194ba47133d4a922dc37bb983519745f0da1cb1",
+    "sha256": "14b4fb84181db58dcacad7a5cc851b28a8a3e5e9b6dc878b37e982b2f4b62ef3",
+    "sha512": "86e9de9dfaf9cef011b7205c0a885e150a194b5acd604d0937808e78594b989da052f029b6bb927b7717e48349bf676528d8013d8d58c99c1ed2b2c6d570ca94",
+    "size": 75344266,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/20.0.2+10/bellsoft-jdk20.0.2+10-macos-amd64-lite.pkg",
     "vendor": "bellsoft",
     "version": "20.0.2+10"
   },
@@ -94,27 +94,6 @@
   {
     "architecture": "x86_64",
     "distro": "liberica",
-    "features": [ ],
-    "file_type": "pkg",
-    "filename": "bellsoft-jdk20.0.1+10-macos-amd64.pkg",
-    "image_type": "jdk",
-    "java_version": "20.0.1+10",
-    "jvm_impl": "hotspot",
-    "last_verified": "2026-09-17",
-    "md5": "b1935b8ab1d36449b875945d6e8792d5",
-    "os": "macosx",
-    "release_type": "ga",
-    "sha1": "60190a1f09734fddb051b39a52b38b7c8d59a685",
-    "sha256": "9f4f3046673912663a3738e5d5b6fc67c8addd05d4a89d96b7218073b2a8df8b",
-    "sha512": "8b1825d0453f97d54d9609a4c77b2e0f02dfd946c0adc03a21b01978ec632b7e17a180b70ff4433502ed23e9c51d5a9a4250a36b8db8c9f2adc084d73e511fc9",
-    "size": 214428544,
-    "url": "https://github.com/bell-sw/Liberica/releases/download/20.0.1+10/bellsoft-jdk20.0.1+10-macos-amd64.pkg",
-    "vendor": "bellsoft",
-    "version": "20.0.1+10"
-  },
-  {
-    "architecture": "x86_64",
-    "distro": "liberica",
     "features": [
       "libericafx",
       "minimal-vm",
@@ -140,25 +119,23 @@
   {
     "architecture": "x86_64",
     "distro": "liberica",
-    "features": [
-      "lite"
-    ],
+    "features": [ ],
     "file_type": "pkg",
-    "filename": "bellsoft-jdk20+37-macos-amd64-lite.pkg",
+    "filename": "bellsoft-jdk20.0.1+10-macos-amd64.pkg",
     "image_type": "jdk",
-    "java_version": "20+37",
+    "java_version": "20.0.1+10",
     "jvm_impl": "hotspot",
     "last_verified": "2026-09-17",
-    "md5": "9c8fb62057d56daffc5ea5b7275c375b",
+    "md5": "b1935b8ab1d36449b875945d6e8792d5",
     "os": "macosx",
     "release_type": "ga",
-    "sha1": "eafb4a1ad1a5351f5ecd316bda4f8f721f5438f7",
-    "sha256": "bf78ca62aa65edb1f20108436b0f30f4d1b47ebd91ceefc6e52722f5d645a59a",
-    "sha512": "b2307bda3039f3c994f9ff75e5f2062ad825d19ac5d6ff02764547418a6d41cd362d4a3183cc3bda0c117cd5bb12e99471c5a237cdd10bbd629b56b53684c0ab",
-    "size": 75212619,
-    "url": "https://github.com/bell-sw/Liberica/releases/download/20+37/bellsoft-jdk20+37-macos-amd64-lite.pkg",
+    "sha1": "60190a1f09734fddb051b39a52b38b7c8d59a685",
+    "sha256": "9f4f3046673912663a3738e5d5b6fc67c8addd05d4a89d96b7218073b2a8df8b",
+    "sha512": "8b1825d0453f97d54d9609a4c77b2e0f02dfd946c0adc03a21b01978ec632b7e17a180b70ff4433502ed23e9c51d5a9a4250a36b8db8c9f2adc084d73e511fc9",
+    "size": 214428544,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/20.0.1+10/bellsoft-jdk20.0.1+10-macos-amd64.pkg",
     "vendor": "bellsoft",
-    "version": "20+37"
+    "version": "20.0.1+10"
   },
   {
     "architecture": "x86_64",
@@ -178,6 +155,29 @@
     "sha512": "a330ee963172160708a4f12338f4bdd9bdbedbb6bac333520afb6ee04e261dfb9304a2ea9aac55fd0a07f6ad2d00db91d71fd8ace234db05a0f14057268e79db",
     "size": 214419548,
     "url": "https://github.com/bell-sw/Liberica/releases/download/20+37/bellsoft-jdk20+37-macos-amd64.pkg",
+    "vendor": "bellsoft",
+    "version": "20+37"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
+      "lite"
+    ],
+    "file_type": "pkg",
+    "filename": "bellsoft-jdk20+37-macos-amd64-lite.pkg",
+    "image_type": "jdk",
+    "java_version": "20+37",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-17",
+    "md5": "9c8fb62057d56daffc5ea5b7275c375b",
+    "os": "macosx",
+    "release_type": "ga",
+    "sha1": "eafb4a1ad1a5351f5ecd316bda4f8f721f5438f7",
+    "sha256": "bf78ca62aa65edb1f20108436b0f30f4d1b47ebd91ceefc6e52722f5d645a59a",
+    "sha512": "b2307bda3039f3c994f9ff75e5f2062ad825d19ac5d6ff02764547418a6d41cd362d4a3183cc3bda0c117cd5bb12e99471c5a237cdd10bbd629b56b53684c0ab",
+    "size": 75212619,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/20+37/bellsoft-jdk20+37-macos-amd64-lite.pkg",
     "vendor": "bellsoft",
     "version": "20+37"
   },

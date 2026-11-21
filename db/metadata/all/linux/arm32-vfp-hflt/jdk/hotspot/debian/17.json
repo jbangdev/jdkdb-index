@@ -50,29 +50,6 @@
     "architecture": "arm32-vfp-hflt",
     "distro": "debian",
     "features": [
-      "hard-float"
-    ],
-    "file_type": "deb",
-    "filename": "openjdk-17-jdk_17.0.21.0.3+1-1_armhf.deb",
-    "image_type": "jdk",
-    "java_version": "17.0.21.0.3+1",
-    "jvm_impl": "hotspot",
-    "last_verified": "2026-10-30",
-    "md5": "79ca0382d49dfc718e418291db0ca7a4",
-    "os": "linux",
-    "release_type": "ga",
-    "sha1": "8c8986170284ffaf2daab0c9d5d4c5493f4c763a",
-    "sha256": "c6f84fdc8c8cbcba95210a0deaafbb12e0d59eff86edf18139e253126d3cb8c8",
-    "sha512": "dadc3d2e96d34c1580d5c272b02387c85064d622fe09512743c972ef86b20e908e6b2bb2f410d7be672a34626af5ecab6395c4e14194f090c7af5ddd3d6ce719",
-    "size": 2479400,
-    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-17/openjdk-17-jdk_17.0.21.0.3+1-1_armhf.deb",
-    "vendor": "debian",
-    "version": "17.0.21.0.3+1-1"
-  },
-  {
-    "architecture": "arm32-vfp-hflt",
-    "distro": "debian",
-    "features": [
       "headless",
       "hard-float"
     ],
@@ -89,7 +66,32 @@
     "sha256": "f476eda174726b410d9ce1485369c90bd12546ebf9ae9d9af4dacf9848bd973b",
     "sha512": "ff45008aefdfa317cd4952648fc9d72b4257552800142ee86c79071c565d533bccfa89249e9b26db647f3734f9866cfe1a521b93bde32620bc8df61f3962a8cb",
     "size": 68225540,
+    "unlisted_since": "2026-11-21",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-17/openjdk-17-jdk-headless_17.0.21.0.3+1-1_armhf.deb",
+    "vendor": "debian",
+    "version": "17.0.21.0.3+1-1"
+  },
+  {
+    "architecture": "arm32-vfp-hflt",
+    "distro": "debian",
+    "features": [
+      "hard-float"
+    ],
+    "file_type": "deb",
+    "filename": "openjdk-17-jdk_17.0.21.0.3+1-1_armhf.deb",
+    "image_type": "jdk",
+    "java_version": "17.0.21.0.3+1",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-10-30",
+    "md5": "79ca0382d49dfc718e418291db0ca7a4",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "8c8986170284ffaf2daab0c9d5d4c5493f4c763a",
+    "sha256": "c6f84fdc8c8cbcba95210a0deaafbb12e0d59eff86edf18139e253126d3cb8c8",
+    "sha512": "dadc3d2e96d34c1580d5c272b02387c85064d622fe09512743c972ef86b20e908e6b2bb2f410d7be672a34626af5ecab6395c4e14194f090c7af5ddd3d6ce719",
+    "size": 2479400,
+    "unlisted_since": "2026-11-21",
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-17/openjdk-17-jdk_17.0.21.0.3+1-1_armhf.deb",
     "vendor": "debian",
     "version": "17.0.21.0.3+1-1"
   },
@@ -146,31 +148,6 @@
     "architecture": "arm32-vfp-hflt",
     "distro": "debian",
     "features": [
-      "headless",
-      "hard-float"
-    ],
-    "file_type": "deb",
-    "filename": "openjdk-17-jdk-headless_17.0.21~6ea-1_armhf.deb",
-    "image_type": "jdk",
-    "java_version": "17.0.21",
-    "jvm_impl": "hotspot",
-    "last_verified": "2026-09-17",
-    "md5": "738bba62d0815fe9aa38e04cfa287350",
-    "os": "linux",
-    "release_type": "ga",
-    "sha1": "05d5ce7a9e957f92fe2bd6860f998edb9d320ca1",
-    "sha256": "b30652841bc2a776cf5644d3308c26458f46e957ee9d750e6858b4ca2f89f0ed",
-    "sha512": "9fd93048fbe5ac2ac3a6d24bd355017ae41beef8eef8fe0f3049b09eefee1bd19676a7fe6820ce2333b1961906b8067abb850e1de094f418ef9fa5d496575b55",
-    "size": 68195032,
-    "unlisted_since": "2026-10-10",
-    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-17/openjdk-17-jdk-headless_17.0.21~6ea-1_armhf.deb",
-    "vendor": "debian",
-    "version": "17.0.21~6ea-1"
-  },
-  {
-    "architecture": "arm32-vfp-hflt",
-    "distro": "debian",
-    "features": [
       "hard-float"
     ],
     "file_type": "deb",
@@ -199,22 +176,22 @@
       "hard-float"
     ],
     "file_type": "deb",
-    "filename": "openjdk-17-jdk-headless_17.0.21+9-1_armhf.deb",
+    "filename": "openjdk-17-jdk-headless_17.0.21~6ea-1_armhf.deb",
     "image_type": "jdk",
-    "java_version": "17.0.21+9",
+    "java_version": "17.0.21",
     "jvm_impl": "hotspot",
-    "last_verified": "2026-10-23",
-    "md5": "12947929853290f810c34339b340722b",
+    "last_verified": "2026-09-17",
+    "md5": "738bba62d0815fe9aa38e04cfa287350",
     "os": "linux",
     "release_type": "ga",
-    "sha1": "6271ae88581b8b2bbfb63d7436ca1fbdbfc12201",
-    "sha256": "8dab0adf2ac1a42c3d6032d8c1863dfe7b0a9614d9f6f594ee0e49b6cc7d993b",
-    "sha512": "cbd0d77a8be19d907080613fe8b514a213f7f16e9fb129e874e5d199c4b918f4cf316820f1ef62832d280e6668abcc7f7c10225ea31d05c1fbcb71e98ed417f4",
-    "size": 68227128,
-    "unlisted_since": "2026-10-31",
-    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-17/openjdk-17-jdk-headless_17.0.21+9-1_armhf.deb",
+    "sha1": "05d5ce7a9e957f92fe2bd6860f998edb9d320ca1",
+    "sha256": "b30652841bc2a776cf5644d3308c26458f46e957ee9d750e6858b4ca2f89f0ed",
+    "sha512": "9fd93048fbe5ac2ac3a6d24bd355017ae41beef8eef8fe0f3049b09eefee1bd19676a7fe6820ce2333b1961906b8067abb850e1de094f418ef9fa5d496575b55",
+    "size": 68195032,
+    "unlisted_since": "2026-10-10",
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-17/openjdk-17-jdk-headless_17.0.21~6ea-1_armhf.deb",
     "vendor": "debian",
-    "version": "17.0.21+9-1"
+    "version": "17.0.21~6ea-1"
   },
   {
     "architecture": "arm32-vfp-hflt",
@@ -237,6 +214,31 @@
     "size": 2486104,
     "unlisted_since": "2026-10-31",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-17/openjdk-17-jdk_17.0.21+9-1_armhf.deb",
+    "vendor": "debian",
+    "version": "17.0.21+9-1"
+  },
+  {
+    "architecture": "arm32-vfp-hflt",
+    "distro": "debian",
+    "features": [
+      "headless",
+      "hard-float"
+    ],
+    "file_type": "deb",
+    "filename": "openjdk-17-jdk-headless_17.0.21+9-1_armhf.deb",
+    "image_type": "jdk",
+    "java_version": "17.0.21+9",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-10-23",
+    "md5": "12947929853290f810c34339b340722b",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "6271ae88581b8b2bbfb63d7436ca1fbdbfc12201",
+    "sha256": "8dab0adf2ac1a42c3d6032d8c1863dfe7b0a9614d9f6f594ee0e49b6cc7d993b",
+    "sha512": "cbd0d77a8be19d907080613fe8b514a213f7f16e9fb129e874e5d199c4b918f4cf316820f1ef62832d280e6668abcc7f7c10225ea31d05c1fbcb71e98ed417f4",
+    "size": 68227128,
+    "unlisted_since": "2026-10-31",
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-17/openjdk-17-jdk-headless_17.0.21+9-1_armhf.deb",
     "vendor": "debian",
     "version": "17.0.21+9-1"
   },
@@ -340,29 +342,6 @@
     "architecture": "arm32-vfp-hflt",
     "distro": "debian",
     "features": [
-      "hard-float"
-    ],
-    "file_type": "deb",
-    "filename": "openjdk-17-jdk_17.0.12+7-2~deb11u1_armhf.deb",
-    "image_type": "jdk",
-    "java_version": "17.0.12+7",
-    "jvm_impl": "hotspot",
-    "last_verified": "2026-09-01",
-    "md5": "8023b9335ef09e7cb3be995ca16d84e9",
-    "os": "linux",
-    "release_type": "ga",
-    "sha1": "fff7aae1da874feed722f46e5fcbd146939f1646",
-    "sha256": "89a3f35347e166c793509239501a5fb5d9bac0efcaa976165d270c9110c1705d",
-    "sha512": "20fc0ce4a7bbfb8a25535df7bd55ea46008d94fbbf1b3775999a6bce5af063e44814317e9d88e65cd2257dce6cd35a6e62cbfacae5d5f08a54c75c40b2378416",
-    "size": 10176,
-    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-17/openjdk-17-jdk_17.0.12+7-2~deb11u1_armhf.deb",
-    "vendor": "debian",
-    "version": "17.0.12+7-2~deb11u1"
-  },
-  {
-    "architecture": "arm32-vfp-hflt",
-    "distro": "debian",
-    "features": [
       "headless",
       "hard-float"
     ],
@@ -380,6 +359,29 @@
     "sha512": "b6b4b9b473f931ce8d39d984554f1c0ef350951afef8c64c5db9aba6dd97afcfedeb7c2d3b9325e77587893de02aaf02d668bd4814b65811f0b04866201faf32",
     "size": 67397952,
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-17/openjdk-17-jdk-headless_17.0.12+7-2~deb11u1_armhf.deb",
+    "vendor": "debian",
+    "version": "17.0.12+7-2~deb11u1"
+  },
+  {
+    "architecture": "arm32-vfp-hflt",
+    "distro": "debian",
+    "features": [
+      "hard-float"
+    ],
+    "file_type": "deb",
+    "filename": "openjdk-17-jdk_17.0.12+7-2~deb11u1_armhf.deb",
+    "image_type": "jdk",
+    "java_version": "17.0.12+7",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-01",
+    "md5": "8023b9335ef09e7cb3be995ca16d84e9",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "fff7aae1da874feed722f46e5fcbd146939f1646",
+    "sha256": "89a3f35347e166c793509239501a5fb5d9bac0efcaa976165d270c9110c1705d",
+    "sha512": "20fc0ce4a7bbfb8a25535df7bd55ea46008d94fbbf1b3775999a6bce5af063e44814317e9d88e65cd2257dce6cd35a6e62cbfacae5d5f08a54c75c40b2378416",
+    "size": 10176,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-17/openjdk-17-jdk_17.0.12+7-2~deb11u1_armhf.deb",
     "vendor": "debian",
     "version": "17.0.12+7-2~deb11u1"
   }

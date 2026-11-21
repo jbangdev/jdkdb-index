@@ -130,6 +130,27 @@
   {
     "architecture": "x86_64",
     "distro": "semeru",
+    "features": [ ],
+    "file_type": "tar.gz",
+    "filename": "ibm-semeru-open-jdk_x64_linux_25.0.2_10_openj9-0.57.0.tar.gz",
+    "image_type": "jdk",
+    "java_version": "25.0.2+10",
+    "jvm_impl": "openj9",
+    "last_verified": "2026-09-02",
+    "md5": "279d83f972a37c201cffa9d77b6e1f53",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "0259b7c1db93464e298bf237cf75b4e0f3f24cb3",
+    "sha256": "02c67106e35eb9bc02fd78f527d3ff07b903332579aeee273bd056a98748fd6b",
+    "sha512": "bef663abb94a8304a8136b51d44b3af73e1fbe26ba8329280ec6e2819cca9ed98517d36c082e60504ddcbdd66a2a82c0fe4b6ae9e5d0b73fc985bbfc009e1121",
+    "size": 246364999,
+    "url": "https://github.com/ibmruntimes/semeru25-binaries/releases/download/jdk-25.0.2+10_openj9-0.57.0/ibm-semeru-open-jdk_x64_linux_25.0.2_10_openj9-0.57.0.tar.gz",
+    "vendor": "ibm",
+    "version": "25.0.2+10_openj9-0.57.0"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "semeru",
     "features": [
       "certified"
     ],
@@ -153,23 +174,25 @@
   {
     "architecture": "x86_64",
     "distro": "semeru",
-    "features": [ ],
+    "features": [
+      "certified"
+    ],
     "file_type": "tar.gz",
-    "filename": "ibm-semeru-open-jdk_x64_linux_25.0.2_10_openj9-0.57.0.tar.gz",
+    "filename": "ibm-semeru-certified-jdk_x64_linux_25.0.2.1.tar.gz",
     "image_type": "jdk",
-    "java_version": "25.0.2+10",
+    "java_version": "25.0.2+10.1",
     "jvm_impl": "openj9",
-    "last_verified": "2026-09-02",
-    "md5": "279d83f972a37c201cffa9d77b6e1f53",
+    "last_verified": "2026-09-08",
+    "md5": "38dd137a531241dfbde887ca313a354a",
     "os": "linux",
     "release_type": "ga",
-    "sha1": "0259b7c1db93464e298bf237cf75b4e0f3f24cb3",
-    "sha256": "02c67106e35eb9bc02fd78f527d3ff07b903332579aeee273bd056a98748fd6b",
-    "sha512": "bef663abb94a8304a8136b51d44b3af73e1fbe26ba8329280ec6e2819cca9ed98517d36c082e60504ddcbdd66a2a82c0fe4b6ae9e5d0b73fc985bbfc009e1121",
-    "size": 246364999,
-    "url": "https://github.com/ibmruntimes/semeru25-binaries/releases/download/jdk-25.0.2+10_openj9-0.57.0/ibm-semeru-open-jdk_x64_linux_25.0.2_10_openj9-0.57.0.tar.gz",
+    "sha1": "bdd2a7628e64e101e0f42bc14a654aab708b5f67",
+    "sha256": "348127776ab7093680119520eb847ea1056db48bfad2bf82120647cccf980bd7",
+    "sha512": "90e0281ca48234fe21321b8abcb00cc031657cd6248bd44a01bc71312a838c14ce7a479b45135c7b1fa45b787fbaa6c77bdc5a194ef9711144da94ed699e3f95",
+    "size": 268028472,
+    "url": "https://github.com/ibmruntimes/semeru25-certified-binaries/releases/download/jdk-25.0.2+10.1_openj9-0.57.0/ibm-semeru-certified-jdk_x64_linux_25.0.2.1.tar.gz",
     "vendor": "ibm",
-    "version": "25.0.2+10_openj9-0.57.0"
+    "version": "25.0.2+10.1_openj9-0.57.0"
   },
   {
     "architecture": "x86_64",
@@ -189,29 +212,6 @@
     "sha512": "ba77a98497cd7cc725fd3a9de6c876e6fa07c38d604d469339912a58fbbccd2038e379b492994e7b90b18b003d956ad37024f7e506d64c967884ef01966d6ad0",
     "size": 246721007,
     "url": "https://github.com/ibmruntimes/semeru25-binaries/releases/download/jdk-25.0.2%2B10.1_openj9-0.57.0/ibm-semeru-open-jdk_x64_linux_25.0.2.1.tar.gz",
-    "vendor": "ibm",
-    "version": "25.0.2+10.1_openj9-0.57.0"
-  },
-  {
-    "architecture": "x86_64",
-    "distro": "semeru",
-    "features": [
-      "certified"
-    ],
-    "file_type": "tar.gz",
-    "filename": "ibm-semeru-certified-jdk_x64_linux_25.0.2.1.tar.gz",
-    "image_type": "jdk",
-    "java_version": "25.0.2+10.1",
-    "jvm_impl": "openj9",
-    "last_verified": "2026-09-08",
-    "md5": "38dd137a531241dfbde887ca313a354a",
-    "os": "linux",
-    "release_type": "ga",
-    "sha1": "bdd2a7628e64e101e0f42bc14a654aab708b5f67",
-    "sha256": "348127776ab7093680119520eb847ea1056db48bfad2bf82120647cccf980bd7",
-    "sha512": "90e0281ca48234fe21321b8abcb00cc031657cd6248bd44a01bc71312a838c14ce7a479b45135c7b1fa45b787fbaa6c77bdc5a194ef9711144da94ed699e3f95",
-    "size": 268028472,
-    "url": "https://github.com/ibmruntimes/semeru25-certified-binaries/releases/download/jdk-25.0.2+10.1_openj9-0.57.0/ibm-semeru-certified-jdk_x64_linux_25.0.2.1.tar.gz",
     "vendor": "ibm",
     "version": "25.0.2+10.1_openj9-0.57.0"
   },

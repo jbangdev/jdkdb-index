@@ -50,6 +50,29 @@
     "architecture": "aarch64",
     "distro": "liberica",
     "features": [
+      "musl"
+    ],
+    "file_type": "apk",
+    "filename": "bellsoft-jdk18.0.2+10-linux-aarch64-musl.apk",
+    "image_type": "jdk",
+    "java_version": "18.0.2+10",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-10",
+    "md5": "6fc04d322524b955f3dedb7575666f9b",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "06047cd2f42443183f28ffd67b407d917c42ebc4",
+    "sha256": "53f62e332867d13507c2071f371f02522799c94c07854fc556812bbcc8104f97",
+    "sha512": "b7d3b57acef58e81c685d6bf6db7c22df9c8ba6994019049fdd5808dbd69c34fff9e303851776a78f3b12c6ba6ff097c567822bc1076ea88122b6b569c24512d",
+    "size": 204053146,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.2+10/bellsoft-jdk18.0.2+10-linux-aarch64-musl.apk",
+    "vendor": "bellsoft",
+    "version": "18.0.2+10"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "liberica",
+    "features": [
       "lite",
       "musl"
     ],
@@ -67,29 +90,6 @@
     "sha512": "3efe38d6daa25678356bf9f250cc5a6e2c498363e1569609c52cc26a89a8486df67af706fa3afa29a98662780cdd7d0b56bcc92463fc23ee43f4785dda42748d",
     "size": 71510297,
     "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.2+10/bellsoft-jdk18.0.2+10-linux-aarch64-musl-lite.apk",
-    "vendor": "bellsoft",
-    "version": "18.0.2+10"
-  },
-  {
-    "architecture": "aarch64",
-    "distro": "liberica",
-    "features": [
-      "musl"
-    ],
-    "file_type": "apk",
-    "filename": "bellsoft-jdk18.0.2+10-linux-aarch64-musl.apk",
-    "image_type": "jdk",
-    "java_version": "18.0.2+10",
-    "jvm_impl": "hotspot",
-    "last_verified": "2026-09-10",
-    "md5": "6fc04d322524b955f3dedb7575666f9b",
-    "os": "linux",
-    "release_type": "ga",
-    "sha1": "06047cd2f42443183f28ffd67b407d917c42ebc4",
-    "sha256": "53f62e332867d13507c2071f371f02522799c94c07854fc556812bbcc8104f97",
-    "sha512": "b7d3b57acef58e81c685d6bf6db7c22df9c8ba6994019049fdd5808dbd69c34fff9e303851776a78f3b12c6ba6ff097c567822bc1076ea88122b6b569c24512d",
-    "size": 204053146,
-    "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.2+10/bellsoft-jdk18.0.2+10-linux-aarch64-musl.apk",
     "vendor": "bellsoft",
     "version": "18.0.2+10"
   },
@@ -144,30 +144,6 @@
     "architecture": "aarch64",
     "distro": "liberica",
     "features": [
-      "lite",
-      "musl"
-    ],
-    "file_type": "apk",
-    "filename": "bellsoft-jdk18.0.1+12-linux-aarch64-musl-lite.apk",
-    "image_type": "jdk",
-    "java_version": "18.0.1+12",
-    "jvm_impl": "hotspot",
-    "last_verified": "2026-09-03",
-    "md5": "62ffb7550b2432703b9098aa6a5992f3",
-    "os": "linux",
-    "release_type": "ga",
-    "sha1": "86ef5ec2d2b8778c2132b818eac993b9afb9a9b9",
-    "sha256": "8acade95075288a8f4f93f6c68e8e1ce6bf5f320dfb943f3fb016fd3315eccd5",
-    "sha512": "40ec1250823c109e232a59acb471da24774d8ada2ab0279b39388f68e70e91cfadfc964fde0d05635ea7c058528b9cb5b51ac2dad0d715db472e74aae12f9093",
-    "size": 71515484,
-    "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.1+12/bellsoft-jdk18.0.1+12-linux-aarch64-musl-lite.apk",
-    "vendor": "bellsoft",
-    "version": "18.0.1+12"
-  },
-  {
-    "architecture": "aarch64",
-    "distro": "liberica",
-    "features": [
       "musl"
     ],
     "file_type": "apk",
@@ -195,21 +171,21 @@
       "musl"
     ],
     "file_type": "apk",
-    "filename": "bellsoft-jdk18+37-linux-aarch64-musl-lite.apk",
+    "filename": "bellsoft-jdk18.0.1+12-linux-aarch64-musl-lite.apk",
     "image_type": "jdk",
-    "java_version": "18+37",
+    "java_version": "18.0.1+12",
     "jvm_impl": "hotspot",
-    "last_verified": "2026-09-08",
-    "md5": "e7975ee38702eb312021e536c9b7ec55",
+    "last_verified": "2026-09-03",
+    "md5": "62ffb7550b2432703b9098aa6a5992f3",
     "os": "linux",
     "release_type": "ga",
-    "sha1": "1d1ca0da57570e666de6f29ce1aef2fcae856fb0",
-    "sha256": "7804146a4e307632ec93b48315c9cbb064987357307b5e53498659d672127095",
-    "sha512": "ac88719384bf4ba7ab6430948bd800f99c88e32a310748ccd4f4f59f7285baf51330f5c3c85945f03cf4f0aa17e34f064f8603217ca7842cb3d99c823c7bf3f4",
-    "size": 71472027,
-    "url": "https://github.com/bell-sw/Liberica/releases/download/18+37/bellsoft-jdk18+37-linux-aarch64-musl-lite.apk",
+    "sha1": "86ef5ec2d2b8778c2132b818eac993b9afb9a9b9",
+    "sha256": "8acade95075288a8f4f93f6c68e8e1ce6bf5f320dfb943f3fb016fd3315eccd5",
+    "sha512": "40ec1250823c109e232a59acb471da24774d8ada2ab0279b39388f68e70e91cfadfc964fde0d05635ea7c058528b9cb5b51ac2dad0d715db472e74aae12f9093",
+    "size": 71515484,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.1+12/bellsoft-jdk18.0.1+12-linux-aarch64-musl-lite.apk",
     "vendor": "bellsoft",
-    "version": "18+37"
+    "version": "18.0.1+12"
   },
   {
     "architecture": "aarch64",
@@ -231,6 +207,30 @@
     "sha512": "7ade4a5b49a2ec96079ba122edcfaff7c5f7d96cc9c82682e5875f3172171961b93cc6c465a40adbb36e30b747601d12bdf4c797c8887169f4293637e1ae0b62",
     "size": 203984751,
     "url": "https://github.com/bell-sw/Liberica/releases/download/18+37/bellsoft-jdk18+37-linux-aarch64-musl.apk",
+    "vendor": "bellsoft",
+    "version": "18+37"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "liberica",
+    "features": [
+      "lite",
+      "musl"
+    ],
+    "file_type": "apk",
+    "filename": "bellsoft-jdk18+37-linux-aarch64-musl-lite.apk",
+    "image_type": "jdk",
+    "java_version": "18+37",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-08",
+    "md5": "e7975ee38702eb312021e536c9b7ec55",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "1d1ca0da57570e666de6f29ce1aef2fcae856fb0",
+    "sha256": "7804146a4e307632ec93b48315c9cbb064987357307b5e53498659d672127095",
+    "sha512": "ac88719384bf4ba7ab6430948bd800f99c88e32a310748ccd4f4f59f7285baf51330f5c3c85945f03cf4f0aa17e34f064f8603217ca7842cb3d99c823c7bf3f4",
+    "size": 71472027,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/18+37/bellsoft-jdk18+37-linux-aarch64-musl-lite.apk",
     "vendor": "bellsoft",
     "version": "18+37"
   }

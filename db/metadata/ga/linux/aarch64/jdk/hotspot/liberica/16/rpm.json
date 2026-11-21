@@ -71,6 +71,27 @@
   {
     "architecture": "aarch64",
     "distro": "liberica",
+    "features": [ ],
+    "file_type": "rpm",
+    "filename": "bellsoft-jdk16.0.1+9-linux-aarch64.rpm",
+    "image_type": "jdk",
+    "java_version": "16.0.1+9",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-06",
+    "md5": "59cad99cd51ffcd19646bf380b8a7654",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "699ad214770e63b46d0c52361f6f15e4f1babc39",
+    "sha256": "899486065ffbe7e3095b111ed7f1581c88d9f29c92217ddc6b15d51683ac4702",
+    "sha512": "bace6f20a765ca68961feacd98bcf0bfd4cd6c11f142e31a81c90294acdd2133ce4546ae8e325ed3043b3a246681d8c64f74c4df3f7d5ab525f3b5f202ccf34e",
+    "size": 188840328,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/16.0.1+9/bellsoft-jdk16.0.1+9-linux-aarch64.rpm",
+    "vendor": "bellsoft",
+    "version": "16.0.1+9"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "liberica",
     "features": [
       "libericafx",
       "minimal-vm",
@@ -90,27 +111,6 @@
     "sha512": "e3f858e69579afdac20c29d448e5396b21403fbfb8c1e3d05c9282e0c3373275c3ca9b26399f784f7978306ce86174fa8ff7c92be22a7a0b44dc2dbec4e8e3db",
     "size": 264273772,
     "url": "https://github.com/bell-sw/Liberica/releases/download/16.0.1+9/bellsoft-jdk16.0.1+9-linux-aarch64-full.rpm",
-    "vendor": "bellsoft",
-    "version": "16.0.1+9"
-  },
-  {
-    "architecture": "aarch64",
-    "distro": "liberica",
-    "features": [ ],
-    "file_type": "rpm",
-    "filename": "bellsoft-jdk16.0.1+9-linux-aarch64.rpm",
-    "image_type": "jdk",
-    "java_version": "16.0.1+9",
-    "jvm_impl": "hotspot",
-    "last_verified": "2026-09-06",
-    "md5": "59cad99cd51ffcd19646bf380b8a7654",
-    "os": "linux",
-    "release_type": "ga",
-    "sha1": "699ad214770e63b46d0c52361f6f15e4f1babc39",
-    "sha256": "899486065ffbe7e3095b111ed7f1581c88d9f29c92217ddc6b15d51683ac4702",
-    "sha512": "bace6f20a765ca68961feacd98bcf0bfd4cd6c11f142e31a81c90294acdd2133ce4546ae8e325ed3043b3a246681d8c64f74c4df3f7d5ab525f3b5f202ccf34e",
-    "size": 188840328,
-    "url": "https://github.com/bell-sw/Liberica/releases/download/16.0.1+9/bellsoft-jdk16.0.1+9-linux-aarch64.rpm",
     "vendor": "bellsoft",
     "version": "16.0.1+9"
   },
@@ -162,29 +162,6 @@
     "architecture": "aarch64",
     "distro": "liberica",
     "features": [
-      "lite"
-    ],
-    "file_type": "rpm",
-    "filename": "bellsoft-jdk16+36-linux-aarch64-lite.rpm",
-    "image_type": "jdk",
-    "java_version": "16+36",
-    "jvm_impl": "hotspot",
-    "last_verified": "2026-09-03",
-    "md5": "2284c87fd8e14c76a5ec1afea796ea62",
-    "os": "linux",
-    "release_type": "ga",
-    "sha1": "42acde0388e0ad96c5d9301d43a69a75a21c045c",
-    "sha256": "6fb48df4af9bbca864829119bccee10b438eff64b41d388f96b5488c779084ef",
-    "sha512": "e650d376ada788efe0a1cbccf633c18886ad7cc3ee2e64acc4a89a91ac97f387b8a86f5c00fd76cdc314f807eff8670ee89677035f9d7eec29d541299c25305a",
-    "size": 74963504,
-    "url": "https://github.com/bell-sw/Liberica/releases/download/16+36/bellsoft-jdk16+36-linux-aarch64-lite.rpm",
-    "vendor": "bellsoft",
-    "version": "16+36"
-  },
-  {
-    "architecture": "aarch64",
-    "distro": "liberica",
-    "features": [
       "libericafx",
       "minimal-vm",
       "javafx"
@@ -203,6 +180,29 @@
     "sha512": "45eb04013c6a246790c9fa2d0f2a75f738af69229dbad1b4378d4d5b7ddc8a085d72bde37663af1465792e7022529ef11c0080b6f2b9cb7e44be59ef5e23f2f3",
     "size": 262931156,
     "url": "https://github.com/bell-sw/Liberica/releases/download/16+36/bellsoft-jdk16+36-linux-aarch64-full.rpm",
+    "vendor": "bellsoft",
+    "version": "16+36"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "liberica",
+    "features": [
+      "lite"
+    ],
+    "file_type": "rpm",
+    "filename": "bellsoft-jdk16+36-linux-aarch64-lite.rpm",
+    "image_type": "jdk",
+    "java_version": "16+36",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-03",
+    "md5": "2284c87fd8e14c76a5ec1afea796ea62",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "42acde0388e0ad96c5d9301d43a69a75a21c045c",
+    "sha256": "6fb48df4af9bbca864829119bccee10b438eff64b41d388f96b5488c779084ef",
+    "sha512": "e650d376ada788efe0a1cbccf633c18886ad7cc3ee2e64acc4a89a91ac97f387b8a86f5c00fd76cdc314f807eff8670ee89677035f9d7eec29d541299c25305a",
+    "size": 74963504,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/16+36/bellsoft-jdk16+36-linux-aarch64-lite.rpm",
     "vendor": "bellsoft",
     "version": "16+36"
   }

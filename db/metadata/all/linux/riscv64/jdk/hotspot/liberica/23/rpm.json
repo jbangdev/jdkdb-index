@@ -2,6 +2,27 @@
   {
     "architecture": "riscv64",
     "distro": "liberica",
+    "features": [ ],
+    "file_type": "rpm",
+    "filename": "bellsoft-jdk23.0.2+9-linux-riscv64.rpm",
+    "image_type": "jdk",
+    "java_version": "23.0.2+9",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-06",
+    "md5": "e86990f0705c34b6dc911914d80f6d5f",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "a0cf2708befedbc9ecd9ba69676a1072dc8da177",
+    "sha256": "79f46711b6c531b5278675de52323941c84ad4ec84cdb3f27467855057123a64",
+    "sha512": "d697181e5623dd5d3d3844a389c3610e2f709bfae2ca4f3ff27b121a7d57b03de0667d464341a903436b76e0e00ddc013f6c37817719c291f243501f9cd60b74",
+    "size": 183201184,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/23.0.2+9/bellsoft-jdk23.0.2+9-linux-riscv64.rpm",
+    "vendor": "bellsoft",
+    "version": "23.0.2+9"
+  },
+  {
+    "architecture": "riscv64",
+    "distro": "liberica",
     "features": [
       "lite"
     ],
@@ -25,23 +46,25 @@
   {
     "architecture": "riscv64",
     "distro": "liberica",
-    "features": [ ],
+    "features": [
+      "lite"
+    ],
     "file_type": "rpm",
-    "filename": "bellsoft-jdk23.0.2+9-linux-riscv64.rpm",
+    "filename": "bellsoft-jdk23.0.1+13-linux-riscv64-lite.rpm",
     "image_type": "jdk",
-    "java_version": "23.0.2+9",
+    "java_version": "23.0.1+13",
     "jvm_impl": "hotspot",
-    "last_verified": "2026-09-06",
-    "md5": "e86990f0705c34b6dc911914d80f6d5f",
+    "last_verified": "2026-09-10",
+    "md5": "b7823b7217650e0b3aced4add4c55959",
     "os": "linux",
     "release_type": "ga",
-    "sha1": "a0cf2708befedbc9ecd9ba69676a1072dc8da177",
-    "sha256": "79f46711b6c531b5278675de52323941c84ad4ec84cdb3f27467855057123a64",
-    "sha512": "d697181e5623dd5d3d3844a389c3610e2f709bfae2ca4f3ff27b121a7d57b03de0667d464341a903436b76e0e00ddc013f6c37817719c291f243501f9cd60b74",
-    "size": 183201184,
-    "url": "https://github.com/bell-sw/Liberica/releases/download/23.0.2+9/bellsoft-jdk23.0.2+9-linux-riscv64.rpm",
+    "sha1": "4e7a2e13c9726f506f6bc95cc8208c7d931150a5",
+    "sha256": "e6145ad743645a33637f6f0787f51c4097abc4ab21459189731645c5a0f2a2f9",
+    "sha512": "d4153d63ca9d36831c7ba28b0f40230840a1400ed3deb1d86e207ce5bcf0279f53b984376957eee1de4ec2e67c835f8d41a610214eea8250e97956163d838903",
+    "size": 78187212,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/23.0.1+13/bellsoft-jdk23.0.1+13-linux-riscv64-lite.rpm",
     "vendor": "bellsoft",
-    "version": "23.0.2+9"
+    "version": "23.0.1+13"
   },
   {
     "architecture": "riscv64",
@@ -61,29 +84,6 @@
     "sha512": "12962cae1b5df951d5ff2f70122507ab1ca2ed97bd01503b1583cfadc4b713355280095bcab3067d8d0df6a1914ad2bd4b373150d6b397053ced53276e14e6d0",
     "size": 183113036,
     "url": "https://github.com/bell-sw/Liberica/releases/download/23.0.1+13/bellsoft-jdk23.0.1+13-linux-riscv64.rpm",
-    "vendor": "bellsoft",
-    "version": "23.0.1+13"
-  },
-  {
-    "architecture": "riscv64",
-    "distro": "liberica",
-    "features": [
-      "lite"
-    ],
-    "file_type": "rpm",
-    "filename": "bellsoft-jdk23.0.1+13-linux-riscv64-lite.rpm",
-    "image_type": "jdk",
-    "java_version": "23.0.1+13",
-    "jvm_impl": "hotspot",
-    "last_verified": "2026-09-10",
-    "md5": "b7823b7217650e0b3aced4add4c55959",
-    "os": "linux",
-    "release_type": "ga",
-    "sha1": "4e7a2e13c9726f506f6bc95cc8208c7d931150a5",
-    "sha256": "e6145ad743645a33637f6f0787f51c4097abc4ab21459189731645c5a0f2a2f9",
-    "sha512": "d4153d63ca9d36831c7ba28b0f40230840a1400ed3deb1d86e207ce5bcf0279f53b984376957eee1de4ec2e67c835f8d41a610214eea8250e97956163d838903",
-    "size": 78187212,
-    "url": "https://github.com/bell-sw/Liberica/releases/download/23.0.1+13/bellsoft-jdk23.0.1+13-linux-riscv64-lite.rpm",
     "vendor": "bellsoft",
     "version": "23.0.1+13"
   },

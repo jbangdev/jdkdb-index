@@ -2,27 +2,6 @@
   {
     "architecture": "aarch64",
     "distro": "liberica",
-    "features": [ ],
-    "file_type": "pkg",
-    "filename": "bellsoft-jdk16.0.2+7-macos-aarch64.pkg",
-    "image_type": "jdk",
-    "java_version": "16.0.2+7",
-    "jvm_impl": "hotspot",
-    "last_verified": "2026-09-17",
-    "md5": "deda156956f31e03151a8490a2ac2272",
-    "os": "macosx",
-    "release_type": "ga",
-    "sha1": "3d2517150825ca1231160725ac767930da675754",
-    "sha256": "0e2c6c02590f3c7edc61fde78c04dfb0085c6ac0ae966963005bcbb737672f53",
-    "sha512": "d0e6b4a23275fbcffc2f90ad2f932d07a83721d87f0921e843958e7d9e6f8db5a240161220f816d9771803ada971b921fd27d6367e62979896e04ac161946290",
-    "size": 195998155,
-    "url": "https://github.com/bell-sw/Liberica/releases/download/16.0.2+7/bellsoft-jdk16.0.2+7-macos-aarch64.pkg",
-    "vendor": "bellsoft",
-    "version": "16.0.2+7"
-  },
-  {
-    "architecture": "aarch64",
-    "distro": "liberica",
     "features": [
       "libericafx",
       "minimal-vm",
@@ -71,25 +50,23 @@
   {
     "architecture": "aarch64",
     "distro": "liberica",
-    "features": [
-      "lite"
-    ],
+    "features": [ ],
     "file_type": "pkg",
-    "filename": "bellsoft-jdk16.0.1+10-macos-aarch64-lite.pkg",
+    "filename": "bellsoft-jdk16.0.2+7-macos-aarch64.pkg",
     "image_type": "jdk",
-    "java_version": "16.0.1+10",
+    "java_version": "16.0.2+7",
     "jvm_impl": "hotspot",
     "last_verified": "2026-09-17",
-    "md5": "419341e65273c41d543b6dbe7b9d5dbc",
+    "md5": "deda156956f31e03151a8490a2ac2272",
     "os": "macosx",
     "release_type": "ga",
-    "sha1": "376d62db33f97f266d510d9694b8417d6bad1f99",
-    "sha256": "af7611581376da23ecc7d3e8160eb9123386ed810bee2c069b92786facd61a7f",
-    "sha512": "e61d813ba39c1e9672a45f60228253df203715ed7dfec0da32d18edcba4aeac5ca3d37d4d90d24cbf02b4f052defe50b8a3e72a16ee8574add6280131d7889be",
-    "size": 75420414,
-    "url": "https://github.com/bell-sw/Liberica/releases/download/16.0.1+10/bellsoft-jdk16.0.1+10-macos-aarch64-lite.pkg",
+    "sha1": "3d2517150825ca1231160725ac767930da675754",
+    "sha256": "0e2c6c02590f3c7edc61fde78c04dfb0085c6ac0ae966963005bcbb737672f53",
+    "sha512": "d0e6b4a23275fbcffc2f90ad2f932d07a83721d87f0921e843958e7d9e6f8db5a240161220f816d9771803ada971b921fd27d6367e62979896e04ac161946290",
+    "size": 195998155,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/16.0.2+7/bellsoft-jdk16.0.2+7-macos-aarch64.pkg",
     "vendor": "bellsoft",
-    "version": "16.0.1+10"
+    "version": "16.0.2+7"
   },
   {
     "architecture": "aarch64",
@@ -109,6 +86,29 @@
     "sha512": "535aa2190b74554bd98672a7620f9f32cf5087d03651a45c2c613ceec6f9d367457f87d4e9a45f752afd642099a7bc58c9cab732512edd6d963baa8722e1f476",
     "size": 196931641,
     "url": "https://github.com/bell-sw/Liberica/releases/download/16.0.1+10/bellsoft-jdk16.0.1+10-macos-aarch64.pkg",
+    "vendor": "bellsoft",
+    "version": "16.0.1+10"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "liberica",
+    "features": [
+      "lite"
+    ],
+    "file_type": "pkg",
+    "filename": "bellsoft-jdk16.0.1+10-macos-aarch64-lite.pkg",
+    "image_type": "jdk",
+    "java_version": "16.0.1+10",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-17",
+    "md5": "419341e65273c41d543b6dbe7b9d5dbc",
+    "os": "macosx",
+    "release_type": "ga",
+    "sha1": "376d62db33f97f266d510d9694b8417d6bad1f99",
+    "sha256": "af7611581376da23ecc7d3e8160eb9123386ed810bee2c069b92786facd61a7f",
+    "sha512": "e61d813ba39c1e9672a45f60228253df203715ed7dfec0da32d18edcba4aeac5ca3d37d4d90d24cbf02b4f052defe50b8a3e72a16ee8574add6280131d7889be",
+    "size": 75420414,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/16.0.1+10/bellsoft-jdk16.0.1+10-macos-aarch64-lite.pkg",
     "vendor": "bellsoft",
     "version": "16.0.1+10"
   },
@@ -136,29 +136,6 @@
     "url": "https://github.com/bell-sw/Liberica/releases/download/16.0.1+10/bellsoft-jdk16.0.1+10-macos-aarch64-full.pkg",
     "vendor": "bellsoft",
     "version": "16.0.1+10"
-  },
-  {
-    "architecture": "aarch64",
-    "distro": "liberica",
-    "features": [
-      "lite"
-    ],
-    "file_type": "pkg",
-    "filename": "bellsoft-jdk16.0.1+9-macos-aarch64-lite.pkg",
-    "image_type": "jdk",
-    "java_version": "16.0.1+9",
-    "jvm_impl": "hotspot",
-    "last_verified": "2026-09-17",
-    "md5": "69bdf5879acdcda62cae1769850cd8cd",
-    "os": "macosx",
-    "release_type": "ga",
-    "sha1": "f3dce93953e6b1baf44bd712bb794af45e26dea9",
-    "sha256": "d1e30a41e3a2a8ed7ebed034131a3e5bf31e8c179fcc7e9ffb17aa9284e3d3e0",
-    "sha512": "b03cbe2437caa80b05dbd0987428ebcceba2c580cf04ccf4f78b1a07bbb09a66535f15c402595f848bd953a35e842a7f3eefd80892c79659500da99f5c177eaa",
-    "size": 75420246,
-    "url": "https://github.com/bell-sw/Liberica/releases/download/16.0.1+9/bellsoft-jdk16.0.1+9-macos-aarch64-lite.pkg",
-    "vendor": "bellsoft",
-    "version": "16.0.1+9"
   },
   {
     "architecture": "aarch64",
@@ -203,6 +180,29 @@
     "sha512": "95178fbf41b4f6af55190272f0a057ff4818412e8298592e410992a8bdf00ac76c3ff02684984fdcf9e6ba320e29bb74ccdcd8b35dbff23810107c641df5e520",
     "size": 196931184,
     "url": "https://github.com/bell-sw/Liberica/releases/download/16.0.1+9/bellsoft-jdk16.0.1+9-macos-aarch64.pkg",
+    "vendor": "bellsoft",
+    "version": "16.0.1+9"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "liberica",
+    "features": [
+      "lite"
+    ],
+    "file_type": "pkg",
+    "filename": "bellsoft-jdk16.0.1+9-macos-aarch64-lite.pkg",
+    "image_type": "jdk",
+    "java_version": "16.0.1+9",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-17",
+    "md5": "69bdf5879acdcda62cae1769850cd8cd",
+    "os": "macosx",
+    "release_type": "ga",
+    "sha1": "f3dce93953e6b1baf44bd712bb794af45e26dea9",
+    "sha256": "d1e30a41e3a2a8ed7ebed034131a3e5bf31e8c179fcc7e9ffb17aa9284e3d3e0",
+    "sha512": "b03cbe2437caa80b05dbd0987428ebcceba2c580cf04ccf4f78b1a07bbb09a66535f15c402595f848bd953a35e842a7f3eefd80892c79659500da99f5c177eaa",
+    "size": 75420246,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/16.0.1+9/bellsoft-jdk16.0.1+9-macos-aarch64-lite.pkg",
     "vendor": "bellsoft",
     "version": "16.0.1+9"
   },

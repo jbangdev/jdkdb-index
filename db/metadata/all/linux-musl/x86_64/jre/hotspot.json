@@ -6,6 +6,29 @@
       "musl"
     ],
     "file_type": "tar.gz",
+    "filename": "OpenJDK27U-jre_x64_alpine-linux_hotspot_27.0.1.1_4.tar.gz",
+    "image_type": "jre",
+    "java_version": "27.0.1.1+4",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-11-21",
+    "md5": "2499bb96685e39da99989308affbc900",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "fa2f393ec705f2598ecbfb1e85bfcf89f1525429",
+    "sha256": "b77dceb6bc1ddcddb2a1c291d1e972d5e6eda22c15c4cb843c95ea36f833023f",
+    "sha512": "ac96214ba1927f281fc717ed4c4c78d77176e52aac162ec6d594f83f058a6641b3a40919ba8092a37a0f3590e8a6c34e6106e6e6cb1fe9b792954fb2f64de5ff",
+    "size": 61565674,
+    "url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.1%2B4/OpenJDK27U-jre_x64_alpine-linux_hotspot_27.0.1.1_4.tar.gz",
+    "vendor": "adoptopenjdk",
+    "version": "27.0.1+100000004"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "adoptopenjdk",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
     "filename": "OpenJDK27U-jre_x64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz",
     "image_type": "jre",
     "java_version": "27.0.1.0.2+1",
@@ -5805,29 +5828,6 @@
     "features": [
       "musl"
     ],
-    "file_type": "apk",
-    "filename": "bellsoft-jre25.0.1+13-linux-x64-musl.apk",
-    "image_type": "jre",
-    "java_version": "25.0.1+13-LTS",
-    "jvm_impl": "hotspot",
-    "last_verified": "2026-09-05",
-    "md5": "f35da1f6d082b9946ac77f20b8920e0d",
-    "os": "linux",
-    "release_type": "ga",
-    "sha1": "46a4765d7967a8ed4c50e3e8a7cc10505d80e695",
-    "sha256": "e793e984043d55355c294270c3254fb857589ab8bc3a6b476f3a4c6afc9e57cc",
-    "sha512": "dcd1e94e606c95eec9fb2539e3d8de22a2f63120e20562207da633640e7cb13f22760f7846e4896ac852ee6364dceac1a3c3b643fb49f34fbf7f48d15ba3612b",
-    "size": 83147577,
-    "url": "https://github.com/bell-sw/Liberica/releases/download/25.0.1+13/bellsoft-jre25.0.1+13-linux-x64-musl.apk",
-    "vendor": "bellsoft",
-    "version": "25.0.1+13"
-  },
-  {
-    "architecture": "x86_64",
-    "distro": "liberica",
-    "features": [
-      "musl"
-    ],
     "file_type": "tar.gz",
     "filename": "bellsoft-jre25.0.1+13-linux-x64-musl.tar.gz",
     "image_type": "jre",
@@ -5842,6 +5842,29 @@
     "sha512": "69589969bd139e101923e427c85f30be2bbbbd9a97100e6429cc419cd5037f14700e50406dfac095e03bee4dfada3af543318867ba60006f783e6b6d57ea1d6d",
     "size": 83940182,
     "url": "https://github.com/bell-sw/Liberica/releases/download/25.0.1+13/bellsoft-jre25.0.1+13-linux-x64-musl.tar.gz",
+    "vendor": "bellsoft",
+    "version": "25.0.1+13"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
+      "musl"
+    ],
+    "file_type": "apk",
+    "filename": "bellsoft-jre25.0.1+13-linux-x64-musl.apk",
+    "image_type": "jre",
+    "java_version": "25.0.1+13-LTS",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-05",
+    "md5": "f35da1f6d082b9946ac77f20b8920e0d",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "46a4765d7967a8ed4c50e3e8a7cc10505d80e695",
+    "sha256": "e793e984043d55355c294270c3254fb857589ab8bc3a6b476f3a4c6afc9e57cc",
+    "sha512": "dcd1e94e606c95eec9fb2539e3d8de22a2f63120e20562207da633640e7cb13f22760f7846e4896ac852ee6364dceac1a3c3b643fb49f34fbf7f48d15ba3612b",
+    "size": 83147577,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/25.0.1+13/bellsoft-jre25.0.1+13-linux-x64-musl.apk",
     "vendor": "bellsoft",
     "version": "25.0.1+13"
   },
@@ -5992,31 +6015,6 @@
       "musl",
       "leyden"
     ],
-    "file_type": "tar.gz",
-    "filename": "bellsoft-jre25+21-ea-linux-x64-musl-leyden.tar.gz",
-    "image_type": "jre",
-    "java_version": "25+21-ea",
-    "jvm_impl": "hotspot",
-    "last_verified": "2026-08-28",
-    "md5": "812f2818c16793703fbf4f5d9b01c4fb",
-    "os": "linux",
-    "release_type": "ea",
-    "sha1": "949000d11ef41b11ef4c5feaa516efe9083d5671",
-    "sha256": "bc8b8db6d5e0c6eab982936db7b17104c0af5ee7b4d31e41424c9ef22aaa840c",
-    "sha512": "ceec3abc5ee1d1040b2c140eb5da8b86754b0014549a5ba1667b0fa546914b041ced1a58dd1c301d794e6c2369ff21911149218af2d0ab55d8ef13cec93c78d4",
-    "size": 62101028,
-    "unlisted_since": "2026-08-12",
-    "url": "https://github.com/bell-sw/Liberica/releases/download/25+21-ea-leyden/bellsoft-jre25+21-ea-linux-x64-musl-leyden.tar.gz",
-    "vendor": "bellsoft",
-    "version": "25+21-ea"
-  },
-  {
-    "architecture": "x86_64",
-    "distro": "liberica",
-    "features": [
-      "musl",
-      "leyden"
-    ],
     "file_type": "apk",
     "filename": "bellsoft-jre25+21-ea-linux-x64-musl-leyden.apk",
     "image_type": "jre",
@@ -6039,24 +6037,26 @@
     "architecture": "x86_64",
     "distro": "liberica",
     "features": [
-      "musl"
+      "musl",
+      "leyden"
     ],
-    "file_type": "apk",
-    "filename": "bellsoft-jre24.0.2+12-linux-x64-musl.apk",
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jre25+21-ea-linux-x64-musl-leyden.tar.gz",
     "image_type": "jre",
-    "java_version": "24.0.2+12",
+    "java_version": "25+21-ea",
     "jvm_impl": "hotspot",
-    "last_verified": "2026-09-03",
-    "md5": "48d54382dd1758f9c48ae9ccabc870c8",
+    "last_verified": "2026-08-28",
+    "md5": "812f2818c16793703fbf4f5d9b01c4fb",
     "os": "linux",
-    "release_type": "ga",
-    "sha1": "7900ea4ed38b66ecae38b6c9e7ae62f6fa029cf0",
-    "sha256": "23cedaf3259b7fc91c0686669ace0ce3d4489fca5cdf00d9bcfd777484952352",
-    "sha512": "68a2cb12c12be7bdf8806909d5fbe7417a249a640bd78c06997812befe96620e397201f94477016da9d6f83f8bca5795c115efa4d959c014644bc2fb86caacd1",
-    "size": 81624894,
-    "url": "https://github.com/bell-sw/Liberica/releases/download/24.0.2+12/bellsoft-jre24.0.2+12-linux-x64-musl.apk",
+    "release_type": "ea",
+    "sha1": "949000d11ef41b11ef4c5feaa516efe9083d5671",
+    "sha256": "bc8b8db6d5e0c6eab982936db7b17104c0af5ee7b4d31e41424c9ef22aaa840c",
+    "sha512": "ceec3abc5ee1d1040b2c140eb5da8b86754b0014549a5ba1667b0fa546914b041ced1a58dd1c301d794e6c2369ff21911149218af2d0ab55d8ef13cec93c78d4",
+    "size": 62101028,
+    "unlisted_since": "2026-08-12",
+    "url": "https://github.com/bell-sw/Liberica/releases/download/25+21-ea-leyden/bellsoft-jre25+21-ea-linux-x64-musl-leyden.tar.gz",
     "vendor": "bellsoft",
-    "version": "24.0.2+12"
+    "version": "25+21-ea"
   },
   {
     "architecture": "x86_64",
@@ -6087,22 +6087,22 @@
     "features": [
       "musl"
     ],
-    "file_type": "tar.gz",
-    "filename": "bellsoft-jre24.0.1+11-linux-x64-musl.tar.gz",
+    "file_type": "apk",
+    "filename": "bellsoft-jre24.0.2+12-linux-x64-musl.apk",
     "image_type": "jre",
-    "java_version": "24.0.1+11",
+    "java_version": "24.0.2+12",
     "jvm_impl": "hotspot",
-    "last_verified": "2026-09-05",
-    "md5": "cf847bf276ccb81cefc0ce88d2613955",
+    "last_verified": "2026-09-03",
+    "md5": "48d54382dd1758f9c48ae9ccabc870c8",
     "os": "linux",
     "release_type": "ga",
-    "sha1": "e64d6505be90af47168199ebf80a3aa9b0ce20a5",
-    "sha256": "3a4fc019bf118c6bd5018dc6d37dd6b6cc57c2238bfb52c3b0ae74ef3355be88",
-    "sha512": "20c5825aac64335c78846e5e4444785e94d4e02b4366d96bbaacef9cf82e67e96e909c7ac0761b4133cc6c215cfd3697f91f47b2facbb80e26a953353505c88c",
-    "size": 82383022,
-    "url": "https://github.com/bell-sw/Liberica/releases/download/24.0.1+11/bellsoft-jre24.0.1+11-linux-x64-musl.tar.gz",
+    "sha1": "7900ea4ed38b66ecae38b6c9e7ae62f6fa029cf0",
+    "sha256": "23cedaf3259b7fc91c0686669ace0ce3d4489fca5cdf00d9bcfd777484952352",
+    "sha512": "68a2cb12c12be7bdf8806909d5fbe7417a249a640bd78c06997812befe96620e397201f94477016da9d6f83f8bca5795c115efa4d959c014644bc2fb86caacd1",
+    "size": 81624894,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/24.0.2+12/bellsoft-jre24.0.2+12-linux-x64-musl.apk",
     "vendor": "bellsoft",
-    "version": "24.0.1+11"
+    "version": "24.0.2+12"
   },
   {
     "architecture": "x86_64",
@@ -6124,6 +6124,29 @@
     "sha512": "963d06ed17d68699debe65f95a84481711e8081f1f00b1e77c9f662396194e972004886486e94fae9db4f2eb58c248125d87c4b7ffe1549f227480f25c2c41c2",
     "size": 81614608,
     "url": "https://github.com/bell-sw/Liberica/releases/download/24.0.1+11/bellsoft-jre24.0.1+11-linux-x64-musl.apk",
+    "vendor": "bellsoft",
+    "version": "24.0.1+11"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jre24.0.1+11-linux-x64-musl.tar.gz",
+    "image_type": "jre",
+    "java_version": "24.0.1+11",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-05",
+    "md5": "cf847bf276ccb81cefc0ce88d2613955",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "e64d6505be90af47168199ebf80a3aa9b0ce20a5",
+    "sha256": "3a4fc019bf118c6bd5018dc6d37dd6b6cc57c2238bfb52c3b0ae74ef3355be88",
+    "sha512": "20c5825aac64335c78846e5e4444785e94d4e02b4366d96bbaacef9cf82e67e96e909c7ac0761b4133cc6c215cfd3697f91f47b2facbb80e26a953353505c88c",
+    "size": 82383022,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/24.0.1+11/bellsoft-jre24.0.1+11-linux-x64-musl.tar.gz",
     "vendor": "bellsoft",
     "version": "24.0.1+11"
   },
@@ -6180,31 +6203,6 @@
       "musl",
       "leyden"
     ],
-    "file_type": "tar.gz",
-    "filename": "bellsoft-jre24+2-ea-linux-x64-musl-leyden.tar.gz",
-    "image_type": "jre",
-    "java_version": "24+2-ea",
-    "jvm_impl": "hotspot",
-    "last_verified": "2026-08-26",
-    "md5": "21c55307d1047edf0bd9f2b4c794dc8c",
-    "os": "linux",
-    "release_type": "ea",
-    "sha1": "c2b4f5d09a6eb48351c58ebd5974afa9ec0cfe18",
-    "sha256": "66dd78af57741ccaa07bc2cd6507a21a791866b2ca1ed3c5246a6abadf9418c9",
-    "sha512": "6ac39a1248445b9b1ac14dbb832471deeef0f52612622cf23fcac6be4910ba69d8a2150839142730163bb4dc0fadfc43cfd3d180c13baaac7a3fb00d5190e761",
-    "size": 53515945,
-    "unlisted_since": "2026-08-12",
-    "url": "https://github.com/bell-sw/Liberica/releases/download/24+2-ea-leyden/bellsoft-jre24+2-ea-linux-x64-musl-leyden.tar.gz",
-    "vendor": "bellsoft",
-    "version": "24+2-ea"
-  },
-  {
-    "architecture": "x86_64",
-    "distro": "liberica",
-    "features": [
-      "musl",
-      "leyden"
-    ],
     "file_type": "apk",
     "filename": "bellsoft-jre24+2-ea-linux-x64-musl-leyden.apk",
     "image_type": "jre",
@@ -6227,24 +6225,26 @@
     "architecture": "x86_64",
     "distro": "liberica",
     "features": [
-      "musl"
+      "musl",
+      "leyden"
     ],
-    "file_type": "apk",
-    "filename": "bellsoft-jre23.0.2+9-linux-x64-musl.apk",
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jre24+2-ea-linux-x64-musl-leyden.tar.gz",
     "image_type": "jre",
-    "java_version": "23.0.2+9",
+    "java_version": "24+2-ea",
     "jvm_impl": "hotspot",
-    "last_verified": "2026-09-05",
-    "md5": "3cd185f14f741c76686aa86d0a3d55d4",
+    "last_verified": "2026-08-26",
+    "md5": "21c55307d1047edf0bd9f2b4c794dc8c",
     "os": "linux",
-    "release_type": "ga",
-    "sha1": "9c35561946ac724a85059281909e75dd4092789e",
-    "sha256": "704375a34d1fefd39067ed1110a7d67a86edcb64eaecf1fe3e6f36b9081f46e1",
-    "sha512": "03d314ec1d09111866d2ebbb5f95aefa513ac0856ba3b1d6f3c0685f192b5040c7145db924b7f932c579df9ec4e417760fce050665d5a931bc1ab970f91358ed",
-    "size": 65577843,
-    "url": "https://github.com/bell-sw/Liberica/releases/download/23.0.2+9/bellsoft-jre23.0.2+9-linux-x64-musl.apk",
+    "release_type": "ea",
+    "sha1": "c2b4f5d09a6eb48351c58ebd5974afa9ec0cfe18",
+    "sha256": "66dd78af57741ccaa07bc2cd6507a21a791866b2ca1ed3c5246a6abadf9418c9",
+    "sha512": "6ac39a1248445b9b1ac14dbb832471deeef0f52612622cf23fcac6be4910ba69d8a2150839142730163bb4dc0fadfc43cfd3d180c13baaac7a3fb00d5190e761",
+    "size": 53515945,
+    "unlisted_since": "2026-08-12",
+    "url": "https://github.com/bell-sw/Liberica/releases/download/24+2-ea-leyden/bellsoft-jre24+2-ea-linux-x64-musl-leyden.tar.gz",
     "vendor": "bellsoft",
-    "version": "23.0.2+9"
+    "version": "24+2-ea"
   },
   {
     "architecture": "x86_64",
@@ -6266,6 +6266,29 @@
     "sha512": "1437ec858c0ea304608a6fe770197514748dd2053f767fa7653ace491aa8229128ec2d25a5bda38e12e7edb45dccc89c68bfd9edf51771e88486dc3e39267638",
     "size": 66095179,
     "url": "https://github.com/bell-sw/Liberica/releases/download/23.0.2+9/bellsoft-jre23.0.2+9-linux-x64-musl.tar.gz",
+    "vendor": "bellsoft",
+    "version": "23.0.2+9"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
+      "musl"
+    ],
+    "file_type": "apk",
+    "filename": "bellsoft-jre23.0.2+9-linux-x64-musl.apk",
+    "image_type": "jre",
+    "java_version": "23.0.2+9",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-05",
+    "md5": "3cd185f14f741c76686aa86d0a3d55d4",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "9c35561946ac724a85059281909e75dd4092789e",
+    "sha256": "704375a34d1fefd39067ed1110a7d67a86edcb64eaecf1fe3e6f36b9081f46e1",
+    "sha512": "03d314ec1d09111866d2ebbb5f95aefa513ac0856ba3b1d6f3c0685f192b5040c7145db924b7f932c579df9ec4e417760fce050665d5a931bc1ab970f91358ed",
+    "size": 65577843,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/23.0.2+9/bellsoft-jre23.0.2+9-linux-x64-musl.apk",
     "vendor": "bellsoft",
     "version": "23.0.2+9"
   },
@@ -6417,29 +6440,6 @@
     "features": [
       "musl"
     ],
-    "file_type": "apk",
-    "filename": "bellsoft-jre22.0.2+11-linux-x64-musl.apk",
-    "image_type": "jre",
-    "java_version": "22.0.2+11",
-    "jvm_impl": "hotspot",
-    "last_verified": "2026-09-10",
-    "md5": "2c5633da12a4e152d7d5b3332d15d6bc",
-    "os": "linux",
-    "release_type": "ga",
-    "sha1": "32f161e13f5049fc8745b3b376f54ca354fc4bea",
-    "sha256": "1ebb2accf306111fe1cdb0dfb4e39345bfdf82dae56843b66a94462c70c2cca9",
-    "sha512": "f2a32f5c65d6adb7038957eb147ffe44174bdd9f8668960ed3146868494904654417bcfdb49606c721c6f98b5acd228ebd4c1e5c49fc94c7d9e550b935c8815a",
-    "size": 64890396,
-    "url": "https://github.com/bell-sw/Liberica/releases/download/22.0.2+11/bellsoft-jre22.0.2+11-linux-x64-musl.apk",
-    "vendor": "bellsoft",
-    "version": "22.0.2+11"
-  },
-  {
-    "architecture": "x86_64",
-    "distro": "liberica",
-    "features": [
-      "musl"
-    ],
     "file_type": "tar.gz",
     "filename": "bellsoft-jre22.0.2+11-linux-x64-musl.tar.gz",
     "image_type": "jre",
@@ -6454,6 +6454,29 @@
     "sha512": "42903f99551de12fdece9f6b5f24591dfa388466943966a14ab18d37200ab4faad9e160c1abaf567637081937ae2850fd13361304d7975a208fd664dc03ab48e",
     "size": 65400615,
     "url": "https://github.com/bell-sw/Liberica/releases/download/22.0.2+11/bellsoft-jre22.0.2+11-linux-x64-musl.tar.gz",
+    "vendor": "bellsoft",
+    "version": "22.0.2+11"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
+      "musl"
+    ],
+    "file_type": "apk",
+    "filename": "bellsoft-jre22.0.2+11-linux-x64-musl.apk",
+    "image_type": "jre",
+    "java_version": "22.0.2+11",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-10",
+    "md5": "2c5633da12a4e152d7d5b3332d15d6bc",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "32f161e13f5049fc8745b3b376f54ca354fc4bea",
+    "sha256": "1ebb2accf306111fe1cdb0dfb4e39345bfdf82dae56843b66a94462c70c2cca9",
+    "sha512": "f2a32f5c65d6adb7038957eb147ffe44174bdd9f8668960ed3146868494904654417bcfdb49606c721c6f98b5acd228ebd4c1e5c49fc94c7d9e550b935c8815a",
+    "size": 64890396,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/22.0.2+11/bellsoft-jre22.0.2+11-linux-x64-musl.apk",
     "vendor": "bellsoft",
     "version": "22.0.2+11"
   },
@@ -6555,29 +6578,6 @@
     "features": [
       "musl"
     ],
-    "file_type": "tar.gz",
-    "filename": "bellsoft-jre22+37-linux-x64-musl.tar.gz",
-    "image_type": "jre",
-    "java_version": "22+37",
-    "jvm_impl": "hotspot",
-    "last_verified": "2026-09-04",
-    "md5": "e7103af5b4574b37f8736c6628315250",
-    "os": "linux",
-    "release_type": "ga",
-    "sha1": "81f1ee3a21b7633a99f3e654aa85d3a419f94fd5",
-    "sha256": "6560d5d45ee519463e6cb34c4deae7e799a2b27636e83ca258b1ff194f3662a8",
-    "sha512": "77beec50f801883d53af721efa1e1b1f08f2c01c88a71696d7219de6b13055a90895a774ba02d8ccaa3618515573ae8b241f15075775f0568cd5433470505e40",
-    "size": 66643015,
-    "url": "https://github.com/bell-sw/Liberica/releases/download/22+37/bellsoft-jre22+37-linux-x64-musl.tar.gz",
-    "vendor": "bellsoft",
-    "version": "22+37"
-  },
-  {
-    "architecture": "x86_64",
-    "distro": "liberica",
-    "features": [
-      "musl"
-    ],
     "file_type": "apk",
     "filename": "bellsoft-jre22+37-linux-x64-musl.apk",
     "image_type": "jre",
@@ -6592,6 +6592,29 @@
     "sha512": "4e04532c53c0fef66c6ec8be382437c1a8744e82952b6b3b98f5863a484f03140ae98de71b4eb2ff6358d21fafbcdf484cc86d34eb7d62580c7e9754295039ed",
     "size": 66103881,
     "url": "https://github.com/bell-sw/Liberica/releases/download/22+37/bellsoft-jre22+37-linux-x64-musl.apk",
+    "vendor": "bellsoft",
+    "version": "22+37"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jre22+37-linux-x64-musl.tar.gz",
+    "image_type": "jre",
+    "java_version": "22+37",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-04",
+    "md5": "e7103af5b4574b37f8736c6628315250",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "81f1ee3a21b7633a99f3e654aa85d3a419f94fd5",
+    "sha256": "6560d5d45ee519463e6cb34c4deae7e799a2b27636e83ca258b1ff194f3662a8",
+    "sha512": "77beec50f801883d53af721efa1e1b1f08f2c01c88a71696d7219de6b13055a90895a774ba02d8ccaa3618515573ae8b241f15075775f0568cd5433470505e40",
+    "size": 66643015,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/22+37/bellsoft-jre22+37-linux-x64-musl.tar.gz",
     "vendor": "bellsoft",
     "version": "22+37"
   },
@@ -6647,29 +6670,6 @@
     "features": [
       "musl"
     ],
-    "file_type": "apk",
-    "filename": "bellsoft-jre21.0.9+15-linux-x64-musl.apk",
-    "image_type": "jre",
-    "java_version": "21.0.9+15-LTS",
-    "jvm_impl": "hotspot",
-    "last_verified": "2026-09-07",
-    "md5": "73af63c01c169d0e057174683b47b9c9",
-    "os": "linux",
-    "release_type": "ga",
-    "sha1": "b34b8221018ef04c568afda49ffde0273a70f13a",
-    "sha256": "e04e29b52b6cda0a0ea018401bda9d619ad3aa193b8210ed8b2e73aa2ea906b7",
-    "sha512": "dc96740d9eb975e1c075d902b6222300242c8dd955229a226ee41fc26c922647b38fb79c1a927b53a6cb3b6c5ac103400da97ba1fa5f0b01d175141539866c50",
-    "size": 65294836,
-    "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.9+15/bellsoft-jre21.0.9+15-linux-x64-musl.apk",
-    "vendor": "bellsoft",
-    "version": "21.0.9+15"
-  },
-  {
-    "architecture": "x86_64",
-    "distro": "liberica",
-    "features": [
-      "musl"
-    ],
     "file_type": "tar.gz",
     "filename": "bellsoft-jre21.0.9+15-linux-x64-musl.tar.gz",
     "image_type": "jre",
@@ -6684,6 +6684,29 @@
     "sha512": "499ef10b03878a5e99142e1ad877b8cc7cf7518a6964aa8ab9d6cffa5d5f4373ea087e19bb72b07bf25032fe13eeb21cea1f95c37c2e52d25b2c6a61c7694ad2",
     "size": 65832610,
     "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.9+15/bellsoft-jre21.0.9+15-linux-x64-musl.tar.gz",
+    "vendor": "bellsoft",
+    "version": "21.0.9+15"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
+      "musl"
+    ],
+    "file_type": "apk",
+    "filename": "bellsoft-jre21.0.9+15-linux-x64-musl.apk",
+    "image_type": "jre",
+    "java_version": "21.0.9+15-LTS",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-07",
+    "md5": "73af63c01c169d0e057174683b47b9c9",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "b34b8221018ef04c568afda49ffde0273a70f13a",
+    "sha256": "e04e29b52b6cda0a0ea018401bda9d619ad3aa193b8210ed8b2e73aa2ea906b7",
+    "sha512": "dc96740d9eb975e1c075d902b6222300242c8dd955229a226ee41fc26c922647b38fb79c1a927b53a6cb3b6c5ac103400da97ba1fa5f0b01d175141539866c50",
+    "size": 65294836,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.9+15/bellsoft-jre21.0.9+15-linux-x64-musl.apk",
     "vendor": "bellsoft",
     "version": "21.0.9+15"
   },
@@ -6877,29 +6900,6 @@
     "features": [
       "musl"
     ],
-    "file_type": "apk",
-    "filename": "bellsoft-jre21.0.5+11-linux-x64-musl.apk",
-    "image_type": "jre",
-    "java_version": "21.0.5+11-LTS",
-    "jvm_impl": "hotspot",
-    "last_verified": "2026-09-04",
-    "md5": "22de5aecb61fdbf27409893229dae82f",
-    "os": "linux",
-    "release_type": "ga",
-    "sha1": "dad646cbfdf14748876f179d75c78572a3d39ddd",
-    "sha256": "fb32ae92de37474e978eafb46183800011d92213dd916b9639f4b7b000f813e1",
-    "sha512": "6afee82df613196c36ee5d7bfaa119ecce82c608541300afc4f3e04e6a619ddc4106a18366f0c9b2dc2515ab312cd1fb40edd708a72f779d94d2747dd564bfed",
-    "size": 64975364,
-    "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.5+11/bellsoft-jre21.0.5+11-linux-x64-musl.apk",
-    "vendor": "bellsoft",
-    "version": "21.0.5+11"
-  },
-  {
-    "architecture": "x86_64",
-    "distro": "liberica",
-    "features": [
-      "musl"
-    ],
     "file_type": "tar.gz",
     "filename": "bellsoft-jre21.0.5+11-linux-x64-musl.tar.gz",
     "image_type": "jre",
@@ -6914,6 +6914,29 @@
     "sha512": "7b67b117c117b91a0ada490a39bd0be439332ab515c94cd92547b4da269308a2d0d106f63188dc0deb158395c072a1f63c75c5a4b164ff0c267e112f14560019",
     "size": 65508347,
     "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.5+11/bellsoft-jre21.0.5+11-linux-x64-musl.tar.gz",
+    "vendor": "bellsoft",
+    "version": "21.0.5+11"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
+      "musl"
+    ],
+    "file_type": "apk",
+    "filename": "bellsoft-jre21.0.5+11-linux-x64-musl.apk",
+    "image_type": "jre",
+    "java_version": "21.0.5+11-LTS",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-04",
+    "md5": "22de5aecb61fdbf27409893229dae82f",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "dad646cbfdf14748876f179d75c78572a3d39ddd",
+    "sha256": "fb32ae92de37474e978eafb46183800011d92213dd916b9639f4b7b000f813e1",
+    "sha512": "6afee82df613196c36ee5d7bfaa119ecce82c608541300afc4f3e04e6a619ddc4106a18366f0c9b2dc2515ab312cd1fb40edd708a72f779d94d2747dd564bfed",
+    "size": 64975364,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.5+11/bellsoft-jre21.0.5+11-linux-x64-musl.apk",
     "vendor": "bellsoft",
     "version": "21.0.5+11"
   },
@@ -7015,29 +7038,6 @@
     "features": [
       "musl"
     ],
-    "file_type": "apk",
-    "filename": "bellsoft-jre21.0.3+10-linux-x64-musl.apk",
-    "image_type": "jre",
-    "java_version": "21.0.3+10-LTS",
-    "jvm_impl": "hotspot",
-    "last_verified": "2026-09-11",
-    "md5": "c3e5167b31aea63ed3859290887e8aab",
-    "os": "linux",
-    "release_type": "ga",
-    "sha1": "24274610f2cf9844d1efe2a755df62a1f2b50859",
-    "sha256": "dac145d754a6b79312a75f5154fa0456ae301ea4149a1965b16ad0f6dea8554a",
-    "sha512": "c55ea3abb9eaf62b7f3efbf6ea80d07f9bdf99d13ff76610209f885a06d0ff1f7decaf4c76c5d27f5766b26ce00932928df640ebf5b8ba25d59b507f919e3b6b",
-    "size": 66611245,
-    "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.3+10/bellsoft-jre21.0.3+10-linux-x64-musl.apk",
-    "vendor": "bellsoft",
-    "version": "21.0.3+10"
-  },
-  {
-    "architecture": "x86_64",
-    "distro": "liberica",
-    "features": [
-      "musl"
-    ],
     "file_type": "tar.gz",
     "filename": "bellsoft-jre21.0.3+10-linux-x64-musl.tar.gz",
     "image_type": "jre",
@@ -7062,21 +7062,21 @@
       "musl"
     ],
     "file_type": "apk",
-    "filename": "bellsoft-jre21.0.2+14-linux-x64-musl.apk",
+    "filename": "bellsoft-jre21.0.3+10-linux-x64-musl.apk",
     "image_type": "jre",
-    "java_version": "21.0.2+14-LTS",
+    "java_version": "21.0.3+10-LTS",
     "jvm_impl": "hotspot",
-    "last_verified": "2026-09-07",
-    "md5": "036a3505e3a9fe9067e95b6be1bbf825",
+    "last_verified": "2026-09-11",
+    "md5": "c3e5167b31aea63ed3859290887e8aab",
     "os": "linux",
     "release_type": "ga",
-    "sha1": "ad3b5d19ae7c49da3c5b7865c4f8da1236f2aa57",
-    "sha256": "79b49244a6c9ae2eafac66ef15035388de65120ba436c6c33c6f04e63bc9cd0b",
-    "sha512": "1766a79ad8a9d3b5841809ceb02a374f84002b46599bb7342cac34b42d812cf3a64e31240d3d84311651899a32dc5a27d1a7fdf9a724f9e2a6620d1ad5ca8389",
-    "size": 66573968,
-    "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.2+14/bellsoft-jre21.0.2+14-linux-x64-musl.apk",
+    "sha1": "24274610f2cf9844d1efe2a755df62a1f2b50859",
+    "sha256": "dac145d754a6b79312a75f5154fa0456ae301ea4149a1965b16ad0f6dea8554a",
+    "sha512": "c55ea3abb9eaf62b7f3efbf6ea80d07f9bdf99d13ff76610209f885a06d0ff1f7decaf4c76c5d27f5766b26ce00932928df640ebf5b8ba25d59b507f919e3b6b",
+    "size": 66611245,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.3+10/bellsoft-jre21.0.3+10-linux-x64-musl.apk",
     "vendor": "bellsoft",
-    "version": "21.0.2+14"
+    "version": "21.0.3+10"
   },
   {
     "architecture": "x86_64",
@@ -7098,6 +7098,29 @@
     "sha512": "f335a2f30c20614ca063b9942bc529445e032d8094bf0a78e7593446eb197da25013c32f833fa0fdfdda13dd5e8682f20de8cca2b8db6c85320e8d47b9749ba0",
     "size": 67142571,
     "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.2+14/bellsoft-jre21.0.2+14-linux-x64-musl.tar.gz",
+    "vendor": "bellsoft",
+    "version": "21.0.2+14"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
+      "musl"
+    ],
+    "file_type": "apk",
+    "filename": "bellsoft-jre21.0.2+14-linux-x64-musl.apk",
+    "image_type": "jre",
+    "java_version": "21.0.2+14-LTS",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-07",
+    "md5": "036a3505e3a9fe9067e95b6be1bbf825",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "ad3b5d19ae7c49da3c5b7865c4f8da1236f2aa57",
+    "sha256": "79b49244a6c9ae2eafac66ef15035388de65120ba436c6c33c6f04e63bc9cd0b",
+    "sha512": "1766a79ad8a9d3b5841809ceb02a374f84002b46599bb7342cac34b42d812cf3a64e31240d3d84311651899a32dc5a27d1a7fdf9a724f9e2a6620d1ad5ca8389",
+    "size": 66573968,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.2+14/bellsoft-jre21.0.2+14-linux-x64-musl.apk",
     "vendor": "bellsoft",
     "version": "21.0.2+14"
   },
@@ -7153,29 +7176,6 @@
     "features": [
       "musl"
     ],
-    "file_type": "apk",
-    "filename": "bellsoft-jre21+37-linux-x64-musl.apk",
-    "image_type": "jre",
-    "java_version": "21+37-LTS",
-    "jvm_impl": "hotspot",
-    "last_verified": "2026-09-04",
-    "md5": "e7c6819f1517879d92f08c9cf0394082",
-    "os": "linux",
-    "release_type": "ga",
-    "sha1": "706379d2f634d8bc0b6022ce1877924374cccd8c",
-    "sha256": "8a77d363aa0fa496b78417c3a9804ff1395b010a0c80292b66cb930d3295eb51",
-    "sha512": "dc1af0ef5047545cbe6fb858f4db1592a79fa8aa9963ed040d4538c5a76c31549ddce42c22542d7df27f3724640e957683bacfd6fc7960b6a6497c153d040624",
-    "size": 66453893,
-    "url": "https://github.com/bell-sw/Liberica/releases/download/21+37/bellsoft-jre21+37-linux-x64-musl.apk",
-    "vendor": "bellsoft",
-    "version": "21+37"
-  },
-  {
-    "architecture": "x86_64",
-    "distro": "liberica",
-    "features": [
-      "musl"
-    ],
     "file_type": "tar.gz",
     "filename": "bellsoft-jre21+37-linux-x64-musl.tar.gz",
     "image_type": "jre",
@@ -7190,6 +7190,29 @@
     "sha512": "56215c2a3767cb2e14dc663cabe4941afab90512eab666ee1efef63e0960e445254c387e2316f36c148ae4fe07f11e6688d33df8ca90ae52b43cf6b0cd2895e1",
     "size": 66999723,
     "url": "https://github.com/bell-sw/Liberica/releases/download/21+37/bellsoft-jre21+37-linux-x64-musl.tar.gz",
+    "vendor": "bellsoft",
+    "version": "21+37"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
+      "musl"
+    ],
+    "file_type": "apk",
+    "filename": "bellsoft-jre21+37-linux-x64-musl.apk",
+    "image_type": "jre",
+    "java_version": "21+37-LTS",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-04",
+    "md5": "e7c6819f1517879d92f08c9cf0394082",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "706379d2f634d8bc0b6022ce1877924374cccd8c",
+    "sha256": "8a77d363aa0fa496b78417c3a9804ff1395b010a0c80292b66cb930d3295eb51",
+    "sha512": "dc1af0ef5047545cbe6fb858f4db1592a79fa8aa9963ed040d4538c5a76c31549ddce42c22542d7df27f3724640e957683bacfd6fc7960b6a6497c153d040624",
+    "size": 66453893,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/21+37/bellsoft-jre21+37-linux-x64-musl.apk",
     "vendor": "bellsoft",
     "version": "21+37"
   },
@@ -7245,29 +7268,6 @@
     "features": [
       "musl"
     ],
-    "file_type": "apk",
-    "filename": "bellsoft-jre20.0.1+10-linux-x64-musl.apk",
-    "image_type": "jre",
-    "java_version": "20.0.1+10",
-    "jvm_impl": "hotspot",
-    "last_verified": "2026-09-01",
-    "md5": "df1c2a8c320e0bda562a309791eabbbd",
-    "os": "linux",
-    "release_type": "ga",
-    "sha1": "f23d864eb502becce1ab06335de597753e18e628",
-    "sha256": "93fd2189ed99ba83d1bfb5616c98e8bd9e540fc4b7895399fdbebf9f8209c02e",
-    "sha512": "4818d87c174ca3a6c9a394fe4947724992df04d0bf3909672f43de2dda029d414a7646be4665392009fd16e2a07f82ee2e6f9e862da1d064c6c89f93ba3292b3",
-    "size": 62418010,
-    "url": "https://github.com/bell-sw/Liberica/releases/download/20.0.1+10/bellsoft-jre20.0.1+10-linux-x64-musl.apk",
-    "vendor": "bellsoft",
-    "version": "20.0.1+10"
-  },
-  {
-    "architecture": "x86_64",
-    "distro": "liberica",
-    "features": [
-      "musl"
-    ],
     "file_type": "tar.gz",
     "filename": "bellsoft-jre20.0.1+10-linux-x64-musl.tar.gz",
     "image_type": "jre",
@@ -7291,22 +7291,22 @@
     "features": [
       "musl"
     ],
-    "file_type": "tar.gz",
-    "filename": "bellsoft-jre20+37-linux-x64-musl.tar.gz",
+    "file_type": "apk",
+    "filename": "bellsoft-jre20.0.1+10-linux-x64-musl.apk",
     "image_type": "jre",
-    "java_version": "20+37",
+    "java_version": "20.0.1+10",
     "jvm_impl": "hotspot",
-    "last_verified": "2026-09-06",
-    "md5": "fb93cb15f2bb57f3a9d42348eec8f235",
+    "last_verified": "2026-09-01",
+    "md5": "df1c2a8c320e0bda562a309791eabbbd",
     "os": "linux",
     "release_type": "ga",
-    "sha1": "8500ff12e27e3f9c2771bc0142f03fe52f9b2162",
-    "sha256": "d6771b3b1f6bd0f8732aecb0c23b3ceab613321814e89240fd0a8d5ed5a252dc",
-    "sha512": "74ce1c288ac4dad2d2625db5c00728f4f83944da6d08063b11ac2da05dda2f358f95658ba25ac670e7763f2adea8a4d490de8824dafe02e7e2dd33448138756c",
-    "size": 62911723,
-    "url": "https://github.com/bell-sw/Liberica/releases/download/20+37/bellsoft-jre20+37-linux-x64-musl.tar.gz",
+    "sha1": "f23d864eb502becce1ab06335de597753e18e628",
+    "sha256": "93fd2189ed99ba83d1bfb5616c98e8bd9e540fc4b7895399fdbebf9f8209c02e",
+    "sha512": "4818d87c174ca3a6c9a394fe4947724992df04d0bf3909672f43de2dda029d414a7646be4665392009fd16e2a07f82ee2e6f9e862da1d064c6c89f93ba3292b3",
+    "size": 62418010,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/20.0.1+10/bellsoft-jre20.0.1+10-linux-x64-musl.apk",
     "vendor": "bellsoft",
-    "version": "20+37"
+    "version": "20.0.1+10"
   },
   {
     "architecture": "x86_64",
@@ -7328,6 +7328,29 @@
     "sha512": "2bddd6bf515fac1035c0842f56613c26dd7386212070d7dc1866671eae4403be7bff3b2be94fff83fd5554dea95ce216b8e848e0887fe50633d90c7eabcdf16b",
     "size": 62418837,
     "url": "https://github.com/bell-sw/Liberica/releases/download/20+37/bellsoft-jre20+37-linux-x64-musl.apk",
+    "vendor": "bellsoft",
+    "version": "20+37"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jre20+37-linux-x64-musl.tar.gz",
+    "image_type": "jre",
+    "java_version": "20+37",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-06",
+    "md5": "fb93cb15f2bb57f3a9d42348eec8f235",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "8500ff12e27e3f9c2771bc0142f03fe52f9b2162",
+    "sha256": "d6771b3b1f6bd0f8732aecb0c23b3ceab613321814e89240fd0a8d5ed5a252dc",
+    "sha512": "74ce1c288ac4dad2d2625db5c00728f4f83944da6d08063b11ac2da05dda2f358f95658ba25ac670e7763f2adea8a4d490de8824dafe02e7e2dd33448138756c",
+    "size": 62911723,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/20+37/bellsoft-jre20+37-linux-x64-musl.tar.gz",
     "vendor": "bellsoft",
     "version": "20+37"
   },
@@ -7383,29 +7406,6 @@
     "features": [
       "musl"
     ],
-    "file_type": "apk",
-    "filename": "bellsoft-jre19.0.1+11-linux-x64-musl.apk",
-    "image_type": "jre",
-    "java_version": "19.0.1+11",
-    "jvm_impl": "hotspot",
-    "last_verified": "2026-09-10",
-    "md5": "da87741caa3abc9b846e7b8b0916119e",
-    "os": "linux",
-    "release_type": "ga",
-    "sha1": "f9cfe196fc568bd9d9695df1217c2c384a878167",
-    "sha256": "48643e0709b944d007b9464654b8e477cd9b01e1d5e2b8593741087281b78ac2",
-    "sha512": "8c64442939dd788d394013ad606250bfd3be380326c0233a1c4caa93cb0e46626691ef9a9015d7d036735cfaa174db1083620ef559fbc8fedd6fbb3596d32960",
-    "size": 54768003,
-    "url": "https://github.com/bell-sw/Liberica/releases/download/19.0.1+11/bellsoft-jre19.0.1+11-linux-x64-musl.apk",
-    "vendor": "bellsoft",
-    "version": "19.0.1+11"
-  },
-  {
-    "architecture": "x86_64",
-    "distro": "liberica",
-    "features": [
-      "musl"
-    ],
     "file_type": "tar.gz",
     "filename": "bellsoft-jre19.0.1+11-linux-x64-musl.tar.gz",
     "image_type": "jre",
@@ -7429,22 +7429,22 @@
     "features": [
       "musl"
     ],
-    "file_type": "tar.gz",
-    "filename": "bellsoft-jre19+37-linux-x64-musl.tar.gz",
+    "file_type": "apk",
+    "filename": "bellsoft-jre19.0.1+11-linux-x64-musl.apk",
     "image_type": "jre",
-    "java_version": "19+37",
+    "java_version": "19.0.1+11",
     "jvm_impl": "hotspot",
-    "last_verified": "2026-09-03",
-    "md5": "d25325ac13a86ebfb0b3e3dc1195d78f",
+    "last_verified": "2026-09-10",
+    "md5": "da87741caa3abc9b846e7b8b0916119e",
     "os": "linux",
     "release_type": "ga",
-    "sha1": "d13badeab4b489d019dcfb614fa366c4ad41ef44",
-    "sha256": "70ea7bd66f0ef42a12d30bb4776b3f6e4bccafc6eafeb100ea86890a3e68c941",
-    "sha512": "2efca4d45c422d8528f55b6c912952e2cef5cacf3e407c45969e40b927228d962944006520db83c07fc42466f5acafe281ea1b9dd4983130100e3cff326f4a36",
-    "size": 54999926,
-    "url": "https://github.com/bell-sw/Liberica/releases/download/19+37/bellsoft-jre19+37-linux-x64-musl.tar.gz",
+    "sha1": "f9cfe196fc568bd9d9695df1217c2c384a878167",
+    "sha256": "48643e0709b944d007b9464654b8e477cd9b01e1d5e2b8593741087281b78ac2",
+    "sha512": "8c64442939dd788d394013ad606250bfd3be380326c0233a1c4caa93cb0e46626691ef9a9015d7d036735cfaa174db1083620ef559fbc8fedd6fbb3596d32960",
+    "size": 54768003,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/19.0.1+11/bellsoft-jre19.0.1+11-linux-x64-musl.apk",
     "vendor": "bellsoft",
-    "version": "19+37"
+    "version": "19.0.1+11"
   },
   {
     "architecture": "x86_64",
@@ -7466,6 +7466,29 @@
     "sha512": "ae7019b67e42f6e8f0874a71f6e8035539ab1b74aa1e5b54d6b13ed55b33585a9732908260b81724f1abfeac22c39e4ecde1f681240e23412030f1271ac8faec",
     "size": 54615274,
     "url": "https://github.com/bell-sw/Liberica/releases/download/19+37/bellsoft-jre19+37-linux-x64-musl.apk",
+    "vendor": "bellsoft",
+    "version": "19+37"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jre19+37-linux-x64-musl.tar.gz",
+    "image_type": "jre",
+    "java_version": "19+37",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-03",
+    "md5": "d25325ac13a86ebfb0b3e3dc1195d78f",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "d13badeab4b489d019dcfb614fa366c4ad41ef44",
+    "sha256": "70ea7bd66f0ef42a12d30bb4776b3f6e4bccafc6eafeb100ea86890a3e68c941",
+    "sha512": "2efca4d45c422d8528f55b6c912952e2cef5cacf3e407c45969e40b927228d962944006520db83c07fc42466f5acafe281ea1b9dd4983130100e3cff326f4a36",
+    "size": 54999926,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/19+37/bellsoft-jre19+37-linux-x64-musl.tar.gz",
     "vendor": "bellsoft",
     "version": "19+37"
   },
@@ -7567,29 +7590,6 @@
     "features": [
       "musl"
     ],
-    "file_type": "apk",
-    "filename": "bellsoft-jre18.0.1.1+2-linux-x64-musl.apk",
-    "image_type": "jre",
-    "java_version": "18.0.1.1+2",
-    "jvm_impl": "hotspot",
-    "last_verified": "2026-09-02",
-    "md5": "ada95b4c7c5973d8b8ceb086642e6321",
-    "os": "linux",
-    "release_type": "ga",
-    "sha1": "8effc5a03ba706b31f59b729b2c2952347c60ea0",
-    "sha256": "173c2be87d3d77127533c8984cdd635c449806642ebb37c2dfcc214bf6317a61",
-    "sha512": "6197382a57503ce8d14f33cc415e3c515e9ef247954eb26a84c367573988bc3d10625af2a88d9dcae84037bd4874ea57aebdb40eb846c8543f7d306f4a98d77d",
-    "size": 51982596,
-    "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.1.1+2/bellsoft-jre18.0.1.1+2-linux-x64-musl.apk",
-    "vendor": "bellsoft",
-    "version": "18.0.1.1+2"
-  },
-  {
-    "architecture": "x86_64",
-    "distro": "liberica",
-    "features": [
-      "musl"
-    ],
     "file_type": "tar.gz",
     "filename": "bellsoft-jre18.0.1.1+2-linux-x64-musl.tar.gz",
     "image_type": "jre",
@@ -7614,21 +7614,21 @@
       "musl"
     ],
     "file_type": "apk",
-    "filename": "bellsoft-jre18.0.1+12-linux-x64-musl.apk",
+    "filename": "bellsoft-jre18.0.1.1+2-linux-x64-musl.apk",
     "image_type": "jre",
-    "java_version": "18.0.1+12",
+    "java_version": "18.0.1.1+2",
     "jvm_impl": "hotspot",
-    "last_verified": "2026-09-09",
-    "md5": "12f834627a9f17a06e34888f2a2ff5cb",
+    "last_verified": "2026-09-02",
+    "md5": "ada95b4c7c5973d8b8ceb086642e6321",
     "os": "linux",
     "release_type": "ga",
-    "sha1": "d3dc4923d2749a86594ee6e83641c4a2cf5fbf6b",
-    "sha256": "3e4f5c005a18e923b891d41511e6f4ed5c5507d0bb08cdb2deaeb0a0cff7de0d",
-    "sha512": "451efa1e1460374a54c182f5077353670696dc9994b7df420942e793fc21937db65c0e8fb6b9317ec66bcc61cef12236d42109bdcb4c115fbc5ea69e78cd1ad9",
-    "size": 51985368,
-    "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.1+12/bellsoft-jre18.0.1+12-linux-x64-musl.apk",
+    "sha1": "8effc5a03ba706b31f59b729b2c2952347c60ea0",
+    "sha256": "173c2be87d3d77127533c8984cdd635c449806642ebb37c2dfcc214bf6317a61",
+    "sha512": "6197382a57503ce8d14f33cc415e3c515e9ef247954eb26a84c367573988bc3d10625af2a88d9dcae84037bd4874ea57aebdb40eb846c8543f7d306f4a98d77d",
+    "size": 51982596,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.1.1+2/bellsoft-jre18.0.1.1+2-linux-x64-musl.apk",
     "vendor": "bellsoft",
-    "version": "18.0.1+12"
+    "version": "18.0.1.1+2"
   },
   {
     "architecture": "x86_64",
@@ -7650,6 +7650,29 @@
     "sha512": "a61c5f43f24b84d6a22ed488506b9f56ac0ed5b1d6a1f1449c08e9dec0629f9ad9d82ce263a9b3cff221baaa7ff26ac1d0b495ef66864a8ec393b783215028e0",
     "size": 52333611,
     "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.1+12/bellsoft-jre18.0.1+12-linux-x64-musl.tar.gz",
+    "vendor": "bellsoft",
+    "version": "18.0.1+12"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
+      "musl"
+    ],
+    "file_type": "apk",
+    "filename": "bellsoft-jre18.0.1+12-linux-x64-musl.apk",
+    "image_type": "jre",
+    "java_version": "18.0.1+12",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-09",
+    "md5": "12f834627a9f17a06e34888f2a2ff5cb",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "d3dc4923d2749a86594ee6e83641c4a2cf5fbf6b",
+    "sha256": "3e4f5c005a18e923b891d41511e6f4ed5c5507d0bb08cdb2deaeb0a0cff7de0d",
+    "sha512": "451efa1e1460374a54c182f5077353670696dc9994b7df420942e793fc21937db65c0e8fb6b9317ec66bcc61cef12236d42109bdcb4c115fbc5ea69e78cd1ad9",
+    "size": 51985368,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.1+12/bellsoft-jre18.0.1+12-linux-x64-musl.apk",
     "vendor": "bellsoft",
     "version": "18.0.1+12"
   },
@@ -7705,29 +7728,6 @@
     "features": [
       "musl"
     ],
-    "file_type": "apk",
-    "filename": "bellsoft-jre17.0.18+10-linux-x64-musl.apk",
-    "image_type": "jre",
-    "java_version": "17.0.18+10-LTS",
-    "jvm_impl": "hotspot",
-    "last_verified": "2026-09-06",
-    "md5": "7d175142d4dffc24f1e28c5c8b447391",
-    "os": "linux",
-    "release_type": "ga",
-    "sha1": "a24d480ee9d73a2420b1b3e8350448880f59d70f",
-    "sha256": "a73e9c4de3442f73a849f34ba6bd66d2ce3c5e78a49365acf2b0209acee61ec9",
-    "sha512": "667597a967ec52f862ed0cc3bd7356e071f1db8092a7fd8f3332277a80f7e465b628f68808a2e06e3f1ad69efa1b2b5b43426935404e904798150b0d8317c1fb",
-    "size": 57948459,
-    "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.18+10/bellsoft-jre17.0.18+10-linux-x64-musl.apk",
-    "vendor": "bellsoft",
-    "version": "17.0.18+10"
-  },
-  {
-    "architecture": "x86_64",
-    "distro": "liberica",
-    "features": [
-      "musl"
-    ],
     "file_type": "tar.gz",
     "filename": "bellsoft-jre17.0.18+10-linux-x64-musl.tar.gz",
     "image_type": "jre",
@@ -7742,6 +7742,29 @@
     "sha512": "fb099cd07866e22c38fcca799a502f99c06604ebcd164a2951930247d9286a5c109ecb2d6120c4d936669f4aca98a030d3baace408bc5d91bb34748429adf66d",
     "size": 58372235,
     "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.18+10/bellsoft-jre17.0.18+10-linux-x64-musl.tar.gz",
+    "vendor": "bellsoft",
+    "version": "17.0.18+10"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
+      "musl"
+    ],
+    "file_type": "apk",
+    "filename": "bellsoft-jre17.0.18+10-linux-x64-musl.apk",
+    "image_type": "jre",
+    "java_version": "17.0.18+10-LTS",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-06",
+    "md5": "7d175142d4dffc24f1e28c5c8b447391",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "a24d480ee9d73a2420b1b3e8350448880f59d70f",
+    "sha256": "a73e9c4de3442f73a849f34ba6bd66d2ce3c5e78a49365acf2b0209acee61ec9",
+    "sha512": "667597a967ec52f862ed0cc3bd7356e071f1db8092a7fd8f3332277a80f7e465b628f68808a2e06e3f1ad69efa1b2b5b43426935404e904798150b0d8317c1fb",
+    "size": 57948459,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.18+10/bellsoft-jre17.0.18+10-linux-x64-musl.apk",
     "vendor": "bellsoft",
     "version": "17.0.18+10"
   },
@@ -7981,29 +8004,6 @@
     "features": [
       "musl"
     ],
-    "file_type": "apk",
-    "filename": "bellsoft-jre17.0.13+12-linux-x64-musl.apk",
-    "image_type": "jre",
-    "java_version": "17.0.13+12-LTS",
-    "jvm_impl": "hotspot",
-    "last_verified": "2026-09-01",
-    "md5": "976ff7d724fc10f73760ded63a4fd4d4",
-    "os": "linux",
-    "release_type": "ga",
-    "sha1": "517a1d84d068ead405668ec2d83fb780b4f34cfb",
-    "sha256": "f1eafb31f1143b1285f1a874c261e7d5345f89cdf6d9e574e83f058927e83565",
-    "sha512": "b8d8e8ccdd6812ad3f2cb1fe2ab240396a0b26b2f4d680c89f7661051c44f320b91354a5865523125c9806832f0ad3837b7889122f7f9986cbdb463b69801677",
-    "size": 57916767,
-    "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.13+12/bellsoft-jre17.0.13+12-linux-x64-musl.apk",
-    "vendor": "bellsoft",
-    "version": "17.0.13+12"
-  },
-  {
-    "architecture": "x86_64",
-    "distro": "liberica",
-    "features": [
-      "musl"
-    ],
     "file_type": "tar.gz",
     "filename": "bellsoft-jre17.0.13+12-linux-x64-musl.tar.gz",
     "image_type": "jre",
@@ -8027,22 +8027,22 @@
     "features": [
       "musl"
     ],
-    "file_type": "tar.gz",
-    "filename": "bellsoft-jre17.0.12+10-linux-x64-musl.tar.gz",
+    "file_type": "apk",
+    "filename": "bellsoft-jre17.0.13+12-linux-x64-musl.apk",
     "image_type": "jre",
-    "java_version": "17.0.12+10-LTS",
+    "java_version": "17.0.13+12-LTS",
     "jvm_impl": "hotspot",
-    "last_verified": "2026-09-04",
-    "md5": "b1696f7eda01e6c89b7b62bf0f1befda",
+    "last_verified": "2026-09-01",
+    "md5": "976ff7d724fc10f73760ded63a4fd4d4",
     "os": "linux",
     "release_type": "ga",
-    "sha1": "8297240ef442c866add7420db9082eb6de9c29f2",
-    "sha256": "b86d7ba2368b798aef0564b71964c2a4f9c140572b10f5f17a6992b706d8c03a",
-    "sha512": "5a6d6826c8f5ffc8063b884cc11e2a735e6eba442b9814ca5e273f2236c839749a9407c4d633c2650b67da51c37e9e6b3e4ad67f9ed216c0da8759452c1bca12",
-    "size": 58701039,
-    "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.12+10/bellsoft-jre17.0.12+10-linux-x64-musl.tar.gz",
+    "sha1": "517a1d84d068ead405668ec2d83fb780b4f34cfb",
+    "sha256": "f1eafb31f1143b1285f1a874c261e7d5345f89cdf6d9e574e83f058927e83565",
+    "sha512": "b8d8e8ccdd6812ad3f2cb1fe2ab240396a0b26b2f4d680c89f7661051c44f320b91354a5865523125c9806832f0ad3837b7889122f7f9986cbdb463b69801677",
+    "size": 57916767,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.13+12/bellsoft-jre17.0.13+12-linux-x64-musl.apk",
     "vendor": "bellsoft",
-    "version": "17.0.12+10"
+    "version": "17.0.13+12"
   },
   {
     "architecture": "x86_64",
@@ -8064,6 +8064,29 @@
     "sha512": "952705412c8c1a467a1962560fd9bf285130273ed3343d47c5a2bd3d77e529f5f7d40e2b5c8f30e7cd44c8d655a86d919c2b403b1bf25de8118dc93dcf80446c",
     "size": 58274836,
     "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.12+10/bellsoft-jre17.0.12+10-linux-x64-musl.apk",
+    "vendor": "bellsoft",
+    "version": "17.0.12+10"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jre17.0.12+10-linux-x64-musl.tar.gz",
+    "image_type": "jre",
+    "java_version": "17.0.12+10-LTS",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-04",
+    "md5": "b1696f7eda01e6c89b7b62bf0f1befda",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "8297240ef442c866add7420db9082eb6de9c29f2",
+    "sha256": "b86d7ba2368b798aef0564b71964c2a4f9c140572b10f5f17a6992b706d8c03a",
+    "sha512": "5a6d6826c8f5ffc8063b884cc11e2a735e6eba442b9814ca5e273f2236c839749a9407c4d633c2650b67da51c37e9e6b3e4ad67f9ed216c0da8759452c1bca12",
+    "size": 58701039,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.12+10/bellsoft-jre17.0.12+10-linux-x64-musl.tar.gz",
     "vendor": "bellsoft",
     "version": "17.0.12+10"
   },
@@ -8119,29 +8142,6 @@
     "features": [
       "musl"
     ],
-    "file_type": "apk",
-    "filename": "bellsoft-jre17.0.11+10-linux-x64-musl.apk",
-    "image_type": "jre",
-    "java_version": "17.0.11+10-LTS",
-    "jvm_impl": "hotspot",
-    "last_verified": "2026-09-05",
-    "md5": "15ea38322cf3310ba9aaf8224167d7ef",
-    "os": "linux",
-    "release_type": "ga",
-    "sha1": "d94ea2342a84fe4b13cef80d16cbc0afb4b12803",
-    "sha256": "2920afa0c527b599ce20a310f5d601c7d1af3f04e382a170a7a1f286ffcca6ec",
-    "sha512": "8df7c593c95ba3b1625f33abf2d096d8e78fba477be3104a8c238f9ce6173ef619225f335d13e64d9a65d251e670a82f5d5ced7c6f62072568101cf9a87aa077",
-    "size": 52503049,
-    "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.11+10/bellsoft-jre17.0.11+10-linux-x64-musl.apk",
-    "vendor": "bellsoft",
-    "version": "17.0.11+10"
-  },
-  {
-    "architecture": "x86_64",
-    "distro": "liberica",
-    "features": [
-      "musl"
-    ],
     "file_type": "tar.gz",
     "filename": "bellsoft-jre17.0.11+10-linux-x64-musl.tar.gz",
     "image_type": "jre",
@@ -8156,6 +8156,29 @@
     "sha512": "e3a3d3456230054c30aa84d195e3e41210b1c35da1831e963b4b92080490e87e6a8cffd9ebe3bec864df958dabbf2f725404ca8814812194f1ebafa61d32d787",
     "size": 52851062,
     "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.11+10/bellsoft-jre17.0.11+10-linux-x64-musl.tar.gz",
+    "vendor": "bellsoft",
+    "version": "17.0.11+10"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
+      "musl"
+    ],
+    "file_type": "apk",
+    "filename": "bellsoft-jre17.0.11+10-linux-x64-musl.apk",
+    "image_type": "jre",
+    "java_version": "17.0.11+10-LTS",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-05",
+    "md5": "15ea38322cf3310ba9aaf8224167d7ef",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "d94ea2342a84fe4b13cef80d16cbc0afb4b12803",
+    "sha256": "2920afa0c527b599ce20a310f5d601c7d1af3f04e382a170a7a1f286ffcca6ec",
+    "sha512": "8df7c593c95ba3b1625f33abf2d096d8e78fba477be3104a8c238f9ce6173ef619225f335d13e64d9a65d251e670a82f5d5ced7c6f62072568101cf9a87aa077",
+    "size": 52503049,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.11+10/bellsoft-jre17.0.11+10-linux-x64-musl.apk",
     "vendor": "bellsoft",
     "version": "17.0.11+10"
   },
@@ -8211,29 +8234,6 @@
     "features": [
       "musl"
     ],
-    "file_type": "tar.gz",
-    "filename": "bellsoft-jre17.0.9+11-linux-x64-musl.tar.gz",
-    "image_type": "jre",
-    "java_version": "17.0.9+11-LTS",
-    "jvm_impl": "hotspot",
-    "last_verified": "2026-09-06",
-    "md5": "419a3f457d3ef86df80cf614314df2de",
-    "os": "linux",
-    "release_type": "ga",
-    "sha1": "392482c66818a386d275cadcea37d643af83d035",
-    "sha256": "1faf12d9d5f73aa1b71cba8dc43b9453a3626ef73fd3fc0f403f0cf11c35687c",
-    "sha512": "b114d0b22341a2c36020cda8f6d652dddeaeb32256fadab692bfc8899c46027e6147c2bd46d6e230a8514a16ede4894de14131bd1a4d101ae7de8370768ad9ec",
-    "size": 52729531,
-    "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.9+11/bellsoft-jre17.0.9+11-linux-x64-musl.tar.gz",
-    "vendor": "bellsoft",
-    "version": "17.0.9+11"
-  },
-  {
-    "architecture": "x86_64",
-    "distro": "liberica",
-    "features": [
-      "musl"
-    ],
     "file_type": "apk",
     "filename": "bellsoft-jre17.0.9+11-linux-x64-musl.apk",
     "image_type": "jre",
@@ -8257,22 +8257,22 @@
     "features": [
       "musl"
     ],
-    "file_type": "apk",
-    "filename": "bellsoft-jre17.0.8.1+1-linux-x64-musl.apk",
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jre17.0.9+11-linux-x64-musl.tar.gz",
     "image_type": "jre",
-    "java_version": "17.0.8.1+1-LTS",
+    "java_version": "17.0.9+11-LTS",
     "jvm_impl": "hotspot",
-    "last_verified": "2026-09-03",
-    "md5": "232e656216c5ee7c3de64fd80e590f5c",
+    "last_verified": "2026-09-06",
+    "md5": "419a3f457d3ef86df80cf614314df2de",
     "os": "linux",
     "release_type": "ga",
-    "sha1": "890eba94571433a57ee793dc953f58dd61d7c7a6",
-    "sha256": "8dea5a02573c460bf3eefd99b5565393bc461fbd502f1fb12f1c25471b662a77",
-    "sha512": "6764797a9421f0f46370a5df9d8ce14da429f3f5ba539acbfef91603b1462e1c1fcbb426db403f58a6ec190c04e6a4c68cfe5711b2fda7d1a8e4cf9dd914865a",
-    "size": 52615158,
-    "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.8.1+1/bellsoft-jre17.0.8.1+1-linux-x64-musl.apk",
+    "sha1": "392482c66818a386d275cadcea37d643af83d035",
+    "sha256": "1faf12d9d5f73aa1b71cba8dc43b9453a3626ef73fd3fc0f403f0cf11c35687c",
+    "sha512": "b114d0b22341a2c36020cda8f6d652dddeaeb32256fadab692bfc8899c46027e6147c2bd46d6e230a8514a16ede4894de14131bd1a4d101ae7de8370768ad9ec",
+    "size": 52729531,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.9+11/bellsoft-jre17.0.9+11-linux-x64-musl.tar.gz",
     "vendor": "bellsoft",
-    "version": "17.0.8.1+1"
+    "version": "17.0.9+11"
   },
   {
     "architecture": "x86_64",
@@ -8294,6 +8294,29 @@
     "sha512": "0d7643e52d11355946a12ad94b266575f7d769226f7af1f3a3afbaa6b00d6e6c0adc8533ffa2eee35d09244fd72adb7f5daff448c23dcfa091014a8375aa1c98",
     "size": 52963036,
     "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.8.1+1/bellsoft-jre17.0.8.1+1-linux-x64-musl.tar.gz",
+    "vendor": "bellsoft",
+    "version": "17.0.8.1+1"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
+      "musl"
+    ],
+    "file_type": "apk",
+    "filename": "bellsoft-jre17.0.8.1+1-linux-x64-musl.apk",
+    "image_type": "jre",
+    "java_version": "17.0.8.1+1-LTS",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-03",
+    "md5": "232e656216c5ee7c3de64fd80e590f5c",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "890eba94571433a57ee793dc953f58dd61d7c7a6",
+    "sha256": "8dea5a02573c460bf3eefd99b5565393bc461fbd502f1fb12f1c25471b662a77",
+    "sha512": "6764797a9421f0f46370a5df9d8ce14da429f3f5ba539acbfef91603b1462e1c1fcbb426db403f58a6ec190c04e6a4c68cfe5711b2fda7d1a8e4cf9dd914865a",
+    "size": 52615158,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.8.1+1/bellsoft-jre17.0.8.1+1-linux-x64-musl.apk",
     "vendor": "bellsoft",
     "version": "17.0.8.1+1"
   },
@@ -8395,29 +8418,6 @@
     "features": [
       "musl"
     ],
-    "file_type": "tar.gz",
-    "filename": "bellsoft-jre17.0.6+10-linux-x64-musl.tar.gz",
-    "image_type": "jre",
-    "java_version": "17.0.6+10",
-    "jvm_impl": "hotspot",
-    "last_verified": "2026-09-04",
-    "md5": "90ba0a4de0972dd577a7946e1b81addb",
-    "os": "linux",
-    "release_type": "ga",
-    "sha1": "22f5becfd72f3f13e4ea62fcc974d405f0405ea3",
-    "sha256": "7aac519489ea0a0150e0cee9381f29c01247aa98562e44c6ee4f96bdad149b08",
-    "sha512": "1a8998383244d41f16e5f5e127a98de95f4533c77cb9db5d49cb357eddcd1510abdb9b2d8b489c5a59cae059ec364684ec2a6cd129aaf001ed8266b4a62e1ba9",
-    "size": 52707364,
-    "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.6+10/bellsoft-jre17.0.6+10-linux-x64-musl.tar.gz",
-    "vendor": "bellsoft",
-    "version": "17.0.6+10"
-  },
-  {
-    "architecture": "x86_64",
-    "distro": "liberica",
-    "features": [
-      "musl"
-    ],
     "file_type": "apk",
     "filename": "bellsoft-jre17.0.6+10-linux-x64-musl.apk",
     "image_type": "jre",
@@ -8441,22 +8441,22 @@
     "features": [
       "musl"
     ],
-    "file_type": "apk",
-    "filename": "bellsoft-jre17.0.5+8-linux-x64-musl.apk",
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jre17.0.6+10-linux-x64-musl.tar.gz",
     "image_type": "jre",
-    "java_version": "17.0.5+8",
+    "java_version": "17.0.6+10",
     "jvm_impl": "hotspot",
-    "last_verified": "2026-09-02",
-    "md5": "1112fa2e1812df89315f8d6f70c44dff",
+    "last_verified": "2026-09-04",
+    "md5": "90ba0a4de0972dd577a7946e1b81addb",
     "os": "linux",
     "release_type": "ga",
-    "sha1": "1a916541c5945b565600280ee3541e4cf88f3ac1",
-    "sha256": "8927689641b6ed5a02c8c9f5d9d4be4255af0578a29f384b376ba8609f9fe2e5",
-    "sha512": "e4f897384564fd2ec4495ece51e0f8fd3581577ebbe53d3a41bf2029c46c0831be9e494b0f4706bfe8a1ac44664117e3465ffba452b6bc75d8b3b7be793c4d58",
-    "size": 52327880,
-    "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.5+8/bellsoft-jre17.0.5+8-linux-x64-musl.apk",
+    "sha1": "22f5becfd72f3f13e4ea62fcc974d405f0405ea3",
+    "sha256": "7aac519489ea0a0150e0cee9381f29c01247aa98562e44c6ee4f96bdad149b08",
+    "sha512": "1a8998383244d41f16e5f5e127a98de95f4533c77cb9db5d49cb357eddcd1510abdb9b2d8b489c5a59cae059ec364684ec2a6cd129aaf001ed8266b4a62e1ba9",
+    "size": 52707364,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.6+10/bellsoft-jre17.0.6+10-linux-x64-musl.tar.gz",
     "vendor": "bellsoft",
-    "version": "17.0.5+8"
+    "version": "17.0.6+10"
   },
   {
     "architecture": "x86_64",
@@ -8478,6 +8478,29 @@
     "sha512": "f0b87bec04889ed07e0b575b5325778a1f3b66445e08dcb14b057a6b64b0146cba7666e88a99728cb26577440df5774e51ed9772559f9eb1eb590129dcaa5c41",
     "size": 52674206,
     "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.5+8/bellsoft-jre17.0.5+8-linux-x64-musl.tar.gz",
+    "vendor": "bellsoft",
+    "version": "17.0.5+8"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
+      "musl"
+    ],
+    "file_type": "apk",
+    "filename": "bellsoft-jre17.0.5+8-linux-x64-musl.apk",
+    "image_type": "jre",
+    "java_version": "17.0.5+8",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-02",
+    "md5": "1112fa2e1812df89315f8d6f70c44dff",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "1a916541c5945b565600280ee3541e4cf88f3ac1",
+    "sha256": "8927689641b6ed5a02c8c9f5d9d4be4255af0578a29f384b376ba8609f9fe2e5",
+    "sha512": "e4f897384564fd2ec4495ece51e0f8fd3581577ebbe53d3a41bf2029c46c0831be9e494b0f4706bfe8a1ac44664117e3465ffba452b6bc75d8b3b7be793c4d58",
+    "size": 52327880,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.5+8/bellsoft-jre17.0.5+8-linux-x64-musl.apk",
     "vendor": "bellsoft",
     "version": "17.0.5+8"
   },
@@ -8579,29 +8602,6 @@
     "features": [
       "musl"
     ],
-    "file_type": "apk",
-    "filename": "bellsoft-jre17.0.3.1+2-linux-x64-musl.apk",
-    "image_type": "jre",
-    "java_version": "17.0.3.1+2",
-    "jvm_impl": "hotspot",
-    "last_verified": "2026-09-10",
-    "md5": "70889a2ea07be7bf34610fd32d43712d",
-    "os": "linux",
-    "release_type": "ga",
-    "sha1": "81f4dd8218e39197ccbea1c7604400b551edc213",
-    "sha256": "c3a6e8d25af606ca69f2a0a0e3135bae52746ca6dddad6081687479b06155bad",
-    "sha512": "34e24e0f7c6f702a0b5a9725e7e4a27fda28772d39265d71d75e417ac15fbea4b885d2ade10e479587d1ecefd3fa3d555f6eacb36d09bb2244dd1b80469c0ae5",
-    "size": 52246061,
-    "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jre17.0.3.1+2-linux-x64-musl.apk",
-    "vendor": "bellsoft",
-    "version": "17.0.3.1+2"
-  },
-  {
-    "architecture": "x86_64",
-    "distro": "liberica",
-    "features": [
-      "musl"
-    ],
     "file_type": "tar.gz",
     "filename": "bellsoft-jre17.0.3.1+2-linux-x64-musl.tar.gz",
     "image_type": "jre",
@@ -8625,22 +8625,22 @@
     "features": [
       "musl"
     ],
-    "file_type": "tar.gz",
-    "filename": "bellsoft-jre17.0.3+7-linux-x64-musl.tar.gz",
+    "file_type": "apk",
+    "filename": "bellsoft-jre17.0.3.1+2-linux-x64-musl.apk",
     "image_type": "jre",
-    "java_version": "17.0.3+7",
+    "java_version": "17.0.3.1+2",
     "jvm_impl": "hotspot",
-    "last_verified": "2026-09-03",
-    "md5": "497ef5818afd1125a0a0c856d15fd599",
+    "last_verified": "2026-09-10",
+    "md5": "70889a2ea07be7bf34610fd32d43712d",
     "os": "linux",
     "release_type": "ga",
-    "sha1": "feec65e607ffa2cf5b7bf0be03127b5e7e8ec365",
-    "sha256": "9d55fb54b43139b02bacb6ddab2bd8cff85abd9a93dfffa9178a9e4bacb62551",
-    "sha512": "d70ba1b405951ab3f57149ca0f2c955e6ab1b37533124cc66db140fa2b2d5388e0cca4f8db8f763b4e7dc58a7d489f0a9811edd235dc8869f61192215d447071",
-    "size": 52586740,
-    "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.3+7/bellsoft-jre17.0.3+7-linux-x64-musl.tar.gz",
+    "sha1": "81f4dd8218e39197ccbea1c7604400b551edc213",
+    "sha256": "c3a6e8d25af606ca69f2a0a0e3135bae52746ca6dddad6081687479b06155bad",
+    "sha512": "34e24e0f7c6f702a0b5a9725e7e4a27fda28772d39265d71d75e417ac15fbea4b885d2ade10e479587d1ecefd3fa3d555f6eacb36d09bb2244dd1b80469c0ae5",
+    "size": 52246061,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jre17.0.3.1+2-linux-x64-musl.apk",
     "vendor": "bellsoft",
-    "version": "17.0.3+7"
+    "version": "17.0.3.1+2"
   },
   {
     "architecture": "x86_64",
@@ -8662,6 +8662,29 @@
     "sha512": "96861cea93a5df0409c353f9008d0c38d21af60501e0e2b6ff65eec96be609b57b5a79fe02bccd8b49d98c593a214d16c9d7ce8c481d4dfbd713e0ed6057722a",
     "size": 52239620,
     "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.3+7/bellsoft-jre17.0.3+7-linux-x64-musl.apk",
+    "vendor": "bellsoft",
+    "version": "17.0.3+7"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jre17.0.3+7-linux-x64-musl.tar.gz",
+    "image_type": "jre",
+    "java_version": "17.0.3+7",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-03",
+    "md5": "497ef5818afd1125a0a0c856d15fd599",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "feec65e607ffa2cf5b7bf0be03127b5e7e8ec365",
+    "sha256": "9d55fb54b43139b02bacb6ddab2bd8cff85abd9a93dfffa9178a9e4bacb62551",
+    "sha512": "d70ba1b405951ab3f57149ca0f2c955e6ab1b37533124cc66db140fa2b2d5388e0cca4f8db8f763b4e7dc58a7d489f0a9811edd235dc8869f61192215d447071",
+    "size": 52586740,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.3+7/bellsoft-jre17.0.3+7-linux-x64-musl.tar.gz",
     "vendor": "bellsoft",
     "version": "17.0.3+7"
   },
@@ -8763,29 +8786,6 @@
     "features": [
       "musl"
     ],
-    "file_type": "apk",
-    "filename": "bellsoft-jre17+35-linux-x64-musl.apk",
-    "image_type": "jre",
-    "java_version": "17+35",
-    "jvm_impl": "hotspot",
-    "last_verified": "2026-09-03",
-    "md5": "bda3fa42a7c72b356092628d62db3bde",
-    "os": "linux",
-    "release_type": "ga",
-    "sha1": "5d31d3c4c6a2f02006da41af8541c056e6a13c54",
-    "sha256": "98cefaf6ceb890bd35b23fc6a2f34568f6af3e73dc5d5c6f66a7373422998017",
-    "sha512": "af21421dd77b3b23736c1152ad684e47fe989982c4671d8c9f7deaee059f3514196cac4cbf355e5ef0270134400ef1197d67847ec01339992332328055e3213a",
-    "size": 50066272,
-    "url": "https://github.com/bell-sw/Liberica/releases/download/17+35/bellsoft-jre17+35-linux-x64-musl.apk",
-    "vendor": "bellsoft",
-    "version": "17+35"
-  },
-  {
-    "architecture": "x86_64",
-    "distro": "liberica",
-    "features": [
-      "musl"
-    ],
     "file_type": "tar.gz",
     "filename": "bellsoft-jre17+35-linux-x64-musl.tar.gz",
     "image_type": "jre",
@@ -8809,22 +8809,22 @@
     "features": [
       "musl"
     ],
-    "file_type": "tar.gz",
-    "filename": "bellsoft-jre16.0.2+7-linux-x64-musl.tar.gz",
+    "file_type": "apk",
+    "filename": "bellsoft-jre17+35-linux-x64-musl.apk",
     "image_type": "jre",
-    "java_version": "16.0.2+7",
+    "java_version": "17+35",
     "jvm_impl": "hotspot",
-    "last_verified": "2026-09-07",
-    "md5": "b4a338568de5553edc254a7020b0ef44",
+    "last_verified": "2026-09-03",
+    "md5": "bda3fa42a7c72b356092628d62db3bde",
     "os": "linux",
     "release_type": "ga",
-    "sha1": "b5c9f8b861baca1aee718d13cedafe1df0e4989a",
-    "sha256": "a66bc0dea1309d3e1207dc698fa508a3b635a5ba37112e46aa26b9f6cd45bc23",
-    "sha512": "f10c267480f6f63178bed207cc861c5ac748a4c722f9f9cdc52007f97c2db0ffb402a17456a43a7421a493357d54cf702188fa97797d0ac786fb75782e73007e",
-    "size": 55282580,
-    "url": "https://github.com/bell-sw/Liberica/releases/download/16.0.2+7/bellsoft-jre16.0.2+7-linux-x64-musl.tar.gz",
+    "sha1": "5d31d3c4c6a2f02006da41af8541c056e6a13c54",
+    "sha256": "98cefaf6ceb890bd35b23fc6a2f34568f6af3e73dc5d5c6f66a7373422998017",
+    "sha512": "af21421dd77b3b23736c1152ad684e47fe989982c4671d8c9f7deaee059f3514196cac4cbf355e5ef0270134400ef1197d67847ec01339992332328055e3213a",
+    "size": 50066272,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/17+35/bellsoft-jre17+35-linux-x64-musl.apk",
     "vendor": "bellsoft",
-    "version": "16.0.2+7"
+    "version": "17+35"
   },
   {
     "architecture": "x86_64",
@@ -8856,21 +8856,21 @@
       "musl"
     ],
     "file_type": "tar.gz",
-    "filename": "bellsoft-jre16.0.1+9-linux-x64-musl.tar.gz",
+    "filename": "bellsoft-jre16.0.2+7-linux-x64-musl.tar.gz",
     "image_type": "jre",
-    "java_version": "16.0.1+9",
+    "java_version": "16.0.2+7",
     "jvm_impl": "hotspot",
-    "last_verified": "2026-09-01",
-    "md5": "fa46a65a7d71a6d299dd780d4df3b618",
+    "last_verified": "2026-09-07",
+    "md5": "b4a338568de5553edc254a7020b0ef44",
     "os": "linux",
     "release_type": "ga",
-    "sha1": "ece3e65a78950a63aa527d63ff72aba8009c80e4",
-    "sha256": "73114988122db389f26bff90de93fabed24f0917c3340ad6ceb2189297ca17d3",
-    "sha512": "c31312d0878a31acd5ff6895079c35119cc47f4d9e57e6b852e74020293b14616644f661879f05fbf1ab042e3c78bda3dd860e402f00a9bde6ed123a9682743c",
-    "size": 55262255,
-    "url": "https://github.com/bell-sw/Liberica/releases/download/16.0.1+9/bellsoft-jre16.0.1+9-linux-x64-musl.tar.gz",
+    "sha1": "b5c9f8b861baca1aee718d13cedafe1df0e4989a",
+    "sha256": "a66bc0dea1309d3e1207dc698fa508a3b635a5ba37112e46aa26b9f6cd45bc23",
+    "sha512": "f10c267480f6f63178bed207cc861c5ac748a4c722f9f9cdc52007f97c2db0ffb402a17456a43a7421a493357d54cf702188fa97797d0ac786fb75782e73007e",
+    "size": 55282580,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/16.0.2+7/bellsoft-jre16.0.2+7-linux-x64-musl.tar.gz",
     "vendor": "bellsoft",
-    "version": "16.0.1+9"
+    "version": "16.0.2+7"
   },
   {
     "architecture": "x86_64",
@@ -8901,22 +8901,22 @@
     "features": [
       "musl"
     ],
-    "file_type": "apk",
-    "filename": "bellsoft-jre16+36-linux-x64-musl.apk",
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jre16.0.1+9-linux-x64-musl.tar.gz",
     "image_type": "jre",
-    "java_version": "16+36",
+    "java_version": "16.0.1+9",
     "jvm_impl": "hotspot",
-    "last_verified": "2026-09-02",
-    "md5": "d615adcfc3f5b03d8b2ee985912c15ab",
+    "last_verified": "2026-09-01",
+    "md5": "fa46a65a7d71a6d299dd780d4df3b618",
     "os": "linux",
     "release_type": "ga",
-    "sha1": "93c43bcf51a76a8cb3c3bf148831846b4b672941",
-    "sha256": "7f4bf1ec00204466d933488444969293c7c81657bb16584e19ecd97014ea8cb6",
-    "sha512": "9da5822c3ab56cc1e2ab9e8ebdac7424612316eb15cb9329d527d1aae07dee6d66104a6919c2e9a3190b3d258319a0b11f6cb806d64ca62b19a5c51234bf5e3e",
-    "size": 52618883,
-    "url": "https://github.com/bell-sw/Liberica/releases/download/16+36/bellsoft-jre16+36-linux-x64-musl.apk",
+    "sha1": "ece3e65a78950a63aa527d63ff72aba8009c80e4",
+    "sha256": "73114988122db389f26bff90de93fabed24f0917c3340ad6ceb2189297ca17d3",
+    "sha512": "c31312d0878a31acd5ff6895079c35119cc47f4d9e57e6b852e74020293b14616644f661879f05fbf1ab042e3c78bda3dd860e402f00a9bde6ed123a9682743c",
+    "size": 55262255,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/16.0.1+9/bellsoft-jre16.0.1+9-linux-x64-musl.tar.gz",
     "vendor": "bellsoft",
-    "version": "16+36"
+    "version": "16.0.1+9"
   },
   {
     "architecture": "x86_64",
@@ -8947,22 +8947,22 @@
     "features": [
       "musl"
     ],
-    "file_type": "tar.gz",
-    "filename": "bellsoft-jre15.0.2+10-linux-x64-musl.tar.gz",
+    "file_type": "apk",
+    "filename": "bellsoft-jre16+36-linux-x64-musl.apk",
     "image_type": "jre",
-    "java_version": "15.0.2+10",
+    "java_version": "16+36",
     "jvm_impl": "hotspot",
-    "last_verified": "2026-09-03",
-    "md5": "c030629fff5d49f7f15c6145433ce85c",
+    "last_verified": "2026-09-02",
+    "md5": "d615adcfc3f5b03d8b2ee985912c15ab",
     "os": "linux",
     "release_type": "ga",
-    "sha1": "ad8d577fc5fefab40b43914de707702c25deea28",
-    "sha256": "ae7f813e3a2e08421507ae0080378fbc34d0d4fe55c9a01220f1dfbb0a05d26c",
-    "sha512": "1ebb2836fe6c1cb6a673c84154efb1627036531db32103c589a288ad5a00f7a3c90ce2d73803d2c881a6ba1e2857fdff844cdd158b80ab48299f01afa7cd05d1",
-    "size": 53212527,
-    "url": "https://github.com/bell-sw/Liberica/releases/download/15.0.2+10/bellsoft-jre15.0.2+10-linux-x64-musl.tar.gz",
+    "sha1": "93c43bcf51a76a8cb3c3bf148831846b4b672941",
+    "sha256": "7f4bf1ec00204466d933488444969293c7c81657bb16584e19ecd97014ea8cb6",
+    "sha512": "9da5822c3ab56cc1e2ab9e8ebdac7424612316eb15cb9329d527d1aae07dee6d66104a6919c2e9a3190b3d258319a0b11f6cb806d64ca62b19a5c51234bf5e3e",
+    "size": 52618883,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/16+36/bellsoft-jre16+36-linux-x64-musl.apk",
     "vendor": "bellsoft",
-    "version": "15.0.2+10"
+    "version": "16+36"
   },
   {
     "architecture": "x86_64",
@@ -8993,22 +8993,22 @@
     "features": [
       "musl"
     ],
-    "file_type": "apk",
-    "filename": "bellsoft-jre15.0.2+8-linux-x64-musl.apk",
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jre15.0.2+10-linux-x64-musl.tar.gz",
     "image_type": "jre",
-    "java_version": "15.0.2+8",
+    "java_version": "15.0.2+10",
     "jvm_impl": "hotspot",
-    "last_verified": "2026-09-08",
-    "md5": "8e6ad32afe8b78a8308c88a6bb5858bf",
+    "last_verified": "2026-09-03",
+    "md5": "c030629fff5d49f7f15c6145433ce85c",
     "os": "linux",
     "release_type": "ga",
-    "sha1": "cc03272f4715bc0888a8d00d2c7c65b3488e1799",
-    "sha256": "e1d5c918f2313e506e7ed4f656b21fa6672283b1cdeeabf7cbadc9e1166a1642",
-    "sha512": "010a0ec0bdede8b53323884a695a43f9e5a1074923c781832c65cb2111d42268a0d09942aaac6ebe01fe2b5f7a924d36cd5c5d94b6ea2a9743d75f1bd143a09b",
-    "size": 50691629,
-    "url": "https://github.com/bell-sw/Liberica/releases/download/15.0.2+8/bellsoft-jre15.0.2+8-linux-x64-musl.apk",
+    "sha1": "ad8d577fc5fefab40b43914de707702c25deea28",
+    "sha256": "ae7f813e3a2e08421507ae0080378fbc34d0d4fe55c9a01220f1dfbb0a05d26c",
+    "sha512": "1ebb2836fe6c1cb6a673c84154efb1627036531db32103c589a288ad5a00f7a3c90ce2d73803d2c881a6ba1e2857fdff844cdd158b80ab48299f01afa7cd05d1",
+    "size": 53212527,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/15.0.2+10/bellsoft-jre15.0.2+10-linux-x64-musl.tar.gz",
     "vendor": "bellsoft",
-    "version": "15.0.2+8"
+    "version": "15.0.2+10"
   },
   {
     "architecture": "x86_64",
@@ -9030,6 +9030,29 @@
     "sha512": "f923bc01a168ca44649c971d197a8f9209617e81c4495530ea50eaef7fdf9e1242ab5d9e320e47bf06d87e30a90e30195485fd214f3b6348fab9d91065da37b6",
     "size": 53208515,
     "url": "https://github.com/bell-sw/Liberica/releases/download/15.0.2+8/bellsoft-jre15.0.2+8-linux-x64-musl.tar.gz",
+    "vendor": "bellsoft",
+    "version": "15.0.2+8"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
+      "musl"
+    ],
+    "file_type": "apk",
+    "filename": "bellsoft-jre15.0.2+8-linux-x64-musl.apk",
+    "image_type": "jre",
+    "java_version": "15.0.2+8",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-08",
+    "md5": "8e6ad32afe8b78a8308c88a6bb5858bf",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "cc03272f4715bc0888a8d00d2c7c65b3488e1799",
+    "sha256": "e1d5c918f2313e506e7ed4f656b21fa6672283b1cdeeabf7cbadc9e1166a1642",
+    "sha512": "010a0ec0bdede8b53323884a695a43f9e5a1074923c781832c65cb2111d42268a0d09942aaac6ebe01fe2b5f7a924d36cd5c5d94b6ea2a9743d75f1bd143a09b",
+    "size": 50691629,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/15.0.2+8/bellsoft-jre15.0.2+8-linux-x64-musl.apk",
     "vendor": "bellsoft",
     "version": "15.0.2+8"
   },
@@ -9154,29 +9177,6 @@
     "features": [
       "musl"
     ],
-    "file_type": "apk",
-    "filename": "bellsoft-jre11.0.29+12-linux-x64-musl.apk",
-    "image_type": "jre",
-    "java_version": "11.0.29+12-LTS",
-    "jvm_impl": "hotspot",
-    "last_verified": "2026-09-10",
-    "md5": "435e884b2389d6006b51efcdec5f22d1",
-    "os": "linux",
-    "release_type": "ga",
-    "sha1": "9b5bfbde5a78c604b4cd5ce508938841d62a7fd2",
-    "sha256": "cd3c7dab98a5283be3599dbdbe6470e581973e04fef25fb0df2f2ba51752a46b",
-    "sha512": "bbeebdb5296da8098b264c9934936a1541e759100e32e246b740fe74aac19cd424e9a8e4c693a1cb531bdb5108529921ad3c214d428792d25f69c16e4d679da9",
-    "size": 54006021,
-    "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.29+12/bellsoft-jre11.0.29+12-linux-x64-musl.apk",
-    "vendor": "bellsoft",
-    "version": "11.0.29+12"
-  },
-  {
-    "architecture": "x86_64",
-    "distro": "liberica",
-    "features": [
-      "musl"
-    ],
     "file_type": "tar.gz",
     "filename": "bellsoft-jre11.0.29+12-linux-x64-musl.tar.gz",
     "image_type": "jre",
@@ -9200,22 +9200,22 @@
     "features": [
       "musl"
     ],
-    "file_type": "tar.gz",
-    "filename": "bellsoft-jre11.0.29+10-linux-x64-musl.tar.gz",
+    "file_type": "apk",
+    "filename": "bellsoft-jre11.0.29+12-linux-x64-musl.apk",
     "image_type": "jre",
-    "java_version": "11.0.29+10-LTS",
+    "java_version": "11.0.29+12-LTS",
     "jvm_impl": "hotspot",
     "last_verified": "2026-09-10",
-    "md5": "90b0f851015d8d2f169f0f4efd839380",
+    "md5": "435e884b2389d6006b51efcdec5f22d1",
     "os": "linux",
     "release_type": "ga",
-    "sha1": "08e102fc78471a653c3a8a14a3df058e52e00186",
-    "sha256": "19bdaa14379364c0360b77a9e03b3c6aa8d4a9c0f0ddb287a3cec399a52991ea",
-    "sha512": "c4d6483c5f1c7994f06431b9628dcf7775445f9d5ce17680f882110bf001e6ffc664eb930a7d8b52fd5aa149709f650bf130d0cb44be81e6ddd6c8966c1d8fae",
-    "size": 54369445,
-    "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.29+10/bellsoft-jre11.0.29+10-linux-x64-musl.tar.gz",
+    "sha1": "9b5bfbde5a78c604b4cd5ce508938841d62a7fd2",
+    "sha256": "cd3c7dab98a5283be3599dbdbe6470e581973e04fef25fb0df2f2ba51752a46b",
+    "sha512": "bbeebdb5296da8098b264c9934936a1541e759100e32e246b740fe74aac19cd424e9a8e4c693a1cb531bdb5108529921ad3c214d428792d25f69c16e4d679da9",
+    "size": 54006021,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.29+12/bellsoft-jre11.0.29+12-linux-x64-musl.apk",
     "vendor": "bellsoft",
-    "version": "11.0.29+10"
+    "version": "11.0.29+12"
   },
   {
     "architecture": "x86_64",
@@ -9237,6 +9237,29 @@
     "sha512": "00aa3d29ed5ebbebf4e77682965726ebf1fc0caabc9bae79efd07ff836a187bd295ba9081d68aa0b5bb56347ad54938e6e6f9837127fd2b015eceefae0422da7",
     "size": 54008300,
     "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.29+10/bellsoft-jre11.0.29+10-linux-x64-musl.apk",
+    "vendor": "bellsoft",
+    "version": "11.0.29+10"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jre11.0.29+10-linux-x64-musl.tar.gz",
+    "image_type": "jre",
+    "java_version": "11.0.29+10-LTS",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-10",
+    "md5": "90b0f851015d8d2f169f0f4efd839380",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "08e102fc78471a653c3a8a14a3df058e52e00186",
+    "sha256": "19bdaa14379364c0360b77a9e03b3c6aa8d4a9c0f0ddb287a3cec399a52991ea",
+    "sha512": "c4d6483c5f1c7994f06431b9628dcf7775445f9d5ce17680f882110bf001e6ffc664eb930a7d8b52fd5aa149709f650bf130d0cb44be81e6ddd6c8966c1d8fae",
+    "size": 54369445,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.29+10/bellsoft-jre11.0.29+10-linux-x64-musl.tar.gz",
     "vendor": "bellsoft",
     "version": "11.0.29+10"
   },
@@ -9338,29 +9361,6 @@
     "features": [
       "musl"
     ],
-    "file_type": "tar.gz",
-    "filename": "bellsoft-jre11.0.26+9-linux-x64-musl.tar.gz",
-    "image_type": "jre",
-    "java_version": "11.0.26+9-LTS",
-    "jvm_impl": "hotspot",
-    "last_verified": "2026-09-04",
-    "md5": "9440c39bcc5133f3fdc024aaf087649d",
-    "os": "linux",
-    "release_type": "ga",
-    "sha1": "6f2c57c2ce2d06ed8f8fc780d973eee34c912a2f",
-    "sha256": "a0499fbb3370f665bde3bd2cea06cb33e59c3f1d1ddad0d73c6598d8a57e7e63",
-    "sha512": "b9b71a4ba46ec11eec0a28c8079fc8759d1ce34846b153ed5568302b2067a8bfe2433cc5920a62b036f970842e2ce3cd01b45ad5ffce8c1cd93c84077ab6c1c1",
-    "size": 54818445,
-    "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.26+9/bellsoft-jre11.0.26+9-linux-x64-musl.tar.gz",
-    "vendor": "bellsoft",
-    "version": "11.0.26+9"
-  },
-  {
-    "architecture": "x86_64",
-    "distro": "liberica",
-    "features": [
-      "musl"
-    ],
     "file_type": "apk",
     "filename": "bellsoft-jre11.0.26+9-linux-x64-musl.apk",
     "image_type": "jre",
@@ -9384,22 +9384,22 @@
     "features": [
       "musl"
     ],
-    "file_type": "apk",
-    "filename": "bellsoft-jre11.0.25+11-linux-x64-musl.apk",
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jre11.0.26+9-linux-x64-musl.tar.gz",
     "image_type": "jre",
-    "java_version": "11.0.25+11-LTS",
+    "java_version": "11.0.26+9-LTS",
     "jvm_impl": "hotspot",
-    "last_verified": "2026-09-02",
-    "md5": "07eb8482ad9f5fe5954ac9511e13a410",
+    "last_verified": "2026-09-04",
+    "md5": "9440c39bcc5133f3fdc024aaf087649d",
     "os": "linux",
     "release_type": "ga",
-    "sha1": "97e5f4632a325524337940a6d20039cc6e3f1ee2",
-    "sha256": "a1369014c0b70838c645d11278d67ce24a1ea64d0c5bf86c5f8b74389f3d5807",
-    "sha512": "92b02e65b4ee479ac97d85b63b4c3f59d378dc22c14375f5f6908b361da13e3c12b92ac0f06b939f776e698efb6b132cff04645b00a45abbdcf217f81f582e5f",
-    "size": 54432269,
-    "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.25+11/bellsoft-jre11.0.25+11-linux-x64-musl.apk",
+    "sha1": "6f2c57c2ce2d06ed8f8fc780d973eee34c912a2f",
+    "sha256": "a0499fbb3370f665bde3bd2cea06cb33e59c3f1d1ddad0d73c6598d8a57e7e63",
+    "sha512": "b9b71a4ba46ec11eec0a28c8079fc8759d1ce34846b153ed5568302b2067a8bfe2433cc5920a62b036f970842e2ce3cd01b45ad5ffce8c1cd93c84077ab6c1c1",
+    "size": 54818445,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.26+9/bellsoft-jre11.0.26+9-linux-x64-musl.tar.gz",
     "vendor": "bellsoft",
-    "version": "11.0.25+11"
+    "version": "11.0.26+9"
   },
   {
     "architecture": "x86_64",
@@ -9431,21 +9431,21 @@
       "musl"
     ],
     "file_type": "apk",
-    "filename": "bellsoft-jre11.0.24+9-linux-x64-musl.apk",
+    "filename": "bellsoft-jre11.0.25+11-linux-x64-musl.apk",
     "image_type": "jre",
-    "java_version": "11.0.24+9-LTS",
+    "java_version": "11.0.25+11-LTS",
     "jvm_impl": "hotspot",
-    "last_verified": "2026-09-05",
-    "md5": "371a2b8c628d1c8a5d17dc90127fb612",
+    "last_verified": "2026-09-02",
+    "md5": "07eb8482ad9f5fe5954ac9511e13a410",
     "os": "linux",
     "release_type": "ga",
-    "sha1": "f822c5ec66363f66bc7f979b9aa47e9a6b8b80b9",
-    "sha256": "b8a2592fbf2e4f61a2ed50b263210684430acbbd9fd57fa31f4ea9d16a46f2fb",
-    "sha512": "f9b15e774378987d244bef5b41a779952d72cdc1c48b44fb70c8c67611a3dbc25230744eaddec4f376752e074d18e1a9c81134eda28ae71c221271b21c4b855c",
-    "size": 54434182,
-    "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.24+9/bellsoft-jre11.0.24+9-linux-x64-musl.apk",
+    "sha1": "97e5f4632a325524337940a6d20039cc6e3f1ee2",
+    "sha256": "a1369014c0b70838c645d11278d67ce24a1ea64d0c5bf86c5f8b74389f3d5807",
+    "sha512": "92b02e65b4ee479ac97d85b63b4c3f59d378dc22c14375f5f6908b361da13e3c12b92ac0f06b939f776e698efb6b132cff04645b00a45abbdcf217f81f582e5f",
+    "size": 54432269,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.25+11/bellsoft-jre11.0.25+11-linux-x64-musl.apk",
     "vendor": "bellsoft",
-    "version": "11.0.24+9"
+    "version": "11.0.25+11"
   },
   {
     "architecture": "x86_64",
@@ -9467,6 +9467,29 @@
     "sha512": "e5501768e15f64165e00d76f6d779d8a6e2bc85657f7ff1f01c96ed7a1543ecc292e8f34b4f5e62b9a17eafb9562ce508c651b2c1560ed4ef20d03253fc63b3b",
     "size": 54798976,
     "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.24+9/bellsoft-jre11.0.24+9-linux-x64-musl.tar.gz",
+    "vendor": "bellsoft",
+    "version": "11.0.24+9"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
+      "musl"
+    ],
+    "file_type": "apk",
+    "filename": "bellsoft-jre11.0.24+9-linux-x64-musl.apk",
+    "image_type": "jre",
+    "java_version": "11.0.24+9-LTS",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-05",
+    "md5": "371a2b8c628d1c8a5d17dc90127fb612",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "f822c5ec66363f66bc7f979b9aa47e9a6b8b80b9",
+    "sha256": "b8a2592fbf2e4f61a2ed50b263210684430acbbd9fd57fa31f4ea9d16a46f2fb",
+    "sha512": "f9b15e774378987d244bef5b41a779952d72cdc1c48b44fb70c8c67611a3dbc25230744eaddec4f376752e074d18e1a9c81134eda28ae71c221271b21c4b855c",
+    "size": 54434182,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.24+9/bellsoft-jre11.0.24+9-linux-x64-musl.apk",
     "vendor": "bellsoft",
     "version": "11.0.24+9"
   },
@@ -9522,29 +9545,6 @@
     "features": [
       "musl"
     ],
-    "file_type": "tar.gz",
-    "filename": "bellsoft-jre11.0.23+10-linux-x64-musl.tar.gz",
-    "image_type": "jre",
-    "java_version": "11.0.23+10-LTS",
-    "jvm_impl": "hotspot",
-    "last_verified": "2026-09-10",
-    "md5": "721fcd3b5a44af15295ddfb617ec43ad",
-    "os": "linux",
-    "release_type": "ga",
-    "sha1": "d6cbf9d9f31ab8e11c14dc4e5184e5d7d5ea0220",
-    "sha256": "b9bfd381f8a9a3aa6ffe1e577c9412446edfb7fbc1d68354ec636595b57c01cd",
-    "sha512": "10c8ddd72b3ab25588407d14fee5fc9114ecb34f28e5f32ed1b0b944887883a5d287bfa20d6ad40b9ca86bf70ac5610834cb47a0bb3b095bccb1e80749b43163",
-    "size": 49147334,
-    "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.23+10/bellsoft-jre11.0.23+10-linux-x64-musl.tar.gz",
-    "vendor": "bellsoft",
-    "version": "11.0.23+10"
-  },
-  {
-    "architecture": "x86_64",
-    "distro": "liberica",
-    "features": [
-      "musl"
-    ],
     "file_type": "apk",
     "filename": "bellsoft-jre11.0.23+10-linux-x64-musl.apk",
     "image_type": "jre",
@@ -9568,22 +9568,22 @@
     "features": [
       "musl"
     ],
-    "file_type": "apk",
-    "filename": "bellsoft-jre11.0.22+12-linux-x64-musl.apk",
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jre11.0.23+10-linux-x64-musl.tar.gz",
     "image_type": "jre",
-    "java_version": "11.0.22+12-LTS",
+    "java_version": "11.0.23+10-LTS",
     "jvm_impl": "hotspot",
-    "last_verified": "2026-09-01",
-    "md5": "b928514df799b80ad0ec01e08abdf9ab",
+    "last_verified": "2026-09-10",
+    "md5": "721fcd3b5a44af15295ddfb617ec43ad",
     "os": "linux",
     "release_type": "ga",
-    "sha1": "7926f57b8db3ca7bbadbd6533e2bb435e26390f6",
-    "sha256": "c69371f7f47e1d8daf2a2fc181e5e126b0de08974c0633a6f5fed2ec8470d43f",
-    "sha512": "2b37acbbd94d7347ced2af6320dd300e13046f91ab172e97272974f2b1ebdc20f5605a6057bbc1e427139a2a63f98e0c12cac9248f1087ded5f0af0040ac0a0d",
-    "size": 48776001,
-    "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.22+12/bellsoft-jre11.0.22+12-linux-x64-musl.apk",
+    "sha1": "d6cbf9d9f31ab8e11c14dc4e5184e5d7d5ea0220",
+    "sha256": "b9bfd381f8a9a3aa6ffe1e577c9412446edfb7fbc1d68354ec636595b57c01cd",
+    "sha512": "10c8ddd72b3ab25588407d14fee5fc9114ecb34f28e5f32ed1b0b944887883a5d287bfa20d6ad40b9ca86bf70ac5610834cb47a0bb3b095bccb1e80749b43163",
+    "size": 49147334,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.23+10/bellsoft-jre11.0.23+10-linux-x64-musl.tar.gz",
     "vendor": "bellsoft",
-    "version": "11.0.22+12"
+    "version": "11.0.23+10"
   },
   {
     "architecture": "x86_64",
@@ -9605,6 +9605,29 @@
     "sha512": "0bbac47b2ad7bd3ffb0e2233fd990a04d7f25cd197737ef0ddfff8dead630c08fb84f95646ae408ef8ad602aaf22905e4624c60ad229cca047041dc562473df7",
     "size": 49034302,
     "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.22+12/bellsoft-jre11.0.22+12-linux-x64-musl.tar.gz",
+    "vendor": "bellsoft",
+    "version": "11.0.22+12"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
+      "musl"
+    ],
+    "file_type": "apk",
+    "filename": "bellsoft-jre11.0.22+12-linux-x64-musl.apk",
+    "image_type": "jre",
+    "java_version": "11.0.22+12-LTS",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-01",
+    "md5": "b928514df799b80ad0ec01e08abdf9ab",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "7926f57b8db3ca7bbadbd6533e2bb435e26390f6",
+    "sha256": "c69371f7f47e1d8daf2a2fc181e5e126b0de08974c0633a6f5fed2ec8470d43f",
+    "sha512": "2b37acbbd94d7347ced2af6320dd300e13046f91ab172e97272974f2b1ebdc20f5605a6057bbc1e427139a2a63f98e0c12cac9248f1087ded5f0af0040ac0a0d",
+    "size": 48776001,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.22+12/bellsoft-jre11.0.22+12-linux-x64-musl.apk",
     "vendor": "bellsoft",
     "version": "11.0.22+12"
   },
@@ -9660,29 +9683,6 @@
     "features": [
       "musl"
     ],
-    "file_type": "apk",
-    "filename": "bellsoft-jre11.0.20.1+1-linux-x64-musl.apk",
-    "image_type": "jre",
-    "java_version": "11.0.20.1+1-LTS",
-    "jvm_impl": "hotspot",
-    "last_verified": "2026-09-05",
-    "md5": "92ee67dcc4c9a1aa241ecb4413c0239f",
-    "os": "linux",
-    "release_type": "ga",
-    "sha1": "9b298a164aa674d18518bf65a6a3251101dd5fce",
-    "sha256": "0229cc1612fd617935409a872a460be616ff3033ecdeb43e02d3112a8112e991",
-    "sha512": "f4a398899efb713f6cef9f2d285bcb057a2de5c17b05aeee711a0dcf4f1cd29ffbda5d577a5594aac0aeb0cd74b01efc7a7588708c714c329a41827382351d54",
-    "size": 48720549,
-    "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.20.1+1/bellsoft-jre11.0.20.1+1-linux-x64-musl.apk",
-    "vendor": "bellsoft",
-    "version": "11.0.20.1+1"
-  },
-  {
-    "architecture": "x86_64",
-    "distro": "liberica",
-    "features": [
-      "musl"
-    ],
     "file_type": "tar.gz",
     "filename": "bellsoft-jre11.0.20.1+1-linux-x64-musl.tar.gz",
     "image_type": "jre",
@@ -9706,22 +9706,22 @@
     "features": [
       "musl"
     ],
-    "file_type": "tar.gz",
-    "filename": "bellsoft-jre11.0.20+8-linux-x64-musl.tar.gz",
+    "file_type": "apk",
+    "filename": "bellsoft-jre11.0.20.1+1-linux-x64-musl.apk",
     "image_type": "jre",
-    "java_version": "11.0.20+8-LTS",
+    "java_version": "11.0.20.1+1-LTS",
     "jvm_impl": "hotspot",
-    "last_verified": "2026-09-04",
-    "md5": "6bb6537a4284a7faefe8ff387368b9f5",
+    "last_verified": "2026-09-05",
+    "md5": "92ee67dcc4c9a1aa241ecb4413c0239f",
     "os": "linux",
     "release_type": "ga",
-    "sha1": "cfba5391e35d915ab9013d35f2b47a73fcba131d",
-    "sha256": "02dccd5ca96791b3d2062bd15d5558f69083acd676f7ee32d25ba9c07e21d733",
-    "sha512": "dfabc14ed580e3470503c57ddc83ebf43594fb7b342aad5d7bd69fb072ddcd24ece39da7b772b59784b0a424a6c378872925b845ca4b54d3f62980ab145965fd",
-    "size": 48994210,
-    "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.20+8/bellsoft-jre11.0.20+8-linux-x64-musl.tar.gz",
+    "sha1": "9b298a164aa674d18518bf65a6a3251101dd5fce",
+    "sha256": "0229cc1612fd617935409a872a460be616ff3033ecdeb43e02d3112a8112e991",
+    "sha512": "f4a398899efb713f6cef9f2d285bcb057a2de5c17b05aeee711a0dcf4f1cd29ffbda5d577a5594aac0aeb0cd74b01efc7a7588708c714c329a41827382351d54",
+    "size": 48720549,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.20.1+1/bellsoft-jre11.0.20.1+1-linux-x64-musl.apk",
     "vendor": "bellsoft",
-    "version": "11.0.20+8"
+    "version": "11.0.20.1+1"
   },
   {
     "architecture": "x86_64",
@@ -9752,22 +9752,22 @@
     "features": [
       "musl"
     ],
-    "file_type": "apk",
-    "filename": "bellsoft-jre11.0.19+7-linux-x64-musl.apk",
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jre11.0.20+8-linux-x64-musl.tar.gz",
     "image_type": "jre",
-    "java_version": "11.0.19+7",
+    "java_version": "11.0.20+8-LTS",
     "jvm_impl": "hotspot",
-    "last_verified": "2026-09-07",
-    "md5": "b8bb3ef678ac259dddb14740a4eed623",
+    "last_verified": "2026-09-04",
+    "md5": "6bb6537a4284a7faefe8ff387368b9f5",
     "os": "linux",
     "release_type": "ga",
-    "sha1": "9ee159db6b910378a72df15bebfe0e779915a378",
-    "sha256": "fe6190b8a38721afbe46117d5633043a730476678dbb82d4c7ff59086db0541c",
-    "sha512": "7a276cd48668b12ce1e69392e03080416fc5503933a2e8953531f80e62413b2450d5cb49785884b76b8e896da87f5f17ff92bb1653ea0f3ad2a3550ecbbbdfcc",
-    "size": 48548838,
-    "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.19+7/bellsoft-jre11.0.19+7-linux-x64-musl.apk",
+    "sha1": "cfba5391e35d915ab9013d35f2b47a73fcba131d",
+    "sha256": "02dccd5ca96791b3d2062bd15d5558f69083acd676f7ee32d25ba9c07e21d733",
+    "sha512": "dfabc14ed580e3470503c57ddc83ebf43594fb7b342aad5d7bd69fb072ddcd24ece39da7b772b59784b0a424a6c378872925b845ca4b54d3f62980ab145965fd",
+    "size": 48994210,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.20+8/bellsoft-jre11.0.20+8-linux-x64-musl.tar.gz",
     "vendor": "bellsoft",
-    "version": "11.0.19+7"
+    "version": "11.0.20+8"
   },
   {
     "architecture": "x86_64",
@@ -9798,22 +9798,22 @@
     "features": [
       "musl"
     ],
-    "file_type": "tar.gz",
-    "filename": "bellsoft-jre11.0.18+10-linux-x64-musl.tar.gz",
+    "file_type": "apk",
+    "filename": "bellsoft-jre11.0.19+7-linux-x64-musl.apk",
     "image_type": "jre",
-    "java_version": "11.0.18+10",
+    "java_version": "11.0.19+7",
     "jvm_impl": "hotspot",
-    "last_verified": "2026-09-05",
-    "md5": "737949e0180fd6881d3142afb0d78a67",
+    "last_verified": "2026-09-07",
+    "md5": "b8bb3ef678ac259dddb14740a4eed623",
     "os": "linux",
     "release_type": "ga",
-    "sha1": "816de4bd53ab7f8e1965d2078c193582701aaf4a",
-    "sha256": "8b39c4e552f3604657485748027ed9fa10fe2d24642f8a3d9d4af70fae8a9832",
-    "sha512": "d92ed1b7e7cd253d00c2824fa582377318dd97ce7119c90090b0d6d8e86bc87f698ce6dc2184be2f58849d0f0c1a136efd96b95d12776ba6fce314eb53dc79e2",
-    "size": 48776095,
-    "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.18+10/bellsoft-jre11.0.18+10-linux-x64-musl.tar.gz",
+    "sha1": "9ee159db6b910378a72df15bebfe0e779915a378",
+    "sha256": "fe6190b8a38721afbe46117d5633043a730476678dbb82d4c7ff59086db0541c",
+    "sha512": "7a276cd48668b12ce1e69392e03080416fc5503933a2e8953531f80e62413b2450d5cb49785884b76b8e896da87f5f17ff92bb1653ea0f3ad2a3550ecbbbdfcc",
+    "size": 48548838,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.19+7/bellsoft-jre11.0.19+7-linux-x64-musl.apk",
     "vendor": "bellsoft",
-    "version": "11.0.18+10"
+    "version": "11.0.19+7"
   },
   {
     "architecture": "x86_64",
@@ -9835,6 +9835,29 @@
     "sha512": "2ac107899c0b9b2e63600126e4ae97a4d389cf732f362919224276ad7c867b992a1f1a624b9ccdd72822600478cfaa13a35f05bf9740055099c4e45c49b51acf",
     "size": 48507509,
     "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.18+10/bellsoft-jre11.0.18+10-linux-x64-musl.apk",
+    "vendor": "bellsoft",
+    "version": "11.0.18+10"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jre11.0.18+10-linux-x64-musl.tar.gz",
+    "image_type": "jre",
+    "java_version": "11.0.18+10",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-05",
+    "md5": "737949e0180fd6881d3142afb0d78a67",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "816de4bd53ab7f8e1965d2078c193582701aaf4a",
+    "sha256": "8b39c4e552f3604657485748027ed9fa10fe2d24642f8a3d9d4af70fae8a9832",
+    "sha512": "d92ed1b7e7cd253d00c2824fa582377318dd97ce7119c90090b0d6d8e86bc87f698ce6dc2184be2f58849d0f0c1a136efd96b95d12776ba6fce314eb53dc79e2",
+    "size": 48776095,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.18+10/bellsoft-jre11.0.18+10-linux-x64-musl.tar.gz",
     "vendor": "bellsoft",
     "version": "11.0.18+10"
   },
@@ -9890,29 +9913,6 @@
     "features": [
       "musl"
     ],
-    "file_type": "apk",
-    "filename": "bellsoft-jre11.0.16.1+1-linux-x64-musl.apk",
-    "image_type": "jre",
-    "java_version": "11.0.16.1+1",
-    "jvm_impl": "hotspot",
-    "last_verified": "2026-09-01",
-    "md5": "61813014c78748385893421fa6612628",
-    "os": "linux",
-    "release_type": "ga",
-    "sha1": "e34bdf0f2c0606622a36d7b515580972366d1f4b",
-    "sha256": "fa90404b4c862dc575b415b63a45b668853f71b58f93ea142acbd7f6fe1b4cbf",
-    "sha512": "1d2151d37deaa68956d6206fe8cbfac21269931679d52f5c96ce658e6844adb196d83e48f699eb8f9dcc49dc086793ef8410ec418bc39d322d0ceedd0a3c36bb",
-    "size": 48327317,
-    "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.16.1+1/bellsoft-jre11.0.16.1+1-linux-x64-musl.apk",
-    "vendor": "bellsoft",
-    "version": "11.0.16.1+1"
-  },
-  {
-    "architecture": "x86_64",
-    "distro": "liberica",
-    "features": [
-      "musl"
-    ],
     "file_type": "tar.gz",
     "filename": "bellsoft-jre11.0.16.1+1-linux-x64-musl.tar.gz",
     "image_type": "jre",
@@ -9927,6 +9927,29 @@
     "sha512": "078cb3850c408e693b3eafc3c2bf4ed7bbed5cefac9c8cb0d29a586c30424cc27f20fcb442b2ce76c36bc5d49d7319b8e69e2ff116346afc20512cdfa8cd3aa3",
     "size": 48596276,
     "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.16.1+1/bellsoft-jre11.0.16.1+1-linux-x64-musl.tar.gz",
+    "vendor": "bellsoft",
+    "version": "11.0.16.1+1"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
+      "musl"
+    ],
+    "file_type": "apk",
+    "filename": "bellsoft-jre11.0.16.1+1-linux-x64-musl.apk",
+    "image_type": "jre",
+    "java_version": "11.0.16.1+1",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-01",
+    "md5": "61813014c78748385893421fa6612628",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "e34bdf0f2c0606622a36d7b515580972366d1f4b",
+    "sha256": "fa90404b4c862dc575b415b63a45b668853f71b58f93ea142acbd7f6fe1b4cbf",
+    "sha512": "1d2151d37deaa68956d6206fe8cbfac21269931679d52f5c96ce658e6844adb196d83e48f699eb8f9dcc49dc086793ef8410ec418bc39d322d0ceedd0a3c36bb",
+    "size": 48327317,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.16.1+1/bellsoft-jre11.0.16.1+1-linux-x64-musl.apk",
     "vendor": "bellsoft",
     "version": "11.0.16.1+1"
   },
@@ -9982,29 +10005,6 @@
     "features": [
       "musl"
     ],
-    "file_type": "apk",
-    "filename": "bellsoft-jre11.0.15.1+2-linux-x64-musl.apk",
-    "image_type": "jre",
-    "java_version": "11.0.15.1+2",
-    "jvm_impl": "hotspot",
-    "last_verified": "2026-09-07",
-    "md5": "998214ed7d65eb69f77245e5d61a1d20",
-    "os": "linux",
-    "release_type": "ga",
-    "sha1": "92634ca3b6f6a5bac33e86311c0d278a05da1f61",
-    "sha256": "8f170b0a644e664534ed24a64ab37bec9948736cd7edf4b8a2574b77b1f84937",
-    "sha512": "ac18af93d86e18ce841b3773b45161b8520327458a71387ab6bfbc9904b3bd4cd4e8c73071de382c21af35f595605b7b18bcbb6e32416422a017f5c23b590286",
-    "size": 48126361,
-    "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jre11.0.15.1+2-linux-x64-musl.apk",
-    "vendor": "bellsoft",
-    "version": "11.0.15.1+2"
-  },
-  {
-    "architecture": "x86_64",
-    "distro": "liberica",
-    "features": [
-      "musl"
-    ],
     "file_type": "tar.gz",
     "filename": "bellsoft-jre11.0.15.1+2-linux-x64-musl.tar.gz",
     "image_type": "jre",
@@ -10029,21 +10029,21 @@
       "musl"
     ],
     "file_type": "apk",
-    "filename": "bellsoft-jre11.0.15+10-linux-x64-musl.apk",
+    "filename": "bellsoft-jre11.0.15.1+2-linux-x64-musl.apk",
     "image_type": "jre",
-    "java_version": "11.0.15+10",
+    "java_version": "11.0.15.1+2",
     "jvm_impl": "hotspot",
-    "last_verified": "2026-09-02",
-    "md5": "ec392f46ae07e9d22821bfcb9be0d3ef",
+    "last_verified": "2026-09-07",
+    "md5": "998214ed7d65eb69f77245e5d61a1d20",
     "os": "linux",
     "release_type": "ga",
-    "sha1": "31952f099d8c8243da9902e2d367022277abda49",
-    "sha256": "74c5eb0e9af5a4a5f2b5caff70ad118da05afe6d4f50990091c91189cab64636",
-    "sha512": "60033cf8e7cf56d556ae745b6337e2a452a6999f68eb3976141b0fa2ca977f0393641cf3975329e6d5fb98307324d1888de98424accb8416a3514bda03f693f9",
-    "size": 48123559,
-    "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.15+10/bellsoft-jre11.0.15+10-linux-x64-musl.apk",
+    "sha1": "92634ca3b6f6a5bac33e86311c0d278a05da1f61",
+    "sha256": "8f170b0a644e664534ed24a64ab37bec9948736cd7edf4b8a2574b77b1f84937",
+    "sha512": "ac18af93d86e18ce841b3773b45161b8520327458a71387ab6bfbc9904b3bd4cd4e8c73071de382c21af35f595605b7b18bcbb6e32416422a017f5c23b590286",
+    "size": 48126361,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jre11.0.15.1+2-linux-x64-musl.apk",
     "vendor": "bellsoft",
-    "version": "11.0.15+10"
+    "version": "11.0.15.1+2"
   },
   {
     "architecture": "x86_64",
@@ -10075,21 +10075,21 @@
       "musl"
     ],
     "file_type": "apk",
-    "filename": "bellsoft-jre11.0.14.1+1-linux-x64-musl.apk",
+    "filename": "bellsoft-jre11.0.15+10-linux-x64-musl.apk",
     "image_type": "jre",
-    "java_version": "11.0.14.1+1",
+    "java_version": "11.0.15+10",
     "jvm_impl": "hotspot",
-    "last_verified": "2026-08-31",
-    "md5": "702ec6c77ad0af69fd685e712057cf8f",
+    "last_verified": "2026-09-02",
+    "md5": "ec392f46ae07e9d22821bfcb9be0d3ef",
     "os": "linux",
     "release_type": "ga",
-    "sha1": "17a0a8a77925edf5e7d50919f36755a8df57b4b5",
-    "sha256": "ccdbc94b57f71ea47778ad49a8bbdf4e3d757a70f673750b2d8141bc567e157c",
-    "sha512": "efd4b364a4a4d6b32531d2beeaa36df63ca3c0baec930a340f0ba9da09e3d22bdd31a1cacc79a1ce860d176115d2a2e2aaa52306153e85c3ddbae404e117ef58",
-    "size": 48097299,
-    "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jre11.0.14.1+1-linux-x64-musl.apk",
+    "sha1": "31952f099d8c8243da9902e2d367022277abda49",
+    "sha256": "74c5eb0e9af5a4a5f2b5caff70ad118da05afe6d4f50990091c91189cab64636",
+    "sha512": "60033cf8e7cf56d556ae745b6337e2a452a6999f68eb3976141b0fa2ca977f0393641cf3975329e6d5fb98307324d1888de98424accb8416a3514bda03f693f9",
+    "size": 48123559,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.15+10/bellsoft-jre11.0.15+10-linux-x64-musl.apk",
     "vendor": "bellsoft",
-    "version": "11.0.14.1+1"
+    "version": "11.0.15+10"
   },
   {
     "architecture": "x86_64",
@@ -10111,6 +10111,29 @@
     "sha512": "a0f833f95d013f98dc816af64e814bc1117531381bee795873f85a4ea088e6a60531a6059825b638bc0b14857ca569525e98a7ff10f3dafd9151aad51ccddf18",
     "size": 48363584,
     "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jre11.0.14.1+1-linux-x64-musl.tar.gz",
+    "vendor": "bellsoft",
+    "version": "11.0.14.1+1"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
+      "musl"
+    ],
+    "file_type": "apk",
+    "filename": "bellsoft-jre11.0.14.1+1-linux-x64-musl.apk",
+    "image_type": "jre",
+    "java_version": "11.0.14.1+1",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-08-31",
+    "md5": "702ec6c77ad0af69fd685e712057cf8f",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "17a0a8a77925edf5e7d50919f36755a8df57b4b5",
+    "sha256": "ccdbc94b57f71ea47778ad49a8bbdf4e3d757a70f673750b2d8141bc567e157c",
+    "sha512": "efd4b364a4a4d6b32531d2beeaa36df63ca3c0baec930a340f0ba9da09e3d22bdd31a1cacc79a1ce860d176115d2a2e2aaa52306153e85c3ddbae404e117ef58",
+    "size": 48097299,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jre11.0.14.1+1-linux-x64-musl.apk",
     "vendor": "bellsoft",
     "version": "11.0.14.1+1"
   },
@@ -10304,29 +10327,6 @@
     "features": [
       "musl"
     ],
-    "file_type": "apk",
-    "filename": "bellsoft-jre11.0.10+9-linux-x64-musl.apk",
-    "image_type": "jre",
-    "java_version": "11.0.10+9",
-    "jvm_impl": "hotspot",
-    "last_verified": "2026-09-01",
-    "md5": "35362d43867913eb44b4c4eacf65858a",
-    "os": "linux",
-    "release_type": "ga",
-    "sha1": "99eff53eb0d81070809d5c9485c01150c1557e15",
-    "sha256": "3c38133460023b23a95e67a3dd4b191543cc913ad8a56d8a865753e5df4f5028",
-    "sha512": "203148f598eca9ad6aa45a7c4dc9ffad117b64fe57dce294828afb96cf65215c1a4b81bb6d59fba2ddfbc17263724add441f6aa816f5e251f50ade11ac705338",
-    "size": 45814533,
-    "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.10+9/bellsoft-jre11.0.10+9-linux-x64-musl.apk",
-    "vendor": "bellsoft",
-    "version": "11.0.10+9"
-  },
-  {
-    "architecture": "x86_64",
-    "distro": "liberica",
-    "features": [
-      "musl"
-    ],
     "file_type": "tar.gz",
     "filename": "bellsoft-jre11.0.10+9-linux-x64-musl.tar.gz",
     "image_type": "jre",
@@ -10341,6 +10341,29 @@
     "sha512": "53320bf65b9c9e4858a0e7138fcb4bbceeeb382478f381ca470892f6a5368b9dedc9f2a9b9137c5864b4302c70b3d266d660e99ef8c32684e65484003ccc494f",
     "size": 48271379,
     "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.10+9/bellsoft-jre11.0.10+9-linux-x64-musl.tar.gz",
+    "vendor": "bellsoft",
+    "version": "11.0.10+9"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
+      "musl"
+    ],
+    "file_type": "apk",
+    "filename": "bellsoft-jre11.0.10+9-linux-x64-musl.apk",
+    "image_type": "jre",
+    "java_version": "11.0.10+9",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-01",
+    "md5": "35362d43867913eb44b4c4eacf65858a",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "99eff53eb0d81070809d5c9485c01150c1557e15",
+    "sha256": "3c38133460023b23a95e67a3dd4b191543cc913ad8a56d8a865753e5df4f5028",
+    "sha512": "203148f598eca9ad6aa45a7c4dc9ffad117b64fe57dce294828afb96cf65215c1a4b81bb6d59fba2ddfbc17263724add441f6aa816f5e251f50ade11ac705338",
+    "size": 45814533,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.10+9/bellsoft-jre11.0.10+9-linux-x64-musl.apk",
     "vendor": "bellsoft",
     "version": "11.0.10+9"
   },
@@ -10488,29 +10511,6 @@
     "features": [
       "musl"
     ],
-    "file_type": "apk",
-    "filename": "bellsoft-jre8u472+11-linux-x64-musl.apk",
-    "image_type": "jre",
-    "java_version": "1.8.0_472",
-    "jvm_impl": "hotspot",
-    "last_verified": "2026-09-08",
-    "md5": "52b3b61f34afc115e27c03fbf3cbef2e",
-    "os": "linux",
-    "release_type": "ga",
-    "sha1": "c53039d602617d17a2fd1dddab029731696a4c0a",
-    "sha256": "474e8705f15a403a68b6d6ae95d7fc3d7b3c156e1f360117ee326214b89f8c96",
-    "sha512": "b184811eeba00b7082c98ee96b85a16dbc2db5acdc0b22771920c994c31a204639cc9a5fc97c73cd7a736df0b01e82ab73dda5004a0c585618be6161e4160f3d",
-    "size": 41934560,
-    "url": "https://github.com/bell-sw/Liberica/releases/download/8u472+11/bellsoft-jre8u472+11-linux-x64-musl.apk",
-    "vendor": "bellsoft",
-    "version": "8u472+11"
-  },
-  {
-    "architecture": "x86_64",
-    "distro": "liberica",
-    "features": [
-      "musl"
-    ],
     "file_type": "tar.gz",
     "filename": "bellsoft-jre8u472+11-linux-x64-musl.tar.gz",
     "image_type": "jre",
@@ -10534,22 +10534,22 @@
     "features": [
       "musl"
     ],
-    "file_type": "tar.gz",
-    "filename": "bellsoft-jre8u472+9-linux-x64-musl.tar.gz",
+    "file_type": "apk",
+    "filename": "bellsoft-jre8u472+11-linux-x64-musl.apk",
     "image_type": "jre",
     "java_version": "1.8.0_472",
     "jvm_impl": "hotspot",
-    "last_verified": "2026-09-05",
-    "md5": "46a60e50a0120f03a68061e3bd61a7a1",
+    "last_verified": "2026-09-08",
+    "md5": "52b3b61f34afc115e27c03fbf3cbef2e",
     "os": "linux",
     "release_type": "ga",
-    "sha1": "a2ad3a4b9496984a495dd7dfbed772c543147e34",
-    "sha256": "c7cb7391a31e5daff8c99de05b7987b619e9a9207f6dce486a9ebe5355fd538d",
-    "sha512": "43025447d45485e37eae74afece791a005d6ae2762ac01ca5748cc77da5ef27ba5575c105e5bf95d3294ff4c63e1b78995a4bc177ee648272e9c947ebb2a3001",
-    "size": 42078243,
-    "url": "https://github.com/bell-sw/Liberica/releases/download/8u472+9/bellsoft-jre8u472+9-linux-x64-musl.tar.gz",
+    "sha1": "c53039d602617d17a2fd1dddab029731696a4c0a",
+    "sha256": "474e8705f15a403a68b6d6ae95d7fc3d7b3c156e1f360117ee326214b89f8c96",
+    "sha512": "b184811eeba00b7082c98ee96b85a16dbc2db5acdc0b22771920c994c31a204639cc9a5fc97c73cd7a736df0b01e82ab73dda5004a0c585618be6161e4160f3d",
+    "size": 41934560,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/8u472+11/bellsoft-jre8u472+11-linux-x64-musl.apk",
     "vendor": "bellsoft",
-    "version": "8u472+9"
+    "version": "8u472+11"
   },
   {
     "architecture": "x86_64",
@@ -10580,22 +10580,22 @@
     "features": [
       "musl"
     ],
-    "file_type": "apk",
-    "filename": "bellsoft-jre8u462+11-linux-x64-musl.apk",
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jre8u472+9-linux-x64-musl.tar.gz",
     "image_type": "jre",
-    "java_version": "1.8.0_462",
+    "java_version": "1.8.0_472",
     "jvm_impl": "hotspot",
-    "last_verified": "2026-09-07",
-    "md5": "3873da5bace3c2db48326ff4458ef4de",
+    "last_verified": "2026-09-05",
+    "md5": "46a60e50a0120f03a68061e3bd61a7a1",
     "os": "linux",
     "release_type": "ga",
-    "sha1": "8c0ccdf72b6cd55e8fd0aff9dc00db48e1579c8f",
-    "sha256": "52b0ea57457969bb6c231d52b7c073f8d536a7e1590247917e7965472cd94dcb",
-    "sha512": "3b6905a45f8fb78f7d4a009dd768cfa905b9e3ce96b334d9cbebb6caded81249481df12804f146ef66b505dccad17e8b67a61459569e1a19da47a36f83e80725",
-    "size": 41923353,
-    "url": "https://github.com/bell-sw/Liberica/releases/download/8u462+11/bellsoft-jre8u462+11-linux-x64-musl.apk",
+    "sha1": "a2ad3a4b9496984a495dd7dfbed772c543147e34",
+    "sha256": "c7cb7391a31e5daff8c99de05b7987b619e9a9207f6dce486a9ebe5355fd538d",
+    "sha512": "43025447d45485e37eae74afece791a005d6ae2762ac01ca5748cc77da5ef27ba5575c105e5bf95d3294ff4c63e1b78995a4bc177ee648272e9c947ebb2a3001",
+    "size": 42078243,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/8u472+9/bellsoft-jre8u472+9-linux-x64-musl.tar.gz",
     "vendor": "bellsoft",
-    "version": "8u462+11"
+    "version": "8u472+9"
   },
   {
     "architecture": "x86_64",
@@ -10617,6 +10617,29 @@
     "sha512": "f3085a14c0f0e764b4664c34599873c9f0a0681d5f8d9cf460310d49b31e14d58679459b9ff7b678ba1a5af20ef35e019e544a602653ad00d11370874ae318d4",
     "size": 42067396,
     "url": "https://github.com/bell-sw/Liberica/releases/download/8u462+11/bellsoft-jre8u462+11-linux-x64-musl.tar.gz",
+    "vendor": "bellsoft",
+    "version": "8u462+11"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
+      "musl"
+    ],
+    "file_type": "apk",
+    "filename": "bellsoft-jre8u462+11-linux-x64-musl.apk",
+    "image_type": "jre",
+    "java_version": "1.8.0_462",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-07",
+    "md5": "3873da5bace3c2db48326ff4458ef4de",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "8c0ccdf72b6cd55e8fd0aff9dc00db48e1579c8f",
+    "sha256": "52b0ea57457969bb6c231d52b7c073f8d536a7e1590247917e7965472cd94dcb",
+    "sha512": "3b6905a45f8fb78f7d4a009dd768cfa905b9e3ce96b334d9cbebb6caded81249481df12804f146ef66b505dccad17e8b67a61459569e1a19da47a36f83e80725",
+    "size": 41923353,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/8u462+11/bellsoft-jre8u462+11-linux-x64-musl.apk",
     "vendor": "bellsoft",
     "version": "8u462+11"
   },
@@ -10718,29 +10741,6 @@
     "features": [
       "musl"
     ],
-    "file_type": "tar.gz",
-    "filename": "bellsoft-jre8u432+7-linux-x64-musl.tar.gz",
-    "image_type": "jre",
-    "java_version": "1.8.0_432",
-    "jvm_impl": "hotspot",
-    "last_verified": "2026-09-06",
-    "md5": "97fe9868580f311be02232cdfe9ae20d",
-    "os": "linux",
-    "release_type": "ga",
-    "sha1": "586b9937d5629a100b57e06c2f3071c0f8232479",
-    "sha256": "2a53acd3c75ff76d445b1cb574e6f71e767973031f7d63caa69efafec580e531",
-    "sha512": "22808935ca1594f15b299f293d79df6f84695eb52f5567c73f10c76f6360d4c4466dea1a6e30f3d09204f8501d93f69a7d26e92df31b82f2af5cb36bbdf5ac38",
-    "size": 41982943,
-    "url": "https://github.com/bell-sw/Liberica/releases/download/8u432+7/bellsoft-jre8u432+7-linux-x64-musl.tar.gz",
-    "vendor": "bellsoft",
-    "version": "8u432+7"
-  },
-  {
-    "architecture": "x86_64",
-    "distro": "liberica",
-    "features": [
-      "musl"
-    ],
     "file_type": "apk",
     "filename": "bellsoft-jre8u432+7-linux-x64-musl.apk",
     "image_type": "jre",
@@ -10755,6 +10755,29 @@
     "sha512": "33cabc688874f13e4b786a6586e3bbd8cb086a4511d5d0d821f0293cb78dd6cd52bf989f0c216d510e05a70cde2e98a66663f5d1c4d2d2369f72715d7fc377f2",
     "size": 41834491,
     "url": "https://github.com/bell-sw/Liberica/releases/download/8u432+7/bellsoft-jre8u432+7-linux-x64-musl.apk",
+    "vendor": "bellsoft",
+    "version": "8u432+7"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jre8u432+7-linux-x64-musl.tar.gz",
+    "image_type": "jre",
+    "java_version": "1.8.0_432",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-06",
+    "md5": "97fe9868580f311be02232cdfe9ae20d",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "586b9937d5629a100b57e06c2f3071c0f8232479",
+    "sha256": "2a53acd3c75ff76d445b1cb574e6f71e767973031f7d63caa69efafec580e531",
+    "sha512": "22808935ca1594f15b299f293d79df6f84695eb52f5567c73f10c76f6360d4c4466dea1a6e30f3d09204f8501d93f69a7d26e92df31b82f2af5cb36bbdf5ac38",
+    "size": 41982943,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/8u432+7/bellsoft-jre8u432+7-linux-x64-musl.tar.gz",
     "vendor": "bellsoft",
     "version": "8u432+7"
   },
@@ -10902,29 +10925,6 @@
     "features": [
       "musl"
     ],
-    "file_type": "tar.gz",
-    "filename": "bellsoft-jre8u392+9-linux-x64-musl.tar.gz",
-    "image_type": "jre",
-    "java_version": "1.8.0_392",
-    "jvm_impl": "hotspot",
-    "last_verified": "2026-09-06",
-    "md5": "a742420919d94ed541bb63b3aff6e602",
-    "os": "linux",
-    "release_type": "ga",
-    "sha1": "6c8622796d1c7129c2fdb213d1776fc471532101",
-    "sha256": "a7dfa17b45c7903d51094bc4c7f69c8575492250359b8b4f226a093774db998e",
-    "sha512": "b210816b2de6a4c885780fedff6134293f6cc3e2b20a92b5970b1e019f760c7cc5a2208f34704df9c4af70a00a0fadd46f790baa72dc73d4067dd8665b69e8f7",
-    "size": 41950204,
-    "url": "https://github.com/bell-sw/Liberica/releases/download/8u392+9/bellsoft-jre8u392+9-linux-x64-musl.tar.gz",
-    "vendor": "bellsoft",
-    "version": "8u392+9"
-  },
-  {
-    "architecture": "x86_64",
-    "distro": "liberica",
-    "features": [
-      "musl"
-    ],
     "file_type": "apk",
     "filename": "bellsoft-jre8u392+9-linux-x64-musl.apk",
     "image_type": "jre",
@@ -10949,21 +10949,21 @@
       "musl"
     ],
     "file_type": "tar.gz",
-    "filename": "bellsoft-jre8u382+6-linux-x64-musl.tar.gz",
+    "filename": "bellsoft-jre8u392+9-linux-x64-musl.tar.gz",
     "image_type": "jre",
-    "java_version": "1.8.0_382",
+    "java_version": "1.8.0_392",
     "jvm_impl": "hotspot",
-    "last_verified": "2026-09-10",
-    "md5": "78a565439fdae22f5ca90607ecde26c1",
+    "last_verified": "2026-09-06",
+    "md5": "a742420919d94ed541bb63b3aff6e602",
     "os": "linux",
     "release_type": "ga",
-    "sha1": "dc1f8df67b2459d99f5226850c141d7fc64452d2",
-    "sha256": "971b9da5a462b4bf00f94e8b22ccbafee556d0e103ae642a9fbb63775f678d5e",
-    "sha512": "e880e0a9b75330337beb6824c750a5082b972d44604ee777ebc23dfcc52faa5582ff950ec3e53e4c1ecdd8967b001b866b819027ac569136524a4b732f1931b5",
-    "size": 41951923,
-    "url": "https://github.com/bell-sw/Liberica/releases/download/8u382+6/bellsoft-jre8u382+6-linux-x64-musl.tar.gz",
+    "sha1": "6c8622796d1c7129c2fdb213d1776fc471532101",
+    "sha256": "a7dfa17b45c7903d51094bc4c7f69c8575492250359b8b4f226a093774db998e",
+    "sha512": "b210816b2de6a4c885780fedff6134293f6cc3e2b20a92b5970b1e019f760c7cc5a2208f34704df9c4af70a00a0fadd46f790baa72dc73d4067dd8665b69e8f7",
+    "size": 41950204,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/8u392+9/bellsoft-jre8u392+9-linux-x64-musl.tar.gz",
     "vendor": "bellsoft",
-    "version": "8u382+6"
+    "version": "8u392+9"
   },
   {
     "architecture": "x86_64",
@@ -10994,22 +10994,22 @@
     "features": [
       "musl"
     ],
-    "file_type": "apk",
-    "filename": "bellsoft-jre8u372+7-linux-x64-musl.apk",
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jre8u382+6-linux-x64-musl.tar.gz",
     "image_type": "jre",
-    "java_version": "1.8.0_372",
+    "java_version": "1.8.0_382",
     "jvm_impl": "hotspot",
-    "last_verified": "2026-09-07",
-    "md5": "51904a759f4f3dd4f990edd3b90e40da",
+    "last_verified": "2026-09-10",
+    "md5": "78a565439fdae22f5ca90607ecde26c1",
     "os": "linux",
     "release_type": "ga",
-    "sha1": "c9a95428aee073b11c2698ebac22ba0df1033a6c",
-    "sha256": "a90726d247067b8f0479f1b1a3bc2348ba70b58b336a895f6cb5537dbbe4bfb9",
-    "sha512": "2676b6edca6584bba73e089d84b6503f1fb33a72aa128f17ee6117d61cb6a5b51a9bcd8d2acd4bd2c94890bfea7e3d2b8ece9fa1050c06c237e2bf54a99440f1",
-    "size": 41792900,
-    "url": "https://github.com/bell-sw/Liberica/releases/download/8u372+7/bellsoft-jre8u372+7-linux-x64-musl.apk",
+    "sha1": "dc1f8df67b2459d99f5226850c141d7fc64452d2",
+    "sha256": "971b9da5a462b4bf00f94e8b22ccbafee556d0e103ae642a9fbb63775f678d5e",
+    "sha512": "e880e0a9b75330337beb6824c750a5082b972d44604ee777ebc23dfcc52faa5582ff950ec3e53e4c1ecdd8967b001b866b819027ac569136524a4b732f1931b5",
+    "size": 41951923,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/8u382+6/bellsoft-jre8u382+6-linux-x64-musl.tar.gz",
     "vendor": "bellsoft",
-    "version": "8u372+7"
+    "version": "8u382+6"
   },
   {
     "architecture": "x86_64",
@@ -11031,6 +11031,29 @@
     "sha512": "799478dc4f5a7d848e8b298729a28ed3cc16f16488d5550e31d744c14822e5935dd7bf234c62c5ecf2efc5873f46473bd7de8cadb5dfc56c1aa88f28c15be868",
     "size": 41937728,
     "url": "https://github.com/bell-sw/Liberica/releases/download/8u372+7/bellsoft-jre8u372+7-linux-x64-musl.tar.gz",
+    "vendor": "bellsoft",
+    "version": "8u372+7"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
+      "musl"
+    ],
+    "file_type": "apk",
+    "filename": "bellsoft-jre8u372+7-linux-x64-musl.apk",
+    "image_type": "jre",
+    "java_version": "1.8.0_372",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-07",
+    "md5": "51904a759f4f3dd4f990edd3b90e40da",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "c9a95428aee073b11c2698ebac22ba0df1033a6c",
+    "sha256": "a90726d247067b8f0479f1b1a3bc2348ba70b58b336a895f6cb5537dbbe4bfb9",
+    "sha512": "2676b6edca6584bba73e089d84b6503f1fb33a72aa128f17ee6117d61cb6a5b51a9bcd8d2acd4bd2c94890bfea7e3d2b8ece9fa1050c06c237e2bf54a99440f1",
+    "size": 41792900,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/8u372+7/bellsoft-jre8u372+7-linux-x64-musl.apk",
     "vendor": "bellsoft",
     "version": "8u372+7"
   },
@@ -11132,29 +11155,6 @@
     "features": [
       "musl"
     ],
-    "file_type": "apk",
-    "filename": "bellsoft-jre8u345+1-linux-x64-musl.apk",
-    "image_type": "jre",
-    "java_version": "1.8.0_345",
-    "jvm_impl": "hotspot",
-    "last_verified": "2026-08-31",
-    "md5": "58c9b121fa5c99a14f1b8b44c2e9e6a1",
-    "os": "linux",
-    "release_type": "ga",
-    "sha1": "0e7f6339b7a81d6b3af1092016b61652a182559a",
-    "sha256": "568898385b18618ad6d898eb475c8f138c9e388b5be27ec38482c27632b8129c",
-    "sha512": "83191a266a6287c833e73641ba606caf7c3636bc8a5c7c789308492f7154e8346748ad2291165701b9eca714f56f20d8073413a2735eb7b3536f8f421ea2d4cd",
-    "size": 41750140,
-    "url": "https://github.com/bell-sw/Liberica/releases/download/8u345+1/bellsoft-jre8u345+1-linux-x64-musl.apk",
-    "vendor": "bellsoft",
-    "version": "8u345+1"
-  },
-  {
-    "architecture": "x86_64",
-    "distro": "liberica",
-    "features": [
-      "musl"
-    ],
     "file_type": "tar.gz",
     "filename": "bellsoft-jre8u345+1-linux-x64-musl.tar.gz",
     "image_type": "jre",
@@ -11179,21 +11179,21 @@
       "musl"
     ],
     "file_type": "apk",
-    "filename": "bellsoft-jre8u342+7-linux-x64-musl.apk",
+    "filename": "bellsoft-jre8u345+1-linux-x64-musl.apk",
     "image_type": "jre",
-    "java_version": "1.8.0_342",
+    "java_version": "1.8.0_345",
     "jvm_impl": "hotspot",
-    "last_verified": "2026-09-03",
-    "md5": "cb2e8ddc5b5c2367c87b5ee4529686db",
+    "last_verified": "2026-08-31",
+    "md5": "58c9b121fa5c99a14f1b8b44c2e9e6a1",
     "os": "linux",
     "release_type": "ga",
-    "sha1": "52768195b101aeda78fdafaa3da89d37c0b2fb13",
-    "sha256": "e4c8fd0c3a56791a572a1568f15bbe21039796598ce2ce7f5a43ccd73f55c208",
-    "sha512": "b4d7e6d5ba021bcf9b36f911873e7e19d60590fc4395ed08e57fc9585ac5938775a26b02344da89e1c11a4ce7d365e151d9eee5680c489f0f87c97a2aa9886a2",
-    "size": 41754643,
-    "url": "https://github.com/bell-sw/Liberica/releases/download/8u342+7/bellsoft-jre8u342+7-linux-x64-musl.apk",
+    "sha1": "0e7f6339b7a81d6b3af1092016b61652a182559a",
+    "sha256": "568898385b18618ad6d898eb475c8f138c9e388b5be27ec38482c27632b8129c",
+    "sha512": "83191a266a6287c833e73641ba606caf7c3636bc8a5c7c789308492f7154e8346748ad2291165701b9eca714f56f20d8073413a2735eb7b3536f8f421ea2d4cd",
+    "size": 41750140,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/8u345+1/bellsoft-jre8u345+1-linux-x64-musl.apk",
     "vendor": "bellsoft",
-    "version": "8u342+7"
+    "version": "8u345+1"
   },
   {
     "architecture": "x86_64",
@@ -11215,6 +11215,29 @@
     "sha512": "6c28148cfbe8079d0bb8dd98ca9d106ff2a7519d66a99d3d5125544beaedcfbee64b172671d052d1642929549d365ce31b2ac6e96e0940bf4a4abba5e183151d",
     "size": 41897740,
     "url": "https://github.com/bell-sw/Liberica/releases/download/8u342+7/bellsoft-jre8u342+7-linux-x64-musl.tar.gz",
+    "vendor": "bellsoft",
+    "version": "8u342+7"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
+      "musl"
+    ],
+    "file_type": "apk",
+    "filename": "bellsoft-jre8u342+7-linux-x64-musl.apk",
+    "image_type": "jre",
+    "java_version": "1.8.0_342",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-03",
+    "md5": "cb2e8ddc5b5c2367c87b5ee4529686db",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "52768195b101aeda78fdafaa3da89d37c0b2fb13",
+    "sha256": "e4c8fd0c3a56791a572a1568f15bbe21039796598ce2ce7f5a43ccd73f55c208",
+    "sha512": "b4d7e6d5ba021bcf9b36f911873e7e19d60590fc4395ed08e57fc9585ac5938775a26b02344da89e1c11a4ce7d365e151d9eee5680c489f0f87c97a2aa9886a2",
+    "size": 41754643,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/8u342+7/bellsoft-jre8u342+7-linux-x64-musl.apk",
     "vendor": "bellsoft",
     "version": "8u342+7"
   },
@@ -11270,29 +11293,6 @@
     "features": [
       "musl"
     ],
-    "file_type": "apk",
-    "filename": "bellsoft-jre8u332+9-linux-x64-musl.apk",
-    "image_type": "jre",
-    "java_version": "1.8.0_332",
-    "jvm_impl": "hotspot",
-    "last_verified": "2026-09-05",
-    "md5": "1ca08cd308a39b83ce6c155ae4aff556",
-    "os": "linux",
-    "release_type": "ga",
-    "sha1": "aac154852c7e1acbce549c314781b6d9efbfe36c",
-    "sha256": "a622519dd33e6c1e717fe7e832a84a58865bb6176e81e2cad55c419f852c947b",
-    "sha512": "3e7ff09cde81bd14b6874ccb8d4468f546f6213475d2f8821d1d2c3a156e2740c5291032aaeeaf1ac21ff6a0d389e17e584cf9206ccb9b096a7978cc37ebfbd1",
-    "size": 41757048,
-    "url": "https://github.com/bell-sw/Liberica/releases/download/8u332+9/bellsoft-jre8u332+9-linux-x64-musl.apk",
-    "vendor": "bellsoft",
-    "version": "8u332+9"
-  },
-  {
-    "architecture": "x86_64",
-    "distro": "liberica",
-    "features": [
-      "musl"
-    ],
     "file_type": "tar.gz",
     "filename": "bellsoft-jre8u332+9-linux-x64-musl.tar.gz",
     "image_type": "jre",
@@ -11317,21 +11317,21 @@
       "musl"
     ],
     "file_type": "apk",
-    "filename": "bellsoft-jre8u322+6-linux-x64-musl.apk",
+    "filename": "bellsoft-jre8u332+9-linux-x64-musl.apk",
     "image_type": "jre",
-    "java_version": "1.8.0_322",
+    "java_version": "1.8.0_332",
     "jvm_impl": "hotspot",
-    "last_verified": "2026-09-03",
-    "md5": "ad6c35b2f4ba40126743ec24f9e5ef40",
+    "last_verified": "2026-09-05",
+    "md5": "1ca08cd308a39b83ce6c155ae4aff556",
     "os": "linux",
     "release_type": "ga",
-    "sha1": "b22ea1bec68a3a9f2560281c045569661c77ccd0",
-    "sha256": "82abb80c0fb92324b216dc71f032451dae744dfc3db003a990ddaa5dad3341bb",
-    "sha512": "d3da7686224cfd57b86e4839edf18c75d1d3fa16a89fe4396905636c8eb0242d72fa1dd879e651c2762aa445c0237363c87986bb8c1f95f9394f491148313af8",
-    "size": 41736441,
-    "url": "https://github.com/bell-sw/Liberica/releases/download/8u322+6/bellsoft-jre8u322+6-linux-x64-musl.apk",
+    "sha1": "aac154852c7e1acbce549c314781b6d9efbfe36c",
+    "sha256": "a622519dd33e6c1e717fe7e832a84a58865bb6176e81e2cad55c419f852c947b",
+    "sha512": "3e7ff09cde81bd14b6874ccb8d4468f546f6213475d2f8821d1d2c3a156e2740c5291032aaeeaf1ac21ff6a0d389e17e584cf9206ccb9b096a7978cc37ebfbd1",
+    "size": 41757048,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/8u332+9/bellsoft-jre8u332+9-linux-x64-musl.apk",
     "vendor": "bellsoft",
-    "version": "8u322+6"
+    "version": "8u332+9"
   },
   {
     "architecture": "x86_64",
@@ -11363,21 +11363,21 @@
       "musl"
     ],
     "file_type": "apk",
-    "filename": "bellsoft-jre8u312+7-linux-x64-musl.apk",
+    "filename": "bellsoft-jre8u322+6-linux-x64-musl.apk",
     "image_type": "jre",
-    "java_version": "1.8.0_312",
+    "java_version": "1.8.0_322",
     "jvm_impl": "hotspot",
-    "last_verified": "2026-09-10",
-    "md5": "3e34d94c94af01595cdadbea73d6fb45",
+    "last_verified": "2026-09-03",
+    "md5": "ad6c35b2f4ba40126743ec24f9e5ef40",
     "os": "linux",
     "release_type": "ga",
-    "sha1": "21f5b4e4021bd27cc68d7017abe1f5506d142850",
-    "sha256": "f8cff612f5c4959fb9cd902828299375b10b5ca1e63020dd18e6af92a83e631f",
-    "sha512": "98b34d2872b8fb134cc5ac17dd02f347f2f374d927aa4f49083dec9ae37a9a2ecc3db8a9ce3f93e2c3f9a1fe31785b389e81aeaff835e9218148ce92b69ea58e",
-    "size": 41721819,
-    "url": "https://github.com/bell-sw/Liberica/releases/download/8u312+7/bellsoft-jre8u312+7-linux-x64-musl.apk",
+    "sha1": "b22ea1bec68a3a9f2560281c045569661c77ccd0",
+    "sha256": "82abb80c0fb92324b216dc71f032451dae744dfc3db003a990ddaa5dad3341bb",
+    "sha512": "d3da7686224cfd57b86e4839edf18c75d1d3fa16a89fe4396905636c8eb0242d72fa1dd879e651c2762aa445c0237363c87986bb8c1f95f9394f491148313af8",
+    "size": 41736441,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/8u322+6/bellsoft-jre8u322+6-linux-x64-musl.apk",
     "vendor": "bellsoft",
-    "version": "8u312+7"
+    "version": "8u322+6"
   },
   {
     "architecture": "x86_64",
@@ -11399,6 +11399,29 @@
     "sha512": "e8f18b1d288290511926c70462547d0342208c84a71ca0f41f8010c175a74fa0541ab7695306f665133e674eb1502bee7f6203ecfa7fc8d88d9b15952b6333c8",
     "size": 41876170,
     "url": "https://github.com/bell-sw/Liberica/releases/download/8u312+7/bellsoft-jre8u312+7-linux-x64-musl.tar.gz",
+    "vendor": "bellsoft",
+    "version": "8u312+7"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
+      "musl"
+    ],
+    "file_type": "apk",
+    "filename": "bellsoft-jre8u312+7-linux-x64-musl.apk",
+    "image_type": "jre",
+    "java_version": "1.8.0_312",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-10",
+    "md5": "3e34d94c94af01595cdadbea73d6fb45",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "21f5b4e4021bd27cc68d7017abe1f5506d142850",
+    "sha256": "f8cff612f5c4959fb9cd902828299375b10b5ca1e63020dd18e6af92a83e631f",
+    "sha512": "98b34d2872b8fb134cc5ac17dd02f347f2f374d927aa4f49083dec9ae37a9a2ecc3db8a9ce3f93e2c3f9a1fe31785b389e81aeaff835e9218148ce92b69ea58e",
+    "size": 41721819,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/8u312+7/bellsoft-jre8u312+7-linux-x64-musl.apk",
     "vendor": "bellsoft",
     "version": "8u312+7"
   },
@@ -11454,29 +11477,6 @@
     "features": [
       "musl"
     ],
-    "file_type": "apk",
-    "filename": "bellsoft-jre8u292+10-linux-x64-musl.apk",
-    "image_type": "jre",
-    "java_version": "1.8.0_292",
-    "jvm_impl": "hotspot",
-    "last_verified": "2026-09-10",
-    "md5": "4e40c2d09fa121a058747f8553d91159",
-    "os": "linux",
-    "release_type": "ga",
-    "sha1": "40b1f230d34abe083acc54dc2b413b775fe9a57a",
-    "sha256": "d60ee4808fc997b49f3c92fd5058099cc9f64bb08f28bc173d5b3057c736c6b9",
-    "sha512": "f39c7c5232f926dd70f9669f90c5b3e4f1e3d1d5b9170bb4f29cc2b61e4487cbd3c83da19b2d55fbbfc1a6789f83e7783aaf708db5e6fdb0a1ee785816683e1b",
-    "size": 40629733,
-    "url": "https://github.com/bell-sw/Liberica/releases/download/8u292+10/bellsoft-jre8u292+10-linux-x64-musl.apk",
-    "vendor": "bellsoft",
-    "version": "8u292+10"
-  },
-  {
-    "architecture": "x86_64",
-    "distro": "liberica",
-    "features": [
-      "musl"
-    ],
     "file_type": "tar.gz",
     "filename": "bellsoft-jre8u292+10-linux-x64-musl.tar.gz",
     "image_type": "jre",
@@ -11500,22 +11500,22 @@
     "features": [
       "musl"
     ],
-    "file_type": "tar.gz",
-    "filename": "bellsoft-jre8u282+8-linux-x64-musl.tar.gz",
+    "file_type": "apk",
+    "filename": "bellsoft-jre8u292+10-linux-x64-musl.apk",
     "image_type": "jre",
-    "java_version": "1.8.0_282",
+    "java_version": "1.8.0_292",
     "jvm_impl": "hotspot",
-    "last_verified": "2026-09-06",
-    "md5": "9a8db3ef428733c6b0393e9c5f24bb15",
+    "last_verified": "2026-09-10",
+    "md5": "4e40c2d09fa121a058747f8553d91159",
     "os": "linux",
     "release_type": "ga",
-    "sha1": "0d209807afffee81f73b70711ab99f48e91baef4",
-    "sha256": "978b4a7634159f783adcac0dcf33baeee4c7f5932c17bab93820b6edd5f49c0c",
-    "sha512": "5740bb2b2726de648d1cc4cea3d43cdc2f934393b8654418725cf808961000e017efa7e66e17af303292a748b5026c6cd873129e405ffd3e71b76b3dac7894a8",
-    "size": 41831977,
-    "url": "https://github.com/bell-sw/Liberica/releases/download/8u282+8/bellsoft-jre8u282+8-linux-x64-musl.tar.gz",
+    "sha1": "40b1f230d34abe083acc54dc2b413b775fe9a57a",
+    "sha256": "d60ee4808fc997b49f3c92fd5058099cc9f64bb08f28bc173d5b3057c736c6b9",
+    "sha512": "f39c7c5232f926dd70f9669f90c5b3e4f1e3d1d5b9170bb4f29cc2b61e4487cbd3c83da19b2d55fbbfc1a6789f83e7783aaf708db5e6fdb0a1ee785816683e1b",
+    "size": 40629733,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/8u292+10/bellsoft-jre8u292+10-linux-x64-musl.apk",
     "vendor": "bellsoft",
-    "version": "8u282+8"
+    "version": "8u292+10"
   },
   {
     "architecture": "x86_64",
@@ -11537,6 +11537,29 @@
     "sha512": "690bc9bdd792f9e0cf3480fba3ceaf23f76a8ef51c2713751f746e26e10dc47a3fd1b18a3e4c430072711f38494ba7670b5ca9efc6a52dff633c723ac376c494",
     "size": 40620773,
     "url": "https://github.com/bell-sw/Liberica/releases/download/8u282+8/bellsoft-jre8u282+8-linux-x64-musl.apk",
+    "vendor": "bellsoft",
+    "version": "8u282+8"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jre8u282+8-linux-x64-musl.tar.gz",
+    "image_type": "jre",
+    "java_version": "1.8.0_282",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-06",
+    "md5": "9a8db3ef428733c6b0393e9c5f24bb15",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "0d209807afffee81f73b70711ab99f48e91baef4",
+    "sha256": "978b4a7634159f783adcac0dcf33baeee4c7f5932c17bab93820b6edd5f49c0c",
+    "sha512": "5740bb2b2726de648d1cc4cea3d43cdc2f934393b8654418725cf808961000e017efa7e66e17af303292a748b5026c6cd873129e405ffd3e71b76b3dac7894a8",
+    "size": 41831977,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/8u282+8/bellsoft-jre8u282+8-linux-x64-musl.tar.gz",
     "vendor": "bellsoft",
     "version": "8u282+8"
   },
@@ -12189,6 +12212,29 @@
     "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-28%2B1/sapmachine-jre-28-ea.1_linux-x64-musl_bin.tar.gz",
     "vendor": "sap",
     "version": "28-ea.1"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "sapmachine",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "sapmachine-jre-27.0.1.1-ea.4_linux-x64-musl_bin.tar.gz",
+    "image_type": "jre",
+    "java_version": "27.0.1.1-ea.4",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-11-21",
+    "md5": "74dbf28a7d5ea9db8a83486bc6ec40a6",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "1df7777c4e1c9d9384a4210f8d0f3bc71a6e21f2",
+    "sha256": "044c37249c337359325862fe33482a9f3a493d3f36b680659038962ceee447bd",
+    "sha512": "3a163df4885cc72f077298d7acc96c4fa639e37ee88b003c5d607ac0ad764362abf8e0b4269d1d8408a3341b3a102b856bad695d39438bffa4a625da66b77a89",
+    "size": 51359867,
+    "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-27.0.1.1%2B4/sapmachine-jre-27.0.1.1-ea.4_linux-x64-musl_bin.tar.gz",
+    "vendor": "sap",
+    "version": "27.0.1.1-ea.4"
   },
   {
     "architecture": "x86_64",
@@ -13371,6 +13417,29 @@
     "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-25.0.6%2B1/sapmachine-jre-25.0.6-ea.1_linux-x64-musl_bin.tar.gz",
     "vendor": "sap",
     "version": "25.0.6-ea.1"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "sapmachine",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "sapmachine-jre-25.0.5.1-ea.2_linux-x64-musl_bin.tar.gz",
+    "image_type": "jre",
+    "java_version": "25.0.5.1-ea.2",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-11-21",
+    "md5": "9b29a6a8d525cb8fd6b04c5249d1174e",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "8ec48351ca21bc139ac6909937858f69a827aee9",
+    "sha256": "0d95aadf70b478dcd2c966dafba87b824f5068da21f24e5c8e14f807b314fdf1",
+    "sha512": "5b029814a8705341157bcaf0be6dfa0bd19c22cef3a964af832583c212efb53791e3d0a2626f86a6ba2a2a754a670aac358f368f1efbcb96b35f345af21e048d",
+    "size": 51090163,
+    "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-25.0.5.1%2B2/sapmachine-jre-25.0.5.1-ea.2_linux-x64-musl_bin.tar.gz",
+    "vendor": "sap",
+    "version": "25.0.5.1-ea.2"
   },
   {
     "architecture": "x86_64",
@@ -15428,6 +15497,29 @@
     "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-21.0.14%2B1/sapmachine-jre-21.0.14-ea.1_linux-x64-musl_bin.tar.gz",
     "vendor": "sap",
     "version": "21.0.14-ea.1"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "sapmachine",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "sapmachine-jre-21.0.13.1-ea.2_linux-x64-musl_bin.tar.gz",
+    "image_type": "jre",
+    "java_version": "21.0.13.1-ea.2",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-11-21",
+    "md5": "37b38a3cb4d7693a20ecfd9545b72b66",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "4785e9d6302e5561e7b3cc10c76326919f254328",
+    "sha256": "d75db10851c4ad2679cf4229a02a334692794dd767853f305eb66287bc830a5d",
+    "sha512": "d6de9db29fccf408c8ce837668cf9bacee4ee2d9c2723279e9ef3c89fcfd3ede85fee83a25e3c3515ab8bafe60e8e604a546f918881f19dddc41f73e1776430d",
+    "size": 53949112,
+    "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-21.0.13.1%2B2/sapmachine-jre-21.0.13.1-ea.2_linux-x64-musl_bin.tar.gz",
+    "vendor": "sap",
+    "version": "21.0.13.1-ea.2"
   },
   {
     "architecture": "x86_64",
@@ -25498,6 +25590,29 @@
       "musl"
     ],
     "file_type": "tar.gz",
+    "filename": "OpenJDK25U-jre_x64_alpine-linux_hotspot_25.0.5.1_2.tar.gz",
+    "image_type": "jre",
+    "java_version": "25.0.5.1+2-LTS",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-11-21",
+    "md5": "689f779eeb6d262fc771a42e481858b8",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "4f91ee56bcd54948a39946b96980a4c18259f00d",
+    "sha256": "b3d29ef8453da5e29c86b1ae08d8ed2a02597782b4ab5637e87f87b6bcc4cba9",
+    "sha512": "54bc914477c98d23ca5d8985dcd90e6206bdb6f8509d88784b8d6cc3f1510600325c46a4c253ea46e720629fc70eb7a1db6c705d2616f68fc3f62f7bb7de068c",
+    "size": 60946552,
+    "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5.1%2B2/OpenJDK25U-jre_x64_alpine-linux_hotspot_25.0.5.1_2.tar.gz",
+    "vendor": "eclipse",
+    "version": "25.0.5.1+2"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "temurin",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
     "filename": "OpenJDK25U-jre_x64_alpine-linux_hotspot_25.0.5.1_1-ea.tar.gz",
     "image_type": "jre",
     "java_version": "25",
@@ -28399,6 +28514,29 @@
       "musl"
     ],
     "file_type": "tar.gz",
+    "filename": "OpenJDK17U-jre_x64_alpine-linux_hotspot_17.0.22_3-ea.tar.gz",
+    "image_type": "jre",
+    "java_version": "17",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-11-21",
+    "md5": "c8deef23918c366cb76f82d149c1b0a3",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "9742d62a9605d8d347b57bef33dca5299edc7d7f",
+    "sha256": "238926770e20345902763558af77bd2552ef72de377e4a2a65652169537ad121",
+    "sha512": "18df7b3c3b5bb3c98ba97a68394f98af8d2fcc88bcb13d37b41cb3bb15478a8d67fa5845ae57871d788c52bd9eea5e7a47e2b28c2391ae641b09003ca2db03ed",
+    "size": 46523498,
+    "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.22%2B3-ea-beta/OpenJDK17U-jre_x64_alpine-linux_hotspot_17.0.22_3-ea.tar.gz",
+    "vendor": "eclipse",
+    "version": "17.0.22+3-ea-beta"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "temurin",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
     "filename": "OpenJDK17U-jre_x64_alpine-linux_hotspot_17.0.22_2-ea.tar.gz",
     "image_type": "jre",
     "java_version": "17",
@@ -28437,6 +28575,29 @@
     "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.22%2B1-ea-beta/OpenJDK17U-jre_x64_alpine-linux_hotspot_17.0.22_1-ea.tar.gz",
     "vendor": "eclipse",
     "version": "17.0.22+1-ea-beta"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "temurin",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK17U-jre_x64_alpine-linux_hotspot_17.0.21.1_2.tar.gz",
+    "image_type": "jre",
+    "java_version": "17.0.21.1+2",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-11-21",
+    "md5": "516e19d4e46a01220f8ebce2fd370a29",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "95119fcdc0d538403639b863cadc32752c17b562",
+    "sha256": "99fabb8e2517861fbbf1fc26103ee62240ec693340c4c7a812f7043e82acb203",
+    "sha512": "b41f40aff23003f2ae06cbd480149f135105cfdcbaec0775178b986c4a37c958c38920a154e54e0e220fd4a3e4969b62aa6b3b2f9d80af9d13e8815593514572",
+    "size": 46417416,
+    "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21.1%2B2/OpenJDK17U-jre_x64_alpine-linux_hotspot_17.0.21.1_2.tar.gz",
+    "vendor": "eclipse",
+    "version": "17.0.21.1+2"
   },
   {
     "architecture": "x86_64",
@@ -29934,6 +30095,52 @@
     "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.1%2B12/OpenJDK17U-jre_x64_alpine-linux_hotspot_17.0.1_12.tar.gz",
     "vendor": "eclipse",
     "version": "17.0.1+12"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "temurin",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK11U-jre_x64_alpine-linux_hotspot_11.0.33.1_1-ea.tar.gz",
+    "image_type": "jre",
+    "java_version": "11",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-11-21",
+    "md5": "81b6362ee9ecbfed1c69d2ac14779224",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "1e808101d881877ee67aae42082f17956ebd74ce",
+    "sha256": "3fb247f1da15a6c6462c172ed5c548caecf07ba8131cce188fc1417d6a700a95",
+    "sha512": "34162b0052d19f40531520598b1613e54b24691f17314f359e9c65058ef03e867a9520b9ae1d43685df1584aac661884b6dad9c5f0cfdb4a13d710e8c60a5648",
+    "size": 42882489,
+    "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33.1%2B1-ea-beta/OpenJDK11U-jre_x64_alpine-linux_hotspot_11.0.33.1_1-ea.tar.gz",
+    "vendor": "eclipse",
+    "version": "11.0.33.1+1-ea-beta"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "temurin",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK11U-jre_x64_alpine-linux_hotspot_11.0.33.1_1.tar.gz",
+    "image_type": "jre",
+    "java_version": "11.0.33.1+1",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-11-21",
+    "md5": "d30c67ab53b20257da098c1ec3c4aaa8",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "43609e6aaaf1efe821657718a9fc9e0673891547",
+    "sha256": "6cb33b6a9b5f89e73c843eca7d588ba17187c3a2443a36992c55669b1115a3d3",
+    "sha512": "d6125e1675b631c69d803916ff7a9afc8e450dcac8a0277348c99647494a9d5a16c1f3147f3b35d0dd877c0ad1296f40dbf844ed1d062d99238a112500acdbd7",
+    "size": 42886844,
+    "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33.1%2B1/OpenJDK11U-jre_x64_alpine-linux_hotspot_11.0.33.1_1.tar.gz",
+    "vendor": "eclipse",
+    "version": "11.0.33.1+1"
   },
   {
     "architecture": "x86_64",
@@ -32530,29 +32737,6 @@
     "architecture": "x86_64",
     "distro": "zulu",
     "features": [
-      "musl"
-    ],
-    "file_type": "tar.gz",
-    "filename": "zulu27.30.109-ca-jre27.0.1.0.3-linux_musl_x64.tar.gz",
-    "image_type": "jre",
-    "java_version": "27.0.1.0.3+1",
-    "jvm_impl": "hotspot",
-    "last_verified": "2026-10-30",
-    "md5": "5f5b9ea7a4443e0e721c215586f3a8b6",
-    "os": "linux",
-    "release_type": "ga",
-    "sha1": "709feff6f37662fb7dc0d69250f45e98bcb4439e",
-    "sha256": "540171d4d6f19e1115d2cb292b1d69b5b272e603c852b4725647e814f22fc7a7",
-    "sha512": "c331b4f3f6cab7dfa22cd55d87602da9681478e313e0ef154bff985e00ff575b3e48720363d4c4063fa3655da80ecde2f3f0f8cb25e1e5c7d86702d3ad8856e6",
-    "size": 62478451,
-    "url": "https://static.azul.com/zulu/bin/zulu27.30.109-ca-jre27.0.1.0.3-linux_musl_x64.tar.gz",
-    "vendor": "azul",
-    "version": "27.30.109"
-  },
-  {
-    "architecture": "x86_64",
-    "distro": "zulu",
-    "features": [
       "crac",
       "musl"
     ],
@@ -32570,6 +32754,29 @@
     "sha512": "74edcb4a96ae0154b47b9a3051fa4d96e2224472a520311c925c2bd8ad73a6979db4b4d24e842524b9af160935dc18a1093498ce01341883217c3e2bb0e9f626",
     "size": 66764235,
     "url": "https://static.azul.com/zulu/bin/zulu27.30.109-ca-crac-jre27.0.1.0.3-linux_musl_x64.tar.gz",
+    "vendor": "azul",
+    "version": "27.30.109"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "zulu",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "zulu27.30.109-ca-jre27.0.1.0.3-linux_musl_x64.tar.gz",
+    "image_type": "jre",
+    "java_version": "27.0.1.0.3+1",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-10-30",
+    "md5": "5f5b9ea7a4443e0e721c215586f3a8b6",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "709feff6f37662fb7dc0d69250f45e98bcb4439e",
+    "sha256": "540171d4d6f19e1115d2cb292b1d69b5b272e603c852b4725647e814f22fc7a7",
+    "sha512": "c331b4f3f6cab7dfa22cd55d87602da9681478e313e0ef154bff985e00ff575b3e48720363d4c4063fa3655da80ecde2f3f0f8cb25e1e5c7d86702d3ad8856e6",
+    "size": 62478451,
+    "url": "https://static.azul.com/zulu/bin/zulu27.30.109-ca-jre27.0.1.0.3-linux_musl_x64.tar.gz",
     "vendor": "azul",
     "version": "27.30.109"
   },
@@ -32601,6 +32808,29 @@
     "architecture": "x86_64",
     "distro": "zulu",
     "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "zulu27.28.101-ca-jre27.0.0-linux_musl_x64.tar.gz",
+    "image_type": "jre",
+    "java_version": "27.0.0",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-17",
+    "md5": "e6b23afd11782879bb20eb761d7dfaed",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "e17d01040ea7b3982bf2483df552221413a0e689",
+    "sha256": "d19ec87514887219c9ecbd7f49b86025714b4573ec3dd205207bcd8b6cbeeee3",
+    "sha512": "b80fd4a61a7e14b61a06bfaf7d378cc4148751f4df1f0fa1065ae4e24accd62d9ac5df8cbb8a093f1d2a3372c2440a8e6afa86b0b5d59cb4f0229dfdc9ad1de7",
+    "size": 62452887,
+    "url": "https://static.azul.com/zulu/bin/zulu27.28.101-ca-jre27.0.0-linux_musl_x64.tar.gz",
+    "vendor": "azul",
+    "version": "27.28.101"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "zulu",
+    "features": [
       "crac",
       "musl"
     ],
@@ -32618,29 +32848,6 @@
     "sha512": "51d6d45a3cdfc2e68f7fdeb8fe2af8b1972f8d0b2a7b09784cb682505454a094711677a10289bbcaef350292ba9fbc4eb80b004a47a877dadbbb39f4a99a0826",
     "size": 66724065,
     "url": "https://static.azul.com/zulu/bin/zulu27.28.101-ca-crac-jre27.0.0-linux_musl_x64.tar.gz",
-    "vendor": "azul",
-    "version": "27.28.101"
-  },
-  {
-    "architecture": "x86_64",
-    "distro": "zulu",
-    "features": [
-      "musl"
-    ],
-    "file_type": "tar.gz",
-    "filename": "zulu27.28.101-ca-jre27.0.0-linux_musl_x64.tar.gz",
-    "image_type": "jre",
-    "java_version": "27.0.0",
-    "jvm_impl": "hotspot",
-    "last_verified": "2026-09-17",
-    "md5": "e6b23afd11782879bb20eb761d7dfaed",
-    "os": "linux",
-    "release_type": "ga",
-    "sha1": "e17d01040ea7b3982bf2483df552221413a0e689",
-    "sha256": "d19ec87514887219c9ecbd7f49b86025714b4573ec3dd205207bcd8b6cbeeee3",
-    "sha512": "b80fd4a61a7e14b61a06bfaf7d378cc4148751f4df1f0fa1065ae4e24accd62d9ac5df8cbb8a093f1d2a3372c2440a8e6afa86b0b5d59cb4f0229dfdc9ad1de7",
-    "size": 62452887,
-    "url": "https://static.azul.com/zulu/bin/zulu27.28.101-ca-jre27.0.0-linux_musl_x64.tar.gz",
     "vendor": "azul",
     "version": "27.28.101"
   },
@@ -32742,6 +32949,29 @@
     "architecture": "x86_64",
     "distro": "zulu",
     "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "zulu26.30.11-ca-jre26.0.1-linux_musl_x64.tar.gz",
+    "image_type": "jre",
+    "java_version": "26.0.1",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-06",
+    "md5": "be83b2e038182f98c21126ce10666c19",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "fa703bfa9db44b121eb40e0e1d17e849157c0155",
+    "sha256": "d22e827a7ba16585a792cb6c15e0ea42951361e8f4a02babba6fe571e46ac5ca",
+    "sha512": "c7a1fa305a7b6548a098ac2f058df7576650c867ca3a8baf8c7457cf46223cbb641fcf90ece583ea2ca01c544a1c7c4473bc1f16000029222650861eb3c354bd",
+    "size": 63486713,
+    "url": "https://static.azul.com/zulu/bin/zulu26.30.11-ca-jre26.0.1-linux_musl_x64.tar.gz",
+    "vendor": "azul",
+    "version": "26.30.11"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "zulu",
+    "features": [
       "crac",
       "musl"
     ],
@@ -32759,29 +32989,6 @@
     "sha512": "1f84e0342b78f0e05a129f24b6745b4d6b77bb13d7e09517b43982d4aa2ed3a78ab0b00585de28600209af1a0bc5e503bf995f50f90ef2aa7074cb0089864d98",
     "size": 67583830,
     "url": "https://static.azul.com/zulu/bin/zulu26.30.11-ca-crac-jre26.0.1-linux_musl_x64.tar.gz",
-    "vendor": "azul",
-    "version": "26.30.11"
-  },
-  {
-    "architecture": "x86_64",
-    "distro": "zulu",
-    "features": [
-      "musl"
-    ],
-    "file_type": "tar.gz",
-    "filename": "zulu26.30.11-ca-jre26.0.1-linux_musl_x64.tar.gz",
-    "image_type": "jre",
-    "java_version": "26.0.1",
-    "jvm_impl": "hotspot",
-    "last_verified": "2026-09-06",
-    "md5": "be83b2e038182f98c21126ce10666c19",
-    "os": "linux",
-    "release_type": "ga",
-    "sha1": "fa703bfa9db44b121eb40e0e1d17e849157c0155",
-    "sha256": "d22e827a7ba16585a792cb6c15e0ea42951361e8f4a02babba6fe571e46ac5ca",
-    "sha512": "c7a1fa305a7b6548a098ac2f058df7576650c867ca3a8baf8c7457cf46223cbb641fcf90ece583ea2ca01c544a1c7c4473bc1f16000029222650861eb3c354bd",
-    "size": 63486713,
-    "url": "https://static.azul.com/zulu/bin/zulu26.30.11-ca-jre26.0.1-linux_musl_x64.tar.gz",
     "vendor": "azul",
     "version": "26.30.11"
   },
@@ -32831,6 +33038,29 @@
     "url": "https://static.azul.com/zulu/bin/zulu26.28.59-ca-jre26.0.0-linux_musl_x64.tar.gz",
     "vendor": "azul",
     "version": "26.28.59"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "zulu",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "zulu25.38.201-ca-jre25.0.5.1-linux_musl_x64.tar.gz",
+    "image_type": "jre",
+    "java_version": "25.0.5.1+2-LTS",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-11-21",
+    "md5": "96ad56b13a740a92371490708252f77d",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "802ba642e724751bb87a3e75bbae5bc12a71f1e1",
+    "sha256": "866e7af83b5cd6d0441ff48bb160c64737c05ef993743ab70d1bc185092fe5f9",
+    "sha512": "de5c9e859c680440bfdb2c3c0ce8f870424be01922c3d579c2e22da7e1ecf254be24e05cab0701bb2033916448bd228dd3501ee7b20df00d89ed6aa8e299813a",
+    "size": 61913762,
+    "url": "https://static.azul.com/zulu/bin/zulu25.38.201-ca-jre25.0.5.1-linux_musl_x64.tar.gz",
+    "vendor": "azul",
+    "version": "25.38.201"
   },
   {
     "architecture": "x86_64",
@@ -33025,6 +33255,29 @@
     "architecture": "x86_64",
     "distro": "zulu",
     "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "zulu25.34.17-ca-jre25.0.3-linux_musl_x64.tar.gz",
+    "image_type": "jre",
+    "java_version": "25.0.3+9-LTS",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-06",
+    "md5": "14eda4361e05ec952a7b87e57b4d98bc",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "d64696f81989c73cef0ea860bc33a5528994237a",
+    "sha256": "060ed0aed249875c5a7b306b3bd2cf758ba722df918b943d4b7de0c8a4c9d892",
+    "sha512": "d31afeeec3cb6ce9cab5d6c8db44ca5cf13b22635b55dbc67239dde95e25eafc7551aee5a0c9742574ebf1bbbb02e244bdf80d192a03b9cabe29b6ce9d18b9d0",
+    "size": 62264092,
+    "url": "https://static.azul.com/zulu/bin/zulu25.34.17-ca-jre25.0.3-linux_musl_x64.tar.gz",
+    "vendor": "azul",
+    "version": "25.34.17"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "zulu",
+    "features": [
       "crac",
       "musl"
     ],
@@ -33042,29 +33295,6 @@
     "sha512": "b923c4be72ff51d11dd30ab486f0df583db614b072449a17e4183b3b5262e680adf079dcc5eeb60a0089e838a5ef707962a811ae42e32022b497e3dfedb68946",
     "size": 65972678,
     "url": "https://static.azul.com/zulu/bin/zulu25.34.17-ca-crac-jre25.0.3-linux_musl_x64.tar.gz",
-    "vendor": "azul",
-    "version": "25.34.17"
-  },
-  {
-    "architecture": "x86_64",
-    "distro": "zulu",
-    "features": [
-      "musl"
-    ],
-    "file_type": "tar.gz",
-    "filename": "zulu25.34.17-ca-jre25.0.3-linux_musl_x64.tar.gz",
-    "image_type": "jre",
-    "java_version": "25.0.3+9-LTS",
-    "jvm_impl": "hotspot",
-    "last_verified": "2026-09-06",
-    "md5": "14eda4361e05ec952a7b87e57b4d98bc",
-    "os": "linux",
-    "release_type": "ga",
-    "sha1": "d64696f81989c73cef0ea860bc33a5528994237a",
-    "sha256": "060ed0aed249875c5a7b306b3bd2cf758ba722df918b943d4b7de0c8a4c9d892",
-    "sha512": "d31afeeec3cb6ce9cab5d6c8db44ca5cf13b22635b55dbc67239dde95e25eafc7551aee5a0c9742574ebf1bbbb02e244bdf80d192a03b9cabe29b6ce9d18b9d0",
-    "size": 62264092,
-    "url": "https://static.azul.com/zulu/bin/zulu25.34.17-ca-jre25.0.3-linux_musl_x64.tar.gz",
     "vendor": "azul",
     "version": "25.34.17"
   },
@@ -33236,30 +33466,6 @@
     "architecture": "x86_64",
     "distro": "zulu",
     "features": [
-      "crac",
-      "musl"
-    ],
-    "file_type": "tar.gz",
-    "filename": "zulu25.28.85-ca-crac-jre25.0.0-linux_musl_x64.tar.gz",
-    "image_type": "jre",
-    "java_version": "25+36-LTS",
-    "jvm_impl": "hotspot",
-    "last_verified": "2026-09-09",
-    "md5": "48f719d4949f26a422412fb3d047f405",
-    "os": "linux",
-    "release_type": "ga",
-    "sha1": "227d8b7722ab24f3a4a9037f8fcf11cab9eaa3d7",
-    "sha256": "fde4d3d907d2f06b189135bfd0596acf65ac834b2c9481c4141bf8875f7b2678",
-    "sha512": "a8c4befedbd34c6ac807390214d61efb60c85e69c85dc99396df2db01b95bef52d66cc36503f1cd3fb72c25d865eb3cc0280d1839d5b4bf688e6b654865e426d",
-    "size": 65660489,
-    "url": "https://static.azul.com/zulu/bin/zulu25.28.85-ca-crac-jre25.0.0-linux_musl_x64.tar.gz",
-    "vendor": "azul",
-    "version": "25.28.85"
-  },
-  {
-    "architecture": "x86_64",
-    "distro": "zulu",
-    "features": [
       "musl"
     ],
     "file_type": "tar.gz",
@@ -33287,21 +33493,21 @@
       "musl"
     ],
     "file_type": "tar.gz",
-    "filename": "zulu24.32.13-ca-crac-jre24.0.2-linux_musl_x64.tar.gz",
+    "filename": "zulu25.28.85-ca-crac-jre25.0.0-linux_musl_x64.tar.gz",
     "image_type": "jre",
-    "java_version": "24.0.2+12",
+    "java_version": "25+36-LTS",
     "jvm_impl": "hotspot",
-    "last_verified": "2026-09-01",
-    "md5": "bfd3963feb370418a2fc7da40153b8da",
+    "last_verified": "2026-09-09",
+    "md5": "48f719d4949f26a422412fb3d047f405",
     "os": "linux",
     "release_type": "ga",
-    "sha1": "e80db4c0ea68588c5c1e7b919a9f013fffd2db31",
-    "sha256": "6c7169e94d1318110452b10b4d6c85e6fae42b546dc79f6065ff68fa827288ed",
-    "sha512": "3ad77940ca182caa2ba65b873f176059638fd940dc20baaaa9b9304f3e452099447cf94bc5accae2fee0298d456db78829d2ac16c34c51a979e9e888a13bf5ce",
-    "size": 64757273,
-    "url": "https://static.azul.com/zulu/bin/zulu24.32.13-ca-crac-jre24.0.2-linux_musl_x64.tar.gz",
+    "sha1": "227d8b7722ab24f3a4a9037f8fcf11cab9eaa3d7",
+    "sha256": "fde4d3d907d2f06b189135bfd0596acf65ac834b2c9481c4141bf8875f7b2678",
+    "sha512": "a8c4befedbd34c6ac807390214d61efb60c85e69c85dc99396df2db01b95bef52d66cc36503f1cd3fb72c25d865eb3cc0280d1839d5b4bf688e6b654865e426d",
+    "size": 65660489,
+    "url": "https://static.azul.com/zulu/bin/zulu25.28.85-ca-crac-jre25.0.0-linux_musl_x64.tar.gz",
     "vendor": "azul",
-    "version": "24.32.13"
+    "version": "25.28.85"
   },
   {
     "architecture": "x86_64",
@@ -33323,6 +33529,30 @@
     "sha512": "0e10926483a4c30e04d9cdc85e3922e02b0d181a44a688abe78c391c5694d3a754c49c0c4c16cb9d6f4cf0b73a6f190f7a9b7b19761185cd4498540aaba73d65",
     "size": 60822522,
     "url": "https://static.azul.com/zulu/bin/zulu24.32.13-ca-jre24.0.2-linux_musl_x64.tar.gz",
+    "vendor": "azul",
+    "version": "24.32.13"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "zulu",
+    "features": [
+      "crac",
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "zulu24.32.13-ca-crac-jre24.0.2-linux_musl_x64.tar.gz",
+    "image_type": "jre",
+    "java_version": "24.0.2+12",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-01",
+    "md5": "bfd3963feb370418a2fc7da40153b8da",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "e80db4c0ea68588c5c1e7b919a9f013fffd2db31",
+    "sha256": "6c7169e94d1318110452b10b4d6c85e6fae42b546dc79f6065ff68fa827288ed",
+    "sha512": "3ad77940ca182caa2ba65b873f176059638fd940dc20baaaa9b9304f3e452099447cf94bc5accae2fee0298d456db78829d2ac16c34c51a979e9e888a13bf5ce",
+    "size": 64757273,
+    "url": "https://static.azul.com/zulu/bin/zulu24.32.13-ca-crac-jre24.0.2-linux_musl_x64.tar.gz",
     "vendor": "azul",
     "version": "24.32.13"
   },
@@ -33448,6 +33678,29 @@
     "architecture": "x86_64",
     "distro": "zulu",
     "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "zulu23.32.11-ca-jre23.0.2-linux_musl_x64.tar.gz",
+    "image_type": "jre",
+    "java_version": "23.0.2",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-04",
+    "md5": "b1e34cfd092d3dc9f3e0e482c091e598",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "df618ca78796e74b5c03410e4bd8a0255cb96def",
+    "sha256": "5431747e7ed34eba2c579fe09bf44e03b238919b8fdf7558618ab790bf81c0a9",
+    "sha512": "dda88ab0c270811597e04660dda43427c9cb8cc25b8d2fc6c55ee194180398f09f37e9fec148bda121ce40d522689324617de5e47544d9ac95fc2f76bdb6804f",
+    "size": 52849496,
+    "url": "https://static.azul.com/zulu/bin/zulu23.32.11-ca-jre23.0.2-linux_musl_x64.tar.gz",
+    "vendor": "azul",
+    "version": "23.32.11"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "zulu",
+    "features": [
       "crac",
       "musl"
     ],
@@ -33465,29 +33718,6 @@
     "sha512": "4889c2da3f506058c17ab4ac69749e9c84627a7e71a6851028eec118b168c602aa67a63280ba7cace531358c80c3405103213d6f744f80b38fe85f732d2c1b76",
     "size": 56624953,
     "url": "https://static.azul.com/zulu/bin/zulu23.32.11-ca-crac-jre23.0.2-linux_musl_x64.tar.gz",
-    "vendor": "azul",
-    "version": "23.32.11"
-  },
-  {
-    "architecture": "x86_64",
-    "distro": "zulu",
-    "features": [
-      "musl"
-    ],
-    "file_type": "tar.gz",
-    "filename": "zulu23.32.11-ca-jre23.0.2-linux_musl_x64.tar.gz",
-    "image_type": "jre",
-    "java_version": "23.0.2",
-    "jvm_impl": "hotspot",
-    "last_verified": "2026-09-04",
-    "md5": "b1e34cfd092d3dc9f3e0e482c091e598",
-    "os": "linux",
-    "release_type": "ga",
-    "sha1": "df618ca78796e74b5c03410e4bd8a0255cb96def",
-    "sha256": "5431747e7ed34eba2c579fe09bf44e03b238919b8fdf7558618ab790bf81c0a9",
-    "sha512": "dda88ab0c270811597e04660dda43427c9cb8cc25b8d2fc6c55ee194180398f09f37e9fec148bda121ce40d522689324617de5e47544d9ac95fc2f76bdb6804f",
-    "size": 52849496,
-    "url": "https://static.azul.com/zulu/bin/zulu23.32.11-ca-jre23.0.2-linux_musl_x64.tar.gz",
     "vendor": "azul",
     "version": "23.32.11"
   },
@@ -33753,6 +33983,29 @@
     "architecture": "x86_64",
     "distro": "zulu",
     "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "zulu21.54.109-ca-jre21.0.13.0.3-linux_musl_x64.tar.gz",
+    "image_type": "jre",
+    "java_version": "21.0.13.0.3+1-LTS",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-10-30",
+    "md5": "de210f51e95305d4f57b427e17f9dd4b",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "17eb29b02bc97446d5b3c5117dedd1866602b577",
+    "sha256": "901a333097565bba991bc4fbd53fa7a15894a094b0ba30dd8d294054aaa91111",
+    "sha512": "5ae2ce9f72d913a52a991660e34937ab286977483f3d8216e9481459619b230fd087435db676de516b3e0e824de6f321390b6519a25d44cb229514257f57a79a",
+    "size": 53077641,
+    "url": "https://static.azul.com/zulu/bin/zulu21.54.109-ca-jre21.0.13.0.3-linux_musl_x64.tar.gz",
+    "vendor": "azul",
+    "version": "21.54.109"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "zulu",
+    "features": [
       "crac",
       "musl"
     ],
@@ -33770,29 +34023,6 @@
     "sha512": "899eb1ca2f13b28ac1b1ba8e56a530db1cc34a14657af36c91faa81bb8cd6ccb9ab8dd87f06048bbfeb65028449b189e95d691c55f0476e81c298124bcd2a1c6",
     "size": 57252524,
     "url": "https://static.azul.com/zulu/bin/zulu21.54.109-ca-crac-jre21.0.13.0.3-linux_musl_x64.tar.gz",
-    "vendor": "azul",
-    "version": "21.54.109"
-  },
-  {
-    "architecture": "x86_64",
-    "distro": "zulu",
-    "features": [
-      "musl"
-    ],
-    "file_type": "tar.gz",
-    "filename": "zulu21.54.109-ca-jre21.0.13.0.3-linux_musl_x64.tar.gz",
-    "image_type": "jre",
-    "java_version": "21.0.13.0.3+1-LTS",
-    "jvm_impl": "hotspot",
-    "last_verified": "2026-10-30",
-    "md5": "de210f51e95305d4f57b427e17f9dd4b",
-    "os": "linux",
-    "release_type": "ga",
-    "sha1": "17eb29b02bc97446d5b3c5117dedd1866602b577",
-    "sha256": "901a333097565bba991bc4fbd53fa7a15894a094b0ba30dd8d294054aaa91111",
-    "sha512": "5ae2ce9f72d913a52a991660e34937ab286977483f3d8216e9481459619b230fd087435db676de516b3e0e824de6f321390b6519a25d44cb229514257f57a79a",
-    "size": 53077641,
-    "url": "https://static.azul.com/zulu/bin/zulu21.54.109-ca-jre21.0.13.0.3-linux_musl_x64.tar.gz",
     "vendor": "azul",
     "version": "21.54.109"
   },
@@ -33824,29 +34054,6 @@
     "architecture": "x86_64",
     "distro": "zulu",
     "features": [
-      "musl"
-    ],
-    "file_type": "tar.gz",
-    "filename": "zulu21.52.203-ca-jre21.0.12.1-linux_musl_x64.tar.gz",
-    "image_type": "jre",
-    "java_version": "21.0.12.1+1-LTS",
-    "jvm_impl": "hotspot",
-    "last_verified": "2026-09-09",
-    "md5": "ff4b3790c708ab257fd1505e647f5aa8",
-    "os": "linux",
-    "release_type": "ga",
-    "sha1": "8fe49414d672cbf87feaf13325dc3c52c20e14b4",
-    "sha256": "0d511876e089a55fe81d82e40de36bda55fe0f37d3f20d40c3d137ac2279470d",
-    "sha512": "327d1dd2991338b9b8f741411ba902a068d6fdc9ac5a2836d4c24f7d9b805c9f372cd4168cbe14f216212a0aba3cf310a7aec31dc89cbe71d611cc047305c784",
-    "size": 52970003,
-    "url": "https://static.azul.com/zulu/bin/zulu21.52.203-ca-jre21.0.12.1-linux_musl_x64.tar.gz",
-    "vendor": "azul",
-    "version": "21.52.203"
-  },
-  {
-    "architecture": "x86_64",
-    "distro": "zulu",
-    "features": [
       "crac",
       "musl"
     ],
@@ -33864,6 +34071,29 @@
     "sha512": "1264b86162725a849a76a2a0eb4f355f8077836195678bc05ae1ebeb62bcaaa348f90007509bbcc8c2f05824450a85dc1311a4a875f685d1db76e09bae3f898c",
     "size": 57135292,
     "url": "https://static.azul.com/zulu/bin/zulu21.52.203-ca-crac-jre21.0.12.1-linux_musl_x64.tar.gz",
+    "vendor": "azul",
+    "version": "21.52.203"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "zulu",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "zulu21.52.203-ca-jre21.0.12.1-linux_musl_x64.tar.gz",
+    "image_type": "jre",
+    "java_version": "21.0.12.1+1-LTS",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-09",
+    "md5": "ff4b3790c708ab257fd1505e647f5aa8",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "8fe49414d672cbf87feaf13325dc3c52c20e14b4",
+    "sha256": "0d511876e089a55fe81d82e40de36bda55fe0f37d3f20d40c3d137ac2279470d",
+    "sha512": "327d1dd2991338b9b8f741411ba902a068d6fdc9ac5a2836d4c24f7d9b805c9f372cd4168cbe14f216212a0aba3cf310a7aec31dc89cbe71d611cc047305c784",
+    "size": 52970003,
+    "url": "https://static.azul.com/zulu/bin/zulu21.52.203-ca-jre21.0.12.1-linux_musl_x64.tar.gz",
     "vendor": "azul",
     "version": "21.52.203"
   },
@@ -33989,29 +34219,6 @@
     "architecture": "x86_64",
     "distro": "zulu",
     "features": [
-      "musl"
-    ],
-    "file_type": "tar.gz",
-    "filename": "zulu21.48.17-ca-jre21.0.10-linux_musl_x64.tar.gz",
-    "image_type": "jre",
-    "java_version": "21.0.10+7-LTS",
-    "jvm_impl": "hotspot",
-    "last_verified": "2026-09-10",
-    "md5": "4b552330f8fc67bbbe71062c2ca0c9c1",
-    "os": "linux",
-    "release_type": "ga",
-    "sha1": "146b3694953b9d789c4fcaf3fe3d4ee02672066f",
-    "sha256": "010f1b950a5e9d50d6c2cb5a33680e0fbc1de9718a7a38c412f741ec4146ab42",
-    "sha512": "0838e93779641a4750f1f9e6b86cda14d453f7be1ce8cd5c04ca2d56c1efa0aded8f207f77c64e49de236ef3f2e1003bf91db2b0719fde01444fecabe0f2c053",
-    "size": 53314086,
-    "url": "https://static.azul.com/zulu/bin/zulu21.48.17-ca-jre21.0.10-linux_musl_x64.tar.gz",
-    "vendor": "azul",
-    "version": "21.48.17"
-  },
-  {
-    "architecture": "x86_64",
-    "distro": "zulu",
-    "features": [
       "crac",
       "musl"
     ],
@@ -34029,6 +34236,29 @@
     "sha512": "e31aaf56744cb61523d4d4567a40890cbf2b9e453a2f6d1285340630cb7232b685292f43115af7e03a81417ec7a713cc027d58f3ddd40665f06b21ef2617c71e",
     "size": 56866781,
     "url": "https://static.azul.com/zulu/bin/zulu21.48.17-ca-crac-jre21.0.10-linux_musl_x64.tar.gz",
+    "vendor": "azul",
+    "version": "21.48.17"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "zulu",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "zulu21.48.17-ca-jre21.0.10-linux_musl_x64.tar.gz",
+    "image_type": "jre",
+    "java_version": "21.0.10+7-LTS",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-10",
+    "md5": "4b552330f8fc67bbbe71062c2ca0c9c1",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "146b3694953b9d789c4fcaf3fe3d4ee02672066f",
+    "sha256": "010f1b950a5e9d50d6c2cb5a33680e0fbc1de9718a7a38c412f741ec4146ab42",
+    "sha512": "0838e93779641a4750f1f9e6b86cda14d453f7be1ce8cd5c04ca2d56c1efa0aded8f207f77c64e49de236ef3f2e1003bf91db2b0719fde01444fecabe0f2c053",
+    "size": 53314086,
+    "url": "https://static.azul.com/zulu/bin/zulu21.48.17-ca-jre21.0.10-linux_musl_x64.tar.gz",
     "vendor": "azul",
     "version": "21.48.17"
   },
@@ -34247,6 +34477,29 @@
     "architecture": "x86_64",
     "distro": "zulu",
     "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "zulu21.38.21-ca-jre21.0.5-linux_musl_x64.tar.gz",
+    "image_type": "jre",
+    "java_version": "21.0.5+11-LTS",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-08",
+    "md5": "bee471d4947a9da1a573803a207fdab2",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "d1875d8bf7e7bfb05bf0a26c629b9228cf6793a6",
+    "sha256": "f6f0a958639479584a45fa7796b36fd5a4bcdd9f0ca05cf8b75157100416522a",
+    "sha512": "43681c8c61fde08b6ad2afa113dd4aa1ad3c169feece262c5fa7402e1249a8929cba544d3799142970e2fb6f5da143a6c2e7ea94b70e28f3f361eae8d311dd18",
+    "size": 53101239,
+    "url": "https://static.azul.com/zulu/bin/zulu21.38.21-ca-jre21.0.5-linux_musl_x64.tar.gz",
+    "vendor": "azul",
+    "version": "21.38.21"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "zulu",
+    "features": [
       "crac",
       "musl"
     ],
@@ -34264,29 +34517,6 @@
     "sha512": "1e8ac693131c2e77cae1385f0894cdca23f7b20768f247a8452d390ecb288a120ea7c73e61155edcf418c8d43a03db9bb02e279441fe76ba6345ae03bddbabb3",
     "size": 56631910,
     "url": "https://static.azul.com/zulu/bin/zulu21.38.21-ca-crac-jre21.0.5-linux_musl_x64.tar.gz",
-    "vendor": "azul",
-    "version": "21.38.21"
-  },
-  {
-    "architecture": "x86_64",
-    "distro": "zulu",
-    "features": [
-      "musl"
-    ],
-    "file_type": "tar.gz",
-    "filename": "zulu21.38.21-ca-jre21.0.5-linux_musl_x64.tar.gz",
-    "image_type": "jre",
-    "java_version": "21.0.5+11-LTS",
-    "jvm_impl": "hotspot",
-    "last_verified": "2026-09-08",
-    "md5": "bee471d4947a9da1a573803a207fdab2",
-    "os": "linux",
-    "release_type": "ga",
-    "sha1": "d1875d8bf7e7bfb05bf0a26c629b9228cf6793a6",
-    "sha256": "f6f0a958639479584a45fa7796b36fd5a4bcdd9f0ca05cf8b75157100416522a",
-    "sha512": "43681c8c61fde08b6ad2afa113dd4aa1ad3c169feece262c5fa7402e1249a8929cba544d3799142970e2fb6f5da143a6c2e7ea94b70e28f3f361eae8d311dd18",
-    "size": 53101239,
-    "url": "https://static.azul.com/zulu/bin/zulu21.38.21-ca-jre21.0.5-linux_musl_x64.tar.gz",
     "vendor": "azul",
     "version": "21.38.21"
   },
@@ -34388,6 +34618,29 @@
     "architecture": "x86_64",
     "distro": "zulu",
     "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "zulu21.32.17-ca-jre21.0.2-linux_musl_x64.tar.gz",
+    "image_type": "jre",
+    "java_version": "21.0.2+13-LTS",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-07",
+    "md5": "456544de4820b4f246c19ba2a3c9af31",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "c6f23357819ed21005bcd99947a65503b106f00e",
+    "sha256": "7d73ecdd24c05a544fcedd7fee2ce8fa8d101a1fe4aed537cbb87128e33fb2f6",
+    "sha512": "7ae2f3558e27b465086c0dc72d265b5c2c837641564e36b234e5a03cb0b136d75c32266e6f72d629f077a11d2b3e582fd556d0e160e3e57735c155eedcd6daab",
+    "size": 53687417,
+    "url": "https://static.azul.com/zulu/bin/zulu21.32.17-ca-jre21.0.2-linux_musl_x64.tar.gz",
+    "vendor": "azul",
+    "version": "21.32.17"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "zulu",
+    "features": [
       "crac",
       "musl"
     ],
@@ -34406,29 +34659,6 @@
     "size": 56905160,
     "unlisted_since": "2026-10-09",
     "url": "https://static.azul.com/zulu/bin/zulu21.32.17-ca-crac-jre21.0.2-linux_musl_x64.tar.gz",
-    "vendor": "azul",
-    "version": "21.32.17"
-  },
-  {
-    "architecture": "x86_64",
-    "distro": "zulu",
-    "features": [
-      "musl"
-    ],
-    "file_type": "tar.gz",
-    "filename": "zulu21.32.17-ca-jre21.0.2-linux_musl_x64.tar.gz",
-    "image_type": "jre",
-    "java_version": "21.0.2+13-LTS",
-    "jvm_impl": "hotspot",
-    "last_verified": "2026-09-07",
-    "md5": "456544de4820b4f246c19ba2a3c9af31",
-    "os": "linux",
-    "release_type": "ga",
-    "sha1": "c6f23357819ed21005bcd99947a65503b106f00e",
-    "sha256": "7d73ecdd24c05a544fcedd7fee2ce8fa8d101a1fe4aed537cbb87128e33fb2f6",
-    "sha512": "7ae2f3558e27b465086c0dc72d265b5c2c837641564e36b234e5a03cb0b136d75c32266e6f72d629f077a11d2b3e582fd556d0e160e3e57735c155eedcd6daab",
-    "size": 53687417,
-    "url": "https://static.azul.com/zulu/bin/zulu21.32.17-ca-jre21.0.2-linux_musl_x64.tar.gz",
     "vendor": "azul",
     "version": "21.32.17"
   },
@@ -34831,29 +35061,6 @@
     "architecture": "x86_64",
     "distro": "zulu",
     "features": [
-      "musl"
-    ],
-    "file_type": "tar.gz",
-    "filename": "zulu17.68.203-ca-jre17.0.20.1-linux_musl_x64.tar.gz",
-    "image_type": "jre",
-    "java_version": "17.0.20.1+1-LTS",
-    "jvm_impl": "hotspot",
-    "last_verified": "2026-09-02",
-    "md5": "3f617b43332bfc8a5ba76cd2df882a36",
-    "os": "linux",
-    "release_type": "ga",
-    "sha1": "3776743e5387ed9a10076c33416995f7c40230e6",
-    "sha256": "7b58638ad88d1b33523071676f030f0ca025452777cdc07f4eb25e7e04ff053d",
-    "sha512": "bd11cbba28c5001142ab55378b950420efa4ffc13d999ef2d5c9c96baa3639e50fc133a666a2ea4f76bbd9f5a1d5a2ffda785990fea7651d64966c927ef2b58a",
-    "size": 47113669,
-    "url": "https://static.azul.com/zulu/bin/zulu17.68.203-ca-jre17.0.20.1-linux_musl_x64.tar.gz",
-    "vendor": "azul",
-    "version": "17.68.203"
-  },
-  {
-    "architecture": "x86_64",
-    "distro": "zulu",
-    "features": [
       "crac",
       "musl"
     ],
@@ -34871,6 +35078,29 @@
     "sha512": "a148f6b437b386032bec06bfbac6e7f4266b6c61fbec3e57316416d1657074068afa3ad0f0ec3e11e0cb74fb127ebc446926e9105cddd6566d9a6b01daf46fb4",
     "size": 51263409,
     "url": "https://static.azul.com/zulu/bin/zulu17.68.203-ca-crac-jre17.0.20.1-linux_musl_x64.tar.gz",
+    "vendor": "azul",
+    "version": "17.68.203"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "zulu",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "zulu17.68.203-ca-jre17.0.20.1-linux_musl_x64.tar.gz",
+    "image_type": "jre",
+    "java_version": "17.0.20.1+1-LTS",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-02",
+    "md5": "3f617b43332bfc8a5ba76cd2df882a36",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "3776743e5387ed9a10076c33416995f7c40230e6",
+    "sha256": "7b58638ad88d1b33523071676f030f0ca025452777cdc07f4eb25e7e04ff053d",
+    "sha512": "bd11cbba28c5001142ab55378b950420efa4ffc13d999ef2d5c9c96baa3639e50fc133a666a2ea4f76bbd9f5a1d5a2ffda785990fea7651d64966c927ef2b58a",
+    "size": 47113669,
+    "url": "https://static.azul.com/zulu/bin/zulu17.68.203-ca-jre17.0.20.1-linux_musl_x64.tar.gz",
     "vendor": "azul",
     "version": "17.68.203"
   },
@@ -34996,29 +35226,6 @@
     "architecture": "x86_64",
     "distro": "zulu",
     "features": [
-      "musl"
-    ],
-    "file_type": "tar.gz",
-    "filename": "zulu17.64.17-ca-jre17.0.18-linux_musl_x64.tar.gz",
-    "image_type": "jre",
-    "java_version": "17.0.18+8-LTS",
-    "jvm_impl": "hotspot",
-    "last_verified": "2026-09-01",
-    "md5": "3314885cbcc91898829f20112fc98c44",
-    "os": "linux",
-    "release_type": "ga",
-    "sha1": "0442589c4499ae7f17789738784f39f22e90890b",
-    "sha256": "27742f701f2b85ed15e768a4d79fe062ace484d9341cab5a46d5d55033a068a8",
-    "sha512": "1c924c0d8f10c2f185ce8fe657c80b7a7492ad266a764ab862b3f2c59af90c1149f9ab0163e64d58316ea860348aaaea13dd9e821a2e5139a7359933724b438b",
-    "size": 47427962,
-    "url": "https://static.azul.com/zulu/bin/zulu17.64.17-ca-jre17.0.18-linux_musl_x64.tar.gz",
-    "vendor": "azul",
-    "version": "17.64.17"
-  },
-  {
-    "architecture": "x86_64",
-    "distro": "zulu",
-    "features": [
       "crac",
       "musl"
     ],
@@ -35036,6 +35243,29 @@
     "sha512": "0a09d6f220de95fb36860e4534ca6df3ed112c87a659716b9d84c322cf4b2005e5c146003d22b4bdeaca85880ebeb5a51e78cb701b665c0919b50f12dbe92c4e",
     "size": 50974773,
     "url": "https://static.azul.com/zulu/bin/zulu17.64.17-ca-crac-jre17.0.18-linux_musl_x64.tar.gz",
+    "vendor": "azul",
+    "version": "17.64.17"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "zulu",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "zulu17.64.17-ca-jre17.0.18-linux_musl_x64.tar.gz",
+    "image_type": "jre",
+    "java_version": "17.0.18+8-LTS",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-01",
+    "md5": "3314885cbcc91898829f20112fc98c44",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "0442589c4499ae7f17789738784f39f22e90890b",
+    "sha256": "27742f701f2b85ed15e768a4d79fe062ace484d9341cab5a46d5d55033a068a8",
+    "sha512": "1c924c0d8f10c2f185ce8fe657c80b7a7492ad266a764ab862b3f2c59af90c1149f9ab0163e64d58316ea860348aaaea13dd9e821a2e5139a7359933724b438b",
+    "size": 47427962,
+    "url": "https://static.azul.com/zulu/bin/zulu17.64.17-ca-jre17.0.18-linux_musl_x64.tar.gz",
     "vendor": "azul",
     "version": "17.64.17"
   },
@@ -35254,29 +35484,6 @@
     "architecture": "x86_64",
     "distro": "zulu",
     "features": [
-      "musl"
-    ],
-    "file_type": "tar.gz",
-    "filename": "zulu17.54.21-ca-jre17.0.13-linux_musl_x64.tar.gz",
-    "image_type": "jre",
-    "java_version": "17.0.13+11-LTS",
-    "jvm_impl": "hotspot",
-    "last_verified": "2026-09-02",
-    "md5": "d0be7d1249d6c3845b3bc5923d09542d",
-    "os": "linux",
-    "release_type": "ga",
-    "sha1": "61e724b260010fab72a8d13176ffacc485b76436",
-    "sha256": "e6e14f542bfd4310c62cf73febe3634826a831a4d553ec8e60847f1ab61f6617",
-    "sha512": "f0e9cd2ed4b56f60d4aded88fb22e7395e4cc896565e40db0a475f1ad2f5c6c47aa7e0309bfeefb97bf07a9ad01000858cebb486ebc85d11dedd3c4161451434",
-    "size": 47259623,
-    "url": "https://static.azul.com/zulu/bin/zulu17.54.21-ca-jre17.0.13-linux_musl_x64.tar.gz",
-    "vendor": "azul",
-    "version": "17.54.21"
-  },
-  {
-    "architecture": "x86_64",
-    "distro": "zulu",
-    "features": [
       "crac",
       "musl"
     ],
@@ -35294,6 +35501,29 @@
     "sha512": "18dcc6fe654607f3ba81996c483a2362792aa775e14e9b1ca4601b70e0671303b8497455922f3f3670dfdd9271875a4735ddc027c59b6ce793a08c94a4b22199",
     "size": 50754550,
     "url": "https://static.azul.com/zulu/bin/zulu17.54.21-ca-crac-jre17.0.13-linux_musl_x64.tar.gz",
+    "vendor": "azul",
+    "version": "17.54.21"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "zulu",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "zulu17.54.21-ca-jre17.0.13-linux_musl_x64.tar.gz",
+    "image_type": "jre",
+    "java_version": "17.0.13+11-LTS",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-02",
+    "md5": "d0be7d1249d6c3845b3bc5923d09542d",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "61e724b260010fab72a8d13176ffacc485b76436",
+    "sha256": "e6e14f542bfd4310c62cf73febe3634826a831a4d553ec8e60847f1ab61f6617",
+    "sha512": "f0e9cd2ed4b56f60d4aded88fb22e7395e4cc896565e40db0a475f1ad2f5c6c47aa7e0309bfeefb97bf07a9ad01000858cebb486ebc85d11dedd3c4161451434",
+    "size": 47259623,
+    "url": "https://static.azul.com/zulu/bin/zulu17.54.21-ca-jre17.0.13-linux_musl_x64.tar.gz",
     "vendor": "azul",
     "version": "17.54.21"
   },
@@ -35395,6 +35625,29 @@
     "architecture": "x86_64",
     "distro": "zulu",
     "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "zulu17.48.15-ca-jre17.0.10-linux_musl_x64.tar.gz",
+    "image_type": "jre",
+    "java_version": "17.0.10+7-LTS",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-06",
+    "md5": "06dfbd4776e26a07c705252d1d1e10ba",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "d52f9cd407d9d762b6806e84b155529cc9480a6b",
+    "sha256": "d2bdc1503c1e6ce25f80ae2083e6dd983b5f91a37479d4a087d270b13be5ea20",
+    "sha512": "51ad8a71604f9fa0974e01f0accf8ff1c5305e803274be4b5ef90012fe0bc25d573e1c6dd41dd8efa225e5471177ed396950c045c66f664a69f4c4462130f5a7",
+    "size": 47437161,
+    "url": "https://static.azul.com/zulu/bin/zulu17.48.15-ca-jre17.0.10-linux_musl_x64.tar.gz",
+    "vendor": "azul",
+    "version": "17.48.15"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "zulu",
+    "features": [
       "crac",
       "musl"
     ],
@@ -35413,29 +35666,6 @@
     "size": 50691105,
     "unlisted_since": "2026-10-09",
     "url": "https://static.azul.com/zulu/bin/zulu17.48.15-ca-crac-jre17.0.10-linux_musl_x64.tar.gz",
-    "vendor": "azul",
-    "version": "17.48.15"
-  },
-  {
-    "architecture": "x86_64",
-    "distro": "zulu",
-    "features": [
-      "musl"
-    ],
-    "file_type": "tar.gz",
-    "filename": "zulu17.48.15-ca-jre17.0.10-linux_musl_x64.tar.gz",
-    "image_type": "jre",
-    "java_version": "17.0.10+7-LTS",
-    "jvm_impl": "hotspot",
-    "last_verified": "2026-09-06",
-    "md5": "06dfbd4776e26a07c705252d1d1e10ba",
-    "os": "linux",
-    "release_type": "ga",
-    "sha1": "d52f9cd407d9d762b6806e84b155529cc9480a6b",
-    "sha256": "d2bdc1503c1e6ce25f80ae2083e6dd983b5f91a37479d4a087d270b13be5ea20",
-    "sha512": "51ad8a71604f9fa0974e01f0accf8ff1c5305e803274be4b5ef90012fe0bc25d573e1c6dd41dd8efa225e5471177ed396950c045c66f664a69f4c4462130f5a7",
-    "size": 47437161,
-    "url": "https://static.azul.com/zulu/bin/zulu17.48.15-ca-jre17.0.10-linux_musl_x64.tar.gz",
     "vendor": "azul",
     "version": "17.48.15"
   },

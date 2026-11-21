@@ -150,31 +150,6 @@
       "musl",
       "leyden"
     ],
-    "file_type": "tar.gz",
-    "filename": "bellsoft-jre25+21-ea-linux-x64-musl-leyden.tar.gz",
-    "image_type": "jre",
-    "java_version": "25+21-ea",
-    "jvm_impl": "hotspot",
-    "last_verified": "2026-08-28",
-    "md5": "812f2818c16793703fbf4f5d9b01c4fb",
-    "os": "linux",
-    "release_type": "ea",
-    "sha1": "949000d11ef41b11ef4c5feaa516efe9083d5671",
-    "sha256": "bc8b8db6d5e0c6eab982936db7b17104c0af5ee7b4d31e41424c9ef22aaa840c",
-    "sha512": "ceec3abc5ee1d1040b2c140eb5da8b86754b0014549a5ba1667b0fa546914b041ced1a58dd1c301d794e6c2369ff21911149218af2d0ab55d8ef13cec93c78d4",
-    "size": 62101028,
-    "unlisted_since": "2026-08-12",
-    "url": "https://github.com/bell-sw/Liberica/releases/download/25+21-ea-leyden/bellsoft-jre25+21-ea-linux-x64-musl-leyden.tar.gz",
-    "vendor": "bellsoft",
-    "version": "25+21-ea"
-  },
-  {
-    "architecture": "x86_64",
-    "distro": "liberica",
-    "features": [
-      "musl",
-      "leyden"
-    ],
     "file_type": "apk",
     "filename": "bellsoft-jre25+21-ea-linux-x64-musl-leyden.apk",
     "image_type": "jre",
@@ -201,22 +176,22 @@
       "leyden"
     ],
     "file_type": "tar.gz",
-    "filename": "bellsoft-jre24+2-ea-linux-x64-musl-leyden.tar.gz",
+    "filename": "bellsoft-jre25+21-ea-linux-x64-musl-leyden.tar.gz",
     "image_type": "jre",
-    "java_version": "24+2-ea",
+    "java_version": "25+21-ea",
     "jvm_impl": "hotspot",
-    "last_verified": "2026-08-26",
-    "md5": "21c55307d1047edf0bd9f2b4c794dc8c",
+    "last_verified": "2026-08-28",
+    "md5": "812f2818c16793703fbf4f5d9b01c4fb",
     "os": "linux",
     "release_type": "ea",
-    "sha1": "c2b4f5d09a6eb48351c58ebd5974afa9ec0cfe18",
-    "sha256": "66dd78af57741ccaa07bc2cd6507a21a791866b2ca1ed3c5246a6abadf9418c9",
-    "sha512": "6ac39a1248445b9b1ac14dbb832471deeef0f52612622cf23fcac6be4910ba69d8a2150839142730163bb4dc0fadfc43cfd3d180c13baaac7a3fb00d5190e761",
-    "size": 53515945,
+    "sha1": "949000d11ef41b11ef4c5feaa516efe9083d5671",
+    "sha256": "bc8b8db6d5e0c6eab982936db7b17104c0af5ee7b4d31e41424c9ef22aaa840c",
+    "sha512": "ceec3abc5ee1d1040b2c140eb5da8b86754b0014549a5ba1667b0fa546914b041ced1a58dd1c301d794e6c2369ff21911149218af2d0ab55d8ef13cec93c78d4",
+    "size": 62101028,
     "unlisted_since": "2026-08-12",
-    "url": "https://github.com/bell-sw/Liberica/releases/download/24+2-ea-leyden/bellsoft-jre24+2-ea-linux-x64-musl-leyden.tar.gz",
+    "url": "https://github.com/bell-sw/Liberica/releases/download/25+21-ea-leyden/bellsoft-jre25+21-ea-linux-x64-musl-leyden.tar.gz",
     "vendor": "bellsoft",
-    "version": "24+2-ea"
+    "version": "25+21-ea"
   },
   {
     "architecture": "x86_64",
@@ -240,6 +215,31 @@
     "size": 53142851,
     "unlisted_since": "2026-08-12",
     "url": "https://github.com/bell-sw/Liberica/releases/download/24+2-ea-leyden/bellsoft-jre24+2-ea-linux-x64-musl-leyden.apk",
+    "vendor": "bellsoft",
+    "version": "24+2-ea"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
+      "musl",
+      "leyden"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-jre24+2-ea-linux-x64-musl-leyden.tar.gz",
+    "image_type": "jre",
+    "java_version": "24+2-ea",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-08-26",
+    "md5": "21c55307d1047edf0bd9f2b4c794dc8c",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "c2b4f5d09a6eb48351c58ebd5974afa9ec0cfe18",
+    "sha256": "66dd78af57741ccaa07bc2cd6507a21a791866b2ca1ed3c5246a6abadf9418c9",
+    "sha512": "6ac39a1248445b9b1ac14dbb832471deeef0f52612622cf23fcac6be4910ba69d8a2150839142730163bb4dc0fadfc43cfd3d180c13baaac7a3fb00d5190e761",
+    "size": 53515945,
+    "unlisted_since": "2026-08-12",
+    "url": "https://github.com/bell-sw/Liberica/releases/download/24+2-ea-leyden/bellsoft-jre24+2-ea-linux-x64-musl-leyden.tar.gz",
     "vendor": "bellsoft",
     "version": "24+2-ea"
   },
@@ -850,6 +850,29 @@
     "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-28%2B1/sapmachine-jre-28-ea.1_linux-x64-musl_bin.tar.gz",
     "vendor": "sap",
     "version": "28-ea.1"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "sapmachine",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "sapmachine-jre-27.0.1.1-ea.4_linux-x64-musl_bin.tar.gz",
+    "image_type": "jre",
+    "java_version": "27.0.1.1-ea.4",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-11-21",
+    "md5": "74dbf28a7d5ea9db8a83486bc6ec40a6",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "1df7777c4e1c9d9384a4210f8d0f3bc71a6e21f2",
+    "sha256": "044c37249c337359325862fe33482a9f3a493d3f36b680659038962ceee447bd",
+    "sha512": "3a163df4885cc72f077298d7acc96c4fa639e37ee88b003c5d607ac0ad764362abf8e0b4269d1d8408a3341b3a102b856bad695d39438bffa4a625da66b77a89",
+    "size": 51359867,
+    "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-27.0.1.1%2B4/sapmachine-jre-27.0.1.1-ea.4_linux-x64-musl_bin.tar.gz",
+    "vendor": "sap",
+    "version": "27.0.1.1-ea.4"
   },
   {
     "architecture": "x86_64",
@@ -1825,6 +1848,29 @@
     "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-25.0.6%2B1/sapmachine-jre-25.0.6-ea.1_linux-x64-musl_bin.tar.gz",
     "vendor": "sap",
     "version": "25.0.6-ea.1"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "sapmachine",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "sapmachine-jre-25.0.5.1-ea.2_linux-x64-musl_bin.tar.gz",
+    "image_type": "jre",
+    "java_version": "25.0.5.1-ea.2",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-11-21",
+    "md5": "9b29a6a8d525cb8fd6b04c5249d1174e",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "8ec48351ca21bc139ac6909937858f69a827aee9",
+    "sha256": "0d95aadf70b478dcd2c966dafba87b824f5068da21f24e5c8e14f807b314fdf1",
+    "sha512": "5b029814a8705341157bcaf0be6dfa0bd19c22cef3a964af832583c212efb53791e3d0a2626f86a6ba2a2a754a670aac358f368f1efbcb96b35f345af21e048d",
+    "size": 51090163,
+    "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-25.0.5.1%2B2/sapmachine-jre-25.0.5.1-ea.2_linux-x64-musl_bin.tar.gz",
+    "vendor": "sap",
+    "version": "25.0.5.1-ea.2"
   },
   {
     "architecture": "x86_64",
@@ -3445,6 +3491,29 @@
     "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-21.0.14%2B1/sapmachine-jre-21.0.14-ea.1_linux-x64-musl_bin.tar.gz",
     "vendor": "sap",
     "version": "21.0.14-ea.1"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "sapmachine",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "sapmachine-jre-21.0.13.1-ea.2_linux-x64-musl_bin.tar.gz",
+    "image_type": "jre",
+    "java_version": "21.0.13.1-ea.2",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-11-21",
+    "md5": "37b38a3cb4d7693a20ecfd9545b72b66",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "4785e9d6302e5561e7b3cc10c76326919f254328",
+    "sha256": "d75db10851c4ad2679cf4229a02a334692794dd767853f305eb66287bc830a5d",
+    "sha512": "d6de9db29fccf408c8ce837668cf9bacee4ee2d9c2723279e9ef3c89fcfd3ede85fee83a25e3c3515ab8bafe60e8e604a546f918881f19dddc41f73e1776430d",
+    "size": 53949112,
+    "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-21.0.13.1%2B2/sapmachine-jre-21.0.13.1-ea.2_linux-x64-musl_bin.tar.gz",
+    "vendor": "sap",
+    "version": "21.0.13.1-ea.2"
   },
   {
     "architecture": "x86_64",
@@ -14208,6 +14277,29 @@
       "musl"
     ],
     "file_type": "tar.gz",
+    "filename": "OpenJDK17U-jre_x64_alpine-linux_hotspot_17.0.22_3-ea.tar.gz",
+    "image_type": "jre",
+    "java_version": "17",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-11-21",
+    "md5": "c8deef23918c366cb76f82d149c1b0a3",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "9742d62a9605d8d347b57bef33dca5299edc7d7f",
+    "sha256": "238926770e20345902763558af77bd2552ef72de377e4a2a65652169537ad121",
+    "sha512": "18df7b3c3b5bb3c98ba97a68394f98af8d2fcc88bcb13d37b41cb3bb15478a8d67fa5845ae57871d788c52bd9eea5e7a47e2b28c2391ae641b09003ca2db03ed",
+    "size": 46523498,
+    "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.22%2B3-ea-beta/OpenJDK17U-jre_x64_alpine-linux_hotspot_17.0.22_3-ea.tar.gz",
+    "vendor": "eclipse",
+    "version": "17.0.22+3-ea-beta"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "temurin",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
     "filename": "OpenJDK17U-jre_x64_alpine-linux_hotspot_17.0.22_2-ea.tar.gz",
     "image_type": "jre",
     "java_version": "17",
@@ -15191,6 +15283,29 @@
     "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.17%2B5-ea-beta/OpenJDK17U-jre_x64_alpine-linux_hotspot_17.0.17_5-ea.tar.gz",
     "vendor": "eclipse",
     "version": "17.0.17+5-ea-beta"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "temurin",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK11U-jre_x64_alpine-linux_hotspot_11.0.33.1_1-ea.tar.gz",
+    "image_type": "jre",
+    "java_version": "11",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-11-21",
+    "md5": "81b6362ee9ecbfed1c69d2ac14779224",
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": "1e808101d881877ee67aae42082f17956ebd74ce",
+    "sha256": "3fb247f1da15a6c6462c172ed5c548caecf07ba8131cce188fc1417d6a700a95",
+    "sha512": "34162b0052d19f40531520598b1613e54b24691f17314f359e9c65058ef03e867a9520b9ae1d43685df1584aac661884b6dad9c5f0cfdb4a13d710e8c60a5648",
+    "size": 42882489,
+    "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33.1%2B1-ea-beta/OpenJDK11U-jre_x64_alpine-linux_hotspot_11.0.33.1_1-ea.tar.gz",
+    "vendor": "eclipse",
+    "version": "11.0.33.1+1-ea-beta"
   },
   {
     "architecture": "x86_64",

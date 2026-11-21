@@ -69,6 +69,27 @@
   {
     "architecture": "aarch64",
     "distro": "debian",
+    "features": [ ],
+    "file_type": "deb",
+    "filename": "openjdk-8-jre_8u512-ga-1_arm64.deb",
+    "image_type": "jre",
+    "java_version": "8u512",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-11-06",
+    "md5": "a0fda0bb6961e322e74a3bb49ea1b919",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "8e516174895d51a0299be28d96d7e5489e56cb84",
+    "sha256": "d9b2a93efcbd6c8b68ba38c0ccf1bb386ec2e8a6ce61431d19a30691faf8bee9",
+    "sha512": "585a89934af61399036f92b2bd1fe4b6323a29b82ab0946af1e6d0640c831b2e21009580ff9c25a9bd62e03bfd3c3913c353197455a4427b75f8178aa5d986f5",
+    "size": 65944,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-8/openjdk-8-jre_8u512-ga-1_arm64.deb",
+    "vendor": "debian",
+    "version": "8u512-ga-1"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "debian",
     "features": [
       "zero"
     ],
@@ -86,27 +107,6 @@
     "sha512": "c60997d8bebce40b2f6dc028539faec73cdb8c1e316daa5ddb6e258e50334c2640280ada150c4cdf3c35a07343ce6f890daaa8ec3e3afb7cfa72875c6b9f56a6",
     "size": 1968932,
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-8/openjdk-8-jre-zero_8u512-ga-1_arm64.deb",
-    "vendor": "debian",
-    "version": "8u512-ga-1"
-  },
-  {
-    "architecture": "aarch64",
-    "distro": "debian",
-    "features": [ ],
-    "file_type": "deb",
-    "filename": "openjdk-8-jre_8u512-ga-1_arm64.deb",
-    "image_type": "jre",
-    "java_version": "8u512",
-    "jvm_impl": "hotspot",
-    "last_verified": "2026-11-06",
-    "md5": "a0fda0bb6961e322e74a3bb49ea1b919",
-    "os": "linux",
-    "release_type": "ga",
-    "sha1": "8e516174895d51a0299be28d96d7e5489e56cb84",
-    "sha256": "d9b2a93efcbd6c8b68ba38c0ccf1bb386ec2e8a6ce61431d19a30691faf8bee9",
-    "sha512": "585a89934af61399036f92b2bd1fe4b6323a29b82ab0946af1e6d0640c831b2e21009580ff9c25a9bd62e03bfd3c3913c353197455a4427b75f8178aa5d986f5",
-    "size": 65944,
-    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-8/openjdk-8-jre_8u512-ga-1_arm64.deb",
     "vendor": "debian",
     "version": "8u512-ga-1"
   },
@@ -132,6 +132,30 @@
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-8/openjdk-8-jre-headless_8u512-ga-1_arm64.deb",
     "vendor": "debian",
     "version": "8u512-ga-1"
+  },
+  {
+    "architecture": "aarch64",
+    "distro": "debian",
+    "features": [
+      "headless"
+    ],
+    "file_type": "deb",
+    "filename": "openjdk-8-jre-headless_8u504-ga-1_arm64.deb",
+    "image_type": "jre",
+    "java_version": "8u504",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-09",
+    "md5": "1fefe6e4c26237ba73b8929fa7ffd242",
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": "e52dca0b5e97908be0f5a80397d34f56200c928c",
+    "sha256": "03f56233d8f538addaa585af0279683ce3127da176f25e75a8cd0f8094f2a746",
+    "sha512": "a1b1141a14b408f45a784727d139b04dd591cd5e041e661cdd8d6b0636b8ff6a7405055bae7bc34a68ea454ce2b442ef05be0bedebcc8042c69c6641257240f9",
+    "size": 28002384,
+    "unlisted_since": "2026-11-08",
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-8/openjdk-8-jre-headless_8u504-ga-1_arm64.deb",
+    "vendor": "debian",
+    "version": "8u504-ga-1"
   },
   {
     "architecture": "aarch64",
@@ -176,30 +200,6 @@
     "size": 1969792,
     "unlisted_since": "2026-11-08",
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-8/openjdk-8-jre-zero_8u504-ga-1_arm64.deb",
-    "vendor": "debian",
-    "version": "8u504-ga-1"
-  },
-  {
-    "architecture": "aarch64",
-    "distro": "debian",
-    "features": [
-      "headless"
-    ],
-    "file_type": "deb",
-    "filename": "openjdk-8-jre-headless_8u504-ga-1_arm64.deb",
-    "image_type": "jre",
-    "java_version": "8u504",
-    "jvm_impl": "hotspot",
-    "last_verified": "2026-09-09",
-    "md5": "1fefe6e4c26237ba73b8929fa7ffd242",
-    "os": "linux",
-    "release_type": "ga",
-    "sha1": "e52dca0b5e97908be0f5a80397d34f56200c928c",
-    "sha256": "03f56233d8f538addaa585af0279683ce3127da176f25e75a8cd0f8094f2a746",
-    "sha512": "a1b1141a14b408f45a784727d139b04dd591cd5e041e661cdd8d6b0636b8ff6a7405055bae7bc34a68ea454ce2b442ef05be0bedebcc8042c69c6641257240f9",
-    "size": 28002384,
-    "unlisted_since": "2026-11-08",
-    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-8/openjdk-8-jre-headless_8u504-ga-1_arm64.deb",
     "vendor": "debian",
     "version": "8u504-ga-1"
   }

@@ -3,29 +3,6 @@
     "architecture": "x86_64",
     "distro": "liberica",
     "features": [
-      "lite"
-    ],
-    "file_type": "pkg",
-    "filename": "bellsoft-jdk13.0.2+9-macos-amd64-lite.pkg",
-    "image_type": "jdk",
-    "java_version": "13.0.2+9",
-    "jvm_impl": "hotspot",
-    "last_verified": "2026-09-17",
-    "md5": "0d1026d83ae13704accf155794c12299",
-    "os": "macosx",
-    "release_type": "ga",
-    "sha1": "e7013b93b83ed8a9a70331d0e6ec103554a2b7ef",
-    "sha256": "39b9884cf0ace86e67bcbe936edd51cd077e5423a50859a489aec9ae739896cd",
-    "sha512": "e1230ccff733d288b0c17da55816e7d60faf4b4b54ac433831bb879f452a691b7c557b642394ca3cd52f614275b2e36c124674268908cc35fb62196960fa745c",
-    "size": 75017573,
-    "url": "https://github.com/bell-sw/Liberica/releases/download/13.0.2+9/bellsoft-jdk13.0.2+9-macos-amd64-lite.pkg",
-    "vendor": "bellsoft",
-    "version": "13.0.2+9"
-  },
-  {
-    "architecture": "x86_64",
-    "distro": "liberica",
-    "features": [
       "libericafx",
       "minimal-vm",
       "javafx"
@@ -44,6 +21,29 @@
     "sha512": "43a4920710ec74791d4edeb8225e125e0fb21b579395288d0ebaa0ea42cd35ca24f5ec02e533dcbd29b8db7a03e42dcfd95f2bb73dad9fb475f2c9fd695460ce",
     "size": 279385462,
     "url": "https://github.com/bell-sw/Liberica/releases/download/13.0.2+9/bellsoft-jdk13.0.2+9-macos-amd64-full.pkg",
+    "vendor": "bellsoft",
+    "version": "13.0.2+9"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
+      "lite"
+    ],
+    "file_type": "pkg",
+    "filename": "bellsoft-jdk13.0.2+9-macos-amd64-lite.pkg",
+    "image_type": "jdk",
+    "java_version": "13.0.2+9",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-17",
+    "md5": "0d1026d83ae13704accf155794c12299",
+    "os": "macosx",
+    "release_type": "ga",
+    "sha1": "e7013b93b83ed8a9a70331d0e6ec103554a2b7ef",
+    "sha256": "39b9884cf0ace86e67bcbe936edd51cd077e5423a50859a489aec9ae739896cd",
+    "sha512": "e1230ccff733d288b0c17da55816e7d60faf4b4b54ac433831bb879f452a691b7c557b642394ca3cd52f614275b2e36c124674268908cc35fb62196960fa745c",
+    "size": 75017573,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/13.0.2+9/bellsoft-jdk13.0.2+9-macos-amd64-lite.pkg",
     "vendor": "bellsoft",
     "version": "13.0.2+9"
   },
@@ -71,6 +71,27 @@
   {
     "architecture": "x86_64",
     "distro": "liberica",
+    "features": [ ],
+    "file_type": "pkg",
+    "filename": "bellsoft-jdk13.0.1+10-macos-amd64.pkg",
+    "image_type": "jdk",
+    "java_version": "13.0.1+10",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-17",
+    "md5": "e76f9b13b1f9653819090e49549bacc6",
+    "os": "macosx",
+    "release_type": "ga",
+    "sha1": "d6a28d346aa5d37b5e790cb9fb72831eccf01c92",
+    "sha256": "b0af5f91e9149a58c46f46649a54389714fa2b094af6778a3abad85a4b4f71a0",
+    "sha512": "589fa9f5e30b1698897150ae4d1aa632557f910751b9417321da116aea6dd482379a2f8e00b821470c233959714c0e68bca0631ff9118f32ba9ede2e1045dd46",
+    "size": 282930251,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/13.0.1+10/bellsoft-jdk13.0.1+10-macos-amd64.pkg",
+    "vendor": "bellsoft",
+    "version": "13.0.1+10"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
     "features": [
       "lite"
     ],
@@ -94,23 +115,25 @@
   {
     "architecture": "x86_64",
     "distro": "liberica",
-    "features": [ ],
+    "features": [
+      "lite"
+    ],
     "file_type": "pkg",
-    "filename": "bellsoft-jdk13.0.1+10-macos-amd64.pkg",
+    "filename": "bellsoft-jdk13.0.1-macos-amd64-lite.pkg",
     "image_type": "jdk",
-    "java_version": "13.0.1+10",
+    "java_version": "13.0.1",
     "jvm_impl": "hotspot",
     "last_verified": "2026-09-17",
-    "md5": "e76f9b13b1f9653819090e49549bacc6",
+    "md5": "059a31f363d89f5fe3ed24d4e03250f6",
     "os": "macosx",
     "release_type": "ga",
-    "sha1": "d6a28d346aa5d37b5e790cb9fb72831eccf01c92",
-    "sha256": "b0af5f91e9149a58c46f46649a54389714fa2b094af6778a3abad85a4b4f71a0",
-    "sha512": "589fa9f5e30b1698897150ae4d1aa632557f910751b9417321da116aea6dd482379a2f8e00b821470c233959714c0e68bca0631ff9118f32ba9ede2e1045dd46",
-    "size": 282930251,
-    "url": "https://github.com/bell-sw/Liberica/releases/download/13.0.1+10/bellsoft-jdk13.0.1+10-macos-amd64.pkg",
+    "sha1": "782990fa7e4cdd861950b6df0ad4257cfd88b567",
+    "sha256": "df70048efccab30178bded0a782323317064dd6c0bdccc78d91d3c5e209821be",
+    "sha512": "102ee10d35d66d0df53d300455b35450a0a32e7968064251a77d02541dcf374f762d2fb5b97d08ab2d7b5d6ec82bd14be09836594b825b055627e0f55ace84da",
+    "size": 75479762,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/13.0.1/bellsoft-jdk13.0.1-macos-amd64-lite.pkg",
     "vendor": "bellsoft",
-    "version": "13.0.1+10"
+    "version": "13.0.1"
   },
   {
     "architecture": "x86_64",
@@ -130,29 +153,6 @@
     "sha512": "ebe4cbf0b74a3abe4834ab44802424a81113d4cf3bc525634845dde8b88937808945a1ce7746c73f8b1ec79a1889b4ba82c7303811a8a496de9cfa8e805e2f9b",
     "size": 282905078,
     "url": "https://github.com/bell-sw/Liberica/releases/download/13.0.1/bellsoft-jdk13.0.1-macos-amd64.pkg",
-    "vendor": "bellsoft",
-    "version": "13.0.1"
-  },
-  {
-    "architecture": "x86_64",
-    "distro": "liberica",
-    "features": [
-      "lite"
-    ],
-    "file_type": "pkg",
-    "filename": "bellsoft-jdk13.0.1-macos-amd64-lite.pkg",
-    "image_type": "jdk",
-    "java_version": "13.0.1",
-    "jvm_impl": "hotspot",
-    "last_verified": "2026-09-17",
-    "md5": "059a31f363d89f5fe3ed24d4e03250f6",
-    "os": "macosx",
-    "release_type": "ga",
-    "sha1": "782990fa7e4cdd861950b6df0ad4257cfd88b567",
-    "sha256": "df70048efccab30178bded0a782323317064dd6c0bdccc78d91d3c5e209821be",
-    "sha512": "102ee10d35d66d0df53d300455b35450a0a32e7968064251a77d02541dcf374f762d2fb5b97d08ab2d7b5d6ec82bd14be09836594b825b055627e0f55ace84da",
-    "size": 75479762,
-    "url": "https://github.com/bell-sw/Liberica/releases/download/13.0.1/bellsoft-jdk13.0.1-macos-amd64-lite.pkg",
     "vendor": "bellsoft",
     "version": "13.0.1"
   },

@@ -2,6 +2,29 @@
   {
     "architecture": "x86_64",
     "distro": "liberica",
+    "features": [
+      "lite"
+    ],
+    "file_type": "pkg",
+    "filename": "bellsoft-jdk23.0.2+9-macos-amd64-lite.pkg",
+    "image_type": "jdk",
+    "java_version": "23.0.2+9",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-17",
+    "md5": "9a1cb43ddc9163a17f7d6e134b211874",
+    "os": "macosx",
+    "release_type": "ga",
+    "sha1": "cc2988a3e980421bddf8c7a19cbfad6d565f6f07",
+    "sha256": "869c431d48fdb25f82c609ae7534db44a5335c865c3981ba2d387b1c2c8cc49c",
+    "sha512": "94da7143d6cc1da4fb5b9e192115f4c741cabfdb7af65f13edfab8eacf07d3e4676b6342e85acb1b7d90700721aa4ecd1294344f8cca98bace5e65e5da332807",
+    "size": 81130223,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/23.0.2+9/bellsoft-jdk23.0.2+9-macos-amd64-lite.pkg",
+    "vendor": "bellsoft",
+    "version": "23.0.2+9"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
     "features": [ ],
     "file_type": "pkg",
     "filename": "bellsoft-jdk23.0.2+9-macos-amd64.pkg",
@@ -49,29 +72,6 @@
     "architecture": "x86_64",
     "distro": "liberica",
     "features": [
-      "lite"
-    ],
-    "file_type": "pkg",
-    "filename": "bellsoft-jdk23.0.2+9-macos-amd64-lite.pkg",
-    "image_type": "jdk",
-    "java_version": "23.0.2+9",
-    "jvm_impl": "hotspot",
-    "last_verified": "2026-09-17",
-    "md5": "9a1cb43ddc9163a17f7d6e134b211874",
-    "os": "macosx",
-    "release_type": "ga",
-    "sha1": "cc2988a3e980421bddf8c7a19cbfad6d565f6f07",
-    "sha256": "869c431d48fdb25f82c609ae7534db44a5335c865c3981ba2d387b1c2c8cc49c",
-    "sha512": "94da7143d6cc1da4fb5b9e192115f4c741cabfdb7af65f13edfab8eacf07d3e4676b6342e85acb1b7d90700721aa4ecd1294344f8cca98bace5e65e5da332807",
-    "size": 81130223,
-    "url": "https://github.com/bell-sw/Liberica/releases/download/23.0.2+9/bellsoft-jdk23.0.2+9-macos-amd64-lite.pkg",
-    "vendor": "bellsoft",
-    "version": "23.0.2+9"
-  },
-  {
-    "architecture": "x86_64",
-    "distro": "liberica",
-    "features": [
       "libericafx",
       "minimal-vm",
       "javafx"
@@ -90,27 +90,6 @@
     "sha512": "f916993f80b60b6cb480af9418e1b011107f17bc25b28dacddab908be9aadc84c36d4397b7061a167b6c33a99ff8ca605101ad8fca273e242a3be9f1c1232a7a",
     "size": 329872580,
     "url": "https://github.com/bell-sw/Liberica/releases/download/23.0.1+13/bellsoft-jdk23.0.1+13-macos-amd64-full.pkg",
-    "vendor": "bellsoft",
-    "version": "23.0.1+13"
-  },
-  {
-    "architecture": "x86_64",
-    "distro": "liberica",
-    "features": [ ],
-    "file_type": "pkg",
-    "filename": "bellsoft-jdk23.0.1+13-macos-amd64.pkg",
-    "image_type": "jdk",
-    "java_version": "23.0.1+13",
-    "jvm_impl": "hotspot",
-    "last_verified": "2026-09-17",
-    "md5": "505e7c6f55a91ba3ec0363c85f7d1a2a",
-    "os": "macosx",
-    "release_type": "ga",
-    "sha1": "21445bb71a21f0c149753e8a515c2d973739d0f1",
-    "sha256": "9c32e4880723ddacdcd937d2d803bb1f24336e88514c4affd5509270dfb17717",
-    "sha512": "d8745a344ae7a14be363bd9a30cac68a1b1e0b604944d690eddff97c7c9516ac9affd1db4ce7a3c2a163ce56a35ad8cee7b9106fc0fe5eca8c8785d0a88ca492",
-    "size": 227105014,
-    "url": "https://github.com/bell-sw/Liberica/releases/download/23.0.1+13/bellsoft-jdk23.0.1+13-macos-amd64.pkg",
     "vendor": "bellsoft",
     "version": "23.0.1+13"
   },
@@ -140,27 +119,23 @@
   {
     "architecture": "x86_64",
     "distro": "liberica",
-    "features": [
-      "libericafx",
-      "minimal-vm",
-      "javafx"
-    ],
+    "features": [ ],
     "file_type": "pkg",
-    "filename": "bellsoft-jdk23+38-macos-amd64-full.pkg",
+    "filename": "bellsoft-jdk23.0.1+13-macos-amd64.pkg",
     "image_type": "jdk",
-    "java_version": "23+38",
+    "java_version": "23.0.1+13",
     "jvm_impl": "hotspot",
     "last_verified": "2026-09-17",
-    "md5": "4e6885d19ff412c8f55e3db2be92d1a9",
+    "md5": "505e7c6f55a91ba3ec0363c85f7d1a2a",
     "os": "macosx",
     "release_type": "ga",
-    "sha1": "c1c2f478c7e6bd6a7f128d4d25b72089adf62188",
-    "sha256": "7fdfe1e587fb0fc8c3a524b80553fa458794aa0520444606959a6f885429d120",
-    "sha512": "c4a6bf957834f3a5f2bb6d3ec2c211e09cee4745e60f839e9bba5a828d467fedf83d4bc2d78a9b53a8fd506ddb8370a08b79f05d5fa22aa2641067b54c69b53b",
-    "size": 326668694,
-    "url": "https://github.com/bell-sw/Liberica/releases/download/23+38/bellsoft-jdk23+38-macos-amd64-full.pkg",
+    "sha1": "21445bb71a21f0c149753e8a515c2d973739d0f1",
+    "sha256": "9c32e4880723ddacdcd937d2d803bb1f24336e88514c4affd5509270dfb17717",
+    "sha512": "d8745a344ae7a14be363bd9a30cac68a1b1e0b604944d690eddff97c7c9516ac9affd1db4ce7a3c2a163ce56a35ad8cee7b9106fc0fe5eca8c8785d0a88ca492",
+    "size": 227105014,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/23.0.1+13/bellsoft-jdk23.0.1+13-macos-amd64.pkg",
     "vendor": "bellsoft",
-    "version": "23+38"
+    "version": "23.0.1+13"
   },
   {
     "architecture": "x86_64",
@@ -203,6 +178,31 @@
     "sha512": "6d971b676908b029506cbf8d1af99c24a31a8ba472fa0c49c5520ae52a9e3fbc3471232edafcc1341ce0027e8c7b3b90aecbdd11ba17714fdbd33a37e64d0c83",
     "size": 81052539,
     "url": "https://github.com/bell-sw/Liberica/releases/download/23+38/bellsoft-jdk23+38-macos-amd64-lite.pkg",
+    "vendor": "bellsoft",
+    "version": "23+38"
+  },
+  {
+    "architecture": "x86_64",
+    "distro": "liberica",
+    "features": [
+      "libericafx",
+      "minimal-vm",
+      "javafx"
+    ],
+    "file_type": "pkg",
+    "filename": "bellsoft-jdk23+38-macos-amd64-full.pkg",
+    "image_type": "jdk",
+    "java_version": "23+38",
+    "jvm_impl": "hotspot",
+    "last_verified": "2026-09-17",
+    "md5": "4e6885d19ff412c8f55e3db2be92d1a9",
+    "os": "macosx",
+    "release_type": "ga",
+    "sha1": "c1c2f478c7e6bd6a7f128d4d25b72089adf62188",
+    "sha256": "7fdfe1e587fb0fc8c3a524b80553fa458794aa0520444606959a6f885429d120",
+    "sha512": "c4a6bf957834f3a5f2bb6d3ec2c211e09cee4745e60f839e9bba5a828d467fedf83d4bc2d78a9b53a8fd506ddb8370a08b79f05d5fa22aa2641067b54c69b53b",
+    "size": 326668694,
+    "url": "https://github.com/bell-sw/Liberica/releases/download/23+38/bellsoft-jdk23+38-macos-amd64-full.pkg",
     "vendor": "bellsoft",
     "version": "23+38"
   }
